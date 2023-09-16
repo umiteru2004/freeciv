@@ -57,10 +57,10 @@ terrident={"name","identifier"
 
 [game]
 server_state="S_S_INITIAL"
-phase_seconds=4501
+phase_seconds=5191
 meta_patches="none"
 meta_server="https://meta.freeciv.org/metaserver.php"
-id="gDOfA6gCBqyas31bVToDYXCT_Soqu8wH"
+id="KhJD3l7s9SMrfk7KDUEa4H0DZQXjQ3oS"
 serverid=""
 level="Cheating"
 phase_mode="Teams Alternate"
@@ -81,7 +81,7 @@ warminglevel=8
 nuclearwinter=0
 cooling=0
 coolinglevel=8
-random_seed=484906110
+random_seed=785866621
 global_advances="1010000001100000000000000000000000010000000000100000000000000001000000000000000000000010"
 last_turn_change_time=0
 save_players=FALSE
@@ -216,7 +216,7 @@ t0015="::  gfhggppp++ffff p :::::::   hgggmhgppf ppp gp ddgpppppdddpgppg  p   ::
 t0016=":: fgghhgpppgg+ggf  :::::::: gpph  h  ppg   g ppdppppgpppddpgpgg  gh  ::::::::::"
 t0017=":: gghmppgggggfgg  ::::::::: pppg   g gp pgpg  pppgpppppgppg  g  pm  :::::::::::"
 t0018=":: fghphpggggghg  :::::::g::  p    gg g gfpppppppghhppggpppg g  pm  ::::::::::::"
-t0019="::  gpppggpgghg   :::::::::   gpgg  p    ppppppphhhhhhggpppp    g  :::::::::::::"
+t0019="::  gpppggpgghg   :::::::::   gpgg       ppppppphhhhhhggpppp    g  :::::::::::::"
 t0020=":::  gpddpgggg   p :::::::  pgpddppg gggpppdp  phmmmmhhpppppg     ::::::::::::::"
 t0021=":::: ggddpg  g    :::::::: ppddddddppppp  dddd  gghhmhhgppgg     :::::::::::::::"
 t0022=":::: p gdg   s     ::::::: pdddppddddppdp  pddpd pggggggpgg    :::::::::::::h:::"
@@ -251,19 +251,19 @@ startpos_count=15
 startpos={"x","y","exclude","nations"
 21,32,FALSE,"Brazilian"
 39,34,FALSE,"South African"
-36,17,FALSE,"Italian#Turkish"
 15,18,FALSE,"American"
 32,12,FALSE,"British"
 67,16,FALSE,"Japanese"
 19,38,FALSE,"Argentine"
+40,20,FALSE,"Turkish#Saudi"
 66,36,FALSE,"Australian"
 43,12,FALSE,"Russian"
-50,21,FALSE,"Indian#Saudi"
+50,21,FALSE,"Indian"
 57,30,FALSE,"Indonesian"
 9,23,FALSE,"Mexican"
-34,14,FALSE,"German#European#French"
+34,14,FALSE,"German#French#Italian"
 15,15,FALSE,"Canadian"
-59,17,FALSE,"Chinese#South Korean"
+59,17,FALSE,"South Korean#Chinese"
 }
 e00_0000="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
