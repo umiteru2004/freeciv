@@ -57,10 +57,10 @@ terrident={"name","identifier"
 
 [game]
 server_state="S_S_INITIAL"
-phase_seconds=3509
+phase_seconds=4501
 meta_patches="none"
 meta_server="https://meta.freeciv.org/metaserver.php"
-id="yka77tgXm2ze6C8Cy_DNTlke_ssk_cUP"
+id="gDOfA6gCBqyas31bVToDYXCT_Soqu8wH"
 serverid=""
 level="Cheating"
 phase_mode="Teams Alternate"
@@ -81,7 +81,7 @@ warminglevel=8
 nuclearwinter=0
 cooling=0
 coolinglevel=8
-random_seed=1844538382
+random_seed=484906110
 global_advances="1010000001100000000000000000000000010000000000100000000000000001000000000000000000000010"
 last_turn_change_time=0
 save_players=FALSE
@@ -251,19 +251,19 @@ startpos_count=15
 startpos={"x","y","exclude","nations"
 21,32,FALSE,"Brazilian"
 39,34,FALSE,"South African"
-36,17,FALSE,"Italian"
+36,17,FALSE,"Italian#Turkish"
 15,18,FALSE,"American"
 32,12,FALSE,"British"
 67,16,FALSE,"Japanese"
 19,38,FALSE,"Argentine"
 66,36,FALSE,"Australian"
 43,12,FALSE,"Russian"
-50,21,FALSE,"Indian"
+50,21,FALSE,"Indian#Saudi"
 57,30,FALSE,"Indonesian"
 9,23,FALSE,"Mexican"
-34,14,FALSE,"French"
+34,14,FALSE,"German#European#French"
 15,15,FALSE,"Canadian"
-59,17,FALSE,"Chinese"
+59,17,FALSE,"Chinese#South Korean"
 }
 e00_0000="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
