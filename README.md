@@ -1,0 +1,2 @@
+# freeciv-scenarios
+うみてるのfreecivシナリオ
