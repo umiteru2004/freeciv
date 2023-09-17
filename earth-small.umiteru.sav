@@ -3,7 +3,7 @@
 game_version=3000800
 is_scenario=TRUE
 name=_("うみてるの地球（小型）")
-authors=_("Map: Daniel Gudlat, Daniel Markstedt, Umiteru\nStart positions: Jason Dorje Short, Mateusz Stefek, David Fernandez, Umiteru\nRule: civ2civ3, Umiteru\n")
+authors=_("Map: Daniel Gudlat, Daniel Markstedt, Umiteru\nStart positions: Jason Dorje Short, Mateusz Stefek, David Fernandez, Umiteru\nRules: civ2civ3, Umiteru\n")
 description=_("うみてるの地球（小型）シナリオは、地球（古典的/小型）シナリオをうみてるが改良したものです。\n地球（古典的/小型）シナリオのオリジナルには、以下の問題がありました。\n\n- ゲーム設定が準拠するルールセットが不明確であること\n- プレイヤーごとのゲームの開始条件が不公平であること\n\nこれらの問題を解決し、さらにゲームを面白くするために、\n本シナリオでは、以下の変更を行いました。\n\n- ゲーム設定を、civ2civ3ルールセットに準拠させました。\n- 開始地点が設定されている民族でのみプレイできるようにしました。[^1]\n- 現代の主要な民族を優先的に配置しました。\n- AIのレベルをチートとしました。\n領土獲得における各プレイヤーの条件を公平にするために、\n- 開始地点の数を減らしました。\n- 一部群島について、島同士、および島と大陸を接続しました。\n- 一部土地を豊かにしました。\n\n[^1]: EU諸国、およびトルコとサウジアラビアは、それぞれ同一の開始地点です。マルチプレイ等で、同一の開始地点が設定された民族が複数存在する場合、それらの民族のうち1つ以外は他の開始地点から開始されます。")
 save_random=FALSE
 players=FALSE
@@ -57,10 +57,10 @@ terrident={"name","identifier"
 
 [game]
 server_state="S_S_INITIAL"
-phase_seconds=5685
+phase_seconds=5191
 meta_patches="none"
 meta_server="https://meta.freeciv.org/metaserver.php"
-id="Vn3UoxXdwovJ-TFmmjvR5TAqCkbBJf4e"
+id="KhJD3l7s9SMrfk7KDUEa4H0DZQXjQ3oS"
 serverid=""
 level="Cheating"
 phase_mode="Teams Alternate"
@@ -81,7 +81,7 @@ warminglevel=8
 nuclearwinter=0
 cooling=0
 coolinglevel=8
-random_seed=1272232466
+random_seed=785866621
 global_advances="1010000001100000000000000000000000010000000000100000000000000001000000000000000000000010"
 last_turn_change_time=0
 save_players=FALSE
@@ -96,7 +96,7 @@ vars=$$
 
 [settings]
 set={"name","value","gamestart"
-"aifill",9,9
+"aifill",15,15
 "alltemperate",FALSE,FALSE
 "animals",20,20
 "aqueductloss",0,0
@@ -128,7 +128,7 @@ set={"name","value","gamestart"
 "landmass",30,30
 "mapseed",0,0
 "mapsize","FULLSIZE","FULLSIZE"
-"maxplayers",9,9
+"maxplayers",15,15
 "metamessage","Scenario: Earth(Small)","Scenario: Earth(Small)"
 "minplayers",1,1
 "multiresearch",FALSE,FALSE
@@ -202,14 +202,14 @@ t0001="    a  aa       a  aa   a  aaa  a  a    aaaa    aa   aaa   a   a a   a  a
 t0002=":::                                  ::      ::    :     :   :     :      ::   :"
 t0003="::::           a   aaaaaa     :::::   ::::::::    :::  :::::::::::::::::::::::::"
 t0004="::::        t aa  aaaaaaaa     :::  tt  ::::   at :: t     ::::::  :::::::::::::"
-t0005="::     t  t tta  aaaaaaaaaa     :::      :::  t    :   ttt  :::  t :::::::::::::"
-t0006=":  tt    p t     taaaaaaaaa                  p  tt    tpttt       p      ::    :"
-t0007="     ttt     ta    ttaaaatt           ptptt     pt ttttfft ttt  ttttt           "
-t0008="  tt      tt  ta    ttaatt           phfgppt ttffptgftfffffgggfffffpptttt   ttt "
-t0009="tttptptttttp   pa    tatt  tt   h   ghf  fp pffhffpgfffffffppfffgfffffgpptt  ttp"
-t0010="tpfffptptt      pa   ttt      g g  fgg  gfffffhfgfgffffgffffpffffpffffffp   tptt"
-t0011="pfffffffptp           t      g  g    g    g+fgggfhfggsffgfffffffffffffg  f   ppt"
-t0012="pgpfpfffffpptp tp       :::    gg  g   gffgggfhffffggfpffgggffffg    fh     p   "
+t0005="::     t  t tta  taaaaaaaaa     :::      :::  t    :   ttt  :::  t :::::::::::::"
+t0006=":  tt    p t     pttaaaaaaa                  p  tt    tpttt       p      ::    :"
+t0007="     ttt     ta    ptaaaatt           ptptt     pt ttttfft ttt  ttttt           "
+t0008="  tt      tt  ta    ptaatpp          phfgppt ttffptgftfffffgggfffffpptttt   ttt "
+t0009="tttptptttttp   pa    pttp  tt   h   ghf  fp pffhffpgfffffffppfffgfffffgpptt  ttp"
+t0010="tpfffptptt      pa   ptp    p g g  fgg  gfffffhfgfgffffgffffpffffpffffffp   tptt"
+t0011="pfffffffptp           p      gp g    g    g+fgggfhfggsffgfffffffffffffg  f   ppt"
+t0012="pgpfpfffffpptp tp       :::    gg  gp  gffgggfhffffggfpffgggffffg    fh     p   "
 t0013="   gfffffffppttpff  ::::::::::     gppgffgfgppfhgffgffgfffgppppg    p  hp     ::"
 t0014="::  phfggffffpgfffp  :::::::::  gggggpfffggppppppgpppppfppgpdppppg p g    ::::::"
 t0015="::  gfhggppp++ffff p :::::::   hgggmhgppf ppp gp ddgpppppdddpgppg  p   :::::::::"
@@ -222,20 +222,20 @@ t0021=":::: ggddpg  g    :::::::: ppddddddppppp  dddd  gghhmhhgppgg     ::::::::
 t0022=":::: p gdg   s     ::::::: pdddppddddppdp  pddpd pggggggpgg    :::::::::::::h:::"
 t0023=":::: p  gg f   ppg  :::::: pddppppppddppdd  pd    gfg  gg       :::::::::::::g::"
 t0024="::::     gpg     gg :::::: ggpppppppdppppdp    :: hg   jp g  g :::g:::::::::::::"
-t0025="::::::::   pg        :::::  pgpggppgppgppddpd ::: ph    s    j  ::::::::::::::::"
+t0025="::::::::   pg        :::::  pgpggppgppgppddpd ::: ph    s p pj  ::::::::::::::::"
 t0026="::::::::::  gp gggg  ::::::   fjf fgfgfmmpdp  :::   p      g  p :::::    :::::::"
-t0027=":::::::::::   ggfjgg  :::::::     gjjjfhmpp  ::::::  : g  jf           j  ::::::"
-t0028=":::::::::::: ghhjjjfg    :::::::: ggjjjh+gg :::::::::: pf pg  j gfj       ::::::"
-t0029=":::::::::::: ghhjjjjfffg  :::::::  ggjjjgg  ::::::::::  g        fgp     :::::::"
-t0030=":::::::::::: ghfffjjfffgg :::::::: gpfggfg   ::::::::::  pgg              ::::::"
-t0031="::::::::::::  ghfjffffggp :::::::: gppgghg g ::::::::::::     gg  g    g  ::::::"
-t0032=":::::::::::::  gmgffggpg  :::::::: ppgpgf  f :::::::::::::   ppgggg       ::::::"
+t0027=":::::::::::   ggfjgg  :::::::     gjjjfhmpp  ::::::  : g  jf   p       j  ::::::"
+t0028=":::::::::::: ghhjjjfg    :::::::: ggjjjh+gg :::::::::: pf pg  j gfj   p   ::::::"
+t0029=":::::::::::: ghhjjjjfffg  :::::::  ggjjjgg  ::::::::::  g   p    fgppp   :::::::"
+t0030=":::::::::::: ghfffjjfffgg :::::::: gpfggfg   ::::::::::  pgg     p    p   ::::::"
+t0031="::::::::::::  ghfjffffggp :::::::: gppgghg g ::::::::::::   p gg  g    g  ::::::"
+t0032=":::::::::::::  gmgffggpg  :::::::: ppgpgf  f :::::::::::::   ppgggg     p ::::::"
 t0033="::::::::::::::  pdgggpgg ::::::::: dpppgf gg ::::::::::::   pddppgf    p   :::::"
 t0034="::::::::::::::  ghpgpff  ::::::::: dpddpg p  :::::::::::: pddpdddppf       :::::"
 t0035="::::::::::::::  pmppgf  ::::::::::  pppg    ::::::::::::: gpdddpdpppg       ::::"
 t0036="::::::::::::::  gmmggg  :::::::::::  gg  ::::::::::::::::  gpdppggpg  :     ::::"
 t0037="::::::::::::::  hgggg   ::::::::::::    :::::::::::::::::: pg   ggg  ::  g :::::"
-t0038="::::::::::::::  mdggg   ::::::::::::::::::::::::::::::::::          ::: hg :::::"
+t0038="::::::::::::::  mdggg   ::::::::::::::::::::::::::::::::::         p::: hg :::::"
 t0039=":::::::::::::: pgppg   :::::::::::::::::::::::::::::::::::::::::: f :: ph    :::"
 t0040=":::::::::::::: gppg   :::::::::::::::::::::::::::::::::::::::::::  ::: g    ::::"
 t0041=":::::::::::::: gpg   ::::::::::::::::::::::::::::::::::::::::::::::::::    :::::"
@@ -247,17 +247,23 @@ t0046="::::::::::::::::  t :::::::::::::::::::::::    :::::::                :::
 t0047="                 t   :::::::::::::          tt         aatttaaaaaaaa      ::::::"
 t0048=" aaataaatattaaataa                 aaaaaattaaataa  aaaaaaaaaaaaaaaaataata       "
 t0049="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-startpos_count=9
+startpos_count=15
 startpos={"x","y","exclude","nations"
+21,32,FALSE,"Brazilian"
 39,34,FALSE,"South African"
-67,16,FALSE,"Chinese#Japanese#South Korean"
-19,38,FALSE,"Brazilian#Argentine"
-66,36,FALSE,"Indonesian#Australian"
-43,12,FALSE,"Turkish#Russian"
-50,21,FALSE,"Indian#Saudi"
+15,18,FALSE,"American"
+32,12,FALSE,"British"
+67,16,FALSE,"Japanese"
+19,38,FALSE,"Argentine"
+40,20,FALSE,"Turkish#Saudi"
+66,36,FALSE,"Australian"
+43,12,FALSE,"Russian"
+50,21,FALSE,"Indian"
+57,30,FALSE,"Indonesian"
 9,23,FALSE,"Mexican"
-34,14,FALSE,"Italian#German#British#French"
-15,15,FALSE,"American#Canadian"
+34,14,FALSE,"German#French#Italian"
+15,15,FALSE,"Canadian"
+59,17,FALSE,"South Korean#Chinese"
 }
 e00_0000="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
