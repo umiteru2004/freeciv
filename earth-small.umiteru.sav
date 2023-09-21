@@ -4,7 +4,7 @@ game_version=3000800
 is_scenario=TRUE
 name=_("うみてるの地球（小型）")
 authors=_("Map: Daniel Gudlat, Daniel Markstedt, Umiteru\nStart positions: Jason Dorje Short, Mateusz Stefek, David Fernandez, Umiteru\nRules: civ2civ3, Umiteru\n")
-description=_("うみてるの地球（小型）シナリオは、地球（古典的/小型）シナリオをうみてるが改良したものです。\n地球（古典的/小型）シナリオのオリジナルには、以下の問題がありました。\n\n- ゲーム設定が準拠するルールセットが不明確であること\n- プレイヤーごとのゲームの開始条件が不公平であること\n\nこれらの問題を解決し、さらにゲームを面白くするために、\n本シナリオでは、以下の変更を行いました。\n\n- ゲーム設定を、civ2civ3ルールセットに準拠させました。\n- 開始地点が設定されている民族でのみプレイできるようにしました。[^1]\n- 現代の主要な民族を優先的に配置しました。\n- AIのレベルを「難しい」としました。\n領土獲得における各プレイヤーの条件を公平にするために、\n- 開始地点の数を減らしました。\n- 一部群島について、島同士、および島と大陸を接続しました。\n- 一部土地を豊かにしました。\n\n[^1]: EU諸国、およびトルコとサウジアラビアは、それぞれ同一の開始地点です。マルチプレイ等で、同一の開始地点が設定された民族が複数存在する場合、それらの民族のうち1つ以外は他の開始地点から開始されます。")
+description=_("うみてるの地球（小型）シナリオは、地球（古典的/小型）シナリオをうみてるが改良したものです。\n地球（古典的/小型）シナリオのオリジナルには、以下の問題がありました。\n\n- ゲーム設定が準拠するルールセットが不明確であること\n- プレイヤーごとのゲームの開始条件が不公平であること\n\nこれらの問題を解決し、さらにゲームを面白くするために、\n本シナリオでは、以下の変更を行いました。\n\n- ゲーム設定を、civ2civ3ルールセットに準拠させました。[^1]\n- 開始地点が設定されている民族でのみプレイできるようにしました。[^2]\n- 現代の主要な民族を優先的に配置しました。\n- AIのレベルを「チート」としました。\n- \n領土獲得における各プレイヤーの条件を公平にするために、\n- 開始地点の数を減らしました。\n- 一部群島について、島同士、および島と大陸を接続しました。\n- 一部土地を豊かにしました。\n\n[^1]: 科学勝利はデフォルトで無効です。これは、civ2civ3ルールセットによって、チートAIに科学勝利することが非常に難しくなったためです。もちろん、この設定を変更してプレイすることは可能です。\n[^2]: EU諸国、およびトルコとサウジアラビアは、それぞれ同一の開始地点です。マルチプレイ等で、同一の開始地点が設定された民族が複数存在する場合、それらの民族のうち1つ以外は他の開始地点から開始されます。")
 save_random=FALSE
 players=FALSE
 startpos_nations=TRUE
@@ -62,7 +62,7 @@ meta_patches="none"
 meta_server="https://meta.freeciv.org/metaserver.php"
 id="KhJD3l7s9SMrfk7KDUEa4H0DZQXjQ3oS"
 serverid=""
-level="Hard"
+level="Cheating"
 phase_mode="Teams Alternate"
 phase_mode_stored="Teams Alternate"
 phase=0
@@ -173,7 +173,7 @@ set={"name","value","gamestart"
 "trading_gold",TRUE,TRUE
 "trading_tech",TRUE,TRUE
 "traitdistribution","FIXED","FIXED"
-"victories","SPACERACE|ALLIED","SPACERACE|ALLIED"
+"victories","ALLIED","ALLIED"
 "wetness",50,50
 "xsize",80,80
 "ysize",50,50
