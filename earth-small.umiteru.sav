@@ -96,7 +96,7 @@ vars=$$
 
 [settings]
 set={"name","value","gamestart"
-"aifill",14,14
+"aifill",15,15
 "alltemperate",FALSE,FALSE
 "animals",20,20
 "aqueductloss",0,0
@@ -128,7 +128,7 @@ set={"name","value","gamestart"
 "landmass",30,30
 "mapseed",0,0
 "mapsize","FULLSIZE","FULLSIZE"
-"maxplayers",14,14
+"maxplayers",15,15
 "metamessage","",""
 "minplayers",1,1
 "multiresearch",FALSE,FALSE
@@ -270,12 +270,12 @@ label_58_15="Gobi Desert"
 label_50_15="Taklamakan Desert"
 label_76_22="Maui Island"
 label_17_20="Providenciales Island"
-startpos_count=14
+startpos_count=15
 startpos={"x","y","exclude","nations"
 21,32,FALSE,"Brazilian"
 39,34,FALSE,"South African"
 36,17,FALSE,"Italian#Turkish"
-15,18,FALSE,"American#Mexican"
+15,18,FALSE,"American"
 32,12,FALSE,"British"
 67,16,FALSE,"Japanese"
 19,38,FALSE,"Argentine"
@@ -286,6 +286,7 @@ startpos={"x","y","exclude","nations"
 34,14,FALSE,"French#German"
 15,15,FALSE,"Canadian"
 59,17,FALSE,"South Korean#Chinese"
+9,23,FALSE,"Mexican"
 }
 e00_0000="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000000000000000000000000000000000"
