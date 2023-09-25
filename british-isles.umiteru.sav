@@ -57,10 +57,10 @@ terrident={"name","identifier"
 
 [game]
 server_state="S_S_INITIAL"
-phase_seconds=123
+phase_seconds=0
 meta_patches=""
 meta_server="https://meta.freeciv.org/metaserver.php"
-id="fb1LudMWo-HLCwGnE17Dbtmcj5zMWql1"
+id=""
 serverid=""
 level="Cheating"
 phase_mode="Teams Alternate"
@@ -72,7 +72,7 @@ timeoutintinc=0
 timeoutinc=0
 timeoutincmult=1
 timeoutcounter=1
-turn=1
+turn=0
 year=-4000
 year_0_hack=FALSE
 globalwarming=0
@@ -115,7 +115,7 @@ set={"name","value","gamestart"
 "freecost",0,0
 "fulltradesize",1,1
 "gameseed",0,0
-"generator","SCENARIO","FRACTAL"
+"generator","SCENARIO","SCENARIO"
 "globalwarming",TRUE,TRUE
 "globalwarming_percent",100,100
 "gold",50,50
@@ -193,8 +193,7 @@ government={"name","changes"
 
 [map]
 have_huts=FALSE
-have_resources=TRUE
-random_seed=751064507
+have_resources=FALSE
 t0000="::::::::::::::::::::::::::: pp :::::::::::::::::::"
 t0001="::::::::::::::::::::::         :::::::::::::::::::"
 t0002=":::::::::::::::::    : pp  pp ::::::::::::::::::::"
