@@ -95,7 +95,7 @@ vars=$$
 
 [settings]
 set={"name","value","gamestart"
-"aifill",5,5
+"aifill",7,7
 "alltemperate",FALSE,FALSE
 "animals",20,20
 "aqueductloss",0,0
@@ -214,16 +214,16 @@ t0016="::::::::::::::::::  sfmm+hhp  pp  ::::::::::::::::"
 t0017=":::::::::::::::::: smf hpppfffpgg ::::::::::::::::"
 t0018=":::::::::::::::::: g gh pffhfhhgg  :::::::::::::::"
 t0019="::::::::::::::       g  gfhmfmfggg :::::::::::::::"
-t0020="::::::::::::   iiii    gfmhhhhmfgp :::::::::::::::"
-t0021=":::::::::::: iiiiiii   gfffpfhhhfp  ::::::::::::::"
-t0022=":::::::::::  iiiiiiii   gpgppfhhfgg  :::::::::::::"
-t0023="::::::::::: iiiiiiiii      sppfhhfgg  ::::::::::::"
-t0024=":::::::      iiiiiiiii ::: pmfhhhfggg ::::::::::::"
-t0025="::::::: iii iiiiiiiiii :::  gpghhffgg  :::::::::::"
-t0026=":::::::  iiiiiiiiiiii  :::: g gghfgggg :::::::::::"
-t0027="::::::::  iiiiiiighp  :::::  gshphfffg  ::::::::::"
-t0028=":::::::  iiiiggggggp :::     gsfggggggg ::::::::::"
-t0029="::::::: ii gsggggggg  :  g  pgpphfgppsp ::::::::::"
+t0020="::::::::::::   gghg    gfmhhhhmfgp :::::::::::::::"
+t0021=":::::::::::: ggggsgg   gfffpfhhhfp  ::::::::::::::"
+t0022=":::::::::::  ggsggfhg   gpgppfhhfgg  :::::::::::::"
+t0023="::::::::::: ggggggp+g      sppfhhfgg  ::::::::::::"
+t0024=":::::::      sgfgggfgg ::: pmfhhhfggg ::::::::::::"
+t0025="::::::: ggg gfggggggpp :::  gpghhffgg  :::::::::::"
+t0026=":::::::  ggghgggffgpp  :::: g gghfgggg :::::::::::"
+t0027="::::::::  ghfgghgghp  :::::  gshphfffg  ::::::::::"
+t0028=":::::::  ggggggggggp :::     gsfggggggg ::::::::::"
+t0029="::::::: gg gsggggggg  :  g  pgpphfgppsp ::::::::::"
 t0030=":::::::   ggsggghfgpp : ggppfgggffgfggg    :::::::"
 t0031="::::::::: sssggfmhppp :  fmhpgggghfhfs spp  ::::::"
 t0032="::::::::  ssgggfhhppp : gghhggggffffgsssspp ::::::"
@@ -258,13 +258,15 @@ label_39_33="Fenland"
 label_26_41="Glastonbury Tor"
 label_18_27="Hill of Tara"
 label_33_30="Sherwood Forest"
-startpos_count=5
+startpos_count=7
 startpos={"x","y","exclude","nations"
+25,3,FALSE,"Pictish"
+32,18,FALSE,"Viking"
+37,28,FALSE,"Briton"
+25,37,FALSE,"Welsh"
 37,38,FALSE,"English"
 19,28,FALSE,"Norman"
-27,15,FALSE,"Scottish"
-32,18,FALSE,"Viking"
-25,37,FALSE,"Welsh"
+28,11,FALSE,"Scottish"
 }
 e00_0000="00000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000"
