@@ -1,9 +1,4 @@
-# うみてるのブリテン諸島について
-[「うみてるのブリテン諸島」シナリオ](https://github.com/umiteru2004/freeciv-scenarios/blob/develop/british-isles.umiteru.sav)について記述します。  
-[「うみてるの地球」](https://github.com/umiteru2004/freeciv-scenarios/blob/develop/earth-small.umiteru.sav)もお楽しみください。
-## シナリオの遊び方
-1. 右上、緑色の「Code」ボタンからZIPファイルをダウンロードし、解凍します。
-1. Freeciv「シナリオのロード」→「ブラウズ」で、前項で解凍したフォルダ内の、該当シナリオの.savファイルを選択します。
+# うみてるのブリテン諸島
 ## 制作背景
 うみてるは、Freecivと、それに付属するシナリオについて、いくつかの問題を感じていました。
 - ゲーム終了までに時間がかかること
