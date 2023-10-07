@@ -6,7 +6,7 @@ name=_("大日本帝国")
 authors=_("Umiteru")
 description=_("本シナリオファイルに同梱されているREADMEをご覧ください。")
 save_random=FALSE
-players=FALSE
+players=TRUE
 startpos_nations=TRUE
 lake_flooding=TRUE
 ruleset_locked=TRUE
@@ -95,7 +95,7 @@ vars=$$
 
 [settings]
 set={"name","value","gamestart"
-"aifill",6,6
+"aifill",15,15
 "alltemperate",FALSE,FALSE
 "animals",20,20
 "aqueductloss",0,0
@@ -194,21 +194,21 @@ government={"name","changes"
 [map]
 have_huts=TRUE
 have_resources=FALSE
-t0000="pppppppppppppppppppppppppppppppp::::::::::pppp::::"
-t0001="ppppppppppppppppppppppppppppppp:p:::::::::pppp::::"
-t0002="pppppppppppppppppppppppppppppppppp:p::::::ppp:::::"
-t0003="pppppppppppppppppppppppppppppppppp:p:::::::pp:::::"
-t0004="pppppppppppppppppppppppppppppppppp:p:::::::p::::::"
-t0005="pppppppppppppppppppppppppppppppppp:pp:::::p:::::::"
-t0006="pppppppppppppppppppppppppppppppppp:pp:::::::::::::"
-t0007="ppppppppppppppppppppppppppppppppp::p::::::::::::::"
-t0008="ppppppppppppppppppppppppppppppppp::p::::::::::::::"
-t0009="pppppppppppppppppppppppppppppppp:::p:::p::::::::::"
-t0010="pppppppppppppppppppppppppppppppp::p::p::::::::::::"
-t0011="ppppppppppppppppppppppppppppppp:::ppp:::::::::::::"
-t0012="ppppppppppppppppppppppppppppp::::ppp::::::::::::::"
-t0013="ppppppppppppppppppppppppppp::::::p::::::::::::::::"
-t0014="ppppppppppppppppppppppppppp:::::pp::::::::::::::::"
+t0000="iiiiiiiiiiiiiiippppppppppppppppp::::::::::pppp::::"
+t0001="iiiiiiiiiiiiiiipppppppppppppppp:p:::::::::pppp::::"
+t0002="iiiiiiiiiiiiiiippppppppppppppppppp:p::::::ppp:::::"
+t0003="iiiiiiiiiiiiiiippppppppppppppppppp:p:::::::pp:::::"
+t0004="iiiiiiiiiiiiiiippppppppppppppppppp:p:::::::p::::::"
+t0005="iiiiiiiiiiiiiiippppppppppppppppppp:pp:::::p:::::::"
+t0006="iiiiiiiiiiiiiiippppppppppppppppppp:pp:::::::::::::"
+t0007="iiiiiiiiiiiiiiipppppppppppppppppp::p::::::::::::::"
+t0008="iiiiiiiiiiiiiiipppppppppppppppppp::p::::::::::::::"
+t0009="iiiiiiiiiiiiiiippppppppppppppppp:::p:::p::::::::::"
+t0010="iiiiippppppppppppppppppppppppppp::p::p::::::::::::"
+t0011="iiiiipppppppppppppppppppppppppp:::ppp:::::::::::::"
+t0012="iiiiipppppppppppppppppppppppp::::ppp::::::::::::::"
+t0013="iiiiipppppppppppppppppppppp::::::p::::::::::::::::"
+t0014="iiiiipppppppppppppppppppppp:::::pp::::::::::::::::"
 t0015="pppppppppppppppppppp:p:ppp::::::pp::::::::::::::::"
 t0016="ppppppppppppppppppppp:::ppp::::ppp::::::::::::::::"
 t0017="pppppppppppppppppppppp:::pp:::ppp:::::::::::::::::"
@@ -245,14 +245,23 @@ t0047="::::::::::::::::::::p::p:::::::::::::pp:::::::p:::"
 t0048="::::::::::::::::::::::::::::::::::::::::::::::::::"
 t0049="::::::::::::::::::::::::::::::::::::::::::::::::::"
 label_0_0="Label Template"
-startpos_count=6
+startpos_count=15
 startpos={"x","y","exclude","nations"
-17,27,FALSE,""
-29,32,FALSE,""
-25,13,FALSE,""
-15,10,FALSE,""
-33,41,FALSE,""
-27,22,FALSE,""
+12,45,FALSE,"Indonesian"
+9,33,FALSE,"Thai"
+6,29,FALSE,"Burmese"
+12,26,FALSE,"Vietnamese"
+37,47,FALSE,"Papua New Guinean"
+32,17,FALSE,"Japanese"
+25,16,FALSE,"South Korean"
+21,26,FALSE,"Taiwanese"
+15,14,FALSE,"Mongol"
+44,3,FALSE,"Russian"
+18,14,FALSE,"Chinese"
+24,11,FALSE,"Manchu"
+9,38,FALSE,"Malaysian"
+1,26,FALSE,"Indian"
+21,32,FALSE,"Filipino"
 }
 e00_0000="00000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000"
