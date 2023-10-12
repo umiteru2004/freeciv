@@ -176,7 +176,7 @@ set={"name","value","gamestart"
 "xsize",50,50
 "ysize",50,50
 }
-set_count=79
+set_count=80
 gamestart_valid=TRUE
 
 [ruledata]
