@@ -108,6 +108,7 @@ set={"name","value","gamestart"
 "diplgoldcost",0,0
 "diplomacy","AI","AI"
 "dispersion",0,0
+"endturn",500,500
 "flatpoles",0,0
 "foggedborders",TRUE,TRUE
 "fogofwar",TRUE,TRUE
@@ -120,7 +121,7 @@ set={"name","value","gamestart"
 "globalwarming_percent",100,100
 "gold",50,50
 "happyborders","NATIONAL","NATIONAL"
-"huts",15,15
+"huts",0,0
 "killcitizen",TRUE,TRUE
 "killstack",TRUE,TRUE
 "killunhomed",0,0
@@ -138,7 +139,7 @@ set={"name","value","gamestart"
 "plrcolormode","PLR_ORDER","PLR_ORDER"
 "rapturedelay",1,1
 "razechance",10,10
-"revealmap","",""
+"revealmap","START","START"
 "revolentype","RANDQUICK","RANDQUICK"
 "sciencebox",100,100
 "separatepoles",TRUE,TRUE
@@ -175,7 +176,7 @@ set={"name","value","gamestart"
 "xsize",50,50
 "ysize",50,50
 }
-set_count=79
+set_count=80
 gamestart_valid=TRUE
 
 [ruledata]
