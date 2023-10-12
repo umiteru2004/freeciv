@@ -121,7 +121,7 @@ set={"name","value","gamestart"
 "globalwarming_percent",100,100
 "gold",50,50
 "happyborders","NATIONAL","NATIONAL"
-"huts",15,15
+"huts",0,0
 "killcitizen",TRUE,TRUE
 "killstack",TRUE,TRUE
 "killunhomed",0,0
