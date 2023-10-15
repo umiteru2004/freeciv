@@ -3,7 +3,7 @@
 game_version=3000800
 is_scenario=TRUE
 name=_("うみてるのブリテン諸島")
-authors=_("Map: Umiteru, Martin McMahon, Mathieu Roy, Daniel Markstedt\nOthers: Umiteru")
+authors=_("Map: Umiteru, Martin McMahon, Daniel Markstedt, Mathieu Roy\nOthers: Umiteru")
 description=_("本シナリオファイルに同梱されているREADMEをご覧ください。")
 save_random=FALSE
 players=FALSE
