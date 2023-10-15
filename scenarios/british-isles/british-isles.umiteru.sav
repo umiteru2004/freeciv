@@ -95,7 +95,7 @@ vars=$$
 
 [settings]
 set={"name","value","gamestart"
-"aifill",8,8
+"aifill",9,9
 "alltemperate",FALSE,FALSE
 "animals",20,20
 "aqueductloss",0,0
@@ -263,7 +263,7 @@ label_18_27="Tara Hill"
 label_46_49="Montmartre Hill"
 label_33_30="Sherwood Forest"
 label_44_41="Boulogne Forest"
-startpos_count=8
+startpos_count=9
 startpos={"x","y","exclude","nations"
 37,38,FALSE,"English"
 25,37,FALSE,"Welsh"
@@ -273,6 +273,7 @@ startpos={"x","y","exclude","nations"
 17,34,FALSE,"Norman"
 37,28,FALSE,"Briton"
 22,11,FALSE,"Pictish"
+46,43,FALSE,"Frankish"
 }
 e00_0000="00000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000"
