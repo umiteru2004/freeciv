@@ -108,7 +108,7 @@ set={"name","value","gamestart"
 "diplgoldcost",0,0
 "diplomacy","AI","AI"
 "dispersion",0,0
-"endturn",500,500
+"endturn",450,450
 "flatpoles",0,0
 "foggedborders",TRUE,TRUE
 "fogofwar",TRUE,TRUE
