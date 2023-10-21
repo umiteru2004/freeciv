@@ -4,7 +4,7 @@ game_version=3000800
 is_scenario=TRUE
 name=_("うみてるのブリテン諸島")
 authors=_("Map: Umiteru, Martin McMahon, Daniel Markstedt\nOthers: Umiteru")
-description=_("本シナリオファイルに同梱されているREADMEをご覧ください。")
+description=_("https://drive.google.com/drive/folders/1-t6FXqfDbPGnH8ecs0KCmEy3CHiv4CKa?usp=sharing\n内該当ファイルをご覧ください。")
 save_random=FALSE
 players=FALSE
 startpos_nations=TRUE
