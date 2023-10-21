@@ -1,0 +1,387 @@
+[soundspec]
+; Format and options of this spec file:
+options = "+Freeciv-3.0-soundset"
+
+[info]
+artists = "Many! See freesounds.AUTHORS"
+
+; For a list of tags used see README.sound, buildings.ruleset and
+; units.ruleset.
+
+[files]
+;-----------
+;BUILDINGS
+;-----------
+b_generic = "freesounds/b_generic-67710.ogg"
+;b_airport = ""
+;b_aqueduct = ""
+;b_bank = ""
+;b_barracks_i = ""
+;b_barracks_ii = ""
+;b_barracks_iii = ""
+;b_cathedral = ""
+;b_city_walls = ""
+;b_coastal_defense = ""
+;b_colosseum = ""
+;b_courthouse = ""
+;b_factory = ""
+;b_granary = ""
+;b_harbour = ""
+;b_hydro_plant = ""
+;b_library = ""
+;b_marketplace = ""
+;b_mass_transit = ""
+;b_mfg_plant = ""
+;b_nuclear_plant = ""
+;b_offshore_platform = ""
+;b_palace = ""
+;b_police_station = ""
+;b_port_facility = ""
+;b_power_plant = ""
+;b_recycling_center = ""
+;b_research_lab = ""
+;b_sam_battery = ""
+;b_sdi_defense = ""
+;b_sewer_system = ""
+;b_solar_plant = ""
+;b_space_component = ""
+;b_space_module = ""
+;b_space_structural = ""
+;b_stock_exchange = ""
+;b_super_highways = ""
+;b_supermarket = ""
+;b_temple = ""
+;b_university = ""
+
+;93/93 (0/6)
+;-----------
+;FIGHTING 41/41 (0/3)
+;-----------
+f_generic = "freesounds/f_generic-29618.ogg"
+f_barbarian_leader = "freesounds/f_barbarian_leader-62684-66487.ogg"
+
+;BRONZE AGE 4/4
+;settlers cannot attack
+f_warriors = "freesounds/00_bronze_age/f_warriors-28053-28054-28055-28052.ogg"
+;workers cannot attack
+f_horsemen = "freesounds/00_bronze_age/f_horseman-59569.ogg"
+f_archers = "freesounds/00_bronze_age/f_archers-65734.ogg"
+f_phalanx = "freesounds/00_bronze_age/f_phalanx-27826-27856.ogg"
+
+;IRON AGE 4/4
+f_trireme = "freesounds/01_iron_age/f_trireme-40158-56166.ogg"
+f_chariot = "freesounds/01_iron_age/f_chariot-71251-67235-17334.ogg"
+f_catapult = "freesounds/01_iron_age/f_catapult-46487.ogg"
+f_legion = "freesounds/01_iron_age/f_legion-26721.ogg"
+;diplomat cannot attack
+
+;AGE OF EXPLORATION 3/3
+;explorer cannot attack
+;caravan cannot attack
+f_pikemen = "freesounds/02_age_of_exploration/f_pikemen-26721.ogg"
+f_knights = "freesounds/02_age_of_exploration/f_knights-75201-27826-27856.ogg"
+f_caravel = "freesounds/02_age_of_exploration/f_caravel-79663.ogg"
+
+;AGE OF GUNPOWDER 5/5
+;galleon cannot attack
+f_frigate = "freesounds/03_age_of_gunpowder/f_frigate-79659-79660-79661.ogg"
+f_ironclad = "freesounds/03_age_of_gunpowder/f_ironclad-73005.ogg"
+f_musketeers = "freesounds/03_age_of_gunpowder/f_musketeer-67516.ogg"
+f_dragoons = "freesounds/03_age_of_gunpowder/f_dragoons-41180-65752.ogg"
+f_cannon = "freesounds/03_age_of_gunpowder/f_cannon-39067.ogg"
+;Engineers cannot attack
+
+;THE INDUSTRIAL AGE 4/4
+;transport cannot attack
+f_destroyer = "freesounds/04_the_industrial_age/f_destroyer-33677.ogg"
+f_riflemen = "freesounds/04_the_industrial_age/f_rifleman-30749.ogg"
+f_cavalry = "freesounds/04_the_industrial_age/f_cavalry-14742-62176.ogg"
+f_alpine_troops = "freesounds/04_the_industrial_age/f_alpine_troops-14742.ogg"
+;freight cannot attack
+;spy cannot attack
+
+;MODERN TECHNOLOGY 7/7
+f_cruiser = "freesounds/05_modern_technology/f_cruiser-14618.ogg"
+f_battleship = "freesounds/05_modern_technology/f_battleship-80499-80501.ogg"
+f_submarine = "freesounds/05_modern_technology/f_submarine-51468.ogg"
+f_marines = "freesounds/05_modern_technology/f_marines-67625.ogg"
+f_partisan = "freesounds/05_modern_technology/f_partisan-67593.ogg"
+f_artillery = "freesounds/05_modern_technology/f_artillery-79658.ogg"
+f_fighter = "freesounds/05_modern_technology/f_fighter-67549-42968.ogg"
+
+;HIGH TECHNOLOGY 10/10
+f_aegis_cruiser = "freesounds/06_high_technology/f_aegis_cruiser-41459.ogg"
+f_carrier = "freesounds/06_high_technology/f_carrier-62082-27524.ogg"
+f_armor = "freesounds/06_high_technology/f_armor-80400.ogg"
+f_mech_inf = "freesounds/06_high_technology/f_mech_inf-39065.ogg"
+f_howitzer = "freesounds/06_high_technology/f_howitzer-14615.ogg"
+f_paratroopers = "freesounds/06_high_technology/f_paratroopers-39066.ogg"
+f_helicopter = "freesounds/06_high_technology/f_helicopter-67578.ogg" ; technically this is an m242 sample and not e.g. an m230
+f_bomber = "freesounds/06_high_technology/f_bomber-12813-80501-76151.ogg"
+;awacs cannot attack
+;f_nuclear = "E_NUKE plays the nuke attack sample"
+f_cruise_missile = "freesounds/06_high_technology/f_cruise_missile-47251.ogg"
+
+;THE SPACE AGE 2/2
+f_stealth_fighter = "freesounds/07_space_age/f_stealth_fighter-18386.ogg"
+f_stealth_bomber = "freesounds/07_space_age/f_stealth_bomber-41459.ogg"
+
+;OTHER 0/3
+;f_crusaders = ""
+;f_elephants = ""
+;f_fanatics = ""
+
+;-----------
+;MOVEMENT 52/52 (0/3)
+;-----------
+m_generic = "freesounds/00_bronze_age/m_phalanx-69300.ogg"; For units not specific in this file
+m_barbarian_leader = "freesounds/m_barbarian_leader-27977.ogg"
+
+;BRONZE AGE 6/6
+m_settlers = "freesounds/00_bronze_age/m_settlers-67235.ogg"
+m_warriors = "freesounds/00_bronze_age/m_warriors-41575.ogg"
+m_worker = "freesounds/00_bronze_age/m_worker-41577.ogg"
+m_horsemen = "freesounds/00_bronze_age/m_horseman-41180.ogg"
+m_archers = "freesounds/00_bronze_age/m_archers-41576.ogg"
+m_phalanx = "freesounds/00_bronze_age/m_phalanx-69300.ogg"
+
+;IRON AGE 5/5
+m_trireme = "freesounds/01_iron_age/m_trireme-56166.ogg"
+m_chariot = "freesounds/01_iron_age/m_chariot-67235-71251.ogg"
+m_catapult = "freesounds/01_iron_age/m_catapult-51825-67268.ogg"
+m_legion = "freesounds/01_iron_age/m_legion-41579.ogg"
+m_diplomat = "freesounds/01_iron_age/m_diplomat-41578.ogg"
+
+;AGE OF EXPLORATION 5/5
+m_explorer = "freesounds/02_age_of_exploration/m_explorer-41180.ogg"
+m_caravan = "freesounds/02_age_of_exploration/m_caravan-16932.ogg"
+m_pikemen = "freesounds/02_age_of_exploration/m_pikeman-79882.ogg"
+m_knights = "freesounds/02_age_of_exploration/m_knights-75201-6987.ogg"
+m_caravel = "freesounds/02_age_of_exploration/m_caravel-15553.ogg"
+
+;AGE OF GUNPOWDER 7/7
+m_galleon = "freesounds/03_age_of_gunpowder/m_galleon-31574.ogg"
+m_frigate = "freesounds/03_age_of_gunpowder/m_frigate-57279-31006.ogg"
+m_ironclad = "freesounds/03_age_of_gunpowder/m_ironclad-25718-38017.ogg"
+m_musketeers = "freesounds/03_age_of_gunpowder/m_musketeers-43794-79882.ogg"
+m_dragoons = "freesounds/03_age_of_gunpowder/m_dragoons-41180-59569.ogg"
+m_cannon = "freesounds/03_age_of_gunpowder/m_cannon-14103.ogg"
+m_engineers = "freesounds/03_age_of_gunpowder/m_engineers-39064.ogg"
+
+;THE INDUSTRIAL AGE 7/7
+m_transport = "freesounds/04_the_industrial_age/m_transport-38017-64601.ogg"
+m_destroyer = "freesounds/04_the_industrial_age/m_destroyer-3206.ogg"
+m_riflemen = "freesounds/04_the_industrial_age/m_rifleman-50188.ogg"
+m_cavalry = "freesounds/04_the_industrial_age/m_cavalry-14618.ogg"
+m_alpine_troops = "freesounds/04_the_industrial_age/m_alpine_troops-67272.ogg"
+m_freight = "freesounds/04_the_industrial_age/m_freight-13784.ogg" ;could be better
+m_spy = "freesounds/04_the_industrial_age/m_spy-53617.ogg"
+
+;MODERN TECHNOLOGY 7/7
+m_cruiser = "freesounds/05_modern_technology/m_cruiser-3209.ogg"
+m_battleship = "freesounds/05_modern_technology/m_battleship-8132.ogg"
+m_submarine = "freesounds/05_modern_technology/m_submarine-16937.ogg"
+m_marines = "freesounds/05_modern_technology/m_marines-80745.ogg"
+m_partisan = "freesounds/05_modern_technology/m_partisan-71248.ogg"
+m_artillery = "freesounds/05_modern_technology/m_artillery-43804.ogg"
+m_fighter = "freesounds/05_modern_technology/m_fighter-62049.ogg"
+
+;HIGH TECHNOLOGY 11/11
+m_aegis_cruiser = "freesounds/06_high_technology/m_aegis_cruiser-3210-3211.ogg"
+m_carrier = "freesounds/06_high_technology/m_carrier-6108.ogg"
+m_armor = "freesounds/06_high_technology/m_armor-71247.ogg"
+m_mech_inf = "freesounds/06_high_technology/m_mech_inf-43804.ogg"
+m_howitzer = "freesounds/06_high_technology/m_howitzer-71247.ogg"
+m_paratroopers = "freesounds/06_high_technology/m_paratroopers-22862.ogg"
+m_helicopter = "freesounds/06_high_technology/m_helicopter-66643.ogg"
+m_bomber = "freesounds/06_high_technology/m_bomber-12813.ogg"
+m_awacs = "freesounds/06_high_technology/m_awacs-16322.ogg"
+m_nuclear = "freesounds/06_high_technology/m_nuclear-67545.ogg"
+m_cruise_missile = "freesounds/06_high_technology/m_cruise_missile-67545.ogg"
+
+;THE SPACE AGE 2/2
+m_stealth_fighter = "freesounds/07_space_age/m_stealth_fighter-27524.ogg"
+m_stealth_bomber = "freesounds/07_space_age/m_stealth_bomber-64490.ogg"
+
+;OTHER 0/3 
+;m_crusaders = ""
+;m_elephants = ""
+;m_fanatics = ""
+
+;-----------
+;WONDERS
+;-----------
+;w_generic = ""
+;w_apollo_program = ""
+;w_asmiths_trading_co = ""
+;w_colossus = ""
+;w_copernicus_observatory = ""
+;w_cure_for_cancer = ""
+;w_darwins_voyage = ""
+;w_eiffel_tower = ""
+;w_great_library = ""
+;w_great_wall = ""
+;w_hanging_gardens = ""
+;w_hoover_dam = ""
+;w_isaac_newtons_college = ""
+;w_js_bachs_cathedral = ""
+;w_king_richards_crusade = ""
+;w_leonardos_workshop = ""
+;w_lighthouse = ""
+;w_magellans_expedition = ""
+;w_manhattan_project = ""
+;w_marco_polos_embassy = ""
+;w_michelangelos_chapel = ""
+;w_oracle = ""
+;w_pyramids = ""
+;w_seti_program = ""
+;w_shakespeares_theatre = ""
+;w_statue_of_liberty = ""
+;w_sun_tzus_war_academy = ""
+;w_united_nations = ""
+;w_womens_suffrage = ""
+
+
+; This list contains all events up to E_ACHIEVEMENT
+; (as numbered in common/events.h), in the sorted order.
+; Alphabetical sorting is based on these tag names,
+; as the message names and contents change. {was}
+
+;e_ai_debug = ""
+;e_anarchy = ""
+;e_bad_command = ""
+;e_broadcast_report = ""
+;e_caravan_action = ""
+;e_chat_error = ""
+e_chat_msg = "freesounds/events/e_chat_msg-79711.ogg"
+;e_city_aq_building = ""
+;e_city_aqueduct = ""
+;e_city_build = ""
+;e_city_cantbuild = ""
+;e_city_cma_release = ""
+;e_city_disorder = ""
+;e_city_famine = ""
+;e_city_famine_feared = ""
+;e_city_gran_throttle = ""
+;e_city_growth = ""
+;e_city_lost = ""
+e_city_love = "freesounds/events/e_city_love-76511.ogg"
+;e_city_may_soon_grow = ""
+;e_city_normal = ""
+;e_city_nuked = ""
+;e_city_production_changed = ""
+;e_city_radius_sq = ""
+;e_city_transfer = ""
+;e_city_plague = ""
+;e_civil_war = ""
+;e_connection = ""
+;e_deprecation_warning = ""
+;e_destroyed = ""
+;e_diplomacy = ""
+;e_diplomatic_incident = ""
+;e_enemy_diplomat_bribe = ""
+;e_enemy_diplomat_embassy = ""
+;e_enemy_diplomat_failed = ""
+;e_enemy_diplomat_incite = ""
+;e_enemy_diplomat_poison = ""
+;e_enemy_diplomat_sabotage = ""
+;e_enemy_diplomat_theft = ""
+;e_enemy_spy_steal_gold = ""
+;e_first_contact = ""
+;e_game_end = ""
+;e_game_start = ""
+;e_global_eco = ""
+e_hut_barb = "freesounds/events/e_huts-57204.ogg"
+e_hut_city = "freesounds/events/e_huts-57204.ogg"
+e_hut_gold = "freesounds/events/e_huts-57204.ogg"
+e_hut_barb_killed = "freesounds/events/e_huts-57204.ogg"
+e_hut_merc = "freesounds/events/e_huts-57204.ogg"
+e_hut_settler = "freesounds/events/e_huts-57204.ogg"
+e_hut_tech = "freesounds/events/e_huts-57204.ogg"
+e_hut_barb_city_near = "freesounds/events/e_huts-57204.ogg"
+e_imp_buy = "freesounds/events/e_imp_buy-31377.ogg"
+;e_imp_auctioned = ""
+;e_imp_auto = ""
+;e_imp_build = ""
+;e_imp_buy = ""
+e_imp_sold = "freesounds/events/e_imp_sold-59263.ogg"
+;e_log_error = ""
+;e_log_fatal = ""
+;e_low_on_funds = ""
+;e_message_wall = ""
+;e_my_diplomat_bribe = ""
+;e_my_diplomat_embassy = ""
+;e_my_diplomat_escape = ""
+;e_my_diplomat_failed = ""
+;e_my_diplomat_incite = ""
+;e_my_diplomat_poison = ""
+;e_my_diplomat_sabotage = ""
+;e_my_diplomat_theft = ""
+;e_my_spy_steal_gold = ""
+;e_nation_selected = ""
+;e_new_government = ""
+;e_next_year = ""
+e_nuke = "freesounds/06_high_technology/f_nuclear-33637-47252.ogg"
+;e_pollution = ""
+;e_nation_selected = ""
+;e_report = ""
+;e_revolt_done = ""
+;e_revolt_start = ""
+;e_setting = ""
+;e_spaceship = ""
+;e_tech_embassy = ""
+;e_tech_gain = ""
+;e_tech_goal = ""
+;e_tech_learned = ""
+;e_tech_lost = ""
+;e_treaty_alliance = ""
+;e_treaty_broken = ""
+;e_treaty_ceasefire = ""
+;e_treaty_embassy = ""
+;e_treaty_peace = ""
+;e_treaty_shared_vision = ""
+;e_turn_bell = ""
+;e_script = ""
+e_tech_gain = "freesounds/events/e_tech_learned-36161.ogg"
+e_tech_learned = "freesounds/events/e_tech_learned-36161.ogg"
+e_treaty_alliance = "freesounds/events/e_treaty-56393.ogg"
+e_treaty_broken = "freesounds/events/e_treaty-56393.ogg"
+e_treaty_ceasefire = "freesounds/events/e_treaty-56393.ogg"
+e_treaty_embassy = "freesounds/events/e_treaty-56393.ogg"
+e_treaty_peace = "freesounds/events/e_treaty-56393.ogg"
+e_treaty_shared_vision = "freesounds/events/e_treaty-56393.ogg"
+e_turn_bell = "freesounds/events/e_turn_bell-9743.ogg"
+;e_unit_became_vet = ""
+;e_unit_built = ""
+;e_unit_built_pop_cost = ""
+;e_unit_buy = ""
+;e_unit_lost_def = ""
+;e_unit_lost_att = ""
+;e_unit_lost_misc = ""
+;e_unit_orders = ""
+;e_unit_relocated = ""
+;e_unit_upgraded = ""
+;e_unit_win = ""
+;e_unit_win_att = ""
+;e_unit_did_expel = ""
+;e_unit_was_expelled = ""
+;e_my_unit_did_heal = ""
+;e_my_unit_was_healed = ""
+;e_uprising = ""
+;e_disaster = ""
+;e_achievement = ""
+;e_multiplier = ""
+;e_vote_new = ""
+;e_vote_resolved = ""
+;e_vote_aborted = ""
+e_wonder_build = "freesounds/events/e_wonder_build-64602.ogg"
+;e_wonder_obsolete = ""
+;e_wonder_started = ""
+;e_wonder_stopped = ""
+;e_wonder_will_be_built = ""
+;e_worklist = ""
+;e_unit_illegal_action = ""
+
+; Those pseudo-events are only used in the sound system.
+;e_game_quit = ""
+;e_player_wake =
