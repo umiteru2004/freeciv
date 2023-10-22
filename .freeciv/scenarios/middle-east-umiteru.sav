@@ -195,9 +195,9 @@ government={"name","changes"
 [map]
 have_huts=FALSE
 have_resources=FALSE
-t0000="phmhpppppppppppphhhhhhhppphhhppppp ::: iiiiiiiiiii"
-t0001="ppphhhppppdhhhhhhhhhhhhhhpppppppp  :::  iiiiiiiiii"
-t0002="phpdphpddh+mmmhhpphhhhh++hhhhpppp ::::: iiiiiiiiii"
+t0000="phmhpppppppppppphhhhhhhpppiiiiiiii ::: iiiiiiiiiii"
+t0001="ppphhhppppdhhhhhhhhhhhhhhppiiiiii  :::  iiiiiiiiii"
+t0002="phpdphpddh+mmmhhpphhhhh++hhhhppii ::::: iiiiiiiiii"
 t0003="phmhdpd+hmhmmhppppphphhhhmm+hhhhp   ::: iiiiiiiiii"
 t0004=" pmmhdpphmmhppppp+pdhmmhpphm+hhhhpp  :  iipphhiiii"
 t0005="  phmhppmhpppp pppdddhhhhhhhhmmmhhhp   ppphhmmmmii"
