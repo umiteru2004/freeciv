@@ -2,7 +2,7 @@
 [scenario]
 game_version=3000800
 is_scenario=TRUE
-name=_("うみてるの中東")
+name=_("うみてるのオリエント")
 authors=_("Map: Umiteru, Christian Grothoff, Jerzy Klek, Mateusz Stefek, Daniel Markstedt, Daniel Gudlat\nOthers: Umiteru")
 description=_("https://drive.google.com/drive/folders/1-t6FXqfDbPGnH8ecs0KCmEy3CHiv4CKa?usp=sharing\n内該当ファイルをご覧ください。")
 save_random=FALSE
