@@ -2,8 +2,8 @@
 [scenario]
 game_version=3000800
 is_scenario=TRUE
-name=_("うみてるの")
-authors=_("Map: Umiteru\nOthers: Umiteru")
+name=_("うみてるの日本")
+authors=_("Umiteru")
 description=_("https://drive.google.com/drive/folders/1-t6FXqfDbPGnH8ecs0KCmEy3CHiv4CKa?usp=sharing\n内該当ファイルをご覧ください。")
 save_random=FALSE
 players=FALSE
@@ -63,8 +63,8 @@ meta_server="https://meta.freeciv.org/metaserver.php"
 id=""
 serverid=""
 level="Cheating"
-phase_mode="Teams Alternate"
-phase_mode_stored="Teams Alternate"
+phase_mode="Concurrent"
+phase_mode_stored="Concurrent"
 phase=0
 scoreturn=19
 timeoutint=0
@@ -81,8 +81,8 @@ warminglevel=5
 nuclearwinter=0
 cooling=0
 coolinglevel=5
-random_seed=625914423
-global_advances="1010000001100000000000000000000000000000000000100000000000000000000000000000000000000000"
+random_seed=0
+global_advances="1010000001000000000000000000000000000000000000100000000000000000000000000000000000000010"
 last_turn_change_time=0
 save_players=FALSE
 save_known=FALSE
@@ -108,7 +108,7 @@ set={"name","value","gamestart"
 "diplgoldcost",0,0
 "diplomacy","AI","AI"
 "dispersion",0,0
-"endturn",450,450
+"endturn",1000,1000
 "flatpoles",0,0
 "foggedborders",TRUE,TRUE
 "fogofwar",TRUE,TRUE
@@ -116,12 +116,12 @@ set={"name","value","gamestart"
 "freecost",0,0
 "fulltradesize",1,1
 "gameseed",0,0
-"generator","SCENARIO","SCENARIO"
+"generator","SCENARIO","FRACTAL"
 "globalwarming",TRUE,TRUE
 "globalwarming_percent",100,100
 "gold",50,50
 "happyborders","NATIONAL","NATIONAL"
-"huts",0,0
+"huts",15,15
 "killcitizen",TRUE,TRUE
 "killstack",TRUE,TRUE
 "killunhomed",0,0
@@ -135,13 +135,12 @@ set={"name","value","gamestart"
 "nuclearwinter",TRUE,TRUE
 "nuclearwinter_percent",100,100
 "occupychance",100,100
-"phasemode","TEAM","TEAM"
 "plrcolormode","PLR_ORDER","PLR_ORDER"
 "rapturedelay",1,1
 "razechance",10,10
-"revealmap","START","START"
+"revealmap","",""
 "revolentype","RANDQUICK","RANDQUICK"
-"sciencebox",100,100
+"sciencebox",200,200
 "separatepoles",TRUE,TRUE
 "shieldbox",100,100
 "singlepole",FALSE,FALSE
@@ -161,9 +160,9 @@ set={"name","value","gamestart"
 "techlost_recv",0,0
 "techpenalty",100,100
 "temperature",60,60
-"tilesperplayer",125,125
+"tilesperplayer",93,93
 "tinyisles",TRUE,TRUE
-"topology","",""
+"topology","WRAPX","WRAPX"
 "trade_revenue_style","CLASSIC","CLASSIC"
 "trademindist",9,9
 "tradeworldrelpct",50,50
@@ -176,7 +175,7 @@ set={"name","value","gamestart"
 "xsize",50,50
 "ysize",50,50
 }
-set_count=80
+set_count=79
 gamestart_valid=TRUE
 
 [ruledata]
