@@ -2,7 +2,7 @@
 [scenario]
 game_version=3000800
 is_scenario=TRUE
-name=_("うみてるのオリエント")
+name=_("うみてるの中東")
 authors=_("Map: Umiteru, Christian Grothoff, Jerzy Klek, Mateusz Stefek, Daniel Markstedt, Daniel Gudlat\nOthers: Umiteru")
 description=_("https://drive.google.com/drive/folders/1-t6FXqfDbPGnH8ecs0KCmEy3CHiv4CKa?usp=sharing\n内該当ファイルをご覧ください。")
 save_random=FALSE
@@ -116,12 +116,12 @@ set={"name","value","gamestart"
 "freecost",0,0
 "fulltradesize",1,1
 "gameseed",0,0
-"generator","SCENARIO","SCENARIO"
+"generator","SCENARIO","FRACTAL"
 "globalwarming",TRUE,TRUE
 "globalwarming_percent",100,100
 "gold",50,50
 "happyborders","NATIONAL","NATIONAL"
-"huts",0,0
+"huts",15,15
 "killcitizen",TRUE,TRUE
 "killstack",TRUE,TRUE
 "killunhomed",0,0
@@ -135,11 +135,10 @@ set={"name","value","gamestart"
 "nuclearwinter",TRUE,TRUE
 "nuclearwinter_percent",100,100
 "occupychance",100,100
-"phasemode","TEAM","TEAM"
 "plrcolormode","PLR_ORDER","PLR_ORDER"
 "rapturedelay",1,1
 "razechance",10,10
-"revealmap","START","START"
+"revealmap","",""
 "revolentype","RANDQUICK","RANDQUICK"
 "sciencebox",100,100
 "separatepoles",TRUE,TRUE
@@ -176,7 +175,7 @@ set={"name","value","gamestart"
 "xsize",50,50
 "ysize",50,50
 }
-set_count=80
+set_count=79
 gamestart_valid=TRUE
 
 [ruledata]
