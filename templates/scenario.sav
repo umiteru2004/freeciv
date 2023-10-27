@@ -130,7 +130,6 @@ set={"name","value","gamestart"
 "mapsize","XYSIZE","XYSIZE"
 "minplayers",1,1
 "multiresearch",FALSE,FALSE
-"nationset","all","all"
 "notradesize",0,0
 "nuclearwinter",TRUE,TRUE
 "nuclearwinter_percent",100,100
@@ -176,7 +175,7 @@ set={"name","value","gamestart"
 "xsize",50,50
 "ysize",50,50
 }
-set_count=80
+set_count=79
 gamestart_valid=TRUE
 
 [ruledata]
