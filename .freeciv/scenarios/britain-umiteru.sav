@@ -63,8 +63,8 @@ meta_server="https://meta.freeciv.org/metaserver.php"
 id=""
 serverid=""
 level="Cheating"
-phase_mode="Teams Alternate"
-phase_mode_stored="Teams Alternate"
+phase_mode="Concurrent"
+phase_mode_stored="Concurrent"
 phase=0
 scoreturn=19
 timeoutint=0
@@ -262,12 +262,12 @@ startpos_count=8
 startpos={"x","y","exclude","nations"
 37,38,FALSE,"English"
 25,37,FALSE,"Welsh"
-30,18,FALSE,"Scottish"
+28,13,FALSE,"Scottish"
 19,28,FALSE,"Irish"
 25,3,FALSE,"Viking"
 11,31,FALSE,"Norman"
 37,28,FALSE,"Briton"
-21,14,FALSE,"Pictish"
+24,22,FALSE,"Pictish"
 }
 e00_0000="00000000000000000000000000000000000000000000000000"
 e00_0001="00000000000000000000000000000000000000000000000000"
