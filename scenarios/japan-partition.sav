@@ -2,7 +2,7 @@
 [scenario]
 game_version=3010200
 is_scenario=TRUE
-name=_("うみてるの日本分割統治計画")
+name=_("日本の分割統治計画")
 authors=_("Umiteru")
 description=_("https://drive.google.com/drive/folders/11knoTEs90da0yN1jzLwd7ik53KW0R6kk?usp=sharing\n内該当ファイルをご覧ください。")
 save_random=FALSE
