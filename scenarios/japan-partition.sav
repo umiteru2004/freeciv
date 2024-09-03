@@ -146,6 +146,7 @@ set={"name","value","gamestart","gamesetdef"
 "razechance",10,10,"Changed"
 "revealmap","","","Changed"
 "revolentype","RANDQUICK","RANDQUICK","Changed"
+"savename","freeciv-ja-partition","freeciv-ja-partition","Changed"
 "sciencebox",150,150,"Changed"
 "separatepoles",TRUE,TRUE,"Changed"
 "shieldbox",100,100,"Changed"
@@ -180,7 +181,7 @@ set={"name","value","gamestart","gamesetdef"
 "xsize",80,80,"Changed"
 "ysize",80,80,"Changed"
 }
-set_count=82
+set_count=83
 gamestart_valid=TRUE
 
 [ruledata]
