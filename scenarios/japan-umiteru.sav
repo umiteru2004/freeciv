@@ -4,7 +4,7 @@ game_version=3000800
 is_scenario=TRUE
 name=_("うみてるの日本")
 authors=_("Umiteru")
-description=_("https://drive.google.com/drive/folders/11knoTEs90da0yN1jzLwd7ik53KW0R6kk?usp=sharing\n内該当ファイルをご覧ください。")
+description=_("https://github.com/umiteru2004/freeciv/tree/develop/readme\n内該当ファイルをご覧ください。")
 save_random=FALSE
 players=FALSE
 startpos_nations=TRUE
