@@ -111,6 +111,7 @@ set={"name","value","gamestart","gamesetdef"
 "diplomacy","ALL","ALL","Changed"
 "dispersion",0,0,"Changed"
 "endturn",400,400,"Changed"
+"first_timeout",120,120,"Changed"
 "flatpoles",0,0,"Changed"
 "foggedborders",TRUE,TRUE,"Changed"
 "fogofwar",TRUE,TRUE,"Changed"
@@ -148,6 +149,7 @@ set={"name","value","gamestart","gamesetdef"
 "revolentype","RANDQUICK","RANDQUICK","Changed"
 "savename","freeciv-ja-partition","freeciv-ja-partition","Changed"
 "sciencebox",150,150,"Changed"
+"scorelog",TRUE,FALSE,"Changed"
 "separatepoles",TRUE,TRUE,"Changed"
 "shieldbox",100,100,"Changed"
 "singlepole",FALSE,FALSE,"Changed"
@@ -167,6 +169,7 @@ set={"name","value","gamestart","gamesetdef"
 "techpenalty",100,100,"Changed"
 "temperature",60,60,"Changed"
 "tilesperplayer",240,240,"Changed"
+"timeout",40,40,"Changed"
 "tinyisles",TRUE,TRUE,"Changed"
 "topology","WRAPX","WRAPX","Changed"
 "trade_revenue_style","CLASSIC","CLASSIC","Changed"
@@ -181,7 +184,7 @@ set={"name","value","gamestart","gamesetdef"
 "xsize",80,80,"Changed"
 "ysize",80,80,"Changed"
 }
-set_count=83
+set_count=86
 gamestart_valid=TRUE
 
 [ruledata]
