@@ -1439,6 +1439,22 @@ reqs    =
       "Gov", "Democracy", "Player", FALSE
     }
 
+[effect_rapture_grow_0]
+type    = "Rapture_Grow"
+value   = 3
+reqs	=
+    { "type",       "name",      "range"
+      "Gov", "Republic",  "Player"
+    }
+
+[effect_rapture_grow_1]
+type    = "Rapture_Grow"
+value   = 3
+reqs	=
+    { "type",       "name",      "range"
+      "Gov", "Democracy", "Player"
+    }
+
 ; Railroad because makes Pyramids obsolete
 [effect_gov_tile_penalty_anarchy]
 type    = "Output_Penalty_Tile"
