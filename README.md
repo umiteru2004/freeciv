@@ -1,2 +1,2 @@
 # freeciv
-うみてるのFreecivファイル
+うみてるのFreeciv関連ファイル
