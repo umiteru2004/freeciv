@@ -108,14 +108,13 @@ set={"name","value","gamestart","gamesetdef"
 "sciencebox",180,180,"Changed"
 "scorefile","freeciv-score-ja-part.log","freeciv-score-ja-part.log","Changed"
 "scorelog",TRUE,FALSE,"Changed"
-"techlevel",0,0,"Changed"
 "timeout",60,60,"Changed"
 "topology","WRAPX","WRAPX","Changed"
 "victories","ALLIED","ALLIED","Changed"
 "xsize",80,80,"Changed"
 "ysize",80,80,"Changed"
 }
-set_count=17
+set_count=16
 gamestart_valid=TRUE
 
 [ruledata]
