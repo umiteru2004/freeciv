@@ -1,6 +1,6 @@
 
 [scenario]
-game_version=3000800
+game_version=3010200
 is_scenario=TRUE
 name=_("うみてるのブリテン諸島")
 authors=_("Map: Umiteru, Martin McMahon, Daniel Markstedt\nOthers: Umiteru")
@@ -13,20 +13,20 @@ ruleset_locked=TRUE
 
 [savefile]
 options=" +version3"
-version=40
+version=50
 reason="Scenario"
-revision="3.0.8"
+revision="3.1.2"
 rulesetdir="civ2civ3"
 improvement_size=73
 improvement_vector="Airport","Aqueduct","Aqueduct, Lake","Aqueduct, River","Bank","Barracks","Barracks II","Barracks III","Cathedral","City Walls","Coastal Defense","Colosseum","Courthouse","Factory","Granary","Harbour","Hydro Plant","Library","Marketplace","Mass Transit","Mfg. Plant","Nuclear Plant","Offshore Platform","Palace","Ecclesiastical Palace","Police Station","Port Facility","Power Plant","Recycling Center","Research Lab","SAM Battery","SDI Defense","Sewer System","Solar Plant","Space Component","Space Module","Space Structural","Stock Exchange","Super Highways","Supermarket","Temple","University","Apollo Program","A.Smith's Trading Co.","Colossus","Copernicus' Observatory","Cure For Cancer","Darwin's Voyage","Eiffel Tower","Great Library","Great Wall","Hanging Gardens","Hoover Dam","Isaac Newton's College","J.S. Bach's Cathedral","King Richard's Crusade","Leonardo's Workshop","Lighthouse","Magellan's Expedition","Manhattan Project","Marco Polo's Embassy","Michelangelo's Chapel","Mausoleum of Mausolos","Statue of Zeus","Temple of Artemis","Pyramids","Internet","Shakespeare's Theatre","Statue of Liberty","Sun Tzu's War Academy","United Nations","Women's Suffrage","Coinage"
 technology_size=88
 technology_vector="A_NONE","Advanced Flight","Alphabet","Amphibious Warfare","Astronomy","Atomic Theory","Automobile","Banking","Bridge Building","Bronze Working","Ceremonial Burial","Chemistry","Chivalry","Code of Laws","Combined Arms","Combustion","Communism","Computers","Conscription","Construction","Currency","Democracy","Economics","Electricity","Electronics","Engineering","Environmentalism","Espionage","Explosives","Feudalism","Flight","Fusion Power","Genetic Engineering","Guerilla Warfare","Gunpowder","Horseback Riding","Industrialization","Invention","Iron Working","Labor Union","Laser","Leadership","Literacy","Machine Tools","Magnetism","Map Making","Masonry","Mass Production","Mathematics","Medicine","Metallurgy","Miniaturization","Mobile Warfare","Monarchy","Monotheism","Mysticism","Navigation","Nuclear Fission","Nuclear Power","Philosophy","Physics","Plastics","Polytheism","Pottery","Radio","Railroad","Recycling","Refining","Refrigeration","Robotics","Rocketry","Sanitation","Seafaring","Space Flight","Stealth","Steam Engine","Steel","Superconductors","Tactics","The Corporation","The Republic","The Wheel","Theology","Theory of Gravity","Trade","University","Warrior Code","Writing"
-activities_size=21
-activities_vector="Idle","Pollution","Unused Road","Mine","Irrigate","Fortified","Fortress","Sentry","Unused Railroad","Pillage","Goto","Explore","Transform","Unused","Unused Airbase","Fortifying","Fallout","Unused Patrol","Base","Road","Convert"
+activities_size=23
+activities_vector="Idle","Pollution","Unused Road","Mine","Irrigate","Fortified","Fortress","Sentry","Unused Railroad","Pillage","Goto","Explore","Transform","Unused","Unused Airbase","Fortifying","Fallout","Unused Patrol","Base","Road","Convert","Cultivate","Plant"
 specialists_size=3
 specialists_vector="elvis","scientist","taxman"
-trait_size=3
-trait_vector="Expansionist","Trader","Aggressive"
+trait_size=4
+trait_vector="Expansionist","Trader","Aggressive","Builder"
 extras_size=38
 extras_vector="Irrigation","Mine","Oil Well","Oil Platform","Pollution","Hut","Farmland","Fallout","Fort","Fortress","Airstrip","Airbase","Buoy","Ruins","Road","Railroad","Maglev","River","Gold","Iron","Game","Furs","Coal","Fish","Fruit","Gems","Buffalo","Wheat","Oasis","Peat","Pheasant","Resources","Ivory","Silk","Spice","Whales","Wine","Oil"
 multipliers_size=0
@@ -34,10 +34,12 @@ diplstate_type_size=7
 diplstate_type_vector="Armistice","War","Cease-fire","Peace","Alliance","Never met","Team"
 city_options_size=3
 city_options_vector="Disband","Sci_Specialists","Tax_Specialists"
-action_size=44
-action_vector="Establish Embassy","Establish Embassy Stay","Investigate City","Investigate City Spend Unit","Poison City","Poison City Escape","Steal Gold","Steal Gold Escape","Sabotage City","Sabotage City Escape","Targeted Sabotage City","Targeted Sabotage City Escape","Steal Tech","Steal Tech Escape Expected","Targeted Steal Tech","Targeted Steal Tech Escape Expected","Incite City","Incite City Escape","Establish Trade Route","Enter Marketplace","Help Wonder","Bribe Unit","Sabotage Unit","Sabotage Unit Escape","Capture Units","Found City","Join City","Steal Maps","Steal Maps Escape","Bombard","Suitcase Nuke","Suitcase Nuke Escape","Explode Nuclear","Destroy City","Expel Unit","Recycle Unit","Disband Unit","Home City","Upgrade Unit","Paradrop Unit","Airlift Unit","Attack","Conquer City","Heal Unit"
+action_size=106
+action_vector="Establish Embassy","Establish Embassy Stay","Investigate City","Investigate City Spend Unit","Poison City","Poison City Escape","Steal Gold","Steal Gold Escape","Sabotage City","Sabotage City Escape","Targeted Sabotage City","Targeted Sabotage City Escape","Sabotage City Production","Sabotage City Production Escape","Steal Tech","Steal Tech Escape Expected","Targeted Steal Tech","Targeted Steal Tech Escape Expected","Incite City","Incite City Escape","Establish Trade Route","Enter Marketplace","Help Wonder","Bribe Unit","Capture Units","Sabotage Unit","Sabotage Unit Escape","Found City","Join City","Steal Maps","Steal Maps Escape","Suitcase Nuke","Suitcase Nuke Escape","Explode Nuclear","Nuke City","Nuke Units","Destroy City","Expel Unit","Disband Unit Recover","Disband Unit","Home City","Unit Make Homeless","Upgrade Unit","Convert Unit","Airlift Unit","Attack","Suicide Attack","Surgical Strike Building","Surgical Strike Production","Conquer City","Conquer City 2","Conquer City 3","Conquer City 4","Bombard","Bombard 2","Bombard 3","Fortify","Cultivate","Plant","Transform Terrain","Build Road","Build Irrigation","Build Mine","Build Base","Pillage","Clean Pollution","Clean Fallout","Transport Board","Transport Alight","Transport Embark","Transport Embark 2","Transport Embark 3","Transport Disembark","Transport Disembark 2","Transport Disembark 3","Transport Disembark 4","Transport Unload","Spread Plague","Spy Attack","Conquer Extras","Conquer Extras 2","Conquer Extras 3","Conquer Extras 4","Enter Hut","Enter Hut 2","Enter Hut 3","Enter Hut 4","Frighten Hut","Frighten Hut 2","Frighten Hut 3","Frighten Hut 4","Heal Unit","Heal Unit 2","Paradrop Unit","Paradrop Unit Conquer","Paradrop Unit Frighten","Paradrop Unit Frighten Conquer","Paradrop Unit Enter","Paradrop Unit Enter Conquer","Unit Move","Unit Move 2","Unit Move 3","User Action 1","User Action 2","User Action 3","User Action 4"
 action_decision_size=3
 action_decision_vector="nothing","passive","active"
+server_side_agent_size=3
+server_side_agent_list="None","Autosettlers","Autoexplore"
 terrident={"name","identifier"
 "Inaccessible","i"
 "Lake","+"
@@ -85,6 +87,7 @@ random_seed=0
 global_advances="1010000001100000000000000000000000000000000000100000000000000000000000000000000000000000"
 last_turn_change_time=0
 save_players=FALSE
+ai_types="classic","tex"
 save_known=FALSE
 
 [random]
@@ -94,88 +97,25 @@ saved=FALSE
 vars=$$
 
 [settings]
-set={"name","value","gamestart"
-"aifill",8,8
-"alltemperate",FALSE,FALSE
-"animals",20,20
-"aqueductloss",0,0
-"borders","ENABLED","ENABLED"
-"caravan_bonus_style","CLASSIC","CLASSIC"
-"citymindist",3,3
-"citynames","PLAYER_UNIQUE","PLAYER_UNIQUE"
-"conquercost",0,0
-"diplbulbcost",0,0
-"diplgoldcost",0,0
-"diplomacy","AI","AI"
-"dispersion",0,0
-"endturn",450,450
-"flatpoles",0,0
-"foggedborders",TRUE,TRUE
-"fogofwar",TRUE,TRUE
-"foodbox",100,100
-"freecost",0,0
-"fulltradesize",1,1
-"gameseed",0,0
-"generator","SCENARIO","FRACTAL"
-"globalwarming",TRUE,TRUE
-"globalwarming_percent",100,100
-"gold",50,50
-"happyborders","NATIONAL","NATIONAL"
-"huts",15,15
-"killcitizen",TRUE,TRUE
-"killstack",TRUE,TRUE
-"killunhomed",0,0
-"landmass",30,30
-"mapseed",0,0
-"mapsize","XYSIZE","XYSIZE"
-"minplayers",1,1
-"multiresearch",FALSE,FALSE
-"nationset","all","all"
-"notradesize",0,0
-"nuclearwinter",TRUE,TRUE
-"nuclearwinter_percent",100,100
-"occupychance",100,100
-"plrcolormode","PLR_ORDER","PLR_ORDER"
-"rapturedelay",1,1
-"razechance",10,10
-"revealmap","",""
-"revolentype","RANDQUICK","RANDQUICK"
-"sciencebox",100,100
-"separatepoles",TRUE,TRUE
-"shieldbox",100,100
-"singlepole",FALSE,FALSE
-"size",3,3
-"specials",250,250
-"startcity",FALSE,FALSE
-"startpos","ALL","ALL"
-"startunits","cwsx","cwsx"
-"steepness",30,30
-"team_pooled_research",TRUE,TRUE
-"teamplacement","CLOSEST","CLOSEST"
-"techleak",100,100
-"techlevel",1,1
-"techlossforgiveness",0,0
-"techlossrestore",50,50
-"techlost_donor",0,0
-"techlost_recv",0,0
-"techpenalty",100,100
-"temperature",60,60
-"tilesperplayer",125,125
-"tinyisles",TRUE,TRUE
-"topology","",""
-"trade_revenue_style","CLASSIC","CLASSIC"
-"trademindist",9,9
-"tradeworldrelpct",50,50
-"trading_city",TRUE,TRUE
-"trading_gold",TRUE,TRUE
-"trading_tech",TRUE,TRUE
-"traitdistribution","FIXED","FIXED"
-"victories","ALLIED","ALLIED"
-"wetness",50,50
-"xsize",50,50
-"ysize",50,50
+set={"name","value","gamestart","gamesetdef"
+"aifill",8,8,"Changed"
+"endturn",300,300,"Changed"
+"first_timeout",120,120,"Changed"
+"generator","SCENARIO","SCENARIO","Changed"
+"mapsize","XYSIZE","XYSIZE","Changed"
+"nationset","all","all","Changed"
+"persistentready","CONNECTED","CONNECTED","Changed"
+"savename","britain-umi","britain-umi","Changed"
+"sciencebox",150,150,"Changed"
+"scorefile","freeciv-score-britain-umi.log","freeciv-score-britain-umi.log","Changed"
+"scorelog",TRUE,TRUE,"Changed"
+"timeout",60,60,"Changed"
+"topology","WRAPX","WRAPX","Changed"
+"victories","ALLIED","ALLIED","Changed"
+"xsize",50,50,"Changed"
+"ysize",50,50,"Changed"
 }
-set_count=79
+set_count=16
 gamestart_valid=TRUE
 
 [ruledata]
