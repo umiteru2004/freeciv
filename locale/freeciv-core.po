@@ -16636,6 +16636,9 @@ msgstr "建設可能となる条件:\n"
 msgid "Requires"
 msgstr "必要な科学技術: "
 
+msgid "?terrainclass:Requires %s terrain on the tile."
+msgstr "%sタイルである必要があります。"
+
 msgid "Requires knowledge of the technology %s."
 msgstr "「%s」の研究を完了している必要があります。"
 
