@@ -1211,6 +1211,9 @@ msgstr " 生産"
 msgid " Specialists"
 msgstr " 専門家"
 
+msgid " Resources"
+msgstr " 特産物"
+
 msgid " Terrain Alterations"
 msgstr " タイルの開発"
 
@@ -4118,6 +4121,9 @@ msgstr "｢%s｣を建設することができるようになります。"
 msgid "?improvement:Prevents %s."
 msgstr "｢%s｣を建設することができなくなります。"
 
+msgid "?extra:Prevents %s."
+msgstr "｢%s｣を建設することができなくなります。"
+
 msgid "?improvement:You bought %s in %s."
 msgstr "%2$sで%1$sを購入しました。"
 
@@ -5637,6 +5643,9 @@ msgstr ""
 msgid "Allows cities to build Harbors and coastal wonders."
 msgstr ""
 "この地形に隣接する都市でのみ建設できる建造物・不思議があります (「港」など)。"
+
+msgid "No units can fortify on this terrain."
+msgstr "この地形で防御体制をとることはできません。"
 
 msgid "Allows establishing one more trade route from each city."
 msgstr "・各都市で交易路の最大本数が+1増加します。"
@@ -9073,6 +9082,9 @@ msgid ""
 "difficult."
 msgstr "砂漠は極端に乾燥した地帯です。農業や交易を行うのは非常に難しいです。"
 
+msgid "Deserts can be irrigated for a small amount of extra food, but without an oasis or river, bare desert cannot be further improved with farmland."
+msgstr "砂漠は灌漑によって少量の食料を得ることができますが，オアシスや川のない砂漠タイルに農地を建設することはできません。"
+
 msgid "Despot %s"
 msgstr "デスポテース %s"
 
@@ -12295,6 +12307,10 @@ msgstr "建造物: %s"
 
 msgid "Improvements"
 msgstr "建造物"
+
+msgid ""
+"Improvements can be built by issuing one of several orders to a suitable unit while on a suitable tile: \"mine\", \"irrigate\", \"road\", or \"build base\" (although whether the order builds an improvement of the same name is up to the ruleset). Terrain alterations can also be requested from the city map (see the help on Cities)."
+msgstr "\"鉱山施設を建設する\"，\"灌漑を行う\"，\"道路を敷設する\"，\"基地を建設する\" のいずれかの命令を，適切なタイル上にいる適切なユニットに与えることで，インフラを建設することができます（ただし，その命令が同じ名前のインフラを建設するかどうかはルールセット次第です）。地形の変更は都市マップからも命令することができます(都市に関するヘルプを参照)。"
 
 msgid "Improvements in City"
 msgstr "都市の建造物"
@@ -16620,6 +16636,9 @@ msgstr "建設可能となる条件:\n"
 msgid "Requires"
 msgstr "必要な科学技術: "
 
+msgid "Requires knowledge of the technology %s."
+msgstr "「%s」の研究を完了している必要があります。"
+
 msgid "Research"
 msgstr "研究"
 
@@ -18673,6 +18692,9 @@ msgstr ""
 "*** これはベータ版です ***\n"
 "Freeciv %s は %s に %s で公開される予定です。"
 
+msgid "Tiles can have natural resources in addition to their base terrain."
+msgstr "タイルは基本地形に加えて特産物を持つことができます。"
+
 msgid ""
 "TIP 1:  Nuking the ocean will not generate fallout, and is a most effective "
 "(but expensive!!) way of getting rid of enemy ships."
@@ -18991,6 +19013,11 @@ msgstr "アルテミス神殿"
 
 msgid "Terrain"
 msgstr "地形"
+
+msgid ""
+"Terrain       Cultivate        Plant            Transform\n"
+msgstr ""
+"地形          開墾              植林              地形改造\n"
 
 msgid ""
 "Terrain       Time     Bonus F/P/T\n"
@@ -25330,6 +25357,9 @@ msgstr "唯一の一致"
 
 msgid "or"
 msgstr "あるいは"
+
+msgid "Other Resources"
+msgstr "他の特産物"
 
 msgid "other vote running"
 msgid_plural "other votes running"
