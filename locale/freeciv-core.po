@@ -190,6 +190,11 @@ msgstr ""
 "ば(あるいはAIであれば)，外交メニューが開きます。"
 
 msgid ""
+"    In this dialog you can negotiate an exchange of assets (maps, vision, advances, cities, or gold), embassies, or binding pacts such as a cease-fire or peace.  There is no need to trade like for like; you can trade, say, an advance or city for gold - you can consider this buying and selling.  Each player builds a list of offered items.  To remove an item from the list, double-click on it.  When both players indicate satisfaction, the pact is concluded."
+msgstr ""
+"    このダイアログでは、資産（地図、科学技術、都市、視界、金）の交換、大使館の交換、停戦や和平のような拘束力のある協定の締結を交渉することができます。常に同種のものを交換する必要はありません。例えば、科学技術や都市を金と交換することができます。各プレーヤーは条項のリストを作成します。リストから条項を削除するには、その条項をダブルクリックします。両プレイヤーが条約に調印すれば、条約は成立します。"
+
+msgid ""
 "    If you move all of your citizens into the city and right-click on the "
 "central tile of the land, the citizens will be rearranged to maximize food "
 "production."
