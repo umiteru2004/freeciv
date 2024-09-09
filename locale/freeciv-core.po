@@ -3871,6 +3871,12 @@ msgstr "自国に受け入れ"
 msgid "?embassy:Yes"
 msgstr "先方に設置"
 
+msgid "?extra:Mine"
+msgstr "鉱山"
+
+msgid "?extra:Pollution"
+msgstr "公害"
+
 msgid "?female:%s Ensi"
 msgstr "%s エンシ"
 
