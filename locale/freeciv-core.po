@@ -3929,14 +3929,23 @@ msgstr ""
 "「%s」を建設することができるようになります。（ただし、%sが必要で、%sのあるタ"
 "イルには建設できません。）"
 
+msgid "?extra:Allows %s (with %s)."
+msgstr "｢%s｣を建設することができるようになります（ただし%sが必要です）。"
+
 msgid "?extra:Mine"
 msgstr "鉱山"
 
 msgid "?extra:Pollution"
 msgstr "公害"
 
+msgid "?extra:Prevented by %s on the tile."
+msgstr "%sがあるタイルには建設できません"
+
 msgid "?extra:Prevents %s."
 msgstr "｢%s｣を建設することができなくなります。"
+
+msgid "?extra:Requires %s on the tile."
+msgstr "タイルに「%s」が必要です。"
 
 msgid "?female:%s Ensi"
 msgstr "%s エンシ"
@@ -5012,6 +5021,14 @@ msgstr "いいかげんに名付けられた都市"
 
 msgid "A poorly-named player"
 msgstr "いいかげんな名前のプレイヤー"
+
+msgid ""
+"A railroad also increases any shield resources produced by a tile by half. A "
+"tile whose road is upgraded to a railroad retains any trade bonus from the "
+"road as well."
+msgstr ""
+"鉄道はまた、タイルが産出する生産ポイントを50%増加させます。道路が鉄道にアップ"
+"グレードされたタイルは、道路からの交易ボーナスも保持します。"
 
 msgid "A replacement %s was built in %s."
 msgstr " %sを %sに移しました。"
@@ -14986,7 +15003,7 @@ msgid "No unit can enter this terrain, nor can any city work its tiles."
 msgstr "ユニットは侵入できません。また市民が労働することもできません。"
 
 msgid "No units can fortify on this terrain."
-msgstr "この地形で防御体制をとることはできません。"
+msgstr "この地形で防御態勢をとることはできません。"
 
 msgid "No units could be upgraded."
 msgstr "新型にできるユニットがいません。"
@@ -15374,6 +15391,17 @@ msgid ""
 msgstr ""
 "科学技術｢石油精製｣の研究が完了すると，鉱山のある砂漠・氷河タイルに油井を建設"
 "できるようになります。シールド産出量が更に増加します。"
+
+msgid ""
+"Once Refrigeration is known, irrigation systems can be upgraded to farmland "
+"by irrigating them a second time; if the city working the tile has a "
+"Supermarket, a farmland tile provides 50% more food. (Hence, farmland is "
+"only useful on tiles which with irrigation yield 2 or more food.)"
+msgstr ""
+"冷蔵の研究が完了すると、灌漑されたタイルをもう一度灌漑することで、灌漑を農地"
+"にアップグレードすることができます。市民が農地タイルで働いている都市にスー"
+"パーマーケットがあれば、その農地タイルが産出する食料ポイントが50%増加します。"
+"(したがって、農地は灌漑によって2以上の食料を産出するタイルにのみ有効です。)"
 
 msgid ""
 "Once Refrigeration is known, irrigation systems can be upgraded to farmland "
@@ -22567,6 +22595,9 @@ msgstr ""
 "る場合は，そのユニットを解散することもできます。「生産」節を参照してくださ"
 "い。いくつかのユニット，特にゲーム開始時に持っているユニットは都市に所属しな"
 "いため，維持コストを必要としません。"
+
+msgid "Units can paradrop from this tile."
+msgstr "ユニットはこのタイルから落下傘降下できます。"
 
 msgid "Units inside borders cause no unhappiness"
 msgstr "領内の戦闘ユニットは不幸市民を発生させない"
