@@ -149,6 +149,15 @@ msgstr ""
 
 msgid ""
 "\n"
+"Time to build depends on terrain:\n"
+"\n"
+msgstr ""
+"\n"
+"建設に必要な作業時間は地形によって異なります:\n"
+"\n"
+
+msgid ""
+"\n"
 "Unclaimed territory"
 msgstr ""
 "\n"
@@ -4124,6 +4133,9 @@ msgstr "｢%s｣を建設することができなくなります。"
 msgid "?extra:Prevents %s."
 msgstr "｢%s｣を建設することができなくなります。"
 
+msgid "?extra:Allows %s (with %s but no %s)."
+msgstr "「%s」を建設することができるようになります。（ただし、%sが必要で、%sのあるタイルには建設できません。）"
+
 msgid "?improvement:You bought %s in %s."
 msgstr "%2$sで%1$sを購入しました。"
 
@@ -6808,6 +6820,9 @@ msgstr ""
 "ブイは海に建設でき，周辺海域を見渡すことができるようになります。作業はユニッ"
 "トを船舶に積載した上で行います。"
 
+msgid "Buoys may be built in the ocean by Transports (or by worker units on a sea-going vessel) to allow their owner to see the surrounding tiles."
+msgstr "ブイは輸送艦（または海上ユニットに積載された労働者ユニット）によって海上に建設されます。ブイの所有者は周辺海域を見渡すことができるようになります。"
+
 msgid ""
 "But beware! If you use the governor for some of your cities, you will "
 "encounter some difficulties with managing cities nearby, by hand. It's best "
@@ -9083,7 +9098,7 @@ msgid ""
 msgstr "砂漠は極端に乾燥した地帯です。農業や交易を行うのは非常に難しいです。"
 
 msgid "Deserts can be irrigated for a small amount of extra food, but without an oasis or river, bare desert cannot be further improved with farmland."
-msgstr "砂漠は灌漑によって少量の食料を得ることができますが，オアシスや川のない砂漠タイルに農地を建設することはできません。"
+msgstr "砂漠は灌漑によって少量の食料を得ることができますが、オアシスや川のない砂漠タイルに農地を建設することはできません。"
 
 msgid "Despot %s"
 msgstr "デスポテース %s"
@@ -9160,6 +9175,9 @@ msgstr "外交官/スパイ活動: %s"
 
 msgid "Diplomatic Message"
 msgstr "外交メッセージ"
+
+msgid "Diplomatic units get a 25% defense bonus in diplomatic fights."
+msgstr "外交ユニットは外交戦で25%の防御ボーナスを得ます。"
 
 msgid ""
 "Diplomats built under Communist or Federation governments will start at the "
@@ -12310,7 +12328,7 @@ msgstr "建造物"
 
 msgid ""
 "Improvements can be built by issuing one of several orders to a suitable unit while on a suitable tile: \"mine\", \"irrigate\", \"road\", or \"build base\" (although whether the order builds an improvement of the same name is up to the ruleset). Terrain alterations can also be requested from the city map (see the help on Cities)."
-msgstr "\"鉱山施設を建設する\"，\"灌漑を行う\"，\"道路を敷設する\"，\"基地を建設する\" のいずれかの命令を，適切なタイル上にいる適切なユニットに与えることで，インフラを建設することができます（ただし，その命令が同じ名前のインフラを建設するかどうかはルールセット次第です）。地形の変更は都市マップからも命令することができます(都市に関するヘルプを参照)。"
+msgstr "\"鉱山施設を建設する\"、\"灌漑を行う\"、\"道路を敷設する\"、\"基地を建設する\" のいずれかの命令を、適切なタイル上にいる適切なユニットに与えることで、インフラを建設することができます（ただし、その命令が同じ名前のインフラを建設するかどうかはルールセット次第です）。地形の変更は都市マップからも命令することができます(都市に関するヘルプを参照)。"
 
 msgid "Improvements in City"
 msgstr "都市の建造物"
@@ -19028,6 +19046,13 @@ msgid ""
 msgstr ""
 "地形          時間    ボーナス 食/生/交\n"
 "----------------------------------\n"
+
+msgid ""
+"Terrain       Time\n"
+"------------------\n"
+msgstr ""
+"地形          時間\n"
+"------------------\n"
 
 msgid "Terrain Defense Bonus: +%d%% "
 msgstr "地形防御ボーナス: +%d%% "
