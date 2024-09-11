@@ -2273,11 +2273,44 @@ msgstr "%s..."
 msgid "%s: Fatal error: you're trying to run me as superuser!\n"
 msgstr "%s: 致命的エラー: スーパーユーザーで起動しようとしています!\n"
 
+msgid "%sAdd to City%s"
+msgstr "都市に加わる"
+
+msgid "%sAirlift to City%s"
+msgstr "都市へ移動/空輸"
+
+msgid "%sBoard%s"
+msgstr "載せる"
+
 msgid "%sBribe Enemy Unit%s"
 msgstr "ユニットを買収する(%sB) %s"
 
+msgid "%sBuild Base%s"
+msgstr "基地を建設する"
+
+msgid "%sBuild City%s"
+msgstr "都市を建設する"
+
+msgid "%sDeboard%s"
+msgstr "降ろす"
+
+msgid "%sDisembark from non native%s"
+msgstr "侵入できないタイルから降りる"
+
+msgid "%sDisembark%s"
+msgstr "降りる"
+
+msgid "%sEmbark%s"
+msgstr "載る"
+
+msgid "%sFortify%s"
+msgstr "防御態勢"
+
 msgid "%sInvestigate City%s"
 msgstr "都市の調査(%sI) %s"
+
+msgid "%sKeep moving%s"
+msgstr "移動を続ける"
 
 msgid "%sPoison City%s"
 msgstr "水源の汚染(%sP) %s"
@@ -2287,6 +2320,9 @@ msgstr "ランダムな破壊工作(%sS)%s"
 
 msgid "%sSabotage Enemy Unit%s"
 msgstr "敵ユニットへの破壊工作(%sS) %s"
+
+msgid "%sUpgrade Unit%s"
+msgstr "新型にする"
 
 msgid "%sVote %d by %s: %s%s"
 msgstr "%s投票番号 %d(%s提案): %s%s"
@@ -5971,6 +6007,18 @@ msgstr "アポロ計画"
 msgid "Append Worklist"
 msgstr "作業リストを付け加える"
 
+msgid "Append to Battle Group 1"
+msgstr "バトルグループ1に追加"
+
+msgid "Append to Battle Group 2"
+msgstr "バトルグループ2に追加"
+
+msgid "Append to Battle Group 3"
+msgstr "バトルグループ3に追加"
+
+msgid "Append to Battle Group 4"
+msgstr "バトルグループ4に追加"
+
 msgid "Apply"
 msgstr "適用"
 
@@ -6132,6 +6180,18 @@ msgstr ""
 
 msgid "Ask"
 msgstr "ダイアログを開く"
+
+msgid "Assign Battle Group 1"
+msgstr "バトルグループ1を割り当て"
+
+msgid "Assign Battle Group 2"
+msgstr "バトルグループ2を割り当て"
+
+msgid "Assign Battle Group 3"
+msgstr "バトルグループ3を割り当て"
+
+msgid "Assign Battle Group 4"
+msgstr "バトルグループ4を割り当て"
 
 msgid "Astronomy"
 msgstr "天文学"
@@ -6422,6 +6482,9 @@ msgstr ""
 "民主政文明の軍隊は買収されません。敵外交官やスパイは都市の叛乱の煽動はできま"
 "せん。"
 
+msgid "Becom%se Ambassador%s"
+msgstr "大使館を設立する"
+
 msgid ""
 "Before a game is started, anyone can connect to the server by supplying its "
 "hostname and port number (5556 by default). If the server is started with "
@@ -6628,6 +6691,15 @@ msgstr "%sを建設する"
 
 msgid "Build %s (%s) %d %s"
 msgstr "%sを建設する(%s) %d%s"
+
+msgid "Build %sIrrigation%s"
+msgstr "灌漑施設を建設する"
+
+msgid "Build %sMine%s"
+msgstr "鉱山施設を建設する"
+
+msgid "Build %sRoad%s"
+msgstr "交通路の敷設"
 
 msgid "Build Airbase"
 msgstr "飛行場を建設する"
@@ -7984,6 +8056,9 @@ msgstr ""
 msgid "City _Names"
 msgstr "都市名(_N)"
 
+msgid "City _Production"
+msgstr "都市の生産物"
+
 msgid "City _Styles:"
 msgstr "建築様式(_S):"
 
@@ -8148,6 +8223,12 @@ msgstr "classicルールセット"
 
 msgid "Clean %s(%d)"
 msgstr "%sの除去(%d)"
+
+msgid "Clean %sFallout%s"
+msgstr "死の灰を除去する"
+
+msgid "Clean %sPollution%s"
+msgstr "公害を除去する"
 
 msgid "Clean Fallout"
 msgstr "死の灰の除去"
@@ -9278,6 +9359,12 @@ msgstr ""
 msgid "Director-President %s"
 msgstr "最高指導者 %s"
 
+msgid "Dis%sband recovering production%s"
+msgstr "生産ポイントを返却して解散"
+
+msgid "Dis%sband without recovering production%s"
+msgstr "生産ポイントを返却せずに解散"
+
 msgid "Disable"
 msgstr "無効にする"
 
@@ -9980,6 +10067,12 @@ msgstr ""
 
 msgid "English"
 msgstr "イングランド人"
+
+msgid "Enter %sHut from non native%s"
+msgstr "侵入できないタイルから小屋に入る"
+
+msgid "Enter %sHut%s"
+msgstr "小屋に入る"
 
 msgid "Enter %sMarketplace%s"
 msgstr "市場に参入する(%sM)%s"
@@ -11169,6 +11262,9 @@ msgstr "最も近い都市へ戻る"
 
 msgid "Go to Tile"
 msgstr "タイルへ移動する"
+
+msgid "Go to a_nd..."
+msgstr "移動してアクション"
 
 msgid "Go to/Airlift to City..."
 msgstr "都市へ移動/空輸"
@@ -12899,6 +12995,9 @@ msgstr "情報"
 
 msgid "Information Report"
 msgstr "情報報告"
+
+msgid "Infra dialog"
+msgstr "インフラダイアログ"
 
 msgid "Infrastructure: %1\n"
 msgstr "インフラ: %1\n"
@@ -15637,6 +15736,9 @@ msgstr "戦場の霧"
 msgid "Overview page"
 msgstr "概観ページ"
 
+msgid "P_aradrop"
+msgstr "落下傘降下"
+
 msgid "P_roduction"
 msgstr "生産物(_R)"
 
@@ -16482,6 +16584,9 @@ msgstr "鉄道"
 
 msgid "Raja %s"
 msgstr "ラージャ %s"
+
+msgid "Rally point dialog"
+msgstr "終結点ダイアログ"
 
 msgid "Random"
 msgstr "ランダム"
@@ -17359,6 +17464,18 @@ msgstr "選択"
 msgid "Select Advance to Steal"
 msgstr "盗む科学技術の選択"
 
+msgid "Select Battle Group 1"
+msgstr "バトルグループ1を選択"
+
+msgid "Select Battle Group 2"
+msgstr "バトルグループ2を選択"
+
+msgid "Select Battle Group 3"
+msgstr "バトルグループ3を選択"
+
+msgid "Select Battle Group 4"
+msgstr "バトルグループ4を選択"
+
 msgid "Select Improvement to Sabotage"
 msgstr "破壊対象の選択"
 
@@ -17533,6 +17650,9 @@ msgstr "サーバー: 間違ったアドレス: <%s:%d>"
 
 msgid "Set"
 msgstr "設定"
+
+msgid "Set %sHome City%s"
+msgstr "この都市に所属させる"
 
 msgid "Set Home City"
 msgstr "この都市に所属させる"
@@ -19108,7 +19228,7 @@ msgid "Terrain"
 msgstr "地形"
 
 msgid "Terrain       Cultivate        Plant            Transform\n"
-msgstr "地形          開墾              植林              地形改造\n"
+msgstr "地形          伐採              植栽              地形改造\n"
 
 msgid ""
 "Terrain       Time\n"
@@ -22163,6 +22283,12 @@ msgstr "地形改造"
 msgid "Transform Terrain"
 msgstr "地形を改造する"
 
+msgid "Transform by %sCultivating%s"
+msgstr "伐採する"
+
+msgid "Transform by %sPlanting%s"
+msgstr "植栽する"
+
 msgid "Transform to"
 msgstr "地形改造する"
 
@@ -22524,6 +22650,9 @@ msgstr "単一のユニット背景色           "
 
 msgid "Unit Spared by Barbarians"
 msgstr "ユニットがバーバリアンから危害を受けない"
+
+msgid "Unit Stack Size"
+msgstr "同じタイルにいるユニットの数"
 
 msgid "Unit Type"
 msgstr "ユニット名"
@@ -24723,6 +24852,9 @@ msgstr "自動開拓(_A)"
 msgid "_Bases"
 msgstr "基地(_B)"
 
+msgid "_Battle Groups"
+msgstr "バトルグループ(B)"
+
 msgid "_Both"
 msgstr "全空(_B)"
 
@@ -24746,6 +24878,9 @@ msgstr "チャットログの消去(_C)"
 
 msgid "_Combat"
 msgstr "戦闘(_C)"
+
+msgid "_Cultivate"
+msgstr "伐採する"
 
 msgid "_Demographics"
 msgstr "人口統計(_D)"
@@ -24926,6 +25061,9 @@ msgstr "パトロール(_P)"
 
 msgid "_Pillage"
 msgstr "略奪(_P)"
+
+msgid "_Plant"
+msgstr "植栽する"
 
 msgid "_Policies..."
 msgstr "社会政策(_P)"
