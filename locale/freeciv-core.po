@@ -4628,11 +4628,17 @@ msgstr "鉄道"
 msgid "?techhelp:"
 msgstr "｣も必要）"
 
+msgid "?terrain:Requires %s on the tile."
+msgstr "%sタイルである必要があります。"
+
 msgid "?terrainclass:Requires %s terrain on the tile."
 msgstr "%sタイルである必要があります。"
 
 msgid "?timeout:off"
 msgstr "無限"
+
+msgid "?ulist:Requires %s."
+msgstr "%sが必要です。"
 
 msgid "?unit:Leader"
 msgstr "指導者"
@@ -4678,6 +4684,12 @@ msgstr "・新たに生産された%sユニットがベテランになります�
 
 msgid "?unitflag:Diplomat"
 msgstr "諜報"
+
+msgid "?unitflag:Settlers"
+msgstr "作業を行うことができる"
+
+msgid "?utflag:\"%s\" units"
+msgstr "%sユニット"
 
 msgid "?verb:View"
 msgstr "表示"
@@ -7046,6 +7058,9 @@ msgid "Can be cleaned by units (time is terrain-dependent).\n"
 msgstr ""
 "ユニットによりこれを除去することが可能です。所要ターン数は地形によって変わり"
 "ます。\n"
+
+msgid "Can be explored by certain units.\n"
+msgstr "特定のユニットが探索することができます。\n"
 
 msgid "Can be pillaged by units (takes %d turn).\n"
 msgid_plural "Can be pillaged by units (takes %d turns).\n"
