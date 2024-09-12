@@ -1216,6 +1216,9 @@ msgstr "勝率: 攻:%d%% 守:%d%%"
 msgid " Food"
 msgstr " 食料"
 
+msgid " Goods"
+msgstr " 交易品"
+
 msgid " Happiness"
 msgstr " 幸福"
 
@@ -9242,11 +9245,11 @@ msgid ""
 "destination civilization learns about the location of the origin city, if it "
 "is not already known."
 msgstr ""
-"ルールセットによっては、交易路が結ばれると、交易路を結んだユニットが交易品を"
-"売却したとして、このユニットが所属する文明は、即座に金や研究ポイントなどの収"
-"入を得ることができます。この収入の量は、交易路が結ばれた2つの都市がすでに産出"
-"していた交易ポイントと、2つの都市の間の距離によって決まります。また、この2つ"
-"の都市がそれぞれ所属する文明は、これらの都市の位置を知ることができます。"
+"ルールセットによっては、交易路が結ばれると、交易路を結んだユニットが商品を売"
+"却したとして、このユニットが所属する文明は、即座に金や研究ポイントなどの収入"
+"を得ることができます。この収入の量は、交易路が結ばれた2つの都市がすでに産出し"
+"ていた交易ポイントと、2つの都市の間の距離によって決まります。また、この2つの"
+"都市がそれぞれ所属する文明は、これらの都市の位置を知ることができます。"
 
 msgid "Description"
 msgstr "説明"
@@ -11353,6 +11356,12 @@ msgstr "金: %d (%d)/ターン"
 
 msgid "Goodbye."
 msgstr "さようなら。"
+
+msgid "Goods"
+msgstr "交易品"
+
+msgid "Goods are carried via trade routes."
+msgstr "交易品は交易路を通じて運ばれます。"
 
 msgid "Goto"
 msgstr "移動"
@@ -16717,6 +16726,11 @@ msgstr "国境線の引き直し(_B)"
 msgid "Receives shared vision"
 msgstr "視界を提供されている"
 
+msgid ""
+"Receiving city enjoys %d%% income from the route.\n"
+"\n"
+msgstr "交易品を受け取る都市は交易路からの収入を%d%%享受します。\n"
+
 msgid "Recycling"
 msgstr "リサイクル"
 
@@ -17654,6 +17668,9 @@ msgstr "すべての接続にメッセージを送信します。"
 
 msgid "Send the chat (Return)"
 msgstr "チャットの送信(Return)"
+
+msgid "Sending city enjoys %d%% income from the route.\n"
+msgstr "交易品を送る都市は交易路からの収入を%d%%享受します。\n"
 
 msgid "Sending info to metaserver <%s>."
 msgstr "メタサーバー <%s>に情報を送信しています"
