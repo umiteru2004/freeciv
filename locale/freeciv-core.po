@@ -2274,43 +2274,43 @@ msgid "%s: Fatal error: you're trying to run me as superuser!\n"
 msgstr "%s: 致命的エラー: スーパーユーザーで起動しようとしています!\n"
 
 msgid "%sAdd to City%s"
-msgstr "都市に加わる"
+msgstr "都市に加わる(%sA)"
 
 msgid "%sAirlift to City%s"
-msgstr "都市へ移動/空輸"
+msgstr "都市へ移動/空輸(%sA)"
 
 msgid "%sBoard%s"
-msgstr "載せる"
+msgstr "載せる(%sB)"
 
 msgid "%sBribe Enemy Unit%s"
 msgstr "ユニットを買収する(%sB) %s"
 
 msgid "%sBuild Base%s"
-msgstr "基地を建設する"
+msgstr "基地を建設する(%sB)"
 
 msgid "%sBuild City%s"
-msgstr "都市を建設する"
+msgstr "都市を建設する(%sB)"
 
 msgid "%sDeboard%s"
-msgstr "降ろす"
+msgstr "降ろす(%sD)"
 
 msgid "%sDisembark from non native%s"
-msgstr "侵入できないタイルから降りる"
+msgstr "侵入できないタイルから降りる(%sD)"
 
 msgid "%sDisembark%s"
-msgstr "降りる"
+msgstr "降りる(%sD)"
 
 msgid "%sEmbark%s"
-msgstr "載る"
+msgstr "載る(%sE)"
 
 msgid "%sFortify%s"
-msgstr "防御態勢"
+msgstr "防御態勢(%sF)"
 
 msgid "%sInvestigate City%s"
 msgstr "都市の調査(%sI) %s"
 
 msgid "%sKeep moving%s"
-msgstr "移動を続ける"
+msgstr "移動を続ける(%sK)"
 
 msgid "%sPoison City%s"
 msgstr "水源の汚染(%sP) %s"
@@ -2322,7 +2322,7 @@ msgid "%sSabotage Enemy Unit%s"
 msgstr "敵ユニットへの破壊工作(%sS) %s"
 
 msgid "%sUpgrade Unit%s"
-msgstr "新型にする"
+msgstr "新型にする(%sU)"
 
 msgid "%sVote %d by %s: %s%s"
 msgstr "%s投票番号 %d(%s提案): %s%s"
@@ -6495,7 +6495,7 @@ msgstr ""
 "せん。"
 
 msgid "Becom%se Ambassador%s"
-msgstr "大使館を設立する"
+msgstr "大使館を設立する(%sE)"
 
 msgid ""
 "Before a game is started, anyone can connect to the server by supplying its "
@@ -6705,13 +6705,13 @@ msgid "Build %s (%s) %d %s"
 msgstr "%sを建設する(%s) %d%s"
 
 msgid "Build %sIrrigation%s"
-msgstr "灌漑施設を建設する"
+msgstr "灌漑施設を建設する(%sI)"
 
 msgid "Build %sMine%s"
-msgstr "鉱山施設を建設する"
+msgstr "鉱山施設を建設する(%sM)"
 
 msgid "Build %sRoad%s"
-msgstr "交通路の敷設"
+msgstr "交通路の敷設(%sR)"
 
 msgid "Build Airbase"
 msgstr "飛行場を建設する"
@@ -8072,7 +8072,7 @@ msgid "City _Names"
 msgstr "都市名(_N)"
 
 msgid "City _Production"
-msgstr "都市の生産物"
+msgstr "都市の生産物(_P)"
 
 msgid "City _Styles:"
 msgstr "建築様式(_S):"
@@ -8240,10 +8240,10 @@ msgid "Clean %s(%d)"
 msgstr "%sの除去(%d)"
 
 msgid "Clean %sFallout%s"
-msgstr "死の灰を除去する"
+msgstr "死の灰を除去する(%sF)"
 
 msgid "Clean %sPollution%s"
-msgstr "公害を除去する"
+msgstr "公害を除去する(%sP)"
 
 msgid "Clean Fallout"
 msgstr "死の灰の除去"
@@ -9375,10 +9375,10 @@ msgid "Director-President %s"
 msgstr "最高指導者 %s"
 
 msgid "Dis%sband recovering production%s"
-msgstr "生産ポイントを返却して解散"
+msgstr "生産ポイントを返却して解散(%sB)"
 
 msgid "Dis%sband without recovering production%s"
-msgstr "生産ポイントを返却せずに解散"
+msgstr "生産ポイントを返却せずに解散(%sB)"
 
 msgid "Disable"
 msgstr "無効にする"
@@ -9648,6 +9648,9 @@ msgstr "オランダ人"
 
 msgid "Dynamic timeout set to %d %d %d %d"
 msgstr "動的タイムアウトを %d %d %d %d へセットします"
+
+msgid "E_xit"
+msgstr "終了(_X)"
 
 msgid ""
 "Each citizen working the land is either happy, content, unhappy, or angry. "
@@ -10084,10 +10087,10 @@ msgid "English"
 msgstr "イングランド人"
 
 msgid "Enter %sHut from non native%s"
-msgstr "侵入できないタイルから小屋に入る"
+msgstr "侵入できないタイルから小屋に入る(%sH)"
 
 msgid "Enter %sHut%s"
-msgstr "小屋に入る"
+msgstr "小屋に入る(%sH)"
 
 msgid "Enter %sMarketplace%s"
 msgstr "市場に参入する(%sM)%s"
@@ -13168,7 +13171,7 @@ msgid "Irrigate"
 msgstr "灌漑"
 
 msgid "Irrigation"
-msgstr "灌漑"
+msgstr "灌漑施設"
 
 msgid "Is locked by the ruleset."
 msgstr "ルールセットで固定されています。"
@@ -13684,7 +13687,7 @@ msgid "Local Options"
 msgstr "ローカル設定"
 
 msgid "Local _Area Network"
-msgstr "L_AN"
+msgstr "L_AN(A)"
 
 msgid "Local options"
 msgstr "ローカルオプション"
@@ -15752,7 +15755,7 @@ msgid "Overview page"
 msgstr "概観ページ"
 
 msgid "P_aradrop"
-msgstr "落下傘降下"
+msgstr "落下傘降下(_A)"
 
 msgid "P_roduction"
 msgstr "生産物(_R)"
@@ -17667,7 +17670,7 @@ msgid "Set"
 msgstr "設定"
 
 msgid "Set %sHome City%s"
-msgstr "この都市に所属させる"
+msgstr "この都市に所属させる(%sH)"
 
 msgid "Set Home City"
 msgstr "この都市に所属させる"
@@ -22299,10 +22302,10 @@ msgid "Transform Terrain"
 msgstr "地形を改造する"
 
 msgid "Transform by %sCultivating%s"
-msgstr "伐採する"
+msgstr "伐採する(%sC)"
 
 msgid "Transform by %sPlanting%s"
-msgstr "植栽する"
+msgstr "植栽する(%sP)"
 
 msgid "Transform to"
 msgstr "地形改造する"
@@ -24861,6 +24864,9 @@ msgstr "科学技術(_A)"
 msgid "_All On Tile"
 msgstr "ここにいる全ユニット(_A)"
 
+msgid "_Apply"
+msgstr "適用(_A)"
+
 msgid "_Auto Settler"
 msgstr "自動開拓(_A)"
 
@@ -24868,7 +24874,7 @@ msgid "_Bases"
 msgstr "基地(_B)"
 
 msgid "_Battle Groups"
-msgstr "バトルグループ(B)"
+msgstr "バトルグループ(_B)"
 
 msgid "_Both"
 msgstr "全空(_B)"
@@ -24881,6 +24887,9 @@ msgstr "都市を建設する(_B)"
 
 msgid "_Buy"
 msgstr "買う(_B)"
+
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
 
 msgid "_Center View"
 msgstr "中心へ(_C)"
@@ -24895,7 +24904,7 @@ msgid "_Combat"
 msgstr "戦闘(_C)"
 
 msgid "_Cultivate"
-msgstr "伐採する"
+msgstr "伐採する(_C)"
 
 msgid "_Demographics"
 msgstr "人口統計(_D)"
@@ -25053,6 +25062,9 @@ msgstr "民族(_N)"
 msgid "_Next city"
 msgstr "次の都市へ(_N)"
 
+msgid "_OK"
+msgstr "OK(_O)"
+
 msgid "_Observe"
 msgstr "観察(_O)"
 
@@ -25078,7 +25090,7 @@ msgid "_Pillage"
 msgstr "略奪(_P)"
 
 msgid "_Plant"
-msgstr "植栽する"
+msgstr "植栽する(_P)"
 
 msgid "_Policies..."
 msgstr "社会政策(_P)"
@@ -25104,6 +25116,9 @@ msgstr "ランダムな民族 (_R)"
 msgid "_Ready"
 msgstr "準備完了(_R)"
 
+msgid "_Refresh"
+msgstr "更新(_R)"
+
 msgid "_Reload Tileset"
 msgstr "タイルセットの再読み込み(_R)"
 
@@ -25127,6 +25142,9 @@ msgstr "革命(_R)..."
 
 msgid "_Sabotage"
 msgstr "破壊工作(_S)"
+
+msgid "_Save"
+msgstr "保存(_S)"
 
 msgid "_Save Game"
 msgstr "ゲームを保存(_S)"
