@@ -1528,6 +1528,10 @@ msgid "%d tile copied."
 msgid_plural "%d tiles copied."
 msgstr[0] "%dタイルをコピー済み"
 
+msgid "%d time"
+msgid_plural "%d times"
+msgstr[0] "%d項目"
+
 msgid "%d turn"
 msgid_plural "%d turns"
 msgstr[0] "%d ターン"
@@ -5454,6 +5458,9 @@ msgstr "空輸"
 msgid "Airlift to City"
 msgstr "都市へ移動/空輸"
 
+msgid "Airlift:"
+msgstr "空輸:"
+
 msgid "Airlifting style"
 msgstr "空輸の条件"
 
@@ -9227,6 +9234,20 @@ msgstr ""
 msgid "Depending on size of continents"
 msgstr "大陸のサイズに合わせる"
 
+msgid ""
+"Depending on the ruleset, the origin civilization of the unit may gain "
+"immediate revenue in gold, science, or both from selling its trade goods at "
+"the destination city. The initial revenue depends on the trade already "
+"produced by the two cities involved and their distance apart. The "
+"destination civilization learns about the location of the origin city, if it "
+"is not already known."
+msgstr ""
+"ルールセットによっては、交易路が結ばれると、交易路を結んだユニットが交易品を"
+"売却したとして、このユニットが所属する文明は、即座に金や研究ポイントなどの収"
+"入を得ることができます。この収入の量は、交易路が結ばれた2つの都市がすでに産出"
+"していた交易ポイントと、2つの都市の間の距離によって決まります。また、この2つ"
+"の都市がそれぞれ所属する文明は、これらの都市の位置を知ることができます。"
+
 msgid "Description"
 msgstr "説明"
 
@@ -9737,15 +9758,6 @@ msgstr ""
 "生産物を自由に生産することができます。詳細については、「都市建造物」、「世界"
 "の不思議」、「ユニット」のセクションを参照してください。ゲームでは、支援でき"
 "ないユニットや維持費が払えない建物を生産する自由さえ与えられています。"
-
-msgid ""
-"Depending on the ruleset, the origin civilization of the unit may gain "
-"immediate revenue in gold, science, or both from selling its trade goods at "
-"the destination city. The initial revenue depends on the trade already "
-"produced by the two cities involved and their distance apart. The "
-"destination civilization learns about the location of the origin city, if it "
-"is not already known."
-msgstr "ルールセットによっては、交易路が結ばれると、交易路を結んだユニットが交易品を売却したとして、このユニットが所属する文明は、即座に金や研究ポイントなどの収入を得ることができます。この収入の量は、交易路が結ばれた2つの都市がすでに産出していた交易ポイントと、2つの都市の間の距離によって決まります。また、この2つの都市がそれぞれ所属する文明は、これらの都市の位置を知ることができます。"
 
 msgid ""
 "Each round of combat, a random number between 1 and 282 is generated.  If "
@@ -15232,6 +15244,9 @@ msgstr "このゲームではメタサーバーへは報告していません。
 msgid "Not starting without explicitly requested metaserver connection."
 msgstr "メタサーバーへの接続を明示的に要求しなければ起動しません。"
 
+msgid "Not stolen"
+msgstr "なし"
+
 msgid "Notes:"
 msgstr "注意 :"
 
@@ -15994,6 +16009,9 @@ msgid "Plague is a ruleset option, and is not enabled in the classic ruleset."
 msgstr ""
 "疫病はルールセットオプションの1つです。classicルールセットでは無効になってい"
 "ます。"
+
+msgid "Plague risk:"
+msgstr "疫病発生率:"
 
 msgid "Plain chat messages are sent to allies only"
 msgstr "通常のチャットメッセージを同盟のみに送信"
@@ -19257,6 +19275,9 @@ msgstr "チーム投票"
 
 msgid "Tech Found in Hut"
 msgstr "科学技術発見"
+
+msgid "Tech Stolen:"
+msgstr "盗まれた科学:"
 
 msgid ""
 "Technological advances can render units, city improvements, and wonders "
