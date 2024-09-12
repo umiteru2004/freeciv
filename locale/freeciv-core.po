@@ -9585,6 +9585,9 @@ msgstr "都市産出物の表示"
 msgid "Draw shield graphics for units"
 msgstr "ユニット所属の盾表示"
 
+msgid "Draw size of the unit stacks"
+msgstr "ユニット数の表示"
+
 msgid "Draw the bases"
 msgstr "基地の表示"
 
@@ -15262,6 +15265,11 @@ msgstr "注意 :"
 msgid "Notice: Wonder %s in %s will be finished next turn."
 msgstr "予告: 次のターン， %2$sの不思議%1$sが完成します。"
 
+msgid ""
+"Notice: game will end at the end of this turn due to 'endturn' server "
+"setting."
+msgstr "このターンの終わりにゲームが終了します。"
+
 msgid "Notify Label"
 msgstr "通知ラベル"
 
@@ -17611,6 +17619,39 @@ msgstr "背景色の選択"
 msgid "Select the text color"
 msgstr "文字色の選択"
 
+msgid ""
+"Select the tileset used with Hex maps. This may change the currently active "
+"tileset, if you are playing on such a map, in which case this is the same as "
+"using the -t command-line parameter. Use modpack installer utility to "
+"install additional tilesets."
+msgstr ""
+"六角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"も、タイルセットを変更することができます。この設定はコマンドラインオプション "
+"-t を指定するのと同じです。追加のタイルセットをインストールするには、modpack "
+"インストーラーを使用してください。"
+
+msgid ""
+"Select the tileset used with Iso-Hex maps. This may change the currently "
+"active tileset, if you are playing on such a map, in which case this is the "
+"same as using the -t command-line parameter.Use modpack installer utility to "
+"install additional tilesets."
+msgstr ""
+"六角形タイルの等角マップで使用されるタイルセットを選択します。プレイ中であっ"
+"ても、タイルセットを変更することができます。この設定はコマンドラインオプショ"
+"ン -t を指定するのと同じです。追加のタイルセットをインストールするには、"
+"modpack インストーラーを使用してください。"
+
+msgid ""
+"Select the tileset used with Square based maps. This may change the "
+"currently active tileset, if you are playing on such a map, in which case "
+"this is the same as using the -t command-line parameter. Use modpack "
+"installer utility to install additional tilesets."
+msgstr ""
+"四角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"も、タイルセットを変更することができます。この設定はコマンドラインオプション "
+"-t を指定するのと同じです。追加のタイルセットをインストールするには、modpack "
+"インストーラーを使用してください。"
+
 msgid "Select what to pillage:"
 msgstr "略奪対象を選択:"
 
@@ -17951,6 +17992,13 @@ msgstr "このオプションを設定すると，都市住民が労働可能な
 msgid ""
 "Setting this option will draw a line to separate the land from the ocean."
 msgstr "このオプションを設定すると，海と陸を分ける境界線が表示されます。"
+
+msgid ""
+"Setting this option will draw a numbers indicating size of the unit stacks. "
+"Not all clients support this."
+msgstr ""
+"この設定を有効にすると、1つのタイルに複数のユニットがいる場合、その数が表示さ"
+"れます。すべてのクライアントがこの機能をサポートしているわけではありません。"
 
 msgid ""
 "Setting this option will draw a shield icon as the flags on units.  If "
@@ -22072,7 +22120,13 @@ msgstr ""
 "示されないのは仕様です。"
 
 msgid "Tileset (Hex)"
-msgstr "タイルセット (トップビューヘックス用)"
+msgstr "タイルセット (六角形)"
+
+msgid "Tileset (Iso-Hex)"
+msgstr "タイルセット (六角形等角マップ)"
+
+msgid "Tileset (Square)"
+msgstr "タイルセット（四角形）"
 
 msgid ""
 "Tileset problem, it's probably incompatible with the ruleset:\n"
