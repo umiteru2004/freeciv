@@ -11282,7 +11282,7 @@ msgid "Go to Tile"
 msgstr "タイルへ移動する"
 
 msgid "Go to a_nd..."
-msgstr "移動してアクション"
+msgstr "移動してアクション(_N)"
 
 msgid "Go to/Airlift to City..."
 msgstr "都市へ移動/空輸"
