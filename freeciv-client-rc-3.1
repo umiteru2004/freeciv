@@ -1,7 +1,7 @@
 
 [client]
 version="3.1.2"
-save_options_on_exit=TRUE
+save_options_on_exit=FALSE
 fullscreen_mode=FALSE  # deprecated
 migration_gtk3_from_gtk2=FALSE
 migration_gtk3_22_from_gtk3=TRUE
@@ -11,14 +11,14 @@ migration_gtk2_from_2_5=FALSE
 migration_gtk3_from_2_5=FALSE
 migration_qt_from_2_5=FALSE
 flag_qt_default_fonts_set=FALSE
-default_user_name="umiteru2004"
+default_user_name="umiteru"
 use_prev_server=FALSE
 default_server_host="localhost"
 default_server_port=5556
 default_metaserver="default"
 heartbeat_enabled=TRUE
-default_sound_set_name="stdsounds"
-default_music_set_name="stdmusic"
+default_sound_set_name="freesounds"
+default_music_set_name="SongOfDoom"
 default_sound_plugin_name="sdl"
 default_chat_logfile="freeciv-chat.log"
 gui_gtk3_default_theme_name="Freeciv"
@@ -30,14 +30,14 @@ default_tileset_square_name="amplio2"
 default_tileset_hex_name="hex2t"
 default_tileset_isohex_name="hexemplio"
 draw_city_outlines=TRUE
-draw_city_output=FALSE
+draw_city_output=TRUE
 draw_map_grid=FALSE
 draw_full_citybar=TRUE
 draw_city_names=TRUE
 draw_city_growth=TRUE
 draw_city_productions=TRUE
-draw_city_buycost=FALSE
-draw_city_trade_routes=FALSE
+draw_city_buycost=TRUE
+draw_city_trade_routes=TRUE
 draw_terrain=TRUE
 draw_coastline=FALSE
 draw_roads_rails=TRUE
@@ -58,13 +58,13 @@ draw_borders=TRUE
 draw_native=FALSE
 player_dlg_show_dead_players=TRUE
 sound_bell_at_new_turn=FALSE
-smooth_move_unit_msec=30
+smooth_move_unit_msec=1
 smooth_center_slide_msec=200
-smooth_combat_step_msec=10
+smooth_combat_step_msec=1
 reqtree_show_icons=TRUE
 reqtree_curved_lines=FALSE
-highlight_our_names.foreground="#000000"
-highlight_our_names.background="#FFFF00"
+highlight_our_names.foreground="rgb(0,0,0)"
+highlight_our_names.background="rgb(255,255,0)"
 ai_manual_turn_done=TRUE
 auto_center_on_unit=TRUE
 auto_center_on_automated=TRUE
@@ -74,26 +74,26 @@ wakeup_focus=TRUE
 keyboardless_goto=TRUE
 goto_into_unknown=TRUE
 center_when_popup_city=TRUE
-show_previous_turn_messages=TRUE
+show_previous_turn_messages=FALSE
 concise_city_production=FALSE
 auto_turn_done=FALSE
 ask_city_name=TRUE
 popup_new_cities=TRUE
 popup_actor_arrival=TRUE
-popup_attack_actions=TRUE
-popup_last_move_to_allied=TRUE
+popup_attack_actions=FALSE
+popup_last_move_to_allied=FALSE
 enable_cursor_changes=TRUE
 separate_unit_selection=FALSE
-unit_selection_clears_orders=TRUE
+unit_selection_clears_orders=FALSE
 voteinfo_bar_use=TRUE
 voteinfo_bar_always_show=FALSE
 voteinfo_bar_hide_when_not_player=FALSE
 voteinfo_bar_new_at_front=FALSE
 autoaccept_tileset_suggestion=FALSE
 sound_enable_effects=TRUE
-sound_enable_game_music=TRUE
-sound_enable_menu_music=TRUE
-sound_effects_volume=100
+sound_enable_game_music=FALSE
+sound_enable_menu_music=FALSE
+sound_effects_volume=50
 autoaccept_soundset_suggestion=FALSE
 autoaccept_musicset_suggestion=FALSE
 overview.layers[OLAYER_BACKGROUND]=TRUE
@@ -182,27 +182,27 @@ gui_gtk3_22_new_messages_go_to_top=FALSE
 gui_gtk3_22_show_message_window_buttons=TRUE
 gui_gtk3_22_metaserver_tab_first=FALSE
 gui_gtk3_22_allied_chat_only=FALSE
-gui_gtk3_22_message_chat_location="MERGED"
+gui_gtk3_22_message_chat_location="SPLIT"
 gui_gtk3_22_small_display_layout=TRUE
-gui_gtk3_22_mouse_over_map_focus=FALSE
+gui_gtk3_22_mouse_over_map_focus=TRUE
 gui_gtk3_22_chatline_autocompletion=TRUE
 gui_gtk3_22_citydlg_xsize=770
 gui_gtk3_22_citydlg_ysize=512
 gui_gtk3_22_popup_tech_help="RULESET"
 gui_gtk3_22_governor_range_min=-20
 gui_gtk3_22_governor_range_max=20
-gui_gtk3_22_font_city_label="Monospace 8"
-gui_gtk3_22_font_notify_label="Monospace Bold 9"
+gui_gtk3_22_font_city_label="Menlo 12"
+gui_gtk3_22_font_notify_label="Menlo Bold 16"
 gui_gtk3_22_font_spaceship_label="Monospace 8"
-gui_gtk3_22_font_help_label="Sans Bold 10"
-gui_gtk3_22_font_help_link="Sans 9"
-gui_gtk3_22_font_help_text="Monospace 8"
-gui_gtk3_22_font_chatline="Monospace 8"
+gui_gtk3_22_font_help_label="Helvetica Bold 16"
+gui_gtk3_22_font_help_link="Helvetica 14"
+gui_gtk3_22_font_help_text="Menlo 14"
+gui_gtk3_22_font_chatline="Menlo 14"
 gui_gtk3_22_font_beta_label="Sans Italic 10"
 gui_gtk3_22_font_small="Sans 9"
 gui_gtk3_22_font_comment_label="Sans Italic 9"
-gui_gtk3_22_font_city_names="Sans Bold 10"
-gui_gtk3_22_font_city_productions="Serif 10"
+gui_gtk3_22_font_city_names="Helvetica Bold 14"
+gui_gtk3_22_font_city_productions="Helvetica 14"
 gui_gtk3_22_font_reqtree_text="Serif 10"
 gui_gtk4_fullscreen=FALSE
 gui_gtk4_map_scrollbars=FALSE
@@ -265,28 +265,69 @@ gui_qt_wakeup_text="Wake up %1"
 zoom_set=FALSE
 zoom_default_level=1.000000
 default_tileset_name="hexemplio"
-player_dlg_border=TRUE
-player_dlg_culture=TRUE
-player_dlg_vision=TRUE
-player_dlg_state=TRUE
-player_dlg_username=FALSE
-player_dlg_science=TRUE
-player_dlg_government=TRUE
-player_dlg_gold=TRUE
 player_dlg_research=TRUE
-player_dlg_team=TRUE
+player_dlg_gold=TRUE
+player_dlg_vision=TRUE
 player_dlg_nation=TRUE
-player_dlg_score=TRUE
-player_dlg_diplstate=TRUE
-player_dlg_flag=TRUE
-player_dlg_host=FALSE
+player_dlg_government=TRUE
 player_dlg_tax=TRUE
-player_dlg_embassy=TRUE
-player_dlg_idle=FALSE
-player_dlg_ai=TRUE
-player_dlg_attitude=TRUE
-player_dlg_luxury=TRUE
+city_report_trade_routes=FALSE
+city_report_present=FALSE
+city_report_attack=FALSE
+city_report_defense=FALSE
+city_report_pollution=FALSE
+city_report_continent=FALSE
+city_report_luxury=FALSE
+city_report_size=TRUE
 player_dlg_ping=FALSE
+city_report_specialists=FALSE
+city_report_performance=FALSE
+city_report_nation=FALSE
+city_report_culture=FALSE
+player_dlg_border=TRUE
+city_report_cityname=TRUE
+player_dlg_show_dead_players=TRUE
+city_report_corruption=FALSE
+player_dlg_flag=TRUE
+city_report_hstate_verbose=TRUE
+player_dlg_diplstate=TRUE
+player_dlg_score=TRUE
+city_report_science=FALSE
+city_report_output=TRUE
+player_dlg_attitude=TRUE
+city_report_elvis=FALSE
+city_report_build_slots=FALSE
+player_dlg_culture=TRUE
+city_report_gold=FALSE
+city_report_happy=FALSE
+city_report_foodplus=FALSE
+city_report_growturns=TRUE
+city_report_cma=FALSE
+city_report_content=FALSE
+city_report_workers=TRUE
+player_dlg_science=TRUE
+city_report_plague_risk=FALSE
+player_dlg_team=TRUE
+player_dlg_ai=TRUE
+player_dlg_idle=FALSE
+player_dlg_embassy=TRUE
+city_report_scientist=FALSE
+city_report_unhappy=FALSE
+city_report_resources=TRUE
+player_dlg_host=FALSE
+city_report_history=FALSE
+player_dlg_state=TRUE
+city_report_tradeplus=FALSE
+city_report_build_cost=TRUE
+city_report_waste=FALSE
+player_dlg_luxury=TRUE
+city_report_angry=FALSE
+city_report_hstate_concise=FALSE
+city_report_supported=FALSE
+city_report_prodplus=FALSE
+city_report_building=TRUE
+city_report_taxman=FALSE
+player_dlg_username=FALSE
 
 [messages]
 event={"name","where"
@@ -308,7 +349,7 @@ event={"name","where"
 "E_CITY_BUILD",0
 "E_CITY_PRODUCTION_CHANGED",0
 "E_WORKLIST",0
-"E_UPRISING",2
+"E_UPRISING",0
 "E_CIVIL_WAR",2
 "E_ANARCHY",2
 "E_FIRST_CONTACT",2
@@ -357,7 +398,7 @@ event={"name","where"
 "E_IMP_BUY",0
 "E_IMP_BUILD",2
 "E_IMP_AUCTIONED",2
-"E_IMP_AUTO",2
+"E_IMP_AUTO",0
 "E_IMP_SOLD",0
 "E_TECH_GAIN",2
 "E_TECH_LEARNED",2
@@ -392,7 +433,7 @@ event={"name","where"
 "E_AI_DEBUG",0
 "E_LOG_ERROR",1
 "E_LOG_FATAL",6
-"E_TECH_GOAL",2
+"E_TECH_GOAL",0
 "E_UNIT_LOST_MISC",2
 "E_CITY_PLAGUE",2
 "E_VOTE_NEW",1
