@@ -8400,6 +8400,9 @@ msgstr "すべて閉じる"
 msgid "Collapse to Anarchy"
 msgstr "無政府状態へ崩壊"
 
+msgid "Color"
+msgstr "色"
+
 msgid "Color (Ctrl-C)"
 msgstr "色(Ctrl-C)"
 
