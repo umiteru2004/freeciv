@@ -2322,6 +2322,9 @@ msgstr "移動を続ける(%sK)"
 msgid "%sPoison City%s"
 msgstr "水源の汚染(%sP) %s"
 
+msgid "%sSabotage City Escape%s"
+msgstr "ランダムな破壊工作をして脱出(%sS)"
+
 msgid "%sSabotage City%s"
 msgstr "ランダムな破壊工作(%sS)%s"
 
@@ -2605,6 +2608,9 @@ msgstr "・%sユニットが侵入できます。\n"
 msgid "* Can carry and refuel %d %s unit.\n"
 msgid_plural "* Can carry and refuel up to %d %s units.\n"
 msgstr[0] "・%2$sユニットを%1$dユニット輸送・給油できます。\n"
+
+msgid "* Can do the action '%s'.\n"
+msgstr "・アクション「%s」を実行することができます。\n"
 
 msgid "* Can only attack units on native tiles.\n"
 msgstr "・自分が侵入できるタイル上にいる敵だけを攻撃できます。\n"
@@ -3048,6 +3054,10 @@ msgstr ""
 
 msgid "* Losing this unit will lose you the game!\n"
 msgstr "・このユニットを失うとゲームは負けになります！\n"
+
+msgid "* Makes it impossible to do the action '%s' to its city.\n"
+msgstr ""
+"・この建造物がある都市に、アクション「%s」を実行することはできません。\n"
 
 msgid "* Makes it impossible to do the action '%s' to your %s.\n"
 msgstr ""
@@ -5823,6 +5833,13 @@ msgstr ""
 "+50%増加させます。"
 
 msgid ""
+"Also, damaged land units which stay in town for one full turn without moving "
+"are completely restored."
+msgstr ""
+"また、兵舎のある都市では、ダメージを受けた陸上ユニットが、1ターンの間移動せず"
+"にこの都市に留まった場合、このユニットの体力が全快します。"
+
+msgid ""
 "Also, if any player's city is in disorder for more than two turns in a row, "
 "that player's government falls (even for governments other than Republic and "
 "Democracy)."
@@ -6471,6 +6488,9 @@ msgstr ""
 
 msgid "Base"
 msgstr "基地"
+
+msgid "Base Cost:"
+msgstr "生産コスト:"
 
 msgid "Base chance for diplomats and spies to succeed"
 msgstr "外交官・スパイの基本成功確率"
@@ -12805,7 +12825,10 @@ msgid "Incite"
 msgstr "煽動"
 
 msgid "Incite a %sRevolt%s"
-msgstr "叛乱の煽動(%sR) %s"
+msgstr "叛乱の煽動(%sR)%s"
+
+msgid "Incite a Re%svolt and Escape%s"
+msgstr "叛乱を煽動して脱出(%sV)"
 
 msgid "Incite a Revolt!"
 msgstr "叛乱を煽る！"
@@ -16938,8 +16961,14 @@ msgstr "建設可能となる条件:\n"
 msgid "Requires"
 msgstr "必要な科学技術: "
 
+msgid "Requires %s in the city."
+msgstr "都市に「%s」が必要です。"
+
 msgid "Requires knowledge of the technology %s."
 msgstr "「%s」の研究を完了している必要があります。"
+
+msgid "Requires terrain with the \"%s\" flag on the tile or an adjacent tile."
+msgstr "そのタイルまたは隣接するタイルが「%s」タイルであることが必要です。"
 
 msgid "Research"
 msgstr "研究"
@@ -17519,6 +17548,9 @@ msgstr "　記録する対象"
 
 msgid "Screen resolution"
 msgstr "画面解像度"
+
+msgid "Sea"
+msgstr "海洋"
 
 msgid "Sea map"
 msgstr "海洋地図"
@@ -23870,6 +23902,14 @@ msgid ""
 msgstr ""
 "科学技術「天文学」を獲得すると，要塞に監視塔が備え付けられ，ユニットがいる場"
 "合には視界が拡大します。"
+
+msgid ""
+"With a Barracks, each new military land unit built in a city will "
+"automatically have Veteran status, which means that its attack and defense "
+"strengths are increased by 50%."
+msgstr ""
+"兵舎のある都市では、新たに生産される陸戦ユニットが自動的にベテランになりま"
+"す。"
 
 msgid ""
 "With knowledge of Fusion Power, Engineers may also perform more radical "
