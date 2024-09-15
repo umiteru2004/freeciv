@@ -5,7 +5,7 @@
 ## 導入方法
 ### 1. 翻訳ファイルのダウンロード
 ダウンロードURL:  
-[https://github.com/umiteru2004/freeciv/raw/develop/locale/LC_MESSAGES/freeciv-core.mo](https://github.com/umiteru2004/freeciv/raw/develop/locale/LC_MESSAGES/freeciv-core.mo)
+[https://github.com/umiteru2004/freeciv/raw/develop/locale/freeciv-core.mo](https://github.com/umiteru2004/freeciv/raw/develop/locale/freeciv-core.mo)
 ### 2. デフォルトの翻訳ファイルを探す
 デフォルトの翻訳ファイルは次のフォルダにあります。  
 ファイル名は、ダウンロードしたものと同じ`freeciv-core.mo`です。
