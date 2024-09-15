@@ -13,9 +13,14 @@
 Freecivのプログラムフォルダ/share/locale/ja/LC_MESSAGES/
 ```
 プログラムフォルダの場所は環境によって異なります。  
-最新のHomebrewでFreeciv v3.1.2をインストールした場合、プログラムフォルダは以下の通りです。
+例えば、最新のHomebrewでFreeciv v3.1.2をインストールした場合、プログラムフォルダは以下の通りです。
 ```
-/opt/homebrew/Cellar/freeciv/3.1.2
+/opt/homebrew/Cellar/freeciv/3.1.2/
+```
+また、[公式サイトのダウンロードページ](https://freeciv.org/download.html)に掲載されているWindowsパッケージをインストールした場合、  
+プログラムフォルダは、デフォルトで`C:¥Program Files¥`に格納されています。
+```
+C:¥Program Files¥Freeciv-3.1.2-win64-10-client-gtk3.22
 ```
 ### 3. 翻訳ファイルの置き換え
 デフォルトの`freeciv-core.mo`をダウンロードしたものに置き換えます。  
