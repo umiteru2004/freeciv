@@ -5633,17 +5633,15 @@ msgstr "(なし)"
 
 #: client/gui-gtk-3.22/helpdlg.c:1344 client/gui-gtk-4.0/helpdlg.c:1389
 #: client/gui-gtk-5.0/helpdlg.c:1389
-#, fuzzy
 #| msgid "Mine Rslt/Time"
 msgid "Cultivate Rslt/Time"
-msgstr "鉱山による地形種の変更結果と所要ターン :"
+msgstr "伐採の結果と所要ターン :"
 
 #: client/gui-gtk-3.22/helpdlg.c:1354 client/gui-gtk-4.0/helpdlg.c:1399
 #: client/gui-gtk-5.0/helpdlg.c:1399
-#, fuzzy
 #| msgid "Trans. Rslt/Time"
 msgid "Plant Rslt/Time"
-msgstr "地形改造の結果と所要ターン :"
+msgstr "植栽の結果と所要ターン :"
 
 #: client/gui-gtk-3.22/helpdlg.c:1365 client/gui-gtk-4.0/helpdlg.c:1410
 #: client/gui-gtk-5.0/helpdlg.c:1410
@@ -6525,7 +6523,7 @@ msgstr "基地を建設する(_B)"
 #: client/gui-gtk-4.0/menu.c:3581 client/gui-gtk-5.0/menu.c:3162
 #: client/gui-gtk-5.0/menu.c:3585
 msgid "Build _Path"
-msgstr "交通路の敷設(_P)"
+msgstr "交通路を敷設する(_P)"
 
 #: client/gui-gtk-3.22/menu.c:521 client/gui-gtk-4.0/menu.c:3164
 #: client/gui-gtk-4.0/menu.c:3654 client/gui-gtk-5.0/menu.c:3168
@@ -12679,10 +12677,10 @@ msgstr ""
 
 #. TRANS: Incite City
 #: client/helpdata.c:1705
-#, fuzzy, c-format
+#, c-format
 msgid "%s Makes it impossible to do the action '%s' to its city.\n"
 msgstr ""
-"・他国はあなたの%2$sに対して，'%1$s' を実行することができなくなります。\n"
+"%s この建造物がある都市に、アクション「%s」を実行することはできません。\n"
 
 # NOTE: 手動で追加した項目
 msgid "* Makes it impossible to do the action '%s' to its city.\n"
@@ -13246,9 +13244,9 @@ msgstr ""
 
 #. TRANS: %s is the action's ruleset defined ui name
 #: client/helpdata.c:2549
-#, fuzzy, c-format
+#, c-format
 msgid "%s Can do the action '%s'.\n"
-msgstr "・任務 '%s' を%sに対して実行できます。\n"
+msgstr "%s アクション「%s」を実行することができます。\n"
 
 # NOTE: 手動で追加した項目
 msgid "* Can do the action '%s'.\n"
@@ -13786,61 +13784,85 @@ msgstr ""
 "の研究ポイントが必要です。\n"
 
 #: client/helpdata.c:3536
-#, fuzzy, c-format
+#, c-format
 #| msgid "* You cannot build cities on this terrain."
 msgid "%s You cannot build cities on this terrain.\n"
-msgstr "・この地形に都市は建設できません。"
+msgstr "%s この地形に都市を建設することはできません。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* You cannot build cities on this terrain."
+msgstr "・この地形に都市を建設することはできません。"
 
 #: client/helpdata.c:3544
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Paths cannot be built on this terrain."
 msgid "%s Paths cannot be built on this terrain.\n"
-msgstr "・この地形に交通路は敷設できません。"
+msgstr "%s この地形に交通路を敷設することはできません。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Paths cannot be built on this terrain."
+msgstr "・この地形に交通路を敷設することはできません。"
 
 #: client/helpdata.c:3555
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Bases cannot be built on this terrain."
 msgid "%s Bases cannot be built on this terrain.\n"
-msgstr "・この地形に基地は建設できません。"
+msgstr "%s この地形に基地を建設することはできません。\n"
+
+#NOTE: 手動で追加した項目
+msgid "* Bases cannot be built on this terrain."
+msgstr "・この地形に基地を建設することはできません。"
 
 # clefs
 # まだ存在しないが，将来導入されるらしい
 #: client/helpdata.c:3564
-#, fuzzy, c-format
+#, c-format
 #| msgid "* The coastline of this terrain is unsafe."
 msgid "%s The coastline of this terrain is unsafe.\n"
+msgstr "%s この地形の海岸線は危険です。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* The coastline of this terrain is unsafe."
 msgstr "・この地形の海岸線は危険です。"
 
 #. TRANS: %s is a list of unit classes separated by "and".
 #: client/helpdata.c:3581 client/helpdata.c:4053
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Can be traveled by %s units.\n"
 msgid "%s Can be traveled by %s units.\n"
+msgstr "%s %sユニットが侵入できます。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Can be traveled by %s units.\n"
 msgstr "・%sユニットが侵入できます。\n"
 
 #: client/helpdata.c:3588
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "* Units on this terrain neither impose zones of control nor are "
 #| "restricted by them.\n"
 msgid ""
 "%s Units on this terrain neither impose zones of control nor are restricted "
 "by them.\n"
-msgstr ""
-"・ZOCが適用されることはありません。ゆえに他ユニットのZOCによる影響は受けませ"
-"ん。\n"
+msgstr "%s この地形にいるユニットはZOCを課すことができず、またZOCによって移動を制限されることがありません。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Units on this terrain neither impose zones of control nor are restricted by them.\n"
+msgstr "・この地形にいるユニットはZOCを課すことができず、またZOCによって移動を制限されることがありません。\n"
 
 #: client/helpdata.c:3592
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "* Units on this terrain may impose a zone of control, or be restricted by "
 #| "one.\n"
 msgid ""
 "%s Units on this terrain may impose a zone of control, or be restricted by "
 "one.\n"
-msgstr ""
-"・ZOCが適用されることがあります。ゆえに他ユニットのZOCによる影響を受けること"
-"があります。\n"
+msgstr "%s この地形にいるユニットはZOCを課すことができ、またZOCによって移動を制限されることがあります。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Units on this terrain may impose a zone of control, or be restricted by one.\n"
+msgstr "・この地形にいるユニットはZOCを課すことができ、またZOCによって移動を制限されることがあります。\n"
 
 #: client/helpdata.c:3769
 #, c-format
@@ -13960,27 +13982,35 @@ msgstr ""
 # clefs
 #. TRANS: %s is a list of unit classes separated by "and".
 #: client/helpdata.c:4058
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Native to %s units.\n"
 msgid "%s Native to %s units.\n"
+msgstr "%s %sユニットが侵入できます。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Native to %s units.\n"
 msgstr "・%sユニットが侵入できます。\n"
 
 #. TRANS: indented; preserve leading spaces
 #: client/helpdata.c:4067
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "  * Such units can move onto this tile even if it would not normally be "
 #| "suitable terrain.\n"
 msgid ""
 "  %s Such units can move onto this tile even if it would not normally be "
 "suitable terrain.\n"
-msgstr ""
-"　・これらのユニットが通常は侵入できない地形であっても，侵入可能になりま"
-"す。\n"
+msgstr "  %s これらのユニットが通常は侵入できない地形でも、侵入可能になります。\n"
+
+# NOTE: 手動で追加した項目
+msgid ""
+"  * Such units can move onto this tile even if it would not normally be "
+"suitable terrain.\n"
+msgstr "  ・これらのユニットが通常は侵入できない地形でも、侵入可能になります。\n"
 
 #. TRANS: indented; preserve leading spaces
 #: client/helpdata.c:4074
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "  * Such units situated here are not considered aggressive if this tile "
 #| "is within 3 tiles of a friendly city.\n"
@@ -13990,17 +14020,24 @@ msgid ""
 msgid_plural ""
 "  %s Such units situated here are not considered aggressive if this tile is "
 "within %d tiles of a friendly city.\n"
-msgstr[0] ""
-"　・このタイルが友好的な都市から3タイル以内にある場合は，ここに駐留するユニッ"
-"トは不幸市民を発生させません。\n"
+msgstr[0] "  %s このタイルが友好的な都市から3タイル以内にある場合、このタイルにいるユニットは不幸市民を発生させません。\n"
+
+# NOTE: 手動で追加した項目
+msgid ""
+"  * Such units situated here are not considered aggressive if this tile "
+"is within 3 tiles of a friendly city.\n"
+msgstr "  ・このタイルが友好的な都市から3タイル以内にある場合、このタイルにいるユニットは不幸市民を発生させません。\n"
 
 #. TRANS: indented; preserve leading spaces
 #: client/helpdata.c:4085
-#, fuzzy, c-format
+#, c-format
 #| msgid "  * Such units get a %d%% defense bonus on this tile.\n"
 msgid "  %s Such units get a %d%% defense bonus on this tile.\n"
-msgstr ""
-"　・対象種ユニットがこのタイルにいる場合， %d%%の防御力ボーナスを得ます。\n"
+msgstr "  %s これらのユニットはこのタイルにおいて%d%%の防御ボーナスを得ます。\n"
+
+# NOTE: 手動で追加した項目
+msgid "  * Such units get a %d%% defense bonus on this tile.\n"
+msgstr "  ・これらのユニットはこのタイルにおいて%d%%の防御ボーナスを得ます。\n"
 
 #. TRANS: %s is a list of unit types separated by "and".
 #: client/helpdata.c:4107
@@ -14010,18 +14047,26 @@ msgid "%s Can be conquered by %s.\n"
 msgstr "・%sユニットが侵入できます。\n"
 
 #: client/helpdata.c:4115
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Allows infinite movement.\n"
 msgid "%s Allows infinite movement.\n"
-msgstr "・移動力を消費しないため，無限に移動できます。\n"
+msgstr "%s 無限に移動することができるようになります\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Allows infinite movement.\n"
+msgstr "・無限に移動することができるようになります\n"
 
 #. TRANS: "MP" = movement points. Second %s may have a
 #. * fractional part.
 #: client/helpdata.c:4120
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Movement cost along %s is %s MP.\n"
 msgid "%s Movement cost along %s is %s MP.\n"
-msgstr "・%sの上を移動するとき，消費する移動力が%sptになります。\n"
+msgstr "%s %sに沿って移動するとき、移動コストは%sになります。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Movement cost along %s is %s MP.\n"
+msgstr "・%sに沿って移動するとき、移動コストは%sになります。\n"
 
 #: client/helpdata.c:4130
 #, fuzzy, c-format
@@ -14041,10 +14086,14 @@ msgid "%s Extends national borders of the building nation.\n"
 msgstr "・建設した民族の国境線が拡大します。\n"
 
 #: client/helpdata.c:4141
-#, fuzzy, c-format
+#, c-format
 #| msgid "* Grants permanent vision of an area around the tile to its owner.\n"
 msgid "%s Grants permanent vision of an area around the tile to its owner.\n"
-msgstr "・このタイル周囲の領域が常に所有者の視界内になります。\n"
+msgstr "%s このタイルの所有者は、その周辺が永久的に視界に入ります。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Grants permanent vision of an area around the tile to its owner.\n"
+msgstr "・このタイルの所有者は、その周辺が永久的に視界に入ります。\n"
 
 #: client/helpdata.c:4146
 #, fuzzy, c-format
@@ -38263,6 +38312,15 @@ msgstr ""
 "とができません。これらは然るべきユニットに対して\"公害を除去する\" または "
 "\"死の灰を除去する\" を命令することでのみ取り除けます。"
 
+# NOTE: 手動で追加した項目
+msgid ""
+"Units may also be able to destroy terrain alterations, by pillaging; "
+"typically more kinds of unit can pillage an improvement than could build "
+"it in the first place. Some tile features can only be removed by "
+"specialized units, with the \"clean pollution\" or \"clean fallout\" "
+"orders."
+msgstr "ユニットはアクション「略奪(P)」によってタイルの開発を破壊することもできます。通常、略奪を行うことができるユニットの種類は、開発を行うことができるユニットの種類よりも多いです。ただし、「公害」や「死の灰」は、特殊なユニットによってのみこれらを除去することができます。"
+
 #: data/helpdata.txt:395
 msgid ""
 "Terrain conversions cannot be undone in this way; for example, in the "
@@ -59726,14 +59784,17 @@ msgstr "エラー %d (strerror 無しでコンパイルされました)"
 #~ msgid "Clean Fallout"
 #~ msgstr "死の灰の除去"
 
-#~ msgid "_Auto Settler"
-#~ msgstr "自動開拓(_A)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "_Auto Settler"
+msgstr "自動開拓(_A)"
 
-#~ msgid "Clean _Pollution"
-#~ msgstr "公害を除去する(_P)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "Clean _Pollution"
+msgstr "公害を除去する(_P)"
 
-#~ msgid "Clean _Nuclear Fallout"
-#~ msgstr "死の灰を除去する(_N)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "Clean _Nuclear Fallout"
+msgstr "死の灰を除去する(_N)"
 
 #~ msgid "Clean Nuclear Fallout"
 #~ msgstr "死の灰を除去する"
@@ -59753,6 +59814,7 @@ msgstr "エラー %d (strerror 無しでコンパイルされました)"
 #~ "Setting this option will draw the roads and the railroads on the map."
 #~ msgstr "このオプションを設定すると，道路と鉄道がマップ上に表示されます。"
 
+# NOTE: 手動でコメントアウトを解除した項目
 #, c-format
 #| msgid "Clean Fallout"
 msgid "Clean %sFallout%s"
@@ -59851,8 +59913,9 @@ msgstr "死の灰を除去する(%sF)"
 #~ msgid "FirePower:"
 #~ msgstr "火力:"
 
-#~ msgid "Top _Five Cities"
-#~ msgstr "上位5位の都市(_F)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "Top _Five Cities"
+msgstr "上位5位の都市(_F)"
 
 #~ msgid "City _Production Levels"
 #~ msgstr "都市の生産物(_P)"
@@ -59866,21 +59929,23 @@ msgstr "死の灰を除去する(%sF)"
 #~ msgid "Paradrop/clean pollution"
 #~ msgstr "落下傘降下/公害を除去する"
 
+# NOTE: 手動でコメントアウトを解除した項目
 #, c-format
-#~ msgid ""
-#~ "\n"
-#~ "Clean pollution    %3d"
-#~ msgstr ""
-#~ "\n"
-#~ "公害の除去    %3d"
+msgid ""
+"\n"
+"Clean pollution    %3d"
+msgstr ""
+"\n"
+"公害の除去　    %3d"
 
+# NOTE: 手動でコメントアウトを解除した項目
 #, c-format
-#~ msgid ""
-#~ "\n"
-#~ "Clean fallout      %3d"
-#~ msgstr ""
-#~ "\n"
-#~ "死の灰の除去   %3d"
+msgid ""
+"\n"
+"Clean fallout      %3d"
+msgstr ""
+"\n"
+"死の灰の除去    %3d"
 
 # clefs
 #~ msgid "  * Can occupy empty enemy cities.\n"
