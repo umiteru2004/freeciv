@@ -15009,7 +15009,6 @@ msgstr "サウンドセット"
 
 # clefs
 #: client/options.c:1982
-#, fuzzy
 #| msgid ""
 #| "This is the soundset that will be used.  Changing this is the same as "
 #| "using the -S command-line parameter."
@@ -15018,8 +15017,13 @@ msgid ""
 "the -S command-line parameter. Use modpack installer utility to install "
 "additional soundsets."
 msgstr ""
-"利用するサウンドセットです。これを変更するのは，コマンドラインで -S によって"
-"指定するのと同じです。"
+"使用されるサウンドセットを選択します。\nこの設定を変更することは、コマンドラインオプション -S を使用することと同じです。"
+
+# NOTE: 手動で追加した項目
+msgid ""
+"This is the soundset that will be used.  Changing this is the same as "
+"using the -S command-line parameter."
+msgstr "使用されるサウンドセットを選択します。\nこの設定を変更することは、コマンドラインオプション -S を使用することと同じです。"
 
 #: client/options.c:1988 tools/fcmp/modinst.h:49
 msgid "Musicset"
@@ -15027,7 +15031,6 @@ msgstr "BGMセット"
 
 # clefs
 #: client/options.c:1989
-#, fuzzy
 #| msgid ""
 #| "This is the musicset that will be used.  Changing this is the same as "
 #| "using the -m command-line parameter."
@@ -15035,9 +15038,13 @@ msgid ""
 "This is the musicset that will be used. Changing this is the same as using "
 "the -m command-line parameter. Use modpack installer utility to install "
 "additional musicsets."
-msgstr ""
-"利用するBGMセットです。これを変更するのは，コマンドラインで -mによって指定す"
-"るのと同じです。"
+msgstr "使用されるBGMセットを選択します。\nこの設定を変更することは、コマンドラインオプション -m を使用することと同じです。"
+
+# 手動で追加した項目
+msgid ""
+"This is the musicset that will be used.  Changing this is the same as "
+"using the -m command-line parameter."
+msgstr "使用されるBGMセットを選択します。\nこの設定を変更することは、コマンドラインオプション -m を使用することと同じです。"
 
 # このあたりは原語で出てくれた方がわかりやすい気も (clefs)
 #: client/options.c:1996
@@ -15094,8 +15101,8 @@ msgid ""
 "installer utility to install additional tilesets."
 msgstr ""
 "四角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
-"も、タイルセットを変更することができます。この設定はコマンドラインオプション "
-"-t を指定するのと同じです。追加のタイルセットをインストールするには、modpack "
+"も、タイルセットを変更することができます。この設定を変更することは、コマンドラインオプション "
+"-t を使用することと同じです。追加のタイルセットをインストールするには、modpack "
 "インストーラーを使用してください。"
 
 # ntaka
@@ -15116,8 +15123,8 @@ msgid ""
 "install additional tilesets."
 msgstr ""
 "六角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
-"も、タイルセットを変更することができます。この設定はコマンドラインオプション "
-"-t を指定するのと同じです。追加のタイルセットをインストールするには、modpack "
+"も、タイルセットを変更することができます。この設定を変更することは、コマンドラインオプション "
+"-t を使用することと同じです。追加のタイルセットをインストールするには、modpack "
 "インストーラーを使用してください。"
 
 # ntaka
@@ -15138,10 +15145,10 @@ msgid ""
 "same as using the -t command-line parameter.Use modpack installer utility to "
 "install additional tilesets."
 msgstr ""
-"六角形タイルの等角マップで使用されるタイルセットを選択します。プレイ中であっ"
-"ても、タイルセットを変更することができます。この設定はコマンドラインオプショ"
-"ン -t を指定するのと同じです。追加のタイルセットをインストールするには、"
-"modpack インストーラーを使用してください。"
+"六角形タイルの等角マップで使用されるタイルセットを選択します。プレイ中であって"
+"も、タイルセットを変更することができます。この設定を変更することは、コマンドラインオプション "
+"-t を使用することと同じです。追加のタイルセットをインストールするには、modpack "
+"インストーラーを使用してください。"
 
 # clefs
 # これは「概略」ではなく，都市の影響範囲を示すライン
@@ -15904,14 +15911,13 @@ msgstr ""
 
 # このあたりは原語で出てくれた方がわかりやすい気も (clefs)
 #: client/options.c:2434
-#, fuzzy
 #| msgid "Sound plugin"
 msgid "Sound volume"
-msgstr "サウンドプラグイン"
+msgstr "音量"
 
 #: client/options.c:2435
 msgid "Volume scale from 0-100"
-msgstr ""
+msgstr "0~100の値を設定することができます。"
 
 #: client/options.c:2441
 msgid "Autoaccept soundset suggestions"
@@ -59807,12 +59813,14 @@ msgstr "死の灰を除去する(_N)"
 #~ msgid "Clean %s %d %s"
 #~ msgstr "%sを建設する(%s) %d%s"
 
-#~ msgid "Draw the roads and the railroads"
-#~ msgstr "道路/鉄道の表示"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "Draw the roads and the railroads"
+msgstr "道路と鉄道の表示"
 
-#~ msgid ""
-#~ "Setting this option will draw the roads and the railroads on the map."
-#~ msgstr "このオプションを設定すると，道路と鉄道がマップ上に表示されます。"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid ""
+"Setting this option will draw the roads and the railroads on the map."
+msgstr "このオプションを設定すると，道路と鉄道がマップ上に表示されます。"
 
 # NOTE: 手動でコメントアウトを解除した項目
 #, c-format
