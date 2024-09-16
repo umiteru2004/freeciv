@@ -15575,13 +15575,11 @@ msgstr "自動化されたユニットの表示"
 
 # clefs
 #: client/options.c:2275
-#, fuzzy
 msgid ""
 "Disable this option if you do not want to see automated units autocentered "
 "and animated."
 msgstr ""
-"これを無効にすると，自動開拓や自動探索などを実行中のユニットは，移動アニメー"
-"ションが省略されます。"
+"この設定を無効にすると、自動探索や自動開拓などを実行中のユニットは、移動アニメーションが省略されます。"
 
 #: client/options.c:2278
 msgid "Auto center on combat"
@@ -15622,7 +15620,7 @@ msgstr ""
 
 #: client/options.c:2293
 msgid "Keyboardless goto"
-msgstr "キーボードなしでのgotoコマンド"
+msgstr "キーボードなしでの「移動(G)」アクション"
 
 # clefs
 # Belgae
@@ -15631,11 +15629,11 @@ msgid ""
 "If this option is set then a goto may be initiated by left-clicking and then "
 "holding down the mouse button while dragging the mouse onto a different tile."
 msgstr ""
-"このオプションを設定すると，左ドラッグするだけでgotoコマンドを実行できます。"
+"この設定を有効にすると，左ドラッグするだけでアクション「移動(G)」を実行することができます。"
 
 #: client/options.c:2299
 msgid "Allow goto into the unknown"
-msgstr "[gotoコマンドで]未知の領域への移動を許可する"
+msgstr "アクション「移動(G)」で未知の領域への移動を許可する"
 
 # clefs
 #: client/options.c:2300
@@ -15643,7 +15641,7 @@ msgid ""
 "Setting this option will make the game consider moving into unknown tiles.  "
 "If not, then goto routes will detour around or be blocked by unknown tiles."
 msgstr ""
-"有効にすると，gotoコマンドでは未知の領域を通ることも考慮に入れられます。無効"
+"この設定を有効にすると，アクション「移動(G)」では未知の領域を通ることも考慮に入れられます。無効"
 "にすると，未知の領域は迂回し，できなければ到達不能となります。"
 
 #: client/options.c:2304
@@ -15657,16 +15655,15 @@ msgid ""
 msgstr "都市ダイアログを開いた時に，その都市をマップの中心にします。"
 
 #: client/options.c:2308
-#, fuzzy
 msgid "Show messages from previous turn"
-msgstr "前の都市へ"
+msgstr "前ターンのメッセージの表示"
 
 #: client/options.c:2309
 msgid ""
 "Message Window shows messages also from previous turn. This makes sure you "
 "don't miss messages received in the end of the turn, just before the window "
 "gets cleared."
-msgstr ""
+msgstr "この設定を有効にすると、メッセージウインドウには、前のターンからのメッセージも表示されます。これにより、ターンの終わり、ウィンドウがクリアされる直前に受信したメッセージを見逃すことがなくなります。"
 
 #: client/options.c:2313
 msgid "Concise city production"
@@ -15736,9 +15733,8 @@ msgstr ""
 "ます(例: ｢r｣...交易路を結ぶ/｢b｣...不思議建設を手伝う/｢d｣...外交/スパイ活動)。"
 
 #: client/options.c:2340
-#, fuzzy
 msgid "Pop up attack questions"
-msgstr "ポップアップ要求"
+msgstr "攻撃を確認するポップアップ"
 
 #: client/options.c:2341
 msgid ""
@@ -15746,11 +15742,11 @@ msgid ""
 "window will pop up asking which action should be performed even if an attack "
 "action is legal and no other interesting action are. This allows you to "
 "change your mind or to select an uninteresting action."
-msgstr ""
+msgstr "この設定を有効にすると、ユニットが攻撃可能な目標に到達したとき、\nアクション「攻撃(A)」が実行可能であり、他に実行可能なアクションがない場合でも、\n実行するアクションを尋ねるウィンドウがポップアップされます。\nこれにより、誤って攻撃してしまうことを防ぐことができます。"
 
 #: client/options.c:2353
 msgid "Pop up actions when final move to allied tile"
-msgstr ""
+msgstr "移動時にアクションを尋ねるポップアップ"
 
 #: client/options.c:2354
 msgid ""
@@ -15761,7 +15757,7 @@ msgid ""
 "that the actor unit has moves left, save a turn. The down side is that the "
 "unit remains adjacent to rather than inside the protection of an allied city "
 "or unit stack."
-msgstr ""
+msgstr "この設定を有効にすると、ユニットがアクションを実行することができる友好的な都市またはユニットのあるタイルに移動するとき、この移動はアクションの試行として解釈されます。\nこれにより、この移動が行われる前に、実行するアクションを尋ねるウィンドウがポップアップされます。\nユニットに移動ポイントが残っている場合、ターンを短縮することができます。\nただし、実行するアクションを選択するまで、ユニットが友好的な都市や防御ユニットの保護を受けることができず、隣接したままであるデメリットがあります。"
 
 #: client/options.c:2365
 msgid "Enable cursor changing"
@@ -40927,8 +40923,8 @@ msgstr ""
 "て\n"
 "                                 いる場合，現在の活動はキャンセルされます）\n"
 "  ユニットをShift+左クリック:      ユニットを選択に加える(GTK)\n"
-"  ユニットを左ドラッグ:        ユニットにgotoコマンドを出す\n"
-"                               （オプションで\"キーボードなしでのgotoコマンド"
+"  ユニットを左ドラッグ:        ユニットを移動させる\n"
+"                               （オプションで\"キーボードなしでの「移動(G)」アクション"
 "\"を有効にしてる場合）\n"
 "  中クリック，Alt+左クリック:   タイルの情報を表示する\n"
 "  右クリック:                  タイルに視点の中心を移す\n"
@@ -40954,7 +40950,7 @@ msgstr ""
 "先）\n"
 "\n"
 "  これらの操作はタイル上の1ユニットを選択状態にします。他の条件が等しければ，"
-"移動ポイントが残っているものが優先されます。\"キーボードなしでのgotoコマンド"
+"移動ポイントが残っているものが優先されます。\"キーボードなしでの「移動(G)」アクション"
 "\"が有効の場合，ドラッグする1操作だけでユニットの選択および移動が可能です。"
 
 #: data/helpdata.txt:1754
