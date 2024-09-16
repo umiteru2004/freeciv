@@ -157,7 +157,7 @@ msgstr ""
 "Project-Id-Version: Freeciv 2.0.99-devel\n"
 "Report-Msgid-Bugs-To: https://redmine.freeciv.org/projects/freeciv\n"
 "POT-Creation-Date: 2024-06-28 06:24+0300\n"
-"PO-Revision-Date: 2018-07-17 17:02+0900\n"
+"PO-Revision-Date: 2024-09-16 08:45+0900\n"
 "Last-Translator: Belgae <freeciv.belgae AT gmail.com>\n"
 "Language-Team: SAWADA Katsuya <ama@petmail.net>\n"
 "Language: ja\n"
@@ -165,7 +165,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ../freeciv-2.6.0-RC2\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -2611,10 +2611,9 @@ msgstr "技術を盗む"
 #: client/gui-gtk-5.0/pages.c:484 client/gui-gtk-5.0/pages.c:614
 #: client/gui-gtk-5.0/pages.c:1468 client/gui-gtk-5.0/pages.c:2946
 #: client/gui-gtk-5.0/pages.c:3105 client/gui-gtk-5.0/pages.c:3475
-#, fuzzy
 #| msgid "Cancel"
 msgid "_Cancel"
-msgstr "取り消し"
+msgstr "キャンセル(_C)"
 
 #: client/gui-gtk-3.22/action_dialog.c:587
 #: client/gui-gtk-4.0/action_dialog.c:586
@@ -2944,10 +2943,9 @@ msgstr "全消去"
 #: client/gui-gtk-5.0/messagedlg.c:74 client/gui-gtk-5.0/optiondlg.c:359
 #: client/gui-gtk-5.0/optiondlg.c:393 client/gui-gtk-5.0/pages.c:3110
 #: client/gui-gtk-5.0/pages.c:3480
-#, fuzzy
 #| msgid "OK"
 msgid "_OK"
-msgstr "OK"
+msgstr "OK(_O)"
 
 #: client/gui-gtk-3.22/chatline.c:1343
 #, fuzzy
@@ -3003,9 +3001,8 @@ msgstr "下線(Ctrl-U)"
 # was:アポロ巨像。そういう呼び方もありますが，本当は像はヘリオスであってアポロンではないので改訳したほうがよい？(Belgae)
 #: client/gui-gtk-3.22/chatline.c:1379 client/gui-gtk-4.0/chatline.c:1433
 #: client/gui-gtk-5.0/chatline.c:1433
-#, fuzzy
 msgid "Color"
-msgstr "色の指定なし"
+msgstr "色"
 
 #: client/gui-gtk-3.22/chatline.c:1384 client/gui-gtk-4.0/chatline.c:1439
 #: client/gui-gtk-5.0/chatline.c:1439
@@ -3172,15 +3169,14 @@ msgstr "公害:"
 
 #: client/gui-gtk-3.22/citydlg.c:766 client/gui-gtk-4.0/citydlg.c:751
 #: client/gui-gtk-5.0/citydlg.c:751 client/gui-qt/citydlg.h:79
-#, fuzzy
 #| msgid "Plague risk"
 msgid "Plague risk:"
-msgstr "疫病発生率"
+msgstr "疫病発生率:"
 
 #: client/gui-gtk-3.22/citydlg.c:767 client/gui-gtk-4.0/citydlg.c:752
 #: client/gui-gtk-5.0/citydlg.c:752 client/gui-qt/citydlg.h:81
 msgid "Tech Stolen:"
-msgstr ""
+msgstr "盗まれた科学:"
 
 #: client/gui-gtk-3.22/citydlg.c:768 client/gui-gtk-4.0/citydlg.c:753
 #: client/gui-gtk-5.0/citydlg.c:753 client/gui-qt/citydlg.h:83
@@ -3413,10 +3409,9 @@ msgstr "駐留ユニットのリスト(_L)"
 #: client/gui-gtk-5.0/repodlgs.c:1760 client/gui-gtk-5.0/spaceshipdlg.c:229
 #: client/gui-gtk-5.0/unitselect.c:280 client/gui-gtk-5.0/wldlg.c:232
 #: client/gui-gtk-5.0/wldlg.c:393
-#, fuzzy
 #| msgid "Close"
 msgid "_Close"
-msgstr "閉じる"
+msgstr "閉じる(_C)"
 
 #. TRANS: city dialog title
 #: client/gui-gtk-3.22/citydlg.c:1837 client/gui-gtk-4.0/citydlg.c:1716
@@ -3457,16 +3452,16 @@ msgstr "拡大不能"
 
 #: client/gui-gtk-3.22/citydlg.c:1998 client/gui-gtk-4.0/citydlg.c:1879
 #: client/gui-gtk-5.0/citydlg.c:1879 client/gui-qt/citydlg.cpp:3135
-#, fuzzy, c-format
+#, c-format
 #| msgid "Load tileset"
 msgid "%d time"
 msgid_plural "%d times"
-msgstr[0] "タイルセットをロード"
+msgstr[0] "%d項目"
 
 #: client/gui-gtk-3.22/citydlg.c:2001 client/gui-gtk-4.0/citydlg.c:1882
 #: client/gui-gtk-5.0/citydlg.c:1882 client/gui-qt/citydlg.cpp:3138
 msgid "Not stolen"
-msgstr ""
+msgstr "なし"
 
 #. TRANS: never actually used with built_slots <= 1
 #: client/gui-gtk-3.22/citydlg.c:2099 client/gui-gtk-4.0/citydlg.c:1979
@@ -4968,10 +4963,9 @@ msgstr ""
 #: client/gui-gtk-3.22/editprop.c:5011 client/gui-gtk-3.22/optiondlg.c:362
 #: client/gui-gtk-4.0/editprop.c:5033 client/gui-gtk-4.0/optiondlg.c:390
 #: client/gui-gtk-5.0/editprop.c:5033 client/gui-gtk-5.0/optiondlg.c:390
-#, fuzzy
 #| msgid "Refresh"
 msgid "_Refresh"
-msgstr "更新"
+msgstr "更新(_R)"
 
 #: client/gui-gtk-3.22/editprop.c:5014 client/gui-gtk-4.0/editprop.c:5036
 #: client/gui-gtk-5.0/editprop.c:5036
@@ -4985,10 +4979,9 @@ msgstr ""
 #: client/gui-gtk-3.22/editprop.c:5021 client/gui-gtk-3.22/optiondlg.c:364
 #: client/gui-gtk-4.0/editprop.c:5043 client/gui-gtk-4.0/optiondlg.c:392
 #: client/gui-gtk-5.0/editprop.c:5043 client/gui-gtk-5.0/optiondlg.c:392
-#, fuzzy
 #| msgid "Apply"
 msgid "_Apply"
-msgstr "適用"
+msgstr "適用(_A)"
 
 #: client/gui-gtk-3.22/editprop.c:5024 client/gui-gtk-4.0/editprop.c:5046
 #: client/gui-gtk-5.0/editprop.c:5046
@@ -5391,7 +5384,6 @@ msgstr "詳細な情報は%s市民を左クリックすると表示されます�
 #: client/gui-gtk-5.0/helpdlg.c:108 client/gui-gtk-5.0/helpdlg.c:112
 #: client/gui-qt/helpdlg.cpp:1022 client/gui-sdl2/helpdlg.c:387
 #: client/gui-sdl3/helpdlg.c:384
-#, fuzzy
 #| msgid "Cost:"
 msgid "Base Cost:"
 msgstr "生産コスト:"
@@ -5558,15 +5550,14 @@ msgstr "Freecivヘルプブラウザ"
 # clefs
 #: client/gui-gtk-3.22/helpdlg.c:527 client/gui-gtk-4.0/helpdlg.c:548
 #: client/gui-gtk-5.0/helpdlg.c:548
-#, fuzzy
 #| msgid "Back"
 msgid "_Back"
-msgstr "戻る"
+msgstr "前へ(_B)"
 
 #: client/gui-gtk-3.22/helpdlg.c:529 client/gui-gtk-4.0/helpdlg.c:550
 #: client/gui-gtk-5.0/helpdlg.c:550
 msgid "_Forward"
-msgstr ""
+msgstr "次へ(_F)"
 
 #: client/gui-gtk-3.22/helpdlg.c:786 client/gui-gtk-4.0/helpdlg.c:814
 #: client/gui-gtk-5.0/helpdlg.c:814
@@ -5702,9 +5693,8 @@ msgstr "地形によって異なる"
 #. TRANS: (Resource extra) Conflicts with:
 #: client/gui-gtk-3.22/helpdlg.c:1432 client/gui-gtk-4.0/helpdlg.c:1477
 #: client/gui-gtk-5.0/helpdlg.c:1477
-#, fuzzy
 msgid "Other Resources"
-msgstr "資源"
+msgstr "他の特産物"
 
 #. TRANS: No output bonus from a road
 #: client/gui-gtk-3.22/helpdlg.c:1462 client/gui-gtk-3.22/helpdlg.c:1466
@@ -5973,10 +5963,9 @@ msgstr "文明(_I)"
 
 #: client/gui-gtk-3.22/menu.c:277 client/gui-gtk-4.0/menu.c:3237
 #: client/gui-gtk-5.0/menu.c:3241
-#, fuzzy
 #| msgid "Nation _Groups:"
 msgid "_Battle Groups"
-msgstr "民族(_G):"
+msgstr "バトルグループ(_B)"
 
 #: client/gui-gtk-3.22/menu.c:279 client/gui-gtk-4.0/menu.c:3269
 #: client/gui-gtk-5.0/menu.c:3273
@@ -6062,15 +6051,14 @@ msgstr "作業リスト(_L)"
 
 #: client/gui-gtk-3.22/menu.c:311 client/gui-gtk-4.0/menu.c:592
 #: client/gui-gtk-5.0/menu.c:592
-#, fuzzy
 #| msgid "Close city dialog"
 msgid "Rally point dialog"
-msgstr "都市ダイアログを閉じる"
+msgstr "集結点ダイアログ"
 
 #: client/gui-gtk-3.22/menu.c:314 client/gui-gtk-4.0/menu.c:595
 #: client/gui-gtk-5.0/menu.c:595
 msgid "Infra dialog"
-msgstr ""
+msgstr "インフラダイアログ"
 
 #: client/gui-gtk-3.22/menu.c:317 client/gui-gtk-4.0/menu.c:610
 #: client/gui-gtk-5.0/menu.c:610
@@ -6121,62 +6109,62 @@ msgstr "人口統計(_D)"
 #: client/gui-gtk-3.22/menu.c:338 client/gui-gtk-4.0/menu.c:889
 #: client/gui-gtk-5.0/menu.c:889 client/gui-qt/menu.cpp:1590
 msgid "Select Battle Group 1"
-msgstr ""
+msgstr "バトルグループ1を選択"
 
 #: client/gui-gtk-3.22/menu.c:341 client/gui-gtk-4.0/menu.c:892
 #: client/gui-gtk-5.0/menu.c:892 client/gui-qt/menu.cpp:1594
 msgid "Assign Battle Group 1"
-msgstr ""
+msgstr "バトルグループ1を割り当て"
 
 #: client/gui-gtk-3.22/menu.c:344 client/gui-gtk-4.0/menu.c:895
 #: client/gui-gtk-5.0/menu.c:895 client/gui-qt/menu.cpp:1598
 msgid "Append to Battle Group 1"
-msgstr ""
+msgstr "バトルグループ1に追加"
 
 #: client/gui-gtk-3.22/menu.c:347 client/gui-gtk-4.0/menu.c:898
 #: client/gui-gtk-5.0/menu.c:898 client/gui-qt/menu.cpp:1602
 msgid "Select Battle Group 2"
-msgstr ""
+msgstr "バトルグループ2を選択"
 
 #: client/gui-gtk-3.22/menu.c:350 client/gui-gtk-4.0/menu.c:901
 #: client/gui-gtk-5.0/menu.c:901 client/gui-qt/menu.cpp:1606
 msgid "Assign Battle Group 2"
-msgstr ""
+msgstr "バトルグループ2を割り当て"
 
 #: client/gui-gtk-3.22/menu.c:353 client/gui-gtk-4.0/menu.c:904
 #: client/gui-gtk-5.0/menu.c:904 client/gui-qt/menu.cpp:1610
 msgid "Append to Battle Group 2"
-msgstr ""
+msgstr "バトルグループ2に追加"
 
 #: client/gui-gtk-3.22/menu.c:356 client/gui-gtk-4.0/menu.c:907
 #: client/gui-gtk-5.0/menu.c:907 client/gui-qt/menu.cpp:1614
 msgid "Select Battle Group 3"
-msgstr ""
+msgstr "バトルグループ3を選択"
 
 #: client/gui-gtk-3.22/menu.c:359 client/gui-gtk-4.0/menu.c:910
 #: client/gui-gtk-5.0/menu.c:910 client/gui-qt/menu.cpp:1618
 msgid "Assign Battle Group 3"
-msgstr ""
+msgstr "バトルグループ3を割り当て"
 
 #: client/gui-gtk-3.22/menu.c:362 client/gui-gtk-4.0/menu.c:913
 #: client/gui-gtk-5.0/menu.c:913 client/gui-qt/menu.cpp:1622
 msgid "Append to Battle Group 3"
-msgstr ""
+msgstr "バトルグループ3に追加"
 
 #: client/gui-gtk-3.22/menu.c:365 client/gui-gtk-4.0/menu.c:916
 #: client/gui-gtk-5.0/menu.c:916 client/gui-qt/menu.cpp:1626
 msgid "Select Battle Group 4"
-msgstr ""
+msgstr "バトルグループ4を選択"
 
 #: client/gui-gtk-3.22/menu.c:368 client/gui-gtk-4.0/menu.c:919
 #: client/gui-gtk-5.0/menu.c:919 client/gui-qt/menu.cpp:1630
 msgid "Assign Battle Group 4"
-msgstr ""
+msgstr "バトルグループ4を割り当て"
 
 #: client/gui-gtk-3.22/menu.c:371 client/gui-gtk-4.0/menu.c:922
 #: client/gui-gtk-5.0/menu.c:922 client/gui-qt/menu.cpp:1634
 msgid "Append to Battle Group 4"
-msgstr ""
+msgstr "バトルグループ4に追加"
 
 #. TRANS: "Overview" topic in built-in help
 #: client/gui-gtk-3.22/menu.c:375 client/gui-gtk-4.0/menu.c:927
@@ -6364,10 +6352,9 @@ msgstr "都市の拡大(_R)"
 
 #: client/gui-gtk-3.22/menu.c:449 client/gui-gtk-4.0/menu.c:639
 #: client/gui-gtk-5.0/menu.c:639
-#, fuzzy
 #| msgid "City Production"
 msgid "City _Production"
-msgstr "都市の生産物"
+msgstr "都市の生産物(_P)"
 
 #: client/gui-gtk-3.22/menu.c:451 client/gui-gtk-4.0/menu.c:642
 #: client/gui-gtk-5.0/menu.c:642 client/gui-qt/menu.cpp:1126
@@ -6442,9 +6429,8 @@ msgstr "ユニット所属の盾表示"
 #: client/gui-gtk-3.22/menu.c:481 client/gui-gtk-4.0/menu.c:687
 #: client/gui-gtk-5.0/menu.c:687 client/gui-qt/menu.cpp:1136
 #: client/gui-qt/shortcuts.cpp:176
-#, fuzzy
 msgid "Unit Stack Size"
-msgstr "ユニット選択フィルター"
+msgstr "同じタイルにいるユニットの数"
 
 #: client/gui-gtk-3.22/menu.c:484 client/gui-gtk-4.0/menu.c:690
 #: client/gui-gtk-5.0/menu.c:690
@@ -6592,9 +6578,8 @@ msgstr "移動(_G)"
 #: client/gui-gtk-3.22/menu.c:542 client/gui-gtk-4.0/menu.c:3130
 #: client/gui-gtk-4.0/menu.c:3527 client/gui-gtk-5.0/menu.c:3134
 #: client/gui-gtk-5.0/menu.c:3531
-#, fuzzy
 msgid "Go to a_nd..."
-msgstr "移動して閉じる"
+msgstr "移動してアクション(_N)"
 
 #: client/gui-gtk-3.22/menu.c:543 client/gui-gtk-4.0/menu.c:728
 #: client/gui-gtk-5.0/menu.c:728
@@ -6761,9 +6746,8 @@ msgstr "飛行場を建設する"
 
 #: client/gui-gtk-3.22/menu.c:603 client/gui-gtk-4.0/menu.c:831
 #: client/gui-gtk-5.0/menu.c:831
-#, fuzzy
 msgid "P_aradrop"
-msgstr "ここに落下傘降下"
+msgstr "落下傘降下(_A)"
 
 #: client/gui-gtk-3.22/menu.c:605 client/gui-gtk-4.0/menu.c:834
 #: client/gui-gtk-5.0/menu.c:834
@@ -6872,17 +6856,15 @@ msgstr "%sに変える"
 #: client/gui-gtk-3.22/menu.c:2803 client/gui-gtk-3.22/menu.c:2847
 #: client/gui-gtk-4.0/menu.c:4024 client/gui-gtk-4.0/menu.c:4068
 #: client/gui-gtk-5.0/menu.c:4028 client/gui-gtk-5.0/menu.c:4072
-#, fuzzy
 msgid "_Cultivate"
-msgstr "文化"
+msgstr "伐採する(_C)"
 
 #: client/gui-gtk-3.22/menu.c:2834 client/gui-gtk-3.22/menu.c:2849
 #: client/gui-gtk-4.0/menu.c:4055 client/gui-gtk-4.0/menu.c:4070
 #: client/gui-gtk-5.0/menu.c:4059 client/gui-gtk-5.0/menu.c:4074
-#, fuzzy
 #| msgid "Plant"
 msgid "_Plant"
-msgstr "植林"
+msgstr "植栽する(_P)"
 
 #: client/gui-gtk-3.22/menu.c:2839 client/gui-gtk-4.0/menu.c:4060
 #: client/gui-gtk-5.0/menu.c:4064
@@ -6963,10 +6945,9 @@ msgstr "色の選択"
 #: client/gui-gtk-4.0/pages.c:486 client/gui-gtk-4.0/pages.c:615
 #: client/gui-gtk-5.0/optiondlg.c:389 client/gui-gtk-5.0/pages.c:486
 #: client/gui-gtk-5.0/pages.c:615
-#, fuzzy
 #| msgid "Save"
 msgid "_Save"
-msgstr "保存"
+msgstr "保存(_S)"
 
 # アクセスキーなし(Belgae)
 #: client/gui-gtk-3.22/optiondlg.c:363 client/gui-gtk-4.0/optiondlg.c:391
@@ -7059,7 +7040,7 @@ msgstr ""
 #: client/gui-gtk-3.22/pages.c:355 client/gui-gtk-4.0/pages.c:364
 #: client/gui-gtk-5.0/pages.c:364
 msgid "E_xit"
-msgstr ""
+msgstr "終了(_X)"
 
 #: client/gui-gtk-3.22/pages.c:360 client/gui-gtk-4.0/pages.c:369
 #: client/gui-gtk-5.0/pages.c:369 client/gui-qt/pages.cpp:258
@@ -7159,7 +7140,7 @@ msgstr "コメント"
 #: client/gui-gtk-3.22/pages.c:1247 client/gui-gtk-4.0/pages.c:1270
 #: client/gui-gtk-5.0/pages.c:1270
 msgid "Local _Area Network"
-msgstr "L_AN"
+msgstr "LAN(_A)"
 
 # Daniel
 #: client/gui-gtk-3.22/pages.c:1292 client/gui-gtk-4.0/pages.c:1321
@@ -12279,10 +12260,9 @@ msgstr ""
 #. TRANS: Header for fixed-width terrain alteration table.
 #. * TRANS: Translators cannot change column widths :(
 #: client/helpdata.c:221
-#, fuzzy
 #| msgid "Terrain       Irrigation       Mining           Transform\n"
 msgid "Terrain       Cultivate        Plant            Transform\n"
-msgstr "地形　　　灌漑　　　　鉱山　　　　地形改造\n"
+msgstr "地形          伐採              植栽             地形改造\n"
 
 #: client/helpdata.c:408
 msgid "Time taken for the following activities is independent of terrain:\n"
@@ -12451,20 +12431,21 @@ msgstr "｢%s｣を建設することができなくなります。"
 # clefs
 #. TRANS: First %s is an extra name.
 #: client/helpdata.c:635
-#, fuzzy, c-format
+#, c-format
 msgid "?extra:Allows %s (with %s but no %s)."
 msgstr ""
-"・%sを生産することができるようになります（ただし科学技術「%s」が必要）。\n"
+"「%s」を建設することができるようになります。（ただし、%sが必要で、%sの上には"
+"建設できません。）"
 
 # clefs
 # XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
 # "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is an extra name.
 #: client/helpdata.c:637
-#, fuzzy, c-format
+#, c-format
 #| msgid "Allows %s (with %s)."
 msgid "?extra:Allows %s (with %s)."
-msgstr "・「%s」を建設することが可能になります（ただし「%s」が必要です）。"
+msgstr "｢%s｣を建設することができるようになります（ただし%sが必要です）。"
 
 # clefs
 # XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
@@ -12486,10 +12467,10 @@ msgstr "政治体制を%sにすることができるようになります。"
 
 #. TRANS: %s is an extra name.
 #: client/helpdata.c:643
-#, fuzzy, c-format
+#, c-format
 #| msgid "?gov:Prevents %s."
 msgid "?extra:Prevents %s."
-msgstr "政治体制を%sにすることができなくなります。"
+msgstr "｢%s｣を建設することができなくなります。"
 
 # clefs
 #. TRANS: First %s is a good name.
@@ -12702,6 +12683,11 @@ msgstr ""
 msgid "%s Makes it impossible to do the action '%s' to its city.\n"
 msgstr ""
 "・他国はあなたの%2$sに対して，'%1$s' を実行することができなくなります。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Makes it impossible to do the action '%s' to its city.\n"
+msgstr ""
+"・この建造物がある都市に、アクション「%s」を実行することはできません。\n"
 
 #. TRANS: Incite City
 #: client/helpdata.c:1713
@@ -13263,6 +13249,10 @@ msgstr ""
 #, fuzzy, c-format
 msgid "%s Can do the action '%s'.\n"
 msgstr "・任務 '%s' を%sに対して実行できます。\n"
+
+# NOTE: 手動で追加した項目
+msgid "* Can do the action '%s'.\n"
+msgstr "・アクション「%s」を実行することができます。\n"
 
 #. TRANS: describes the target of an action.
 #: client/helpdata.c:2560
@@ -13907,10 +13897,9 @@ msgid "Placed by map generator.\n"
 msgstr "マップ生成に伴って配置されます。\n"
 
 #: client/helpdata.c:3892
-#, fuzzy
 #| msgid "* Can be traveled by %s units.\n"
 msgid "Can be explored by certain units.\n"
-msgstr "・%sユニットが侵入できます。\n"
+msgstr "特定のユニットが探索することができます。\n"
 
 #: client/helpdata.c:3897
 msgid "May appear spontaneously.\n"
@@ -14101,6 +14090,9 @@ msgid ""
 "Time to build depends on terrain:\n"
 "\n"
 msgstr ""
+"\n"
+"建設に必要な作業時間は地形によって異なります:\n"
+"\n"
 
 # clefs
 #. TRANS: Header for fixed-width extra properties table.
@@ -14110,6 +14102,8 @@ msgid ""
 "Terrain       Time\n"
 "------------------\n"
 msgstr ""
+"地形          時間\n"
+"------------------\n"
 
 #. TRANS: Header for fixed-width road properties table.
 #. * TRANS: Translators cannot change column widths :(
@@ -14144,14 +14138,14 @@ msgstr "%s - %s間に新たな交易路が結ばれました。"
 #: client/helpdata.c:4276
 #, c-format
 msgid "Sending city enjoys %d%% income from the route.\n"
-msgstr ""
+msgstr "交易品を送る都市は交易路からの収入を%d%%享受します。\n"
 
 #: client/helpdata.c:4278
 #, c-format
 msgid ""
 "Receiving city enjoys %d%% income from the route.\n"
 "\n"
-msgstr ""
+msgstr "交易品を受け取る都市は交易路からの収入を%d%%享受します。\n"
 
 #: client/helpdata.c:4364
 msgid "Features:\n"
@@ -15034,14 +15028,12 @@ msgstr ""
 
 # ntaka
 #: client/options.c:2045
-#, fuzzy
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Square)"
-msgstr "タイルセット (トップビューヘックス用)"
+msgstr "タイルセット（四角形）"
 
 # clefs
 #: client/options.c:2046
-#, fuzzy
 #| msgid ""
 #| "Select the tileset used with Overhead maps. This may change currently "
 #| "active tileset, if you are playing on such a map, in which case this is "
@@ -15052,18 +15044,18 @@ msgid ""
 "this is the same as using the -t command-line parameter. Use modpack "
 "installer utility to install additional tilesets."
 msgstr ""
-"正方形タイルのトップビューマップをプレイする際に使用するタイルセットを選択し"
-"ます。プレイ中であっても，使用しているタイルセットを変更することができます。"
-"この設定はコマンドライン引数 -t を指定するのと同じです。"
+"四角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"も、タイルセットを変更することができます。この設定はコマンドラインオプション "
+"-t を指定するのと同じです。追加のタイルセットをインストールするには、modpack "
+"インストーラーを使用してください。"
 
 # ntaka
 #: client/options.c:2055
 msgid "Tileset (Hex)"
-msgstr "タイルセット (トップビューヘックス用)"
+msgstr "タイルセット (六角形)"
 
 # clefs
 #: client/options.c:2056
-#, fuzzy
 #| msgid ""
 #| "Select the tileset used with Hex maps. This may change currently active "
 #| "tileset, if you are playing on such a map, in which case this is the same "
@@ -15074,20 +15066,19 @@ msgid ""
 "using the -t command-line parameter. Use modpack installer utility to "
 "install additional tilesets."
 msgstr ""
-"六角形タイルのトップビューマップをプレイする際に使用するタイルセットを選択し"
-"ます。プレイ中であっても，使用しているタイルセットを変更することができます。"
-"この設定はコマンドライン引数 -t を指定するのと同じです。"
+"六角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"も、タイルセットを変更することができます。この設定はコマンドラインオプション "
+"-t を指定するのと同じです。追加のタイルセットをインストールするには、modpack "
+"インストーラーを使用してください。"
 
 # ntaka
 #: client/options.c:2065
-#, fuzzy
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Iso-Hex)"
-msgstr "タイルセット (トップビューヘックス用)"
+msgstr "タイルセット (六角形等角マップ)"
 
 # clefs
 #: client/options.c:2066
-#, fuzzy
 #| msgid ""
 #| "Select the tileset used with Hex maps. This may change currently active "
 #| "tileset, if you are playing on such a map, in which case this is the same "
@@ -15098,9 +15089,10 @@ msgid ""
 "same as using the -t command-line parameter.Use modpack installer utility to "
 "install additional tilesets."
 msgstr ""
-"六角形タイルのトップビューマップをプレイする際に使用するタイルセットを選択し"
-"ます。プレイ中であっても，使用しているタイルセットを変更することができます。"
-"この設定はコマンドライン引数 -t を指定するのと同じです。"
+"六角形タイルの等角マップで使用されるタイルセットを選択します。プレイ中であっ"
+"ても、タイルセットを変更することができます。この設定はコマンドラインオプショ"
+"ン -t を指定するのと同じです。追加のタイルセットをインストールするには、"
+"modpack インストーラーを使用してください。"
 
 # clefs
 # これは「概略」ではなく，都市の影響範囲を示すライン
@@ -15322,18 +15314,18 @@ msgstr ""
 "す。セットしなければ，旗そのものが表示されます。"
 
 #: client/options.c:2184
-#, fuzzy
 #| msgid "Draw the units"
 msgid "Draw size of the unit stacks"
-msgstr "ユニットの表示"
+msgstr "ユニット数の表示"
 
 #: client/options.c:2185
-#, fuzzy
 #| msgid "Setting this option will draw the names of the cities on the map."
 msgid ""
 "Setting this option will draw a numbers indicating size of the unit stacks. "
 "Not all clients support this."
-msgstr "このオプションを設定すると，都市名がマップ上に表示されます。"
+msgstr ""
+"この設定を有効にすると、1つのタイルに複数のユニットがいる場合、その数が表示さ"
+"れます。すべてのクライアントがこの機能をサポートしているわけではありません。"
 
 #: client/options.c:2189
 msgid "Draw the units in focus"
@@ -18314,9 +18306,9 @@ msgstr "叛乱を煽る"
 #: common/actions.c:6093 data/civ2/actions.ruleset:250
 #: data/classic/actions.ruleset:257 data/sandbox/actions.ruleset:283
 #: data/civ2civ3/actions.ruleset:266 data/multiplayer/actions.ruleset:254
-#, fuzzy, c-format
+#, c-format
 msgid "Incite a Re%svolt and Escape%s"
-msgstr "叛乱を煽る"
+msgstr "叛乱を煽動して脱出(%sV)"
 
 #. TRANS: Establish _Embassy (100% chance of success).
 #: common/actions.c:6096 data/civ2/actions.ruleset:253
@@ -18333,7 +18325,7 @@ msgstr "大使館の設置(%sE) %s"
 #: data/multiplayer/actions.ruleset:260 data/granularity/actions.ruleset:169
 #, c-format
 msgid "Becom%se Ambassador%s"
-msgstr ""
+msgstr "大使館を設立する(%sE)"
 
 #. TRANS: Steal _Technology (3% chance of success).
 #: common/actions.c:6102 data/civ1/actions.ruleset:224
@@ -18539,29 +18531,29 @@ msgstr "%1$sによって%3$sの%2$sが瓦礫の山と化しました。"
 #: data/civ2/actions.ruleset:283 data/classic/actions.ruleset:290
 #: data/sandbox/actions.ruleset:319 data/civ2civ3/actions.ruleset:299
 #: data/alien/actions.ruleset:245 data/multiplayer/actions.ruleset:281
-#, fuzzy, c-format
+#, c-format
 #| msgid "Draw the city productions"
 msgid "Dis%sband recovering production%s"
-msgstr "都市生産物の表示"
+msgstr "生産ポイントを返却して解散(%sB)"
 
 #. TRANS: Dis_band without recovering production (100% chance of success).
 #: common/actions.c:6194 data/civ1/actions.ruleset:242
 #: data/civ2/actions.ruleset:286 data/classic/actions.ruleset:293
 #: data/sandbox/actions.ruleset:322 data/civ2civ3/actions.ruleset:302
 #: data/alien/actions.ruleset:248 data/multiplayer/actions.ruleset:284
-#, fuzzy, c-format
+#, c-format
 #| msgid "Draw the city productions"
 msgid "Dis%sband without recovering production%s"
-msgstr "都市生産物の表示"
+msgstr "生産ポイントを返却せずに解散(%sB)"
 
 #. TRANS: Set _Home City (100% chance of success).
 #: common/actions.c:6197 data/civ1/actions.ruleset:260
 #: data/civ2/actions.ruleset:304 data/classic/actions.ruleset:311
 #: data/sandbox/actions.ruleset:349 data/civ2civ3/actions.ruleset:326
 #: data/alien/actions.ruleset:263 data/multiplayer/actions.ruleset:302
-#, fuzzy, c-format
+#, c-format
 msgid "Set %sHome City%s"
-msgstr "この都市に所属させる"
+msgstr "この都市に所属させる(%sH)"
 
 #. TRANS: Make _Homeless (100% chance of success).
 #: common/actions.c:6200
@@ -18573,9 +18565,9 @@ msgstr ""
 #: common/actions.c:6203 data/classic/actions.ruleset:314
 #: data/sandbox/actions.ruleset:355 data/civ2civ3/actions.ruleset:329
 #: data/alien/actions.ruleset:266 data/multiplayer/actions.ruleset:305
-#, fuzzy, c-format
+#, c-format
 msgid "%sUpgrade Unit%s"
-msgstr "アップグレード"
+msgstr "新型にする(%sU)"
 
 #. TRANS: Drop _Paratrooper (100% chance of success).
 #: common/actions.c:6206 common/actions.c:6209 common/actions.c:6212
@@ -18592,9 +18584,9 @@ msgstr "落下傘降下する"
 #: data/classic/actions.ruleset:323 data/sandbox/actions.ruleset:364
 #: data/civ2civ3/actions.ruleset:338 data/alien/actions.ruleset:275
 #: data/multiplayer/actions.ruleset:314
-#, fuzzy, c-format
+#, c-format
 msgid "%sAirlift to City%s"
-msgstr "都市へ移動/空輸"
+msgstr "都市へ移動/空輸(%sA)"
 
 #. TRANS: _Attack (100% chance of success).
 #: common/actions.c:6228 data/civ1/actions.ruleset:263
@@ -18684,18 +18676,18 @@ msgstr "地形を改造する"
 #: data/civ2/actions.ruleset:328 data/classic/actions.ruleset:347
 #: data/sandbox/actions.ruleset:388 data/civ2civ3/actions.ruleset:356
 #: data/alien/actions.ruleset:290 data/multiplayer/actions.ruleset:338
-#, fuzzy, c-format
+#, c-format
 msgid "Transform by %sCultivating%s"
-msgstr "%sに地形改造する"
+msgstr "伐採する(%sC)"
 
 #. TRANS: Transform by _Planting (3% chance of success).
 #: common/actions.c:6276 data/civ1/actions.ruleset:278
 #: data/civ2/actions.ruleset:331 data/classic/actions.ruleset:350
 #: data/sandbox/actions.ruleset:391 data/civ2civ3/actions.ruleset:359
 #: data/alien/actions.ruleset:293 data/multiplayer/actions.ruleset:341
-#, fuzzy, c-format
+#, c-format
 msgid "Transform by %sPlanting%s"
-msgstr "%sに地形改造する"
+msgstr "植栽する(%sP)"
 
 #. TRANS: Pilla_ge (100% chance of success).
 #: common/actions.c:6280 data/civ1/actions.ruleset:281
@@ -18723,18 +18715,18 @@ msgstr "%sの除去(%d)"
 #: data/sandbox/actions.ruleset:400 data/civ2civ3/actions.ruleset:368
 #: data/alien/actions.ruleset:302 data/multiplayer/actions.ruleset:350
 #: data/granularity/actions.ruleset:202
-#, fuzzy, c-format
+#, c-format
 msgid "%sFortify%s"
-msgstr "防御態勢"
+msgstr "防御態勢(%sF)"
 
 #. TRANS: Build _Road (100% chance of success).
 #: common/actions.c:6292 data/civ1/actions.ruleset:290
 #: data/civ2/actions.ruleset:343 data/classic/actions.ruleset:362
 #: data/sandbox/actions.ruleset:403 data/civ2civ3/actions.ruleset:371
 #: data/alien/actions.ruleset:305 data/multiplayer/actions.ruleset:353
-#, fuzzy, c-format
+#, c-format
 msgid "Build %sRoad%s"
-msgstr "道路を敷設する"
+msgstr "交通路を敷設する(%sR)"
 
 #. TRANS: _Convert Unit (100% chance of success).
 #: common/actions.c:6295
@@ -18747,27 +18739,27 @@ msgstr "ユニットの転換"
 #: data/civ2/actions.ruleset:346 data/classic/actions.ruleset:365
 #: data/sandbox/actions.ruleset:406 data/civ2civ3/actions.ruleset:374
 #: data/alien/actions.ruleset:308 data/multiplayer/actions.ruleset:356
-#, fuzzy, c-format
+#, c-format
 msgid "%sBuild Base%s"
-msgstr "基地を建設する(_B)"
+msgstr "基地を建設する(%sB)"
 
 #. TRANS: Build _Mine (100% chance of success).
 #: common/actions.c:6303 data/civ1/actions.ruleset:296
 #: data/civ2/actions.ruleset:349 data/classic/actions.ruleset:368
 #: data/sandbox/actions.ruleset:409 data/civ2civ3/actions.ruleset:377
 #: data/alien/actions.ruleset:311 data/multiplayer/actions.ruleset:359
-#, fuzzy, c-format
+#, c-format
 msgid "Build %sMine%s"
-msgstr "鉱山施設を建設する"
+msgstr "鉱山施設を建設する(%sM)"
 
 #. TRANS: Build _Irrigation (100% chance of success).
 #: common/actions.c:6307 data/civ1/actions.ruleset:299
 #: data/civ2/actions.ruleset:352 data/classic/actions.ruleset:371
 #: data/sandbox/actions.ruleset:412 data/civ2civ3/actions.ruleset:380
 #: data/alien/actions.ruleset:314 data/multiplayer/actions.ruleset:362
-#, fuzzy, c-format
+#, c-format
 msgid "Build %sIrrigation%s"
-msgstr "灌漑を行う"
+msgstr "灌漑施設を建設する(%sI)"
 
 #. TRANS: _Deboard (100% chance of success).
 #: common/actions.c:6310 data/civ1/actions.ruleset:302
@@ -18777,7 +18769,7 @@ msgstr "灌漑を行う"
 #: data/granularity/actions.ruleset:178
 #, c-format
 msgid "%sDeboard%s"
-msgstr ""
+msgstr "降ろす(%sD)"
 
 #. TRANS: _Board (100% chance of success).
 #: common/actions.c:6315 data/civ1/actions.ruleset:305
@@ -18787,7 +18779,7 @@ msgstr ""
 #: data/granularity/actions.ruleset:181
 #, c-format
 msgid "%sBoard%s"
-msgstr ""
+msgstr "載せる(%sB)"
 
 #. TRANS: _Embark (100% chance of success).
 #: common/actions.c:6321 data/civ1/actions.ruleset:314
@@ -18797,7 +18789,7 @@ msgstr ""
 #: data/granularity/actions.ruleset:193
 #, c-format
 msgid "%sEmbark%s"
-msgstr ""
+msgstr "載る(%sE)"
 
 #. TRANS: _Unload (100% chance of success).
 #: common/actions.c:6324 data/civ1/actions.ruleset:308
@@ -18825,7 +18817,7 @@ msgstr "降ろす"
 #: data/granularity/actions.ruleset:187
 #, c-format
 msgid "%sDisembark%s"
-msgstr ""
+msgstr "降りる(%sD)"
 
 #. TRANS: _Disembark 2 (100% chance of success).
 #: common/actions.c:6337
@@ -18846,10 +18838,10 @@ msgstr "敵外交官: %s"
 #: data/sandbox/actions.ruleset:443 data/civ2civ3/actions.ruleset:404
 #: data/alien/actions.ruleset:335 data/multiplayer/actions.ruleset:386
 #: data/multiplayer/actions.ruleset:389
-#, fuzzy, c-format
+#, c-format
 #| msgid "Enter %sMarketplace%s"
 msgid "Enter %sHut%s"
-msgstr "市場に参入する(%sM)%s"
+msgstr "小屋に入る(%sH)"
 
 #. TRANS: Frighten _Hut (100% chance of success).
 #: common/actions.c:6352 data/civ2/actions.ruleset:373
@@ -20707,9 +20699,9 @@ msgid "Requires counter %s to be less than %d value."
 msgstr "・都市の大きさが%d未満であることが必要です。\n"
 
 #: common/reqtext.c:83
-#, fuzzy, c-format
+#, c-format
 msgid "Requires knowledge of the technology %s."
-msgstr "・科学技術「%s」が必要です。\n"
+msgstr "「%s」の研究を完了している必要があります。"
 
 #: common/reqtext.c:87
 #, fuzzy, c-format
@@ -21250,9 +21242,9 @@ msgstr "・都市に「%s」があり，かつ旧式化していないことが�
 
 #. TRANS: %s is a building or wonder
 #: common/reqtext.c:829
-#, fuzzy, c-format
+#, c-format
 msgid "Requires %s in the city."
-msgstr "・都市に「%s」が必要です。\n"
+msgstr "都市に「%s」が必要です。"
 
 #. TRANS: %s is a building or wonder
 #: common/reqtext.c:839
@@ -21300,14 +21292,14 @@ msgid "Does not apply to \"%s\" extras."
 msgstr "・%sAIには適用されません。\n"
 
 #: common/reqtext.c:906
-#, fuzzy, c-format
+#, c-format
 msgid "?extra:Requires %s on the tile."
-msgstr "・そのタイルに「%s」が必要です。\n"
+msgstr "タイルに「%s」が必要です。"
 
 #: common/reqtext.c:910
-#, fuzzy, c-format
+#, c-format
 msgid "?extra:Prevented by %s on the tile."
-msgstr "・そのタイルに「%s」が無いことが必要です。\n"
+msgstr "「%s」があるタイルには建設できません"
 
 #: common/reqtext.c:918
 #, fuzzy, c-format
@@ -21365,9 +21357,9 @@ msgid "?goods:Prevented by import of %s."
 msgstr "・あなたが不思議「%s」を保有していないことが必要です。\n"
 
 #: common/reqtext.c:1014
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Requires %s on the tile."
-msgstr "・そのタイルが「%s」であることが必要です。\n"
+msgstr "「%s」タイルである必要があります。"
 
 #: common/reqtext.c:1017
 #, fuzzy, c-format
@@ -21847,9 +21839,9 @@ msgstr "・「 %s 」には適用されません。\n"
 
 #. TRANS: %s is a list of unit types separated by "or".
 #: common/reqtext.c:1703
-#, fuzzy, c-format
+#, c-format
 msgid "?ulist:Requires %s."
-msgstr "・%sが必要です。\n"
+msgstr "%sが必要です。"
 
 # clefs
 #. TRANS: %s is a list of unit types separated by "or".
@@ -22268,9 +22260,9 @@ msgstr "・%sAIには適用されません。\n"
 
 #. TRANS: %s is a terrain class
 #: common/reqtext.c:2381
-#, fuzzy, c-format
+#, c-format
 msgid "?terrainclass:Requires %s terrain on the tile."
-msgstr "・そのタイルが「%s」タイルであることが必要です。\n"
+msgstr "「%s」タイルである必要があります。"
 
 #. TRANS: %s is a terrain class
 #: common/reqtext.c:2387
@@ -22373,11 +22365,9 @@ msgstr ""
 
 #. TRANS: %s is a (translatable) terrain flag.
 #: common/reqtext.c:2516
-#, fuzzy, c-format
+#, c-format
 msgid "Requires terrain with the \"%s\" flag on the tile or an adjacent tile."
-msgstr ""
-"・そのタイルまたは隣接するタイルが「%s」フラグ付きの地形であることが必要で"
-"す。\n"
+msgstr "そのタイルまたは隣接するタイルが「%s」タイルであることが必要です。"
 
 #. TRANS: %s is a (translatable) terrain flag.
 #: common/reqtext.c:2522
@@ -23200,7 +23190,7 @@ msgstr ""
 #: common/requirements.c:7739
 #, c-format
 msgid "?utflag:\"%s\" units"
-msgstr ""
+msgstr "%sユニット"
 
 #. TRANS: Unit class
 #: common/requirements.c:7746
@@ -23727,7 +23717,7 @@ msgstr "自動探索"
 #: common/unittype.c:1674
 #, c-format
 msgid "%s or similar units"
-msgstr "%sまたは同種のユニット"
+msgstr "「%s」または同種のユニット"
 
 # 使用状況が今一歩不明(Belgae)
 #: common/unittype.c:1677
@@ -24074,9 +24064,8 @@ msgid "?unitflag:Hunter"
 msgstr "ヘリコプター"
 
 #: common/unittype.h:445
-#, fuzzy
 msgid "?unitflag:Settlers"
-msgstr "海上"
+msgstr "作業を行うことができる"
 
 #: common/version.c:41
 #, fuzzy, c-format
@@ -24274,25 +24263,25 @@ msgstr "ユニットを買収する(%sB) %s"
 #: data/multiplayer/actions.ruleset:251
 #, c-format
 msgid "Incite a %sRevolt%s"
-msgstr "叛乱の煽動(%sR) %s"
+msgstr "叛乱の煽動(%sR)%s"
 
 #. TRANS: _Build City (100% chance of success).
 #: data/civ1/actions.ruleset:245 data/civ2/actions.ruleset:289
 #: data/classic/actions.ruleset:296 data/sandbox/actions.ruleset:328
 #: data/civ2civ3/actions.ruleset:308 data/alien/actions.ruleset:254
 #: data/multiplayer/actions.ruleset:287 data/granularity/actions.ruleset:175
-#, fuzzy, c-format
+#, c-format
 msgid "%sBuild City%s"
-msgstr "都市を建設する"
+msgstr "都市を建設する(%sB)"
 
 #. TRANS: _Add to City (100% chance of success).
 #: data/civ1/actions.ruleset:248 data/civ2/actions.ruleset:292
 #: data/classic/actions.ruleset:299 data/sandbox/actions.ruleset:331
 #: data/civ2civ3/actions.ruleset:311 data/alien/actions.ruleset:257
 #: data/multiplayer/actions.ruleset:290
-#, fuzzy, c-format
+#, c-format
 msgid "%sAdd to City%s"
-msgstr "都市に編入する"
+msgstr "都市に編入する(%sA)"
 
 #. TRANS: Explode _Nuclear In Place (100% chance of success).
 #: data/civ1/actions.ruleset:251 data/civ2/actions.ruleset:295
@@ -24313,10 +24302,10 @@ msgstr "核兵器を爆発させる"
 
 #. TRANS: Clean (100% chance of success).
 #: data/civ1/actions.ruleset:284 data/civ2/actions.ruleset:337
-#, fuzzy, c-format
+#, c-format
 #| msgid "Clean Pollution"
 msgid "Clean %sPollution%s"
-msgstr "公害を除去する"
+msgstr "公害を除去する(%sP)"
 
 #. TRANS: Enter _Hut from transport (100% chance of success).
 #: data/civ1/actions.ruleset:320
@@ -24329,10 +24318,10 @@ msgstr ""
 #: data/classic/actions.ruleset:407 data/sandbox/actions.ruleset:455
 #: data/civ2civ3/actions.ruleset:416 data/alien/actions.ruleset:341
 #: data/multiplayer/actions.ruleset:398 data/granularity/actions.ruleset:196
-#, fuzzy, c-format
+#, c-format
 #| msgid "Keep moving"
 msgid "%sKeep moving%s"
-msgstr "なにもしない"
+msgstr "何もしない(%sK)"
 
 #. TRANS: _Disrupt Supply Lines (100% chance of success).
 #: data/civ1/actions.ruleset:328 data/civ2/actions.ruleset:381
@@ -25325,9 +25314,8 @@ msgstr "火山の噴火"
 #: data/classic/game.ruleset:587 data/sandbox/game.ruleset:730
 #: data/civ2civ3/game.ruleset:674 data/multiplayer/game.ruleset:554
 #: data/granularity/game.ruleset:559
-#, fuzzy
 msgid "Goods"
-msgstr "00万品"
+msgstr "交易品"
 
 # ダサい仕様だなぁ... (clefs)
 #: data/civ1/game.ruleset:727 data/civ2/game.ruleset:658
@@ -26964,10 +26952,9 @@ msgstr "防御態勢"
 #: data/classic/terrain.ruleset:28 data/sandbox/terrain.ruleset:30
 #: data/civ2civ3/terrain.ruleset:29 data/alien/terrain.ruleset:29
 #: data/multiplayer/terrain.ruleset:28
-#, fuzzy
 #| msgid "* No units can fortify on this terrain.\n"
 msgid "No units can fortify on this terrain."
-msgstr "・ユニットは防御態勢を取ることができません。\n"
+msgstr "この地形で防御態勢をとることはできません。"
 
 #: data/civ1/terrain.ruleset:214 data/civ2/terrain.ruleset:214
 #: data/classic/terrain.ruleset:311 data/sandbox/terrain.ruleset:319
@@ -27157,7 +27144,7 @@ msgstr ""
 #: data/civ2civ3/terrain.ruleset:1256 data/multiplayer/terrain.ruleset:1209
 #: data/granularity/terrain.ruleset:675 tools/manual/manual_terrain.c:51
 msgid "Irrigation"
-msgstr "灌漑"
+msgstr "灌漑施設"
 
 #: data/civ1/terrain.ruleset:992 data/civ2/terrain.ruleset:1064
 msgid ""
@@ -27196,9 +27183,8 @@ msgstr ""
 #: data/classic/terrain.ruleset:1270 data/sandbox/terrain.ruleset:1298
 #: data/civ2civ3/terrain.ruleset:1297 data/alien/terrain.ruleset:838
 #: data/multiplayer/terrain.ruleset:1244 data/granularity/terrain.ruleset:727
-#, fuzzy
 msgid "?extra:Mine"
-msgstr "中心へ"
+msgstr "鉱山"
 
 #: data/civ1/terrain.ruleset:1026 data/civ2/terrain.ruleset:1098
 #: data/classic/terrain.ruleset:1289 data/multiplayer/terrain.ruleset:1263
@@ -27223,7 +27209,6 @@ msgstr ""
 #: data/classic/terrain.ruleset:1327 data/sandbox/terrain.ruleset:1386
 #: data/civ2civ3/terrain.ruleset:1385 data/alien/terrain.ruleset:859
 #: data/multiplayer/terrain.ruleset:1301
-#, fuzzy
 #| msgid "Pollution"
 msgid "?extra:Pollution"
 msgstr "公害"
@@ -27374,9 +27359,9 @@ msgstr "要塞は都市外にある陸上ユニットの防御力を高めます
 #: data/civ1/terrain.ruleset:1157 data/civ2/terrain.ruleset:1264
 #: data/classic/terrain.ruleset:1515 data/sandbox/terrain.ruleset:44
 #: data/civ2civ3/terrain.ruleset:43 data/multiplayer/terrain.ruleset:1487
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Diplomatic units get a 25% defense bonus in diplomatic fights."
-msgstr "　・諜報ユニットは諜報戦時に25%の防御力ボーナスを得ます。\n"
+msgstr "外交ユニットは外交戦で25%の防御ボーナスを得ます。"
 
 #: data/civ1/terrain.ruleset:1185 data/civ2/terrain.ruleset:1324
 #: data/classic/terrain.ruleset:1628 data/multiplayer/terrain.ruleset:1600
@@ -28397,9 +28382,9 @@ msgstr "敵ユニットへの破壊工作(%sS) %s"
 #: data/civ2/actions.ruleset:238 data/classic/actions.ruleset:245
 #: data/sandbox/actions.ruleset:271 data/civ2civ3/actions.ruleset:254
 #: data/multiplayer/actions.ruleset:242
-#, fuzzy, c-format
+#, c-format
 msgid "%sSabotage City Escape%s"
-msgstr "ランダムな破壊工作(%sS)%s"
+msgstr "ランダムな破壊工作をして脱出(%sS)"
 
 #. TRANS: Industrial _Sabotage (3% chance of success).
 #: data/civ2/actions.ruleset:241 data/classic/actions.ruleset:248
@@ -28497,7 +28482,6 @@ msgstr ""
 #: data/multiplayer/buildings.ruleset:223
 #: data/multiplayer/buildings.ruleset:255
 #: data/multiplayer/buildings.ruleset:285
-#, fuzzy
 #| msgid ""
 #| "Allows a city to build veteran sea units.  Also, damaged sea units which "
 #| "stay in town for one full turn without moving are completely restored."
@@ -28505,8 +28489,8 @@ msgid ""
 "Also, damaged land units which stay in town for one full turn without moving "
 "are completely restored."
 msgstr ""
-"都市でベテラン海上ユニットを生産することができます。また，傷ついた海上ユニッ"
-"トを都市で移動させずに丸1ターン留めておくと，体力が全回復します。"
+"また、兵舎のある都市では、ダメージを受けた陸上ユニットが、1ターンの間移動せず"
+"にこの都市に留まった場合、このユニットの体力が全快します。"
 
 #: data/civ2/buildings.ruleset:277 data/classic/buildings.ruleset:282
 #: data/multiplayer/buildings.ruleset:310
@@ -29750,7 +29734,7 @@ msgstr "農地"
 
 #: data/civ2/terrain.ruleset:1222 data/classic/terrain.ruleset:1441
 #: data/sandbox/terrain.ruleset:1534 data/civ2civ3/terrain.ruleset:1503
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "Once Refrigeration is known, irrigation systems can be upgraded to "
 #| "farmland by irrigating them a second time; if the city working the tile "
@@ -29761,9 +29745,10 @@ msgid ""
 "Supermarket, a farmland tile provides 50% more food. (Hence, farmland is "
 "only useful on tiles which with irrigation yield 2 or more food.)"
 msgstr ""
-"科学技術「冷蔵」の研究が完了すると，灌漑されたタイルをもう一度灌漑すること"
-"で，建設済みの灌漑施設を農地へと更新することができます。都市に「スーパーマー"
-"ケット」があれば，農地は灌漑されたタイルに比べ食料産出量が50%増加します。"
+"冷蔵の研究が完了すると、灌漑されたタイルをもう一度灌漑することで、灌漑を農地"
+"にアップグレードすることができます。市民が農地タイルで働いている都市にスー"
+"パーマーケットがあれば、その農地タイルが産出する食料ポイントが50%増加します。"
+"(したがって、農地は灌漑によって2以上の食料を産出するタイルにのみ有効です。)"
 
 #: data/civ2/terrain.ruleset:1228
 msgid "Like irrigation, farmland is incompatible with mines."
@@ -29804,14 +29789,12 @@ msgstr ""
 #: data/civ2/terrain.ruleset:1296 data/classic/terrain.ruleset:1546
 #: data/sandbox/terrain.ruleset:41 data/civ2civ3/terrain.ruleset:40
 #: data/alien/terrain.ruleset:1054 data/multiplayer/terrain.ruleset:1518
-#, fuzzy
 msgid "Units can paradrop from this tile."
-msgstr "・このタイルからユニットを落下傘降下させることができます。\n"
+msgstr "ユニットはこのタイルから落下傘降下することができます。"
 
 #: data/civ2/terrain.ruleset:1362 data/classic/terrain.ruleset:1666
 #: data/sandbox/terrain.ruleset:1942 data/civ2civ3/terrain.ruleset:1834
 #: data/multiplayer/terrain.ruleset:1638
-#, fuzzy
 #| msgid ""
 #| "A railroad also increases any shield resources produced by a tile. A tile "
 #| "whose road is upgraded to a railroad retains any trade bonus from the "
@@ -29821,8 +29804,8 @@ msgid ""
 "tile whose road is upgraded to a railroad retains any trade bonus from the "
 "road as well."
 msgstr ""
-"鉄道はタイルが産出する生産ポイントを増加させます。また道路を敷設することで得"
-"られた交易ポイントの産出ボーナスは，鉄道に更新した後も失われません。"
+"鉄道はまた、タイルが産出する生産ポイントを50%増加させます。道路が鉄道にアップ"
+"グレードされたタイルは、道路からの交易ボーナスも保持します。"
 
 #: data/civ2/terrain.ruleset:1366 data/classic/terrain.ruleset:1670
 #: data/sandbox/terrain.ruleset:1946 data/civ2civ3/terrain.ruleset:1838
@@ -30738,7 +30721,7 @@ msgstr "水源の汚染(%sP) %s"
 #: data/multiplayer/actions.ruleset:377 data/granularity/actions.ruleset:190
 #, c-format
 msgid "%sDisembark from non native%s"
-msgstr ""
+msgstr "侵入できないタイルから降りる(%sD)"
 
 #. TRANS: Eliminate _Spy (100% chance of success).
 #: data/classic/actions.ruleset:392 data/sandbox/actions.ruleset:433
@@ -30750,9 +30733,9 @@ msgstr ""
 #. TRANS: Enter _Hut from non native (100% chance of success).
 #: data/classic/actions.ruleset:398 data/sandbox/actions.ruleset:446
 #: data/civ2civ3/actions.ruleset:407 data/alien/actions.ruleset:338
-#, fuzzy, c-format
+#, c-format
 msgid "Enter %sHut from non native%s"
-msgstr "水源の汚染(%sP) %s"
+msgstr "侵入できないタイルから小屋に入る(%sH)"
 
 #. TRANS: Frighten _Hut from non native (100% chance of success).
 #: data/classic/actions.ruleset:404 data/sandbox/actions.ruleset:452
@@ -31928,7 +31911,7 @@ msgstr ""
 #: data/sandbox/buildings.ruleset:286 data/sandbox/buildings.ruleset:318
 #: data/sandbox/buildings.ruleset:348 data/civ2civ3/buildings.ruleset:283
 #: data/civ2civ3/buildings.ruleset:315 data/civ2civ3/buildings.ruleset:345
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid ""
 #| "With a Barracks, each new land unit built in a city will automatically "
 #| "have Veteran status, which means that its attack and defense strengths "
@@ -31939,9 +31922,8 @@ msgid ""
 "automatically have Veteran status, which means that its attack and defense "
 "strengths are increased by 50%."
 msgstr ""
-"兵舍があると，都市で新たに生産した陸上ユニットは自動的にベテランになります。"
-"ベテランユニットは，攻撃力と防御力が50%増えます。また傷ついた陸上ユニットを兵"
-"舍のある都市で移動させずに休ませておくと，1ターンで全回復します。"
+"兵舎のある都市では、新たに生産される陸戦ユニットが自動的にベテランになりま"
+"す。"
 
 #: data/sandbox/buildings.ruleset:377 data/civ2civ3/buildings.ruleset:374
 msgid ""
@@ -33966,9 +33948,8 @@ msgid "Mine can be upgraded to Oil Well."
 msgstr "油井は鉱山のあるタイルにのみ建設できます。"
 
 #: data/sandbox/terrain.ruleset:27 data/civ2civ3/terrain.ruleset:27
-#, fuzzy
 msgid "Sea"
-msgstr "全海(_S)"
+msgstr "海洋"
 
 #: data/sandbox/terrain.ruleset:27 data/civ2civ3/terrain.ruleset:27
 msgid "Allows cities to build Harbors and coastal wonders."
@@ -34008,6 +33989,8 @@ msgid ""
 "Deserts can be irrigated for a small amount of extra food, but without an "
 "oasis or river, bare desert cannot be further improved with farmland."
 msgstr ""
+"砂漠は灌漑によって少量の食料を得ることができますが、オアシスや川のない砂漠タ"
+"イルに農地を建設することはできません。"
 
 #: data/sandbox/terrain.ruleset:527 data/civ2civ3/terrain.ruleset:526
 msgid ""
@@ -34326,7 +34309,6 @@ msgstr ""
 "す。"
 
 #: data/sandbox/terrain.ruleset:1812 data/civ2civ3/terrain.ruleset:1736
-#, fuzzy
 #| msgid ""
 #| "Buoys may be built in the ocean (by units on a sea-going vessel) to allow "
 #| "their owner to see the surrounding tiles."
@@ -34334,8 +34316,8 @@ msgid ""
 "Buoys may be built in the ocean by Transports (or by worker units on a sea-"
 "going vessel) to allow their owner to see the surrounding tiles."
 msgstr ""
-"ブイは海に建設でき，周辺海域を見渡すことができるようになります。作業はユニッ"
-"トを船舶に積載した上で行います。"
+"ブイは輸送艦（または海上ユニットに積載された労働者ユニット）によって海上に建"
+"設されます。ブイの所有者は周辺海域を見渡すことができるようになります。"
 
 #: data/sandbox/terrain.ruleset:1815
 msgid ""
@@ -37745,7 +37727,6 @@ msgstr ""
 "に都市防衛用ユニットを生産し始めます。"
 
 #: data/helpdata.txt:138
-#, fuzzy
 #| msgid ""
 #| " 3. Deciding which units to build first.\n"
 #| "\n"
@@ -37772,12 +37753,15 @@ msgid ""
 msgstr ""
 " 4. 初めに生産するユニットの決定\n"
 "\n"
-"    1か2ユニットの戦士を生産した後，開拓者の生産を始めます。開拓者は新しい都"
-"市を建設することができます。タイル開発も可能ですが（次節参照），それにはむし"
-"ろ労働者の方が適しています。開拓者とは異なり，労働者は所属都市の食料ポイント"
-"を消費しないからです。重要なのは，人口が多いほど生産力と研究速度が増すという"
-"ことです。言うまでもなく，都市があることで帝国の領土が確保されます。ですか"
-"ら，新たに都市を建設することは初期の優先事項です。"
+"    戦士を1、2ユニット生産したら、開拓者の生産を始めましょう。開拓者を生産す"
+"ると都市の人口が減少しますが、良い土地に都市を建てていれば、その都市はもう十"
+"分な大きさになっているはずです。開拓者は新しい都市を建設するためのユニットで"
+"す。タイルの開発を行うこともできますが、労働者とは異なり、開拓者は所属する都"
+"市の食料を消費するため、なるべく労働者を使用したほうがよいでしょう。\n"
+"\n"
+"    都市とその人口が多ければ多いほど、生産量も文明の研究速度も上がることを忘"
+"れないでください。より広大な領土を確保するためにも、最初は新しい都市を建設す"
+"ることを最優先すべきです。"
 
 # yasu
 # Belgae
@@ -37923,7 +37907,6 @@ msgstr ""
 "ば(あるいはAIであれば)，外交メニューが開きます。"
 
 #: data/helpdata.txt:220
-#, fuzzy
 #| msgid ""
 #| "    In this dialog you can negotiate an exchange of assets (maps, vision, "
 #| "advances, cities, or gold), embassies, or binding pacts such as a cease-"
@@ -37939,10 +37922,12 @@ msgid ""
 "double-click on it.  When both players indicate satisfaction, the pact is "
 "concluded."
 msgstr ""
-"    このダイアログでは，所有する資産（地図・視界・科学技術・都市・金）の交"
-"換，大使館の設置，条約締結（停戦や和平など）に関する交渉を行えます。交換対象"
-"は同種のものである必要はなく，例えば科学技術や都市を金と交換できます。これら"
-"の売買は一考に価するでしょう。"
+"    このダイアログでは、資産（地図、科学技術、都市、視界、金）の交換、大使館"
+"の交換、停戦や和平のような拘束力のある協定の締結を交渉することができます。常"
+"に同種のものを交換する必要はありません。例えば、科学技術や都市を金と交換する"
+"ことができます。各プレーヤーは条項のリストを作成します。リストから条項を削除"
+"するには、その条項をダブルクリックします。両プレイヤーが条約に調印すれば、条"
+"約は成立します。"
 
 #: data/helpdata.txt:228
 msgid ""
@@ -38148,13 +38133,12 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:337
-#, fuzzy
 msgid " Resources"
-msgstr "資源"
+msgstr " 特産物"
 
 #: data/helpdata.txt:338
 msgid "Tiles can have natural resources in addition to their base terrain."
-msgstr ""
+msgstr "タイルには特産物があることがあります。"
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:348
@@ -38187,7 +38171,6 @@ msgstr ""
 "ルールセットに実装されているインフラについては，以下の節で解説します。"
 
 #: data/helpdata.txt:360
-#, fuzzy
 #| msgid ""
 #| "Improvements can be built by issuing one of several orders to a suitable "
 #| "unit while on a suitable tile: \"mine\", \"irrigate\", \"road\", or "
@@ -38200,12 +38183,11 @@ msgid ""
 "up to the ruleset). Terrain alterations can also be requested from the city "
 "map (see the help on Cities)."
 msgstr ""
-"インフラ建設を行うには，対象とするタイル上にいる適切なユニットに対して命令し"
-"ます。ある1ユニットに対して下せるのは，いくつかある命令（\"鉱山施設を建設する"
-"\"，\"灌漑施設を建設する\"，\"道路を敷設する\"，\"基地を建設する\"など）のう"
-"ちのいずれかのみです。また命令とインフラの対応はルールセットで設定されてお"
-"り，同じ名前のものが完成するとは限りません（\"鉱山施設を建設する\"命令により"
-"\"油井\"が完成する例など）。"
+"「鉱山施設を建設する」、「灌漑を行う」、「道路を敷設する」、「基地を建設す"
+"る」 のいずれかの命令を、適切なタイル上にいる適切なユニットに与えることで、イ"
+"ンフラを建設することができます（ただし、その命令が同じ名前のインフラを建設す"
+"るかどうかはルールセット次第です）。地形の変更は都市マップからも命令すること"
+"ができます(「都市」節を参照)。"
 
 #: data/helpdata.txt:366
 msgid ""
@@ -38442,7 +38424,6 @@ msgid " Production"
 msgstr " 生産"
 
 #: data/helpdata.txt:491
-#, fuzzy
 #| msgid ""
 #| "Production points (also known as \"shields\") represent manufacturing "
 #| "output. In the classic ruleset, most units require production points as "
@@ -38462,14 +38443,13 @@ msgid ""
 "while in a city, half of its production cost will usually be put towards "
 "that city's surplus."
 msgstr ""
-"生産ポイント（別名「シールド」）は工業生産高を表します。classicルールセットに"
-"おいては，ほとんどのユニットは維持コストとして生産ポイントを必要とし，ユニッ"
-"トが所属する都市から支援を受けます。ただし独裁的な政治体制の場合は，各都市で"
-"数ユニットに限り生産ポイントなしで維持できます。仮にシールド産出量が低下して"
-"消費量を下回った場合は，所属ユニットを支援できなくなり，そのユニットは自動的"
-"に解散されます。ほとんどのユニットはいつでも自由に解散できます。都市内でユ"
-"ニットを解散した場合，通常はそのユニットの生産コストの半分が都市の累積生産ポ"
-"イントに加えられます。"
+"生産ポイントは「シールド」とも呼ばれます。classicルールセットでは、ほとんどの"
+"ユニットが維持費として所属都市の生産ポイントを消費します。ただし、政治体制が"
+"専制政治の場合、各都市はいくつかのユニットを無償で支援します。都市の生産高が"
+"下がりすぎた場合、維持できないユニットは自動的に解散させられます。また、ほと"
+"んどのタイプのユニットはいつでも解散させることができます。ユニットが都市で解"
+"散させられた場合、そのユニットの生産コストの半分は、通常その都市に返却されま"
+"す。"
 
 #: data/helpdata.txt:500
 msgid ""
@@ -38500,6 +38480,12 @@ msgid ""
 "be disbanded from the city's dialog; however, you cannot disband your last "
 "city this way."
 msgstr ""
+"開拓者を始めとするいくつかのユニットは、生産に都市の人口を必要とします。デ"
+"フォルトでは、都市の人口が生産に必要な人口以下の場合、これらのユニットの生産"
+"は終了しません。この場合、生産ポイントは都市が十分な大きさになるまで蓄積され"
+"続けます。都市のダイアログから、これらのユニットの生産によって人口をすべて消"
+"費して、都市を解散することができるよう設定することができます。ただし、この方"
+"法で最後の都市を解散することはできません。"
 
 #: data/helpdata.txt:518
 msgid ""
@@ -38550,7 +38536,6 @@ msgstr ""
 "きます。"
 
 #: data/helpdata.txt:543
-#, fuzzy
 #| msgid ""
 #| "Each player is free to build any products that his technology has made "
 #| "available, with a few restrictions; see the sections on Units, City "
@@ -38566,11 +38551,10 @@ msgid ""
 "buildings whose upkeep you cannot afford, both of which will be disbanded "
 "immediately after completion."
 msgstr ""
-"各プレイヤーは科学技術が到達している範囲内ならばどの生産物を建造するかは自由"
-"に選択できますが，いくつかの制限があります。詳細については，「ユニット」「都"
-"市建造物」「世界の不思議」の各節を参照してください。注: このゲームでは，都市"
-"に支援する余裕がないユニットや，維持コストを払えない建造物も生産可能ですが，"
-"どちらも完成した瞬間に解散してしまいます。"
+"各プレイヤーは、いくつかの制限はあるものの、自分の科学技術によって解禁された"
+"生産物を自由に生産することができます。詳細については、「都市建造物」、「世界"
+"の不思議」、「ユニット」節を参照してください。ゲームでは、支援でき"
+"ないユニットや維持費が払えない建物を生産する自由さえ与えられています。"
 
 #: data/helpdata.txt:550
 msgid ""
@@ -38713,11 +38697,11 @@ msgid ""
 "destination civilization learns about the location of the origin city, if it "
 "is not already known."
 msgstr ""
-"出発地側の文明は，目的地の都市で交易品を売却したことにより，いくらかの金と科"
-"学ポイントを収益として得ます。この到着ボーナスは，交易路を結ぶ両都市が産出し"
-"ている交易ポイント，および両都市間の距離によって決まります。目的地側の文明が"
-"出発地の都市をマップ上で確認していなかったときは，交易路の確立と同時にその位"
-"置がマップに書き加えられます。"
+"ルールセットによっては、交易路が結ばれると、交易路を結んだユニットが商品を売"
+"却したとして、このユニットが所属する文明は、即座に金や研究ポイントなどの収入"
+"を得ることができます。この収入の量は、交易路が結ばれた2つの都市がすでに産出し"
+"ていた交易ポイントと、2つの都市の間の距離によって決まります。また、この2つの"
+"都市がそれぞれ所属する文明は、これらの都市の位置を知ることができます。"
 
 #: data/helpdata.txt:619
 msgid ""
@@ -38781,13 +38765,12 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:650
-#, fuzzy
 msgid " Goods"
-msgstr "00万品"
+msgstr " 交易品"
 
 #: data/helpdata.txt:651
 msgid "Goods are carried via trade routes."
-msgstr ""
+msgstr "交易品は交易路を通じて運ばれます。"
 
 #: data/helpdata.txt:660
 msgid ""
@@ -38925,6 +38908,12 @@ msgid ""
 "These 'worker tasks' will be carried out by any units capable of them that "
 "are in 'auto settler' mode."
 msgstr ""
+"また、ユニットにタイルの開発を命令する代わりに、都市マップからタイルの開発を"
+"要求することもできます。これをサポートしているクライアントでは、都市マップの"
+"タイルを右クリックすると、灌漑や道路の建設など、そのタイルに行うことができる"
+"開発のメニューが表示されます（「タイルの開発」のセクションを参照）。この方法"
+"による開発のための作業は、「自動開拓」モードになっているユニットが実行しま"
+"す。"
 
 #: data/helpdata.txt:730
 msgid ""
@@ -55473,7 +55462,6 @@ msgid "Game ended as the turn limit was exceeded."
 msgstr "終了ターンに達しました。"
 
 #: server/srv_main.c:629
-#, fuzzy
 #| msgid "The game will end at the end of the given turn."
 msgid ""
 "Notice: game will end at the end of this turn due to 'endturn' server "
@@ -59765,10 +59753,10 @@ msgstr "エラー %d (strerror 無しでコンパイルされました)"
 #~ "Setting this option will draw the roads and the railroads on the map."
 #~ msgstr "このオプションを設定すると，道路と鉄道がマップ上に表示されます。"
 
-#, fuzzy, c-format
-#~| msgid "Clean Fallout"
-#~ msgid "Clean %sFallout%s"
-#~ msgstr "死の灰の除去"
+#, c-format
+#| msgid "Clean Fallout"
+msgid "Clean %sFallout%s"
+msgstr "死の灰を除去する(%sF)"
 
 #, fuzzy
 #~| msgid "Auto Settler"
