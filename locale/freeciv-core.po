@@ -14961,10 +14961,13 @@ msgstr ""
 "のがオチです]"
 
 #: client/options.c:1956
-#, fuzzy
 #| msgid "Send heartbeat messages to server"
 msgid "Send heartbeat messages to the server"
-msgstr "ハートビートを送信する"
+msgstr "ハートビートの送信"
+
+# NOTE: 手動で追加した項目
+msgid "Send heartbeat messages to server"
+msgstr "ハートビートの送信"
 
 #: client/options.c:1957
 msgid ""
@@ -15742,7 +15745,7 @@ msgid ""
 "window will pop up asking which action should be performed even if an attack "
 "action is legal and no other interesting action are. This allows you to "
 "change your mind or to select an uninteresting action."
-msgstr "この設定を有効にすると、ユニットが攻撃可能な目標に到達したとき、\nアクション「攻撃(A)」が実行可能であり、他に実行可能なアクションがない場合でも、\n実行するアクションを尋ねるウィンドウがポップアップされます。\nこれにより、誤って攻撃してしまうことを防ぐことができます。"
+msgstr "この設定を有効にすると、ユニットが攻撃可能な目標に到達したとき、\nアクション「攻撃(A)」が実行可能であり、他に実行可能なアクションがない場合でも、\n実行するアクションを尋ねるポップアップが表示されます。\nこれにより、誤って攻撃してしまうことを防ぐことができます。"
 
 #: client/options.c:2353
 msgid "Pop up actions when final move to allied tile"
@@ -15757,7 +15760,7 @@ msgid ""
 "that the actor unit has moves left, save a turn. The down side is that the "
 "unit remains adjacent to rather than inside the protection of an allied city "
 "or unit stack."
-msgstr "この設定を有効にすると、ユニットがアクションを実行することができる友好的な都市またはユニットのあるタイルに移動するとき、この移動はアクションの試行として解釈されます。\nこれにより、この移動が行われる前に、実行するアクションを尋ねるウィンドウがポップアップされます。\nユニットに移動ポイントが残っている場合、ターンを短縮することができます。\nただし、実行するアクションを選択するまで、ユニットが友好的な都市や防御ユニットの保護を受けることができず、隣接したままであるデメリットがあります。"
+msgstr "この設定を有効にすると、アクションを実行することができる友好的な都市またはユニットが存在するタイルにユニットが移動するとき、この移動が行われる前に、実行するアクションを尋ねるポップアップが表示されます。\nこれにより、ターンを短縮することができます。\nただし、実行するアクションを選択するまで、ユニットが移動しないため、このユニットが移動先の都市や防御ユニットによる保護を受けることができないデメリットがあります。"
 
 #: client/options.c:2365
 msgid "Enable cursor changing"
@@ -16469,7 +16472,6 @@ msgstr "都市生産物"
 
 #: client/options.c:2942 client/options.c:3163 client/options.c:3384
 #: client/options.c:3540
-#, fuzzy
 msgid "This font is used to display the city production on the map."
 msgstr "このフォントは，マップ上で都市生産物の表示に使用されます。"
 
@@ -16708,10 +16710,10 @@ msgid "Saving options failed, cannot write to file %s"
 msgstr "保存が失敗しました。ファイル %s へ書き込めません"
 
 #: client/options.c:6460
-#, fuzzy, c-format
+#, c-format
 #| msgid "Saved settings to file %s"
 msgid "Saved options to file %s"
-msgstr "設定をファイル %s へ保存しました。"
+msgstr "%s に設定を保存しました。"
 
 #: client/packhand.c:453 client/packhand.c:457
 #, c-format
@@ -44302,7 +44304,7 @@ msgstr "ブリテン諸島 (古典的/中型)"
 msgid ""
 "Map: Martin McMahon, Daniel Markstedt\n"
 "Start positions: Mateusz Stefek"
-msgstr ""
+msgstr "マップ: Martin McMahon, Daniel Markstedt\n開始地点: Mateusz Stefek"
 
 #: data/scenarios/british-isles.sav:7
 msgid "Overhead 73x81 map of the British Isles."
@@ -44317,7 +44319,7 @@ msgid ""
 "Map: Daniel Gudlat, Daniel Markstedt\n"
 "Start positions: Jason Dorje Short, Mateusz Stefek, Mathieu Roy, David "
 "Fernandez, Rhue"
-msgstr ""
+msgstr "マップ: Daniel Gudlat, Daniel Markstedt\n開始地点: Jason Dorje Short, Mateusz Stefek, Mathieu Roy, David Fernandez, Rhue"
 
 #: data/scenarios/earth-large.sav:7
 msgid "Overhead 160x90 map of the Earth."
@@ -44331,7 +44333,7 @@ msgstr "地球 (古典的/小型)"
 msgid ""
 "Map: Daniel Gudlat, Daniel Markstedt\n"
 "Start positions: Jason Dorje Short, Mateusz Stefek, David Fernandez"
-msgstr ""
+msgstr "マップ: Daniel Gudlat, Daniel Markstedt\n開始地点: Jason Dorje Short, Mateusz Stefek, David Fernandez"
 
 #: data/scenarios/earth-small.sav:7
 msgid "Overhead 80x50 map of the Earth."
@@ -44345,7 +44347,7 @@ msgstr "欧州 (古典的/特大)"
 msgid ""
 "Map: Christian Grothoff, Jerzy Klek, Mateusz Stefek, Daniel Markstedt\n"
 "Start positions: Jason Dorje Short, Mateusz Stefek"
-msgstr ""
+msgstr "マップ: Christian Grothoff, Jerzy Klek, Mateusz Stefek, Daniel Markstedt\n開始地点: Jason Dorje Short, Mateusz Stefek"
 
 #: data/scenarios/europe.sav:7
 msgid "Overhead 177x100 map of Europe."
@@ -44430,9 +44432,8 @@ msgid "Europe 1900"
 msgstr "欧州 1900"
 
 #: data/scenarios/europe_1900_WWI.sav:6
-#, fuzzy
 msgid "Ferdinand Steinkrüger (a.k.a. XYZ) and Jamie Troini (a.k.a. Nimrod)."
-msgstr "Ferdinand Steinkrüger (XYZ) ，Jamie Troini (Nimrod)"
+msgstr "Ferdinand Steinkrüger (XYZ) , Jamie Troini (Nimrod)"
 
 #: data/scenarios/europe_1900_WWI.sav:7
 msgid ""
@@ -44460,13 +44461,10 @@ msgid "Tutorial"
 msgstr "チュートリアル"
 
 #: data/scenarios/tutorial.sav:6
-#, fuzzy
 msgid ""
 "Play this tutorial scenario to get an introduction to Freeciv. This is "
 "intended for single-player games. It uses the default (civ2civ3) rules."
-msgstr ""
-"このチュートリアルシナリオをプレイすれば，Freecivの概要が分かります。シングル"
-"プレイを想定した内容で，ルールセットはデフォルト (classic)です。"
+msgstr "このチュートリアルシナリオをプレイしてFreecivを始めましょう。\nこれはシングルプレイ用です。\nデフォルトの(civ2civ3)ルールセットを使用します。"
 
 #: data/scenarios/tutorial.sav:108
 #, fuzzy
