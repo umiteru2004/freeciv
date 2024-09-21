@@ -7959,19 +7959,13 @@ msgstr "リビア人"
 msgid "?plural:Libyans"
 msgstr "リビア人"
 
-# clefs
-# XXX "the Allied peace treaty" の正確な訳語を探すこと
 #: data/nation/libyan.ruleset:6
 msgid ""
 "The region that is now Libya was a Roman colony until it was conquered by "
 "the Arab civilization in the 7th century. In 1912 it came under the control "
 "of Italy and after the Second World War Libya was granted independence as a "
 "condition of the Allied peace treaty with Italy."
-msgstr ""
-"今日のリビアとなっている地域は，7世紀にアラブ文明によって征服されるまではロー"
-"マの植民地でした。1912年にはイタリアの支配下に置かれ，第二次世界大戦終結後"
-"に，
-イタリアとの同盟平和条約締結を条件に独立を与えられました。"
+msgstr "現在のリビアは、7世紀にアラブ文明に征服されるまでローマの植民地でした。1912年にイタリアの支配下に入り、第二次世界大戦後、リビアはイタリアと連合国との間に結ばれた講和条約の条件として独立を認められました。"
 
 #: data/nation/liechtensteiner.ruleset:3
 msgid "Liechtensteiner"
