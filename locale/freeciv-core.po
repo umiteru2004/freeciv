@@ -38735,7 +38735,6 @@ msgstr ""
 "ます。"
 
 #: data/helpdata.txt:612
-#, fuzzy
 #| msgid ""
 #| "The origin civilization of the unit gains immediate revenue in gold and "
 #| "science from selling its trade goods at the destination city. The initial "
