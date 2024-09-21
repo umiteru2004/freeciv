@@ -5917,11 +5917,11 @@ msgstr ""
 
 #: data/nation/gepid.ruleset:3
 msgid "Gepid"
-msgstr "ゲピード族"
+msgstr "ゲピド族"
 
 #: data/nation/gepid.ruleset:4
 msgid "?plural:Gepids"
-msgstr "ゲピード族"
+msgstr "ゲピド族"
 
 #: data/nation/gepid.ruleset:6
 msgid ""
@@ -5940,7 +5940,7 @@ msgid ""
 "allied themselves with the nomadic Avars against the Gepids and defeated "
 "them, breaking up their country. Gepids formed part of the Avar Khaganate, "
 "founded on former Gepid territory."
-msgstr ""
+msgstr "ゲピド族は古代東ゲルマン民族の一派で、ゴート族に近いです。彼らの最初の居住地はスカンディナヴィア半島にありました。\n\nゴート族がスカンディナヴィアから撤退する頃には、彼らはバルト海南岸に移住していました。ヨルダネスによれば、彼らはヴィスワ河口近くのスペキスと呼ばれる土地、おそらくエルブラグ高原に住んでいました。\n\nゴート族が黒海に移動した後、ゲピド族はポメラニアに領土を拡大しました。その後、紀元3世紀にはダキアに移動しました。また、4世紀から5世紀半ばまではフン族の支配下にありました。\n\nアッティラの死後、ゲピド族はパンノニアに移り、ネダオ川の戦いでフン族を破り、ティッサ川の東に居住地を獲得しました。パンノニアでは、ドナウ川以西のロンゴバルド族と絶えず戦っていました。\n\n567年、ロンゴバルド族は遊牧民アヴァール族と同盟を結び、ゲピド族と戦い、ゲピド族を破り、彼らの国を分裂させました。ゲピド族は、かつてのゲピド族の領土に建国されたアヴァル・ハガナートの一部を形成しました。"
 
 #: data/nation/gepid.ruleset:42 data/nation/ostrogothic.ruleset:31
 #: data/nation/vandalic.ruleset:28
@@ -7642,13 +7642,13 @@ msgstr "クシャーナ族は古代インド・ヨーロッパ語族で、おそ
 #: data/nation/vedic.ruleset:24
 #, c-format
 msgid "Guru %s"
-msgstr "教祖 %s"
+msgstr "導師 %s"
 
 #: data/nation/kushan.ruleset:45 data/nation/sikh.ruleset:33
 #: data/nation/vedic.ruleset:24
 #, c-format
 msgid "?female:Guru %s"
-msgstr "グル %s"
+msgstr "導師 %s"
 
 #: data/nation/kuwaiti.ruleset:3
 msgid "Kuwaiti"
