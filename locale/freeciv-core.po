@@ -7343,13 +7343,10 @@ msgstr "ランダム"
 msgid "Observer"
 msgstr "観察者"
 
-# clefs XXX
-# Belgae
-# was 未割り当て
 #: client/gui-gtk-3.22/pages.c:2551 client/gui-gtk-4.0/pages.c:2661
 #: client/gui-gtk-5.0/pages.c:2661 client/gui-qt/pages.cpp:1906
 msgid "Detached"
-msgstr "解任済"
+msgstr "未割り当て"
 
 # Daniel
 #. TRANS: Keep individual lines short
@@ -12362,9 +12359,6 @@ msgstr ""
 msgid "?improvement:Allows %s (with %s)."
 msgstr "｢%s｣を建設することができるようになります（ただし「%s」が必要です）。"
 
-# clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is a building name.
 #: client/helpdata.c:602
 #, c-format
@@ -12435,9 +12429,6 @@ msgstr ""
 "「%s」を建設することができるようになります。（ただし、%sが必要で、%sの上には"
 "建設できません。）"
 
-# clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is an extra name.
 #: client/helpdata.c:637
 #, c-format
