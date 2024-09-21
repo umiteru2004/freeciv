@@ -5544,10 +5544,9 @@ msgid "?female:Captain %s"
 msgstr "カピタノ %s"
 
 #: data/nation/florida.ruleset:3
-#, fuzzy
 #| msgid "Florentine"
 msgid "Floridian"
-msgstr "フィレンツェ人"
+msgstr "フロリダ人"
 
 #: data/nation/florida.ruleset:4
 #, fuzzy
@@ -5566,7 +5565,7 @@ msgid ""
 "the Confederacy in 1861 but rejoined the USA in 1868 and has since been the "
 "site of the Apollo 11 Space Launch, which let humans land on the moon for "
 "the first time in history."
-msgstr ""
+msgstr "フロリダ州はアメリカで3番目に人口の多い州であり、観光地としてよく知られています。\n\n1812年に「フロリダ・ペイトリオッツ」が東フロリダ共和国を宣言するまで、スペインとイギリスによって繰り返し植民地化されました。1817年、冒険家たちはアメリア島にフロリダ共和国を樹立し、これが1822年にはアメリカによってフロリダの他の地域と統合されました。\n\n1861年に南部連合に加盟しましたが、1868年に再びアメリカに復帰し、その後、人類が史上初めて月面に着陸したアポロ11号の打ち上げの地となりました。"
 
 #: data/nation/formosan.ruleset:3
 msgid "Formosan"
