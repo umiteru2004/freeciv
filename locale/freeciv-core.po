@@ -6987,7 +6987,7 @@ msgstr "新しいゲームの開始(_N)"
 #: client/gui-gtk-3.22/pages.c:318 client/gui-gtk-4.0/pages.c:327
 #: client/gui-gtk-5.0/pages.c:327 client/gui-qt/pages.cpp:222
 msgid "Launches local server, and connects to it for a single-player game."
-msgstr ""
+msgstr "ローカルサーバーを起動し、\nこれに接続してシングルプレイヤーゲームを開始します。"
 
 # Daniel
 #: client/gui-gtk-3.22/pages.c:322 client/gui-gtk-4.0/pages.c:331
@@ -7000,7 +7000,7 @@ msgstr "シナリオのロード(_S)"
 msgid ""
 "Loads one of the scenarios for a single-player game. Tutorial is one of the "
 "scenarios."
-msgstr ""
+msgstr "シナリオをロードしたシングルプレイヤーゲームを開始します。\nここからチュートリアルをプレイすることができます。"
 
 #: client/gui-gtk-3.22/pages.c:331 client/gui-gtk-4.0/pages.c:340
 #: client/gui-gtk-5.0/pages.c:340
@@ -7010,7 +7010,7 @@ msgstr "セーブファイルのロード(_L)"
 #: client/gui-gtk-3.22/pages.c:335 client/gui-gtk-4.0/pages.c:344
 #: client/gui-gtk-5.0/pages.c:344 client/gui-qt/pages.cpp:237
 msgid "Continues previously saved single-player game."
-msgstr ""
+msgstr "セーブしたシングルプレイヤーゲームをロードします。"
 
 # Daniel
 #: client/gui-gtk-3.22/pages.c:339 client/gui-gtk-4.0/pages.c:348
@@ -7023,7 +7023,7 @@ msgstr "ネットワークゲームへ接続(_O)"
 msgid ""
 "Connects to outside server. Sometimes you want to launch a separate server "
 "even for local games."
-msgstr ""
+msgstr "外部サーバーに接続します。\nここでは、デフォルトと異なるポートに起動した\nローカルサーバーに接続することも可能です。"
 
 #: client/gui-gtk-3.22/pages.c:348 client/gui-gtk-4.0/pages.c:357
 #: client/gui-gtk-5.0/pages.c:357
@@ -7033,7 +7033,7 @@ msgstr "クライアント設定"
 #: client/gui-gtk-3.22/pages.c:352 client/gui-gtk-4.0/pages.c:361
 #: client/gui-gtk-5.0/pages.c:361 client/gui-qt/pages.cpp:253
 msgid "Adjusting client-side options."
-msgstr ""
+msgstr "クライアント設定を調整します。"
 
 #: client/gui-gtk-3.22/pages.c:355 client/gui-gtk-4.0/pages.c:364
 #: client/gui-gtk-5.0/pages.c:364
@@ -7043,7 +7043,7 @@ msgstr "終了(_X)"
 #: client/gui-gtk-3.22/pages.c:360 client/gui-gtk-4.0/pages.c:369
 #: client/gui-gtk-5.0/pages.c:369 client/gui-qt/pages.cpp:258
 msgid "Gives you a break from playing freeciv."
-msgstr ""
+msgstr "ゲームを終了します。"
 
 #: client/gui-gtk-3.22/pages.c:494 client/gui-gtk-4.0/pages.c:507
 #: client/gui-gtk-5.0/pages.c:507
@@ -15089,7 +15089,7 @@ msgstr ""
 #: client/options.c:2045
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Square)"
-msgstr "タイルセット（四角形）"
+msgstr "タイルセット（長方形）"
 
 # clefs
 #: client/options.c:2046
@@ -15103,7 +15103,7 @@ msgid ""
 "this is the same as using the -t command-line parameter. Use modpack "
 "installer utility to install additional tilesets."
 msgstr ""
-"四角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"長方形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
 "も、タイルセットを変更することができます。この設定を変更することは、コマンドラインオプション "
 "-t を使用することと同じです。追加のタイルセットをインストールするには、modpack "
 "インストーラーを使用してください。"
@@ -15134,7 +15134,7 @@ msgstr ""
 #: client/options.c:2065
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Iso-Hex)"
-msgstr "タイルセット (六角形等角マップ)"
+msgstr "タイルセット (六角形、等角)"
 
 # clefs
 #: client/options.c:2066
@@ -52604,10 +52604,9 @@ msgstr ""
 # トポロジってのは、要はタイルのつながり方です
 # Belgae
 #: server/settings.c:1560
-#, fuzzy
 #| msgid "Map topology index"
 msgid "Map topology"
-msgstr "マップのトポロジー"
+msgstr "マップ形式"
 
 #. TRANS: Freeciv-web version of the help text.
 #: server/settings.c:1563
@@ -52619,7 +52618,6 @@ msgstr ""
 # 全角にしました。フォントによっては表示が崩れるでしょうが，従来よりはマシかと。(Belgae)
 #. TRANS: do not edit the ugly ASCII art
 #: server/settings.c:1566
-#, fuzzy
 #| msgid ""
 #| "Freeciv maps are always two-dimensional. They may wrap at the north-south "
 #| "and east-west directions to form a flat map, a cylinder, or a torus "
@@ -52654,25 +52652,32 @@ msgid ""
 "  \\/\\/\\/\\/\\/\\/\\             \\_/ \\_/ \\_/ \\_/ \\_/\n"
 "   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
 "   \\/\\/\\/\\/\\/\\/             \\_/ \\_/ \\_/ \\_/ \\_/\n"
-msgstr ""
-"Freecivのマップは常に2次元です。マップは南北および東西方向でつながっているか"
-"どうかにより，平面，円筒，あるいはトーラス（ドーナツ）を形成します。個々のタ"
-"イルは長方形または六角形[ヘックス]で，通常使用するタイルセットに応じて古典的"
-"または等角[アイソメトリック]に配置されます[訳注:古典的とはタイルの辺が東西・"
-"南北に平行であること，等角とはタイルの辺が北東から南西・北西から南東に平行で"
-"あることを言います]。\n"
-"古典的長方形:              等角長方形:\n"
-"     _________                ／＼／＼／＼\n"
-"     |__|__|__|             ／＼／＼／＼／\n"
-"     |__|__|__|             ＼／＼／＼／＼\n"
-"     |__|__|__|             ／＼／＼／＼／\n"
-"                           ＼／＼／＼／＼\n"
-"古典的ヘックス:          等角ヘックス:\n"
-"  ／＼／＼／＼                ____          ____ \n"
-"  |     |     |     |             ／    ＼____／    ＼\n"
-"  ＼／＼／＼／             ＼____／    ＼____／\n"
-"     |     |     |                ／    ＼____／    ＼\n"
-"  ／＼／＼／＼             ＼____／    ＼____／\n"
+msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは長方形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
+
+# NOTE: 手動で追加した項目
+msgid ""
+"Freeciv maps are always two-dimensional. They may wrap at "
+"the north-south and east-west directions to form a flat "
+"map, a cylinder, or a torus (donut). Individual tiles may "
+"be rectangular or hexagonal, with either an overhead "
+"(\"classic\") or isometric alignment.\n"
+"To play with a particular topology, clients will need a "
+"matching tileset.\n"
+"Overhead rectangular:      Isometric rectangular:\n"
+"      _________               /\\/\\/\\/\\/\\\n"
+"     |_|_|_|_|_|             /\\/\\/\\/\\/\\/\n"
+"     |_|_|_|_|_|             \\/\\/\\/\\/\\/\\\n"
+"     |_|_|_|_|_|             /\\/\\/\\/\\/\\/\n"
+"                             \\/\\/\\/\\/\\/\n"
+"Hex:                       Iso-hex:\n"
+"  /\\/\\/\\/\\/\\/\\               _   _   _   _   _\n"
+"  | | | | | | |             / \\_/ \\_/ \\_/ \\_/ \\\n"
+"  \\/\\/\\/\\/\\/\\/\\"
+"             \\_/ \\_/ \\_/ \\_/ \\_/\n"
+"   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
+"   \\/\\/\\/\\/\\/\\/"
+"             \\_/ \\_/ \\_/ \\_/ \\_/\n"
+msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは長方形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
 
 #: server/settings.c:1591
 #, fuzzy
