@@ -5549,10 +5549,9 @@ msgid "Floridian"
 msgstr "フロリダ人"
 
 #: data/nation/florida.ruleset:4
-#, fuzzy
 #| msgid "?plural:Frisians"
 msgid "?plural:Floridians"
-msgstr "フリース人"
+msgstr "フロリダ人"
 
 #: data/nation/florida.ruleset:6
 msgid ""
@@ -6030,13 +6029,12 @@ msgstr ""
 "にクワメ・ンクルマはガーナの独立を宣言しました。"
 
 #: data/nation/ghana.ruleset:3
-#, fuzzy
 msgid "Ghana"
-msgstr "ガーナ %s"
+msgstr "ガーナ帝国人"
 
 #: data/nation/ghana.ruleset:4
 msgid "?plural:Ghana"
-msgstr ""
+msgstr "ガーナ帝国人"
 
 #: data/nation/ghana.ruleset:6
 msgid ""
@@ -6046,7 +6044,7 @@ msgid ""
 "trade and the goldmines in its territory. The modern Republic of Ghana takes "
 "its name from the Ghana Empire, even though the empire was located in what "
 "is now Mali and Mauretania."
-msgstr ""
+msgstr "ガーナ（ワガドゥー）帝国は9世紀から13世紀まで西アフリカに存在しました。その名は、「偉大な戦士」を意味する称号「ガーナ」を持つ王に由来します。ガーナ帝国は、サハラ砂漠を横断する貿易と領土内の金鉱によって栄えました。\n\n現在のガーナ共和国は、現在のマリとマウレタニアにあったにもかかわらず、その国名はガーナ帝国に由来しています。"
 
 #: data/nation/ghana.ruleset:26
 #, c-format
@@ -7037,11 +7035,11 @@ msgstr "司法官 %s"
 
 #: data/nation/italiangreek.ruleset:3
 msgid "Italian Greek"
-msgstr ""
+msgstr "イタリア系ギリシャ人"
 
 #: data/nation/italiangreek.ruleset:4
 msgid "?plural:Italian Greeks"
-msgstr ""
+msgstr "イタリア系ギリシャ人"
 
 #: data/nation/italiangreek.ruleset:6
 msgid ""
@@ -7055,10 +7053,10 @@ msgid ""
 "Empire, Southern Italy was temporarily part of the Byzantine Empire as the "
 "Catepanate of Italia. A Greek-speaking population has survived in these "
 "areas to modern times."
-msgstr ""
+msgstr "古代マグナ・グラエシアは、ギリシア植民地時代にイタリアとシチリアの海岸に築かれたギリシアの都市群です。エトルリアやローマ文化の発展に重要な役割を果たしました。\n\n紀元前5世紀、マグナ・グラエシアは、ギリシャ文化の一大中心地であった都市国家シラクサによって支配されていました。その他の主要都市には、タラント、クロトン、シバリス、メッサーナなどがありました。マグナ・グラエシアは徐々にローマに征服され、紀元前272年までに征服が完了しました。\n\n西ローマ帝国滅亡後、南イタリアは一時的にイタリア・カテパン国としてビザンチン帝国の一部となりました。これらの地域には、現代でもギリシャ語を話す人々がいます。"
 
 #: data/nation/italiangreek.ruleset:50
-#, fuzzy, c-format
+#, c-format
 msgid "Tyranne %s"
 msgstr "僭主 %s"
 
@@ -7286,7 +7284,7 @@ msgid ""
 "to reach their current homeland. With the independence of Burma from the "
 "United Kingdom in 1948, a heterogenous Karen armed independence movement was "
 "initiated that continues to this day."
-msgstr ""
+msgstr "カレン族は、記録によると、ビルマ王国の西のはずれで暮らしてきた逞しい山岳民族です。彼ら自身の口伝によれば、ある時点でゴビ砂漠を南下して現在の故郷にたどり着いたといいます。\n\n1948年にビルマがイギリスから独立すると、異民族であるカレン族の武装独立運動が始まり、現在に至っています。"
 
 #: data/nation/kashmiri.ruleset:3
 msgid "Kashmiri"
@@ -7622,11 +7620,11 @@ msgstr ""
 
 #: data/nation/kushan.ruleset:3
 msgid "Kushan"
-msgstr "クシャン族"
+msgstr "クシャーナ族"
 
 #: data/nation/kushan.ruleset:4
 msgid "?plural:Kushans"
-msgstr "クシャン族"
+msgstr "クシャーナ族"
 
 #: data/nation/kushan.ruleset:6
 msgid ""
@@ -7638,13 +7636,13 @@ msgid ""
 "maintained trade relations with Rome and China. They were subordinated to "
 "the Persian Sassanids and replaced by a Persian vassal kingdom. The last "
 "remnants of the Kushans eventually succumbed to the Hephthalites."
-msgstr ""
+msgstr "クシャーナ族は古代インド・ヨーロッパ語族で、おそらくトカリア人が起源と思われます。テュルク系民族の圧力を受け、彼らは旧地を離れ、インドに移住しました。\n\nインドでは広大な帝国を築き、支配者たちは仏教に改宗しました。また、クシャーナ族はギリシャ文字を使用しました。\n\nクシャーナ帝国はローマや中国との貿易関係を維持しました。その後、ペルシャのサーサーン朝に従属し、ペルシャの属国に取って代わられました。\n\nクシャーナ族の最後の残党は、最終的にヘフタール人に屈しました。"
 
 #: data/nation/kushan.ruleset:45 data/nation/sikh.ruleset:33
 #: data/nation/vedic.ruleset:24
 #, c-format
 msgid "Guru %s"
-msgstr "グル %s"
+msgstr "教祖 %s"
 
 #: data/nation/kushan.ruleset:45 data/nation/sikh.ruleset:33
 #: data/nation/vedic.ruleset:24
@@ -7987,13 +7985,12 @@ msgstr ""
 
 #: data/nation/liege.ruleset:3
 msgid "Liegean"
-msgstr ""
+msgstr "リエージュ人"
 
 #: data/nation/liege.ruleset:4
-#, fuzzy
 #| msgid "?plural:Liberians"
 msgid "?plural:Liegeans"
-msgstr "リベリア人"
+msgstr "リエージュ人"
 
 #: data/nation/liege.ruleset:6
 msgid ""
@@ -8004,17 +8001,16 @@ msgid ""
 "when the recently formed Republic of Liege voted the union with "
 "revolutionary France. Liege played later a major role in the Belgian "
 "independance."
-msgstr ""
+msgstr "リエージュは、985年にノトガー司教が現在のベルギーにあるいくつかの都市の支配権を与えられたことで、教会領主国となりました。\n\n神聖ローマ帝国の連合国家として、リエージュは大きな市民的自由を特徴とし、その維持のためにリエージュ人は強く闘いました。それは1792年、成立したばかりのリエージュ共和国が革命期のフランスとの連合に賛成するまで続きました。\n\nリエージュは後にベルギーの独立に大きな役割を果たしました。"
 
 #: data/nation/liege.ruleset:28
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Tribune %s"
 msgid "?female:Princess %s"
-msgstr "護民官 %s"
+msgstr "修道院長 %s"
 
-# 入れ替えあり
 #: data/nation/liege.ruleset:29
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Prime Minister %s"
 msgid "?female:Prime Ministress %s"
 msgstr "%s首相"
@@ -10294,19 +10290,18 @@ msgstr "宮中女伯 %s"
 
 #: data/nation/palauan.ruleset:3
 msgid "Palauan"
-msgstr ""
+msgstr "パラオ人"
 
 #: data/nation/palauan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Papuans"
 msgid "?plural:Palauans"
-msgstr "パプア人"
+msgstr "パラオ人"
 
 #: data/nation/palauan.ruleset:6
 msgid ""
 "Palaos is a very little country, with only 20000 inhabitants aproximately. "
 "It is composed of more than 300 islands of volcanic origin."
-msgstr ""
+msgstr "パラオは、人口およそ2万人の小さな国です。\n300以上の火山島で構成されています。"
 
 #: data/nation/palestinian.ruleset:3
 msgid "Palestinian"
@@ -13301,7 +13296,7 @@ msgid ""
 "thought that Urartu was a multiethnic state in which Hurrian tribes likely "
 "formed the dominant element. Urartu played an important role in shaping the "
 "modern Armenian people."
-msgstr ""
+msgstr "ウラルトゥはアナトリア東部のヴァン湖周辺にあった古代ヒュリア人の国家です。\n\nウラルトゥに関する最古の歴史的記述は、紀元前13世紀のアッシリア王シャルマネセル1世の書物にあります。ウラルトゥは多民族国家であり、フリア族が中心的な役割を果たしていたと考えられています。\n\nウラルトゥは現代アルメニア人の形成に重要な役割を果たしました。"
 
 #: data/nation/uruguayan.ruleset:3
 msgid "Uruguayan"
@@ -13529,7 +13524,7 @@ msgid ""
 "some features with Celtic and Germanic languages. The Veneti allied with the "
 "Romans during the Punic Wars. By the 1st century BCE they had been absorbed "
 "into the Roman Republic and the region gradually Romanized."
-msgstr ""
+msgstr "ウェネティ族は古代インド・ヨーロッパ語族で、現在のイタリアのヴェネト州とほぼ同じ地域に住んでいました。彼らの言語の起源は不明ですが、ケルト語やゲルマン語と共通する特徴があることから、おそらく中央ヨーロッパの言語であると考えられます。\n\nウェネティ族は、ポエニ戦争でローマ人と同盟を結びました。紀元前1世紀にはローマ共和国に吸収され、この地域は徐々にローマ化しました。"
 
 #: data/nation/venezuelan.ruleset:3
 msgid "Venezuelan"
