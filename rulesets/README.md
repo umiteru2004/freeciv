@@ -2,6 +2,7 @@
 ## 1. ダウンロード
 うみてるのFreecivフォルダのZipをダウンロードします。  
 このフォルダには、ルールセット以外のファイルも含まれています。  
+  
 ダウンロードURL:  
 [https://github.com/umiteru2004/freeciv/archive/refs/heads/develop.zip](https://github.com/umiteru2004/freeciv/archive/refs/heads/develop.zip)
 ## 2. ルールセットのフォルダを取り出す
