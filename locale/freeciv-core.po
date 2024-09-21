@@ -59902,11 +59902,13 @@ msgstr "死の灰を除去する(%sF)"
 #~ msgid "Mine"
 #~ msgstr "鉱山"
 
-#~ msgid "_Female"
-#~ msgstr "女(_F)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "_Female"
+msgstr "女(_F)"
 
-#~ msgid "_Male"
-#~ msgstr "男(_M)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "_Male"
+msgstr "男(_M)"
 
 #~ msgid "FirePower:"
 #~ msgstr "火力:"
