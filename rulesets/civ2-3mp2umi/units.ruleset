@@ -1349,7 +1349,7 @@ Cavalry are mounted and highly trained soldiers.\
 name          = _("Armor")
 class         = "Big Land"
 tech_req      = "Mobile Warfare"
-obsolete_by   = "None"
+obsolete_by   = "Armor II"
 graphic       = "u.armor"
 graphic_alt   = "-"
 sound_move    = "m_armor"
@@ -1374,11 +1374,54 @@ tp_defense    = "Alight"
 flags         = ""
 roles         = "DefendOk", "AttackFastStartUnit", "Hunter"
 helptext      = _("\
-Armors are motorized war wagons that are faster, stronger, and can take \
-more damage than any mounted unit. However, they are less adaptable to \
+Armors are motorized war wagons. However, they are less adaptable to \
 very rough terrain (they cannot move into mountains, swamps, or jungles \
 without roads), and unable to use less rough terrain to improve their \
 defense.\
+")
+
+[unit_armor_ii]
+name          = _("Armor II")
+class         = "Land"
+tech_req      = "Plastics"
+obsolete_by   = "None"
+graphic       = "u.armor_ii"
+graphic_alt   = "-"
+sound_move    = "m_armor_ii"
+sound_move_alt = "m_armor"
+sound_fight   = "f_armor_ii"
+sound_fight_alt = "Blitz Sack"
+build_cost    = 85
+pop_cost      = 0
+attack        = 16
+defense       = 6
+hitpoints     = 30
+firepower     = 1
+move_rate     = 6
+vision_radius_sq = 4
+transport_cap = 0
+fuel          = 0
+paratroopers_mr_sub = 170 ;00,0101,010,1,0 iPill_rand_tgts=0, iPill_odds=-5 pentads=80%, iPill_moves=2, iPillage=1, ATK_Stay_Fortified=0
+;NOTE：iPillage changes in rules require client_rules_flag and get_what_can_unit_pillage_from() changes.
+uk_happy      = 1
+uk_shield     = 1
+uk_food       = 0
+uk_gold       = 0
+embarks       = "Helicopter"    ; transport helicopter only
+;disembarks    = "Helicopter"
+targets       = "Balloon", "Helicopter", "LandRail", "Zeppelin"
+bonuses       =
+   { "flag", "type", "value"
+     "Missile",      "DefenseMultiplier", 1
+   }
+flags         = "CantReachAir", "FortressBuster", "NeverBlocked", "WillNever"
+roles         = "AttackFastStartUnit", "Hunter"
+helptext      = _("\
+Armor II is the ultra-modern upgrade to Armor. It features high tech composite armor and\
+ electronic countermeasures (ECM). Forts and Fortresses gain no bonus against\
+ its ability to blast and break through fortifications. ECM and composite armor\
+ give a 2× defense bonus against Missiles. Unlike most land units,\
+ Armor II can attack reachable units regardless of whether unreachable units protect the tile.\ 
 ")
 
 [unit_catapult]
