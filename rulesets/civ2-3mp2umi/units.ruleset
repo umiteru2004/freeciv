@@ -44,6 +44,7 @@ flags =
     _("Marines"), _("Can launch attack from non-native tiles.")
     _("Cant_Fortify")
     _("OneAttack")
+    _("Cant_Pillage")
   }
 
 ; Names for custom unit class flags. There can be up to 12 of these.
@@ -2694,4 +2695,169 @@ helptext      = _("\
 The AWACS (Airborne Warning and Control System) is an airplane with an \
 advanced radar that can determine the location of enemy units over a \
 wide area.\
+")
+
+[unit_animal_wolf]
+name          = _("[Wolf]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.wolf"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Wolves are mean wild ancestors of dogs, who hunt grasslands and hills.\
+")
+
+[unit_animal_leopard]
+name          = _("[Leopard]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.leopard"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Leopards are mean wild cats, who hunt in the forests.\
+")
+
+[unit_animal_tiger]
+name          = _("[Tiger]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.tiger"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Tigers are mean wild cats, who hunt in the jungles.\
+")
+
+[unit_animal_bear]
+name          = _("[Bear]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.bear"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 2
+hitpoints     = 6
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Bears live in the mountains.\
+")
+
+[unit_animal_crocodile]
+name          = _("[Crocodile]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.crocodile"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 7
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Crocodiles live in the swamps, where they wait to catch and eat prey.\
 ")

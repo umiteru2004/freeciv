@@ -1192,6 +1192,7 @@ actor_reqs    =
       "DiplRel",        "War",           "Local", TRUE
       "MinMoveFrags",   "1",             "Local", TRUE
       "UnitState",      "OnLivableTile", "Local", TRUE
+      "Nation",         "Animal Kingdom", "Player",FALSE
     }
 target_reqs    =
     { "type",           "name",          "range", "present"
@@ -1208,6 +1209,7 @@ actor_reqs    =
       "MinMoveFrags",   "1",             "Local", TRUE
       "UnitFlag",       "Marines",       "Local", TRUE
       "UnitState",      "OnLivableTile", "Local", FALSE
+      "Nation",         "Animal Kingdom", "Player",FALSE
     }
 target_reqs    =
     { "type",           "name",          "range", "present"
@@ -1275,6 +1277,7 @@ actor_reqs    =
       "UnitClassFlag", "CanOccupyCity", "Local", TRUE
       "UnitFlag",      "NonMil",        "Local", FALSE
       "UnitClassFlag", "HutFrighten",   "Local", FALSE
+      "Nation",         "Animal Kingdom",   "Player",FALSE
     }
 target_reqs   =
     { "type",     "name",    "range", "present"
@@ -1325,6 +1328,7 @@ actor_reqs    =
       "UnitClassFlag", "CanOccupyCity", "Local", TRUE
       "UnitFlag",      "NonMil",        "Local", FALSE
       "UnitClassFlag", "HutFrighten",   "Local", FALSE
+      "Nation",         "Animal Kingdom",   "Player",FALSE
     }
 target_reqs   =
     { "type",     "name",    "range", "present"
@@ -1376,8 +1380,9 @@ actor_reqs    =
 [actionenabler_pillage]
 action        = "Pillage"
 actor_reqs    =
-    { "type",          "name",         "range"
-      "UnitClassFlag", "CanPillage",   "Local"
+    { "type",          "name",         "range", "present"
+      "UnitClassFlag", "CanPillage",   "Local", TRUE
+      "UnitFlag",      "Cant_Pillage", "Local", FALSE
     }
 
 [actionenabler_clean_pollution]
