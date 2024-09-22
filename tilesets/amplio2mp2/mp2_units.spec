@@ -2,7 +2,7 @@
 [spec]
 
 ; Format and options of this spec file: 
-options = "+Freeciv-spec-Devel-2019-Jul-03"
+options = "+Freeciv-3.1-spec"
 
 [info]
 
@@ -49,71 +49,14 @@ pixel_border = 1
 
 tiles = { "row", "column", "tag"
 				; Scenario League tags in brackets
-  0,  0, "u.armor"	  	; [Nemo] & [Lexxie]
-  0,  1, "u.howitzer"		; [Nemo] & [Lexxie]--fallback: u_howitzer_o is in units_oversize.spec<<FCW:remove this line if sprite sheet building fails
-  0,  2, "u.battleship"	; [Lexxie]
-  0,  3, "u.bomber"		  ; [GB]
-  0,  4, "u.cannon"		  ; [Lexxie]
-  0,  5, "u.caravan"		; [Alex] & [CT]
-  0,  6, "u.carrier"		; [Nemo] & [Lexxie]
-  0,  7, "u.catapult"		; [Lexxie]
-  0,  8, "u.horsemen"		; [GB] & [Lexxie]
-  0,  9, "u.chariot"		; [BB] & [GB] & [Lexxie]
-  0, 10, "u.cruiser"		; [Nemo] & [Lexxie]
-  0, 11, "u.diplomat"		; [Nemo] & [Lexxie]
-  0, 12, "u.fighter"		; [Lexxie]
-  0, 13, "u.frigate"		; [BB]
-  0, 14, "u.ironclad"		; [Nemo] & [Lexxie]
-  0, 15, "u.knights"		; [BB] & [Lexxie]
-  0, 16, "u.legion"		  ; [GB] & [Lexxie]
-  0, 17, "u.mech_inf"		; [GB] & [Lexxie]
-  0, 18, "u.warriors"		; [GB] & [Lexxie]
-  0, 19, "u.musketeers" ; [Lexxie]
-  1,  0, "u.nuclear"		; [Nemo] & [CS] & [Lexxie]
-  1,  1, "u.phalanx"		; [Lexxie]
-  1,  2, "u.riflemen"		; [Lexxie]
-  1,  3, "u.caravel"		; [Lexxie]
-  1,  4, "u.settlers"		; [MHN] & [Lexxie]
-  1,  5, "u.submarine"	; [GP] & [Lexxie]
-  1,  6, "u.transport"	; [Nemo] & [Lexxie]
-  1,  7, "u.trireme"		; [BB]
-  1,  8, "u.archers"		; [GB] & [Lexxie]
-  1,  9, "u.cavalry"		; [Lexxie]
-  1, 10, "u.cruise_missile"	; [Lexxie]
-  1, 11, "u.destroyer"	  	; [Nemo] & [Lexxie]
-  1, 12, "u.dragoons"		    ; [GB] & [Lexxie]
-  1, 13, "u.explorer"		    ; [Alex] & [CT] & [Lexxie]
-  1, 14, "u.freight"		    ; [CT] & qwm & [Lexxie] - This new graphic is NOT MP2_C onward, Freight unit.
-  1, 15, "u.galleon"		    ; [BB]
-  1, 16, "u.partisan"		    ; [BB] & [CT] & [Lexxie]
-  1, 17, "u.pikemen"		    ; [T] & [Lexxie]
   1, 18, "u.escort_fighter" ; [Lexxie]
   1, 19, "u.medium_bomber"  ; [Lexxie]
-  2,  0, "u.marines"		    ; [GB] & [Lexxie]
   2,  1, "u.amphorae"       ; [Lexxie]
-  2,  2, "u.engineers"		  ; [Nemo] & [CT] & [Lexxie]
-  2,  3, "u.artillery"	   	; [Lexxie]
-  2,  4, "u.helicopter"		  ; [T] & [Lexxie]
-  2,  5, "u.alpine_troops"	; [Nemo] & [Lexxie]
-  2,  6, "u.stealth_bomber"	; [GB] & [Lexxie]
-  2,  7, "u.stealth_fighter"; [Lexxie]
-  2,  8, "u.aegis_cruiser"	; [GP] & [Lexxie]
-  2,  9, "u.paratroopers"	  ; [Alex] & [Lexxie]
-  2, 10, "u.elephants"		  ; [Alex] & [GG] & [CT] & [Lexxie]
-  2, 11, "u.crusaders"	  	; [BB]
-  2, 12, "u.fanatics"		    ; [GB] & [CT] & [Lexxie]
-  2, 13, "u.awacs"		      ; [Lexxie]
-  2, 14, "u.worker"		      ; [GB]
-  2, 15, "u.leader"		      ; [GB]
-  2, 16, "u.barbarian_leader"	; FiftyNine
-  2, 17, "u.migrants"		    ; Eleazar
   2, 18, "u.anti_aircraft"    ; [Lexxie]
   2, 19, "u.tribesmen"        ; [Lexxie]
   3,  0, "u.well_digger"		  ; [Lexxie]
-  3,  1, "u.balloon"          ; [Lexxie]
   3,  2, "u.missile_destroyer" ; [Lexxie]
   3,  3, "u.war_galley"       ; ???
-  3,  4, "u.longboat"         ; Lexxie
   3,  5, "u.container"        ; Lexxie      ; Is the Freight graphic for MP2 onward (not u.freight--preserves ammplio2 compatibility for other rules)
   3,  6, "u.atom_bomb"        ; Lexxie  
   3,  7, "u.galley"           ; Lexxie
@@ -131,7 +74,6 @@ tiles = { "row", "column", "tag"
   3, 19, "u.hbomb"            ; Lexxie
   4,  0, "u.tnuke"            ; Lexxie
   4,  1, "u.ddomb"            ; Lexxie  Doomsday Bomb, should've been ddbomb
-  4,  2, "u.spy"              ; Lexxie
   4,  3, "u.train"            ; Lexxie
   4,  4, "u.t_helicopter"     ; Lexxie
   4,  5, "u.airplane"         ; Lexxie

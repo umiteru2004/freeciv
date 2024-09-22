@@ -152,8 +152,8 @@ files =
   "misc/events.spec",
   "misc/governments.spec",
   "misc/specialists.spec",
-  "amplio2mp2/mp2_units.spec"
   "amplio2mp2/units.spec",
+  "amplio2mp2/mp2_units.spec",
   "amplio2mp2/extra_units.spec",
   "amplio2mp2/animals.spec",
   "amplio2mp2/veterancy.spec",
