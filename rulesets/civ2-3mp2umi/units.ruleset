@@ -1933,6 +1933,62 @@ TIP:  A very fast unit, which is very useful for hunting down enemy\
  Transports and Submarines.\
 ")
 
+[unit_missile_destroyer]
+name          = _("Missile Destroyer")
+class         = "Sea"
+tech_req      = "Rocketry"
+obsolete_by   = "None"
+graphic       = "u.missile_destroyer"
+graphic_alt   = "-"
+sound_move    = "m_destroyer"
+sound_move_alt = "m_generic"
+sound_fight   = "f_destroyer"
+sound_fight_alt = "f_generic"
+build_cost    = 60
+pop_cost      = 0
+attack        = 5
+defense       = 5
+hitpoints     = 30
+firepower     = 2
+move_rate     = 12
+vision_radius_sq = 16
+transport_cap = 1
+fuel          = 0
+uk_happy      = 1
+uk_shield     = 1
+uk_food       = 0
+uk_gold       = 0
+targets       = "Balloon", "Submarine", "Helicopter", "LandRail", "Zeppelin"
+cargo         = "Missile"; , "Virtual"
+bonuses       =
+   { "flag", "type", "value"
+     "Submarine", "DefenseMultiplier", 1
+     "Marines", "DefenseMultiplier", 1 
+     "AirAttacker", "DefenseMultiplier", 1
+     "Missile", "DefenseMultiplier", 1
+   }   
+flags         = "BadCityDefender", "CanEscape", "CantReachAir", "WillNever"
+veteran_names =
+  _("?vet_rank:green"),
+  _("?vet_rank:veteran"),
+  _("?vet_rank:hardened"),
+  _("?vet_rank:elite"),
+  _("?vet_rank:crack"),
+  _("?vet_rank:master"),
+  _("?vet_rank:sea wolf")
+veteran_base_raise_chance = 50, 33, 20, 15, 15, 15, 0
+veteran_work_raise_chance = 0, 0, 0, 0, 0, 0, 0
+veteran_power_fact = 100, 150, 175, 200, 210, 220, 230
+veteran_move_bonus = 0, 0, 0, 0, 9, 9, 9
+roles         = "Hunter"
+helptext      = _("\
+The Missile Destroyer has double the firepower of a Destroyer, and shares the same roles\
+ as its ancestor. It gains 2× defense against Air and Missile units. It has a 2× ASW bonus\
+ and can can carry one Missile.\
+"), _("
+Missile Destroyers can Stack-Escape：a 67% chance to escape a killed stack if they have more remaining move points than the attacker.\
+")
+
 [unit_cruiser]
 name          = _("Cruiser")
 class         = "Sea"
