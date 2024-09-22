@@ -1897,7 +1897,7 @@ The Ironclad is an armored ship,\
 name          = _("Destroyer")
 class         = "Sea"
 tech_req      = "Engineering"
-obsolete_by   = "None"
+obsolete_by   = "Missile Destroyer"
 graphic       = "u.destroyer"
 graphic_alt   = "-"
 sound_move    = "m_destroyer"
@@ -1967,13 +1967,6 @@ bonuses       =
    }   
 flags         = "BadCityDefender"
 roles         = "Hunter"
-helptext      = _("\
-The Missile Destroyer has double the firepower of a Destroyer, and shares the same roles\
- as its ancestor. It gains 2× defense against Air and Missile units. It has a 2× ASW bonus\
- and can can carry one Missile.\
-"), _("
-Missile Destroyers can Stack-Escape：a 67% chance to escape a killed stack if they have more remaining move points than the attacker.\
-")
 
 [unit_cruiser]
 name          = _("Cruiser")
