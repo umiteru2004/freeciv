@@ -222,6 +222,12 @@ hp_loss_pct   = 10
 flags         = "Unreachable", "DoesntOccupyTile", "CanPillage",
                 "Airliftable", "HutFrighten", "Aerial"
 
+[unitclass_space]
+name          = _("?unitclass:Space")
+min_speed     = 1
+hp_loss_pct   = 0
+flags         = "Unreachable", "DoesntOccupyTile", "HutFrighten"
+
 ; /* <-- avoid gettext warnings
 ;
 ; Below: The individual unit types, one per section.
@@ -2248,7 +2254,7 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 1
 tp_defense    = "Alight"
-targets       = "Air", "Missile", "Helicopter"
+targets       = "Air", "Missile", "Helicopter", "Space"
 flags         = "OneAttack", "AirAttacker", "CityBuster", "HasNoZOC", "Missile"
 roles         = ""
 helptext      = _("\
@@ -2758,6 +2764,56 @@ helptext      = _("\
 The AWACS (Airborne Warning and Control System) is an airplane with an \
 advanced radar that can determine the location of enemy units over a \
 wide area.\
+")
+
+[unit_satellite]
+name          = _("Satellite")
+class         = "Space"
+tech_req      = "Laser"
+impr_req      = "Apollo Program"
+obsolete_by   = "None"
+graphic       = "u.satellite"
+graphic_alt   = "-"
+sound_move    = ""
+sound_move_alt = "m_generic"
+sound_fight   = "f_awacs"
+sound_fight_alt = "f_generic"
+build_cost    = 140
+pop_cost      = 0
+attack        = 0
+defense       = 1
+hitpoints     = 20
+firepower     = 1
+move_rate     = 65
+vision_radius_sq = 80
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 1
+uk_food       = 0
+uk_gold       = 0
+vision_layer  = "Stealth"
+flags         = "Unique", "HasNoZOC", "NonMil", "NoVeteran", "Unbribable", "NeverProtects", "CanEscape", "WillNever"
+; No veteran levels (level name is never displayed)
+veteran_names = _("green")
+veteran_base_raise_chance = 0
+veteran_work_raise_chance = 0
+veteran_power_fact = 100
+veteran_move_bonus = 0
+roles         = ""
+helptext      = _("\
+Satellites orbit the Earth above the atmosphere. They are unreachable to anything\
+ but missiles. Their orbital velocity allows them to circumnavigate the planet\
+ in a couple turns. Telescopic cameras allow them to Investigate City, even if the\
+ city has a Police Station. Satellites can’t be seen by others unless adjacent.\
+ Satellites require Laser tech and can only be built in the city with the Apollo Program.\
+"), _("
+Satellites can Stack-Escape：a 100% chance to escape a killed stack if they have more remaining move points than the attacker.\
+"), _("
+NOTE： Due to game mechanics, a Satellite blocks terrestrial movement\
+ over a tile. This is solved by killing it with any Missile. To avoid\
+ being killed, end your turn in a friendly stack of units, or far away from\
+ developed or trafficked areas.\
 ")
 
 [unit_animal_wolf]
