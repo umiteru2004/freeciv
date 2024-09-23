@@ -612,6 +612,75 @@ Workers have the ability to improve terrain tiles. See the help on \
 Terrain and Terrain Alterations for the effects of their actions.\
 ")
 
+[unit_tribesmen]
+name          = _("?unit:Tribesmen")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.tribesmen"
+graphic_alt   = "-"
+sound_move    = "m_tribesmen"
+sound_move_alt = "m_worker"
+sound_fight   = "f_warriors"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 1
+defense       = 1
+hitpoints     = 8
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 5
+transport_cap = 1
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+cargo         = "Cargo"
+embarks       = "LandRoad", "LandRail", "Helicopter"    ; transport helicopter only
+disembarks    = "LandRoad", "LandRail", "Helicopter"
+bonuses       =
+   { "flag", "type", "value"
+     "NoBuild", "DefenseMultiplier", 1  ; all animals are "NoBuild" flag. technically this also means
+     "NoBuild", "DefenseDivider", 2     ; Barbarian Leader (which is 0D anyway), and Leader, which is hardly used.
+   }
+flags         = "NoBuild", "Settlers", "Infra", "CanRoad",  "Capturable", "Expellable",
+                "HasNoZOC", "IgTer", "IgZOC", "NonMil", "NonMilAttack"
+roles         = "DefendGoodStartUnit"  ; re-purposed from Phalanx
+veteran_names =
+  _("?vet_rank:green"),
+  _("?vet_rank:veteran"),
+  _("?vet_rank:hardened"),
+  _("?vet_rank:elite"),
+  _("?vet_rank:spirit walker"),
+  _("?vet_rank:chief"),
+  _("?vet_rank:chief of all chiefs")
+veteran_base_raise_chance = 50, 33, 20, 15, 15, 15, 0
+veteran_work_raise_chance = 0, 0, 0, 0, 0, 0, 0
+veteran_power_fact = 100, 150, 175, 250, 300, 350, 400
+veteran_move_bonus = 3, 4, 5, 6, 7, 8, 9
+helptext      = _("\
+Tribesmen came before cities and specialized division of labor. During\
+ ancient times, they get primitive versatility bonuses: \n\
+Tribesmen can explore, moving over terrain with no penalty. They don’t obey\
+ or exert ZOC. They can build roads, irrigate, or mine at half the rate of\
+ Workers. \n\
+Tribesmen can make basic diplomatic contact and freely Investigate\
+ cities. They can carry Goods and enter nations with whom you are at Peace.\
+ They can do primitive combat—they can’t conquer cities and only attack for\
+ 10 combat rounds. \n\
+Tribesmen help build nations by recycling into city production with\
+ a 2× bonus, donating their life-work of 20 shields into any output EXCEPT\
+ units. ** Changing production targets loses their work! ** \n\
+Tribesmen lose many versatility bonuses as you become more civilized. For\
+ 3 turns they gain +⅓ move. After 20 turns, they lose another ⅓ move and\
+ lose their vision, tile-work, and recycle bonuses. At such point, recycling\
+ into a building or wonder yields 10 shields. \n\
+(In games with animals set to on, Tribesmen attack at 3× and defend at 2× against\
+ wild animals.)\
+")
+
 [unit_engineers]
 name          = _("Engineers")
 class         = "Small Land"
