@@ -1374,12 +1374,7 @@ uk_gold       = 1
 tp_defense    = "Alight"
 flags         = ""
 roles         = "DefendOk", "AttackFastStartUnit", "Hunter"
-helptext      = _("\
-Armors are motorized war wagons. However, they are less adaptable to \
-very rough terrain (they cannot move into mountains, swamps, or jungles \
-without roads), and unable to use less rough terrain to improve their \
-defense.\
-")
+helptext      = _("機甲部隊は動力付きの騎兵ユニットです。しかし、起伏の多い地形への適応性が低く（道路のない山、沼地、ジャングルには移動できません）、地形を利用して防御力を高めることもできません。")
 
 [unit_armor_ii]
 name          = _("Armor II")
