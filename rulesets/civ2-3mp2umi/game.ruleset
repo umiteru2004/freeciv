@@ -819,6 +819,17 @@ actor_reqs    =
       "UnitFlag", "Spy", "Local", FALSE
     }
 
+[actionenabler_investigate_city_tribesmen]
+action       = "Investigate City"
+actor_reqs    =
+    { "type",         "name",          "range", "present"
+      "UnitType",     "Tribesmen",     "Local", TRUE
+      "UnitState",    "OnLivableTile", "Local", TRUE
+      "MinMoveFrags", "1",             "Local", TRUE
+      "DiplRel",      "Foreign",       "Local", TRUE
+      "UnitState",    "Transported",   "Local", FALSE
+    }
+
 [actionenabler_investigate_city_spy]
 action       = "Investigate City"
 actor_reqs    =
