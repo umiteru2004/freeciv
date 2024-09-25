@@ -619,8 +619,8 @@ tech_req      = "None"
 obsolete_by   = "None"
 graphic       = "u.tribesmen"
 graphic_alt   = "-"
-sound_move    = "m_tribesmen"
-sound_move_alt = "m_worker"
+sound_move    = "m_worker"
+sound_move_alt = "m_generic"
 sound_fight   = "f_warriors"
 sound_fight_alt = "f_generic"
 build_cost    = 10
@@ -631,35 +631,21 @@ hitpoints     = 8
 firepower     = 1
 move_rate     = 1
 vision_radius_sq = 5
-transport_cap = 1
+transport_cap = 0
 fuel          = 0
 uk_happy      = 0
 uk_shield     = 0
 uk_food       = 0
 uk_gold       = 0
-cargo         = "Cargo"
-embarks       = "LandRoad", "LandRail", "Helicopter"    ; transport helicopter only
-disembarks    = "LandRoad", "LandRail", "Helicopter"
+embarks       = "Helicopter"    ; transport helicopter only
+disembarks    = "Helicopter"
 bonuses       =
    { "flag", "type", "value"
      "NoBuild", "DefenseMultiplier", 1  ; all animals are "NoBuild" flag. technically this also means
      "NoBuild", "DefenseDivider", 2     ; Barbarian Leader (which is 0D anyway), and Leader, which is hardly used.
    }
-flags         = "NoBuild", "Settlers", "Infra", "CanRoad",  "Capturable", "Expellable",
-                "HasNoZOC", "IgTer", "IgZOC", "NonMil", "NonMilAttack"
+flags         = "NoBuild", "Settlers",  "Capturable", "HasNoZOC", "IgTer", "IgZOC"
 roles         = "DefendGoodStartUnit"  ; re-purposed from Phalanx
-veteran_names =
-  _("?vet_rank:green"),
-  _("?vet_rank:veteran"),
-  _("?vet_rank:hardened"),
-  _("?vet_rank:elite"),
-  _("?vet_rank:spirit walker"),
-  _("?vet_rank:chief"),
-  _("?vet_rank:chief of all chiefs")
-veteran_base_raise_chance = 50, 33, 20, 15, 15, 15, 0
-veteran_work_raise_chance = 0, 0, 0, 0, 0, 0, 0
-veteran_power_fact = 100, 150, 175, 250, 300, 350, 400
-veteran_move_bonus = 3, 4, 5, 6, 7, 8, 9
 helptext      = _("\
 Tribesmen came before cities and specialized division of labor. During\
  ancient times, they get primitive versatility bonuses: \n\
@@ -788,7 +774,7 @@ uk_food       = 1
 uk_gold       = 1
 tp_defense    = "Alight"
 flags         = "Capturer", "Fortress"
-roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild"
+roles         = "DefendGood", "FirstBuild"
 helptext      = _("\
 The Phalanx is armored infantry, suitable for defending your cities.\
 ")
@@ -2862,6 +2848,12 @@ uk_food       = 0
 uk_gold       = 0
 vision_layer  = "Stealth"
 flags         = "Unique", "HasNoZOC", "NonMil", "NoVeteran", "Unbribable", "NeverProtects", "CanEscape"
+; No veteran levels (level name is never displayed)
+veteran_names = _("green")
+veteran_base_raise_chance = 0
+veteran_work_raise_chance = 0
+veteran_power_fact = 100
+veteran_move_bonus = 0
 roles         = ""
 helptext      = _("衛星は大気圏上空で地球を周回します。\nミサイルでなければ撃ち落とすことはできません。\nまた、軌道速度で移動するため、数ターンでマップを一周できます。"), _("
 NOTE： Due to game mechanics, a Satellite blocks terrestrial movement\
