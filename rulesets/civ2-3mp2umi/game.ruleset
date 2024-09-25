@@ -1203,6 +1203,7 @@ actor_reqs    =
       "DiplRel",        "War",           "Local", TRUE
       "MinMoveFrags",   "1",             "Local", TRUE
       "UnitState",      "OnLivableTile", "Local", TRUE
+      "UnitType",       "Tribesmen",     "Local", FALSE
       "Nation",         "Animal Kingdom", "Player",FALSE
     }
 target_reqs    =
