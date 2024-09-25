@@ -646,26 +646,7 @@ bonuses       =
    }
 flags         = "NoBuild", "Settlers",  "Capturable", "HasNoZOC", "IgTer", "IgZOC"
 roles         = "DefendGoodStartUnit"  ; re-purposed from Phalanx
-helptext      = _("\
-Tribesmen came before cities and specialized division of labor. During\
- ancient times, they get primitive versatility bonuses: \n\
-Tribesmen can explore, moving over terrain with no penalty. They don’t obey\
- or exert ZOC. They can build roads, irrigate, or mine at half the rate of\
- Workers. \n\
-Tribesmen can make basic diplomatic contact and freely Investigate\
- cities. They can carry Goods and enter nations with whom you are at Peace.\
- They can do primitive combat—they can’t conquer cities and only attack for\
- 10 combat rounds. \n\
-Tribesmen help build nations by recycling into city production with\
- a 2× bonus, donating their life-work of 20 shields into any output EXCEPT\
- units. ** Changing production targets loses their work! ** \n\
-Tribesmen lose many versatility bonuses as you become more civilized. For\
- 3 turns they gain +⅓ move. After 20 turns, they lose another ⅓ move and\
- lose their vision, tile-work, and recycle bonuses. At such point, recycling\
- into a building or wonder yields 10 shields. \n\
-(In games with animals set to on, Tribesmen attack at 3× and defend at 2× against\
- wild animals.)\
-")
+helptext      = _("部族民は、都市や分業制が誕生する以前に存在しました。古代の間、部族民は原始的だが汎用的なボーナスを得ます：\n・より広い視界を持ちます。\n・道路、灌漑・採掘施設を建設することができます。\nこれらのボーナスは、文明化が進むことで、2000 BCEに失われます。\n\nまた、部族民は、2000 BCEまでに生産ポイントを返却して解散すると、ユニット以外の生産物に、部族民の生産コストの2倍の生産ポイントを返却します。2000 BCE以降は、生産コストと同じだけの生産ポイントを返却します。ただし、生産物を変更すると、返却した生産ポイントは失われます。また、いつの時代もユニットの生産にポイントを返却することはできません。\n\n部族民は地形の移動コストを無視し、都市を調査することができます。また、原始的な戦闘を行うことができますが、都市を占領することはできません。\n（野生動物が有効なゲームでは、部族民は、野生動物に対して3倍の攻撃ボーナス、および2倍の防御ボーナスを得ます。）")
 
 [unit_engineers]
 name          = _("Engineers")
