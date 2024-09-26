@@ -1497,7 +1497,6 @@ actor_reqs    =
     { "type",          "name",         "range",   "present"
       "UnitFlag",      "Settlers",     "Local",   TRUE
       "UnitType",      "Tribesmen",    "Local",   FALSE
-      "UnitState",     "Transported",  "Local",   FALSE    ; Prevent quay exploit
     }
 
 [actionenabler_road_tribesmen]
