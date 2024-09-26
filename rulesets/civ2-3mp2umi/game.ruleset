@@ -2366,30 +2366,21 @@ colorlist =
 ; etc...
 
 [settings]
-; freeciv game settings for civ2civ3 ruleset
-;
 set =
     { "name", "value"
-      "aifill", 6
       "generator", "FRACTAL"
-      "topology", "WRAPX|WRAPY|ISO|HEX"
+      "topology", "WRAPX|ISO"
       "mapsize", "PLAYER"
       "tilesperplayer", 100
       "tinyisles", "ENABLED"
-      "temperature", 60
       "flatpoles", 0
       "startunits", "DDDcws"
       "citymindist", 3
       "techlevel", 1
-      "borders", "ENABLED"
       "foggedborders", "ENABLED"
       "restrictinfra", "ENABLED"
       "unreachableprotects", "DISABLED"
-      "onsetbarbs", 120
       "occupychance", 100
-      "razechance", 10
       "techlossforgiveness", 0
-      "techlossrestore", 50
       "revolentype", "RANDQUICK"
-      "tradeworldrelpct", 100
     }
