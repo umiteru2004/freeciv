@@ -37,17 +37,7 @@ name = _("Civ2Civ3 ruleset")
 ; Summary of the ruleset
 ; /* TRANS: In the client, this is displayed alongside the contents of
 ;    README.civ2civ3, which are not localized. */
-summary = _("\
-You are playing Freeciv with civ2civ3 rules:\
-\n\n\
-Gameplay more similar to civ3, keeping the combat system from civ2.\
-\n\n\
-Adapted for single player, with AI less aggressive at start,\
- but more challenging at the end.\
-\n\n\
-The differences from the former default ruleset, 'classic', are listed in\
- full in README.civ2civ3.\
-")
+summary = _("本ルールセットについては、下記リンクをご確認ください。\nhttps://github.com/umiteru2004/freeciv/blob/develop/rulesets/civ2-3mp2umi/README.md")
 
 ; Detailed description
 ; When updating this, update also description_file in [ruledit] section to match
