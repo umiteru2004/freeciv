@@ -830,6 +830,14 @@ actor_reqs    =
       "UnitState",    "Transported",   "Local", FALSE
     }
 
+[actionenabler_investigate_city_satellite]
+action       = "Investigate City"
+actor_reqs    =
+    { "type",         "name",          "range","present"
+      "UnitType",     "Satellite",     "Local", TRUE
+      "DiplRel",      "Foreign",       "Local", TRUE
+    }
+
 [actionenabler_investigate_city_spy]
 action       = "Investigate City"
 actor_reqs    =

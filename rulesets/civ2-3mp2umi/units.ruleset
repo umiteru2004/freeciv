@@ -2836,7 +2836,7 @@ veteran_work_raise_chance = 0
 veteran_power_fact = 100
 veteran_move_bonus = 0
 roles         = ""
-helptext      = _("衛星は大気圏上空で地球を周回します。\nミサイルでなければ撃ち落とすことはできません。\nまた、軌道速度で移動するため、数ターンでマップを一周できます。"), _("
+helptext      = _("人工衛星は大気圏上空で地球を周回します。\nミサイルでなければ撃ち落とすことはできません。\nまた、軌道速度で移動するため、数ターンでマップを一周できます。"), _("
 NOTE： Due to game mechanics, a Satellite blocks terrestrial movement\
  over a tile. This is solved by killing it with any Missile. To avoid\
  being killed, end your turn in a friendly stack of units, or far away from\
