@@ -1025,10 +1025,72 @@ action = "Disband Unit Recover"
 actor_reqs    =
     { "type",   "name", "range", "present"
       "UnitFlag", "EvacuateFirst", "Local", FALSE
+      "UnitType", "Tribesmen",    "Local", FALSE
       "DiplRel",  "War",        "Local", FALSE
       "DiplRel",  "Cease-fire", "Local", FALSE
       "DiplRel",  "Armistice",  "Local", FALSE
       "DiplRel",  "Peace",      "Local", FALSE
+    }
+
+;TRIBESMEN RECYCLE: Building, Wonder, or Coinage (special)
+[actionenabler_recycle_unit_tribesmen_1]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "SmallWonder", "Local", TRUE
+    }
+
+[actionenabler_recycle_unit_tribesmen_2]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "Improvement", "Local", TRUE
+    }
+
+[actionenabler_recycle_unit_tribesmen_3]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "Special", "Local", TRUE
+    }
+
+[actionenabler_recycle_unit_tribesmen_great_wonder]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "GreatWonder", "Local", TRUE
     }
 
 [actionenabler_disband_unit]
