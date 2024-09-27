@@ -114,11 +114,3 @@ AIが多い場合は、最終的に人間プレイヤーが管理する領域が
 デフォルトで250です。  
 最大約4時間で終了します。  
 ルールセットのデフォルトでは5000です。
-## ルールセット
-このシナリオはデフォルトでオリジナルルールセット、Civ2-3MP2Umiを指定します。  
-このシナリオで遊ぶには、ルールセットのインストールが必要です。  
-  
-インストール方法:  
-[https://github.com/umiteru2004/freeciv/blob/develop/rulesets/README.md](https://github.com/umiteru2004/freeciv/blob/develop/rulesets/README.md)  
-ルールセットの説明:  
-[https://github.com/umiteru2004/freeciv/blob/develop/rulesets/civ2-3mp2umi/README.md](https://github.com/umiteru2004/freeciv/blob/develop/rulesets/civ2-3mp2umi/README.md)
