@@ -885,7 +885,7 @@ uk_shield     = 1
 uk_food       = 1
 uk_gold       = 1
 tp_defense    = "Alight"
-flags         = "Capturer", "Fortress"
+flags         = "Marines", "Capturer", "Fortress"
 roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild", "HutTech",
                 "BarbarianTech", "BarbarianBuildTech", "BarbarianSeaTech"
 helptext      = _("\
@@ -920,7 +920,7 @@ uk_shield     = 1
 uk_food       = 1
 uk_gold       = 1
 tp_defense    = "Alight"
-flags         = "Capturer", "Fortress"
+flags         = "Marines", "Capturer", "Fortress"
 roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild"
 helptext      = _("\
 Riflemen are World War-era infantry, very good\
