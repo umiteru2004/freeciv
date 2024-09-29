@@ -2037,6 +2037,7 @@ bonuses       =
    }   
 flags         = "BadCityDefender"
 roles         = "Hunter"
+helptext      = _("ミサイル駆逐艦は、先進的な防御ミサイルシステムを搭載した駆逐艦です。駆逐艦と同じ役割を果たし、さらに航空・ミサイルユニットに対して2倍の防御ボーナスを持ちます。また、ミサイルユニットを2ユニット積載することができます。")
 
 [unit_cruiser]
 name          = _("Cruiser")
