@@ -4545,6 +4545,7 @@ value   = -50
 reqs    =
     { "type",   "name",                 "range", "present"
       "Action", "Disband Unit Recover", "Local", TRUE
+      "UnitType",  "Tribesmen",    "Local", FALSE
     }
 
 [effect_unit_shield_value_in_upgrade_price_calc]
@@ -4553,4 +4554,24 @@ value   = -50
 reqs    =
     { "type",   "name",         "range", "present"
       "Action", "Upgrade Unit", "Local", TRUE
+    }
+
+[effect_tribesmen_recycle]
+type    = "Unit_Shield_Value_Pct"
+value   = 100 ; 20 shields recycle for Tribesmen.
+reqs    =
+    { "type",     "name",         "range", "present"
+      "Action",   "Disband Unit Recover", "Local", TRUE
+      "UnitType", "Tribesmen",    "Local", TRUE
+      "MinYear",  "-2000",        "World", FALSE
+    }
+
+[effect_tribesmen_glaucoma]
+type = "Unit_Vision_Radius_Sq"
+value = -1
+reqs =
+    {
+      "type",      "name",      "range"
+      "UnitType",  "Tribesmen", "Local"
+      "MinYear",   "-2000",     "World"
     }

@@ -2486,12 +2486,7 @@ A Caravan carries goods or material for trading with other nations,\
 "), _("\
 Caravans cannot take advantage of maglevs, but may travel on\
  the railroads that accompany them.\
-"), _("\
-A Caravan sent to a foreign city (one not owned by an enemy) can\
- establish a trade route. The route's ongoing revenue is doubled\
- if the two cities involved are on different continents. Each city\
- can support a maximum of two trade routes.\
-"), _("\
+"), _("Umi系ルールセットの仕様:\n交易ユニットを、自国の都市、または敵対していない他国の都市へ移動させることで、交易路を結ぶことができます。ただし、ただし、自国の都市と交易路を結ぶ場合、交易路が結ばれる2都市は9タイル以上離れている必要があります。\n\nUmi系ルールセットの仕様:\n2都市が異なる文明に所属しているか、2都市が異なる大陸にある場合、毎ターン得られる交易路収入が2倍になります。また、その2つの条件を両方満たしている場合、交易路収入が4倍になります。各都市が結ぶことのできる交易路の本数は2本までです。"), _("\
 A Caravan sent to one of your own cities that is building a wonder\
  can add 50 shields towards its production. If your city is not\
  building a wonder, the Caravan can take no special action.\
@@ -2532,7 +2527,7 @@ roles         = ""
 helptext      = _("\
 The Freight unit replaces the Caravan, and moves at twice the speed.\
  It has the same behavior and movement restrictions.\
-")
+"), _("交易路を結ぶことができる条件については、「キャラバン」の項をご確認ください。")
 
 [unit_explorer]
 name          = _("Explorer")

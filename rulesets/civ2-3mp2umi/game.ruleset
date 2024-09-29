@@ -37,17 +37,7 @@ name = _("Civ2Civ3 ruleset")
 ; Summary of the ruleset
 ; /* TRANS: In the client, this is displayed alongside the contents of
 ;    README.civ2civ3, which are not localized. */
-summary = _("\
-You are playing Freeciv with civ2civ3 rules:\
-\n\n\
-Gameplay more similar to civ3, keeping the combat system from civ2.\
-\n\n\
-Adapted for single player, with AI less aggressive at start,\
- but more challenging at the end.\
-\n\n\
-The differences from the former default ruleset, 'classic', are listed in\
- full in README.civ2civ3.\
-")
+summary = _("本ルールセットについては、下記リンクをご確認ください。\nhttps://github.com/umiteru2004/freeciv/blob/develop/rulesets/civ2-3mp2umi/README.md")
 
 ; Detailed description
 ; When updating this, update also description_file in [ruledit] section to match
@@ -65,7 +55,7 @@ global_init_buildings="Palace"
 [tileset]
 ; If preferred tileset is set, clients that support the feature will suggest
 ; using that tileset with the ruleset.
-; preferred = ""
+preferred = "amplio2mp2"
 
 [soundset]
 ; If preferred soundset is set, clients that support the feature will suggest
@@ -819,6 +809,25 @@ actor_reqs    =
       "UnitFlag", "Spy", "Local", FALSE
     }
 
+[actionenabler_investigate_city_tribesmen]
+action       = "Investigate City"
+actor_reqs    =
+    { "type",         "name",          "range", "present"
+      "UnitType",     "Tribesmen",     "Local", TRUE
+      "UnitState",    "OnLivableTile", "Local", TRUE
+      "MinMoveFrags", "1",             "Local", TRUE
+      "DiplRel",      "Foreign",       "Local", TRUE
+      "UnitState",    "Transported",   "Local", FALSE
+    }
+
+[actionenabler_investigate_city_satellite]
+action       = "Investigate City"
+actor_reqs    =
+    { "type",         "name",          "range","present"
+      "UnitType",     "Satellite",     "Local", TRUE
+      "DiplRel",      "Foreign",       "Local", TRUE
+    }
+
 [actionenabler_investigate_city_spy]
 action       = "Investigate City"
 actor_reqs    =
@@ -1014,10 +1023,72 @@ action = "Disband Unit Recover"
 actor_reqs    =
     { "type",   "name", "range", "present"
       "UnitFlag", "EvacuateFirst", "Local", FALSE
+      "UnitType", "Tribesmen",    "Local", FALSE
       "DiplRel",  "War",        "Local", FALSE
       "DiplRel",  "Cease-fire", "Local", FALSE
       "DiplRel",  "Armistice",  "Local", FALSE
       "DiplRel",  "Peace",      "Local", FALSE
+    }
+
+;TRIBESMEN RECYCLE: Building, Wonder, or Coinage (special)
+[actionenabler_recycle_unit_tribesmen_1]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "SmallWonder", "Local", TRUE
+    }
+
+[actionenabler_recycle_unit_tribesmen_2]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "Improvement", "Local", TRUE
+    }
+
+[actionenabler_recycle_unit_tribesmen_3]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "Special", "Local", TRUE
+    }
+
+[actionenabler_recycle_unit_tribesmen_great_wonder]
+action = "Disband Unit Recover"
+actor_reqs    =
+    { "type",     "name",         "range", "present", "quiet"
+      "UnitType", "Tribesmen",    "Local", TRUE,      TRUE
+      "DiplRel",  "War",          "Local", FALSE,     TRUE
+      "DiplRel",  "Cease-fire",   "Local", FALSE,     TRUE
+      "DiplRel",  "Armistice",    "Local", FALSE,     TRUE
+      "DiplRel",  "Peace",        "Local", FALSE,     TRUE
+    }
+target_reqs    =
+    { "type",   "name", "range", "present"
+      "BuildingGenus", "GreatWonder", "Local", TRUE
     }
 
 [actionenabler_disband_unit]
@@ -1192,6 +1263,8 @@ actor_reqs    =
       "DiplRel",        "War",           "Local", TRUE
       "MinMoveFrags",   "1",             "Local", TRUE
       "UnitState",      "OnLivableTile", "Local", TRUE
+      "UnitType",       "Tribesmen",     "Local", FALSE
+      "Nation",         "Animal Kingdom", "Player",FALSE
     }
 target_reqs    =
     { "type",           "name",          "range", "present"
@@ -1208,6 +1281,7 @@ actor_reqs    =
       "MinMoveFrags",   "1",             "Local", TRUE
       "UnitFlag",       "Marines",       "Local", TRUE
       "UnitState",      "OnLivableTile", "Local", FALSE
+      "Nation",         "Animal Kingdom", "Player",FALSE
     }
 target_reqs    =
     { "type",           "name",          "range", "present"
@@ -1275,6 +1349,7 @@ actor_reqs    =
       "UnitClassFlag", "CanOccupyCity", "Local", TRUE
       "UnitFlag",      "NonMil",        "Local", FALSE
       "UnitClassFlag", "HutFrighten",   "Local", FALSE
+      "Nation",         "Animal Kingdom",   "Player",FALSE
     }
 target_reqs   =
     { "type",     "name",    "range", "present"
@@ -1325,6 +1400,7 @@ actor_reqs    =
       "UnitClassFlag", "CanOccupyCity", "Local", TRUE
       "UnitFlag",      "NonMil",        "Local", FALSE
       "UnitClassFlag", "HutFrighten",   "Local", FALSE
+      "Nation",         "Animal Kingdom",   "Player",FALSE
     }
 target_reqs   =
     { "type",     "name",    "range", "present"
@@ -1376,8 +1452,9 @@ actor_reqs    =
 [actionenabler_pillage]
 action        = "Pillage"
 actor_reqs    =
-    { "type",          "name",         "range"
-      "UnitClassFlag", "CanPillage",   "Local"
+    { "type",          "name",         "range", "present"
+      "UnitClassFlag", "CanPillage",   "Local", TRUE
+      "UnitFlag",      "Cant_Pillage", "Local", FALSE
     }
 
 [actionenabler_clean_pollution]
@@ -1417,8 +1494,19 @@ actor_reqs    =
 [actionenabler_road]
 action        = "Build Road"
 actor_reqs    =
-    { "type",          "name",         "range"
-      "UnitFlag",      "Settlers",     "Local"
+    { "type",          "name",         "range",   "present"
+      "UnitFlag",      "Settlers",     "Local",   TRUE
+      "UnitType",      "Tribesmen",    "Local",   FALSE
+    }
+
+[actionenabler_road_tribesmen]
+action        = "Build Road"
+actor_reqs    =
+    { "type",          "name",         "range",   "present"
+      "UnitFlag",      "Settlers",     "Local",   TRUE
+      "UnitType",      "Tribesmen",    "Local",   TRUE
+      "UnitState",     "Transported",  "Local",   FALSE  ; Prevent quay exploit
+      "MinYear",       "-2000",        "World",   FALSE   ; they get old
     }
 
 [actionenabler_base]
@@ -1434,6 +1522,22 @@ actor_reqs    =
     { "type",      "name",     "range", "present"
       "UnitFlag",  "Settlers", "Local", TRUE
       "UnitClass", "Sea",      "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local",   FALSE
+    }
+target_reqs    =
+    { "type",         "name",       "range", "present"
+      "Terrain",      "Deep Ocean", "Local", FALSE
+      "TerrainAlter", "CanMine",    "Local", TRUE
+    }
+
+[actionenabler_mining_tribesmen]
+action        = "Build Mine"
+actor_reqs    =
+    { "type",          "name",         "range",   "present"
+      "UnitFlag",      "Settlers",     "Local",   TRUE
+      "UnitType",      "Tribesmen",    "Local",   TRUE
+      "UnitState",     "Transported",  "Local",   FALSE
+      "MinYear",       "-2000",        "World",   FALSE   ; they get old
     }
 target_reqs    =
     { "type",         "name",       "range", "present"
@@ -1482,6 +1586,22 @@ actor_reqs    =
     { "type",      "name",      "range", "present"
       "UnitFlag",  "Settlers",  "Local", TRUE
       "UnitClass", "Sea",       "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local", FALSE
+    }
+target_reqs    =
+    { "type",         "name",        "range",     "present"
+      "TerrainClass", "Oceanic",     "CAdjacent", TRUE
+      "Extra",        "Irrigation",  "Local",     FALSE
+      "TerrainAlter", "CanIrrigate", "Local",     TRUE
+    }
+
+[actionenabler_irrigate_src_ocean_tribesmen]
+action        = "Build Irrigation"
+actor_reqs    =
+    { "type",          "name",         "range", "present"
+      "UnitFlag",      "Settlers",     "Local", TRUE
+      "UnitType",      "Tribesmen",    "Local", TRUE
+      "MinYear",       "-2000",        "World", FALSE ; they get old
     }
 target_reqs    =
     { "type",         "name",        "range",     "present"
@@ -1496,6 +1616,22 @@ actor_reqs    =
     { "type",      "name",     "range", "present"
       "UnitFlag",  "Settlers", "Local", TRUE
       "UnitClass", "Sea",      "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local", FALSE
+    }
+target_reqs    =
+    { "type",         "name",             "range",     "present"
+      "ExtraFlag",    "IrrigationSource", "CAdjacent", TRUE
+      "Extra",        "Irrigation",       "Local",     FALSE
+      "TerrainAlter", "CanIrrigate",      "Local",     TRUE
+    }
+
+[actionenabler_irrigate_from_source_tribesmen]
+action        = "Build Irrigation"
+actor_reqs    =
+    { "type",          "name",         "range", "present"
+      "UnitFlag",      "Settlers",     "Local", TRUE
+      "UnitType",      "Tribesmen",    "Local", TRUE
+      "MinYear",       "-2000",        "World", FALSE ; they get old
     }
 target_reqs    =
     { "type",         "name",             "range",     "present"
@@ -1511,6 +1647,22 @@ actor_reqs    =
       "UnitFlag",  "Settlers",    "Local",  TRUE
       "Tech",      "Electricity", "Player", TRUE
       "UnitClass", "Sea",         "Local",  FALSE
+      "UnitType",      "Tribesmen",    "Local", FALSE
+    }
+target_reqs    =
+    { "type",         "name",        "range", "present"
+      "Terrain",      "Desert",      "Local", FALSE
+      "TerrainAlter", "CanIrrigate", "Local", TRUE
+    }
+
+[actionenabler_irrigate_src_tech_not_in_desert_tribesmen]
+action        = "Build Irrigation"
+actor_reqs    =
+    { "type",      "name",        "range",  "present"
+      "UnitFlag",  "Settlers",    "Local",  TRUE
+      "Tech",      "Electricity", "Player", TRUE
+      "UnitType",      "Tribesmen",    "Local", TRUE
+      "MinYear",       "-2000",        "World", FALSE ; they get old
     }
 target_reqs    =
     { "type",         "name",        "range", "present"
@@ -1524,6 +1676,23 @@ actor_reqs    =
     { "type",      "name",      "range", "present"
       "UnitFlag",  "Settlers",  "Local", TRUE
       "UnitClass", "Sea",       "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local", FALSE
+    }
+target_reqs    =
+    { "type",         "name",        "range",     "present"
+      "TerrainClass", "Oceanic",     "CAdjacent", TRUE
+      "Terrain",      "Desert",      "Local",     FALSE
+      "TerrainAlter", "CanIrrigate", "Local",     TRUE
+    }
+
+[actionenabler_irrigate_src_ocean_not_in_desert_tribesmen]
+action        = "Build Irrigation"
+actor_reqs    =
+    { "type",      "name",      "range", "present"
+      "UnitFlag",  "Settlers",  "Local", TRUE
+      "UnitClass", "Sea",       "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local", TRUE
+      "MinYear",       "-2000",        "World", FALSE ; they get old
     }
 target_reqs    =
     { "type",         "name",        "range",     "present"
@@ -1538,6 +1707,23 @@ actor_reqs    =
     { "type",      "name",     "range", "present"
       "UnitFlag",  "Settlers", "Local", TRUE
       "UnitClass", "Sea",      "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local", FALSE
+    }
+target_reqs    =
+    { "type",         "name",             "range",     "present"
+      "ExtraFlag",    "IrrigationSource", "CAdjacent", TRUE
+      "Terrain",      "Desert",           "Local",     FALSE
+      "TerrainAlter", "CanIrrigate",      "Local",     TRUE
+    }
+
+[actionenabler_irrigate_src_extra_not_in_desert_tribesmen]
+action        = "Build Irrigation"
+actor_reqs    =
+    { "type",      "name",     "range", "present"
+      "UnitFlag",  "Settlers", "Local", TRUE
+      "UnitClass", "Sea",      "Local", FALSE
+      "UnitType",      "Tribesmen",    "Local", TRUE
+      "MinYear",       "-2000",        "World", FALSE ; they get old
     }
 target_reqs    =
     { "type",         "name",             "range",     "present"
@@ -2179,30 +2365,21 @@ colorlist =
 ; etc...
 
 [settings]
-; freeciv game settings for civ2civ3 ruleset
-;
 set =
     { "name", "value"
-      "aifill", 6
       "generator", "FRACTAL"
-      "topology", "WRAPX|WRAPY|ISO|HEX"
+      "topology", "WRAPX|ISO"
       "mapsize", "PLAYER"
       "tilesperplayer", 100
       "tinyisles", "ENABLED"
-      "temperature", 60
       "flatpoles", 0
-      "startunits", "cwsx"
+      "startunits", "DDDcws"
       "citymindist", 3
       "techlevel", 1
-      "borders", "ENABLED"
       "foggedborders", "ENABLED"
       "restrictinfra", "ENABLED"
       "unreachableprotects", "DISABLED"
-      "onsetbarbs", 120
       "occupychance", 100
-      "razechance", 10
       "techlossforgiveness", 0
-      "techlossrestore", 50
       "revolentype", "RANDQUICK"
-      "tradeworldrelpct", 100
     }

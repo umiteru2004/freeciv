@@ -44,6 +44,8 @@ flags =
     _("Marines"), _("Can launch attack from non-native tiles.")
     _("Cant_Fortify")
     _("OneAttack")
+    _("Cant_Pillage")
+    _("Missile"), _("第二世代機甲部隊はこのユニットに対して防御ボーナスを持ちます。")
   }
 
 ; Names for custom unit class flags. There can be up to 12 of these.
@@ -219,6 +221,12 @@ min_speed     = 1
 hp_loss_pct   = 10
 flags         = "Unreachable", "DoesntOccupyTile", "CanPillage",
                 "Airliftable", "HutFrighten", "Aerial"
+
+[unitclass_space]
+name          = _("?unitclass:Space")
+min_speed     = 1
+hp_loss_pct   = 0
+flags         = "Unreachable", "DoesntOccupyTile", "HutFrighten"
 
 ; /* <-- avoid gettext warnings
 ;
@@ -604,6 +612,42 @@ Workers have the ability to improve terrain tiles. See the help on \
 Terrain and Terrain Alterations for the effects of their actions.\
 ")
 
+[unit_tribesmen]
+name          = _("?unit:Tribesmen")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.tribesmen"
+graphic_alt   = "-"
+sound_move    = "m_worker"
+sound_move_alt = "m_generic"
+sound_fight   = "f_warriors"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 1
+defense       = 1
+hitpoints     = 8
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 5
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+embarks       = "Helicopter"    ; transport helicopter only
+disembarks    = "Helicopter"
+bonuses       =
+   { "flag", "type", "value"
+     "NoBuild", "DefenseMultiplier", 1  ; all animals are "NoBuild" flag. technically this also means
+     "NoBuild", "DefenseDivider", 2     ; Barbarian Leader (which is 0D anyway), and Leader, which is hardly used.
+   }
+flags         = "NoBuild", "Settlers",  "Capturable", "HasNoZOC", "IgTer", "IgZOC"
+roles         = "DefendGoodStartUnit"  ; re-purposed from Phalanx
+helptext      = _("部族民は、都市や分業制が誕生する以前に存在しました。古代の間、部族民は原始的だが汎用的なボーナスを得ます：\n・より広い視界を持ちます。\n・道路、灌漑・採掘施設を建設することができます。\nこれらのボーナスは、文明化が進むことで、2000 BCEに失われます。\n\nまた、部族民は、2000 BCEまでに生産ポイントを返却して解散すると、ユニット以外の生産物に、部族民の生産コストの2倍の生産ポイントを返却します。2000 BCE以降は、生産コストと同じだけの生産ポイントを返却します。ただし、いつの時代もユニットの生産にポイントを返却することはできません。また、生産中だが生産が完了していて、次のターンに完成する生産物に対して、ポイントを返却することはできません。\n\n部族民は地形の移動コストを無視し、都市を調査することができます。また、原始的な戦闘を行うことができますが、都市を占領することはできません。\n（野生動物が有効なゲームでは、部族民は、野生動物に対して3倍の攻撃ボーナス、および2倍の防御ボーナスを得ます。）")
+
 [unit_engineers]
 name          = _("Engineers")
 class         = "Small Land"
@@ -711,7 +755,7 @@ uk_food       = 1
 uk_gold       = 1
 tp_defense    = "Alight"
 flags         = "Capturer", "Fortress"
-roles         = "DefendGood", "DefendGoodStartUnit", "FirstBuild"
+roles         = "DefendGood", "FirstBuild"
 helptext      = _("\
 The Phalanx is armored infantry, suitable for defending your cities.\
 ")
@@ -1348,7 +1392,7 @@ Cavalry are mounted and highly trained soldiers.\
 name          = _("Armor")
 class         = "Big Land"
 tech_req      = "Mobile Warfare"
-obsolete_by   = "None"
+obsolete_by   = "Armor II"
 graphic       = "u.armor"
 graphic_alt   = "-"
 sound_move    = "m_armor"
@@ -1372,13 +1416,40 @@ uk_gold       = 1
 tp_defense    = "Alight"
 flags         = ""
 roles         = "DefendOk", "AttackFastStartUnit", "Hunter"
-helptext      = _("\
-Armors are motorized war wagons that are faster, stronger, and can take \
-more damage than any mounted unit. However, they are less adaptable to \
-very rough terrain (they cannot move into mountains, swamps, or jungles \
-without roads), and unable to use less rough terrain to improve their \
-defense.\
-")
+helptext      = _("機甲部隊はエンジンを搭載した騎乗ユニットです。しかし、起伏に富んだ地形での運用は困難で、（道路のない山、沼地、ジャングルには移動できません）、地形を利用して防御力を高めることもできません。")
+
+[unit_armor_ii]
+name          = _("Armor II")
+class         = "Big Land"
+tech_req      = "Plastics"
+obsolete_by   = "None"
+graphic       = "u.armor_ii"
+graphic_alt   = "-"
+sound_move    = "m_armor"
+sound_move_alt = "m_generic"
+sound_fight   = "f_armor"
+sound_fight_alt = "f_generic"
+build_cost    = 90
+pop_cost      = 0
+attack        = 16
+defense       = 5
+hitpoints     = 30
+firepower     = 1
+move_rate     = 3
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 1
+uk_shield     = 1
+uk_food       = 1
+uk_gold       = 1
+bonuses       =
+   { "flag", "type", "value"
+     "Missile",      "DefenseMultiplier", 1
+   }
+flags         = ""
+roles         = "DefendOk", "AttackFastStartUnit", "Hunter"
+helptext      = _("第二世代機甲部隊は、より現代的にアップグレードされた機甲部隊です。全ての騎乗ユニットの中で最も高い攻撃力、防御力、移動力を誇ります。\n\nハイテク複合装甲と電子対抗手段（ECM）を備えており、これらは巡航ミサイルに対して2倍の防御ボーナスをもたらします。")
 
 [unit_catapult]
 name          = _("Catapult")
@@ -1896,7 +1967,7 @@ The Ironclad is an armored ship,\
 name          = _("Destroyer")
 class         = "Sea"
 tech_req      = "Engineering"
-obsolete_by   = "None"
+obsolete_by   = "Missile Destroyer"
 graphic       = "u.destroyer"
 graphic_alt   = "-"
 sound_move    = "m_destroyer"
@@ -1931,6 +2002,42 @@ An improved Ironclad, with better move rate and vision.\
 TIP:  A very fast unit, which is very useful for hunting down enemy\
  Transports and Submarines.\
 ")
+
+[unit_missile_destroyer]
+name          = _("Missile Destroyer")
+class         = "Sea"
+tech_req      = "Rocketry"
+obsolete_by   = "None"
+graphic       = "u.missile_destroyer"
+graphic_alt   = "-"
+sound_move    = "m_destroyer"
+sound_move_alt = "m_generic"
+sound_fight   = "f_destroyer"
+sound_fight_alt = "f_generic"
+build_cost    = 60
+pop_cost      = 0
+attack        = 6
+defense       = 6
+hitpoints     = 30
+firepower     = 1
+move_rate     = 6
+vision_radius_sq = 8
+transport_cap = 2
+fuel          = 0
+uk_happy      = 1
+uk_shield     = 1
+uk_food       = 1
+uk_gold       = 1
+tp_defense    = "Alight"
+cargo         = "Missile"
+bonuses       =
+   { "flag", "type", "value"
+     "Submarine", "DefenseMultiplier", 1
+     "AirAttacker", "DefenseMultiplier", 1
+   }   
+flags         = "BadCityDefender"
+roles         = "Hunter"
+helptext      = _("ミサイル駆逐艦は、先進的な防御ミサイルシステムを搭載した駆逐艦です。駆逐艦と同じ役割を果たし、さらに航空・ミサイルユニットに対して2倍の防御ボーナスを持ちます。また、ミサイルユニットを2ユニット積載することができます。")
 
 [unit_cruiser]
 name          = _("Cruiser")
@@ -2184,8 +2291,8 @@ uk_shield     = 1
 uk_food       = 0
 uk_gold       = 1
 tp_defense    = "Alight"
-targets       = "Air", "Missile", "Helicopter"
-flags         = "OneAttack", "AirAttacker", "CityBuster", "HasNoZOC"
+targets       = "Air", "Missile", "Helicopter", "Space"
+flags         = "OneAttack", "AirAttacker", "CityBuster", "HasNoZOC", "Missile"
 roles         = ""
 helptext      = _("\
 The Cruise Missile is a long-distance missile\
@@ -2486,12 +2593,7 @@ A Caravan carries goods or material for trading with other nations,\
 "), _("\
 Caravans cannot take advantage of maglevs, but may travel on\
  the railroads that accompany them.\
-"), _("\
-A Caravan sent to a foreign city (one not owned by an enemy) can\
- establish a trade route. The route's ongoing revenue is doubled\
- if the two cities involved are on different continents. Each city\
- can support a maximum of two trade routes.\
-"), _("\
+"), _("Umi系ルールセットの仕様:\n交易ユニットを、自国の都市、または敵対していない他国の都市へ移動させることで、交易路を結ぶことができます。ただし、ただし、自国の都市と交易路を結ぶ場合、交易路が結ばれる2都市は9タイル以上離れている必要があります。\n\nUmi系ルールセットの仕様:\n2都市が異なる文明に所属しているか、2都市が異なる大陸にある場合、毎ターン得られる交易路収入が2倍になります。また、その2つの条件を両方満たしている場合、交易路収入が4倍になります。各都市が結ぶことのできる交易路の本数は2本までです。"), _("\
 A Caravan sent to one of your own cities that is building a wonder\
  can add 50 shields towards its production. If your city is not\
  building a wonder, the Caravan can take no special action.\
@@ -2532,7 +2634,7 @@ roles         = ""
 helptext      = _("\
 The Freight unit replaces the Caravan, and moves at twice the speed.\
  It has the same behavior and movement restrictions.\
-")
+"), _("交易路を結ぶことができる条件については、「キャラバン」の項をご確認ください。")
 
 [unit_explorer]
 name          = _("Explorer")
@@ -2699,4 +2801,210 @@ helptext      = _("\
 The AWACS (Airborne Warning and Control System) is an airplane with an \
 advanced radar that can determine the location of enemy units over a \
 wide area.\
+")
+
+[unit_satellite]
+name          = _("Satellite")
+class         = "Space"
+tech_req      = "Laser"
+obsolete_by   = "None"
+graphic       = "u.satellite"
+graphic_alt   = "-"
+sound_move    = "m_awacs"
+sound_move_alt = "m_generic"
+sound_fight   = "f_awacs"
+sound_fight_alt = "f_generic"
+build_cost    = 140
+pop_cost      = 0
+attack        = 0
+defense       = 1
+hitpoints     = 20
+firepower     = 1
+move_rate     = 32
+vision_radius_sq = 46
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 1
+uk_food       = 0
+uk_gold       = 0
+vision_layer  = "Stealth"
+flags         = "Unique", "HasNoZOC", "NonMil", "NoVeteran", "Unbribable", "NeverProtects", "CanEscape"
+; No veteran levels (level name is never displayed)
+veteran_names = _("green")
+veteran_base_raise_chance = 0
+veteran_work_raise_chance = 0
+veteran_power_fact = 100
+veteran_move_bonus = 0
+roles         = ""
+helptext      = _("人工衛星は大気圏上空で地球を周回します。\nミサイルでなければ撃ち落とすことはできません。\nまた、軌道速度で移動するため、数ターンでマップを一周できます。"), _("
+NOTE： Due to game mechanics, a Satellite blocks terrestrial movement\
+ over a tile. This is solved by killing it with any Missile. To avoid\
+ being killed, end your turn in a friendly stack of units, or far away from\
+ developed or trafficked areas.\
+")
+
+[unit_animal_wolf]
+name          = _("[Wolf]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.wolf"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Wolves are mean wild ancestors of dogs, who hunt grasslands and hills.\
+")
+
+[unit_animal_leopard]
+name          = _("[Leopard]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.leopard"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Leopards are mean wild cats, who hunt in the forests.\
+")
+
+[unit_animal_tiger]
+name          = _("[Tiger]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.tiger"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 10
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Tigers are mean wild cats, who hunt in the jungles.\
+")
+
+[unit_animal_bear]
+name          = _("[Bear]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.bear"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 2
+hitpoints     = 6
+firepower     = 1
+move_rate     = 2
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Bears live in the mountains.\
+")
+
+[unit_animal_crocodile]
+name          = _("[Crocodile]")
+class         = "Land"
+tech_req      = "None"
+obsolete_by   = "None"
+graphic       = "u.crocodile"
+graphic_alt   = "-"
+sound_move    = "m_generic"
+sound_move_alt = "m_generic"
+sound_fight   = "f_generic"
+sound_fight_alt = "f_generic"
+build_cost    = 10
+pop_cost      = 0
+attack        = 2
+defense       = 1
+hitpoints     = 7
+firepower     = 1
+move_rate     = 1
+vision_radius_sq = 2
+transport_cap = 0
+fuel          = 0
+uk_happy      = 0
+uk_shield     = 0
+uk_food       = 0
+uk_gold       = 0
+flags         = "NoBuild", "Cant_Fortify", "Unbribable", "IgZOC", "HasNoZOC", "SuperSpy", "NoVeteran", "Cant_Pillage"
+roles         = "Barbarian"
+helptext      = _("\
+Watch out for wild animals. \
+"), _("\
+Crocodiles live in the swamps, where they wait to catch and eat prey.\
 ")
