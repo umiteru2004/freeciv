@@ -6987,7 +6987,7 @@ msgstr "新しいゲームの開始(_N)"
 #: client/gui-gtk-3.22/pages.c:318 client/gui-gtk-4.0/pages.c:327
 #: client/gui-gtk-5.0/pages.c:327 client/gui-qt/pages.cpp:222
 msgid "Launches local server, and connects to it for a single-player game."
-msgstr ""
+msgstr "ローカルサーバーを起動し、\nこれに接続してシングルプレイヤーゲームを開始します。"
 
 # Daniel
 #: client/gui-gtk-3.22/pages.c:322 client/gui-gtk-4.0/pages.c:331
@@ -7000,7 +7000,7 @@ msgstr "シナリオのロード(_S)"
 msgid ""
 "Loads one of the scenarios for a single-player game. Tutorial is one of the "
 "scenarios."
-msgstr ""
+msgstr "シナリオをロードしたシングルプレイヤーゲームを開始します。\nここからチュートリアルをプレイすることができます。"
 
 #: client/gui-gtk-3.22/pages.c:331 client/gui-gtk-4.0/pages.c:340
 #: client/gui-gtk-5.0/pages.c:340
@@ -7010,7 +7010,7 @@ msgstr "セーブファイルのロード(_L)"
 #: client/gui-gtk-3.22/pages.c:335 client/gui-gtk-4.0/pages.c:344
 #: client/gui-gtk-5.0/pages.c:344 client/gui-qt/pages.cpp:237
 msgid "Continues previously saved single-player game."
-msgstr ""
+msgstr "セーブしたシングルプレイヤーゲームをロードします。"
 
 # Daniel
 #: client/gui-gtk-3.22/pages.c:339 client/gui-gtk-4.0/pages.c:348
@@ -7023,7 +7023,7 @@ msgstr "ネットワークゲームへ接続(_O)"
 msgid ""
 "Connects to outside server. Sometimes you want to launch a separate server "
 "even for local games."
-msgstr ""
+msgstr "外部サーバーに接続します。\nここでは、デフォルトと異なるポートに起動した\nローカルサーバーに接続することも可能です。"
 
 #: client/gui-gtk-3.22/pages.c:348 client/gui-gtk-4.0/pages.c:357
 #: client/gui-gtk-5.0/pages.c:357
@@ -7033,7 +7033,7 @@ msgstr "クライアント設定"
 #: client/gui-gtk-3.22/pages.c:352 client/gui-gtk-4.0/pages.c:361
 #: client/gui-gtk-5.0/pages.c:361 client/gui-qt/pages.cpp:253
 msgid "Adjusting client-side options."
-msgstr ""
+msgstr "クライアント設定を調整します。"
 
 #: client/gui-gtk-3.22/pages.c:355 client/gui-gtk-4.0/pages.c:364
 #: client/gui-gtk-5.0/pages.c:364
@@ -7043,7 +7043,7 @@ msgstr "終了(_X)"
 #: client/gui-gtk-3.22/pages.c:360 client/gui-gtk-4.0/pages.c:369
 #: client/gui-gtk-5.0/pages.c:369 client/gui-qt/pages.cpp:258
 msgid "Gives you a break from playing freeciv."
-msgstr ""
+msgstr "ゲームを終了します。"
 
 #: client/gui-gtk-3.22/pages.c:494 client/gui-gtk-4.0/pages.c:507
 #: client/gui-gtk-5.0/pages.c:507
@@ -7343,13 +7343,10 @@ msgstr "ランダム"
 msgid "Observer"
 msgstr "観察者"
 
-# clefs XXX
-# Belgae
-# was 未割り当て
 #: client/gui-gtk-3.22/pages.c:2551 client/gui-gtk-4.0/pages.c:2661
 #: client/gui-gtk-5.0/pages.c:2661 client/gui-qt/pages.cpp:1906
 msgid "Detached"
-msgstr "解任済"
+msgstr "未割り当て"
 
 # Daniel
 #. TRANS: Keep individual lines short
@@ -12362,9 +12359,6 @@ msgstr ""
 msgid "?improvement:Allows %s (with %s)."
 msgstr "｢%s｣を建設することができるようになります（ただし「%s」が必要です）。"
 
-# clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is a building name.
 #: client/helpdata.c:602
 #, c-format
@@ -12435,9 +12429,6 @@ msgstr ""
 "「%s」を建設することができるようになります。（ただし、%sが必要で、%sの上には"
 "建設できません。）"
 
-# clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is an extra name.
 #: client/helpdata.c:637
 #, c-format
@@ -14961,10 +14952,13 @@ msgstr ""
 "のがオチです]"
 
 #: client/options.c:1956
-#, fuzzy
 #| msgid "Send heartbeat messages to server"
 msgid "Send heartbeat messages to the server"
-msgstr "ハートビートを送信する"
+msgstr "ハートビートの送信"
+
+# NOTE: 手動で追加した項目
+msgid "Send heartbeat messages to server"
+msgstr "ハートビートの送信"
 
 #: client/options.c:1957
 msgid ""
@@ -15086,7 +15080,7 @@ msgstr ""
 #: client/options.c:2045
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Square)"
-msgstr "タイルセット（四角形）"
+msgstr "タイルセット（長方形）"
 
 # clefs
 #: client/options.c:2046
@@ -15100,7 +15094,7 @@ msgid ""
 "this is the same as using the -t command-line parameter. Use modpack "
 "installer utility to install additional tilesets."
 msgstr ""
-"四角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"長方形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
 "も、タイルセットを変更することができます。この設定を変更することは、コマンドラインオプション "
 "-t を使用することと同じです。追加のタイルセットをインストールするには、modpack "
 "インストーラーを使用してください。"
@@ -15131,7 +15125,7 @@ msgstr ""
 #: client/options.c:2065
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Iso-Hex)"
-msgstr "タイルセット (六角形等角マップ)"
+msgstr "タイルセット (六角形、等角)"
 
 # clefs
 #: client/options.c:2066
@@ -15575,13 +15569,11 @@ msgstr "自動化されたユニットの表示"
 
 # clefs
 #: client/options.c:2275
-#, fuzzy
 msgid ""
 "Disable this option if you do not want to see automated units autocentered "
 "and animated."
 msgstr ""
-"これを無効にすると，自動開拓や自動探索などを実行中のユニットは，移動アニメー"
-"ションが省略されます。"
+"この設定を無効にすると、自動探索や自動開拓などを実行中のユニットは、移動アニメーションが省略されます。"
 
 #: client/options.c:2278
 msgid "Auto center on combat"
@@ -15622,7 +15614,7 @@ msgstr ""
 
 #: client/options.c:2293
 msgid "Keyboardless goto"
-msgstr "キーボードなしでのgotoコマンド"
+msgstr "キーボードなしでの「移動(G)」アクション"
 
 # clefs
 # Belgae
@@ -15631,11 +15623,11 @@ msgid ""
 "If this option is set then a goto may be initiated by left-clicking and then "
 "holding down the mouse button while dragging the mouse onto a different tile."
 msgstr ""
-"このオプションを設定すると，左ドラッグするだけでgotoコマンドを実行できます。"
+"この設定を有効にすると，左ドラッグするだけでアクション「移動(G)」を実行することができます。"
 
 #: client/options.c:2299
 msgid "Allow goto into the unknown"
-msgstr "[gotoコマンドで]未知の領域への移動を許可する"
+msgstr "アクション「移動(G)」で未知の領域への移動を許可する"
 
 # clefs
 #: client/options.c:2300
@@ -15643,7 +15635,7 @@ msgid ""
 "Setting this option will make the game consider moving into unknown tiles.  "
 "If not, then goto routes will detour around or be blocked by unknown tiles."
 msgstr ""
-"有効にすると，gotoコマンドでは未知の領域を通ることも考慮に入れられます。無効"
+"この設定を有効にすると，アクション「移動(G)」では未知の領域を通ることも考慮に入れられます。無効"
 "にすると，未知の領域は迂回し，できなければ到達不能となります。"
 
 #: client/options.c:2304
@@ -15657,16 +15649,15 @@ msgid ""
 msgstr "都市ダイアログを開いた時に，その都市をマップの中心にします。"
 
 #: client/options.c:2308
-#, fuzzy
 msgid "Show messages from previous turn"
-msgstr "前の都市へ"
+msgstr "前ターンのメッセージの表示"
 
 #: client/options.c:2309
 msgid ""
 "Message Window shows messages also from previous turn. This makes sure you "
 "don't miss messages received in the end of the turn, just before the window "
 "gets cleared."
-msgstr ""
+msgstr "この設定を有効にすると、メッセージウインドウには、前のターンからのメッセージも表示されます。これにより、ターンの終わり、ウィンドウがクリアされる直前に受信したメッセージを見逃すことがなくなります。"
 
 #: client/options.c:2313
 msgid "Concise city production"
@@ -15736,9 +15727,8 @@ msgstr ""
 "ます(例: ｢r｣...交易路を結ぶ/｢b｣...不思議建設を手伝う/｢d｣...外交/スパイ活動)。"
 
 #: client/options.c:2340
-#, fuzzy
 msgid "Pop up attack questions"
-msgstr "ポップアップ要求"
+msgstr "攻撃を確認するポップアップ"
 
 #: client/options.c:2341
 msgid ""
@@ -15746,11 +15736,11 @@ msgid ""
 "window will pop up asking which action should be performed even if an attack "
 "action is legal and no other interesting action are. This allows you to "
 "change your mind or to select an uninteresting action."
-msgstr ""
+msgstr "この設定を有効にすると、ユニットが攻撃可能な目標に到達したとき、\nアクション「攻撃(A)」が実行可能であり、他に実行可能なアクションがない場合でも、\n実行するアクションを尋ねるポップアップが表示されます。\nこれにより、誤って攻撃してしまうことを防ぐことができます。"
 
 #: client/options.c:2353
 msgid "Pop up actions when final move to allied tile"
-msgstr ""
+msgstr "移動時にアクションを尋ねるポップアップ"
 
 #: client/options.c:2354
 msgid ""
@@ -15761,7 +15751,7 @@ msgid ""
 "that the actor unit has moves left, save a turn. The down side is that the "
 "unit remains adjacent to rather than inside the protection of an allied city "
 "or unit stack."
-msgstr ""
+msgstr "この設定を有効にすると、アクションを実行することができる友好的な都市またはユニットが存在するタイルにユニットが移動するとき、この移動が行われる前に、実行するアクションを尋ねるポップアップが表示されます。\nこれにより、ターンを短縮することができます。\nただし、実行するアクションを選択するまで、ユニットが移動しないため、このユニットが移動先の都市や防御ユニットによる保護を受けることができないデメリットがあります。"
 
 #: client/options.c:2365
 msgid "Enable cursor changing"
@@ -16473,7 +16463,6 @@ msgstr "都市生産物"
 
 #: client/options.c:2942 client/options.c:3163 client/options.c:3384
 #: client/options.c:3540
-#, fuzzy
 msgid "This font is used to display the city production on the map."
 msgstr "このフォントは，マップ上で都市生産物の表示に使用されます。"
 
@@ -16712,10 +16701,10 @@ msgid "Saving options failed, cannot write to file %s"
 msgstr "保存が失敗しました。ファイル %s へ書き込めません"
 
 #: client/options.c:6460
-#, fuzzy, c-format
+#, c-format
 #| msgid "Saved settings to file %s"
 msgid "Saved options to file %s"
-msgstr "設定をファイル %s へ保存しました。"
+msgstr "%s に設定を保存しました。"
 
 #: client/packhand.c:453 client/packhand.c:457
 #, c-format
@@ -38746,7 +38735,6 @@ msgstr ""
 "ます。"
 
 #: data/helpdata.txt:612
-#, fuzzy
 #| msgid ""
 #| "The origin civilization of the unit gains immediate revenue in gold and "
 #| "science from selling its trade goods at the destination city. The initial "
@@ -40927,8 +40915,8 @@ msgstr ""
 "て\n"
 "                                 いる場合，現在の活動はキャンセルされます）\n"
 "  ユニットをShift+左クリック:      ユニットを選択に加える(GTK)\n"
-"  ユニットを左ドラッグ:        ユニットにgotoコマンドを出す\n"
-"                               （オプションで\"キーボードなしでのgotoコマンド"
+"  ユニットを左ドラッグ:        ユニットを移動させる\n"
+"                               （オプションで\"キーボードなしでの「移動(G)」アクション"
 "\"を有効にしてる場合）\n"
 "  中クリック，Alt+左クリック:   タイルの情報を表示する\n"
 "  右クリック:                  タイルに視点の中心を移す\n"
@@ -40954,7 +40942,7 @@ msgstr ""
 "先）\n"
 "\n"
 "  これらの操作はタイル上の1ユニットを選択状態にします。他の条件が等しければ，"
-"移動ポイントが残っているものが優先されます。\"キーボードなしでのgotoコマンド"
+"移動ポイントが残っているものが優先されます。\"キーボードなしでの「移動(G)」アクション"
 "\"が有効の場合，ドラッグする1操作だけでユニットの選択および移動が可能です。"
 
 #: data/helpdata.txt:1754
@@ -44306,7 +44294,7 @@ msgstr "ブリテン諸島 (古典的/中型)"
 msgid ""
 "Map: Martin McMahon, Daniel Markstedt\n"
 "Start positions: Mateusz Stefek"
-msgstr ""
+msgstr "マップ: Martin McMahon, Daniel Markstedt\n開始地点: Mateusz Stefek"
 
 #: data/scenarios/british-isles.sav:7
 msgid "Overhead 73x81 map of the British Isles."
@@ -44321,7 +44309,7 @@ msgid ""
 "Map: Daniel Gudlat, Daniel Markstedt\n"
 "Start positions: Jason Dorje Short, Mateusz Stefek, Mathieu Roy, David "
 "Fernandez, Rhue"
-msgstr ""
+msgstr "マップ: Daniel Gudlat, Daniel Markstedt\n開始地点: Jason Dorje Short, Mateusz Stefek, Mathieu Roy, David Fernandez, Rhue"
 
 #: data/scenarios/earth-large.sav:7
 msgid "Overhead 160x90 map of the Earth."
@@ -44335,7 +44323,7 @@ msgstr "地球 (古典的/小型)"
 msgid ""
 "Map: Daniel Gudlat, Daniel Markstedt\n"
 "Start positions: Jason Dorje Short, Mateusz Stefek, David Fernandez"
-msgstr ""
+msgstr "マップ: Daniel Gudlat, Daniel Markstedt\n開始地点: Jason Dorje Short, Mateusz Stefek, David Fernandez"
 
 #: data/scenarios/earth-small.sav:7
 msgid "Overhead 80x50 map of the Earth."
@@ -44349,7 +44337,7 @@ msgstr "欧州 (古典的/特大)"
 msgid ""
 "Map: Christian Grothoff, Jerzy Klek, Mateusz Stefek, Daniel Markstedt\n"
 "Start positions: Jason Dorje Short, Mateusz Stefek"
-msgstr ""
+msgstr "マップ: Christian Grothoff, Jerzy Klek, Mateusz Stefek, Daniel Markstedt\n開始地点: Jason Dorje Short, Mateusz Stefek"
 
 #: data/scenarios/europe.sav:7
 msgid "Overhead 177x100 map of Europe."
@@ -44434,9 +44422,8 @@ msgid "Europe 1900"
 msgstr "欧州 1900"
 
 #: data/scenarios/europe_1900_WWI.sav:6
-#, fuzzy
 msgid "Ferdinand Steinkrüger (a.k.a. XYZ) and Jamie Troini (a.k.a. Nimrod)."
-msgstr "Ferdinand Steinkrüger (XYZ) ，Jamie Troini (Nimrod)"
+msgstr "Ferdinand Steinkrüger (XYZ) , Jamie Troini (Nimrod)"
 
 #: data/scenarios/europe_1900_WWI.sav:7
 msgid ""
@@ -44464,13 +44451,10 @@ msgid "Tutorial"
 msgstr "チュートリアル"
 
 #: data/scenarios/tutorial.sav:6
-#, fuzzy
 msgid ""
 "Play this tutorial scenario to get an introduction to Freeciv. This is "
 "intended for single-player games. It uses the default (civ2civ3) rules."
-msgstr ""
-"このチュートリアルシナリオをプレイすれば，Freecivの概要が分かります。シングル"
-"プレイを想定した内容で，ルールセットはデフォルト (classic)です。"
+msgstr "このチュートリアルシナリオをプレイしてFreecivを始めましょう。\nこれはシングルプレイ用です。\nデフォルトの(civ2civ3)ルールセットを使用します。"
 
 #: data/scenarios/tutorial.sav:108
 #, fuzzy
@@ -52610,10 +52594,9 @@ msgstr ""
 # トポロジってのは、要はタイルのつながり方です
 # Belgae
 #: server/settings.c:1560
-#, fuzzy
 #| msgid "Map topology index"
 msgid "Map topology"
-msgstr "マップのトポロジー"
+msgstr "マップ形式"
 
 #. TRANS: Freeciv-web version of the help text.
 #: server/settings.c:1563
@@ -52625,7 +52608,6 @@ msgstr ""
 # 全角にしました。フォントによっては表示が崩れるでしょうが，従来よりはマシかと。(Belgae)
 #. TRANS: do not edit the ugly ASCII art
 #: server/settings.c:1566
-#, fuzzy
 #| msgid ""
 #| "Freeciv maps are always two-dimensional. They may wrap at the north-south "
 #| "and east-west directions to form a flat map, a cylinder, or a torus "
@@ -52660,25 +52642,32 @@ msgid ""
 "  \\/\\/\\/\\/\\/\\/\\             \\_/ \\_/ \\_/ \\_/ \\_/\n"
 "   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
 "   \\/\\/\\/\\/\\/\\/             \\_/ \\_/ \\_/ \\_/ \\_/\n"
-msgstr ""
-"Freecivのマップは常に2次元です。マップは南北および東西方向でつながっているか"
-"どうかにより，平面，円筒，あるいはトーラス（ドーナツ）を形成します。個々のタ"
-"イルは長方形または六角形[ヘックス]で，通常使用するタイルセットに応じて古典的"
-"または等角[アイソメトリック]に配置されます[訳注:古典的とはタイルの辺が東西・"
-"南北に平行であること，等角とはタイルの辺が北東から南西・北西から南東に平行で"
-"あることを言います]。\n"
-"古典的長方形:              等角長方形:\n"
-"     _________                ／＼／＼／＼\n"
-"     |__|__|__|             ／＼／＼／＼／\n"
-"     |__|__|__|             ＼／＼／＼／＼\n"
-"     |__|__|__|             ／＼／＼／＼／\n"
-"                           ＼／＼／＼／＼\n"
-"古典的ヘックス:          等角ヘックス:\n"
-"  ／＼／＼／＼                ____          ____ \n"
-"  |     |     |     |             ／    ＼____／    ＼\n"
-"  ＼／＼／＼／             ＼____／    ＼____／\n"
-"     |     |     |                ／    ＼____／    ＼\n"
-"  ／＼／＼／＼             ＼____／    ＼____／\n"
+msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは長方形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
+
+# NOTE: 手動で追加した項目
+msgid ""
+"Freeciv maps are always two-dimensional. They may wrap at "
+"the north-south and east-west directions to form a flat "
+"map, a cylinder, or a torus (donut). Individual tiles may "
+"be rectangular or hexagonal, with either an overhead "
+"(\"classic\") or isometric alignment.\n"
+"To play with a particular topology, clients will need a "
+"matching tileset.\n"
+"Overhead rectangular:      Isometric rectangular:\n"
+"      _________               /\\/\\/\\/\\/\\\n"
+"     |_|_|_|_|_|             /\\/\\/\\/\\/\\/\n"
+"     |_|_|_|_|_|             \\/\\/\\/\\/\\/\\\n"
+"     |_|_|_|_|_|             /\\/\\/\\/\\/\\/\n"
+"                             \\/\\/\\/\\/\\/\n"
+"Hex:                       Iso-hex:\n"
+"  /\\/\\/\\/\\/\\/\\               _   _   _   _   _\n"
+"  | | | | | | |             / \\_/ \\_/ \\_/ \\_/ \\\n"
+"  \\/\\/\\/\\/\\/\\/\\"
+"             \\_/ \\_/ \\_/ \\_/ \\_/\n"
+"   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
+"   \\/\\/\\/\\/\\/\\/"
+"             \\_/ \\_/ \\_/ \\_/ \\_/\n"
+msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは長方形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
 
 #: server/settings.c:1591
 #, fuzzy
@@ -59912,11 +59901,13 @@ msgstr "死の灰を除去する(%sF)"
 #~ msgid "Mine"
 #~ msgstr "鉱山"
 
-#~ msgid "_Female"
-#~ msgstr "女(_F)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "_Female"
+msgstr "女(_F)"
 
-#~ msgid "_Male"
-#~ msgstr "男(_M)"
+# NOTE: 手動でコメントアウトを解除した項目
+msgid "_Male"
+msgstr "男(_M)"
 
 #~ msgid "FirePower:"
 #~ msgstr "火力:"
