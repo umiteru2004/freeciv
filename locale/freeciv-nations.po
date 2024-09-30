@@ -3895,7 +3895,7 @@ msgid ""
 "indigenous peasants and the mostly Ladino elite. The state's colonial "
 "cities, Mayan peoples and natural wealth have made it one of Mexico's major "
 "tourist destinations."
-msgstr ""
+msgstr "チアパス州はメキシコ南部の州です。植民地時代にはグアテマラから統治されていましたが、1824年に一時独立した後、メキシコへの帰属を選択しました。\n\nチアパスには先住民（主にマヤ族）が多く住んでいます。チアパス州の歴史の多くは、先住民の農民とラディーノ系エリートとの闘争によって特徴づけられてきました。\n\n植民地時代の都市、マヤ族、豊かな自然により、メキシコ有数の観光地となっています。"
 
 #: data/nation/chickasaw.ruleset:3
 msgid "Chickasaw"
@@ -4173,7 +4173,7 @@ msgid ""
 "Siberia. They may be descendants of Old Bulgarian Turkic tribes and possibly "
 "Huns. Today there are about 1.8 million Chuvashes, about half of them in the "
 "Republic of Chuvashia, which is part of the Russian Federation."
-msgstr ""
+msgstr "チュヴァシ人は、東ヨーロッパ・ロシアと西シベリアのテュルク系民族です。古代ブルガリアのテュルク系民族やフン族の末裔である可能性があります。\n\n現在、約180万人のチュヴァシ人がおり、その約半数がロシア連邦の一部であるチュヴァシ共和国に住んでいます。"
 
 #: data/nation/circassian.ruleset:3
 msgid "Circassian"
@@ -4196,7 +4196,7 @@ msgid ""
 "19th century, when they were defeated and subjected to genocide at the hands "
 "of the Russian Empire. Today less than 10% of the Circassian population "
 "lives in their original homeland."
-msgstr ""
+msgstr "チェルケス人は北西コーカサスの先住民族です。チュルカシア語またはアディゲ語は北西コーカサス語族に属し、カバルド語、アブハズ語、ウビフ語と近縁です。\n\nチュルカシア人が最初にまとまった存在として現れたのは約6000年前のことです。それにもかかわらず、彼らは歴史を通じて大帝国からの無数の侵略に抵抗することに成功しました。19世紀半ばにロシア帝国に敗れ、大量虐殺されるまで、長い歴史の中で完全に服従させられたことはありませんでした。\n\n現在では、本来の祖国に住んでいるのは、全体の10％にも及びません。"
 
 # clefs 音訳
 #: data/nation/circassian.ruleset:36 data/nation/ghaznavid.ruleset:32
@@ -4771,7 +4771,7 @@ msgid ""
 "were defeated in 106 CE. Dacia became a Roman province and succumbed to "
 "Roman colonization. The remains of the Dacians mingled with East Germanic "
 "tribes and later with Slavs."
-msgstr ""
+msgstr "ダキア人はドナウ川下流の左岸、現在のルーマニアにあるダキアに住んでいた古代の部族です。\n\n彼らはおそらくトラキア人や他の古バルカン半島の部族と関係がありました。ダキア諸部族の統一はブレビスタ王の時代に起こりました。\n\nローマとの戦争後、彼らは106年に敗北しました。ダキアはローマの属州となり、ローマの植民地化に屈しました。ダキア人の残党は東ゲルマン人、後にスラブ人と混血しました。"
 
 #: data/nation/dagestan.ruleset:3
 msgid "Dagestan"
@@ -6802,7 +6802,7 @@ msgid ""
 "kept initially under the Norwegian and later the Danish crown until "
 "independence from Denmark in 1944."
 msgstr ""
-"アイスランドは，9世紀後半にノルウェー・バイキングが入植するまで長らく世界最大"
+"アイスランドは，9世紀後半にノルウェー・ヴァイキングが入植するまで長らく世界最大"
 "の無人島の一つでした。この島は当初はノルウェーの，次いでデンマーク王室の支配"
 "下にありましたが，1944年にデンマークから独立しました。"
 
@@ -6950,7 +6950,7 @@ msgid ""
 "North of Ireland was settled in the 17th century by Scottish and English "
 "planters and is now part of the United Kingdom."
 msgstr ""
-"アイルランドはローマやバイキングに対して持ちこたえていましたが，1171年にノル"
+"アイルランドはローマやヴァイキングに対して持ちこたえていましたが，1171年にノル"
 "マン人により征服されました。イギリスに統治されていましたが，1922年にその大部"
 "分に限定的な自治が与えられ，1949年には共和国となりました。アイルランド北部に"
 "は17世紀にスコットランド人とイギリス人の入植者が定着し，現在は連合王国[イギリ"
@@ -7087,14 +7087,12 @@ msgid "?plural:Jaffnas"
 msgstr "ジャフナ人"
 
 #: data/nation/jaffna.ruleset:7
-#, fuzzy
 msgid ""
 "The Jaffna Kingdom was a medieval Tamil kingdom based in the north of Sri "
 "Lanka. It was a successful southern rival to the Chola Empire on the Indian "
 "mainland."
 msgstr ""
-"ジャフナ王国は13世紀から17世紀にかけて，スリランカ北部を支配したタミル系国家"
-"です。"
+"ジャフナ王国はスリランカ北部にあった中世のタミル王国です。インド本土のチョーラ帝国の南のライバルとして繁栄しました。"
 
 #: data/nation/jamaican.ruleset:3
 msgid "Jamaican"
@@ -11415,7 +11413,6 @@ msgid "?plural:Scanians"
 msgstr "スコーネ人"
 
 #: data/nation/scanian.ruleset:6
-#, fuzzy
 msgid ""
 "Scania is the southernmost region of Sweden. Historically one of many petty "
 "kingdoms in Viking age Scandinavia, it became in medieval times part of "
@@ -11423,10 +11420,7 @@ msgid ""
 "Scania saw something of a national revival in the late 20th century with "
 "calls for greater autonomy within the Kingdom of Sweden."
 msgstr ""
-"スカニアはスウェーデンの最南端領域である。歴史的にはヴァイキング時代スカンジ"
-"ナビアの多くのささいな王国の一つは、それがデンマークの中世部になったが、1658"
-"年にロスキレ条約を通じてスウェーデンに割譲された。スカニアはスウェーデン王国"
-"内でより大きな自治権を求める声に、20世紀後半に国家の復活のようなものを見た。"
+"スコーネはスウェーデンの最南端に位置します。\n\n歴史的にはヴァイキング時代のスカンジナビアに数多く存在した小王国のひとつで、中世にはデンマークの一部となりましたが、1658年のロスキレ条約によってスウェーデンに割譲されました。\n\nスコーネは20世紀後半、スウェーデン王国内での自治権拡大を求める声とともに、国家的な復興を遂げました。"
 
 #: data/nation/schleswig-holsteinian.ruleset:3
 msgid "Schleswig-Holsteinian"
@@ -11473,12 +11467,8 @@ msgid ""
 "parts of Lothian and the Borders. Today some 60,000 speakers of Gaelic "
 "remain, about half of which live in the Scottish Highlands and Islands, the "
 "other half living all over Scotland, in particular the Central Belt."
-msgstr ""
+msgstr "ゲール人もゲール語も、ダリアダ王朝がアイルランドからスコットランドにもたらしたものです。\n\n彼らはまずアーガイル（Earra Ghaidheal、ゲール人の海岸地帯）に定住し、やがて先住民ピクト人の領地へと拡大し、843年頃にはケネス・マカルピンがピクト人とゲール人の王国を統一しました。\n\nマルコム3世の時代には、ゲール語はスコットランドの大半の言語となり、ストラスクライド、ギャロウェイ、ロージアンとボーダーズの一部まで南下しました。現在では約6万人のゲール語話者が残っており、その約半数はスコットランド高地と諸島に、残りの半数はスコットランド全土、特に中央ベルト地帯に住んでいます。"
 
-# clefs
-# was "チーフ"(yasu)
-# チェロキー・イロコイ・マリ・マオリ・スー・南アフリカ・スワジ・ズールー
-# 全部「族長」で大丈夫かしらん
 #: data/nation/scottishgaelic.ruleset:35
 #, c-format
 msgid "Clan Chief %s"
@@ -11576,7 +11566,7 @@ msgid ""
 "of the Great Seljuk Empire in the 12th century the Seljuks continued to rule "
 "in the Sultanate of Rum, which would later form the basis of the Ottoman "
 "Turks."
-msgstr ""
+msgstr "セルジューク朝はテュルク人の大群で、その名は創始者セルジュークに由来します。\n\n1040年にガズナヴィー朝に勝利した後、彼らは独自の国家を築きました。1055年、セルジューク朝はバグダッドを占領し、指導者トゥグリル・ベグはスルタンの称号を得ました。\n\nセルジューク朝は1071年のマンジカートの戦いでビザンチン帝国を破ったことで有名です。12世紀に大セルジューク帝国が崩壊した後も、セルジューク朝は後にオスマン・トルコの基礎となるラムのスルタン国で支配を続けました。"
 
 #: data/nation/seminole.ruleset:3
 msgid "Seminole"
@@ -11741,7 +11731,7 @@ msgid ""
 "the Kingdom of Nepal. Following the democratization of Nepal in the "
 "beginning of the 21st century, there have been calls for greater autonomy "
 "for the Sherpas within the federal republic."
-msgstr ""
+msgstr "シェルパは15世紀に現在のネパールのヒマラヤ地方に定住した民族です。彼らはチベットの血を引いており、現代のチベット語に近い言語を話しますが、相互に理解できるものではありません。\n\n数世紀にわたる自治を経て、18世紀にはベンガルを拠点とするセン帝国のようなヒンドゥー教勢力の侵食による軍事的圧力を受けるようになりました。18世紀までにシェルパ族の故郷はネパール王国に併合されました。\n\n21世紀初頭にネパールが民主化された後、連邦共和制の中でシェルパの自治権拡大を求める声が上がっています。"
 
 #: data/nation/siberian.ruleset:3
 msgid "Siberian"
@@ -12284,7 +12274,7 @@ msgid ""
 "They settled in the northwest of the Iberian Peninsula, where they "
 "established their own kingdom, which was conquered by the Visigoths in 585 "
 "CE."
-msgstr ""
+msgstr "スエビ族は古代西ゲルマン民族の連合体で、アリオビストスがガリア遠征のために結成した可能性があります。スエビ族には、エルベ川流域のゲルマン語族、マルコマンニ族やクアディ族などが含まれます。\n\n紀元1世紀から4世紀にかけて、彼らはローマの脅威となり、しばしば帝国のドナウ諸州に侵入しました。紀元405年から406年にかけて、スエビ族はフン族によって土地を追われ、紀元405年の正月にヴァンダル族やアラン族とともに凍てつくライン川を渡りました。\n\n彼らはイベリア半島北西部に定住し、独自の王国を築きましたが、585年に西ゴート族に征服されました。"
 
 #: data/nation/surinamese.ruleset:3
 msgid "Surinamese"
@@ -14132,7 +14122,7 @@ msgid ""
 "Zhigao was crushed, many Zhuang migrated southward forming the basis of the "
 "Lao, Thai, and Shan nations. After the Han, the Zhuang are the most populous "
 "ethnic group of the People's Republic of China."
-msgstr ""
+msgstr "チワン族は中国のはるか南西部に住んでおり、ここは古くから東南アジアの原住民とシナ文明を隔ててきた国境地帯です。独特の灌漑と風光明媚な棚田で知られるチワン族は、古代中国の様々な王朝から圧力を受けていました。\n\n紀元10世紀には、チワン族は中国の宋王朝による過酷な支配下に置かれました。1052年に民間の英雄ノン・ジガオが率いた反乱が鎮圧されると、多くのチワン族が南下し、ラオス、タイ、シャン族の基礎となりました。\n\n漢民族に分類されるチワン族は中華人民共和国で最も人口の多い民族です。"
 
 #: data/nation/zimbabwean.ruleset:3
 msgid "Zimbabwean"
