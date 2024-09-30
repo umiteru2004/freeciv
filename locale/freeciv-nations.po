@@ -3598,7 +3598,7 @@ msgid ""
 "Ljudevit Posavski. After its fall in 822 the state was abolished and "
 "incorporated directly into the realm of the Franks. Slovenians are the "
 "modern descendants of the Carantanians."
-msgstr ""
+msgstr "カランタニア人またはアルプス・スラブ人は、中世初期に現在のオーストリアに定住した南西スラブ民族の連合体です。\n\nカランタニア公国は最古のスラヴ国家のひとつで、紀元7世紀から存在していました。8世紀にはフランク王国に依存するようになり、ゴラズド公爵によってラテン語によるキリスト教が導入されました。\n\n819年、カランタニアはクロアチア公リュデヴィト・ポサフスキの反乱に加わりました。822年に滅亡した後、国家は廃止され、直接フランク王国の領域に組み込まれました。\n\nスロヴェニア人はカランタニア人の子孫です。"
 
 #: data/nation/castilian.ruleset:3
 msgid "Castilian"
@@ -5885,19 +5885,17 @@ msgid ""
 "restoration was briefly proclaimed in 1814, following the defeat of "
 "Napoleon, this was short-lived, and the Republic was ultimately annexed by "
 "the Kingdom of Sardinia."
-msgstr ""
+msgstr "ジェノヴァ共和国（イタリア語: Repubblica di Genova）は、11世紀からナポレオン率いるフランス革命軍の侵攻を受ける1797年まで、イタリア北西部沿岸のリグーリア州にあった独立国家です。その後、リグーリア共和国が1805年まで存続し、フランス帝国に併合されました。\n\n1814年、ナポレオンの敗北により一時的に復興が宣言されましたが、それも束の間、共和国は最終的にサルデーニャ王国に併合されました。"
 
-# Belgae
-# 総督と訳されるようです。
 #: data/nation/genoese.ruleset:51 data/nation/venetian.ruleset:30
 #, c-format
 msgid "Doge %s"
-msgstr "ドージェ %s"
+msgstr "総督 %s"
 
 #: data/nation/genoese.ruleset:51 data/nation/venetian.ruleset:30
 #, c-format
 msgid "Dogaressa %s"
-msgstr "ドガレッサ %s"
+msgstr "総督夫人 %s"
 
 # clefs
 #: data/nation/georgian.ruleset:3
@@ -6006,7 +6004,7 @@ msgid ""
 "established on what was once the Western Roman Empire. By this time most "
 "Germanic peoples had changed their ancestral polytheistic religion for "
 "Christianity."
-msgstr ""
+msgstr "ゲルマン民族は北ヨーロッパと北西ヨーロッパに存在する民族言語複合体です。ゲルマン諸語は、インド・ヨーロッパ語族に属する原ゲルマン語から派生したと考えられています。\n\n古代ゲルマン民族の起源はかなり仮説的です。ゲルマン語には、他のインド・ヨーロッパ語族には存在しない多くの特徴があります。\n\n北ドイツ平原と南スカンジナビアで最初に存在が証明されたゲルマン人は、前2世紀以降ローマ人と衝突しました。やがて中世初期には、かつて西ローマ帝国だった場所にゲルマン王国が成立しました。この頃までに、ゲルマン民族の大半は先祖伝来の多神教をキリスト教に変えていました。"
 
 #: data/nation/ghanaian.ruleset:3
 msgid "Ghanaian"
@@ -6140,7 +6138,7 @@ msgid ""
 "century CE. The Goths played a major role in the fall of the Roman Empire, "
 "sacking Rome itself in 410 CE. The Visigoths conquered Roman Iberia while "
 "the Ostrogoths founded a kingdom in Italy."
-msgstr ""
+msgstr "ゴート族は東ゲルマン人で、現在のポーランドか、おそらくスカンジナビアに起源を持ちます。紀元4世紀には南東ヨーロッパを支配しました。\n\nゴート族はローマ帝国の滅亡に大きな役割を果たし、紀元410年にはローマそのものを略奪しました。西ゴート族はローマ帝国のイベリア半島を征服し、オストロゴート族はイタリアに王国を築きました。"
 
 #: data/nation/greaterpolish.ruleset:3
 msgid "Greater Polish"
@@ -7410,11 +7408,11 @@ msgstr "タルカン %s"
 
 #: data/nation/khoisan.ruleset:3
 msgid "Khoisan"
-msgstr "コイサン"
+msgstr "コイサン族"
 
 #: data/nation/khoisan.ruleset:4
 msgid "?plural:Khoisan"
-msgstr "コイサン"
+msgstr "コイサン族"
 
 #: data/nation/khoisan.ruleset:6
 msgid ""
@@ -7425,7 +7423,7 @@ msgid ""
 "peoples carry some of the most ancient genetic lineages in the world. Today "
 "there are over 300,000 Khoisan people, forming significant minorities in and "
 "around the Kalahari desert in Namibia, Botswana, South Africa, and Angola."
-msgstr ""
+msgstr "コイサン語を話す人々は、伝統的に牧畜民であるコイコイ族と、伝統的に狩猟採集民であるサン族に分かれています。\n\n彼らは伝統的に、地球上で最も平等主義的な社会です。特にサン族の社会は、家族とバンドという制度を中心に組織されています。\n\nコイサン族は、世界で最も古い遺伝系統を受け継いでいます。現在、30万人以上のコイサン族がナミビア、ボツワナ、南アフリカ、アンゴラのカラハリ砂漠周辺に少数民族を形成しています。"
 
 # Belgae
 #: data/nation/khwarezmian.ruleset:3
@@ -7587,7 +7585,7 @@ msgid ""
 "San Blas) is known worldwide as a tourist center and the Kunas have "
 "established something of a reputation for managing to combine tradition and "
 "modernity."
-msgstr ""
+msgstr "クナ族は北米と南米が接するダリエン地峡に住むチブチャン族です。\n\n1925年にクナの族長ネレ・カントゥレがパナマ当局に対して反乱を起こしました。それ以来、パナマはクナの故郷であるクナ・ヤラに大きな自治権を認めています。\n\n現在、クナ・ヤラ（サンブラスとも呼ばれる）は観光の中心地として世界的に知られており、クナ族は伝統と現代性をうまく融合させることで名声を確立しています。"
 
 #: data/nation/kurd.ruleset:3
 msgid "Kurdish"
@@ -11036,7 +11034,7 @@ msgid ""
 "Republic regularly warred against each other, but eventually the Sabines "
 "were assimilated into the Roman culture. Several Roman families prided "
 "themselves on their Sabine origins."
-msgstr ""
+msgstr "サビニ人は、ウンブリア語に最も近い言語を話すイタリア系民族です。彼らはローマの歴史に影響を与えました。\n\nサビニ人と初期ローマ共和国は定期的に抗争を繰り返しましたが、やがてサビニ人はローマ文化に同化しました。ローマ帝国には、サビニ人の出自を誇りとする家系がいくつかありました。"
 
 #: data/nation/sabine.ruleset:29 data/nation/samnite.ruleset:26
 #, c-format
@@ -11103,7 +11101,7 @@ msgid ""
 "The Saka were an ancient Iranian tribe from the Central Asian steppes. They "
 "were very closely related to the European Scythians, and were probably "
 "descendants of the Andronovo culture."
-msgstr ""
+msgstr "サカ族は中央アジアの草原地帯に住んでいた古代イランの部族です。\n\n彼らはヨーロッパのスキタイ人と非常に近い関係にあり、おそらくアンドロノヴォ文化の末裔であると考えられます。"
 
 #: data/nation/salishan.ruleset:3
 msgid "Salishan"
@@ -11122,7 +11120,7 @@ msgid ""
 "Coola (Nuxalk), Spokane and Coeur d'Alene. The Salishan languages are famous "
 "for their unusual characteristics. They have a large inventory of consonants "
 "and some even feature words without any vowels."
-msgstr ""
+msgstr "サリシュ族は、アメリカ合衆国とカナダの太平洋岸北西部に住む文化的言語的集団です。\n\n最も有名なサリシュ族はドゥワミッシュ族のリーダー、シアトル酋長で、シアトル市はこの酋長にちなんで名づけられました。その他、ベラ・クーラ（ヌクソーク）族、スポケーン族、コーダレーン族などが有名です。\n\nサリシュ語はその珍しい特徴でも有名です。子音が多く、母音のない単語もあります。"
 
 # Belgae
 # エルサルバドル人？
@@ -11218,7 +11216,7 @@ msgid ""
 "Oscan language and inhabited Central Italy, South of the Sabines. After "
 "losing the wars with Rome the Samnites were subjected to Rome and became "
 "Romanized. They were good soldiers and famed as Roman gladiators."
-msgstr ""
+msgstr "サムニウム人は、オスカ語を話し、サビーン人の南に位置する中央イタリアに居住していた古代イタリック民族の連合体です。\n\nローマとの戦争に敗れた後、サムニウム人はローマに服属し、ローマ化しました。彼らは優れた兵士であり、ローマの剣闘士として有名でした。"
 
 # clefs
 #: data/nation/samoan.ruleset:3
@@ -11319,7 +11317,7 @@ msgid ""
 "island. In 1718 Sardinia was handed to the house of Savoy, and it became a "
 "constituent part of the Kingdom of Piedmont-Sardinia, which eventually led "
 "Italy to its national unification in 1861."
-msgstr ""
+msgstr "サルデーニャ島は地中海に浮かぶ島で、イタリアの自治領です。\n\n先史時代にはヌラーグ文明が栄え、その後フェニキア、ローマ帝国の支配を受けました。ローマ帝国が崩壊すると、サルデーニャ島はヴァンダル帝国に占領され、その後ビザンチン帝国に占領されましたが、外国による支配は急速に衰え、9世紀にはビザンチン帝国の代表が独自の自治州を形成しました。しかし中世の終わりには、アラゴン人がこの島の支配権を確立しました。\n\n1718年、サルデーニャはサヴォワ家の手に渡り、ピエモンテ・サルデーニャ王国を構成することになりました。"
 
 #: data/nation/sarmatian.ruleset:3
 msgid "Sarmatian"
