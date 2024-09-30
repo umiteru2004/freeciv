@@ -4324,7 +4324,7 @@ msgid ""
 "their claims of independence; much of their territory laid in ruins. "
 "Furthermore, the Union victory in the Civil War opened the way for the "
 "abolition of slavery in the United States."
-msgstr ""
+msgstr "南部11州によって形成され、1861年から1865年まで存続したアメリカ合衆国の分裂国家です。\n\n南部11州は、北部との政治的・文化的な相違、とりわけ奴隷制の問題によりアメリカ合衆国から分離独立し、その頃選出されたアメリカ合衆国大統領エイブラハム・リンカーンの政府が奴隷制を廃止することを恐れました。南部連合の首都はバージニア州リッチモンドで、ジェファーソン・デイビスが唯一の大統領でした。\n\nアメリカ南北戦争は南部連合とアメリカ合衆国の戦いでした。アメリカ軍の攻撃による数度の軍事的敗北の後、南部諸州は独立の主張を放棄せざるを得なくなり、その領土の多くは廃墟と化しました。さらに、南北戦争における北軍の勝利は、アメリカにおける奴隷制廃止への道を開きました。"
 
 #: data/nation/congolesebrazzaville.ruleset:3
 msgid "Brazzaville-Congolese"
@@ -12605,17 +12605,15 @@ msgstr ""
 "1224年に彼らは「騎士団国」を建国し，300年にわたって強力な国家として存続しまし"
 "た。この国は16世紀には世俗化し，プロシア公領へと置き換えられました。"
 
-# 薩摩隼人も追加しますかね :-)
 #: data/nation/texan.ruleset:3
 msgid "Texan"
-msgstr "テクサン"
+msgstr "テキサス人"
 
 #: data/nation/texan.ruleset:4
 msgid "?plural:Texans"
-msgstr "テクサン"
+msgstr "テキサス人"
 
 #: data/nation/texan.ruleset:6
-#, fuzzy
 #| msgid ""
 #| "Texas, \"the Lone Star State\" is the second largest and second most "
 #| "populous state of the USA, famous for its \"larger than life\" cowboy "
@@ -12632,14 +12630,7 @@ msgid ""
 "by six nations: France, Spain, Mexico, the Republic of Texas, the "
 "Confederacy, and the USA, as expressed in the slogan \"six flags over "
 "Texas\"."
-msgstr ""
-"アメリカ合衆国テキサス州は，面積・人口・経済力において全米第2位の規模を誇りま"
-"す。\"ローン・スター・ステイト\"の愛称を持ち，これは白い1つ星があしらわれた州"
-"旗に由来します。\"シックス・フラッグス・オーバー・テキサス\"というスローガン"
-"が示すとおり，テキサス州はこれまで異なる6カ国に支配されてきました(フランス・"
-"スペイン・メキシコ・テキサス共和国・アメリカ連合国・アメリカ合衆国)。19世紀後"
-"半に活躍したカウボーイたちは今や「古き良きアメリカ」の象徴です。テキサス州民"
-"(テクサン)は南部訛りの英語を話し，保守的で，愛州心が高いことで知られます。"
+msgstr "テキサス州は、アメリカで2番目に大きく、2番目に人口の多い州であり、「larger than life（とても堂々とした）」カウボーイ文化とメキシコの遺産で有名です。\n\n有名なアラモの戦いの後、テキサス人はサン・ハシントでメキシコ人を破り、独立を宣言しました。テキサス共和国は1836年から1846年まで続き、その後アメリカ合衆国の28番目の州となりました。\n\n歴史上、テキサスは6つの国によって全部または一部が統治されていました。フランス、スペイン、メキシコ、テキサス共和国、南部連合、そしてアメリカです。"
 
 #: data/nation/thracian.ruleset:3
 msgid "Thracian"
@@ -13524,7 +13515,6 @@ msgstr "ベネズエラ人"
 
 # clefs
 #: data/nation/venezuelan.ruleset:6
-#, fuzzy
 msgid ""
 "Venezuela is the northernmost country in South America. Having been a "
 "Spanish colony since the 16th century, the country gained independence on "
@@ -13533,10 +13523,7 @@ msgid ""
 "the world; during the oil boom of the 1970s it was the wealthiest country of "
 "Latin America. The country is known for its varied landscapes and high "
 "biodiversity."
-msgstr ""
-"ベネズエラは南米最北の国です。16世紀以来スペインの植民地で，1811年7月5日にエ"
-"ル・リベルタドール・シモン・ボリヴァル「解放者」の指揮下で独立を獲得しまし"
-"た。"
+msgstr "ベネズエラは南米最北端の国です。16世紀以来スペインの植民地でしたが、1811年7月5日、シモン・ボリバル（解放者）の指導により独立しました。\n\nベネズエラは、世界有数の石油・ガス埋蔵量を誇り、1970年代の石油ブーム時には、ラテンアメリカで最も裕福な国でした。ベネズエラは変化に富んだ景観と高い生物多様性で知られています。"
 
 #: data/nation/vermont.ruleset:3
 msgid "Vermont"
