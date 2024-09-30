@@ -1944,7 +1944,7 @@ msgstr ""
 "バルド人と共にゲピード族を挟撃してこれを滅ぼし，カルパチア盆地一帯を支配しま"
 "した (アヴァール可汗国)。しかし7世紀半ばから徐々に衰退してゆき，8世末にはフラ"
 "ンク国王カール大帝による遠征で致命的な打撃を受けました。また東からはブルガー"
-"ル人による攻撃にも晒され，最終的にアヴァールはスラヴ人やマジャル人と同化して"
+"ル人による攻撃にも晒され，最終的にアヴァールはスラブ人やマジャル人と同化して"
 "姿を消してゆきました。"
 
 # clefs
@@ -3269,7 +3269,7 @@ msgid ""
 msgstr ""
 "ブルガール人の指導者アルパルフ・ハーンは人々をバルカン半島北部へと導き，681年"
 "ここにブルガリア[訳註:「ブルガール人の地」]を建設しました。これは歴史上はじめ"
-"てのスラヴ国民国家でした。"
+"てのスラブ国民国家でした。"
 
 # Belgae
 # ブルグントとブルゴーニュが区別されていません
@@ -3524,7 +3524,7 @@ msgid ""
 "subjugated by the Incas in the late 15th century, though they put up a "
 "fierce resistance. They rebelled during the Incan civil war and sided with "
 "the Spanish during their conquest of the Inca empire."
-msgstr ""
+msgstr "カニャーリ族は、現在のエクアドルにあったコロンブス以前の文明で、その存在は6世紀以降に遡ることができます。\n\n彼らはアンデスの中でも太陽を崇拝しない数少ない文化のひとつでした。カニャーリ語はおそらくペルーのモチカ語に関連していたと思われますが、スペインによる征服の頃には、カニャーリ族はほとんどケチュア語に切り替えていました。\n\nカニャーリ族は、グアプドンデリグ（現在のアズアイ州の州都クエンカ市）を政治の中心地とする緩やかな連合体を形成していました。15世紀後半にインカに征服されましたが、激しい抵抗を続けました。インカの内戦で反乱を起こし、インカ帝国征服の際にはスペイン側につきました。"
 
 #: data/nation/cantonese.ruleset:3
 msgid "Cantonese"
@@ -5355,7 +5355,7 @@ msgid ""
 "on today's Russian-Mongolian border since the Stone Age. When encountered by "
 "the Russians in the 17th century, the Evenks were tribal hunter-gatherers "
 "and reindeer herders."
-msgstr ""
+msgstr "エヴェンキ族はシベリア、モンゴル、中国北部に住むツングース系民族です。\n\n歴史的な証拠によると、彼らは石器時代から現在のロシアとモンゴルの国境にあるバイカル地方に住んでいました。17世紀にロシア人が遭遇したとき、エヴェンキ族は狩猟採集とトナカイ放牧の部族でした。"
 
 #: data/nation/faroese.ruleset:3
 msgid "Faroese"
@@ -7321,7 +7321,7 @@ msgid ""
 "customs through, among others, local radio and television programmes, comic "
 "books, and even several fully Kashubianized distributions of Linux operating "
 "system."
-msgstr ""
+msgstr "カシュビアはポーランド中北部の歴史的な地域です。カシュビアという地名は、13世紀に初めて言及されたもので、その語源は未だ不明です。\n\nカシューブ人は、ポーランドの他の地域とは全く異なる言語と文化を持っています。今日、カシューブ人のコミュニティは、地元のラジオ番組やテレビ番組、コミック本、さらには完全にカシュビナイズされたLinuxオペレーティング・システムのいくつかのディストリビューションなどを通じて、彼らの言語、文学、習慣を育んでいます。"
 
 #: data/nation/katangan.ruleset:3
 msgid "Katangan"
@@ -11901,11 +11901,11 @@ msgstr ""
 
 #: data/nation/slavic.ruleset:3
 msgid "Slavic"
-msgstr "スラヴ人"
+msgstr "スラブ人"
 
 #: data/nation/slavic.ruleset:4
 msgid "?plural:Slavs"
-msgstr "スラヴ人"
+msgstr "スラブ人"
 
 #: data/nation/slavic.ruleset:6
 msgid ""
@@ -11915,8 +11915,8 @@ msgid ""
 "sudden appearance in the history of civilized Europe may be related to the "
 "arrival of Iranian peoples and the expansion of the Huns."
 msgstr ""
-"スラヴ人は現代における言語学的民族集団で，東ヨーロッパにおいて共通の歴史的起"
-"源を持ついくつかの民族から構成されています。スラヴ人の紀元は明確には知られて"
+"スラブ人は現代における言語学的民族集団で，東ヨーロッパにおいて共通の歴史的起"
+"源を持ついくつかの民族から構成されています。スラブ人の紀元は明確には知られて"
 "おらず，そのため彼らを説明しようとする多数の仮説があります。文明化されたヨー"
 "ロッパの歴史に彼らが突然現れたことは，イラン系民族の到来とフン人の勢力拡大が"
 "関連していると推測されます。"
@@ -13460,7 +13460,7 @@ msgid ""
 "expansion of Germany and the Polanian state. The Veletians eventually "
 "succumbed to Germanization or were murdered following the Crusades and the "
 "German settlement on their lands."
-msgstr ""
+msgstr "ヴェレティ族またはルティチ人は、現在のドイツ北東部（ブランデンブルクとメクレンブルク）にいた中世の西レキト人部族連合です。彼らの部族はスラブ系とゲルマン系の混血で、それは彼らの言語にも表れています。\n\nヴェレティ族の連合が存在した理由は、スラブの異教を守り、ドイツとポラニア国家の拡大に抵抗することにありました。ヴェレティ族は、十字軍とドイツ人の入植により、やがてドイツ化に屈し、あるいは滅亡しました。"
 
 #: data/nation/venda.ruleset:3
 msgid "Venda"
@@ -13663,7 +13663,7 @@ msgid ""
 "Magyars prevented them from forming a stable and lasting state. Eventually, "
 "the lands of Vistulans and several other Slavic tribes were unified by "
 "Polonians, who formed the first Polish state in the 10th century."
-msgstr ""
+msgstr "ヴィスワ族は、現在の小ポーランドに居住していた西スラブ民族です。\n\n彼らの歴史についてはほとんど知られていません。多くの歴史家は、中世初期を通じてヴィスワ族は現在のポーランドで最も強力なスラブ民族のひとつであったが、大モラヴィア人やマジャール人との対立により、安定した永続的な国家を形成することができなかったと認めています。\n\n最終的に、ヴィスワ族と他のいくつかのスラブ民族の土地はポロン人によって統一され、10世紀に最初のポーランド国家が形成されました。"
 
 #: data/nation/volapuk.ruleset:3
 msgid "Volapükan"
@@ -13728,7 +13728,7 @@ msgid ""
 "the Third Reich in the USSR, the autonomous republic was abolished by a "
 "decree of Stalin. Volga Germans were sent to other parts of the Soviet "
 "Union, mainly to Kazakhstan and Siberia."
-msgstr ""
+msgstr "ヴォルガ・ドイツ人は、ロシア南部のヴォルガ川沿い、サラトフ市周辺と南部に住んでいたドイツ系民族です。彼らは18世紀に移民として迎えられました。\n\nロシア当局は彼らにドイツ語と伝統を育てることを許可しました。1918年から1941年まで、ソビエト連邦内にヴォルガ・ドイツASSRがありました。\n\n第三帝国のソ連への攻撃後、スターリンの命令によって自治共和国は廃止されました。ヴォルガ・ドイツ人はソ連の他の地域、主にカザフスタンとシベリアに送られました。"
 
 #: data/nation/walloon.ruleset:3
 msgid "Walloon"
