@@ -3421,7 +3421,7 @@ msgid ""
 "identity. Today, the Buryat Republic is home to the majority of the roughly "
 "half-million Buryats in the world as well as the center of Buddhism in "
 "Russia."
-msgstr ""
+msgstr "モンゴルの歴史年表によると、ブリヤート人はバイカル湖周辺に住む森林に住むモンゴル人部族でした。\n\n1207年、彼らはチンギス・ハーンの長男ジョチによって征服されました。1689年と1728年の条約によってブリヤート人の祖国がロシアに併合されると、彼らは他のモンゴル人から政治的に分離され、独自の民族的アイデンティティを確立し始めました。\n\n今日、ブリヤート共和国には、約50万人のブリヤート人の大多数が住んでおり、ロシアにおける仏教の中心地でもあります。"
 
 #: data/nation/californian.ruleset:3
 msgid "Californian"
@@ -3545,7 +3545,7 @@ msgid ""
 "over much of Southern China and dominated Vietnam. In 111 BCE Nanyue was "
 "incorporated into Han Dynasty China. Cantonese is the second most spoken "
 "Chinese language after Mandarin."
-msgstr ""
+msgstr "広東人は中国南部の広東省出身の中国人の一派で、人口は約7000万人です。\n\n広東人は音楽と料理で有名で、世界中の華僑社会で重要な位置を占めています。また、香港とマカオの特別自治区でも人口の大半を占めています。\n\n紀元前2世紀、広東人が支配していた南越王国は中国南部の大部分を支配し、ベトナムを支配していました。紀元前111年、南越は漢王朝の中国に編入されました。\n\n広東語は北京語に次いで2番目に多く話されている中国語です。"
 
 #: data/nation/capeverdean.ruleset:3
 msgid "Cape Verdean"
@@ -5584,7 +5584,7 @@ msgid ""
 "Starting in the 17th century, European and East Asian colonists vied for "
 "control of the island, encroaching on aboriginal lands. Today, Formosans "
 "constitute around 2% of the population of Taiwan."
-msgstr ""
+msgstr "台湾には14の公認部族と12の未公認部族が存在し、伝統的にオーストロネシア語族の台湾語を話す民族です。歴史言語学者たちは、台湾がオーストロネシア語族の故郷であり、最も多様なオーストロネシア語群が存在する島であると考えています。\n\n多くの部族は伝統的に母系制をとっています。17世紀以降、ヨーロッパと東アジアの植民者たちが島の支配権を争い、原住民の土地を侵食していきました。現在、台湾原住民は台湾の人口の約2％を占めています。"
 
 #: data/nation/franconian.ruleset:3
 msgid "Franconian"
@@ -7242,7 +7242,7 @@ msgid ""
 "Republic is de facto independent but not recognized by any UN member. In "
 "Armenian the region is also known as Artsakh, named after a province of the "
 "ancient Armenian kingdom."
-msgstr ""
+msgstr "主にアルメニア人が住んでいましたが、1920年代にソ連がコーカサスを制圧した後、ナゴルノ・カラバフはアゼルバイジャンに与えられました。\n\nソ連が崩壊する直前、この地域はアゼルバイジャンからの独立を宣言し、ナゴルノ・カラバフとアルメニアの2国対アゼルバイジャンの戦争に発展しました。1994年に停戦が合意されましたが、紛争はいまだ収束していません。ナゴルノ・カラバフ共和国は事実上独立していますが、国連加盟国には承認されていません。\n\nアルメニア語ではアルツァフとも呼ばれ、古代アルメニア王国の州名にちなんで命名されました。"
 
 #: data/nation/karelian.ruleset:3
 msgid "Karelian"
@@ -8249,7 +8249,7 @@ msgid ""
 "late Bronze Age. For a time after the fall of the Hittite Empire they took a "
 "dominant role in the region. One of the most important Neo-Hittite states "
 "was Tabal (biblical Tubal), located in Syria and Southeastern Anatolia."
-msgstr ""
+msgstr "ルウィ族は青銅器時代後期に生きた古代インド・ヨーロッパ語族のアナトリア人です。\n\nヒッタイト帝国滅亡後の一時期、彼らはこの地域で支配的な役割を果たしました。最も重要な新ヒッタイト国家のひとつは、シリアとアナトリア南東部に位置するタバル（聖書のトゥバル）でした。"
 
 #: data/nation/luxembourgish.ruleset:3
 msgid "Luxembourgish"
@@ -8283,7 +8283,7 @@ msgid ""
 "to the 6th century BCE. Lycians were allies of Troy during the Trojan War, "
 "when they were led by the legendary heroes Sarpedon and Glaucus. Their state "
 "was subordinated to the Persian Empire in the 6th century BCE."
-msgstr ""
+msgstr "リュキアは紀元前15世紀から6世紀まで存在した古代アナトリア南西部の国家です。\n\nリュキア人はトロイ戦争の際、トロイの同盟国であり、伝説上の英雄サルペドンとグラウコスによって率いられていました。前6世紀にはペルシャ帝国に従属しました。"
 
 #: data/nation/maasai.ruleset:3
 msgid "Maasai"
@@ -8668,11 +8668,11 @@ msgstr ""
 
 #: data/nation/marathi.ruleset:3
 msgid "Marathi"
-msgstr "マラーティー人"
+msgstr "マラーター"
 
 #: data/nation/marathi.ruleset:4
 msgid "?plural:Marathis"
-msgstr "マラーティー人"
+msgstr "マラーター"
 
 #: data/nation/marathi.ruleset:6
 msgid ""
@@ -8680,17 +8680,17 @@ msgid ""
 "17th century, the Marathi prince Shivaji established the Maratha "
 "confederacy, waging war on the Moghul empire and eventually replacing the "
 "Moghuls as the main power on the Indian subcontinent."
-msgstr ""
+msgstr "マラーターはインドのマハラシュトラ州に住む人々です。\n\n17世紀、マラーターの王子シヴァージーがマラーター連合を樹立し、モグール帝国と戦争を繰り広げ、やがてモグール帝国に代わってインド亜大陸の主要勢力となりました。"
 
 #: data/nation/marathi.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "High Brahmin %s"
 msgstr "大祭司 %s"
 
 #: data/nation/marathi.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "?female:High Brahmin %s"
-msgstr "高位ドルイド %s"
+msgstr "大祭司 %s"
 
 #: data/nation/marshallese.ruleset:3
 msgid "Marshallese"
@@ -8825,15 +8825,12 @@ msgid ""
 "of the Persians against the Median ruler Astyages. It was the first multi-"
 "ethnic empire and controlled a vast area spanning from the Halys river to "
 "what is now Afghanistan."
-msgstr ""
+msgstr "メディアは古代イランの国家で、ヨーロッパのスキタイ人の親戚である西イラン人のメデ人が作りました。彼らの国家は、メデイア人の支配者アスティアゲスに対するペルシャ人の反乱の結果として形成されたペルシャのアケメネス朝帝国に先行していました。\n\n最初の多民族帝国であり、ハリス川から現在のアフガニスタンまでの広大な地域を支配しました。"
 
-# これも適当。ペルシアに女シャーっていましたっけ？ (clefs)
-# とりあえずカタカナ化で
-# 単なる王妃の意味のようです(Belgae)
 #: data/nation/median.ruleset:34
 #, c-format
 msgid "%s Shahanshah"
-msgstr "シャーハンシャー %s"
+msgstr "王の中の王 %s"
 
 #: data/nation/messapian.ruleset:3
 msgid "Messapian"
@@ -9104,7 +9101,7 @@ msgid ""
 "1949, led to the proclamation of the Republic of the South Moluccas in 1950. "
 "The rebellion was crushed, but a government in exile continues to operate, "
 "not recognized by any country."
-msgstr ""
+msgstr "モルッカ諸島は、植民地時代にスパイス諸島として知られたインドネシア群島の島々です。マレー系民族が住み、スペイン、ポルトガル、イギリスによって争奪戦が行われましたが、16世紀にはオランダの支配下に入りました。\n\n脱植民地化の過程では、多くのモルッカ人がオランダ東インド軍に味方しました。このことと、1949年のインドネシア独立後、ジャワ島が中央集権主義を強めたことが、1950年の南モルッカ共和国宣言につながりました。\n\n反乱は鎮圧されましたが、どの国からも承認されていない亡命政府が活動を続けています。"
 
 #: data/nation/monegasque.ruleset:3
 msgid "Monegasque"
@@ -10600,7 +10597,7 @@ msgid ""
 "some historians with the fall of the Hittite State. After the Macedonian "
 "conquest of the Achaemenid Empire and after the arrival of the Galatians to "
 "Anatolia, the Phrygians succumbed to Hellenization."
-msgstr ""
+msgstr "フリギア人は古代のインド・ヨーロッパ人で、おそらくギリシア人やトラキア人と関係があると思われます。\n\n彼らは紀元前12世紀頃、東地中海地域で海の民が侵入してきた頃にアナトリアに到着しました。フリギア人がアナトリアに到着したことを、ヒッタイトの滅亡と関連づける歴史家もいます。\n\nマケドニア人がアケメネス朝を征服し、ガラテヤ人がアナトリアに到着した後、フリギア人はヘレン化に屈しました。"
 
 #: data/nation/pictish.ruleset:3
 msgid "Pictish"
@@ -10668,7 +10665,7 @@ msgid ""
 "finally fell to the Ottomans in 1461. During the Turkish-Greek population "
 "transfers after World War I, most Pontic Greeks were deported, and today the "
 "population of Pontus is almost exclusively Turkish."
-msgstr ""
+msgstr "ポントスは小アジアの黒海沿岸に位置し、現在はトルコに属していますが、歴史的にはギリシャ文化圏の一部でした。紀元前3世紀にヘレニズムのポントス王国が建国され、ミトリダテス大王の時代に最大の栄華を極めましたが、その後ローマに屈しました。\n\nローマ帝国とビザンチン帝国の支配が数世紀続いた後、1204年に崩壊したビザンチン帝国の後継のひとつとしてトレビゾンド帝国が建国されると、ポントスは再び独立国家となりました。コムネノス朝のもと、トレビゾンドはローマ帝国の最後の残党として、1461年にオスマン帝国に滅ぼされるまで存続しました。\n\n第一次世界大戦後のトルコとギリシャの人口移動の際、ポントス地方のギリシャ人の大半は国外に追放され、現在、ポントス地方の人口はほぼトルコ人のみとなっています。"
 
 #: data/nation/prussian.ruleset:3
 msgid "Prussian"
