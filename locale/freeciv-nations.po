@@ -8707,7 +8707,7 @@ msgid ""
 "primarily by Micronesians, the islands became an independent republic in "
 "free association with the United States in 1986. In the mid-20th the United "
 "States carried out numerous nuclear tests on the islands."
-msgstr ""
+msgstr "マーシャル諸島は、赤道の真北に位置する西太平洋の国で、多数の島と環礁からなります。主にミクロネシア人が居住し、1986年にアメリカと自由連合を結んで独立しました。\n\n20世紀半ば、アメリカはこの島々で何度も核実験を行いました。"
 
 #: data/nation/martian.ruleset:3
 msgid "Martian"
