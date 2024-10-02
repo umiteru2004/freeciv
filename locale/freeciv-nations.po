@@ -10778,7 +10778,6 @@ msgstr ""
 msgid "Director-President %s"
 msgstr "最高指導者 %s"
 
-# ntaka 大統領でいいのだろうか?
 #: data/nation/romanian.ruleset:32
 #, c-format
 msgid "?female:Director-President %s"
@@ -10868,7 +10867,6 @@ msgstr "琉球人"
 msgid "?plural:Ryukyuans"
 msgstr "琉球人"
 
-# 返す言葉もございません (clefs)
 #: data/nation/ryukyuan.ruleset:6
 msgid ""
 "The Ryukyu Kingdom (1372-1879) was the Land of Propriety, a peaceful "
@@ -10981,7 +10979,6 @@ msgid ""
 msgstr "サリシュ族は、アメリカ合衆国とカナダの太平洋岸北西部に住む文化的言語的集団です。\n\n最も有名なサリシュ族はドゥワミッシュ族のリーダー、シアトル酋長で、シアトル市はこの酋長にちなんで名づけられました。その他、ベラ・クーラ（ヌクソーク）族、スポケーン族、コーダレーン族などが有名です。\n\nサリシュ語はその珍しい特徴でも有名です。子音が多く、母音のない単語もあります。"
 
 # Belgae
-# エルサルバドル人？
 #: data/nation/salvadoran.ruleset:3
 msgid "Salvadoran"
 msgstr "エルサルバドル人"
@@ -11021,16 +11018,11 @@ msgstr "サーミ人"
 msgid "?plural:Sami"
 msgstr "サーミ人"
 
-# clefs
-# nation vs. country
-# Belgae
 #: data/nation/sami.ruleset:6
 msgid ""
 "The Sami are a people of northern Scandinavia. Their nation spans over the "
 "northernmost regions of the Scandinavian countries and northwestern Russia."
-msgstr ""
-"サーミ人はスカンジナビア北部の人々です。彼らはスカンジナビア諸国の北部地域お"
-"よびロシア北西部にまたがり広がっています。"
+msgstr "サーミ人はスカンジナビア北部の民族です。彼らはスカンジナビア諸国の最北部とロシア北西部に広がっています。"
 
 #: data/nation/sammarinese.ruleset:3
 msgid "Sammarinese"
@@ -11348,17 +11340,12 @@ msgstr "スコットランド人"
 msgid "?plural:Scots"
 msgstr "スコットランド人"
 
-# clefs
-# "originally" はよくわからない: ピクト人が先ならoriginじゃないじゃん
 #: data/nation/scottish.ruleset:6
 msgid ""
 "Scotland, originally settled in late Roman times by Irish raiders who "
 "displaced the native Picts, was an independent kingdom from around 1034 CE "
 "to the Union of Crowns with England in 1701."
-msgstr ""
-"スコットランドはローマ時代晩期にアイルランド系の侵入者がピクト人を駆逐して定"
-"着し，1034年からは独立した王国でしたが1701年にイングランドと王室連合を形成し"
-"ました。[訳註:UKの構成要素になったわけです]"
+msgstr "スコットランドは元々、ローマ時代後期に先住民ピクト人を追い払ったアイルランドの略奪者たちが定住した場所で、西暦1034年頃から1701年のイングランドとの王冠連合まで独立王国でした。"
 
 #: data/nation/scythian.ruleset:3
 msgid "Scythian"
@@ -11658,15 +11645,13 @@ msgstr ""
 "界で最も短い国になりました。また世界で最も貧しい国の一つでもあります。シエラ"
 "レオネ経済を支えるのは内戦の原因にもなったダイヤモンド採掘です。"
 
-# Belgae
-# シク教国人？
 #: data/nation/sikh.ruleset:3
 msgid "Sikh"
-msgstr "シク人"
+msgstr "シク教徒"
 
 #: data/nation/sikh.ruleset:4
 msgid "?plural:Sikhs"
-msgstr "シク人"
+msgstr "シク教徒"
 
 #: data/nation/sikh.ruleset:6
 msgid ""
@@ -11675,7 +11660,7 @@ msgid ""
 "Pakistan and India, is the heartland of Sikhism. In the 19th century a Sikh "
 "Empire existed in the region."
 msgstr ""
-"シク人は15世紀にインド亜大陸で誕生した一神教の信者です。パキスタンとインドの"
+"シク教徒は15世紀にインド亜大陸で誕生した一神教の信者です。パキスタンとインドの"
 "国境地帯にあるパンジャブ地方がシク教の中心地です。19世紀にはこの地域にシク教"
 "国が存在しました。"
 
@@ -11830,7 +11815,6 @@ msgstr ""
 "年に独立しました。"
 
 # Belgae
-# <%s AI>とCity: %sに代入されます。別の訳語を当てたいところです。普通AIと都市: 平常など。
 #: data/nation/somaliland.ruleset:3
 msgid "Somaliland"
 msgstr "ソマリランド人"
@@ -11921,7 +11905,6 @@ msgstr ""
 msgid "South African"
 msgstr "南アフリカ人"
 
-# 「南アフリカ民族」はひどい (clefs)
 #: data/nation/southafrican.ruleset:4
 msgid "?plural:South Africans"
 msgstr "南アフリカ人"
@@ -11963,7 +11946,6 @@ msgstr ""
 "は既に19世紀から存在します。"
 
 # Belgae
-# こちらは「南朝鮮人」である必要はないですよね。
 #: data/nation/southkorean.ruleset:3
 msgid "South Korean"
 msgstr "韓国人"
@@ -12058,7 +12040,6 @@ msgid "?plural:Soviets"
 msgstr "ソビエト人"
 
 # clefs
-# 歴史が興味を持つのはいつだって始めと終わりだけ
 #: data/nation/soviet.ruleset:6
 msgid ""
 "The history of the Soviet Union starts in November 1917, when under Lenin's "
@@ -12227,7 +12208,6 @@ msgstr ""
 msgid "Swiss"
 msgstr "スイス人"
 
-# ntaka スイス民族は変だろう?
 #: data/nation/swiss.ruleset:4
 msgid "?plural:Swiss"
 msgstr "スイス人"
@@ -12445,7 +12425,6 @@ msgstr ""
 "な現代的概念をもたらしました。"
 
 # Belgae
-# チュートン騎士から変更
 #: data/nation/teutonic.ruleset:3
 msgid "Teutonic"
 msgstr "ドイツ騎士団"
@@ -12538,9 +12517,6 @@ msgstr "チベット人"
 msgid "?plural:Tibetans"
 msgstr "チベット人"
 
-# clefs
-# "homeland" はどう訳したものか？　「祖国」とすれば簡単なようだが，
-# 残念ながら現在のチベットは「国」ではないようです。難しいですね。
 #: data/nation/tibetan.ruleset:6
 msgid ""
 "The Tibetan homeland is sometimes called the \"Roof of the World\", the "
@@ -12551,25 +12527,17 @@ msgid ""
 "rule had weakened, Lozang Gyatso - born 1617 and the 5th Dalai Lama - "
 "established a buddhist religious state under the control of the Gelugpa "
 "school of Tibetan Buddhism."
-msgstr ""
-"チベット人の祖地は世界で最も高度のある地域で，時として「世界の屋根」と呼ばれ"
-"ています。7世紀にはチベット[訳註:吐蕃]はソンツェン・ガンポの下で恐るべき帝国"
-"として勃興し，中国・インドの双方から認識されていました。この王朝は11世紀，モ"
-"ンゴルによって制されるまで続きました。数世紀の後にモンゴルの支配が緩むと，ロ"
-"サン・ギャツォ(1617生，ダライ・ラマ5世)はチベット仏教ゲルク派の指導下に仏教国"
-"家を創設しました。"
+msgstr "チベット人の故郷は「世界の屋根」と呼ばれることもあり、世界で最も標高の高い地域です。\n\n7世紀、チベットはソンツェン・ガンポ王の指導の下、中国とインドの両方から認められ、強大な帝国として台頭しました。この王朝は、チベットがモンゴルに制圧される11世紀まで続きました。\n\nモンゴルの支配が弱まった数世紀後、ロサン・ギャツォ（1617年生まれ、第5代ダライ・ラマ）がチベット仏教ゲルク派を支配下に置き、仏教宗教国家を樹立しました。"
 
-# clefs
 #: data/nation/tibetan.ruleset:27
 #, c-format
 msgid "Dalai Lama %s"
-msgstr "ダライラマ %s"
+msgstr "ダライ・ラマ %s"
 
-# clefs
 #: data/nation/tibetan.ruleset:27
 #, c-format
 msgid "?female:Dalai Lama %s"
-msgstr "ダライラマ %s"
+msgstr "ダライ・ラマ %s"
 
 #: data/nation/timurid.ruleset:3
 msgid "Timurid"
@@ -12808,13 +12776,10 @@ msgstr ""
 "ました。石油と天然ガスが産出するため，カリブ海諸国の中では比較的経済が発展し"
 "ています。また音楽やカーニバルも有名です。"
 
-# clefs これも訳せば「王」になってしまいますが
 #: data/nation/tswana.ruleset:3
 msgid "Tswana"
 msgstr "ツワナ族"
 
-# Daniel
-# なんでpluralだとヘルツェゴヴィナが落ちるんでしょう (clefs)
 #: data/nation/tswana.ruleset:4
 msgid "?plural:Batswana"
 msgstr "ツワナ族"
@@ -12885,7 +12850,6 @@ msgstr ""
 "ほぼ自治を獲得しましたが，1881年にはフランスに侵略され，その保護領にされてし"
 "まいました。独立を果たしたのは1956年です。"
 
-# 「二輪戦車」
 #: data/nation/turkishcypriot.ruleset:3
 msgid "Turkish Cypriot"
 msgstr "北キプロス人"
@@ -12935,18 +12899,15 @@ msgstr ""
 "最終的にアムダリヤ川とカスピ海の間の地域に定住しました。これはほぼ今日のトル"
 "クメニスタンの位置に当たります。"
 
-# Belgae
-# 「トルクメン人の長」の意味。
-# ニヤゾフ前大統領が個人崇拝による独裁をしていたことから原理主義の称号としているようです。
 #: data/nation/turkmen.ruleset:28
 #, c-format
 msgid "Turkmenbashi %s"
-msgstr "%s テュルクメンバシュ"
+msgstr "トルクメンバシ %s"
 
 #: data/nation/turkmen.ruleset:28
 #, c-format
 msgid "?female:Turkmenbashi %s"
-msgstr "%s テュルクメンバシュ"
+msgstr "トルクメンバシ %s"
 
 #: data/nation/tuvaluan.ruleset:3
 #, fuzzy
@@ -12995,7 +12956,6 @@ msgstr "トゥバ人"
 msgid "?plural:Tuvans"
 msgstr "トゥバ人"
 
-# トゥバ語ではtuvaのvはB音に近いのですが，ロシア語ではV音になります。この違いがWikipediaでのトゥバ/トゥヴァの表記ゆれの原因です。ここではトゥバで統一します。(Belgae)
 #: data/nation/tuvan.ruleset:6
 msgid ""
 "Tuvans are a Turkic people living in the Autonomous Republic of Tuva in the "
@@ -13095,7 +13055,6 @@ msgstr ""
 "沃とされる黒土地帯を擁しています。"
 
 # Belgae
-# 国連「人」はさすがにないですかね
 #: data/nation/un.ruleset:3
 msgid "UN"
 msgstr "国際連合"
@@ -13412,17 +13371,11 @@ msgstr "ベトナム人"
 msgid "?plural:Vietnamese"
 msgstr "ベトナム人"
 
-# clefs
-# このような場合のnationをどう訳すかはとても難しい
-# ナシオンはナシオンだよなあ
 #: data/nation/vietnamese.ruleset:6
 msgid ""
 "The Vietnamese nation was founded in the first century CE by twin sisters "
 "who became the war leaders of a revolt against a Chinese military governor."
-msgstr ""
-"ベトナムの歴史において，1世紀に後漢の支配に対抗して反乱を起こした徴側と徴弐の"
-"姉妹は特に有名です。現在のベトナム社会主義共和国は，1976年に南北統一を経て誕"
-"生しました。"
+msgstr "ベトナムの建国は紀元1世紀、中国の軍政府長官に対する反乱の指導者となった双子の姉妹によってなされた。"
 
 #: data/nation/vincentian.ruleset:3
 msgid "Vincentian"
@@ -13592,15 +13545,11 @@ msgstr "ウェールズ人"
 msgid "?plural:Welsh"
 msgstr "ウェールズ人"
 
-# clefs
-# 構文変えちゃった
 #: data/nation/welsh.ruleset:6
 msgid ""
 "The Welsh at one time controlled all of what is now England until being "
 "driven into the mountainous western reaches by invading Saxons."
-msgstr ""
-"ウェールズ人はかつては現在のイングランドの全領域を支配していましたが，サクソ"
-"ン人の侵略により西部の山岳地帯へと追いやられました。"
+msgstr "ウェールズ人はかつて現在のイングランド全土を支配していましたが、サクソン人の侵入によって西部の山岳地帯に追いやられました。"
 
 #: data/nation/werewolf.ruleset:4
 msgid "Werewolf"
@@ -13623,8 +13572,6 @@ msgstr ""
 "業だとされることがありました。"
 
 # Belgae
-# 西ポモージェ？
-# 西ポンメルン？
 #: data/nation/westernpomeranian.ruleset:3
 msgid "Western Pomeranian"
 msgstr "西ポメラニア人"
@@ -13682,7 +13629,6 @@ msgid "%s Augusta"
 msgstr "%s アウグスタ"
 
 # Belgae
-# 西インド連邦の国民
 #: data/nation/westindian.ruleset:3
 msgid "West Indian"
 msgstr "西インド人"
@@ -13706,27 +13652,20 @@ msgstr ""
 "バー間の緊張関係が原因です。連邦が解体したのは1962年のことです。いくつかの"
 "島々は独立国となり，その他はイギリスの植民地へと戻りました。"
 
-# clefs
 #: data/nation/westphalian.ruleset:3
 msgid "Westphalian"
-msgstr "ウエストファリア人"
+msgstr "ヴェストファーレン人"
 
-# clefs
 #: data/nation/westphalian.ruleset:4
 msgid "?plural:Westphalians"
-msgstr "ウエストファリア人"
+msgstr "ヴェストファーレン人"
 
-# clefs
-# "...was the western region {->of }the " 原文typo
 #: data/nation/westphalian.ruleset:6
 msgid ""
 "Westphalia, before becoming a Prussian province, was the western region of "
 "the Duchy of Saxony. Today it makes up the northern part of the largest "
 "German federal state, North Rhine-Westphalia."
-msgstr ""
-"ウェストファリアは，プロイセンの州になるまでは，サクソニー公国西部の地域でし"
-"た。今日ではドイツ連邦最大の州である北レーヌ・ウェストファリアの北部を形成し"
-"ています。"
+msgstr "ヴェストファーレンは、プロイセンの属州となる前はザクセン公国の西部地域でした。現在は、ドイツ最大の連邦州であるノルトライン＝ヴェストファーレン州の北部を構成しています。"
 
 #: data/nation/wuerttembergian.ruleset:3
 msgid "Wuerttembergian"
@@ -13944,11 +13883,7 @@ msgid ""
 "of the oldest and most resilient Mesoamerican civilizations. The most "
 "notable Zapotec center, Monte Albán, was built on a razed mountain top. "
 "Benito Juárez, Mexico's first indigenous president, was a Zapotec."
-msgstr ""
-"サポテカ族はBinnizaとも言い，メキシコのオアハカ州に暮らしています。彼らはかつ"
-"てメソアメリカの中でも特に古く活発であった文明を築きました。とりわけ有名なサ"
-"ポテカ文化の祭祀センターであるモンテ・アルバンは，小高い山の上に建設されまし"
-"た。先住民で初めてメキシコ大統領となったベニート・フアレスはザポテカ人です。"
+msgstr "メキシコのオアハカ州に住むサポテカ族またはビニーザ族です。\n\n彼らは最も古く、最も回復力のあるメソアメリカ文明のひとつを形成しました。最も有名なサポテカの中心地モンテ・アルバンは、山の頂上を壊して造られました。\n\nメキシコ初の先住民大統領ベニート・フアレスはサポテカ人でした。"
 
 #: data/nation/zhuang.ruleset:3
 msgid "Zhuang"
