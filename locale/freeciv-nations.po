@@ -2206,18 +2206,13 @@ msgstr "ベラルーシ人"
 msgid "?plural:Belarusians"
 msgstr "ベラルーシ人"
 
-# Belgae
-# Rzeczpospolitaはポーランド語で「共和国」の意味です。ポーランド・リトアニア合同を指しているようです。
 #: data/nation/belarusian.ruleset:6
 msgid ""
 "Belarus was part of the ancient Slavic state of Kievan Rus', then "
 "subsequently Lithuania, Rzeczpospolita, the Russian Empire and the Soviet "
 "Union. Belarus became independent in 1991 with the dissolution of the Soviet "
 "Union."
-msgstr ""
-"ベラルーシはかつてスラブに栄えたキエフ大公国の一部でした。その後は順にリトア"
-"ニア，ポーランド，ロシア帝国，ソビエト連邦の一部となっていました。ベラルーシ"
-"は1991年のソビエト連邦崩壊の際に独立を果たしました。"
+msgstr "ベラルーシは古代のスラブ国家、キエフ大公国の一部であり、その後、この地域を治める国家はリトアニア、ポーランド、ロシア帝国、ソビエト連邦と続きました。ベラルーシは1991年にソビエト連邦の解体とともに独立しました。"
 
 #: data/nation/belarusian.ruleset:33 data/nation/bulgarian.ruleset:30
 #: data/nation/muscovite.ruleset:24 data/nation/ossetian.ruleset:24
@@ -2263,14 +2258,13 @@ msgstr "%s首相"
 msgid "?female:Prime Minister %s"
 msgstr "%s首相"
 
-# Wikipedia「オランダ総督」の代替案に従ってこの訳語にしました（Belgae）
 #: data/nation/belgian.ruleset:26 data/nation/burgundian.ruleset:31
 #: data/nation/flemish.ruleset:32 data/nation/frisian.ruleset:37
 #: data/nation/luxembourgish.ruleset:31 data/nation/tyrolian.ruleset:25
 #: data/nation/walloon.ruleset:28
 #, c-format
 msgid "Stadtholder %s"
-msgstr " %s統領"
+msgstr "%s総督"
 
 #: data/nation/belgian.ruleset:26 data/nation/burgundian.ruleset:31
 #: data/nation/flemish.ruleset:32 data/nation/frisian.ruleset:37
@@ -2278,7 +2272,7 @@ msgstr " %s統領"
 #: data/nation/walloon.ruleset:28
 #, c-format
 msgid "Stadtholdress %s"
-msgstr " %s統領"
+msgstr "%s総督"
 
 #: data/nation/belgic.ruleset:3
 msgid "Belgic"
@@ -2332,8 +2326,6 @@ msgstr "%s姉妹"
 
 # clefs
 # Belgae
-# was: スポークスマン
-# インディアンやオセアニアの民族に使われているので，本来のChief（調停者）のイメージに近い訳語の方がいいと考えました。
 #: data/nation/belgic.ruleset:34 data/nation/chickasaw.ruleset:29
 #: data/nation/choctaw.ruleset:31 data/nation/gepid.ruleset:45
 #: data/nation/hasinay.ruleset:30 data/nation/hopi.ruleset:28
@@ -2527,16 +2519,15 @@ msgstr "ラマ %s"
 msgid "?female:Lama %s"
 msgstr "ラマ %s"
 
-# ブータン王国の称号。Druk Gyalpoの英訳。意味は「龍の王」。日本の外務省などの表記に従いました（Belgae）
 #: data/nation/bhutanese.ruleset:26
 #, c-format
 msgid "Dragon King %s"
-msgstr "国王 %s"
+msgstr "竜王 %s"
 
 #: data/nation/bhutanese.ruleset:26
 #, c-format
 msgid "Dragon Queen %s"
-msgstr "女王 %s"
+msgstr "竜王 %s"
 
 #: data/nation/biafran.ruleset:3
 msgid "Biafran"
@@ -2560,7 +2551,6 @@ msgstr ""
 "主な原因はビアフラの港湾が封鎖されたための飢餓と病気のためでした。ビアフラは"
 "1970年に滅ぼされました。"
 
-# カダフィですね (clefs)
 #: data/nation/biafran.ruleset:21 data/nation/hellenic.ruleset:20
 #: data/nation/nigerien.ruleset:23
 #, c-format
@@ -2868,7 +2858,6 @@ msgid "Electress %s"
 msgstr "選帝侯 %s"
 
 # Belgae
-# Bretonに既に〇〇人，〇〇語という意味が含まれているようですが，Wikipediaの表記に従いました。
 #: data/nation/breton.ruleset:3
 msgid "Breton"
 msgstr "ブルトン人"
@@ -3420,8 +3409,6 @@ msgstr ""
 "ペインの複数の自治州に分割されています。"
 
 # Belgae
-# was:カタロニア人
-# より原語に近い表記に変更します
 #: data/nation/catalan.ruleset:3
 msgid "Catalan"
 msgstr "カタルーニャ人"
@@ -3870,10 +3857,7 @@ msgid ""
 msgstr ""
 
 # clefs
-# 「ヴォイエヴォド」「大公」
-# 「大公」じゃ味気ないよね
 # Belgae
-# Wikipediaの表記に合わせました。
 #: data/nation/chrobatian.ruleset:31 data/nation/czechoslovak.ruleset:31
 #: data/nation/czech.ruleset:33 data/nation/macedonian.ruleset:24
 #: data/nation/slavic.ruleset:33 data/nation/slovakian.ruleset:23
@@ -4905,7 +4889,6 @@ msgstr ""
 "アッシュールバニパル王の率いるアッシリアによって破壊されました。"
 
 # Belgae
-# 「首長国人」は変ですしねえ
 #: data/nation/emirati.ruleset:3
 msgid "Emirati"
 msgstr "アラブ首長国連邦人"
@@ -5235,7 +5218,6 @@ msgstr ""
 "ます。"
 
 # clefs
-# 無理に男女で訳し分けることもないですよね
 #: data/nation/finnish.ruleset:28 data/nation/kashubian.ruleset:29
 #: data/nation/prussian.ruleset:29 data/nation/southafrican.ruleset:25
 #: data/nation/southvietnamese.ruleset:24
@@ -5577,7 +5559,6 @@ msgstr "ガリシアはスペイン北西部，ポルトガルのすぐ北に当
 
 # clefs
 # Belgae
-# was:ゴール人
 #: data/nation/gallic.ruleset:3
 msgid "Gallic"
 msgstr "ガリア人"
@@ -6272,12 +6253,7 @@ msgstr ""
 "1959年8月21日のことです。"
 
 # 古代ギリシア人がGreek、現代のギリシャ人がHellenicということらしい。
-# ローマに征服されてから，オスマン帝国から独立するまで2000年の断絶があるから
-# 無理はないのだけれど，「現代ギリシャ人」と訳しても
-# ゲームは4000BCから始まるわけなのでもう訳し分けようがない。
-# 「エリニキ人」じゃ誰もわからないだろうし :-/ (clefs)
-# 本来の自称がヘレネス→エリニキ人，ローマ人からの他称がギリシャ人。ドイツ人をGermanyと呼ぶようなもの。解説文もあるのでそのまま訳しておきます。
-# (Belgae)
+# Belgae
 #: data/nation/hellenic.ruleset:3
 msgid "Hellenic"
 msgstr "ギリシャ人"
@@ -6537,18 +6513,13 @@ msgstr "アイスランド人"
 msgid "?plural:Icelanders"
 msgstr "アイスランド人"
 
-# clefs
-# 構文変えました
 #: data/nation/icelandic.ruleset:6
 msgid ""
 "Iceland was long one of the largest uninhabited islands in the world, until "
 "it was settled by Norwegian Vikings in the late 9th century. The island was "
 "kept initially under the Norwegian and later the Danish crown until "
 "independence from Denmark in 1944."
-msgstr ""
-"アイスランドは，9世紀後半にノルウェー・ヴァイキングが入植するまで長らく世界最大"
-"の無人島の一つでした。この島は当初はノルウェーの，次いでデンマーク王室の支配"
-"下にありましたが，1944年にデンマークから独立しました。"
+msgstr "アイスランドは、9世紀後半にノルウェーのヴァイキングが入植するまで、長い間、世界最大級の無人島でした。1944年にデンマークから独立するまで、当初はノルウェー、後にデンマークの統治下にありました。"
 
 # clefs
 #: data/nation/illyrian.ruleset:3
@@ -6797,7 +6768,6 @@ msgid "Tyranne %s"
 msgstr "僭主 %s"
 
 # Belgae
-# Côte d'Ivoire（コートジボワール）国民。Ivoireはフランス語で「象牙」の意味。
 #: data/nation/ivoirian.ruleset:3
 msgid "Ivoirian"
 msgstr "コートジボワール人"
@@ -7445,14 +7415,11 @@ msgid ""
 msgstr ""
 
 # clefs
-# 「ランカー人」では通りが悪いかな，と
 #: data/nation/lankese.ruleset:3
 msgid "Lankese"
 msgstr "スリランカ人"
 
 # clefs
-# スリランカ人はシンハリ族やタミル族などからなり、
-# 「スリランカ（民）族」と訳すのは不適切でしょう
 #: data/nation/lankese.ruleset:4
 msgid "?plural:Lankese"
 msgstr "スリランカ人"
@@ -7479,7 +7446,6 @@ msgid "?female:Supreme Commander %s"
 msgstr " %s最高司令官"
 
 # Belgae
-# ラオスの主要民族ラーオ族ではなくラオス国民という意味でこの名称を使用しました。
 #: data/nation/laotian.ruleset:3
 msgid "Laotian"
 msgstr "ラオス人"
@@ -7556,7 +7522,6 @@ msgid "?plural:Lebanese"
 msgstr "レバノン人"
 
 # Belgae
-# 独立宣言は1941年のようですが。
 #: data/nation/lebanese.ruleset:6
 msgid ""
 "Located in the Levant, the Eastern shore of the Mediterranean, Lebanon "
@@ -8032,7 +7997,6 @@ msgstr ""
 "によく知られています。"
 
 # Belgae
-# 現在のマケドニア共和国民
 #: data/nation/macedonian.ruleset:3
 msgid "Macedonian"
 msgstr "マケドニア人"
@@ -8108,9 +8072,7 @@ msgstr ""
 "まるに連れてこの国は衰退し，1500年頃には滅亡しました。"
 
 # clefs
-# 「マラガシ人」ではわかりにくいかなあ，と思ったのだけれど…
 # Belgae
-# 単にMalagasyはMadagascarの形容詞形だというだけですから「マダガスカル人」で問題ありません。Englishを「イングリッシュ人」と訳さないのと同じ事です。
 #: data/nation/malagasy.ruleset:3
 msgid "Malagasy"
 msgstr "マダガスカル人"
@@ -8707,8 +8669,6 @@ msgstr "ミスキート族"
 msgid "?plural:Miskito"
 msgstr "ミスキート族"
 
-# Belgae
-# Wikipediaでは1万５千人，あるサイトでは7万人などとさまざま。
 #: data/nation/miskito.ruleset:6
 msgid ""
 "Living along the eponymous Miskito Coast of Nicaragua and Honduras, the "
@@ -8723,7 +8683,7 @@ msgstr ""
 "ニカラグアとホンジュラスにまたがり，民族名の由来でもあるミスキート海岸沿いに"
 "暮らすミスキート族は，現在およそ20万人を数えます。1625年，ミスキートは長期に"
 "渡る政治的関係を大英帝国と結びました。大英帝国はスペイン帝国とカリブ海の権益"
-"を巡って対立していたのです。この年にモスキート「王国」が結成されたものの，結"
+"を巡って対立していたのです。この年にミスキート「王国」が結成されたものの，結"
 "束は緩やかなものでしかなく，王朝が立ちましたが彼らの名前は英語名でしか知られ"
 "ていません。1740年には正式にイギリスの保護領となりました。1世紀後には公式な保"
 "護領の関係は終わり，1894年にニカラグア政府がこの地域を併合しました。"
@@ -8911,7 +8871,6 @@ msgstr ""
 "領との同君連合のもとにありました。"
 
 # Belgae
-# ルーマニア系のモルドバ人と紛らわしい。ｌとrの違いが日本語では区別できないので。
 #: data/nation/mordvin.ruleset:3
 msgid "Mordvin"
 msgstr "モルドヴィン人"
@@ -9050,7 +9009,6 @@ msgstr ""
 "登場しました。スペイン人の征服は素早く，1541年以降は叛乱も起きず，18世紀には"
 "彼らの言語も滅んでしまいました。"
 
-# スペイン語表記がCaciqueなのでおそらくこのように発音（Belgae）
 #: data/nation/mwiska.ruleset:27
 #, c-format
 msgid "Cacique %s"
@@ -9127,7 +9085,6 @@ msgid "?plural:Navajo"
 msgstr "ナバホ族"
 
 # Belgae
-# Dineは南北アサバスカ語族全体を指すようです。
 #: data/nation/navajo.ruleset:6
 msgid ""
 "The Navajo or Diné are the most populous Native American nation of the "
@@ -9475,9 +9432,6 @@ msgstr ""
 "ヴリス王によって統一されて生まれました。アングロサクソン七王国の主要国家で"
 "あったこの王国は，10世紀にイングランドに併合されました。"
 
-# ノルウェイ/ノルウェー
-# ちなみに正式名称は"Norge"(ノルゲ)です
-# 日本・ノルウェー両政府の公式表記やWikipediaなどに合わせ，ノルウェーに変更しました(Belgae)
 #: data/nation/norwegian.ruleset:3
 msgid "Norwegian"
 msgstr "ノルウェー人"
@@ -9576,7 +9530,6 @@ msgid "?female:Great Pharaoh %s"
 msgstr "偉大なファラオ %s"
 
 # Belgae
-# 自称は「マッシュリー」だったようですが。
 #: data/nation/numidian.ruleset:3
 msgid "Numidian"
 msgstr "ヌミディア人"
@@ -9607,7 +9560,6 @@ msgstr ""
 "域が，ローマの属州に加えられました。"
 
 # Belgae
-# ヌートカ族という呼び名が一般的なようなので，そちらの方がいいですかね。ヌーチャヌルスには「人々」の意味が既に含まれているようですし。
 #: data/nation/nuu-chah-nulth.ruleset:3
 msgid "Nuu-chah-nulth"
 msgstr "ヌートカ族"
@@ -9839,15 +9791,13 @@ msgstr ""
 "人口を抱えるオトミ族は，メキシコの先住民族の中でも特に規模の大きいグループで"
 "す。"
 
-# オスマン帝国を形成していたのはオスマン人でもオスマン族でもないんですが
-# まあ仕方ないとしましょう (clefs)
 #: data/nation/ottoman.ruleset:3
 msgid "Ottoman"
-msgstr "オスマン人"
+msgstr "オスマン帝国人"
 
 #: data/nation/ottoman.ruleset:4
 msgid "?plural:Ottomans"
-msgstr "オスマン人"
+msgstr "オスマン帝国人"
 
 # clefs
 #: data/nation/ottoman.ruleset:6
@@ -9867,7 +9817,6 @@ msgstr ""
 "に北アフリカのかなりの部分を次々と征服し，第一次世界大戦後に解体を迎えるまで"
 "の間，この地域の超大国となったのでした。"
 
-# clefs 音訳音訳
 #: data/nation/ottoman.ruleset:29
 #, c-format
 msgid "Padishah %s"
@@ -10259,7 +10208,6 @@ msgid "?plural:Phoenicians"
 msgstr "フェニキア人"
 
 # Belgae
-# 実際には「カナニ」の方が他称でフェニキアの方が自称に近かったという説もあるようです。
 #: data/nation/phoenician.ruleset:6
 msgid ""
 "Phoenicia was an ancient civilization, based in what is now the coastal "
@@ -11080,7 +11028,6 @@ msgid "?plural:Saxons"
 msgstr "ザクセン人"
 
 # Belgae
-# ザクセン(sachsen)はドイツ語読み。サクソン(saxon)は英語読みです。ザクセン地方にいた民族がアングル人らと共にイギリスに渡って「アングロサクソン」になりましたが，ザクセン地方に残った人々もいました。
 #: data/nation/saxon.ruleset:6
 msgid ""
 "The Electorate of Saxony was an independent hereditary electorate of the "
@@ -12241,7 +12188,6 @@ msgid "Knights Templar"
 msgstr "テンプル騎士団"
 
 # Belgae
-# 複数形を使う場所はどこでしょう。
 #: data/nation/templar.ruleset:4
 msgid "?plural:Templars"
 msgstr "テンプル騎士団員"
