@@ -9,149 +9,8 @@
 # MITA Yuusuke <clefs@mail.goo.ne.jp>, 2002, 2006
 # TAKAHASHI Naoki <taka_radio_wave@yahoo.co.jp>, 2003, 2004
 # Daniel MARKSTEDT <himasaram@spray.se>, 2005
-#
-# For Japanese users:
-# こんなことをわざわざ書くのは恥ずかしいんですが、はっきりいって私の訳は
-# とてもひどいもので、本来他人に公開できるようなレベルではないと思います。
-# しかし、私にとって実際、こんな下手な訳でも役に立っていますし、英語の苦
-# 手な他の人にも役に立つだろうと考えて公開しています。
-#
-# わざわざこの po ファイルを見て下さっているあなた。私のダサイ訳を直した
-# り、未訳のところを訳して送って下さい。継続的にメンテナンスしてくれる方
-# なら喜んで Primary Contacter を譲ります。
-#
-# メールをお待ちしています。(澤田)
-#
-# 2003年11月から主に私が訳すことになりました。
-#
-# GTK2 でビルドすると変なところがあったのですが、なかなか日本語訳の
-# 更新が無かった事から、澤田氏に連絡してみたりしている内に、
-# まあ色々あって私が代わりに訳す事になった次第です。
-#
-# 大分更新しましたが、それでも変な所があると思います。
-# (というか沢山ありそうな気もしますが。)
-# お気付きになられた点がありましたら、気兼ね無く連絡してください。
-# 特に AI diplomacy 関連、各国の伝説(紹介文)関連は、
-# こういう訳の方が良いというのがありましたら、ぜひとも教えて下さい。
-# 変な文章が多いと思われますので。
-#
-# by 高橋
-#
-#
-# ## 以下はclefs==Y.Mitaのメモです。(2006.7)
-#
-# 私はかなり昔にほんの少しお手伝いをしただけなのですが，
-# 現在他に連絡を取れる翻訳者がいないということでお鉢が回ってきました。
-#
-# 今後私自身で積極的な更新をできる見込みは残念ながらありませんが，
-# 次に翻訳をしてみたい，あるいは誤訳を見つけたから直してほしいといった方との
-# 「日本語でokな」架け橋の役だけ務めさせていただこうと思います。
-#
-# 翻訳作業をしてみたい，あるいは1ヶ所だけでも訳してみたという方は
-# <clefs@mail.goo.ne.jp> までメールをください。
-# 訳や訂正を送っていただければ私が反映させておきますし，
-# 自分でバリバリ更新なさりたい方には具体的な作業方法をご説明します。
-# 要はバケツリレーですね（笑）
-#
-#
-# Belgaeです。２ちゃんねる同人ゲーム板のfreecivスレで活動しています。
-# Windows版で%sや%dが変換されないという問題があり，日本語でのプレイが
-# 困難だったのですが，%の前に半角スペースを入れると化けないことが判明
-# しました。その点を処理するだけでなく，バージョンアップによるfuzzyや
-# 新規メッセージを翻訳し，非公式置換ファイルとして公開していました。
-# このたび一通り翻訳し終えたので公式に採用してもらうことにしました。
-# 未訳を翻訳するだけでなく，既訳部分もかなり手を入れており，ユニット名や
-# 建造物名などもいくつか変更しています。これはなるべく本家Civilization
-# の訳語に近づけたものです。今まで慣れていた名称が変わることにご不満の
-# 方も多いかと思いますが，新規プレイヤーにはそのほうが良いかと考えたものです。
-# 2010/08/14
-#
-#
-# # TODO:
-#
-# 各nationの指導者に冠せられる称号は調べがつかなかったり
-# 単純に訳しても意味がないようなものだったりして未訳のものが多いです。
-# たとえば，"Imparator" も "Emporer" も訳せば「皇帝」になってしまいますが，
-# こういうのは無理に訳さないか「インパラトール」などとベタ音訳した方が良いの
-# かも。
-# →称号を未訳のままにしておくと，どこまで称号でどこから元首名かすら
-# わからないので，Daniel MARKSTEDTさんのアドバイスを容れてカタカナ音訳を
-# 多用することにしました。安直と言われればそれまでですが。
-#
-# 指導者称号の女性形は適切な訳語がない場合が多いです。無理に訳し分けることも
-# ないのかなとは思いますが。
-#
-# 怪しい訳には "XXX" のマークをつけてあります。改良してやってください。
-#
-# 最近はAIも外交しますが，この時の台詞にはセンスが要求されるので大変です。
-# とりあえず訳は当ててありますが，雰囲気が出るような訳に改良したいところ。
-#
-# nation選択時に表示されるnationの説明文は突貫工事です。
-# 歴史の知識のある方のチェックを願えると助かります。
-#
-# SDLクライアント関係は未訳が多いです。client/gui-sdl/*
-# MitaはGTK2クライアントでしか試せていませんので。
-# 大半はfuzzyマークを外すだけで大丈夫だとは思うのですが。
-#
-# これはja.poではありませんが，ネット対戦関係の日本語ドキュメントがないのが
-# 日本人のネット対戦参入を妨げているかもしれません。
-# Freecivは生きた人間と外交してこそ面白いゲームなのですが。
-#
-# 開発者も英語のnativeとは限らないので，原文自体がおかしい場合も散見されます。
-# 訳で補うか，本隊にフィードバックするか？
-#
-#
-# # 訳語おぼえがき：
-# （→以降はBelgaeの当てた訳です）
-#
-# "citizen governor" 旧称CMAで，原文もまだ混乱している。
-#                   「市民管理者」「知事」「市長」「地方長官」→「総督府」（ちょっとオーバーかも）
-# "fog of war" 「霧戦」; 「見えない」場所のユニットなどを表示しない機能のこと
-#              「FoW」とでもした方がよほど誤解がないかも→「戦場の霧」（定訳です）
-# "zone of control" 文脈により「ゾーンコントロール」または「コントロールゾーン」
-#                   これも無理せず「ZOC」とでもした方が良いかも→「ZOC」
-# "technology" "tech" "science" 「科学」と「技術」でぶれがある→technology「科学技術」science「科学」
-# "Seafaring"「航海」と "Navigation"「航海術」は紛らわしい
-#             "Sailing"という中間技術も提案されているが，いよいよ訳語が……
-# "worker" 「労働者」だが，ユニットと都市民の両方あるのが困りもの
-#          ユニットの方は「土方」「土木作業員」あたり
-# "Pollution" 「公害」; いくつかの文脈では「汚染」
-# "incident" 「事変」
-# "incite" 「煽動」
-# "revolt" 都市単位の「反逆」「叛乱」だが，
-#          時々revolution「革命」の意味でも使われている
-# "you" 外交の際の"you"は君主か国か？
-# "martial law" 「戦時法」; 「戒厳令」
-# "content" 「普通」／「満足している」→「平静」
-# "unit" 「部隊」と訳しているが，「ユニット」の方が無理がない→「ユニット」
-# "tile" 「マス」→「タイル」
-# "field unit" 「フィールド兵器」苦しまぎれ，訳語募集→「フィールドユニット」
-# "nation" 「民族」「国家」「国」「国民」「ナシオン」「ネイション」「人々」
-#          Freecivに限らぬ厄介な語です。翻訳的にも政治的にも。→基本的には「民族」
-# "airport"「空港」，"airbase"「飛行場」
-#
-# "shield"
-# ntaka
-# 場所によって，シールド，シールド生産物，生産，資源，，，
-# どう訳せばよい? (ここでは，都市の生産)
-# clefs ゲームでの機能を考えると，「鉱工業生産」とかかなあ
-#
-#
-# 句読法の統一が必要です。「!」か「！」か?？
-# 句点は「。」，読点は「，」
-#
-# 訳註は[]で示しています。
-#
-# これはFreecivに限った話でもありませんが，
-# "* " や "- " で始まる箇条書きは，日本語では表示の際に醜く改行されてしまう
-# 傾向にあるようです。(gettextの問題なのかな)
-#
-# Italian「イタリア人」，Italians「イタリア民族」のように訳し分けてありましたが，
-# Cubanを「キューバ人」とは言えてもCubansを「キューバ民族」とは言えない
-# といったケースも多いので，全て「〜人」に統一しました。
-# 日本語の「〜人」は民族・国名を曖昧に包括できるので便利というわけです。
-# 国民国家や民族というフィクションの限界というやつですね。
-# "…さぁ，やつらを地獄へ送ってやろうぜ!"
+# Belgae, 2010
+# Umiteru <umiteru2004@gmail.com>, 2024
 msgid ""
 msgstr ""
 "Project-Id-Version: Freeciv 2.0.99-devel\n"
@@ -375,11 +234,6 @@ msgstr "総大司教 %s"
 msgid "Matriarch %s"
 msgstr "女総大司教 %s"
 
-# japanese.rulesetの場合は「天皇」と訳したいところですが
-# これは実現できないようです。
-# こういう時に改めて実感しますが、外国から見れば、
-# 日本の天皇は「皇帝」以外の何物でもないんですね。
-# そんなわけで「皇帝Hirohito」で我慢してくださいませ。 (clefs)
 #: data/nation/abyssinian.ruleset:24 data/nation/antarctican.ruleset:16
 #: data/nation/californian.ruleset:36 data/nation/centralafrican.ruleset:23
 #: data/nation/haitian.ruleset:27 data/nation/han.ruleset:26
@@ -663,7 +517,7 @@ msgstr "アミール %s"
 msgid "Emira %s"
 msgstr "アミーラ %s"
 
-# ntaka 一等書記官と訳すよりは、書記長
+# ntaka
 # 入れ替えあり
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26
 #: data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30
@@ -674,7 +528,7 @@ msgstr "アミーラ %s"
 msgid "General Secretary %s"
 msgstr "%s書記長"
 
-# ntaka 一等書記官と訳すよりは、書記長
+# ntaka
 # 入れ替えあり
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26
 #: data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30
@@ -894,7 +748,6 @@ msgid "Vicar %s"
 msgstr "司教代理 %s"
 
 # Belgae
-# 夫人はDatinが正しいらしい
 #: data/nation/alander.ruleset:30 data/nation/faroese.ruleset:32
 #, c-format
 msgid "?female:Vicar %s"
@@ -979,8 +832,6 @@ msgstr ""
 "す。20世紀のかなりの期間，アルバニアは共産主義者エンヴェル・ホッジャによる独"
 "裁下にありました。"
 
-# Belgae
-# 「王子」ではなく爵位・君主号のprince
 #: data/nation/albanian.ruleset:27 data/nation/asturian.ruleset:29
 #: data/nation/cossack.ruleset:29 data/nation/cuyavian.ruleset:27
 #: data/nation/greaterpolish.ruleset:20 data/nation/kashubian.ruleset:28
@@ -998,7 +849,7 @@ msgstr ""
 #: data/nation/westernpomeranian.ruleset:29
 #, c-format
 msgid "Prince %s"
-msgstr "公 %s"
+msgstr "王子 %s"
 
 #: data/nation/albanian.ruleset:27 data/nation/asturian.ruleset:29
 #: data/nation/cossack.ruleset:29 data/nation/cuyavian.ruleset:27
@@ -1016,7 +867,7 @@ msgstr "公 %s"
 #: data/nation/urartian.ruleset:34 data/nation/westernpomeranian.ruleset:29
 #, c-format
 msgid "Princess %s"
-msgstr "女公 %s"
+msgstr "王女 %s"
 
 # 入れ替えあり
 #: data/nation/albanian.ruleset:28 data/nation/anhaltian.ruleset:30
@@ -1044,7 +895,6 @@ msgstr "%s第一書記"
 msgid "?female:First Secretary %s"
 msgstr "%s第一書記"
 
-# アリュートとも(Belgae)
 #: data/nation/aleut.ruleset:3
 msgid "Aleut"
 msgstr "アレウト族"
@@ -1164,8 +1014,6 @@ msgstr ""
 "おいて特に激しい領有争いを繰り広げました。普仏戦争以降の100年間で，支配国は実"
 "に4度も変わりました。現在はフランス領となっています。"
 
-# ntaka 大統領でいいのだろうか?
-# 首相に変更しました(Belgae)
 #: data/nation/alsatian.ruleset:26 data/nation/anhaltian.ruleset:31
 #: data/nation/badian.ruleset:22 data/nation/bavarian.ruleset:25
 #: data/nation/brandenburgian.ruleset:31 data/nation/germanbelgian.ruleset:26
@@ -1177,7 +1025,7 @@ msgstr ""
 #: data/nation/thuringian.ruleset:45 data/nation/wuerttembergian.ruleset:22
 #, c-format
 msgid "Minister-President %s"
-msgstr "%s首相"
+msgstr "%s大臣主席"
 
 #: data/nation/alsatian.ruleset:26 data/nation/anhaltian.ruleset:31
 #: data/nation/badian.ruleset:22 data/nation/bavarian.ruleset:25
@@ -1190,21 +1038,19 @@ msgstr "%s首相"
 #: data/nation/thuringian.ruleset:45 data/nation/wuerttembergian.ruleset:22
 #, c-format
 msgid "?female:Minister-President %s"
-msgstr "%s首相"
+msgstr "%s大臣主席"
 
-# clefs 執行官，執達吏，代官，バイリフ
-# Belgae was:執行官
 #: data/nation/alsatian.ruleset:27 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
 #, c-format
 msgid "Bailiff %s"
-msgstr "代官 %s"
+msgstr "廷吏 %s"
 
 #: data/nation/alsatian.ruleset:27 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
 #, c-format
 msgid "?female:Bailiff %s"
-msgstr "代官 %s"
+msgstr "廷吏 %s"
 
 #: data/nation/alsatian.ruleset:28 data/nation/andorran.ruleset:25
 #: data/nation/anhaltian.ruleset:33 data/nation/antiguan.ruleset:22
@@ -1618,7 +1464,6 @@ msgid "?plural:Argentines"
 msgstr "アルゼンチン人"
 
 # clefs
-# カタカナにしちゃえば関係な〜し
 #: data/nation/argentine.ruleset:6
 msgid ""
 "Argentina is located on the south-eastern coast of South America. Since "
@@ -1626,11 +1471,7 @@ msgid ""
 "external conflicts. In the decades after World War II, the country's "
 "politics was dominated by Juan Perón and his charismatic wife Eva \"Evita\" "
 "Perón."
-msgstr ""
-"アルゼンチンは南米大陸の南東岸に位置しています。1816年にスペインから独立して"
-"以来，アルゼンチンは数々の内憂外患に苦しめられてきました。第二次世界大戦後の"
-"数十年間，アルゼンチンの政治はユアン・ペロンとそのカリスマ的な妻エヴァ「エ"
-"ヴィータ」ペロンによって支配されていました。"
+msgstr "アルゼンチンは南米の南東海岸に位置します。\n\n1816年にスペインから独立して以来、内外の紛争に悩まされてきました。第二次世界大戦後の数十年間、アルゼンチンの政治はフアン・ペロンとそのカリスマ的な妻であったエヴァ（エビータ）・ペロン夫人に支配されていました。"
 
 #: data/nation/argentine.ruleset:25 data/nation/bolivian.ruleset:36
 #: data/nation/chiapanec.ruleset:33 data/nation/colombian.ruleset:27
@@ -1654,20 +1495,17 @@ msgstr " %s司令官"
 msgid "Comandanta %s"
 msgstr " %s司令官"
 
-# clefs
-# "大統領""独裁者"
 #: data/nation/argentine.ruleset:26 data/nation/cuban.ruleset:23
 #: data/nation/southamerican.ruleset:20
 #, c-format
 msgid "Caudillo %s"
-msgstr " %s総統"
+msgstr "%s総統"
 
-# clefs
 #: data/nation/argentine.ruleset:26 data/nation/cuban.ruleset:23
 #: data/nation/southamerican.ruleset:20
 #, c-format
 msgid "Caudilla %s"
-msgstr " %s総統"
+msgstr "%s総統"
 
 #: data/nation/argentine.ruleset:27 data/nation/castilian.ruleset:32
 #: data/nation/cuban.ruleset:24 data/nation/filipino.ruleset:21
@@ -1939,9 +1777,7 @@ msgstr ""
 "姿を消してゆきました。"
 
 # clefs
-# "ハン""カン"の方が通りがいい？
 # Belgae
-# Despotism用なのでカガンやハーンではなく下位の君主号であるカン，ハンの方ですね。
 #: data/nation/avar.ruleset:34 data/nation/azeri.ruleset:35
 #: data/nation/bashkir.ruleset:24 data/nation/buryat.ruleset:26
 #: data/nation/crimeantatar.ruleset:39 data/nation/gokturk.ruleset:40
@@ -2287,7 +2123,6 @@ msgstr ""
 "位置し，伝統的に7つの地域に分かれています。バスク語は他の言語との関連性が不明"
 "で，起源もわかっていません。"
 
-# イメージはスターリン? (clefs)
 #: data/nation/basque.ruleset:32 data/nation/centrallithuanian.ruleset:41
 #: data/nation/iranian.ruleset:40
 #, c-format
@@ -2313,8 +2148,6 @@ msgid "?female:Lehendakari %s"
 msgstr "レンダカリ %s"
 
 # clefs
-# was "ババリア人"
-# 英語名の「ババリア」より，独語の「バイエルン」(Bayern)の方が通りが良いでしょう
 #: data/nation/bavarian.ruleset:3
 msgid "Bavarian"
 msgstr "バイエルン人"
@@ -13876,7 +13709,6 @@ msgstr "サポテカ族"
 msgid "?plural:Zapotecs"
 msgstr "サポテカ族"
 
-# razedをraisedのスペリングミスと解釈しました（Belgae）
 #: data/nation/zapotec.ruleset:6
 msgid ""
 "The Zapotecs or Binnizá live in the Mexican state of Oaxaca. They formed one "
