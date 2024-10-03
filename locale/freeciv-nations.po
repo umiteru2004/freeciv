@@ -9,149 +9,8 @@
 # MITA Yuusuke <clefs@mail.goo.ne.jp>, 2002, 2006
 # TAKAHASHI Naoki <taka_radio_wave@yahoo.co.jp>, 2003, 2004
 # Daniel MARKSTEDT <himasaram@spray.se>, 2005
-#
-# For Japanese users:
-# こんなことをわざわざ書くのは恥ずかしいんですが、はっきりいって私の訳は
-# とてもひどいもので、本来他人に公開できるようなレベルではないと思います。
-# しかし、私にとって実際、こんな下手な訳でも役に立っていますし、英語の苦
-# 手な他の人にも役に立つだろうと考えて公開しています。
-#
-# わざわざこの po ファイルを見て下さっているあなた。私のダサイ訳を直した
-# り、未訳のところを訳して送って下さい。継続的にメンテナンスしてくれる方
-# なら喜んで Primary Contacter を譲ります。
-#
-# メールをお待ちしています。(澤田)
-#
-# 2003年11月から主に私が訳すことになりました。
-#
-# GTK2 でビルドすると変なところがあったのですが、なかなか日本語訳の
-# 更新が無かった事から、澤田氏に連絡してみたりしている内に、
-# まあ色々あって私が代わりに訳す事になった次第です。
-#
-# 大分更新しましたが、それでも変な所があると思います。
-# (というか沢山ありそうな気もしますが。)
-# お気付きになられた点がありましたら、気兼ね無く連絡してください。
-# 特に AI diplomacy 関連、各国の伝説(紹介文)関連は、
-# こういう訳の方が良いというのがありましたら、ぜひとも教えて下さい。
-# 変な文章が多いと思われますので。
-#
-# by 高橋
-#
-#
-# ## 以下はclefs==Y.Mitaのメモです。(2006.7)
-#
-# 私はかなり昔にほんの少しお手伝いをしただけなのですが，
-# 現在他に連絡を取れる翻訳者がいないということでお鉢が回ってきました。
-#
-# 今後私自身で積極的な更新をできる見込みは残念ながらありませんが，
-# 次に翻訳をしてみたい，あるいは誤訳を見つけたから直してほしいといった方との
-# 「日本語でokな」架け橋の役だけ務めさせていただこうと思います。
-#
-# 翻訳作業をしてみたい，あるいは1ヶ所だけでも訳してみたという方は
-# <clefs@mail.goo.ne.jp> までメールをください。
-# 訳や訂正を送っていただければ私が反映させておきますし，
-# 自分でバリバリ更新なさりたい方には具体的な作業方法をご説明します。
-# 要はバケツリレーですね（笑）
-#
-#
-# Belgaeです。２ちゃんねる同人ゲーム板のfreecivスレで活動しています。
-# Windows版で%sや%dが変換されないという問題があり，日本語でのプレイが
-# 困難だったのですが，%の前に半角スペースを入れると化けないことが判明
-# しました。その点を処理するだけでなく，バージョンアップによるfuzzyや
-# 新規メッセージを翻訳し，非公式置換ファイルとして公開していました。
-# このたび一通り翻訳し終えたので公式に採用してもらうことにしました。
-# 未訳を翻訳するだけでなく，既訳部分もかなり手を入れており，ユニット名や
-# 建造物名などもいくつか変更しています。これはなるべく本家Civilization
-# の訳語に近づけたものです。今まで慣れていた名称が変わることにご不満の
-# 方も多いかと思いますが，新規プレイヤーにはそのほうが良いかと考えたものです。
-# 2010/08/14
-#
-#
-# # TODO:
-#
-# 各nationの指導者に冠せられる称号は調べがつかなかったり
-# 単純に訳しても意味がないようなものだったりして未訳のものが多いです。
-# たとえば，"Imparator" も "Emporer" も訳せば「皇帝」になってしまいますが，
-# こういうのは無理に訳さないか「インパラトール」などとベタ音訳した方が良いの
-# かも。
-# →称号を未訳のままにしておくと，どこまで称号でどこから元首名かすら
-# わからないので，Daniel MARKSTEDTさんのアドバイスを容れてカタカナ音訳を
-# 多用することにしました。安直と言われればそれまでですが。
-#
-# 指導者称号の女性形は適切な訳語がない場合が多いです。無理に訳し分けることも
-# ないのかなとは思いますが。
-#
-# 怪しい訳には "XXX" のマークをつけてあります。改良してやってください。
-#
-# 最近はAIも外交しますが，この時の台詞にはセンスが要求されるので大変です。
-# とりあえず訳は当ててありますが，雰囲気が出るような訳に改良したいところ。
-#
-# nation選択時に表示されるnationの説明文は突貫工事です。
-# 歴史の知識のある方のチェックを願えると助かります。
-#
-# SDLクライアント関係は未訳が多いです。client/gui-sdl/*
-# MitaはGTK2クライアントでしか試せていませんので。
-# 大半はfuzzyマークを外すだけで大丈夫だとは思うのですが。
-#
-# これはja.poではありませんが，ネット対戦関係の日本語ドキュメントがないのが
-# 日本人のネット対戦参入を妨げているかもしれません。
-# Freecivは生きた人間と外交してこそ面白いゲームなのですが。
-#
-# 開発者も英語のnativeとは限らないので，原文自体がおかしい場合も散見されます。
-# 訳で補うか，本隊にフィードバックするか？
-#
-#
-# # 訳語おぼえがき：
-# （→以降はBelgaeの当てた訳です）
-#
-# "citizen governor" 旧称CMAで，原文もまだ混乱している。
-#                   「市民管理者」「知事」「市長」「地方長官」→「総督府」（ちょっとオーバーかも）
-# "fog of war" 「霧戦」; 「見えない」場所のユニットなどを表示しない機能のこと
-#              「FoW」とでもした方がよほど誤解がないかも→「戦場の霧」（定訳です）
-# "zone of control" 文脈により「ゾーンコントロール」または「コントロールゾーン」
-#                   これも無理せず「ZOC」とでもした方が良いかも→「ZOC」
-# "technology" "tech" "science" 「科学」と「技術」でぶれがある→technology「科学技術」science「科学」
-# "Seafaring"「航海」と "Navigation"「航海術」は紛らわしい
-#             "Sailing"という中間技術も提案されているが，いよいよ訳語が……
-# "worker" 「労働者」だが，ユニットと都市民の両方あるのが困りもの
-#          ユニットの方は「土方」「土木作業員」あたり
-# "Pollution" 「公害」; いくつかの文脈では「汚染」
-# "incident" 「事変」
-# "incite" 「煽動」
-# "revolt" 都市単位の「反逆」「叛乱」だが，
-#          時々revolution「革命」の意味でも使われている
-# "you" 外交の際の"you"は君主か国か？
-# "martial law" 「戦時法」; 「戒厳令」
-# "content" 「普通」／「満足している」→「平静」
-# "unit" 「部隊」と訳しているが，「ユニット」の方が無理がない→「ユニット」
-# "tile" 「マス」→「タイル」
-# "field unit" 「フィールド兵器」苦しまぎれ，訳語募集→「フィールドユニット」
-# "nation" 「民族」「国家」「国」「国民」「ナシオン」「ネイション」「人々」
-#          Freecivに限らぬ厄介な語です。翻訳的にも政治的にも。→基本的には「民族」
-# "airport"「空港」，"airbase"「飛行場」
-#
-# "shield"
-# ntaka
-# 場所によって，シールド，シールド生産物，生産，資源，，，
-# どう訳せばよい? (ここでは，都市の生産)
-# clefs ゲームでの機能を考えると，「鉱工業生産」とかかなあ
-#
-#
-# 句読法の統一が必要です。「!」か「！」か?？
-# 句点は「。」，読点は「，」
-#
-# 訳註は[]で示しています。
-#
-# これはFreecivに限った話でもありませんが，
-# "* " や "- " で始まる箇条書きは，日本語では表示の際に醜く改行されてしまう
-# 傾向にあるようです。(gettextの問題なのかな)
-#
-# Italian「イタリア人」，Italians「イタリア民族」のように訳し分けてありましたが，
-# Cubanを「キューバ人」とは言えてもCubansを「キューバ民族」とは言えない
-# といったケースも多いので，全て「〜人」に統一しました。
-# 日本語の「〜人」は民族・国名を曖昧に包括できるので便利というわけです。
-# 国民国家や民族というフィクションの限界というやつですね。
-# "…さぁ，やつらを地獄へ送ってやろうぜ!"
+# Belgae, 2010
+# Umiteru <umiteru2004@gmail.com>, 2024
 msgid ""
 msgstr ""
 "Project-Id-Version: Freeciv 2.0.99-devel\n"
@@ -375,11 +234,6 @@ msgstr "総大司教 %s"
 msgid "Matriarch %s"
 msgstr "女総大司教 %s"
 
-# japanese.rulesetの場合は「天皇」と訳したいところですが
-# これは実現できないようです。
-# こういう時に改めて実感しますが、外国から見れば、
-# 日本の天皇は「皇帝」以外の何物でもないんですね。
-# そんなわけで「皇帝Hirohito」で我慢してくださいませ。 (clefs)
 #: data/nation/abyssinian.ruleset:24 data/nation/antarctican.ruleset:16
 #: data/nation/californian.ruleset:36 data/nation/centralafrican.ruleset:23
 #: data/nation/haitian.ruleset:27 data/nation/han.ruleset:26
@@ -437,7 +291,7 @@ msgstr "%s首相"
 # clefs
 #: data/nation/acadian.ruleset:31 data/nation/alander.ruleset:28
 #: data/nation/quebecois.ruleset:20 data/nation/tahitian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Premiere %s"
 msgstr "%s首相"
 
@@ -447,8 +301,6 @@ msgstr "%s首相"
 msgid "Abbot %s"
 msgstr "大修道院長 %s"
 
-# 「女子修道院長」だそうだけど，本当にそれでいいのかしらん (clefs)
-# Happiness is a warm gun?
 #: data/nation/acadian.ruleset:32 data/nation/aragonese.ruleset:30
 #: data/nation/argentine.ruleset:27 data/nation/asturian.ruleset:30
 #: data/nation/badian.ruleset:24 data/nation/bavarian.ruleset:24
@@ -665,7 +517,7 @@ msgstr "アミール %s"
 msgid "Emira %s"
 msgstr "アミーラ %s"
 
-# ntaka 一等書記官と訳すよりは、書記長
+# ntaka
 # 入れ替えあり
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26
 #: data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30
@@ -676,7 +528,7 @@ msgstr "アミーラ %s"
 msgid "General Secretary %s"
 msgstr "%s書記長"
 
-# ntaka 一等書記官と訳すよりは、書記長
+# ntaka
 # 入れ替えあり
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26
 #: data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30
@@ -745,8 +597,6 @@ msgstr "アクウェ人"
 msgid "?plural:Akwe"
 msgstr "アクウェ人"
 
-# Belgae
-# ring villageは環村でいいのでしょうか
 #: data/nation/akwe.ruleset:7
 msgid ""
 "The Akwe are also known by three different tribal names in Portuguese, "
@@ -760,8 +610,7 @@ msgstr ""
 "アクウェ人は，シャヴァンテ，シャクリアバ，シェレンテという3部族名でも知られて"
 "います。彼らは父系制の氏族制度を持ち，ブラジルのマットグロッソ州およびトカン"
 "ティンス州に暮らしていますが，彼らはしばしばブラジル人によって強制移住させら"
-"れてきました。伝統的に，彼らは長老会議で選ばれた長によって統治され，大きな三"
-"日月形の村での生活を9世紀頃から続けてきました。彼らはジェ語を使用し，トウモロ"
+"れてきました。伝統的に，彼らは長老会議で選ばれた長によって統治され，大きな環村での生活を9世紀頃から続けてきました。彼らはジェ語を使用し，トウモロ"
 "コシ，キャッサバ，サツマイモ，ヤムイモを栽培しています。"
 
 #: data/nation/alandalus.ruleset:3
@@ -899,7 +748,6 @@ msgid "Vicar %s"
 msgstr "司教代理 %s"
 
 # Belgae
-# 夫人はDatinが正しいらしい
 #: data/nation/alander.ruleset:30 data/nation/faroese.ruleset:32
 #, c-format
 msgid "?female:Vicar %s"
@@ -907,13 +755,12 @@ msgstr "司教代理 %s"
 
 #: data/nation/alaskan.ruleset:3
 msgid "Alaska"
-msgstr ""
+msgstr "アラスカ人"
 
 #: data/nation/alaskan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Albanians"
 msgid "?plural:Alaskans"
-msgstr "アルバニア人"
+msgstr "アラスカ人"
 
 #: data/nation/alaskan.ruleset:6
 msgid ""
@@ -922,7 +769,7 @@ msgid ""
 "1912 and eventually gained statehood as the 49th state on January 3rd, 1959. "
 "The question of Alaskan independence became more relevant with the election "
 "of Wally Hickel in 1990."
-msgstr ""
+msgstr "アラスカは1867年にロシア帝国から購入されたアメリカ合衆国の州であり、1912年5月11日に正式な領土となり、1959年1月3日に49番目の州として独立しました。\n\nアラスカの独立問題は、1990年にウォーリー・ヒッケル氏が大統領に選出されたことにより、より大きな意味を持つようになりました。"
 
 #: data/nation/alaskan.ruleset:29 data/nation/californian.ruleset:34
 #: data/nation/florida.ruleset:31 data/nation/texan.ruleset:31
@@ -984,8 +831,6 @@ msgstr ""
 "す。20世紀のかなりの期間，アルバニアは共産主義者エンヴェル・ホッジャによる独"
 "裁下にありました。"
 
-# Belgae
-# 「王子」ではなく爵位・君主号のprince
 #: data/nation/albanian.ruleset:27 data/nation/asturian.ruleset:29
 #: data/nation/cossack.ruleset:29 data/nation/cuyavian.ruleset:27
 #: data/nation/greaterpolish.ruleset:20 data/nation/kashubian.ruleset:28
@@ -1003,7 +848,7 @@ msgstr ""
 #: data/nation/westernpomeranian.ruleset:29
 #, c-format
 msgid "Prince %s"
-msgstr "公 %s"
+msgstr "王子 %s"
 
 #: data/nation/albanian.ruleset:27 data/nation/asturian.ruleset:29
 #: data/nation/cossack.ruleset:29 data/nation/cuyavian.ruleset:27
@@ -1021,7 +866,7 @@ msgstr "公 %s"
 #: data/nation/urartian.ruleset:34 data/nation/westernpomeranian.ruleset:29
 #, c-format
 msgid "Princess %s"
-msgstr "女公 %s"
+msgstr "王女 %s"
 
 # 入れ替えあり
 #: data/nation/albanian.ruleset:28 data/nation/anhaltian.ruleset:30
@@ -1049,7 +894,6 @@ msgstr "%s第一書記"
 msgid "?female:First Secretary %s"
 msgstr "%s第一書記"
 
-# アリュートとも(Belgae)
 #: data/nation/aleut.ruleset:3
 msgid "Aleut"
 msgstr "アレウト族"
@@ -1058,7 +902,6 @@ msgstr "アレウト族"
 msgid "?plural:Aleuts"
 msgstr "アレウト族"
 
-# エリザヴェータ要塞でよい？
 #: data/nation/aleut.ruleset:6
 msgid ""
 "The Unangan, or Aleut, lived in permanent subterranean homes in their "
@@ -1170,8 +1013,6 @@ msgstr ""
 "おいて特に激しい領有争いを繰り広げました。普仏戦争以降の100年間で，支配国は実"
 "に4度も変わりました。現在はフランス領となっています。"
 
-# ntaka 大統領でいいのだろうか?
-# 首相に変更しました(Belgae)
 #: data/nation/alsatian.ruleset:26 data/nation/anhaltian.ruleset:31
 #: data/nation/badian.ruleset:22 data/nation/bavarian.ruleset:25
 #: data/nation/brandenburgian.ruleset:31 data/nation/germanbelgian.ruleset:26
@@ -1183,9 +1024,8 @@ msgstr ""
 #: data/nation/thuringian.ruleset:45 data/nation/wuerttembergian.ruleset:22
 #, c-format
 msgid "Minister-President %s"
-msgstr "%s首相"
+msgstr "%s大臣主席"
 
-# ntaka 大統領でいいのだろうか?
 #: data/nation/alsatian.ruleset:26 data/nation/anhaltian.ruleset:31
 #: data/nation/badian.ruleset:22 data/nation/bavarian.ruleset:25
 #: data/nation/brandenburgian.ruleset:31 data/nation/germanbelgian.ruleset:26
@@ -1197,21 +1037,19 @@ msgstr "%s首相"
 #: data/nation/thuringian.ruleset:45 data/nation/wuerttembergian.ruleset:22
 #, c-format
 msgid "?female:Minister-President %s"
-msgstr "%s首相"
+msgstr "%s大臣主席"
 
-# clefs 執行官，執達吏，代官，バイリフ
-# Belgae was:執行官
 #: data/nation/alsatian.ruleset:27 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
 #, c-format
 msgid "Bailiff %s"
-msgstr "代官 %s"
+msgstr "廷吏 %s"
 
 #: data/nation/alsatian.ruleset:27 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
 #, c-format
 msgid "?female:Bailiff %s"
-msgstr "代官 %s"
+msgstr "廷吏 %s"
 
 #: data/nation/alsatian.ruleset:28 data/nation/andorran.ruleset:25
 #: data/nation/anhaltian.ruleset:33 data/nation/antiguan.ruleset:22
@@ -1429,7 +1267,7 @@ msgstr ""
 "り，1806年には公爵(Herzog)となりました。1871年にドイツ帝国の構成国となったも"
 "のの，1918年のドイツ革命に伴ってアンハルト公は退位し，アンハルトはヴァイマル"
 "共和国アンハルト自由州となりました。第二次世界大戦後，アンハルトはその全域が"
-"ザクセン=アンハルト州に統合されました。"
+"ザクセン＝アンハルト州に統合されました。"
 
 #: data/nation/anhaltian.ruleset:32 data/nation/aragonese.ruleset:29
 #: data/nation/castilian.ruleset:31 data/nation/catalan.ruleset:30
@@ -1625,7 +1463,6 @@ msgid "?plural:Argentines"
 msgstr "アルゼンチン人"
 
 # clefs
-# カタカナにしちゃえば関係な〜し
 #: data/nation/argentine.ruleset:6
 msgid ""
 "Argentina is located on the south-eastern coast of South America. Since "
@@ -1633,11 +1470,7 @@ msgid ""
 "external conflicts. In the decades after World War II, the country's "
 "politics was dominated by Juan Perón and his charismatic wife Eva \"Evita\" "
 "Perón."
-msgstr ""
-"アルゼンチンは南米大陸の南東岸に位置しています。1816年にスペインから独立して"
-"以来，アルゼンチンは数々の内憂外患に苦しめられてきました。第二次世界大戦後の"
-"数十年間，アルゼンチンの政治はユアン・ペロンとそのカリスマ的な妻エヴァ「エ"
-"ヴィータ」ペロンによって支配されていました。"
+msgstr "アルゼンチンは南米の南東海岸に位置します。\n\n1816年にスペインから独立して以来、内外の紛争に悩まされてきました。第二次世界大戦後の数十年間、アルゼンチンの政治はフアン・ペロンとそのカリスマ的な妻であったエヴァ（エビータ）・ペロン夫人に支配されていました。"
 
 #: data/nation/argentine.ruleset:25 data/nation/bolivian.ruleset:36
 #: data/nation/chiapanec.ruleset:33 data/nation/colombian.ruleset:27
@@ -1661,20 +1494,17 @@ msgstr " %s司令官"
 msgid "Comandanta %s"
 msgstr " %s司令官"
 
-# clefs
-# "大統領""独裁者"
 #: data/nation/argentine.ruleset:26 data/nation/cuban.ruleset:23
 #: data/nation/southamerican.ruleset:20
 #, c-format
 msgid "Caudillo %s"
-msgstr " %s総統"
+msgstr "%s総統"
 
-# clefs
 #: data/nation/argentine.ruleset:26 data/nation/cuban.ruleset:23
 #: data/nation/southamerican.ruleset:20
 #, c-format
 msgid "Caudilla %s"
-msgstr " %s総統"
+msgstr "%s総統"
 
 #: data/nation/argentine.ruleset:27 data/nation/castilian.ruleset:32
 #: data/nation/cuban.ruleset:24 data/nation/filipino.ruleset:21
@@ -1716,8 +1546,6 @@ msgstr ""
 "伝説によれば，アルメニア人はハイク――ノアの玄孫[訳註:孫の孫]――の末裔なのだそう"
 "です。現代のアルメニア共和国は1991年にソヴィエトからの独立を獲得しました。"
 
-# clefs
-# 共和政や民主主義になろうとしている時はこれじゃ変かな
 #: data/nation/armenian.ruleset:24 data/nation/assyrian.ruleset:21
 #: data/nation/atlantean.ruleset:22 data/nation/bosporan.ruleset:33
 #: data/nation/crusader.ruleset:32 data/nation/czech.ruleset:31
@@ -1736,7 +1564,7 @@ msgstr ""
 #: data/nation/westernroman.ruleset:29
 #, c-format
 msgid "Usurper %s"
-msgstr "簒奪者 %s"
+msgstr "革命家 %s"
 
 #: data/nation/armenian.ruleset:24 data/nation/assyrian.ruleset:21
 #: data/nation/atlantean.ruleset:22 data/nation/bosporan.ruleset:33
@@ -1756,7 +1584,7 @@ msgstr "簒奪者 %s"
 #: data/nation/westernroman.ruleset:29
 #, c-format
 msgid "?female:Usurper %s"
-msgstr "簒奪者 %s"
+msgstr "革命家 %s"
 
 #: data/nation/ashanti.ruleset:3
 msgid "Ashanti"
@@ -1944,13 +1772,11 @@ msgstr ""
 "バルド人と共にゲピード族を挟撃してこれを滅ぼし，カルパチア盆地一帯を支配しま"
 "した (アヴァール可汗国)。しかし7世紀半ばから徐々に衰退してゆき，8世末にはフラ"
 "ンク国王カール大帝による遠征で致命的な打撃を受けました。また東からはブルガー"
-"ル人による攻撃にも晒され，最終的にアヴァールはスラヴ人やマジャル人と同化して"
+"ル人による攻撃にも晒され，最終的にアヴァールはスラブ人やマジャル人と同化して"
 "姿を消してゆきました。"
 
 # clefs
-# "ハン""カン"の方が通りがいい？
 # Belgae
-# Despotism用なのでカガンやハーンではなく下位の君主号であるカン，ハンの方ですね。
 #: data/nation/avar.ruleset:34 data/nation/azeri.ruleset:35
 #: data/nation/bashkir.ruleset:24 data/nation/buryat.ruleset:26
 #: data/nation/crimeantatar.ruleset:39 data/nation/gokturk.ruleset:40
@@ -2051,9 +1877,6 @@ msgstr ""
 msgid "%s Shah"
 msgstr "%s シャー"
 
-# これも適当。ペルシアに女シャーっていましたっけ？ (clefs)
-# とりあえずカタカナ化で
-# 単なる王妃の意味のようです(Belgae)
 #: data/nation/azeri.ruleset:36 data/nation/iranian.ruleset:41
 #: data/nation/khwarezmian.ruleset:28 data/nation/median.ruleset:34
 #, c-format
@@ -2219,18 +2042,15 @@ msgstr "マハーラージャ %s"
 msgid "Maharani %s"
 msgstr "マハーラーニ %s"
 
-# clefs
-# 「太守」「ナボブ」「ネイバブ」(英語発音)
-# ベンガルの太守ならそこそこ雰囲気あるかな
 #: data/nation/bangladeshi.ruleset:23 data/nation/bengali.ruleset:27
 #, c-format
 msgid "Nabob %s"
-msgstr "太守 %s"
+msgstr "%s長官"
 
 #: data/nation/bangladeshi.ruleset:23 data/nation/bengali.ruleset:27
 #, c-format
 msgid "?female:Nabob %s"
-msgstr "太守 %s"
+msgstr "%s長官"
 
 #: data/nation/barbadian.ruleset:3
 msgid "Barbadian"
@@ -2302,7 +2122,6 @@ msgstr ""
 "位置し，伝統的に7つの地域に分かれています。バスク語は他の言語との関連性が不明"
 "で，起源もわかっていません。"
 
-# イメージはスターリン? (clefs)
 #: data/nation/basque.ruleset:32 data/nation/centrallithuanian.ruleset:41
 #: data/nation/iranian.ruleset:40
 #, c-format
@@ -2328,8 +2147,6 @@ msgid "?female:Lehendakari %s"
 msgstr "レンダカリ %s"
 
 # clefs
-# was "ババリア人"
-# 英語名の「ババリア」より，独語の「バイエルン」(Bayern)の方が通りが良いでしょう
 #: data/nation/bavarian.ruleset:3
 msgid "Bavarian"
 msgstr "バイエルン人"
@@ -2388,32 +2205,25 @@ msgstr "ベラルーシ人"
 msgid "?plural:Belarusians"
 msgstr "ベラルーシ人"
 
-# Belgae
-# Rzeczpospolitaはポーランド語で「共和国」の意味です。ポーランド・リトアニア合同を指しているようです。
 #: data/nation/belarusian.ruleset:6
 msgid ""
 "Belarus was part of the ancient Slavic state of Kievan Rus', then "
 "subsequently Lithuania, Rzeczpospolita, the Russian Empire and the Soviet "
 "Union. Belarus became independent in 1991 with the dissolution of the Soviet "
 "Union."
-msgstr ""
-"ベラルーシはかつてスラブに栄えたキエフ大公国の一部でした。その後は順にリトア"
-"ニア，ポーランド，ロシア帝国，ソビエト連邦の一部となっていました。ベラルーシ"
-"は1991年のソビエト連邦崩壊の際に独立を果たしました。"
+msgstr "ベラルーシは古代のスラブ国家、キエフ大公国の一部であり、その後、この地域を治める国家はリトアニア、ポーランド、ロシア帝国、ソビエト連邦と続きました。ベラルーシは1991年にソビエト連邦の解体とともに独立しました。"
 
 #: data/nation/belarusian.ruleset:33 data/nation/bulgarian.ruleset:30
 #: data/nation/muscovite.ruleset:24 data/nation/ossetian.ruleset:24
 #, c-format
 msgid "Tsar %s"
-msgstr "ツァー %s"
+msgstr "ツァーリ %s"
 
-# 「ツァリツァ」だけど、音訳すればいいというものでもありますまい (clefs)
-# →気が変わったので音訳で行きます
 #: data/nation/belarusian.ruleset:33 data/nation/bulgarian.ruleset:30
 #: data/nation/muscovite.ruleset:24 data/nation/ossetian.ruleset:24
 #, c-format
 msgid "Tsaritsa %s"
-msgstr "ツァリツァ %s"
+msgstr "ツァリーツァ %s"
 
 #: data/nation/belgian.ruleset:3
 msgid "Belgian"
@@ -2447,14 +2257,13 @@ msgstr "%s首相"
 msgid "?female:Prime Minister %s"
 msgstr "%s首相"
 
-# Wikipedia「オランダ総督」の代替案に従ってこの訳語にしました（Belgae）
 #: data/nation/belgian.ruleset:26 data/nation/burgundian.ruleset:31
 #: data/nation/flemish.ruleset:32 data/nation/frisian.ruleset:37
 #: data/nation/luxembourgish.ruleset:31 data/nation/tyrolian.ruleset:25
 #: data/nation/walloon.ruleset:28
 #, c-format
 msgid "Stadtholder %s"
-msgstr " %s統領"
+msgstr "%s総督"
 
 #: data/nation/belgian.ruleset:26 data/nation/burgundian.ruleset:31
 #: data/nation/flemish.ruleset:32 data/nation/frisian.ruleset:37
@@ -2462,7 +2271,7 @@ msgstr " %s統領"
 #: data/nation/walloon.ruleset:28
 #, c-format
 msgid "Stadtholdress %s"
-msgstr " %s統領"
+msgstr "%s総督"
 
 #: data/nation/belgic.ruleset:3
 msgid "Belgic"
@@ -2482,7 +2291,7 @@ msgid ""
 "the inhabitants of Gaul. They put up stiff resistance against Caesar's "
 "legions but eventually succumbed to the Romans. The modern country of "
 "Belgium derives its name from the Belgae."
-msgstr ""
+msgstr "ベルガエ人は、後にローマ帝国のガリア・ベルギカ州となる地域に住んでいた古代ケルトの民族です。彼らの起源はおそらくケルトとゲルマンの混血で、ライン川流域からガリアに入り、ゲルマン人の要素も含まれていたが、首長の名前はガリア人でした。\n\nユリウス・カエサルがベルガエ人をガリアの住民の中で最も勇敢な者と呼んだのは有名な話です。彼らはカエサルの軍団に対して激しい抵抗を見せましたが、最終的にはローマ軍に屈しました。\n\n現代のベルギーはベルガエ人に由来します。"
 
 #: data/nation/belgic.ruleset:32 data/nation/boian.ruleset:24
 #: data/nation/helvetian.ruleset:31
@@ -2496,7 +2305,6 @@ msgstr "高位ドルイド %s"
 msgid "?female:High Druid %s"
 msgstr "高位ドルイド %s"
 
-# カンボジアの共産主義時の称号。クメール語があると思われるのですが不明なので。
 #: data/nation/belgic.ruleset:33 data/nation/cambodian.ruleset:25
 #: data/nation/crusader.ruleset:33 data/nation/holysee.ruleset:29
 #: data/nation/italiangreek.ruleset:48 data/nation/kushan.ruleset:44
@@ -2504,7 +2312,7 @@ msgstr "高位ドルイド %s"
 #: data/nation/urartian.ruleset:35
 #, c-format
 msgid "Brother %s"
-msgstr "ブラザー %s"
+msgstr "%s兄弟"
 
 #: data/nation/belgic.ruleset:33 data/nation/cambodian.ruleset:25
 #: data/nation/crusader.ruleset:33 data/nation/holysee.ruleset:29
@@ -2513,12 +2321,10 @@ msgstr "ブラザー %s"
 #: data/nation/urartian.ruleset:35
 #, c-format
 msgid "Sister %s"
-msgstr "シスター %s"
+msgstr "%s姉妹"
 
 # clefs
 # Belgae
-# was: スポークスマン
-# インディアンやオセアニアの民族に使われているので，本来のChief（調停者）のイメージに近い訳語の方がいいと考えました。
 #: data/nation/belgic.ruleset:34 data/nation/chickasaw.ruleset:29
 #: data/nation/choctaw.ruleset:31 data/nation/gepid.ruleset:45
 #: data/nation/hasinay.ruleset:30 data/nation/hopi.ruleset:28
@@ -2712,16 +2518,15 @@ msgstr "ラマ %s"
 msgid "?female:Lama %s"
 msgstr "ラマ %s"
 
-# ブータン王国の称号。Druk Gyalpoの英訳。意味は「龍の王」。日本の外務省などの表記に従いました（Belgae）
 #: data/nation/bhutanese.ruleset:26
 #, c-format
 msgid "Dragon King %s"
-msgstr "国王 %s"
+msgstr "竜王 %s"
 
 #: data/nation/bhutanese.ruleset:26
 #, c-format
 msgid "Dragon Queen %s"
-msgstr "女王 %s"
+msgstr "竜王 %s"
 
 #: data/nation/biafran.ruleset:3
 msgid "Biafran"
@@ -2745,7 +2550,6 @@ msgstr ""
 "主な原因はビアフラの港湾が封鎖されたための飢餓と病気のためでした。ビアフラは"
 "1970年に滅ぼされました。"
 
-# カダフィですね (clefs)
 #: data/nation/biafran.ruleset:21 data/nation/hellenic.ruleset:20
 #: data/nation/nigerien.ruleset:23
 #, c-format
@@ -2923,20 +2727,16 @@ msgid "Bosnian-Herzegovinian"
 msgstr "ボスニア・ヘルツェゴヴィナ人"
 
 # Daniel
-# なんでpluralだとヘルツェゴヴィナが落ちるんでしょう (clefs)
 #: data/nation/bosnia.ruleset:4
 msgid "?plural:Bosnians"
 msgstr "ボスニア人"
 
-# clefs
-# わずか2行ですが、微妙な表現ですねえ……
 #: data/nation/bosnia.ruleset:6
 msgid ""
 "Bosnia and Herzegovina is a country in south-east Europe, and the home of "
 "three constituent peoples: Bosniaks, Serbs, and Croats."
 msgstr ""
-"ボスニア・ヘルツェゴヴィナは東南ヨーロッパの国で，ここを故地とする3つの集団か"
-"ら構成されています――ボシュニャク人，セルビア人，クロアチア人。"
+"ボスニア・ヘルツェゴビナは、ヨーロッパ南東部に位置する国で、ボスニア人、セルビア人、クロアチア人の3つの民族の故郷です。"
 
 #. TRANS: Ban = Duke
 #: data/nation/bosnia.ruleset:25 data/nation/croatian.ruleset:33
@@ -3057,7 +2857,6 @@ msgid "Electress %s"
 msgstr "選帝侯 %s"
 
 # Belgae
-# Bretonに既に〇〇人，〇〇語という意味が含まれているようですが，Wikipediaの表記に従いました。
 #: data/nation/breton.ruleset:3
 msgid "Breton"
 msgstr "ブルトン人"
@@ -3144,11 +2943,10 @@ msgstr "領主 %s"
 msgid "Lord Protector %s"
 msgstr "護国卿 %s"
 
-# clefs - 不自然？
 #: data/nation/british.ruleset:26
 #, c-format
 msgid "Lady Protector %s"
-msgstr "護国女卿 %s"
+msgstr "護国卿 %s"
 
 #: data/nation/briton.ruleset:3
 msgid "Briton"
@@ -3168,8 +2966,6 @@ msgstr ""
 "語派のブリソン諸語を話し，現代のウェールズ人，コーンウォール人，ブルトン人の"
 "祖先に当たります。"
 
-# ntaka 隊長でいいのだろうか?
-# clefs ガルシア・マルケスばりに「族長」で行ってみましょうか
 #: data/nation/briton.ruleset:21 data/nation/cornish.ruleset:20
 #: data/nation/frankish.ruleset:41 data/nation/gallic.ruleset:29
 #: data/nation/helvetian.ruleset:30 data/nation/irish.ruleset:40
@@ -3260,19 +3056,13 @@ msgstr "ブルガリア人"
 msgid "?plural:Bulgarians"
 msgstr "ブルガリア人"
 
-# clefs
-# ブルガール人は遊牧民族だったので指導者も「汗」
 #: data/nation/bulgarian.ruleset:6
 msgid ""
 "Bulgar leader Khan Asparukh led his people into the northern Balkans, and "
 "founded Bulgaria in 681. This was the first Slavic nation-state in history."
-msgstr ""
-"ブルガール人の指導者アルパルフ・ハーンは人々をバルカン半島北部へと導き，681年"
-"ここにブルガリア[訳註:「ブルガール人の地」]を建設しました。これは歴史上はじめ"
-"てのスラヴ国民国家でした。"
+msgstr "ブルガリアの指導者ハーン・アスパルクは、民を率いてバルカン半島北部に進出し、681年にブルガリアを建国しました。これが歴史上初めてのスラブ民族国家です。"
 
 # Belgae
-# ブルグントとブルゴーニュが区別されていません
 #: data/nation/burgundian.ruleset:3
 msgid "Burgundian"
 msgstr "ブルゴーニュ人"
@@ -3320,15 +3110,13 @@ msgstr "%s首相"
 msgid "?female:Chancellor %s"
 msgstr "%s首相"
 
-# Belgae
-# ブルグントとブルゴーニュが区別されていません
 #: data/nation/burgundic.ruleset:3
 msgid "Burgundic"
-msgstr "ブルグント族"
+msgstr "ブルグント人"
 
 #: data/nation/burgundic.ruleset:4
 msgid "?plural:Burgunds"
-msgstr "ブルグント族"
+msgstr "ブルグント人"
 
 #: data/nation/burgundic.ruleset:6
 msgid ""
@@ -3341,7 +3129,7 @@ msgid ""
 "their second kingdom. Eventually they were subordinated by the Frankish "
 "Kingdom. The Burgundians gave their name to the later Romance nation and "
 "region of Burgundy."
-msgstr ""
+msgstr "ブルグント人は、おそらくボーンホルム島を起源とする古代東ゲルマン人です。\n\nボーンホルムを出た後、彼らはオーデル川とヴィスワ川の間に住んでいました。この移住の時代には他のゲルマン民族とともにローマ帝国に侵入し、紀元472年にはその一部がローマを略奪しました。\n\n彼らの最初の王国はヴォルムスに築かれましたが、フン族に滅ぼされた後、現在のサヴォワとブルゴーニュに移り、そこに第二の王国を築きました。やがて彼らはフランク王国に従属しました。このブルグント人が、後のロマンス国家、ブルゴーニュ地方の名前の由来となりました。"
 
 #: data/nation/burkinabe.ruleset:3
 msgid "Burkinabé"
@@ -3421,7 +3209,7 @@ msgid ""
 "identity. Today, the Buryat Republic is home to the majority of the roughly "
 "half-million Buryats in the world as well as the center of Buddhism in "
 "Russia."
-msgstr ""
+msgstr "モンゴルの歴史年表によると、ブリヤート人はバイカル湖周辺に住む森林に住むモンゴル人部族でした。\n\n1207年、彼らはチンギス・ハーンの長男ジョチによって征服されました。1689年と1728年の条約によってブリヤート人の祖国がロシアに併合されると、彼らは他のモンゴル人から政治的に分離され、独自の民族的アイデンティティを確立し始めました。\n\n今日、ブリヤート共和国には、約50万人のブリヤート人の大多数が住んでおり、ロシアにおける仏教の中心地でもあります。"
 
 #: data/nation/californian.ruleset:3
 msgid "Californian"
@@ -3524,7 +3312,7 @@ msgid ""
 "subjugated by the Incas in the late 15th century, though they put up a "
 "fierce resistance. They rebelled during the Incan civil war and sided with "
 "the Spanish during their conquest of the Inca empire."
-msgstr ""
+msgstr "カニャーリ族は、現在のエクアドルにあったコロンブス以前の文明で、その存在は6世紀以降に遡ることができます。\n\n彼らはアンデスの中でも太陽を崇拝しない数少ない文化のひとつでした。カニャーリ語はおそらくペルーのモチカ語に関連していたと思われますが、スペインによる征服の頃には、カニャーリ族はほとんどケチュア語に切り替えていました。\n\nカニャーリ族は、グアプドンデリグ（現在のアズアイ州の州都クエンカ市）を政治の中心地とする緩やかな連合体を形成していました。15世紀後半にインカに征服されましたが、激しい抵抗を続けました。インカの内戦で反乱を起こし、インカ帝国征服の際にはスペイン側につきました。"
 
 #: data/nation/cantonese.ruleset:3
 msgid "Cantonese"
@@ -3545,7 +3333,7 @@ msgid ""
 "over much of Southern China and dominated Vietnam. In 111 BCE Nanyue was "
 "incorporated into Han Dynasty China. Cantonese is the second most spoken "
 "Chinese language after Mandarin."
-msgstr ""
+msgstr "広東人は中国南部の広東省出身の中国人の一派で、人口は約7000万人です。\n\n広東人は音楽と料理で有名で、世界中の華僑社会で重要な位置を占めています。また、香港とマカオの特別自治区でも人口の大半を占めています。\n\n紀元前2世紀、広東人が支配していた南越王国は中国南部の大部分を支配し、ベトナムを支配していました。紀元前111年、南越は漢王朝の中国に編入されました。\n\n広東語は北京語に次いで2番目に多く話されている中国語です。"
 
 #: data/nation/capeverdean.ruleset:3
 msgid "Cape Verdean"
@@ -3598,7 +3386,7 @@ msgid ""
 "Ljudevit Posavski. After its fall in 822 the state was abolished and "
 "incorporated directly into the realm of the Franks. Slovenians are the "
 "modern descendants of the Carantanians."
-msgstr ""
+msgstr "カランタニア人またはアルプス・スラブ人は、中世初期に現在のオーストリアに定住した南西スラブ民族の連合体です。\n\nカランタニア公国は最古のスラヴ国家のひとつで、紀元7世紀から存在していました。8世紀にはフランク王国に依存するようになり、ゴラズド公爵によってラテン語によるキリスト教が導入されました。\n\n819年、カランタニアはクロアチア公リュデヴィト・ポサフスキの反乱に加わりました。822年に滅亡した後、国家は廃止され、直接フランク王国の領域に組み込まれました。\n\nスロヴェニア人はカランタニア人の子孫です。"
 
 #: data/nation/castilian.ruleset:3
 msgid "Castilian"
@@ -3620,8 +3408,6 @@ msgstr ""
 "ペインの複数の自治州に分割されています。"
 
 # Belgae
-# was:カタロニア人
-# より原語に近い表記に変更します
 #: data/nation/catalan.ruleset:3
 msgid "Catalan"
 msgstr "カタルーニャ人"
@@ -3748,7 +3534,7 @@ msgid ""
 "Żeligowski announced the creation of a Republic of Central Lithuania, which "
 "was then incorporated into Poland. After World War II most of the Lithuanian "
 "Poles were displaced to Poland's new western territories."
-msgstr ""
+msgstr "リトアニア・ポーランド人はリトアニアの少数民族で、主にアウクシュトタ地方に居住しています。\n\n彼らは、1569年のルブリン合同によって成立したポーランド・リトアニア共和国の名残です。この国家はポーランド王国とリトアニア大公国を統合したもので、ヴワディスワフという名で洗礼を受けたリトアニアの大公ヨガイラによって設立されました。\n\nリトアニアにおける最初のポーランド人コミュニティの存在は、リトアニアのミンダウガス公爵にまで遡ります。最初のポーランド人は、辺境の地（主にマゾフシェ）を襲撃した際に捕虜としてリトアニアに連れてこられました。両国の統一後、リトアニア貴族のポーランド化が大きく進みました。\n\nリトアニアのポーランド語社会は、ポーランド国家の崩壊と分割を生き延び、リトアニア語社会と共存しました。1920年、反乱を起こしたジェリゴフスキ将軍が中央リトアニア共和国の樹立を宣言し、同共和国はポーランドに編入されました。\n\n第二次世界大戦後、リトアニア系ポーランド人の大半はポーランドの新西部領土に移住しました。"
 
 # clefs
 #: data/nation/centrallithuanian.ruleset:40 data/nation/chuvash.ruleset:30
@@ -3785,15 +3571,13 @@ msgstr ""
 "は1982年から1990年にわたって独裁体制を敷き，反体制派に対する多数の拷問・殺"
 "害，また少数民族に対する民族浄化を行ったことでよく知られます。"
 
-# Belgae
-# チャンパ人の方がいいでしょうか
 #: data/nation/cham.ruleset:3
 msgid "Cham"
-msgstr "チャム人"
+msgstr "チャム族"
 
 #: data/nation/cham.ruleset:4
 msgid "?plural:Chams"
-msgstr "チャム人"
+msgstr "チャム族"
 
 #: data/nation/cham.ruleset:6
 msgid ""
@@ -3812,15 +3596,13 @@ msgstr ""
 "た。このころから，チャム人貴族の大部分はイスラム教に改宗しました。現在のベト"
 "ナムにおけるムスリムの多くはチャム系の人々です。"
 
-# Belgae
-# 読み方不詳。「犬頭人」といった意訳がよいか。
 #: data/nation/chananean.ruleset:3
 msgid "Chananean"
-msgstr "犬頭人"
+msgstr "犬人"
 
 #: data/nation/chananean.ruleset:4
 msgid "?plural:Chananeans"
-msgstr "犬頭人"
+msgstr "犬人"
 
 #: data/nation/chananean.ruleset:6
 msgid ""
@@ -3833,7 +3615,7 @@ msgid ""
 "comes from the German poet Walter of Speyer. In the account by Sir John "
 "Mandeville, the people were known as the Nacumerians."
 msgstr ""
-"犬頭人，すなわち犬やジャッカルの頭を持つ獣人の記録は古代ギリシア時代にまで遡"
+"犬人，すなわち犬やジャッカルの頭を持つ獣人の記録は古代ギリシア時代にまで遡"
 "ることができます。医師クテシアスおよび旅行家メガステネスは彼らの国がインドに"
 "あるとしています。中世，プラノ・カルピニおよびマルコ・ポーロが彼らについて言"
 "及する一方，神学者ラトラムヌスは彼らを人間とみなすべきかどうかを論じていま"
@@ -3845,12 +3627,12 @@ msgstr ""
 #: data/nation/chananean.ruleset:32 data/nation/werewolf.ruleset:32
 #, c-format
 msgid "%s Alpha"
-msgstr "%s アルファ"
+msgstr "アルファ %s"
 
 #: data/nation/chananean.ruleset:32 data/nation/werewolf.ruleset:32
 #, c-format
 msgid "?female:%s Alpha"
-msgstr "%s アルファ"
+msgstr "アルファ %s"
 
 #: data/nation/chechen.ruleset:3
 msgid "Chechen"
@@ -3879,9 +3661,6 @@ msgstr ""
 msgid "Chiapanec"
 msgstr "チアパネク族"
 
-# was "中国民族"
-# 漢民族ってのはあるけど、中国民族ってのはないかなあと。
-# 民族が国を作るのか、国が民族を作るのか。(clefs)
 #: data/nation/chiapanec.ruleset:4
 msgid "?plural:Chiapanecs"
 msgstr "チアパネク族"
@@ -3895,7 +3674,7 @@ msgid ""
 "indigenous peasants and the mostly Ladino elite. The state's colonial "
 "cities, Mayan peoples and natural wealth have made it one of Mexico's major "
 "tourist destinations."
-msgstr ""
+msgstr "チアパス州はメキシコ南部の州です。植民地時代にはグアテマラから統治されていましたが、1824年に一時独立した後、メキシコへの帰属を選択しました。\n\nチアパスには先住民（主にマヤ族）が多く住んでいます。チアパス州の歴史の多くは、先住民の農民とラディーノ系エリートとの闘争によって特徴づけられてきました。\n\n植民地時代の都市、マヤ族、豊かな自然により、メキシコ有数の観光地となっています。"
 
 #: data/nation/chickasaw.ruleset:3
 msgid "Chickasaw"
@@ -3996,7 +3775,7 @@ msgid ""
 msgstr ""
 "チヌークはチヌーク語族の言語を話すインディアン部族の総称です。現在のアメリ"
 "カ・オレゴン州及びワシントン州のコロンビア川中・下流域に定住していました。彼"
-"らの言語と英語・フランス語の混成語であるチヌーク=ジャーゴンは，白人とインディ"
+"らの言語と英語・フランス語の混成語であるチヌーク＝ジャーゴンは，白人とインディ"
 "アンの貿易や意思疎通に用いられ，オレゴン州やワシントン州，カナダ・ブリティッ"
 "シュコロンビア州，アラスカ州にまで広まりました。"
 
@@ -4060,11 +3839,11 @@ msgstr ""
 
 #: data/nation/chrobatian.ruleset:3
 msgid "Chrobatian"
-msgstr "白クロアチア族"
+msgstr "白クロアチア人"
 
 #: data/nation/chrobatian.ruleset:4
 msgid "?plural:Chrobatians"
-msgstr "白クロアチア族"
+msgstr "白クロアチア人"
 
 #: data/nation/chrobatian.ruleset:6
 msgid ""
@@ -4074,13 +3853,10 @@ msgid ""
 "is a mention by the Byzantine Emperor Constantine VII Porphyrogennetos. "
 "White Croatia is sometimes associated with a prince Slavnik, lord of Libice, "
 "whose influence extended to the region of Silesia and the land of Krakow."
-msgstr ""
+msgstr "白クロアチア（Chrobatia）は、中世初期に白クロアチア人によって組織された半伝説的なスラヴ国家です。\n\n白クロアチア国家が存在したことを示す主な資料は、ビザンツ皇帝コンスタンティヌス7世ポルフィロゲネトスによる言及です。白クロアチアはリディツェの領主スラヴニク王子と関連付けられることもあり、その影響力はシレジア地方やクラクフの地まで及んでいました。"
 
 # clefs
-# 「ヴォイエヴォド」「大公」
-# 「大公」じゃ味気ないよね
 # Belgae
-# Wikipediaの表記に合わせました。
 #: data/nation/chrobatian.ruleset:31 data/nation/czechoslovak.ruleset:31
 #: data/nation/czech.ruleset:33 data/nation/macedonian.ruleset:24
 #: data/nation/slavic.ruleset:33 data/nation/slovakian.ruleset:23
@@ -4173,7 +3949,7 @@ msgid ""
 "Siberia. They may be descendants of Old Bulgarian Turkic tribes and possibly "
 "Huns. Today there are about 1.8 million Chuvashes, about half of them in the "
 "Republic of Chuvashia, which is part of the Russian Federation."
-msgstr ""
+msgstr "チュヴァシ人は、東ヨーロッパ・ロシアと西シベリアのテュルク系民族です。古代ブルガリアのテュルク系民族やフン族の末裔である可能性があります。\n\n現在、約180万人のチュヴァシ人がおり、その約半数がロシア連邦の一部であるチュヴァシ共和国に住んでいます。"
 
 #: data/nation/circassian.ruleset:3
 msgid "Circassian"
@@ -4196,7 +3972,7 @@ msgid ""
 "19th century, when they were defeated and subjected to genocide at the hands "
 "of the Russian Empire. Today less than 10% of the Circassian population "
 "lives in their original homeland."
-msgstr ""
+msgstr "チェルケス人は北西コーカサスの先住民族です。チュルカシア語またはアディゲ語は北西コーカサス語族に属し、カバルド語、アブハズ語、ウビフ語と近縁です。\n\nチュルカシア人が最初にまとまった存在として現れたのは約6000年前のことです。それにもかかわらず、彼らは歴史を通じて大帝国からの無数の侵略に抵抗することに成功しました。19世紀半ばにロシア帝国に敗れ、大量虐殺されるまで、長い歴史の中で完全に服従させられたことはありませんでした。\n\n現在では、本来の祖国に住んでいるのは、全体の10％未満です。"
 
 # clefs 音訳
 #: data/nation/circassian.ruleset:36 data/nation/ghaznavid.ruleset:32
@@ -4258,7 +4034,6 @@ msgid "Comorian"
 msgstr "コモロ人"
 
 # Daniel
-# なんでpluralだとヘルツェゴヴィナが落ちるんでしょう (clefs)
 #: data/nation/comorian.ruleset:4
 msgid "?plural:Comorians"
 msgstr "コモロ人"
@@ -4301,7 +4076,6 @@ msgstr "議長 %s"
 msgid "Chairwoman %s"
 msgstr " %s議長"
 
-# "南部人"でもいいんだけど (clefs)
 #: data/nation/confederate.ruleset:3
 msgid "Confederate"
 msgstr "南部連合"
@@ -4324,7 +4098,7 @@ msgid ""
 "their claims of independence; much of their territory laid in ruins. "
 "Furthermore, the Union victory in the Civil War opened the way for the "
 "abolition of slavery in the United States."
-msgstr ""
+msgstr "南部11州によって形成され、1861年から1865年まで存続したアメリカ合衆国の分裂国家です。\n\n南部11州は、北部との政治的・文化的な相違、とりわけ奴隷制の問題によりアメリカ合衆国から分離独立し、その頃選出されたアメリカ合衆国大統領エイブラハム・リンカーンの政府が奴隷制を廃止することを恐れました。南部連合の首都はバージニア州リッチモンドで、ジェファーソン・デイビスが唯一の大統領でした。\n\nアメリカ南北戦争は南部連合とアメリカ合衆国の戦いでした。アメリカ軍の攻撃による数度の軍事的敗北の後、南部諸州は独立の主張を放棄せざるを得なくなり、その領土の多くは廃墟と化しました。さらに、南北戦争における北軍の勝利は、アメリカにおける奴隷制廃止への道を開きました。"
 
 #: data/nation/congolesebrazzaville.ruleset:3
 msgid "Brazzaville-Congolese"
@@ -4482,8 +4256,6 @@ msgstr ""
 "コスタリカが独立共和国となったのは1840年のことです。1949年以来軍隊を持たず，"
 "ラテンアメリカの中でも民主的かつ豊かな国家の一つです。"
 
-# Belgae
-# これも日本語表記が見当たらなかったのでそのままで
 #: data/nation/cree.ruleset:3
 msgid "Cree"
 msgstr "クリー族"
@@ -4718,7 +4490,7 @@ msgid ""
 "Union in 1948. Four years after the fall of communism it was split into the "
 "Czech and Slovak republics."
 msgstr ""
-"第一次世界大戦末期の1918年に，敗色濃厚となったオーストリア=ハンガリー帝国から"
+"第一次世界大戦末期の1918年に，敗色濃厚となったオーストリア＝ハンガリー帝国から"
 "チェコスロヴァキア共和国が独立を宣言しました。1938年9月に開かれたミュンヘン会"
 "談でナチス・ドイツへのズデーテン地方割譲を強いられ，これ以降各地で民族運動が"
 "激化しました。宥和政策を取るイギリスとフランスに見捨てられた格好となったチェ"
@@ -4771,17 +4543,16 @@ msgid ""
 "were defeated in 106 CE. Dacia became a Roman province and succumbed to "
 "Roman colonization. The remains of the Dacians mingled with East Germanic "
 "tribes and later with Slavs."
-msgstr ""
+msgstr "ダキア人はドナウ川下流の左岸、現在のルーマニアにあるダキアに住んでいた古代の部族です。\n\n彼らはおそらくトラキア人や他の古バルカン半島の部族と関係がありました。ダキア諸部族の統一はブレビスタ王の時代に起こりました。\n\nローマとの戦争後、彼らは106年に敗北しました。ダキアはローマの属州となり、ローマの植民地化に屈しました。ダキア人の残党は東ゲルマン人、後にスラブ人と混血しました。"
 
 #: data/nation/dagestan.ruleset:3
 msgid "Dagestan"
-msgstr ""
+msgstr "ダゲスタン"
 
 #: data/nation/dagestan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Pakistanis"
 msgid "?plural:Dagestani"
-msgstr "パキスタン人"
+msgstr "タゲスタン人"
 
 #: data/nation/dagestan.ruleset:7
 msgid ""
@@ -4795,7 +4566,7 @@ msgid ""
 "government, it rose up multiple times against Russia, once in 1828, and "
 "again in 1917, it eventually became an autonomous republic under the Soviet "
 "Union in 1921."
-msgstr ""
+msgstr "ダゲスタンは、カスピ海沿いの北コーカサス地方に位置するロシアの共和制国家で、ロシアの共和制国家の中でも最も多様な民族が暮らす地域のひとつです。\n\n現在のタゲスタン人は、643年にアラブ人がこの地域を征服した後、ロシアの近代国境内で最初にイスラム教徒となった民族です。その後、タゲスタンは1221年にモンゴルの襲撃を受けました。\n\nダゲスタンは最終的に1813年にロシアの支配下に入り、1828年時点では帝政ロシアの支配下にありました。高額の税金とロシア政府に対する一般的な不満のため、1828年に一度、1917年に再びと、ロシアに対して何度も蜂起し、最終的には1921年にソビエト連邦の下で自治共和国となりました。"
 
 #: data/nation/dahomean.ruleset:3
 msgid "Dahomean"
@@ -4916,16 +4687,14 @@ msgstr ""
 "いでください。"
 
 #: data/nation/donetsk.ruleset:3
-#, fuzzy
 #| msgid "Nenets"
 msgid "Donetsk"
-msgstr "ネネツ人"
+msgstr "ドネツク人"
 
 #: data/nation/donetsk.ruleset:4
-#, fuzzy
 #| msgid "?plural:Dominicans"
 msgid "?plural:Donchyani"
-msgstr "ドミニカ人"
+msgstr "ドネツク人"
 
 #: data/nation/donetsk.ruleset:6
 msgid ""
@@ -4950,19 +4719,19 @@ msgid ""
 "Assembly passed a resolution calling on countries not to recognise what it "
 "called the \"attempted illegal annexation\" and demanded that Russia "
 "\"immediately, completely and unconditionally withdraw.\""
-msgstr ""
+msgstr "ドネツク人民共和国（略称DPR）は、ウクライナ東部ドネツク州の、ロシアによる占領地域にある未承認の共和国で、首都はドネツクにあります。DPRは2014年にロシアの支援を受けた武装勢力によって創設され、2022年にロシアに併合されるまで、当初は分離国家として活動していました。\n\n2014年のウクライナの尊厳革命後、同国東部では親ロシア派の反革命的な動乱が勃発しました。ロシアはウクライナからクリミアを併合し、武装分離主義者は政府庁舎を占拠し、ルハンスク人民共和国（LPR）とドネツク人民共和国（DPR）を独立国家として宣言しました。これがドンバス戦争の発端となり、より広範なロシア・ウクライナ戦争の一部となりました。この紛争中、DPRとLPRはロシアの傀儡国家と評されることもありましたが、2022年までに国連加盟国から国際的な承認を得ることはありませんでした。\n\n2022年2月21日、ロシアはLPRとDPRを主権国家として承認しました。その3日後、ロシアはこの2国の保護を口実に、部分的にウクライナへの侵攻を開始しました。ロシア軍はドネツク州の大部分を占領し、同州はロシアの一部となりました。\n\n2022年9月、ロシアは、国際法上違法な住民投票を経て、DPRとその他の占領地の併合を宣言しました。国連総会は、「不法な併合の試み」と称するものを承認しないよう各国に呼びかけ、ロシアに対して「即時、完全かつ無条件に撤退する」ことを要求する決議を採択しました。"
 
 #: data/nation/donetsk.ruleset:40 data/nation/luhansk.ruleset:37
-#, fuzzy, c-format
+#, c-format
 #| msgid "Hetman %s"
 msgid "Kremlin %s"
-msgstr "ヘーチマン %s"
+msgstr "クレムリン %s"
 
 #: data/nation/donetsk.ruleset:40 data/nation/luhansk.ruleset:37
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Hetman %s"
 msgid "?female:Kremlin %s"
-msgstr "ヘーチマン %s"
+msgstr "クレムリン %s"
 
 # フランス語読み。日本で一般的なので。(Belgae)
 #: data/nation/dryad.ruleset:3
@@ -5116,7 +4885,6 @@ msgstr ""
 "アッシュールバニパル王の率いるアッシリアによって破壊されました。"
 
 # Belgae
-# 「首長国人」は変ですしねえ
 #: data/nation/emirati.ruleset:3
 msgid "Emirati"
 msgstr "アラブ首長国連邦人"
@@ -5245,17 +5013,15 @@ msgstr ""
 "エストニアはバルト海東側の南部沿岸にある小国です。民族と言語はフィンランドと"
 "密接な関係があります。"
 
-# Belgae
-# Load Protectorを護国卿と訳すのは定訳ですが，こちらは定訳なのでしょうか。Wikipediaからの流れでしか確認できないので。
 #: data/nation/estonian.ruleset:21 data/nation/peruvian.ruleset:25
 #, c-format
 msgid "Protector %s"
-msgstr "護国官 %s"
+msgstr "護民官 %s"
 
 #: data/nation/estonian.ruleset:21 data/nation/peruvian.ruleset:25
 #, c-format
 msgid "?female:Protector %s"
-msgstr "護国官 %s"
+msgstr "護民官 %s"
 
 #: data/nation/etruscan.ruleset:3
 msgid "Etruscan"
@@ -5286,33 +5052,21 @@ msgstr ""
 "り，性道徳の乱れた文化であると描写しています。しかし，ローマ文明はその多くを"
 "先達であるエトルリアに負っています。"
 
-# clefs
-# ほとんどの場合は「ヨーロッパ」でいいのだけれど，nationとしての
-# Europeanが追加されたので，そこでだけは「ヨーロッパ人」と表示したいところ
-# Belgae
-# ?を使って分けられているので「ヨーロッパ人」に変えました。
 #: data/nation/european.ruleset:3
 msgid "European"
 msgstr "欧州連合"
 
-# 統合の進むヨーロッパを一つの新しい単位と見ているわけです (clefs)
 #: data/nation/european.ruleset:4
 msgid "?plural:Europeans"
 msgstr "欧州連合"
 
-# clefs
-# "super state" (力を持つ)「超大国」？　(理念的な)「超国家」？
 #: data/nation/european.ruleset:6
 msgid ""
 "The foundation for the European Union was laid in 1957 with the Treaty of "
 "Rome. The EU project has developed since then and is beginning to resemble a "
 "fledgeling super state. But the question remains: Does such a thing as a "
 "common European identity and nation actually exist?"
-msgstr ""
-"欧州連合は1957年のローマ条約によって基礎ができました。EU計画はそれから発展を"
-"続け，生まれつつある超大国という様相を呈しはじめています。しかしながら疑問は"
-"残っています――欧州という共有されたアイデンティティや国家といったようなものは"
-"果して本当に存在しているのでしょうか？"
+msgstr "欧州連合（EU）は1957年のローマ条約によってその礎が築かれました。それ以来、EUプロジェクトは発展し、新興の超国家のような様相を呈し始めています。\n\nしかし、疑問は残ります。欧州という共通のアイデンティティや国家といったものは、実際に存在するのでしょうか？"
 
 #: data/nation/european.ruleset:23 data/nation/frankish.ruleset:42
 #: data/nation/holyroman.ruleset:34 data/nation/holysee.ruleset:31
@@ -5355,7 +5109,7 @@ msgid ""
 "on today's Russian-Mongolian border since the Stone Age. When encountered by "
 "the Russians in the 17th century, the Evenks were tribal hunter-gatherers "
 "and reindeer herders."
-msgstr ""
+msgstr "エヴェンキ族はシベリア、モンゴル、中国北部に住むツングース系民族です。\n\n歴史的な証拠によると、彼らは石器時代から現在のロシアとモンゴルの国境にあるバイカル地方に住んでいました。17世紀にロシア人が遭遇したとき、エヴェンキ族は狩猟採集とトナカイ放牧の部族でした。"
 
 #: data/nation/faroese.ruleset:3
 msgid "Faroese"
@@ -5460,7 +5214,6 @@ msgstr ""
 "ます。"
 
 # clefs
-# 無理に男女で訳し分けることもないですよね
 #: data/nation/finnish.ruleset:28 data/nation/kashubian.ruleset:29
 #: data/nation/prussian.ruleset:29 data/nation/southafrican.ruleset:25
 #: data/nation/southvietnamese.ruleset:24
@@ -5509,39 +5262,38 @@ msgid ""
 "Machiavelli. The De' Medici family eventually managed to consolidate its "
 "hold on Florence, and in the 16th century the Republic was turned into the "
 "Grand Duchy of Tuscany. In 1859 it was annexed by Italy."
-msgstr ""
+msgstr "フィレンツェ共和国は、1115年にトスカーナの辺境伯領を倒して建国されました。\n\n政治的陰謀が常態化していたにもかかわらず、フィレンツェはその時代で最も壮麗な都市国家となりました。ダンテ、サヴォナローラ、ミケランジェロ、ダ・ヴィンチ、マキャヴェッリといった著名人を輩出したフィレンツェは、ルネサンス期のイタリア、そしてヨーロッパの文化的、哲学的リーダーでした。\n\nデ・メディチ家はやがてフィレンツェの支配を強固にし、16世紀には共和国はトスカーナ大公国になりました。1859年にはイタリアに併合されました。"
 
 #: data/nation/florentine.ruleset:39 data/nation/genoese.ruleset:49
 #: data/nation/milanese.ruleset:26 data/nation/venetian.ruleset:27
 #, c-format
 msgid "Condottiere %s"
-msgstr " %s傭兵隊長"
+msgstr "%s傭兵隊長"
 
 #: data/nation/florentine.ruleset:39 data/nation/genoese.ruleset:49
 #: data/nation/milanese.ruleset:26 data/nation/venetian.ruleset:27
 #, c-format
 msgid "Condottiera %s"
-msgstr " %s傭兵隊長"
+msgstr "%s傭兵隊長"
 
 #: data/nation/florentine.ruleset:40 data/nation/milanese.ruleset:27
 #: data/nation/piedmontese.ruleset:33 data/nation/sardinian.ruleset:34
 #: data/nation/sicilian.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Fra %s"
-msgstr "\"%s\""
+msgstr "%s師"
 
-# ミラノ人が民主主義の時に使用するのですが，いわれはあるのでしょうかねえ？イタリア語Capitanoの音をそのまま。(Belgae)
 #: data/nation/florentine.ruleset:42 data/nation/italiangreek.ruleset:51
 #: data/nation/milanese.ruleset:29
 #, c-format
 msgid "Captain %s"
-msgstr "カピタノ %s"
+msgstr "指揮官 %s"
 
 #: data/nation/florentine.ruleset:42 data/nation/italiangreek.ruleset:51
 #: data/nation/milanese.ruleset:29
 #, c-format
 msgid "?female:Captain %s"
-msgstr "カピタノ %s"
+msgstr "指揮官 %s"
 
 #: data/nation/florida.ruleset:3
 #| msgid "Florentine"
@@ -5585,7 +5337,7 @@ msgid ""
 "Starting in the 17th century, European and East Asian colonists vied for "
 "control of the island, encroaching on aboriginal lands. Today, Formosans "
 "constitute around 2% of the population of Taiwan."
-msgstr ""
+msgstr "台湾には14の公認部族と12の未公認部族が存在し、伝統的にオーストロネシア語族の台湾語を話す民族です。歴史言語学者たちは、台湾がオーストロネシア語族の故郷であり、最も多様なオーストロネシア語群が存在する島であると考えています。\n\n多くの部族は伝統的に母系制をとっています。17世紀以降、ヨーロッパと東アジアの植民者たちが島の支配権を争い、原住民の土地を侵食していきました。現在、台湾原住民は台湾の人口の約2％を占めています。"
 
 #: data/nation/franconian.ruleset:3
 msgid "Franconian"
@@ -5639,7 +5391,7 @@ msgid ""
 "the 10th century CE the Frankish empire had broken up for good into West "
 "Francia, which later became France, and East Francia, which later became the "
 "Holy Roman Empire or Germany."
-msgstr ""
+msgstr "フランク人は、紀元3世紀に現在のドイツ北西部に形成されたゲルマン人の連合体です。\n\n5世紀後半に指導者クロヴィスがキリスト教に改宗し、フランク諸部族を統一してガリアの大部分を征服しました。クロヴィスの後継者たちはフランク王国の支配を中央ヨーロッパの大部分に拡大しました。\n\nフランク王国はゲルマンとローマの要素を混ぜ合わせ、ヨーロッパ中世の文化、社会、政治の基礎を築きました。停滞期を経て、フランク王国は8世紀に再統一されました。\n\n800年、フランク王シャルルマーニュはローマ教皇によって皇帝に即位しました。彼の死後、フランク王国は再び分裂しました。10世紀には、フランク王国は、後にフランスとなる西フランク王国と、後に神聖ローマ帝国やドイツとなる東フランク王国に分かれていました。"
 
 #: data/nation/frankish.ruleset:43
 #, c-format
@@ -5803,7 +5555,6 @@ msgstr "ガリシアはスペイン北西部，ポルトガルのすぐ北に当
 
 # clefs
 # Belgae
-# was:ゴール人
 #: data/nation/gallic.ruleset:3
 msgid "Gallic"
 msgstr "ガリア人"
@@ -5833,7 +5584,6 @@ msgstr ""
 "で撃滅されました。"
 
 # Belgae
-# 自称は「マッシュリー」だったようですが。
 #: data/nation/gambian.ruleset:3
 msgid "Gambian"
 msgstr "ガンビア人"
@@ -5851,26 +5601,22 @@ msgstr ""
 "ています。アフリカ大陸において最も面積が小さい国です。1965年にイギリスから独"
 "立しました。"
 
-# clefs これも訳せば「王」になってしまいますが
 #: data/nation/gambian.ruleset:19 data/nation/malian.ruleset:20
 #: data/nation/senegalese.ruleset:20
 #, c-format
 msgid "Mansa %s"
-msgstr "マンサ %s"
+msgstr "皇帝 %s"
 
 #: data/nation/gambian.ruleset:19 data/nation/malian.ruleset:20
 #: data/nation/senegalese.ruleset:20
 #, c-format
 msgid "?female:Mansa %s"
-msgstr "マンサ %s"
+msgstr "皇帝 %s"
 
 #: data/nation/genoese.ruleset:3
 msgid "Genoese"
 msgstr "ジェノヴァ人"
 
-# clefs
-# スリランカ人はシンハリ族やタミル族などからなり、
-# 「スリランカ（民）族」と訳すのは不適切でしょう
 #: data/nation/genoese.ruleset:4
 msgid "?plural:Genoese"
 msgstr "ジェノヴァ人"
@@ -5885,19 +5631,17 @@ msgid ""
 "restoration was briefly proclaimed in 1814, following the defeat of "
 "Napoleon, this was short-lived, and the Republic was ultimately annexed by "
 "the Kingdom of Sardinia."
-msgstr ""
+msgstr "ジェノヴァ共和国（イタリア語: Repubblica di Genova）は、11世紀からナポレオン率いるフランス革命軍の侵攻を受ける1797年まで、イタリア北西部沿岸のリグーリア州にあった独立国家です。その後、リグーリア共和国が1805年まで存続し、フランス帝国に併合されました。\n\n1814年、ナポレオンの敗北により一時的に復興が宣言されましたが、それも束の間、共和国は最終的にサルデーニャ王国に併合されました。"
 
-# Belgae
-# 総督と訳されるようです。
 #: data/nation/genoese.ruleset:51 data/nation/venetian.ruleset:30
 #, c-format
 msgid "Doge %s"
-msgstr "ドージェ %s"
+msgstr "総督 %s"
 
 #: data/nation/genoese.ruleset:51 data/nation/venetian.ruleset:30
 #, c-format
 msgid "Dogaressa %s"
-msgstr "ドガレッサ %s"
+msgstr "総督夫人 %s"
 
 # clefs
 #: data/nation/georgian.ruleset:3
@@ -5983,7 +5727,7 @@ msgid ""
 "the same rights as their Flemish and French-speaking compatriots. As a "
 "result, they are often dubbed 'the best protected minority of Europe' and "
 "'the last true Belgians'."
-msgstr ""
+msgstr "ドイツ語共同体は、ベルギーの3つの共同体政府のひとつで、同国最東部に位置するワロン地域の一部です。この地域は第一次世界大戦後、ドイツによる占領の補償としてベルギーに併合されました。\n\nドイツ語圏の人口は約7万5,000人で、ベルギーの人口の1％未満です。長い間軽視されてきましたが、ドイツ語を話すベルギー人は現在、フラマン語やフランス語を話す同胞と同じ権利を享受しています。その結果、彼らはしばしば「ヨーロッパで最も保護された少数民族」「最後の真のベルギー人」と呼ばれています。"
 
 #: data/nation/germanic.ruleset:3
 msgid "Germanic"
@@ -6006,7 +5750,7 @@ msgid ""
 "established on what was once the Western Roman Empire. By this time most "
 "Germanic peoples had changed their ancestral polytheistic religion for "
 "Christianity."
-msgstr ""
+msgstr "ゲルマン民族は北ヨーロッパと北西ヨーロッパに存在する民族言語複合体です。ゲルマン諸語は、インド・ヨーロッパ語族に属する原ゲルマン語から派生したと考えられています。\n\n古代ゲルマン民族の起源はかなり仮説的です。ゲルマン語には、他のインド・ヨーロッパ語族には存在しない多くの特徴があります。\n\n北ドイツ平原と南スカンディナヴィアで最初に存在が証明されたゲルマン人は、前2世紀以降ローマ人と衝突しました。やがて中世初期には、かつて西ローマ帝国だった場所にゲルマン王国が成立しました。この頃までに、ゲルマン民族の大半は先祖伝来の多神教をキリスト教に変えていました。"
 
 #: data/nation/ghanaian.ruleset:3
 msgid "Ghanaian"
@@ -6140,7 +5884,7 @@ msgid ""
 "century CE. The Goths played a major role in the fall of the Roman Empire, "
 "sacking Rome itself in 410 CE. The Visigoths conquered Roman Iberia while "
 "the Ostrogoths founded a kingdom in Italy."
-msgstr ""
+msgstr "ゴート族は東ゲルマン人で、現在のポーランドか、おそらくスカンディナヴィアに起源を持ちます。紀元4世紀には南東ヨーロッパを支配しました。\n\nゴート族はローマ帝国の滅亡に大きな役割を果たし、紀元410年にはローマそのものを略奪しました。西ゴート族はローマ帝国のイベリア半島を征服し、オストロゴート族はイタリアに王国を築きました。"
 
 #: data/nation/greaterpolish.ruleset:3
 msgid "Greater Polish"
@@ -6178,7 +5922,7 @@ msgstr ""
 "伝説によれば，大シャーマンQitdlarssuaqがイヌイットの民を引き連れてグリーンラ"
 "ンド西岸の地トゥーレ(カーナーク)に移住したといいます。ほぼ同時期に，スカンジ"
 "ナビアからの入植者が島の南西端のフィヨルドに到達しました。今日，グリーンラン"
-"ドはデンマーク王国の自治領であり，イヌイットとスカンジナビア人が混住していま"
+"ドはデンマーク王国の自治領であり，イヌイットとスカンディナヴィア人が混住していま"
 "す。"
 
 #: data/nation/grenadian.ruleset:3
@@ -6320,8 +6064,6 @@ msgstr ""
 "得しました。フォーブス・バーナムの下でガイアナはマルクス主義を指向する国家と"
 "なりましたが，1980年代には市場民主主義への移行が始まりました。"
 
-# ntaka 大統領でいいのだろうか?
-# 1970年の独立時は象徴大統領制だったのが，1980年に憲法を改正して大統領権限を強め，それ以来Executive Presidentと呼ぶようになったようです。
 #: data/nation/guyanese.ruleset:27 data/nation/lankese.ruleset:22
 #, c-format
 msgid "Executive President %s"
@@ -6507,12 +6249,7 @@ msgstr ""
 "1959年8月21日のことです。"
 
 # 古代ギリシア人がGreek、現代のギリシャ人がHellenicということらしい。
-# ローマに征服されてから，オスマン帝国から独立するまで2000年の断絶があるから
-# 無理はないのだけれど，「現代ギリシャ人」と訳しても
-# ゲームは4000BCから始まるわけなのでもう訳し分けようがない。
-# 「エリニキ人」じゃ誰もわからないだろうし :-/ (clefs)
-# 本来の自称がヘレネス→エリニキ人，ローマ人からの他称がギリシャ人。ドイツ人をGermanyと呼ぶようなもの。解説文もあるのでそのまま訳しておきます。
-# (Belgae)
+# Belgae
 #: data/nation/hellenic.ruleset:3
 msgid "Hellenic"
 msgstr "ギリシャ人"
@@ -6521,15 +6258,11 @@ msgstr "ギリシャ人"
 msgid "?plural:Hellenes"
 msgstr "ギリシャ人"
 
-# clefs
-# 苦しいなあ
 #: data/nation/hellenic.ruleset:6
 msgid ""
 "The Hellenic Republic - also known as Greece - was created when the Hellenic "
 "people gained independence from the Ottoman Empire in 1832."
-msgstr ""
-"ギリシャ独立戦争の結果，1832年にコンスタンティノープル条約が締結され，ギリ"
-"シャの人々はオスマン帝国からの独立を正式に認められました。"
+msgstr "ギリシャ共和国は、1832年にギリシャの人々がオスマン帝国から独立したときに誕生しました。"
 
 #: data/nation/helvetian.ruleset:3
 msgid "Helvetian"
@@ -6549,7 +6282,7 @@ msgid ""
 "used by Caesar as a pretext to conquer Helvetia and the rest of Gaul. The "
 "Helvetians succumbed to the Romans and became Romanized during the following "
 "centuries."
-msgstr ""
+msgstr "ヘルウェティイ族（ラテン語: Helvetii）は、現在のスイスと隣接するフランスとドイツに住んでいた古代ケルト人です。\n\nヘルウェティイ族は、キケロ側などに立ってローマの内紛に協力することもありました。ヘルウェティイ族は、ガリアの諸部族を支配しようと努力する、大きく広大な部族でした。\n\nヘルウェティイ族の酋長オルゲトリクスの作戦は、カエサルがヘルウェティイとガリアの他の部族を征服する口実として利用されました。ヘルウェティイ族はローマ人に屈服し、その後数世紀の間にローマ人化しました。"
 
 #: data/nation/hephthalite.ruleset:3
 msgid "Hephthalite"
@@ -6617,9 +6350,7 @@ msgstr "ヒムヤル人"
 msgid "?plural:Himyar"
 msgstr "ヒムヤル人"
 
-# Belgae
-# 525年のあたりは原文が変？
-# サーサーン朝をマンダ教としているけれど国教はゾロアスター教のはず。
+# サーサーン朝の国教はゾロアスター教であるようです。
 #: data/nation/himyarite.ruleset:7
 msgid ""
 "The Himyar were originally a mountain tribe in what is now Yemen that "
@@ -6634,18 +6365,7 @@ msgid ""
 "to Sassanid in 575 and in 628, the fifth Sassanid satrap of \"al-Yaman\" "
 "converted to Islam and Southern Arabia was incorporated into the new, "
 "expanding Muslim empire."
-msgstr ""
-"ヒムヤルは元々，現在イエメンとなっている地域の山岳民族でしたが，アラビア半島"
-"南部にある他の王国を征服しました。その中には，香料交易で栄え，紀元前115年に征"
-"服されたサバ王国も含まれます。ヒムヤルは城郭建築に優れていました。ベドウィン"
-"の略奪に対抗するには要塞を築くことが不可欠と考えていたからです。エチオピアの"
-"アクスム王国は紀元340年にサバ地域を占領しましたが，378年にはヒムヤル王国が再"
-"興されました。しかし525年に，再びアクスム王国に占領されました。王国の滅亡は，"
-"アクスム王国やビザンツ帝国などのキリスト教国と，マンダ教のサーサーン朝ペルシ"
-"アの間での対立に挟まれたことを遠因であり，また南部アラブの民が多数の部族へと"
-"分裂したことにもよります。この地の征服者は575年にはアクスム王国からサーサーン"
-"朝へと代わり，628年にはサーサーン朝の第5代イエメン総督がイスラムへと改宗し，"
-"南部アラブは拡大するムスリム帝国の新たな一部となりました。"
+msgstr "ヒムヤルはもともと現在のイエメンにいた山岳民族で、前115年に、香の交易で富を得ていた、サバア王国を含む他の南アラビア王国を征服しました。ベドウィンの襲撃から身を守るために城塞を築く必要があったため、ヒムヤルは築城術にも優れていました。\n\nエチオピアのアクスム王国が340年から378年までサバア王国を支配しましたが、525年にヒムヤル軍によって再征服されました。\n\nこの国の滅亡は、一方ではキリスト教国アクスムとビザンツ帝国、他方ではゾロアスター教のサーサーン朝ペルシア、そしてその間に分かれた南アラビアの諸派が関与する緩慢な過程でした。575年にアクスム朝の支配からサーサーン朝の支配に変わり、628年にはサーサーン朝のイエメン第5代サトラップがイスラム教に改宗し、南アラビアは拡大する新イスラム帝国に組み込まれました。"
 
 #: data/nation/holyroman.ruleset:3
 msgid "Holy Roman"
@@ -6682,8 +6402,6 @@ msgstr "教皇領人"
 msgid "?plural:Papal States"
 msgstr "教皇領人"
 
-# Belgae
-# "by the pious and the wealthy"の部分の意味がよくわかりません。
 #: data/nation/holysee.ruleset:6
 msgid ""
 "The Papal States were the territories on the Italian Peninsula and elsewhere "
@@ -6691,11 +6409,7 @@ msgid ""
 "the 8th century CE from territory donated to the Church by the pious and the "
 "wealthy, the Papal States grew to become the dominant power in Italy for "
 "centuries."
-msgstr ""
-"教皇領はイタリア半島その他にあった，ローマ・カトリック教皇の直接統治下にあっ"
-"た領域のことです。紀元8世紀に領土が教皇庁へと寄進されたことで成立した教皇領"
-"は，宗教的権威と世俗的権力を併せ持つものとして成長し，何世紀もの間イタリアに"
-"おける最有力の勢力となりました。"
+msgstr "教皇領とは、イタリア半島などにある、ローマ・カトリックの教皇が直接統治する領土のことです。\n\n紀元8世紀、敬虔な人々や裕福な人々から教会に寄進された領土をもとに設立された教皇庁諸国は、何世紀にもわたってイタリアを支配する勢力に成長しました。"
 
 #: data/nation/holysee.ruleset:28
 #, c-format
@@ -6795,18 +6509,13 @@ msgstr "アイスランド人"
 msgid "?plural:Icelanders"
 msgstr "アイスランド人"
 
-# clefs
-# 構文変えました
 #: data/nation/icelandic.ruleset:6
 msgid ""
 "Iceland was long one of the largest uninhabited islands in the world, until "
 "it was settled by Norwegian Vikings in the late 9th century. The island was "
 "kept initially under the Norwegian and later the Danish crown until "
 "independence from Denmark in 1944."
-msgstr ""
-"アイスランドは，9世紀後半にノルウェー・バイキングが入植するまで長らく世界最大"
-"の無人島の一つでした。この島は当初はノルウェーの，次いでデンマーク王室の支配"
-"下にありましたが，1944年にデンマークから独立しました。"
+msgstr "アイスランドは、9世紀後半にノルウェーのヴァイキングが入植するまで、長い間、世界最大級の無人島でした。1944年にデンマークから独立するまで、当初はノルウェー、後にデンマークの統治下にありました。"
 
 # clefs
 #: data/nation/illyrian.ruleset:3
@@ -6832,19 +6541,13 @@ msgstr ""
 "に入植しました。イリュリアの諸王国は数世紀にわたって独立を保ちましたが，ロー"
 "マ共和国によって征服されました。"
 
-# clefs
-# ほとんどの場合は「ヨーロッパ」でいいのだけれど，nationとしての
-# Europeanが追加されたので，そこでだけは「ヨーロッパ人」と表示したいところ
-# Belgae
-# ?を使って分けられているので「ヨーロッパ人」に変えました。
 #: data/nation/indoeuropean.ruleset:3
 msgid "Indo-European"
-msgstr "原インド・ヨーロッパ人"
+msgstr "インド・ヨーロッパ祖族"
 
-# 統合の進むヨーロッパを一つの新しい単位と見ているわけです (clefs)
 #: data/nation/indoeuropean.ruleset:4
 msgid "?plural:Indo-Europeans"
-msgstr "原インド・ヨーロッパ人"
+msgstr "インド・ヨーロッパ祖族"
 
 #: data/nation/indoeuropean.ruleset:6
 msgid ""
@@ -6857,13 +6560,13 @@ msgid ""
 "have been made. One of the first scientists who noted the similarities "
 "between these languages was Sir William Jones."
 msgstr ""
-"原インド・ヨーロッパ人は仮説上の民族で，現代のヨーロッパと西・南アジアの言語"
+"インド・ヨーロッパ祖族は仮説上の民族で，現代のヨーロッパと西・南アジアの言語"
 "の起源であるインド・ヨーロッパ祖語を用いていました。およそ6000年前の黒海周辺"
 "に住んでいたという説が有力ですが，正確な時代と場所は依然として謎に包まれてい"
 "ます。インド・ヨーロッパ語族に属する各言語の類似性について最初に指摘した科学"
 "者の一人がウィリアム・ジョーンズです。その後これらの言語に関する分析や，イン"
-"ド・ヨーロッパ祖語を再建する試みから彼らの存在が推測されました。また原イン"
-"ド・ヨーロッパ人は単一民族「アーリア人」であるという学説が発表され，後にナチ"
+"ド・ヨーロッパ祖語を再建する試みから彼らの存在が推測されました。またイン"
+"ド・ヨーロッパ祖族は単一民族「アーリア人」であるという学説が発表され，後にナチ"
 "ス・ドイツと結びつきましたが，これは現在ではほとんど支持されていません。"
 
 # clefs
@@ -6952,7 +6655,7 @@ msgid ""
 "North of Ireland was settled in the 17th century by Scottish and English "
 "planters and is now part of the United Kingdom."
 msgstr ""
-"アイルランドはローマやバイキングに対して持ちこたえていましたが，1171年にノル"
+"アイルランドはローマやヴァイキングに対して持ちこたえていましたが，1171年にノル"
 "マン人により征服されました。イギリスに統治されていましたが，1922年にその大部"
 "分に限定的な自治が与えられ，1949年には共和国となりました。アイルランド北部に"
 "は17世紀にスコットランド人とイギリス人の入植者が定着し，現在は連合王国[イギリ"
@@ -6980,13 +6683,13 @@ msgstr ""
 #: data/nation/israeli.ruleset:23
 #, c-format
 msgid "Kibbutznik %s"
-msgstr "キブツニック %s"
+msgstr "キブツの一員 %s"
 
 #: data/nation/israeli.ruleset:23
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Kibbutznik %s"
 msgid "?female:Kibbutznikit %s"
-msgstr "キブツニック %s"
+msgstr "キブツの一員 %s"
 
 #: data/nation/israeli.ruleset:25 data/nation/khazar.ruleset:35
 #, c-format
@@ -7053,7 +6756,7 @@ msgid ""
 "Empire, Southern Italy was temporarily part of the Byzantine Empire as the "
 "Catepanate of Italia. A Greek-speaking population has survived in these "
 "areas to modern times."
-msgstr "古代マグナ・グラエシアは、ギリシア植民地時代にイタリアとシチリアの海岸に築かれたギリシアの都市群です。エトルリアやローマ文化の発展に重要な役割を果たしました。\n\n紀元前5世紀、マグナ・グラエシアは、ギリシャ文化の一大中心地であった都市国家シラクサによって支配されていました。その他の主要都市には、タラント、クロトン、シバリス、メッサーナなどがありました。マグナ・グラエシアは徐々にローマに征服され、紀元前272年までに征服が完了しました。\n\n西ローマ帝国滅亡後、南イタリアは一時的にイタリア・カテパン国としてビザンチン帝国の一部となりました。これらの地域には、現代でもギリシャ語を話す人々がいます。"
+msgstr "古代マグナ・グラエシアは、ギリシア植民地時代にイタリアとシチリアの海岸に築かれたギリシアの都市群です。エトルリアやローマ文化の発展に重要な役割を果たしました。\n\n紀元前5世紀、マグナ・グラエシアは、ギリシャ文化の一大中心地であった都市国家シラクサによって支配されていました。その他の主要都市には、タラント、クロトン、シバリス、メッサーナなどがありました。マグナ・グラエシアは徐々にローマに征服され、紀元前272年までに征服が完了しました。\n\n西ローマ帝国滅亡後、南イタリアは一時的にイタリア・カテパン国としてビザンツ帝国の一部となりました。これらの地域には、現代でもギリシャ語を話す人々がいます。"
 
 #: data/nation/italiangreek.ruleset:50
 #, c-format
@@ -7061,7 +6764,6 @@ msgid "Tyranne %s"
 msgstr "僭主 %s"
 
 # Belgae
-# Côte d'Ivoire（コートジボワール）国民。Ivoireはフランス語で「象牙」の意味。
 #: data/nation/ivoirian.ruleset:3
 msgid "Ivoirian"
 msgstr "コートジボワール人"
@@ -7089,14 +6791,12 @@ msgid "?plural:Jaffnas"
 msgstr "ジャフナ人"
 
 #: data/nation/jaffna.ruleset:7
-#, fuzzy
 msgid ""
 "The Jaffna Kingdom was a medieval Tamil kingdom based in the north of Sri "
 "Lanka. It was a successful southern rival to the Chola Empire on the Indian "
 "mainland."
 msgstr ""
-"ジャフナ王国は13世紀から17世紀にかけて，スリランカ北部を支配したタミル系国家"
-"です。"
+"ジャフナ王国はスリランカ北部にあった中世のタミル王国です。インド本土のチョーラ帝国の南のライバルとして繁栄しました。"
 
 #: data/nation/jamaican.ruleset:3
 msgid "Jamaican"
@@ -7247,7 +6947,7 @@ msgid ""
 "Republic is de facto independent but not recognized by any UN member. In "
 "Armenian the region is also known as Artsakh, named after a province of the "
 "ancient Armenian kingdom."
-msgstr ""
+msgstr "主にアルメニア人が住んでいましたが、1920年代にソ連がコーカサスを制圧した後、ナゴルノ・カラバフはアゼルバイジャンに与えられました。\n\nソ連が崩壊する直前、この地域はアゼルバイジャンからの独立を宣言し、ナゴルノ・カラバフとアルメニアの2国対アゼルバイジャンの戦争に発展しました。1994年に停戦が合意されましたが、紛争はいまだ収束していません。ナゴルノ・カラバフ共和国は事実上独立していますが、国連加盟国には承認されていません。\n\nアルメニア語ではアルツァフとも呼ばれ、古代アルメニア王国の州名にちなんで命名されました。"
 
 #: data/nation/karelian.ruleset:3
 msgid "Karelian"
@@ -7321,7 +7021,7 @@ msgid ""
 "customs through, among others, local radio and television programmes, comic "
 "books, and even several fully Kashubianized distributions of Linux operating "
 "system."
-msgstr ""
+msgstr "カシュビアはポーランド中北部の歴史的な地域です。カシュビアという地名は、13世紀に初めて言及されたもので、その語源は未だ不明です。\n\nカシューブ人は、ポーランドの他の地域とは全く異なる言語と文化を持っています。今日、カシューブ人のコミュニティは、地元のラジオ番組やテレビ番組、コミック本、さらには完全にカシュビナイズされたLinuxオペレーティング・システムのいくつかのディストリビューションなどを通じて、彼らの言語、文学、習慣を育んでいます。"
 
 #: data/nation/katangan.ruleset:3
 msgid "Katangan"
@@ -7410,11 +7110,11 @@ msgstr "タルカン %s"
 
 #: data/nation/khoisan.ruleset:3
 msgid "Khoisan"
-msgstr "コイサン"
+msgstr "コイサン族"
 
 #: data/nation/khoisan.ruleset:4
 msgid "?plural:Khoisan"
-msgstr "コイサン"
+msgstr "コイサン族"
 
 #: data/nation/khoisan.ruleset:6
 msgid ""
@@ -7425,7 +7125,7 @@ msgid ""
 "peoples carry some of the most ancient genetic lineages in the world. Today "
 "there are over 300,000 Khoisan people, forming significant minorities in and "
 "around the Kalahari desert in Namibia, Botswana, South Africa, and Angola."
-msgstr ""
+msgstr "コイサン語を話す人々は、伝統的に牧畜民であるコイコイ族と、伝統的に狩猟採集民であるサン族に分かれています。\n\n彼らは伝統的に、地球上で最も平等主義的な社会です。特にサン族の社会は、家族とバンドという制度を中心に組織されています。\n\nコイサン族は、世界で最も古い遺伝系統を受け継いでいます。現在、30万人以上のコイサン族がナミビア、ボツワナ、南アフリカ、アンゴラのカラハリ砂漠周辺に少数民族を形成しています。"
 
 # Belgae
 #: data/nation/khwarezmian.ruleset:3
@@ -7587,7 +7287,7 @@ msgid ""
 "San Blas) is known worldwide as a tourist center and the Kunas have "
 "established something of a reputation for managing to combine tradition and "
 "modernity."
-msgstr ""
+msgstr "クナ族は北米と南米が接するダリエン地峡に住むチブチャン族です。\n\n1925年にクナの族長ネレ・カントゥレがパナマ当局に対して反乱を起こしました。それ以来、パナマはクナの故郷であるクナ・ヤラに大きな自治権を認めています。\n\n現在、クナ・ヤラ（サンブラスとも呼ばれる）は観光の中心地として世界的に知られており、クナ族は伝統と現代性をうまく融合させることで名声を確立しています。"
 
 #: data/nation/kurd.ruleset:3
 msgid "Kurdish"
@@ -7708,17 +7408,14 @@ msgid ""
 "in an alliance with the Avars, the Langobards under king Alboin invaded "
 "Italia in 568. They founded a new kingdom with its capital in Pavia. The "
 "modern region of Lombardy derives its name from the Lombards."
-msgstr ""
+msgstr "ランゴバルド人は古代ゲルマン民族です。彼らはスカンディナヴィア出身ですが、エルベ川下流域に定住しました。\n\n紀元166年、彼らはローマ帝国のパンノニア州とノリクム州への攻撃に参加しました。彼らの最初の国家はドナウ川に築かれました。\n\nアヴァール人との同盟でゲピド族を破ったランゴバルド人は、568年にアルボイーノ王のもとイタリアに侵入しました。彼らはパヴィアに首都を置く新しい王国を建国しました。\n\n現在のロンバルディア地方は、ランゴバルド人に由来します。"
 
 # clefs
-# 「ランカー人」では通りが悪いかな，と
 #: data/nation/lankese.ruleset:3
 msgid "Lankese"
 msgstr "スリランカ人"
 
 # clefs
-# スリランカ人はシンハリ族やタミル族などからなり、
-# 「スリランカ（民）族」と訳すのは不適切でしょう
 #: data/nation/lankese.ruleset:4
 msgid "?plural:Lankese"
 msgstr "スリランカ人"
@@ -7745,7 +7442,6 @@ msgid "?female:Supreme Commander %s"
 msgstr " %s最高司令官"
 
 # Belgae
-# ラオスの主要民族ラーオ族ではなくラオス国民という意味でこの名称を使用しました。
 #: data/nation/laotian.ruleset:3
 msgid "Laotian"
 msgstr "ラオス人"
@@ -7822,7 +7518,6 @@ msgid "?plural:Lebanese"
 msgstr "レバノン人"
 
 # Belgae
-# 独立宣言は1941年のようですが。
 #: data/nation/lebanese.ruleset:6
 msgid ""
 "Located in the Levant, the Eastern shore of the Mediterranean, Lebanon "
@@ -7946,7 +7641,7 @@ msgid ""
 "Northeastern Adriatic coast in modern Croatia. They were probably distinct "
 "from their neighbors, the Illyrians, and spoke an Italic language. They were "
 "Romanized after the annexation of their land by Rome."
-msgstr ""
+msgstr "リブルニア人は古代インド・ヨーロッパ語族で、現在のクロアチアのアドリア海沿岸北東部に住んでいました。\n\n彼らはおそらく近隣のイリュリア人とは区別され、イタリア語を話していました。ローマに併合された後、ローマ化されました。"
 
 #: data/nation/libyan.ruleset:3
 msgid "Libyan"
@@ -8015,13 +7710,11 @@ msgstr "修道院長 %s"
 msgid "?female:Prime Ministress %s"
 msgstr "%s首相"
 
-# Belgae
-# Sergeant MajorだったDesi Bouterseがクーデターで政権を獲ったことが元ネタと思われるのでこう訳しました。
 #: data/nation/liege.ruleset:31
-#, fuzzy, c-format
+#, c-format
 #| msgid "Sergeant %s"
 msgid "Regent %s"
-msgstr "%s曹長"
+msgstr "評議員 %s"
 
 #: data/nation/ligurian.ruleset:3
 msgid "Ligurian"
@@ -8044,14 +7737,14 @@ msgstr ""
 "リア州やリグリア海などに残っています。"
 
 #: data/nation/ligurian.ruleset:24 data/nation/malaysian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Paramount Ruler %s"
-msgstr "最高首長 %s"
+msgstr "最高統治者 %s"
 
 #: data/nation/ligurian.ruleset:24 data/nation/malaysian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Paramount Ruler %s"
-msgstr "最高首長 %s"
+msgstr "最高統治者 %s"
 
 #: data/nation/lipkatatar.ruleset:3
 msgid "Lipka Tatar"
@@ -8089,7 +7782,7 @@ msgid ""
 "River and the southeast part of the Teutoburg forest."
 msgstr ""
 "リッペ侯国は，かつてドイツに存在した領邦国家です。ヴェーザー川とトイトブルク"
-"の森南東部の間に位置していました。現在のドイツ連邦共和国ノルトライン=ヴェスト"
+"の森南東部の間に位置していました。現在のドイツ連邦共和国ノルトライン＝ヴェスト"
 "ファーレン州デトモルト行政管区リッペ郡にあたります。"
 
 #: data/nation/lithuanian.ruleset:3
@@ -8132,7 +7825,6 @@ msgstr ""
 "立で，簡明で学習しやすいのが特徴です。"
 
 # Belgae
-# ドイツ語のロートリンゲンや，初期のロタリンギアという呼び方もありますが，民族名ではないので微妙です。
 #: data/nation/lorrain.ruleset:3
 msgid "Lorrain"
 msgstr "ロレーヌ人"
@@ -8157,18 +7849,14 @@ msgstr ""
 "です。"
 
 #: data/nation/louisianian.ruleset:3
-#, fuzzy
 #| msgid "Lithuanian"
 msgid "Louisianian"
-msgstr "リトアニア人"
+msgstr "ルイジアナ人"
 
-# Daniel
-# なんでpluralだとヘルツェゴヴィナが落ちるんでしょう (clefs)
 #: data/nation/louisianian.ruleset:4
-#, fuzzy
 #| msgid "?plural:Bosnians"
 msgid "?plural:Louisianians"
-msgstr "ボスニア人"
+msgstr "ルイジアナ人"
 
 #: data/nation/louisianian.ruleset:6
 msgid ""
@@ -8177,46 +7865,40 @@ msgid ""
 "seceed from the United States, existing independently for a short time until "
 "February 26, 1861 when it finally joined the Confederate States of America. "
 "The state was formally admitted back into the union on July 9, 1868."
-msgstr ""
+msgstr "1861年1月26日、ルイジアナ州はアメリカ合衆国からの分離独立を決議し、1861年2月26日に南部連合に加盟するまでのしばらくの間、独立して存続しました。\n\n1868年7月9日に正式に合衆国に復帰しました。"
 
 #: data/nation/louisianian.ruleset:45
-#, fuzzy, c-format
+#, c-format
 #| msgid "High King %s"
 msgid "Kingfish %s"
-msgstr "上王 %s"
+msgstr "王 %s"
 
-# Daniel
 #: data/nation/louisianian.ruleset:45
-#, fuzzy, c-format
+#, c-format
 #| msgid "High Queen %s"
 msgid "Queenfish %s"
-msgstr "上女王 %s"
+msgstr "女王 %s"
 
-# Daniel
-# 入れ替えあり
 #: data/nation/louisianian.ruleset:46
-#, fuzzy, c-format
+#, c-format
 #| msgid "Governor %s"
 msgid "Governeror %s"
-msgstr "%s総督"
+msgstr "%s州知事"
 
-# Daniel
-# 入れ替えあり
 #: data/nation/louisianian.ruleset:46
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Governor %s"
 msgid "?female:Governeror %s"
-msgstr "%s総督"
+msgstr "%s州知事"
 
 #: data/nation/luhansk.ruleset:3
 msgid "Luhansk"
-msgstr ""
+msgstr "ルハンスク人"
 
 #: data/nation/luhansk.ruleset:4
-#, fuzzy
 #| msgid "?plural:Luwians"
 msgid "?plural:Luhansk"
-msgstr "ルウィ族"
+msgstr "ルハンスク人"
 
 #: data/nation/luhansk.ruleset:6
 msgid ""
@@ -8238,7 +7920,7 @@ msgid ""
 "republics. In September 2022, Russia proclaimed the annexation of the LPR "
 "and other occupied territories, following illegitimate referendums which "
 "were illegal under international law."
-msgstr ""
+msgstr "ルハンスク人民共和国（略称LPR）は、ウクライナ東部ルハンスク州の、ロシアによる占領地域にある未承認の共和国で、首都はルハンスクにあります。LPRは2014年にロシアの支援を受けた武装勢力によって創設され、2022年にロシアに併合されるまで、当初は分離国家として活動していました。\n\n2014年のウクライナの尊厳革命後、同国東部では親ロシア派の反革命的騒乱が勃発しました。ロシアはウクライナからクリミアを併合し、武装分離主義者は政府庁舎を占拠し、ルハンスク人民共和国（LPR）とドネツク人民共和国（DPR）を独立国家として宣言しました。これがドンバス戦争の発端となり、より広範なロシア・ウクライナ戦争の一部となりました。この紛争中、LPRとDPRはロシアの傀儡国家と評されることもありましたが、2022年までに国連加盟国から国際的な承認を得ることはありませんでした。\n\n2022年2月21日、ロシアはLPRとDPRを主権国家として承認しました。その3日後、ロシアはこの2国の保護を口実にウクライナへの侵攻を開始しました。\n\n2022年9月、ロシアは、国際法上違法な住民投票を経て、LPRとその他の占領地の併合を宣言しました。"
 
 #: data/nation/luwian.ruleset:3
 msgid "Luwian"
@@ -8254,7 +7936,7 @@ msgid ""
 "late Bronze Age. For a time after the fall of the Hittite Empire they took a "
 "dominant role in the region. One of the most important Neo-Hittite states "
 "was Tabal (biblical Tubal), located in Syria and Southeastern Anatolia."
-msgstr ""
+msgstr "ルウィ族は青銅器時代後期に生きた古代インド・ヨーロッパ語族のアナトリア人です。\n\nヒッタイト帝国滅亡後の一時期、彼らはこの地域で支配的な役割を果たしました。最も重要な新ヒッタイト国家のひとつは、シリアとアナトリア南東部に位置するタバル（聖書のトゥバル）でした。"
 
 #: data/nation/luxembourgish.ruleset:3
 msgid "Luxembourgish"
@@ -8288,7 +7970,7 @@ msgid ""
 "to the 6th century BCE. Lycians were allies of Troy during the Trojan War, "
 "when they were led by the legendary heroes Sarpedon and Glaucus. Their state "
 "was subordinated to the Persian Empire in the 6th century BCE."
-msgstr ""
+msgstr "リュキアは紀元前15世紀から6世紀まで存在した古代アナトリア南西部の国家です。\n\nリュキア人はトロイ戦争の際、トロイの同盟国であり、伝説上の英雄サルペドンとグラウコスによって率いられていました。前6世紀にはペルシャ帝国に従属しました。"
 
 #: data/nation/maasai.ruleset:3
 msgid "Maasai"
@@ -8311,7 +7993,6 @@ msgstr ""
 "によく知られています。"
 
 # Belgae
-# 現在のマケドニア共和国民
 #: data/nation/macedonian.ruleset:3
 msgid "Macedonian"
 msgstr "マケドニア人"
@@ -8387,9 +8068,7 @@ msgstr ""
 "まるに連れてこの国は衰退し，1500年頃には滅亡しました。"
 
 # clefs
-# 「マラガシ人」ではわかりにくいかなあ，と思ったのだけれど…
 # Belgae
-# 単にMalagasyはMadagascarの形容詞形だというだけですから「マダガスカル人」で問題ありません。Englishを「イングリッシュ人」と訳さないのと同じ事です。
 #: data/nation/malagasy.ruleset:3
 msgid "Malagasy"
 msgstr "マダガスカル人"
@@ -8398,8 +8077,6 @@ msgstr "マダガスカル人"
 msgid "?plural:Malagasies"
 msgstr "マダガスカル人"
 
-# Malagasyを「マダガスカル人」と訳すと
-# この文章は翻訳不能になってしまいますね(clefs)
 #: data/nation/malagasy.ruleset:6
 msgid ""
 "The Malagasy are the people of Madagascar. For centuries, tribes from "
@@ -8449,7 +8126,6 @@ msgid "?plural:Malaysians"
 msgstr "マレーシア人"
 
 # clefs
-# Melakaの発音は微妙
 #: data/nation/malaysian.ruleset:6
 msgid ""
 "Malaysia was started with the founding of Malacca (Melaka) by Parameswara in "
@@ -8519,18 +8195,17 @@ msgstr ""
 "イギリスによって支配されました。マルタは1964年に独立し，2004年にはEUに加盟し"
 "ました。"
 
-# 騎士団国の専制政治用の君主号なので。ただオーストリアにも使うので微妙。(Belgae)
 #: data/nation/maltese.ruleset:27 data/nation/templar.ruleset:40
 #: data/nation/teutonic.ruleset:30
 #, c-format
 msgid "Master %s"
-msgstr " %s団長"
+msgstr "%s団長"
 
 #: data/nation/maltese.ruleset:27 data/nation/templar.ruleset:40
 #: data/nation/teutonic.ruleset:30
 #, c-format
 msgid "Mistress %s"
-msgstr " %s団長"
+msgstr "%s団長"
 
 #: data/nation/mamluk.ruleset:3
 msgid "Mamluk"
@@ -8569,39 +8244,28 @@ msgstr " %s・パシャ"
 msgid "?female:%s Pasha"
 msgstr " %s・パシャ"
 
-# clefs
 #: data/nation/manchu.ruleset:3
 msgid "Manchu"
-msgstr "満州人"
+msgstr "満州族"
 
-# clefs
 #: data/nation/manchu.ruleset:4
 msgid "?plural:Manchus"
-msgstr "満州人"
+msgstr "満州族"
 
-# clefs
-# 女真，満州，清の訳し分けが微妙
-# 原文そのままではなく日本での
-# 一般的な表記に合わせました(Belgae)
 #: data/nation/manchu.ruleset:6
 msgid ""
 "The Manchus were a semi-nomadic people originating from the region called "
 "Manchuria in Northeast Asia. In the 17th century they conquered and ruled "
 "China as the Manchu Empire until 1911."
-msgstr ""
-"満州人は満州と呼ばれる東北アジアの地域に起源を持つ半遊牧の民族です。17世紀に"
-"は中国の地を征服し，清帝国として1911年まで支配しました。"
+msgstr "満州族は北東アジアの満州と呼ばれる地域を起源とする半遊牧民族です。17世紀に中国を征服し、満州帝国として1911年まで支配しました。"
 
-# Belgae
-# 微妙ですが。
 #: data/nation/manx.ruleset:3
 msgid "Manx"
-msgstr "マン人"
+msgstr "マン島人"
 
-# clefs
 #: data/nation/manx.ruleset:4
 msgid "?plural:Manx"
-msgstr "マン人"
+msgstr "マン島人"
 
 #: data/nation/manx.ruleset:6
 msgid ""
@@ -8673,11 +8337,11 @@ msgstr ""
 
 #: data/nation/marathi.ruleset:3
 msgid "Marathi"
-msgstr "マラーティー人"
+msgstr "マラーター"
 
 #: data/nation/marathi.ruleset:4
 msgid "?plural:Marathis"
-msgstr "マラーティー人"
+msgstr "マラーター"
 
 #: data/nation/marathi.ruleset:6
 msgid ""
@@ -8685,17 +8349,17 @@ msgid ""
 "17th century, the Marathi prince Shivaji established the Maratha "
 "confederacy, waging war on the Moghul empire and eventually replacing the "
 "Moghuls as the main power on the Indian subcontinent."
-msgstr ""
+msgstr "マラーターはインドのマハラシュトラ州に住む人々です。\n\n17世紀、マラーターの王子シヴァージーがマラーター連合を樹立し、モグール帝国と戦争を繰り広げ、やがてモグール帝国に代わってインド亜大陸の主要勢力となりました。"
 
 #: data/nation/marathi.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "High Brahmin %s"
 msgstr "大祭司 %s"
 
 #: data/nation/marathi.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "?female:High Brahmin %s"
-msgstr "高位ドルイド %s"
+msgstr "大祭司 %s"
 
 #: data/nation/marshallese.ruleset:3
 msgid "Marshallese"
@@ -8712,7 +8376,7 @@ msgid ""
 "primarily by Micronesians, the islands became an independent republic in "
 "free association with the United States in 1986. In the mid-20th the United "
 "States carried out numerous nuclear tests on the islands."
-msgstr ""
+msgstr "マーシャル諸島は、赤道の真北に位置する西太平洋の国で、多数の島と環礁からなります。主にミクロネシア人が居住し、1986年にアメリカと自由連合を結んで独立しました。\n\n20世紀半ば、アメリカはこの島々で何度も核実験を行いました。"
 
 #: data/nation/martian.ruleset:3
 msgid "Martian"
@@ -8830,15 +8494,12 @@ msgid ""
 "of the Persians against the Median ruler Astyages. It was the first multi-"
 "ethnic empire and controlled a vast area spanning from the Halys river to "
 "what is now Afghanistan."
-msgstr ""
+msgstr "メディアは古代イランの国家で、ヨーロッパのスキタイ人の親戚である西イラン人のメデ人が作りました。彼らの国家は、メデイア人の支配者アスティアゲスに対するペルシャ人の反乱の結果として形成されたペルシャのアケメネス朝帝国に先行していました。\n\n最初の多民族帝国であり、ハリス川から現在のアフガニスタンまでの広大な地域を支配しました。"
 
-# これも適当。ペルシアに女シャーっていましたっけ？ (clefs)
-# とりあえずカタカナ化で
-# 単なる王妃の意味のようです(Belgae)
 #: data/nation/median.ruleset:34
 #, c-format
 msgid "%s Shahanshah"
-msgstr "シャーハンシャー %s"
+msgstr "王の中の王 %s"
 
 #: data/nation/messapian.ruleset:3
 msgid "Messapian"
@@ -9004,8 +8665,6 @@ msgstr "ミスキート族"
 msgid "?plural:Miskito"
 msgstr "ミスキート族"
 
-# Belgae
-# Wikipediaでは1万５千人，あるサイトでは7万人などとさまざま。
 #: data/nation/miskito.ruleset:6
 msgid ""
 "Living along the eponymous Miskito Coast of Nicaragua and Honduras, the "
@@ -9020,7 +8679,7 @@ msgstr ""
 "ニカラグアとホンジュラスにまたがり，民族名の由来でもあるミスキート海岸沿いに"
 "暮らすミスキート族は，現在およそ20万人を数えます。1625年，ミスキートは長期に"
 "渡る政治的関係を大英帝国と結びました。大英帝国はスペイン帝国とカリブ海の権益"
-"を巡って対立していたのです。この年にモスキート「王国」が結成されたものの，結"
+"を巡って対立していたのです。この年にミスキート「王国」が結成されたものの，結"
 "束は緩やかなものでしかなく，王朝が立ちましたが彼らの名前は英語名でしか知られ"
 "ていません。1740年には正式にイギリスの保護領となりました。1世紀後には公式な保"
 "護領の関係は終わり，1894年にニカラグア政府がこの地域を併合しました。"
@@ -9109,7 +8768,7 @@ msgid ""
 "1949, led to the proclamation of the Republic of the South Moluccas in 1950. "
 "The rebellion was crushed, but a government in exile continues to operate, "
 "not recognized by any country."
-msgstr ""
+msgstr "モルッカ諸島は、植民地時代にスパイス諸島として知られたインドネシア群島の島々です。マレー系民族が住み、スペイン、ポルトガル、イギリスによって争奪戦が行われましたが、16世紀にはオランダの支配下に入りました。\n\n脱植民地化の過程では、多くのモルッカ人がオランダ東インド軍に味方しました。このことと、1949年のインドネシア独立後、ジャワ島が中央集権主義を強めたことが、1950年の南モルッカ共和国宣言につながりました。\n\n反乱は鎮圧されましたが、どの国からも承認されていない亡命政府が活動を続けています。"
 
 #: data/nation/monegasque.ruleset:3
 msgid "Monegasque"
@@ -9208,7 +8867,6 @@ msgstr ""
 "領との同君連合のもとにありました。"
 
 # Belgae
-# ルーマニア系のモルドバ人と紛らわしい。ｌとrの違いが日本語では区別できないので。
 #: data/nation/mordvin.ruleset:3
 msgid "Mordvin"
 msgstr "モルドヴィン人"
@@ -9347,7 +9005,6 @@ msgstr ""
 "登場しました。スペイン人の征服は素早く，1541年以降は叛乱も起きず，18世紀には"
 "彼らの言語も滅んでしまいました。"
 
-# スペイン語表記がCaciqueなのでおそらくこのように発音（Belgae）
 #: data/nation/mwiska.ruleset:27
 #, c-format
 msgid "Cacique %s"
@@ -9424,7 +9081,6 @@ msgid "?plural:Navajo"
 msgstr "ナバホ族"
 
 # Belgae
-# Dineは南北アサバスカ語族全体を指すようです。
 #: data/nation/navajo.ruleset:6
 msgid ""
 "The Navajo or Diné are the most populous Native American nation of the "
@@ -9555,7 +9211,6 @@ msgid "?plural:New Zealanders"
 msgstr "ニュージーランド人"
 
 # clefs
-# country, dominion ... あー訳しにくい
 #: data/nation/newzealand.ruleset:6
 msgid ""
 "The island group of New Zealand was annexed by Britain in 1840. Following a "
@@ -9633,7 +9288,6 @@ msgstr ""
 "ア(Nigeria)を混同しないようにしてください。"
 
 # Belgae
-# 一般には「ネズ・パース族」と書かれるようですが。
 #: data/nation/nimiipuu.ruleset:3
 msgid "Nimíipuu"
 msgstr "ネズ・パース族"
@@ -9683,13 +9337,12 @@ msgstr ""
 
 #: data/nation/northirish.ruleset:3
 msgid "Northern Irish"
-msgstr ""
+msgstr "北アイルランド人"
 
 #: data/nation/northirish.ruleset:4
-#, fuzzy
 #| msgid "?plural:Cornish"
 msgid "?plural:Northern Irish"
-msgstr "コーンウォール人"
+msgstr "北アイルランド人"
 
 #: data/nation/northirish.ruleset:6
 msgid ""
@@ -9701,23 +9354,19 @@ msgid ""
 "known as 'The Troubles' and established a power-sharinggovernment that gives "
 "both sides a say in the affairs of the region.Northern Ireland is known for "
 "its scenic landscapes and cultural heritage."
-msgstr ""
+msgstr "北アイルランドは、アイルランド島の北東部を占めるイギリスの一部です。\n\n北アイルランドは、英国への残留を望む英国連合派とアイルランド共和国への復帰を目指すアイルランド民族派との対立と協調の複雑な歴史を持ちます。1998年の「聖金曜日合意」によって「トラブル（訳注：婉曲的にそう呼ばれているようです）」と呼ばれた暴力的な時代は終わりを告げ、双方に地域問題への発言権を与える権力分立政権が樹立されました。\n\n北アイルランドは風光明媚な景観と文化遺産で知られています。"
 
-# clefs
-# was "最初の首相" (# yasu)
-# Belgae
-# was 首席大臣
 #: data/nation/northirish.ruleset:39 data/nation/scottishgaelic.ruleset:37
 #: data/nation/scottish.ruleset:26
 #, c-format
 msgid "First Minister %s"
-msgstr "%s首相"
+msgstr "%s首席大臣"
 
 #: data/nation/northirish.ruleset:39 data/nation/scottishgaelic.ruleset:37
 #: data/nation/scottish.ruleset:26
 #, c-format
 msgid "?female:First Minister %s"
-msgstr "%s首相"
+msgstr "%s首席大臣"
 
 # Belgae
 #: data/nation/northkorean.ruleset:3
@@ -9738,18 +9387,16 @@ msgstr ""
 "国，朝鮮民主主義人民共和国(北朝鮮)と大韓民国に分割されました。それから60年以"
 "上経過してもなお，北朝鮮はスターリン主義の共産主義国家のままです。"
 
-# イメージはスターリン? (clefs)
 #: data/nation/northkorean.ruleset:25
 #, c-format
 msgid "Dear Leader %s"
-msgstr "我らが親愛なる指導者 %s"
+msgstr "親愛なる指導者 %s"
 
 #: data/nation/northkorean.ruleset:25
 #, c-format
 msgid "?female:Dear Leader %s"
-msgstr "我らが親愛なる指導者 %s"
+msgstr "親愛なる指導者 %s"
 
-# イメージはスターリン? (clefs)
 #: data/nation/northkorean.ruleset:26 data/nation/soviet.ruleset:30
 #, c-format
 msgid "Great Leader %s"
@@ -9780,9 +9427,6 @@ msgstr ""
 "ヴリス王によって統一されて生まれました。アングロサクソン七王国の主要国家で"
 "あったこの王国は，10世紀にイングランドに併合されました。"
 
-# ノルウェイ/ノルウェー
-# ちなみに正式名称は"Norge"(ノルゲ)です
-# 日本・ノルウェー両政府の公式表記やWikipediaなどに合わせ，ノルウェーに変更しました(Belgae)
 #: data/nation/norwegian.ruleset:3
 msgid "Norwegian"
 msgstr "ノルウェー人"
@@ -9881,7 +9525,6 @@ msgid "?female:Great Pharaoh %s"
 msgstr "偉大なファラオ %s"
 
 # Belgae
-# 自称は「マッシュリー」だったようですが。
 #: data/nation/numidian.ruleset:3
 msgid "Numidian"
 msgstr "ヌミディア人"
@@ -9912,7 +9555,6 @@ msgstr ""
 "域が，ローマの属州に加えられました。"
 
 # Belgae
-# ヌートカ族という呼び名が一般的なようなので，そちらの方がいいですかね。ヌーチャヌルスには「人々」の意味が既に含まれているようですし。
 #: data/nation/nuu-chah-nulth.ruleset:3
 msgid "Nuu-chah-nulth"
 msgstr "ヌートカ族"
@@ -9959,17 +9601,15 @@ msgstr ""
 "リ派は教皇より異端と認定され，そのことはフランス王がその後の十字軍でこの地域"
 "を併合する根拠となりました。"
 
-# Belgae
-# 伯，公などとのバランスから考えると「子」なのですが，紛らわしいので
 #: data/nation/occitan.ruleset:28
 #, c-format
 msgid "Viscount %s"
-msgstr " %s子爵"
+msgstr "%s子爵"
 
 #: data/nation/occitan.ruleset:28
 #, c-format
 msgid "Viscountess %s"
-msgstr " %s子爵"
+msgstr "%s子爵"
 
 #: data/nation/ohlone.ruleset:3
 msgid "Ohlone"
@@ -10043,7 +9683,7 @@ msgid ""
 "Mazovia, Lithuania and the Baltic Sea (Baltic coast between the lower "
 "Vistula and lower Nemen). They were conquered and germanized by the Teutonic "
 "Order."
-msgstr ""
+msgstr "古プロイセン人は、ポメラニア、マゾフシェ、リトアニアとバルト海（ヴィスワ川下流域とネマン川下流域のバルト海沿岸）に挟まれた地域に住んでいたバルト民族です。\n\n彼らはドイツ騎士団によって征服され、ゲルマン化されました。"
 
 #: data/nation/omani.ruleset:3
 msgid "Omani"
@@ -10146,15 +9786,13 @@ msgstr ""
 "人口を抱えるオトミ族は，メキシコの先住民族の中でも特に規模の大きいグループで"
 "す。"
 
-# オスマン帝国を形成していたのはオスマン人でもオスマン族でもないんですが
-# まあ仕方ないとしましょう (clefs)
 #: data/nation/ottoman.ruleset:3
 msgid "Ottoman"
-msgstr "オスマン人"
+msgstr "オスマン帝国人"
 
 #: data/nation/ottoman.ruleset:4
 msgid "?plural:Ottomans"
-msgstr "オスマン人"
+msgstr "オスマン帝国人"
 
 # clefs
 #: data/nation/ottoman.ruleset:6
@@ -10174,16 +9812,15 @@ msgstr ""
 "に北アフリカのかなりの部分を次々と征服し，第一次世界大戦後に解体を迎えるまで"
 "の間，この地域の超大国となったのでした。"
 
-# clefs 音訳音訳
 #: data/nation/ottoman.ruleset:29
 #, c-format
 msgid "Padishah %s"
-msgstr "パーディシャー %s"
+msgstr "皇帝 %s"
 
 #: data/nation/ottoman.ruleset:29
 #, c-format
 msgid "?female:Padishah %s"
-msgstr "パーディシャー %s"
+msgstr "皇帝 %s"
 
 #: data/nation/ozite.ruleset:3
 msgid "Ozite"
@@ -10233,7 +9870,7 @@ msgid ""
 "Bylazora. In 360-359 BCE, southern Paeonian tribes launched raids into "
 "Macedon, but the Macedons defeated and conquered them. A Paeonian military "
 "contingent participated in the expedition of Alexander the Great to Persia."
-msgstr ""
+msgstr "パエオニア人は、古代マケドニア王国の北、トラキア人とイリュリア人の間に住んでいた古代人です。\n\n彼らの言語は、おそらくトラキア語とイリュリア語が混ざったものであると考えられます。パイオニア王家の本拠地はビラゾラでした。\n\n前360～359年、パエオニア南部の諸部族が古代マケドニアに侵入しましたが、古代マケドニアはこれを撃破し征服しました。また、アレクサンダー大王のペルシア遠征には、パエオニア軍が参加しました。"
 
 # Belgae
 #: data/nation/pakistani.ruleset:3
@@ -10566,7 +10203,6 @@ msgid "?plural:Phoenicians"
 msgstr "フェニキア人"
 
 # Belgae
-# 実際には「カナニ」の方が他称でフェニキアの方が自称に近かったという説もあるようです。
 #: data/nation/phoenician.ruleset:6
 msgid ""
 "Phoenicia was an ancient civilization, based in what is now the coastal "
@@ -10605,7 +10241,7 @@ msgid ""
 "some historians with the fall of the Hittite State. After the Macedonian "
 "conquest of the Achaemenid Empire and after the arrival of the Galatians to "
 "Anatolia, the Phrygians succumbed to Hellenization."
-msgstr ""
+msgstr "フリギア人は古代のインド・ヨーロッパ人で、おそらくギリシア人やトラキア人と関係があると思われます。\n\n彼らは紀元前12世紀頃、東地中海地域で海の民が侵入してきた頃にアナトリアに到着しました。フリギア人がアナトリアに到着したことを、ヒッタイトの滅亡と関連づける歴史家もいます。\n\nマケドニア人がアケメネス朝を征服し、ガラテヤ人がアナトリアに到着した後、フリギア人はヘレン化に屈しました。"
 
 #: data/nation/pictish.ruleset:3
 msgid "Pictish"
@@ -10623,7 +10259,7 @@ msgid ""
 "custom of tattooing their bodies. The Picts survived until well into the "
 "Middle Ages but by the 11th century they had been assimilated by the Gaelic "
 "Scots."
-msgstr ""
+msgstr "ピクト人は古代スコットランド、カレドニアの先住民でした。\n\n彼らはおそらくケルト人、あるいはケルト化した先インド・ヨーロッパ人であると考えられます。彼らは体に入れ墨をする習慣があったため、ローマ人によってピクト人（painted peopleの意）と呼ばれるようになりました。\n\nピクト人は中世まで存続しましたが、11世紀にはスコットランド・ゲール人に同化されました。"
 
 #: data/nation/piedmontese.ruleset:3
 msgid "Piedmontese"
@@ -10673,7 +10309,7 @@ msgid ""
 "finally fell to the Ottomans in 1461. During the Turkish-Greek population "
 "transfers after World War I, most Pontic Greeks were deported, and today the "
 "population of Pontus is almost exclusively Turkish."
-msgstr ""
+msgstr "ポントスは小アジアの黒海沿岸に位置し、現在はトルコに属していますが、歴史的にはギリシャ文化圏の一部でした。紀元前3世紀にヘレニズムのポントス王国が建国され、ミトリダテス大王の時代に最大の栄華を極めましたが、その後ローマに屈しました。\n\nローマ帝国とビザンツ帝国の支配が数世紀続いた後、1204年に崩壊したビザンツ帝国の後継のひとつとしてトレビゾンド帝国が建国されると、ポントスは再び独立国家となりました。コムネノス朝のもと、トレビゾンドはローマ帝国の最後の残党として、1461年にオスマン帝国に滅ぼされるまで存続しました。\n\n第一次世界大戦後のトルコとギリシャの人口移動の際、ポントス地方のギリシャ人の大半は国外に追放され、現在、ポントス地方の人口はほぼトルコ人のみとなっています。"
 
 #: data/nation/prussian.ruleset:3
 msgid "Prussian"
@@ -10853,7 +10489,7 @@ msgid ""
 "heartland of Germany. Since the end of World War II the Rhineland is divided "
 "between the German states of North Rhine-Westphalia, Rhineland-Palatinate "
 "and Saarland."
-msgstr ""
+msgstr "ラインラントは、神聖ローマ帝国のケルン、トリーア、マインツという3つの選帝侯領と、数多くの小領土の所在地でした。\n\n17世紀以降、ラインラント諸州は徐々にプロイセンに吸収されました。1822年にはプロイセンのライン州が設立されました。産業革命の時代、この地域はドイツの経済と工業の中心地となりました。\n\n第二次世界大戦後、ラインラントはノルトライン＝ヴェストファーレン州、ラインラント＝プファルツ州、ザールラント州に分割されました。"
 
 #: data/nation/riffian.ruleset:3
 msgid "Riffian"
@@ -10876,23 +10512,19 @@ msgstr ""
 
 #: data/nation/riograndense.ruleset:3
 msgid "Rio-Grandense"
-msgstr "リオグランデンセ人"
+msgstr "リオ・グランデンセ人"
 
 #: data/nation/riograndense.ruleset:4
 msgid "?plural:Rio-Grandenses"
-msgstr "リオグランデンセ人"
+msgstr "リオ・グランデンセ人"
 
-# 「リオ・グランデ共和国」とも。ただアメリカとメキシコの国境部にも短期間そういう名前の国が存在したので，今後の追加の可能性から名前を変えておきました。(Belgae)
 #: data/nation/riograndense.ruleset:6
 msgid ""
 "The Rio-Grandense Republic or Piratini Republic existed in the Brazilian "
 "state of Rio Grande do Sul from 1836 to 1845. It fought the War of Tatters "
 "against the Brazilian Imperial Army and was supported by Giuseppe Garibaldi "
 "amongst others."
-msgstr ""
-"リオグランデンセ共和国(ピラティニ共和国とも)はブラジルのリオグランデ・ド・ス"
-"ル州に1836年から1845年まで存在しました。彼らはブラジル帝国軍との間でボロ衣戦"
-"争を戦い，ジュゼッペ・ガルバルディ他の支援を受けました。"
+msgstr "リオ・グランデンセ共和国またはピラティニ共和国は、1836年から1845年までブラジルのリオ・グランデ・ド・スル州に存在しました。ブラジル帝国軍と戦い、ジュゼッペ・ガリバルディらによって支援されました。"
 
 #: data/nation/romanian.ruleset:3
 msgid "Romanian"
@@ -10922,7 +10554,6 @@ msgstr ""
 msgid "Director-President %s"
 msgstr "最高指導者 %s"
 
-# ntaka 大統領でいいのだろうか?
 #: data/nation/romanian.ruleset:32
 #, c-format
 msgid "?female:Director-President %s"
@@ -10945,7 +10576,7 @@ msgid ""
 "to save the language, it is losing terrain as many of its speakers switch to "
 "German. Before the Napoleonic Era, the Three Leagues of Grisons were the "
 "only territory of Europe where decision making was organized by taking votes."
-msgstr ""
+msgstr "スイスのグラウビュンデン州に住むロマンシュ人は、ロマンス語の一種であるロマンシュ語を話します。\n\nロマンシュ語は、スイスの4つの国語の1つであり、ロマンシュ語保存のためのプロジェクトも進められていますが、多くの話者がドイツ語に移行しているため、ロマンシュ語の地勢は失われつつあります。\n\nナポレオン時代以前、グラウビュンデンの三同盟は、ヨーロッパで唯一、投票によって意思決定が行われていました。"
 
 #: data/nation/rusyn.ruleset:3
 msgid "Rusyn"
@@ -10963,7 +10594,7 @@ msgid ""
 "Duchy of Galicia–Volhynia and the Kingdom of Rus. In later times the lands "
 "were under Polish and later Austrian rule. Rusyns formed two ephemeral "
 "states after World War I: the Lemko-Rusyn Republic and the Komancza Republic."
-msgstr ""
+msgstr "ルシン人は東スラブ民族の西周辺に位置する民族です。主にポーランド、ウクライナ、スロバキアの国境地帯とヴォイヴォディナ地方に居住しています。\n\n中世、ルシン人の故郷はハールィチ・ヴォルィーニ大公国とキエフ大公国の所在地でした。その後、この地はポーランド、後にはオーストリアの支配下に置かれました。\n\n第一次世界大戦後、ルシン人はレムコ＝ルシン共和国とコマンチャ共和国という2つの一時的な国家を形成しました。"
 
 #: data/nation/ruthenian.ruleset:3
 msgid "Kievan Rus'"
@@ -11012,7 +10643,6 @@ msgstr "琉球人"
 msgid "?plural:Ryukyuans"
 msgstr "琉球人"
 
-# 返す言葉もございません (clefs)
 #: data/nation/ryukyuan.ruleset:6
 msgid ""
 "The Ryukyu Kingdom (1372-1879) was the Land of Propriety, a peaceful "
@@ -11036,7 +10666,7 @@ msgid ""
 "Republic regularly warred against each other, but eventually the Sabines "
 "were assimilated into the Roman culture. Several Roman families prided "
 "themselves on their Sabine origins."
-msgstr ""
+msgstr "サビニ人は、ウンブリア語に最も近い言語を話すイタリア系民族です。彼らはローマの歴史に影響を与えました。\n\nサビニ人と初期ローマ共和国は定期的に抗争を繰り返しましたが、やがてサビニ人はローマ文化に同化しました。ローマ帝国には、サビニ人の出自を誇りとする家系がいくつかありました。"
 
 #: data/nation/sabine.ruleset:29 data/nation/samnite.ruleset:26
 #, c-format
@@ -11103,7 +10733,7 @@ msgid ""
 "The Saka were an ancient Iranian tribe from the Central Asian steppes. They "
 "were very closely related to the European Scythians, and were probably "
 "descendants of the Andronovo culture."
-msgstr ""
+msgstr "サカ族は中央アジアの草原地帯に住んでいた古代イランの部族です。\n\n彼らはヨーロッパのスキタイ人と非常に近い関係にあり、おそらくアンドロノヴォ文化の末裔であると考えられます。"
 
 #: data/nation/salishan.ruleset:3
 msgid "Salishan"
@@ -11122,10 +10752,9 @@ msgid ""
 "Coola (Nuxalk), Spokane and Coeur d'Alene. The Salishan languages are famous "
 "for their unusual characteristics. They have a large inventory of consonants "
 "and some even feature words without any vowels."
-msgstr ""
+msgstr "サリシュ族は、アメリカ合衆国とカナダの太平洋岸北西部に住む文化的言語的集団です。\n\n最も有名なサリシュ族はドゥワミッシュ族のリーダー、シアトル酋長で、シアトル市はこの酋長にちなんで名づけられました。その他、ベラ・クーラ（ヌクソーク）族、スポケーン族、コーダレーン族などが有名です。\n\nサリシュ語はその珍しい特徴でも有名です。子音が多く、母音のない単語もあります。"
 
 # Belgae
-# エルサルバドル人？
 #: data/nation/salvadoran.ruleset:3
 msgid "Salvadoran"
 msgstr "エルサルバドル人"
@@ -11165,16 +10794,11 @@ msgstr "サーミ人"
 msgid "?plural:Sami"
 msgstr "サーミ人"
 
-# clefs
-# nation vs. country
-# Belgae
 #: data/nation/sami.ruleset:6
 msgid ""
 "The Sami are a people of northern Scandinavia. Their nation spans over the "
 "northernmost regions of the Scandinavian countries and northwestern Russia."
-msgstr ""
-"サーミ人はスカンジナビア北部の人々です。彼らはスカンジナビア諸国の北部地域お"
-"よびロシア北西部にまたがり広がっています。"
+msgstr "サーミ人はスカンディナヴィア北部の民族です。彼らはスカンディナヴィア諸国の最北部とロシア北西部に広がっています。"
 
 #: data/nation/sammarinese.ruleset:3
 msgid "Sammarinese"
@@ -11218,7 +10842,7 @@ msgid ""
 "Oscan language and inhabited Central Italy, South of the Sabines. After "
 "losing the wars with Rome the Samnites were subjected to Rome and became "
 "Romanized. They were good soldiers and famed as Roman gladiators."
-msgstr ""
+msgstr "サムニウム人は、オスカ語を話し、サビーン人の南に位置する中央イタリアに居住していた古代イタリック民族の連合体です。\n\nローマとの戦争に敗れた後、サムニウム人はローマに服属し、ローマ化しました。彼らは優れた兵士であり、ローマの剣闘士として有名でした。"
 
 # clefs
 #: data/nation/samoan.ruleset:3
@@ -11319,7 +10943,7 @@ msgid ""
 "island. In 1718 Sardinia was handed to the house of Savoy, and it became a "
 "constituent part of the Kingdom of Piedmont-Sardinia, which eventually led "
 "Italy to its national unification in 1861."
-msgstr ""
+msgstr "サルデーニャ島は地中海に浮かぶ島で、イタリアの自治領です。\n\n先史時代にはヌラーグ文明が栄え、その後フェニキア、ローマ帝国の支配を受けました。ローマ帝国が崩壊すると、サルデーニャ島はヴァンダル帝国に占領され、その後ビザンツ帝国に占領されましたが、外国による支配は急速に衰え、9世紀にはビザンツ帝国の代表が独自の自治州を形成しました。しかし中世の終わりには、アラゴン人がこの島の支配権を確立しました。\n\n1718年、サルデーニャはサヴォワ家の手に渡り、ピエモンテ・サルデーニャ王国を構成することになりました。"
 
 #: data/nation/sarmatian.ruleset:3
 msgid "Sarmatian"
@@ -11399,7 +11023,6 @@ msgid "?plural:Saxons"
 msgstr "ザクセン人"
 
 # Belgae
-# ザクセン(sachsen)はドイツ語読み。サクソン(saxon)は英語読みです。ザクセン地方にいた民族がアングル人らと共にイギリスに渡って「アングロサクソン」になりましたが，ザクセン地方に残った人々もいました。
 #: data/nation/saxon.ruleset:6
 msgid ""
 "The Electorate of Saxony was an independent hereditary electorate of the "
@@ -11417,7 +11040,6 @@ msgid "?plural:Scanians"
 msgstr "スコーネ人"
 
 #: data/nation/scanian.ruleset:6
-#, fuzzy
 msgid ""
 "Scania is the southernmost region of Sweden. Historically one of many petty "
 "kingdoms in Viking age Scandinavia, it became in medieval times part of "
@@ -11425,10 +11047,7 @@ msgid ""
 "Scania saw something of a national revival in the late 20th century with "
 "calls for greater autonomy within the Kingdom of Sweden."
 msgstr ""
-"スカニアはスウェーデンの最南端領域である。歴史的にはヴァイキング時代スカンジ"
-"ナビアの多くのささいな王国の一つは、それがデンマークの中世部になったが、1658"
-"年にロスキレ条約を通じてスウェーデンに割譲された。スカニアはスウェーデン王国"
-"内でより大きな自治権を求める声に、20世紀後半に国家の復活のようなものを見た。"
+"スコーネはスウェーデンの最南端に位置します。\n\n歴史的にはヴァイキング時代のスカンディナヴィアに数多く存在した小王国のひとつで、中世にはデンマークの一部となりましたが、1658年のロスキレ条約によってスウェーデンに割譲されました。\n\nスコーネは20世紀後半、スウェーデン王国内での自治権拡大を求める声とともに、国家的な復興を遂げました。"
 
 #: data/nation/schleswig-holsteinian.ruleset:3
 msgid "Schleswig-Holsteinian"
@@ -11475,12 +11094,8 @@ msgid ""
 "parts of Lothian and the Borders. Today some 60,000 speakers of Gaelic "
 "remain, about half of which live in the Scottish Highlands and Islands, the "
 "other half living all over Scotland, in particular the Central Belt."
-msgstr ""
+msgstr "ゲール人もゲール語も、ダリアダ王朝がアイルランドからスコットランドにもたらしたものです。\n\n彼らはまずアーガイル（Earra Ghaidheal、ゲール人の海岸地帯）に定住し、やがて先住民ピクト人の領地へと拡大し、843年頃にはケネス・マカルピンがピクト人とゲール人の王国を統一しました。\n\nマルコム3世の時代には、ゲール語はスコットランドの大半の言語となり、ストラスクライド、ギャロウェイ、ロージアンとボーダーズの一部まで南下しました。現在では約6万人のゲール語話者が残っており、その約半数はスコットランド高地と諸島に、残りの半数はスコットランド全土、特に中央ベルト地帯に住んでいます。"
 
-# clefs
-# was "チーフ"(yasu)
-# チェロキー・イロコイ・マリ・マオリ・スー・南アフリカ・スワジ・ズールー
-# 全部「族長」で大丈夫かしらん
 #: data/nation/scottishgaelic.ruleset:35
 #, c-format
 msgid "Clan Chief %s"
@@ -11500,17 +11115,12 @@ msgstr "スコットランド人"
 msgid "?plural:Scots"
 msgstr "スコットランド人"
 
-# clefs
-# "originally" はよくわからない: ピクト人が先ならoriginじゃないじゃん
 #: data/nation/scottish.ruleset:6
 msgid ""
 "Scotland, originally settled in late Roman times by Irish raiders who "
 "displaced the native Picts, was an independent kingdom from around 1034 CE "
 "to the Union of Crowns with England in 1701."
-msgstr ""
-"スコットランドはローマ時代晩期にアイルランド系の侵入者がピクト人を駆逐して定"
-"着し，1034年からは独立した王国でしたが1701年にイングランドと王室連合を形成し"
-"ました。[訳註:UKの構成要素になったわけです]"
+msgstr "スコットランドは元々、ローマ時代後期に先住民ピクト人を追い払ったアイルランドの略奪者たちが定住した場所で、西暦1034年頃から1701年のイングランドとの王冠連合まで独立王国でした。"
 
 #: data/nation/scythian.ruleset:3
 msgid "Scythian"
@@ -11578,7 +11188,7 @@ msgid ""
 "of the Great Seljuk Empire in the 12th century the Seljuks continued to rule "
 "in the Sultanate of Rum, which would later form the basis of the Ottoman "
 "Turks."
-msgstr ""
+msgstr "セルジューク朝はテュルク人の大群で、その名は創始者セルジュークに由来します。\n\n1040年にガズナヴィー朝に勝利した後、彼らは独自の国家を築きました。1055年、セルジューク朝はバグダッドを占領し、指導者トゥグリル・ベグはスルタンの称号を得ました。\n\nセルジューク朝は1071年のマンジカートの戦いでビザンツ帝国を破ったことで有名です。12世紀に大セルジューク帝国が崩壊した後も、セルジューク朝は後にオスマン・トルコの基礎となるラムのスルタン国で支配を続けました。"
 
 #: data/nation/seminole.ruleset:3
 msgid "Seminole"
@@ -11743,7 +11353,7 @@ msgid ""
 "the Kingdom of Nepal. Following the democratization of Nepal in the "
 "beginning of the 21st century, there have been calls for greater autonomy "
 "for the Sherpas within the federal republic."
-msgstr ""
+msgstr "シェルパは15世紀に現在のネパールのヒマラヤ地方に定住した民族です。彼らはチベットの血を引いており、現代のチベット語に近い言語を話しますが、相互に理解できるものではありません。\n\n数世紀にわたる自治を経て、18世紀にはベンガルを拠点とするセン帝国のようなヒンドゥー教勢力の侵食による軍事的圧力を受けるようになりました。18世紀までにシェルパ族の故郷はネパール王国に併合されました。\n\n21世紀初頭にネパールが民主化された後、連邦共和制の中でシェルパの自治権拡大を求める声が上がっています。"
 
 #: data/nation/siberian.ruleset:3
 msgid "Siberian"
@@ -11810,15 +11420,13 @@ msgstr ""
 "界で最も短い国になりました。また世界で最も貧しい国の一つでもあります。シエラ"
 "レオネ経済を支えるのは内戦の原因にもなったダイヤモンド採掘です。"
 
-# Belgae
-# シク教国人？
 #: data/nation/sikh.ruleset:3
 msgid "Sikh"
-msgstr "シク人"
+msgstr "シク教徒"
 
 #: data/nation/sikh.ruleset:4
 msgid "?plural:Sikhs"
-msgstr "シク人"
+msgstr "シク教徒"
 
 #: data/nation/sikh.ruleset:6
 msgid ""
@@ -11827,7 +11435,7 @@ msgid ""
 "Pakistan and India, is the heartland of Sikhism. In the 19th century a Sikh "
 "Empire existed in the region."
 msgstr ""
-"シク人は15世紀にインド亜大陸で誕生した一神教の信者です。パキスタンとインドの"
+"シク教徒は15世紀にインド亜大陸で誕生した一神教の信者です。パキスタンとインドの"
 "国境地帯にあるパンジャブ地方がシク教の中心地です。19世紀にはこの地域にシク教"
 "国が存在しました。"
 
@@ -11901,11 +11509,11 @@ msgstr ""
 
 #: data/nation/slavic.ruleset:3
 msgid "Slavic"
-msgstr "スラヴ人"
+msgstr "スラブ人"
 
 #: data/nation/slavic.ruleset:4
 msgid "?plural:Slavs"
-msgstr "スラヴ人"
+msgstr "スラブ人"
 
 #: data/nation/slavic.ruleset:6
 msgid ""
@@ -11915,8 +11523,8 @@ msgid ""
 "sudden appearance in the history of civilized Europe may be related to the "
 "arrival of Iranian peoples and the expansion of the Huns."
 msgstr ""
-"スラヴ人は現代における言語学的民族集団で，東ヨーロッパにおいて共通の歴史的起"
-"源を持ついくつかの民族から構成されています。スラヴ人の紀元は明確には知られて"
+"スラブ人は現代における言語学的民族集団で，東ヨーロッパにおいて共通の歴史的起"
+"源を持ついくつかの民族から構成されています。スラブ人の紀元は明確には知られて"
 "おらず，そのため彼らを説明しようとする多数の仮説があります。文明化されたヨー"
 "ロッパの歴史に彼らが突然現れたことは，イラン系民族の到来とフン人の勢力拡大が"
 "関連していると推測されます。"
@@ -11982,7 +11590,6 @@ msgstr ""
 "年に独立しました。"
 
 # Belgae
-# <%s AI>とCity: %sに代入されます。別の訳語を当てたいところです。普通AIと都市: 平常など。
 #: data/nation/somaliland.ruleset:3
 msgid "Somaliland"
 msgstr "ソマリランド人"
@@ -12073,7 +11680,6 @@ msgstr ""
 msgid "South African"
 msgstr "南アフリカ人"
 
-# 「南アフリカ民族」はひどい (clefs)
 #: data/nation/southafrican.ruleset:4
 msgid "?plural:South Africans"
 msgstr "南アフリカ人"
@@ -12115,7 +11721,6 @@ msgstr ""
 "は既に19世紀から存在します。"
 
 # Belgae
-# こちらは「南朝鮮人」である必要はないですよね。
 #: data/nation/southkorean.ruleset:3
 msgid "South Korean"
 msgstr "韓国人"
@@ -12210,7 +11815,6 @@ msgid "?plural:Soviets"
 msgstr "ソビエト人"
 
 # clefs
-# 歴史が興味を持つのはいつだって始めと終わりだけ
 #: data/nation/soviet.ruleset:6
 msgid ""
 "The history of the Soviet Union starts in November 1917, when under Lenin's "
@@ -12286,7 +11890,7 @@ msgid ""
 "They settled in the northwest of the Iberian Peninsula, where they "
 "established their own kingdom, which was conquered by the Visigoths in 585 "
 "CE."
-msgstr ""
+msgstr "スエビ族は古代西ゲルマン民族の連合体で、アリオビストスがガリア遠征のために結成した可能性があります。スエビ族には、エルベ川流域のゲルマン語族、マルコマンニ族やクアディ族などが含まれます。\n\n紀元1世紀から4世紀にかけて、彼らはローマの脅威となり、しばしば帝国のドナウ諸州に侵入しました。紀元405年から406年にかけて、スエビ族はフン族によって土地を追われ、紀元405年の正月にヴァンダル族やアラン族とともに凍てつくライン川を渡りました。\n\n彼らはイベリア半島北西部に定住し、独自の王国を築きましたが、585年に西ゴート族に征服されました。"
 
 #: data/nation/surinamese.ruleset:3
 msgid "Surinamese"
@@ -12379,7 +11983,6 @@ msgstr ""
 msgid "Swiss"
 msgstr "スイス人"
 
-# ntaka スイス民族は変だろう?
 #: data/nation/swiss.ruleset:4
 msgid "?plural:Swiss"
 msgstr "スイス人"
@@ -12580,7 +12183,6 @@ msgid "Knights Templar"
 msgstr "テンプル騎士団"
 
 # Belgae
-# 複数形を使う場所はどこでしょう。
 #: data/nation/templar.ruleset:4
 msgid "?plural:Templars"
 msgstr "テンプル騎士団員"
@@ -12597,7 +12199,6 @@ msgstr ""
 "な現代的概念をもたらしました。"
 
 # Belgae
-# チュートン騎士から変更
 #: data/nation/teutonic.ruleset:3
 msgid "Teutonic"
 msgstr "ドイツ騎士団"
@@ -12617,17 +12218,15 @@ msgstr ""
 "1224年に彼らは「騎士団国」を建国し，300年にわたって強力な国家として存続しまし"
 "た。この国は16世紀には世俗化し，プロシア公領へと置き換えられました。"
 
-# 薩摩隼人も追加しますかね :-)
 #: data/nation/texan.ruleset:3
 msgid "Texan"
-msgstr "テクサン"
+msgstr "テキサス人"
 
 #: data/nation/texan.ruleset:4
 msgid "?plural:Texans"
-msgstr "テクサン"
+msgstr "テキサス人"
 
 #: data/nation/texan.ruleset:6
-#, fuzzy
 #| msgid ""
 #| "Texas, \"the Lone Star State\" is the second largest and second most "
 #| "populous state of the USA, famous for its \"larger than life\" cowboy "
@@ -12644,14 +12243,7 @@ msgid ""
 "by six nations: France, Spain, Mexico, the Republic of Texas, the "
 "Confederacy, and the USA, as expressed in the slogan \"six flags over "
 "Texas\"."
-msgstr ""
-"アメリカ合衆国テキサス州は，面積・人口・経済力において全米第2位の規模を誇りま"
-"す。\"ローン・スター・ステイト\"の愛称を持ち，これは白い1つ星があしらわれた州"
-"旗に由来します。\"シックス・フラッグス・オーバー・テキサス\"というスローガン"
-"が示すとおり，テキサス州はこれまで異なる6カ国に支配されてきました(フランス・"
-"スペイン・メキシコ・テキサス共和国・アメリカ連合国・アメリカ合衆国)。19世紀後"
-"半に活躍したカウボーイたちは今や「古き良きアメリカ」の象徴です。テキサス州民"
-"(テクサン)は南部訛りの英語を話し，保守的で，愛州心が高いことで知られます。"
+msgstr "テキサス州は、アメリカで2番目に大きく、2番目に人口の多い州であり、「larger than life（とても堂々とした）」カウボーイ文化とメキシコの遺産で有名です。\n\n有名なアラモの戦いの後、テキサス人はサン・ハシントでメキシコ人を破り、独立を宣言しました。テキサス共和国は1836年から1846年まで続き、その後アメリカ合衆国の28番目の州となりました。\n\n歴史上、テキサスは6つの国によって全部または一部が統治されていました。フランス、スペイン、メキシコ、テキサス共和国、南部連合、そしてアメリカです。"
 
 #: data/nation/thracian.ruleset:3
 msgid "Thracian"
@@ -12689,7 +12281,7 @@ msgid ""
 "Napoleon and the German unification; only after the fall of the German "
 "monarchies in 1918 was a united Free State of Thuringia established, which "
 "currently exists as one of the states of Germany."
-msgstr ""
+msgstr "テューリンゲン王国は、現在の中央ドイツにあった古代ゲルマン民族の連合体で、フン族の敗北後に成立しました。8世紀にフランク族に敗れたテューリンゲン王国は、後に神聖ローマ帝国の属領となりました。\n\n13世紀に支配者一族が滅亡した後、テューリンゲン継承戦争が勃発し、神聖ローマ帝国の基準からみても、テューリンゲンはひどく分裂しました。テューリンゲンはプロテスタント宗教改革と宗教戦争の温床であり、啓蒙時代にはザクセン・ワイマール公がヨハン・ヴォルフガング・フォン・ゲーテやフリードリヒ・フォン・シラーといった著名人を宮廷に招き、文化的な頂点を極めました。\n\nテューリンゲンの政治的分裂はナポレオンとドイツ統一を乗り越え、1918年のドイツ君主制の崩壊後に初めてテューリンゲン自由国が成立しました。"
 
 #: data/nation/tibetan.ruleset:3
 msgid "Tibetan"
@@ -12699,9 +12291,6 @@ msgstr "チベット人"
 msgid "?plural:Tibetans"
 msgstr "チベット人"
 
-# clefs
-# "homeland" はどう訳したものか？　「祖国」とすれば簡単なようだが，
-# 残念ながら現在のチベットは「国」ではないようです。難しいですね。
 #: data/nation/tibetan.ruleset:6
 msgid ""
 "The Tibetan homeland is sometimes called the \"Roof of the World\", the "
@@ -12712,25 +12301,17 @@ msgid ""
 "rule had weakened, Lozang Gyatso - born 1617 and the 5th Dalai Lama - "
 "established a buddhist religious state under the control of the Gelugpa "
 "school of Tibetan Buddhism."
-msgstr ""
-"チベット人の祖地は世界で最も高度のある地域で，時として「世界の屋根」と呼ばれ"
-"ています。7世紀にはチベット[訳註:吐蕃]はソンツェン・ガンポの下で恐るべき帝国"
-"として勃興し，中国・インドの双方から認識されていました。この王朝は11世紀，モ"
-"ンゴルによって制されるまで続きました。数世紀の後にモンゴルの支配が緩むと，ロ"
-"サン・ギャツォ(1617生，ダライ・ラマ5世)はチベット仏教ゲルク派の指導下に仏教国"
-"家を創設しました。"
+msgstr "チベット人の故郷は「世界の屋根」と呼ばれることもあり、世界で最も標高の高い地域です。\n\n7世紀、チベットはソンツェン・ガンポ王の指導の下、中国とインドの両方から認められ、強大な帝国として台頭しました。この王朝は、チベットがモンゴルに制圧される11世紀まで続きました。\n\nモンゴルの支配が弱まった数世紀後、ロサン・ギャツォ（1617年生まれ、第5代ダライ・ラマ）がチベット仏教ゲルク派を支配下に置き、仏教宗教国家を樹立しました。"
 
-# clefs
 #: data/nation/tibetan.ruleset:27
 #, c-format
 msgid "Dalai Lama %s"
-msgstr "ダライラマ %s"
+msgstr "ダライ・ラマ %s"
 
-# clefs
 #: data/nation/tibetan.ruleset:27
 #, c-format
 msgid "?female:Dalai Lama %s"
-msgstr "ダライラマ %s"
+msgstr "ダライ・ラマ %s"
 
 #: data/nation/timurid.ruleset:3
 msgid "Timurid"
@@ -12816,20 +12397,19 @@ msgstr ""
 
 #: data/nation/tokiponan.ruleset:3
 msgid "Toki Ponan"
-msgstr ""
+msgstr "トキポニスト"
 
 #: data/nation/tokiponan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Tongans"
 msgid "?plural:Toki Ponans"
-msgstr "トンガ人"
+msgstr "トキポニスト"
 
 #: data/nation/tokiponan.ruleset:6
 msgid ""
 "Toki Pona is a conlang created by Sonja lang in 2001 which is notable for "
 "its extremely small size, consisting of 14 letters and anywhere from 120 "
 "words to 137 words."
-msgstr ""
+msgstr "トキポナ（Toki Pona）は2001年にソーニャ・ラング（Sonja lang）によって創作された人工言語で、14文字、120語から137語の単語からなる非常に小さなサイズに特徴があります。"
 
 #: data/nation/toltec.ruleset:3
 msgid "Toltec"
@@ -12969,13 +12549,10 @@ msgstr ""
 "ました。石油と天然ガスが産出するため，カリブ海諸国の中では比較的経済が発展し"
 "ています。また音楽やカーニバルも有名です。"
 
-# clefs これも訳せば「王」になってしまいますが
 #: data/nation/tswana.ruleset:3
 msgid "Tswana"
 msgstr "ツワナ族"
 
-# Daniel
-# なんでpluralだとヘルツェゴヴィナが落ちるんでしょう (clefs)
 #: data/nation/tswana.ruleset:4
 msgid "?plural:Batswana"
 msgstr "ツワナ族"
@@ -13046,7 +12623,6 @@ msgstr ""
 "ほぼ自治を獲得しましたが，1881年にはフランスに侵略され，その保護領にされてし"
 "まいました。独立を果たしたのは1956年です。"
 
-# 「二輪戦車」
 #: data/nation/turkishcypriot.ruleset:3
 msgid "Turkish Cypriot"
 msgstr "北キプロス人"
@@ -13096,33 +12672,27 @@ msgstr ""
 "最終的にアムダリヤ川とカスピ海の間の地域に定住しました。これはほぼ今日のトル"
 "クメニスタンの位置に当たります。"
 
-# Belgae
-# 「トルクメン人の長」の意味。
-# ニヤゾフ前大統領が個人崇拝による独裁をしていたことから原理主義の称号としているようです。
 #: data/nation/turkmen.ruleset:28
 #, c-format
 msgid "Turkmenbashi %s"
-msgstr "%s テュルクメンバシュ"
+msgstr "トルクメンバシ %s"
 
 #: data/nation/turkmen.ruleset:28
 #, c-format
 msgid "?female:Turkmenbashi %s"
-msgstr "%s テュルクメンバシュ"
+msgstr "トルクメンバシ %s"
 
 #: data/nation/tuvaluan.ruleset:3
-#, fuzzy
 #| msgid "Tuvan"
 msgid "Tuvaluan"
-msgstr "トゥバ人"
+msgstr "ツバル人"
 
 #: data/nation/tuvaluan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Tuvans"
 msgid "?plural:I-Tuvaluan"
-msgstr "トゥバ人"
+msgstr "ツバル人"
 
 #: data/nation/tuvaluan.ruleset:6
-#, fuzzy
 #| msgid ""
 #| "The Gilbert Islands, known in Gilbertese as Tungaru, are an island chain "
 #| "in the Pacific Ocean. Inhabited by Micronesians since prehistoric times, "
@@ -13140,13 +12710,7 @@ msgid ""
 "and Ellice Islands. The islands became independent in 1978, under the name "
 "Tuvalu, which means 'Eight standing together', referencing the eight "
 "inhabited islands."
-msgstr ""
-"キリバス共和国は太平洋のギルバート諸島・フェニックス諸島・ライン諸島などから"
-"なる，ミクロネシアとポリネシアにまたがった島国です。ギルバート諸島には紀元前"
-"からミクロネシア人が住んでおり，彼らは島をツンガルと呼んでいました。1892年に"
-"エリス諸島(現在のツバル)と共にイギリスの保護領となり，第二次世界大戦中に日本"
-"軍に占領されました。1979年に独立を果たし，国名としてキリバス(「ギルバート」の"
-"キリバス語読み)が選ばれました。"
+msgstr "エリス諸島は太平洋に浮かぶ島々です。先史時代からミクロネシア人が居住し、19世紀後半に共通の首長国のもとに統合されました。\n\n1892年にギルバート諸島とともにイギリスに併合され、ギルバート・エリス諸島の植民地となりました。その後、1978年に独立し、8つの有人島を意味するツバルとなりました。"
 
 #: data/nation/tuvan.ruleset:3
 msgid "Tuvan"
@@ -13156,7 +12720,6 @@ msgstr "トゥバ人"
 msgid "?plural:Tuvans"
 msgstr "トゥバ人"
 
-# トゥバ語ではtuvaのvはB音に近いのですが，ロシア語ではV音になります。この違いがWikipediaでのトゥバ/トゥヴァの表記ゆれの原因です。ここではトゥバで統一します。(Belgae)
 #: data/nation/tuvan.ruleset:6
 msgid ""
 "Tuvans are a Turkic people living in the Autonomous Republic of Tuva in the "
@@ -13256,7 +12819,6 @@ msgstr ""
 "沃とされる黒土地帯を擁しています。"
 
 # Belgae
-# 国連「人」はさすがにないですかね
 #: data/nation/un.ruleset:3
 msgid "UN"
 msgstr "国際連合"
@@ -13460,7 +13022,7 @@ msgid ""
 "expansion of Germany and the Polanian state. The Veletians eventually "
 "succumbed to Germanization or were murdered following the Crusades and the "
 "German settlement on their lands."
-msgstr ""
+msgstr "ヴェレティ族またはルティチ人は、現在のドイツ北東部（ブランデンブルクとメクレンブルク）にいた中世の西レキト人部族連合です。彼らの部族はスラブ系とゲルマン系の混血で、それは彼らの言語にも表れています。\n\nヴェレティ族の連合が存在した理由は、スラブの異教を守り、ドイツとポラニア国家の拡大に抵抗することにありました。ヴェレティ族は、十字軍とドイツ人の入植により、やがてドイツ化に屈し、あるいは滅亡しました。"
 
 #: data/nation/venda.ruleset:3
 msgid "Venda"
@@ -13536,7 +13098,6 @@ msgstr "ベネズエラ人"
 
 # clefs
 #: data/nation/venezuelan.ruleset:6
-#, fuzzy
 msgid ""
 "Venezuela is the northernmost country in South America. Having been a "
 "Spanish colony since the 16th century, the country gained independence on "
@@ -13545,10 +13106,7 @@ msgid ""
 "the world; during the oil boom of the 1970s it was the wealthiest country of "
 "Latin America. The country is known for its varied landscapes and high "
 "biodiversity."
-msgstr ""
-"ベネズエラは南米最北の国です。16世紀以来スペインの植民地で，1811年7月5日にエ"
-"ル・リベルタドール・シモン・ボリヴァル「解放者」の指揮下で独立を獲得しまし"
-"た。"
+msgstr "ベネズエラは南米最北端の国です。16世紀以来スペインの植民地でしたが、1811年7月5日、シモン・ボリバル（解放者）の指導により独立しました。\n\nベネズエラは、世界有数の石油・ガス埋蔵量を誇り、1970年代の石油ブーム時には、ラテンアメリカで最も裕福な国でした。ベネズエラは変化に富んだ景観と高い生物多様性で知られています。"
 
 #: data/nation/vermont.ruleset:3
 msgid "Vermont"
@@ -13577,17 +13135,11 @@ msgstr "ベトナム人"
 msgid "?plural:Vietnamese"
 msgstr "ベトナム人"
 
-# clefs
-# このような場合のnationをどう訳すかはとても難しい
-# ナシオンはナシオンだよなあ
 #: data/nation/vietnamese.ruleset:6
 msgid ""
 "The Vietnamese nation was founded in the first century CE by twin sisters "
 "who became the war leaders of a revolt against a Chinese military governor."
-msgstr ""
-"ベトナムの歴史において，1世紀に後漢の支配に対抗して反乱を起こした徴側と徴弐の"
-"姉妹は特に有名です。現在のベトナム社会主義共和国は，1976年に南北統一を経て誕"
-"生しました。"
+msgstr "ベトナムの建国は紀元1世紀、中国の軍政府長官に対する反乱の指導者となった双子の姉妹によってなされた。"
 
 #: data/nation/vincentian.ruleset:3
 msgid "Vincentian"
@@ -13634,7 +13186,7 @@ msgid ""
 "until the peninsula was eventually overrun by Muslim invaders in 711."
 msgstr ""
 "テルヴィンギは東ゲルマン系の人々で，ゴート人の2つの部族の1つです。これが後の"
-"西ゴート人と言われています。彼らはおそらくスカンジナビアから来たと考えられて"
+"西ゴート人と言われています。彼らはおそらくスカンディナヴィアから来たと考えられて"
 "います[訳注:通説はそうでしたが，現在の学説では否定的です]。3世紀に彼らは南方"
 "に移住しました。現在のウクライナに当たります。その後彼らはドナウ川を渡り，紀"
 "元410年にはローマを略奪しました。フォエデラティ[訳注:ローマと同盟を組み，傭兵"
@@ -13663,7 +13215,7 @@ msgid ""
 "Magyars prevented them from forming a stable and lasting state. Eventually, "
 "the lands of Vistulans and several other Slavic tribes were unified by "
 "Polonians, who formed the first Polish state in the 10th century."
-msgstr ""
+msgstr "ヴィスワ族は、現在の小ポーランドに居住していた西スラブ民族です。\n\n彼らの歴史についてはほとんど知られていません。多くの歴史家は、中世初期を通じてヴィスワ族は現在のポーランドで最も強力なスラブ民族のひとつであったが、大モラヴィア人やマジャール人との対立により、安定した永続的な国家を形成することができなかったと認めています。\n\n最終的に、ヴィスワ族と他のいくつかのスラブ民族の土地はポロン人によって統一され、10世紀に最初のポーランド国家が形成されました。"
 
 #: data/nation/volapuk.ruleset:3
 msgid "Volapükan"
@@ -13728,7 +13280,7 @@ msgid ""
 "the Third Reich in the USSR, the autonomous republic was abolished by a "
 "decree of Stalin. Volga Germans were sent to other parts of the Soviet "
 "Union, mainly to Kazakhstan and Siberia."
-msgstr ""
+msgstr "ヴォルガ・ドイツ人は、ロシア南部のヴォルガ川沿い、サラトフ市周辺と南部に住んでいたドイツ系民族です。彼らは18世紀に移民として迎えられました。\n\nロシア当局は彼らにドイツ語と伝統を育てることを許可しました。1918年から1941年まで、ソビエト連邦内にヴォルガ・ドイツASSRがありました。\n\n第三帝国のソ連への攻撃後、スターリンの命令によって自治共和国は廃止されました。ヴォルガ・ドイツ人はソ連の他の地域、主にカザフスタンとシベリアに送られました。"
 
 #: data/nation/walloon.ruleset:3
 msgid "Walloon"
@@ -13757,15 +13309,11 @@ msgstr "ウェールズ人"
 msgid "?plural:Welsh"
 msgstr "ウェールズ人"
 
-# clefs
-# 構文変えちゃった
 #: data/nation/welsh.ruleset:6
 msgid ""
 "The Welsh at one time controlled all of what is now England until being "
 "driven into the mountainous western reaches by invading Saxons."
-msgstr ""
-"ウェールズ人はかつては現在のイングランドの全領域を支配していましたが，サクソ"
-"ン人の侵略により西部の山岳地帯へと追いやられました。"
+msgstr "ウェールズ人はかつて現在のイングランド全土を支配していましたが、サクソン人の侵入によって西部の山岳地帯に追いやられました。"
 
 #: data/nation/werewolf.ruleset:4
 msgid "Werewolf"
@@ -13788,8 +13336,6 @@ msgstr ""
 "業だとされることがありました。"
 
 # Belgae
-# 西ポモージェ？
-# 西ポンメルン？
 #: data/nation/westernpomeranian.ruleset:3
 msgid "Western Pomeranian"
 msgstr "西ポメラニア人"
@@ -13847,7 +13393,6 @@ msgid "%s Augusta"
 msgstr "%s アウグスタ"
 
 # Belgae
-# 西インド連邦の国民
 #: data/nation/westindian.ruleset:3
 msgid "West Indian"
 msgstr "西インド人"
@@ -13871,27 +13416,20 @@ msgstr ""
 "バー間の緊張関係が原因です。連邦が解体したのは1962年のことです。いくつかの"
 "島々は独立国となり，その他はイギリスの植民地へと戻りました。"
 
-# clefs
 #: data/nation/westphalian.ruleset:3
 msgid "Westphalian"
-msgstr "ウエストファリア人"
+msgstr "ヴェストファーレン人"
 
-# clefs
 #: data/nation/westphalian.ruleset:4
 msgid "?plural:Westphalians"
-msgstr "ウエストファリア人"
+msgstr "ヴェストファーレン人"
 
-# clefs
-# "...was the western region {->of }the " 原文typo
 #: data/nation/westphalian.ruleset:6
 msgid ""
 "Westphalia, before becoming a Prussian province, was the western region of "
 "the Duchy of Saxony. Today it makes up the northern part of the largest "
 "German federal state, North Rhine-Westphalia."
-msgstr ""
-"ウェストファリアは，プロイセンの州になるまでは，サクソニー公国西部の地域でし"
-"た。今日ではドイツ連邦最大の州である北レーヌ・ウェストファリアの北部を形成し"
-"ています。"
+msgstr "ヴェストファーレンは、プロイセンの属州となる前はザクセン公国の西部地域でした。現在は、ドイツ最大の連邦州であるノルトライン＝ヴェストファーレン州の北部を構成しています。"
 
 #: data/nation/wuerttembergian.ruleset:3
 msgid "Wuerttembergian"
@@ -14102,18 +13640,13 @@ msgstr "サポテカ族"
 msgid "?plural:Zapotecs"
 msgstr "サポテカ族"
 
-# razedをraisedのスペリングミスと解釈しました（Belgae）
 #: data/nation/zapotec.ruleset:6
 msgid ""
 "The Zapotecs or Binnizá live in the Mexican state of Oaxaca. They formed one "
 "of the oldest and most resilient Mesoamerican civilizations. The most "
 "notable Zapotec center, Monte Albán, was built on a razed mountain top. "
 "Benito Juárez, Mexico's first indigenous president, was a Zapotec."
-msgstr ""
-"サポテカ族はBinnizaとも言い，メキシコのオアハカ州に暮らしています。彼らはかつ"
-"てメソアメリカの中でも特に古く活発であった文明を築きました。とりわけ有名なサ"
-"ポテカ文化の祭祀センターであるモンテ・アルバンは，小高い山の上に建設されまし"
-"た。先住民で初めてメキシコ大統領となったベニート・フアレスはザポテカ人です。"
+msgstr "メキシコのオアハカ州に住むサポテカ族またはビニーザ族です。\n\n彼らは最も古く、最も回復力のあるメソアメリカ文明のひとつを形成しました。最も有名なサポテカの中心地モンテ・アルバンは、山の頂上を壊して造られました。\n\nメキシコ初の先住民大統領ベニート・フアレスはサポテカ人でした。"
 
 #: data/nation/zhuang.ruleset:3
 msgid "Zhuang"
@@ -14134,7 +13667,7 @@ msgid ""
 "Zhigao was crushed, many Zhuang migrated southward forming the basis of the "
 "Lao, Thai, and Shan nations. After the Han, the Zhuang are the most populous "
 "ethnic group of the People's Republic of China."
-msgstr ""
+msgstr "チワン族は中国のはるか南西部に住んでおり、ここは古くから東南アジアの原住民とシナ文明を隔ててきた国境地帯です。独特の灌漑と風光明媚な棚田で知られるチワン族は、古代中国の様々な王朝から圧力を受けていました。\n\n紀元10世紀には、チワン族は中国の宋王朝による過酷な支配下に置かれました。1052年に民間の英雄ノン・ジガオが率いた反乱が鎮圧されると、多くのチワン族が南下し、ラオス、タイ、シャン族の基礎となりました。\n\n漢民族に分類されるチワン族は中華人民共和国で最も人口の多い民族です。"
 
 #: data/nation/zimbabwean.ruleset:3
 msgid "Zimbabwean"
