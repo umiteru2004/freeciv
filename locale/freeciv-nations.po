@@ -291,7 +291,7 @@ msgstr "%s首相"
 # clefs
 #: data/nation/acadian.ruleset:31 data/nation/alander.ruleset:28
 #: data/nation/quebecois.ruleset:20 data/nation/tahitian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Premiere %s"
 msgstr "%s首相"
 
@@ -755,13 +755,12 @@ msgstr "司教代理 %s"
 
 #: data/nation/alaskan.ruleset:3
 msgid "Alaska"
-msgstr ""
+msgstr "アラスカ人"
 
 #: data/nation/alaskan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Albanians"
 msgid "?plural:Alaskans"
-msgstr "アルバニア人"
+msgstr "アラスカ人"
 
 #: data/nation/alaskan.ruleset:6
 msgid ""
@@ -770,7 +769,7 @@ msgid ""
 "1912 and eventually gained statehood as the 49th state on January 3rd, 1959. "
 "The question of Alaskan independence became more relevant with the election "
 "of Wally Hickel in 1990."
-msgstr ""
+msgstr "アラスカは1867年にロシア帝国から購入されたアメリカ合衆国の州であり、1912年5月11日に正式な領土となり、1959年1月3日に49番目の州として独立しました。\n\nアラスカの独立問題は、1990年にウォーリー・ヒッケル氏が大統領に選出されたことにより、より大きな意味を持つようになりました。"
 
 #: data/nation/alaskan.ruleset:29 data/nation/californian.ruleset:34
 #: data/nation/florida.ruleset:31 data/nation/texan.ruleset:31
@@ -4548,13 +4547,12 @@ msgstr "ダキア人はドナウ川下流の左岸、現在のルーマニアに
 
 #: data/nation/dagestan.ruleset:3
 msgid "Dagestan"
-msgstr ""
+msgstr "ダゲスタン"
 
 #: data/nation/dagestan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Pakistanis"
 msgid "?plural:Dagestani"
-msgstr "パキスタン人"
+msgstr "タゲスタン人"
 
 #: data/nation/dagestan.ruleset:7
 msgid ""
@@ -4568,7 +4566,7 @@ msgid ""
 "government, it rose up multiple times against Russia, once in 1828, and "
 "again in 1917, it eventually became an autonomous republic under the Soviet "
 "Union in 1921."
-msgstr ""
+msgstr "ダゲスタンは、カスピ海沿いの北コーカサス地方に位置するロシアの共和制国家で、ロシアの共和制国家の中でも最も多様な民族が暮らす地域のひとつです。\n\n現在のタゲスタン人は、643年にアラブ人がこの地域を征服した後、ロシアの近代国境内で最初にイスラム教徒となった民族です。その後、タゲスタンは1221年にモンゴルの襲撃を受けました。\n\nダゲスタンは最終的に1813年にロシアの支配下に入り、1828年時点では帝政ロシアの支配下にありました。高額の税金とロシア政府に対する一般的な不満のため、1828年に一度、1917年に再びと、ロシアに対して何度も蜂起し、最終的には1921年にソビエト連邦の下で自治共和国となりました。"
 
 #: data/nation/dahomean.ruleset:3
 msgid "Dahomean"
@@ -4689,16 +4687,14 @@ msgstr ""
 "いでください。"
 
 #: data/nation/donetsk.ruleset:3
-#, fuzzy
 #| msgid "Nenets"
 msgid "Donetsk"
-msgstr "ネネツ人"
+msgstr "ドネツク人"
 
 #: data/nation/donetsk.ruleset:4
-#, fuzzy
 #| msgid "?plural:Dominicans"
 msgid "?plural:Donchyani"
-msgstr "ドミニカ人"
+msgstr "ドネツク人"
 
 #: data/nation/donetsk.ruleset:6
 msgid ""
@@ -4723,19 +4719,19 @@ msgid ""
 "Assembly passed a resolution calling on countries not to recognise what it "
 "called the \"attempted illegal annexation\" and demanded that Russia "
 "\"immediately, completely and unconditionally withdraw.\""
-msgstr ""
+msgstr "ドネツク人民共和国（略称DPR）は、ウクライナ東部ドネツク州の、ロシアによる占領地域にある未承認の共和国で、首都はドネツクにあります。DPRは2014年にロシアの支援を受けた武装勢力によって創設され、2022年にロシアに併合されるまで、当初は分離国家として活動していました。\n\n2014年のウクライナの尊厳革命後、同国東部では親ロシア派の反革命的な動乱が勃発しました。ロシアはウクライナからクリミアを併合し、武装分離主義者は政府庁舎を占拠し、ルハンスク人民共和国（LPR）とドネツク人民共和国（DPR）を独立国家として宣言しました。これがドンバス戦争の発端となり、より広範なロシア・ウクライナ戦争の一部となりました。この紛争中、DPRとLPRはロシアの傀儡国家と評されることもありましたが、2022年までに国連加盟国から国際的な承認を得ることはありませんでした。\n\n2022年2月21日、ロシアはLPRとDPRを主権国家として承認しました。その3日後、ロシアはこの2国の保護を口実に、部分的にウクライナへの侵攻を開始しました。ロシア軍はドネツク州の大部分を占領し、同州はロシアの一部となりました。\n\n2022年9月、ロシアは、国際法上違法な住民投票を経て、DPRとその他の占領地の併合を宣言しました。国連総会は、「不法な併合の試み」と称するものを承認しないよう各国に呼びかけ、ロシアに対して「即時、完全かつ無条件に撤退する」ことを要求する決議を採択しました。"
 
 #: data/nation/donetsk.ruleset:40 data/nation/luhansk.ruleset:37
-#, fuzzy, c-format
+#, c-format
 #| msgid "Hetman %s"
 msgid "Kremlin %s"
-msgstr "ヘーチマン %s"
+msgstr "クレムリン %s"
 
 #: data/nation/donetsk.ruleset:40 data/nation/luhansk.ruleset:37
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Hetman %s"
 msgid "?female:Kremlin %s"
-msgstr "ヘーチマン %s"
+msgstr "クレムリン %s"
 
 # フランス語読み。日本で一般的なので。(Belgae)
 #: data/nation/dryad.ruleset:3
@@ -5283,9 +5279,9 @@ msgstr " %s傭兵隊長"
 #: data/nation/florentine.ruleset:40 data/nation/milanese.ruleset:27
 #: data/nation/piedmontese.ruleset:33 data/nation/sardinian.ruleset:34
 #: data/nation/sicilian.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Fra %s"
-msgstr "\"%s\""
+msgstr "%s師"
 
 #: data/nation/florentine.ruleset:42 data/nation/italiangreek.ruleset:51
 #: data/nation/milanese.ruleset:29
@@ -6687,13 +6683,13 @@ msgstr ""
 #: data/nation/israeli.ruleset:23
 #, c-format
 msgid "Kibbutznik %s"
-msgstr "キブツニック %s"
+msgstr "キブツの一員 %s"
 
 #: data/nation/israeli.ruleset:23
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Kibbutznik %s"
 msgid "?female:Kibbutznikit %s"
-msgstr "キブツニック %s"
+msgstr "キブツの一員 %s"
 
 #: data/nation/israeli.ruleset:25 data/nation/khazar.ruleset:35
 #, c-format
@@ -7741,14 +7737,14 @@ msgstr ""
 "リア州やリグリア海などに残っています。"
 
 #: data/nation/ligurian.ruleset:24 data/nation/malaysian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Paramount Ruler %s"
-msgstr "最高首長 %s"
+msgstr "最高統治者 %s"
 
 #: data/nation/ligurian.ruleset:24 data/nation/malaysian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Paramount Ruler %s"
-msgstr "最高首長 %s"
+msgstr "最高統治者 %s"
 
 #: data/nation/lipkatatar.ruleset:3
 msgid "Lipka Tatar"
@@ -7884,25 +7880,25 @@ msgid "Queenfish %s"
 msgstr "女王 %s"
 
 #: data/nation/louisianian.ruleset:46
-#, fuzzy, c-format
+#, c-format
 #| msgid "Governor %s"
 msgid "Governeror %s"
 msgstr "%s州知事"
 
 #: data/nation/louisianian.ruleset:46
-#, fuzzy, c-format
+#, c-format
 #| msgid "?female:Governor %s"
 msgid "?female:Governeror %s"
 msgstr "%s州知事"
 
 #: data/nation/luhansk.ruleset:3
 msgid "Luhansk"
-msgstr "ルハンシク人"
+msgstr "ルハンスク人"
 
 #: data/nation/luhansk.ruleset:4
 #| msgid "?plural:Luwians"
 msgid "?plural:Luhansk"
-msgstr "ルハンシク人"
+msgstr "ルハンスク人"
 
 #: data/nation/luhansk.ruleset:6
 msgid ""
@@ -7924,7 +7920,7 @@ msgid ""
 "republics. In September 2022, Russia proclaimed the annexation of the LPR "
 "and other occupied territories, following illegitimate referendums which "
 "were illegal under international law."
-msgstr "ルハンスク人民共和国（ルハンスクじんみんきょうわこく、略称LPR）は、ウクライナ東部ルハンスク州のロシアによる占領地域にある未承認共和国で、首都はルハンスクにあります。LPRは2014年にロシアの支援を受けた準軍事組織によって創設され、2022年にロシアに併合されるまで、当初は分離国家として活動していました。\n\n2014年のウクライナの尊厳革命後、同国東部では親ロシア的な反革命的騒乱が勃発しました。ロシアはウクライナからクリミアを併合し、武装分離主義者は政府庁舎を占拠し、ルハンスク人民共和国（LPR）とドネツク人民共和国（DPR）を独立国家として宣言しました。これがドンバス戦争の発端となり、より広範なロシア・ウクライナ戦争の一部となりました。この紛争中、LPRとDPRはロシアの傀儡国家と評されることもありましたが、2022年までに国連加盟国から国際的な承認を受けることはありませんでした。\n\n2022年2月21日、ロシアはLPRとDPRを主権国家として承認しました。その3日後、ロシアは共和国の保護を口実にウクライナへの侵攻を開始しました。2022年9月、ロシアは、国際法上違法である非合法な住民投票を経て、LPRとその他の占領地の併合を宣言しました。"
+msgstr "ルハンスク人民共和国（略称LPR）は、ウクライナ東部ルハンスク州の、ロシアによる占領地域にある未承認の共和国で、首都はルハンスクにあります。LPRは2014年にロシアの支援を受けた武装勢力によって創設され、2022年にロシアに併合されるまで、当初は分離国家として活動していました。\n\n2014年のウクライナの尊厳革命後、同国東部では親ロシア派の反革命的騒乱が勃発しました。ロシアはウクライナからクリミアを併合し、武装分離主義者は政府庁舎を占拠し、ルハンスク人民共和国（LPR）とドネツク人民共和国（DPR）を独立国家として宣言しました。これがドンバス戦争の発端となり、より広範なロシア・ウクライナ戦争の一部となりました。この紛争中、LPRとDPRはロシアの傀儡国家と評されることもありましたが、2022年までに国連加盟国から国際的な承認を得ることはありませんでした。\n\n2022年2月21日、ロシアはLPRとDPRを主権国家として承認しました。その3日後、ロシアはこの2国の保護を口実にウクライナへの侵攻を開始しました。\n\n2022年9月、ロシアは、国際法上違法な住民投票を経て、LPRとその他の占領地の併合を宣言しました。"
 
 #: data/nation/luwian.ruleset:3
 msgid "Luwian"
@@ -9341,13 +9337,12 @@ msgstr ""
 
 #: data/nation/northirish.ruleset:3
 msgid "Northern Irish"
-msgstr ""
+msgstr "北アイルランド人"
 
 #: data/nation/northirish.ruleset:4
-#, fuzzy
 #| msgid "?plural:Cornish"
 msgid "?plural:Northern Irish"
-msgstr "コーンウォール人"
+msgstr "北アイルランド人"
 
 #: data/nation/northirish.ruleset:6
 msgid ""
@@ -9359,7 +9354,7 @@ msgid ""
 "known as 'The Troubles' and established a power-sharinggovernment that gives "
 "both sides a say in the affairs of the region.Northern Ireland is known for "
 "its scenic landscapes and cultural heritage."
-msgstr ""
+msgstr "北アイルランドは、アイルランド島の北東部を占めるイギリスの一部です。\n\n北アイルランドは、英国への残留を望む英国連合派とアイルランド共和国への復帰を目指すアイルランド民族派との対立と協調の複雑な歴史を持ちます。1998年の「聖金曜日合意」によって「トラブル（訳注：婉曲的にそう呼ばれているようです）」と呼ばれた暴力的な時代は終わりを告げ、双方に地域問題への発言権を与える権力分立政権が樹立されました。\n\n北アイルランドは風光明媚な景観と文化遺産で知られています。"
 
 #: data/nation/northirish.ruleset:39 data/nation/scottishgaelic.ruleset:37
 #: data/nation/scottish.ruleset:26
@@ -12402,20 +12397,19 @@ msgstr ""
 
 #: data/nation/tokiponan.ruleset:3
 msgid "Toki Ponan"
-msgstr ""
+msgstr "トキポニスト"
 
 #: data/nation/tokiponan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Tongans"
 msgid "?plural:Toki Ponans"
-msgstr "トンガ人"
+msgstr "トキポニスト"
 
 #: data/nation/tokiponan.ruleset:6
 msgid ""
 "Toki Pona is a conlang created by Sonja lang in 2001 which is notable for "
 "its extremely small size, consisting of 14 letters and anywhere from 120 "
 "words to 137 words."
-msgstr ""
+msgstr "トキポナ（Toki Pona）は2001年にソーニャ・ラング（Sonja lang）によって創作された人工言語で、14文字、120語から137語の単語からなる非常に小さなサイズに特徴があります。"
 
 #: data/nation/toltec.ruleset:3
 msgid "Toltec"
@@ -12689,19 +12683,16 @@ msgid "?female:Turkmenbashi %s"
 msgstr "トルクメンバシ %s"
 
 #: data/nation/tuvaluan.ruleset:3
-#, fuzzy
 #| msgid "Tuvan"
 msgid "Tuvaluan"
-msgstr "トゥバ人"
+msgstr "ツバル人"
 
 #: data/nation/tuvaluan.ruleset:4
-#, fuzzy
 #| msgid "?plural:Tuvans"
 msgid "?plural:I-Tuvaluan"
-msgstr "トゥバ人"
+msgstr "ツバル人"
 
 #: data/nation/tuvaluan.ruleset:6
-#, fuzzy
 #| msgid ""
 #| "The Gilbert Islands, known in Gilbertese as Tungaru, are an island chain "
 #| "in the Pacific Ocean. Inhabited by Micronesians since prehistoric times, "
@@ -12719,13 +12710,7 @@ msgid ""
 "and Ellice Islands. The islands became independent in 1978, under the name "
 "Tuvalu, which means 'Eight standing together', referencing the eight "
 "inhabited islands."
-msgstr ""
-"キリバス共和国は太平洋のギルバート諸島・フェニックス諸島・ライン諸島などから"
-"なる，ミクロネシアとポリネシアにまたがった島国です。ギルバート諸島には紀元前"
-"からミクロネシア人が住んでおり，彼らは島をツンガルと呼んでいました。1892年に"
-"エリス諸島(現在のツバル)と共にイギリスの保護領となり，第二次世界大戦中に日本"
-"軍に占領されました。1979年に独立を果たし，国名としてキリバス(「ギルバート」の"
-"キリバス語読み)が選ばれました。"
+msgstr "エリス諸島は太平洋に浮かぶ島々です。先史時代からミクロネシア人が居住し、19世紀後半に共通の首長国のもとに統合されました。\n\n1892年にギルバート諸島とともにイギリスに併合され、ギルバート・エリス諸島の植民地となりました。その後、1978年に独立し、8つの有人島を意味するツバルとなりました。"
 
 #: data/nation/tuvan.ruleset:3
 msgid "Tuvan"
