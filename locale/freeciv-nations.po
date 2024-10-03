@@ -1267,7 +1267,7 @@ msgstr ""
 "り，1806年には公爵(Herzog)となりました。1871年にドイツ帝国の構成国となったも"
 "のの，1918年のドイツ革命に伴ってアンハルト公は退位し，アンハルトはヴァイマル"
 "共和国アンハルト自由州となりました。第二次世界大戦後，アンハルトはその全域が"
-"ザクセン=アンハルト州に統合されました。"
+"ザクセン＝アンハルト州に統合されました。"
 
 #: data/nation/anhaltian.ruleset:32 data/nation/aragonese.ruleset:29
 #: data/nation/castilian.ruleset:31 data/nation/catalan.ruleset:30
@@ -2291,7 +2291,7 @@ msgid ""
 "the inhabitants of Gaul. They put up stiff resistance against Caesar's "
 "legions but eventually succumbed to the Romans. The modern country of "
 "Belgium derives its name from the Belgae."
-msgstr ""
+msgstr "ベルガエ人は、後にローマ帝国のガリア・ベルギカ州となる地域に住んでいた古代ケルトの民族です。彼らの起源はおそらくケルトとゲルマンの混血で、ライン川流域からガリアに入り、ゲルマン人の要素も含まれていたが、首長の名前はガリア人でした。\n\nユリウス・カエサルがベルガエ人をガリアの住民の中で最も勇敢な者と呼んだのは有名な話です。彼らはカエサルの軍団に対して激しい抵抗を見せましたが、最終的にはローマ軍に屈しました。\n\n現代のベルギーはベルガエ人に由来します。"
 
 #: data/nation/belgic.ruleset:32 data/nation/boian.ruleset:24
 #: data/nation/helvetian.ruleset:31
@@ -3534,7 +3534,7 @@ msgid ""
 "Żeligowski announced the creation of a Republic of Central Lithuania, which "
 "was then incorporated into Poland. After World War II most of the Lithuanian "
 "Poles were displaced to Poland's new western territories."
-msgstr ""
+msgstr "リトアニア・ポーランド人はリトアニアの少数民族で、主にアウクシュトタ地方に居住しています。\n\n彼らは、1569年のルブリン合同によって成立したポーランド・リトアニア共和国の名残です。この国家はポーランド王国とリトアニア大公国を統合したもので、ヴワディスワフという名で洗礼を受けたリトアニアの大公ヨガイラによって設立されました。\n\nリトアニアにおける最初のポーランド人コミュニティの存在は、リトアニアのミンダウガス公爵にまで遡ります。最初のポーランド人は、辺境の地（主にマゾフシェ）を襲撃した際に捕虜としてリトアニアに連れてこられました。両国の統一後、リトアニア貴族のポーランド化が大きく進みました。\n\nリトアニアのポーランド語社会は、ポーランド国家の崩壊と分割を生き延び、リトアニア語社会と共存しました。1920年、反乱を起こしたジェリゴフスキ将軍が中央リトアニア共和国の樹立を宣言し、同共和国はポーランドに編入されました。\n\n第二次世界大戦後、リトアニア系ポーランド人の大半はポーランドの新西部領土に移住しました。"
 
 # clefs
 #: data/nation/centrallithuanian.ruleset:40 data/nation/chuvash.ruleset:30
@@ -3775,7 +3775,7 @@ msgid ""
 msgstr ""
 "チヌークはチヌーク語族の言語を話すインディアン部族の総称です。現在のアメリ"
 "カ・オレゴン州及びワシントン州のコロンビア川中・下流域に定住していました。彼"
-"らの言語と英語・フランス語の混成語であるチヌーク=ジャーゴンは，白人とインディ"
+"らの言語と英語・フランス語の混成語であるチヌーク＝ジャーゴンは，白人とインディ"
 "アンの貿易や意思疎通に用いられ，オレゴン州やワシントン州，カナダ・ブリティッ"
 "シュコロンビア州，アラスカ州にまで広まりました。"
 
@@ -3839,11 +3839,11 @@ msgstr ""
 
 #: data/nation/chrobatian.ruleset:3
 msgid "Chrobatian"
-msgstr "白クロアチア族"
+msgstr "白クロアチア人"
 
 #: data/nation/chrobatian.ruleset:4
 msgid "?plural:Chrobatians"
-msgstr "白クロアチア族"
+msgstr "白クロアチア人"
 
 #: data/nation/chrobatian.ruleset:6
 msgid ""
@@ -3853,7 +3853,7 @@ msgid ""
 "is a mention by the Byzantine Emperor Constantine VII Porphyrogennetos. "
 "White Croatia is sometimes associated with a prince Slavnik, lord of Libice, "
 "whose influence extended to the region of Silesia and the land of Krakow."
-msgstr ""
+msgstr "白クロアチア（Chrobatia）は、中世初期に白クロアチア人によって組織された半伝説的なスラヴ国家です。\n\n白クロアチア国家が存在したことを示す主な資料は、ビザンツ皇帝コンスタンティヌス7世ポルフィロゲネトスによる言及です。白クロアチアはリディツェの領主スラヴニク王子と関連付けられることもあり、その影響力はシレジア地方やクラクフの地まで及んでいました。"
 
 # clefs
 # Belgae
@@ -3972,7 +3972,7 @@ msgid ""
 "19th century, when they were defeated and subjected to genocide at the hands "
 "of the Russian Empire. Today less than 10% of the Circassian population "
 "lives in their original homeland."
-msgstr "チェルケス人は北西コーカサスの先住民族です。チュルカシア語またはアディゲ語は北西コーカサス語族に属し、カバルド語、アブハズ語、ウビフ語と近縁です。\n\nチュルカシア人が最初にまとまった存在として現れたのは約6000年前のことです。それにもかかわらず、彼らは歴史を通じて大帝国からの無数の侵略に抵抗することに成功しました。19世紀半ばにロシア帝国に敗れ、大量虐殺されるまで、長い歴史の中で完全に服従させられたことはありませんでした。\n\n現在では、本来の祖国に住んでいるのは、全体の10％にも及びません。"
+msgstr "チェルケス人は北西コーカサスの先住民族です。チュルカシア語またはアディゲ語は北西コーカサス語族に属し、カバルド語、アブハズ語、ウビフ語と近縁です。\n\nチュルカシア人が最初にまとまった存在として現れたのは約6000年前のことです。それにもかかわらず、彼らは歴史を通じて大帝国からの無数の侵略に抵抗することに成功しました。19世紀半ばにロシア帝国に敗れ、大量虐殺されるまで、長い歴史の中で完全に服従させられたことはありませんでした。\n\n現在では、本来の祖国に住んでいるのは、全体の10％未満です。"
 
 # clefs 音訳
 #: data/nation/circassian.ruleset:36 data/nation/ghaznavid.ruleset:32
@@ -4490,7 +4490,7 @@ msgid ""
 "Union in 1948. Four years after the fall of communism it was split into the "
 "Czech and Slovak republics."
 msgstr ""
-"第一次世界大戦末期の1918年に，敗色濃厚となったオーストリア=ハンガリー帝国から"
+"第一次世界大戦末期の1918年に，敗色濃厚となったオーストリア＝ハンガリー帝国から"
 "チェコスロヴァキア共和国が独立を宣言しました。1938年9月に開かれたミュンヘン会"
 "談でナチス・ドイツへのズデーテン地方割譲を強いられ，これ以降各地で民族運動が"
 "激化しました。宥和政策を取るイギリスとフランスに見捨てられた格好となったチェ"
@@ -5262,19 +5262,19 @@ msgid ""
 "Machiavelli. The De' Medici family eventually managed to consolidate its "
 "hold on Florence, and in the 16th century the Republic was turned into the "
 "Grand Duchy of Tuscany. In 1859 it was annexed by Italy."
-msgstr ""
+msgstr "フィレンツェ共和国は、1115年にトスカーナの辺境伯領を倒して建国されました。\n\n政治的陰謀が常態化していたにもかかわらず、フィレンツェはその時代で最も壮麗な都市国家となりました。ダンテ、サヴォナローラ、ミケランジェロ、ダ・ヴィンチ、マキャヴェッリといった著名人を輩出したフィレンツェは、ルネサンス期のイタリア、そしてヨーロッパの文化的、哲学的リーダーでした。\n\nデ・メディチ家はやがてフィレンツェの支配を強固にし、16世紀には共和国はトスカーナ大公国になりました。1859年にはイタリアに併合されました。"
 
 #: data/nation/florentine.ruleset:39 data/nation/genoese.ruleset:49
 #: data/nation/milanese.ruleset:26 data/nation/venetian.ruleset:27
 #, c-format
 msgid "Condottiere %s"
-msgstr " %s傭兵隊長"
+msgstr "%s傭兵隊長"
 
 #: data/nation/florentine.ruleset:39 data/nation/genoese.ruleset:49
 #: data/nation/milanese.ruleset:26 data/nation/venetian.ruleset:27
 #, c-format
 msgid "Condottiera %s"
-msgstr " %s傭兵隊長"
+msgstr "%s傭兵隊長"
 
 #: data/nation/florentine.ruleset:40 data/nation/milanese.ruleset:27
 #: data/nation/piedmontese.ruleset:33 data/nation/sardinian.ruleset:34
@@ -5391,7 +5391,7 @@ msgid ""
 "the 10th century CE the Frankish empire had broken up for good into West "
 "Francia, which later became France, and East Francia, which later became the "
 "Holy Roman Empire or Germany."
-msgstr ""
+msgstr "フランク人は、紀元3世紀に現在のドイツ北西部に形成されたゲルマン人の連合体です。\n\n5世紀後半に指導者クロヴィスがキリスト教に改宗し、フランク諸部族を統一してガリアの大部分を征服しました。クロヴィスの後継者たちはフランク王国の支配を中央ヨーロッパの大部分に拡大しました。\n\nフランク王国はゲルマンとローマの要素を混ぜ合わせ、ヨーロッパ中世の文化、社会、政治の基礎を築きました。停滞期を経て、フランク王国は8世紀に再統一されました。\n\n800年、フランク王シャルルマーニュはローマ教皇によって皇帝に即位しました。彼の死後、フランク王国は再び分裂しました。10世紀には、フランク王国は、後にフランスとなる西フランク王国と、後に神聖ローマ帝国やドイツとなる東フランク王国に分かれていました。"
 
 #: data/nation/frankish.ruleset:43
 #, c-format
@@ -5727,7 +5727,7 @@ msgid ""
 "the same rights as their Flemish and French-speaking compatriots. As a "
 "result, they are often dubbed 'the best protected minority of Europe' and "
 "'the last true Belgians'."
-msgstr ""
+msgstr "ドイツ語共同体は、ベルギーの3つの共同体政府のひとつで、同国最東部に位置するワロン地域の一部です。この地域は第一次世界大戦後、ドイツによる占領の補償としてベルギーに併合されました。\n\nドイツ語圏の人口は約7万5,000人で、ベルギーの人口の1％未満です。長い間軽視されてきましたが、ドイツ語を話すベルギー人は現在、フラマン語やフランス語を話す同胞と同じ権利を享受しています。その結果、彼らはしばしば「ヨーロッパで最も保護された少数民族」「最後の真のベルギー人」と呼ばれています。"
 
 #: data/nation/germanic.ruleset:3
 msgid "Germanic"
@@ -5750,7 +5750,7 @@ msgid ""
 "established on what was once the Western Roman Empire. By this time most "
 "Germanic peoples had changed their ancestral polytheistic religion for "
 "Christianity."
-msgstr "ゲルマン民族は北ヨーロッパと北西ヨーロッパに存在する民族言語複合体です。ゲルマン諸語は、インド・ヨーロッパ語族に属する原ゲルマン語から派生したと考えられています。\n\n古代ゲルマン民族の起源はかなり仮説的です。ゲルマン語には、他のインド・ヨーロッパ語族には存在しない多くの特徴があります。\n\n北ドイツ平原と南スカンジナビアで最初に存在が証明されたゲルマン人は、前2世紀以降ローマ人と衝突しました。やがて中世初期には、かつて西ローマ帝国だった場所にゲルマン王国が成立しました。この頃までに、ゲルマン民族の大半は先祖伝来の多神教をキリスト教に変えていました。"
+msgstr "ゲルマン民族は北ヨーロッパと北西ヨーロッパに存在する民族言語複合体です。ゲルマン諸語は、インド・ヨーロッパ語族に属する原ゲルマン語から派生したと考えられています。\n\n古代ゲルマン民族の起源はかなり仮説的です。ゲルマン語には、他のインド・ヨーロッパ語族には存在しない多くの特徴があります。\n\n北ドイツ平原と南スカンディナヴィアで最初に存在が証明されたゲルマン人は、前2世紀以降ローマ人と衝突しました。やがて中世初期には、かつて西ローマ帝国だった場所にゲルマン王国が成立しました。この頃までに、ゲルマン民族の大半は先祖伝来の多神教をキリスト教に変えていました。"
 
 #: data/nation/ghanaian.ruleset:3
 msgid "Ghanaian"
@@ -5884,7 +5884,7 @@ msgid ""
 "century CE. The Goths played a major role in the fall of the Roman Empire, "
 "sacking Rome itself in 410 CE. The Visigoths conquered Roman Iberia while "
 "the Ostrogoths founded a kingdom in Italy."
-msgstr "ゴート族は東ゲルマン人で、現在のポーランドか、おそらくスカンジナビアに起源を持ちます。紀元4世紀には南東ヨーロッパを支配しました。\n\nゴート族はローマ帝国の滅亡に大きな役割を果たし、紀元410年にはローマそのものを略奪しました。西ゴート族はローマ帝国のイベリア半島を征服し、オストロゴート族はイタリアに王国を築きました。"
+msgstr "ゴート族は東ゲルマン人で、現在のポーランドか、おそらくスカンディナヴィアに起源を持ちます。紀元4世紀には南東ヨーロッパを支配しました。\n\nゴート族はローマ帝国の滅亡に大きな役割を果たし、紀元410年にはローマそのものを略奪しました。西ゴート族はローマ帝国のイベリア半島を征服し、オストロゴート族はイタリアに王国を築きました。"
 
 #: data/nation/greaterpolish.ruleset:3
 msgid "Greater Polish"
@@ -5922,7 +5922,7 @@ msgstr ""
 "伝説によれば，大シャーマンQitdlarssuaqがイヌイットの民を引き連れてグリーンラ"
 "ンド西岸の地トゥーレ(カーナーク)に移住したといいます。ほぼ同時期に，スカンジ"
 "ナビアからの入植者が島の南西端のフィヨルドに到達しました。今日，グリーンラン"
-"ドはデンマーク王国の自治領であり，イヌイットとスカンジナビア人が混住していま"
+"ドはデンマーク王国の自治領であり，イヌイットとスカンディナヴィア人が混住していま"
 "す。"
 
 #: data/nation/grenadian.ruleset:3
@@ -6282,7 +6282,7 @@ msgid ""
 "used by Caesar as a pretext to conquer Helvetia and the rest of Gaul. The "
 "Helvetians succumbed to the Romans and became Romanized during the following "
 "centuries."
-msgstr ""
+msgstr "ヘルウェティイ族（ラテン語: Helvetii）は、現在のスイスと隣接するフランスとドイツに住んでいた古代ケルト人です。\n\nヘルウェティイ族は、キケロ側などに立ってローマの内紛に協力することもありました。ヘルウェティイ族は、ガリアの諸部族を支配しようと努力する、大きく広大な部族でした。\n\nヘルウェティイ族の酋長オルゲトリクスの作戦は、カエサルがヘルウェティイとガリアの他の部族を征服する口実として利用されました。ヘルウェティイ族はローマ人に屈服し、その後数世紀の間にローマ人化しました。"
 
 #: data/nation/hephthalite.ruleset:3
 msgid "Hephthalite"
@@ -7408,7 +7408,7 @@ msgid ""
 "in an alliance with the Avars, the Langobards under king Alboin invaded "
 "Italia in 568. They founded a new kingdom with its capital in Pavia. The "
 "modern region of Lombardy derives its name from the Lombards."
-msgstr ""
+msgstr "ランゴバルド人は古代ゲルマン民族です。彼らはスカンディナヴィア出身ですが、エルベ川下流域に定住しました。\n\n紀元166年、彼らはローマ帝国のパンノニア州とノリクム州への攻撃に参加しました。彼らの最初の国家はドナウ川に築かれました。\n\nアヴァール人との同盟でゲピド族を破ったランゴバルド人は、568年にアルボイーノ王のもとイタリアに侵入しました。彼らはパヴィアに首都を置く新しい王国を建国しました。\n\n現在のロンバルディア地方は、ランゴバルド人に由来します。"
 
 # clefs
 #: data/nation/lankese.ruleset:3
@@ -7641,7 +7641,7 @@ msgid ""
 "Northeastern Adriatic coast in modern Croatia. They were probably distinct "
 "from their neighbors, the Illyrians, and spoke an Italic language. They were "
 "Romanized after the annexation of their land by Rome."
-msgstr ""
+msgstr "リブルニア人は古代インド・ヨーロッパ語族で、現在のクロアチアのアドリア海沿岸北東部に住んでいました。\n\n彼らはおそらく近隣のイリュリア人とは区別され、イタリア語を話していました。ローマに併合された後、ローマ化されました。"
 
 #: data/nation/libyan.ruleset:3
 msgid "Libyan"
@@ -7782,7 +7782,7 @@ msgid ""
 "River and the southeast part of the Teutoburg forest."
 msgstr ""
 "リッペ侯国は，かつてドイツに存在した領邦国家です。ヴェーザー川とトイトブルク"
-"の森南東部の間に位置していました。現在のドイツ連邦共和国ノルトライン=ヴェスト"
+"の森南東部の間に位置していました。現在のドイツ連邦共和国ノルトライン＝ヴェスト"
 "ファーレン州デトモルト行政管区リッペ郡にあたります。"
 
 #: data/nation/lithuanian.ruleset:3
@@ -9683,7 +9683,7 @@ msgid ""
 "Mazovia, Lithuania and the Baltic Sea (Baltic coast between the lower "
 "Vistula and lower Nemen). They were conquered and germanized by the Teutonic "
 "Order."
-msgstr ""
+msgstr "古プロイセン人は、ポメラニア、マゾフシェ、リトアニアとバルト海（ヴィスワ川下流域とネマン川下流域のバルト海沿岸）に挟まれた地域に住んでいたバルト民族です。\n\n彼らはドイツ騎士団によって征服され、ゲルマン化されました。"
 
 #: data/nation/omani.ruleset:3
 msgid "Omani"
@@ -9870,7 +9870,7 @@ msgid ""
 "Bylazora. In 360-359 BCE, southern Paeonian tribes launched raids into "
 "Macedon, but the Macedons defeated and conquered them. A Paeonian military "
 "contingent participated in the expedition of Alexander the Great to Persia."
-msgstr ""
+msgstr "パエオニア人は、古代マケドニア王国の北、トラキア人とイリュリア人の間に住んでいた古代人です。\n\n彼らの言語は、おそらくトラキア語とイリュリア語が混ざったものであると考えられます。パイオニア王家の本拠地はビラゾラでした。\n\n前360～359年、パエオニア南部の諸部族が古代マケドニアに侵入しましたが、古代マケドニアはこれを撃破し征服しました。また、アレクサンダー大王のペルシア遠征には、パエオニア軍が参加しました。"
 
 # Belgae
 #: data/nation/pakistani.ruleset:3
@@ -10259,7 +10259,7 @@ msgid ""
 "custom of tattooing their bodies. The Picts survived until well into the "
 "Middle Ages but by the 11th century they had been assimilated by the Gaelic "
 "Scots."
-msgstr ""
+msgstr "ピクト人は古代スコットランド、カレドニアの先住民でした。\n\n彼らはおそらくケルト人、あるいはケルト化した先インド・ヨーロッパ人であると考えられます。彼らは体に入れ墨をする習慣があったため、ローマ人によってピクト人（painted peopleの意）と呼ばれるようになりました。\n\nピクト人は中世まで存続しましたが、11世紀にはスコットランド・ゲール人に同化されました。"
 
 #: data/nation/piedmontese.ruleset:3
 msgid "Piedmontese"
@@ -10489,7 +10489,7 @@ msgid ""
 "heartland of Germany. Since the end of World War II the Rhineland is divided "
 "between the German states of North Rhine-Westphalia, Rhineland-Palatinate "
 "and Saarland."
-msgstr ""
+msgstr "ラインラントは、神聖ローマ帝国のケルン、トリーア、マインツという3つの選帝侯領と、数多くの小領土の所在地でした。\n\n17世紀以降、ラインラント諸州は徐々にプロイセンに吸収されました。1822年にはプロイセンのライン州が設立されました。産業革命の時代、この地域はドイツの経済と工業の中心地となりました。\n\n第二次世界大戦後、ラインラントはノルトライン＝ヴェストファーレン州、ラインラント＝プファルツ州、ザールラント州に分割されました。"
 
 #: data/nation/riffian.ruleset:3
 msgid "Riffian"
@@ -10576,7 +10576,7 @@ msgid ""
 "to save the language, it is losing terrain as many of its speakers switch to "
 "German. Before the Napoleonic Era, the Three Leagues of Grisons were the "
 "only territory of Europe where decision making was organized by taking votes."
-msgstr ""
+msgstr "スイスのグラウビュンデン州に住むロマンシュ人は、ロマンス語の一種であるロマンシュ語を話します。\n\nロマンシュ語は、スイスの4つの国語の1つであり、ロマンシュ語保存のためのプロジェクトも進められていますが、多くの話者がドイツ語に移行しているため、ロマンシュ語の地勢は失われつつあります。\n\nナポレオン時代以前、グラウビュンデンの三同盟は、ヨーロッパで唯一、投票によって意思決定が行われていました。"
 
 #: data/nation/rusyn.ruleset:3
 msgid "Rusyn"
@@ -10594,7 +10594,7 @@ msgid ""
 "Duchy of Galicia–Volhynia and the Kingdom of Rus. In later times the lands "
 "were under Polish and later Austrian rule. Rusyns formed two ephemeral "
 "states after World War I: the Lemko-Rusyn Republic and the Komancza Republic."
-msgstr ""
+msgstr "ルシン人は東スラブ民族の西周辺に位置する民族です。主にポーランド、ウクライナ、スロバキアの国境地帯とヴォイヴォディナ地方に居住しています。\n\n中世、ルシン人の故郷はハールィチ・ヴォルィーニ大公国とキエフ大公国の所在地でした。その後、この地はポーランド、後にはオーストリアの支配下に置かれました。\n\n第一次世界大戦後、ルシン人はレムコ＝ルシン共和国とコマンチャ共和国という2つの一時的な国家を形成しました。"
 
 #: data/nation/ruthenian.ruleset:3
 msgid "Kievan Rus'"
@@ -10798,7 +10798,7 @@ msgstr "サーミ人"
 msgid ""
 "The Sami are a people of northern Scandinavia. Their nation spans over the "
 "northernmost regions of the Scandinavian countries and northwestern Russia."
-msgstr "サーミ人はスカンジナビア北部の民族です。彼らはスカンジナビア諸国の最北部とロシア北西部に広がっています。"
+msgstr "サーミ人はスカンディナヴィア北部の民族です。彼らはスカンディナヴィア諸国の最北部とロシア北西部に広がっています。"
 
 #: data/nation/sammarinese.ruleset:3
 msgid "Sammarinese"
@@ -11047,7 +11047,7 @@ msgid ""
 "Scania saw something of a national revival in the late 20th century with "
 "calls for greater autonomy within the Kingdom of Sweden."
 msgstr ""
-"スコーネはスウェーデンの最南端に位置します。\n\n歴史的にはヴァイキング時代のスカンジナビアに数多く存在した小王国のひとつで、中世にはデンマークの一部となりましたが、1658年のロスキレ条約によってスウェーデンに割譲されました。\n\nスコーネは20世紀後半、スウェーデン王国内での自治権拡大を求める声とともに、国家的な復興を遂げました。"
+"スコーネはスウェーデンの最南端に位置します。\n\n歴史的にはヴァイキング時代のスカンディナヴィアに数多く存在した小王国のひとつで、中世にはデンマークの一部となりましたが、1658年のロスキレ条約によってスウェーデンに割譲されました。\n\nスコーネは20世紀後半、スウェーデン王国内での自治権拡大を求める声とともに、国家的な復興を遂げました。"
 
 #: data/nation/schleswig-holsteinian.ruleset:3
 msgid "Schleswig-Holsteinian"
@@ -12281,7 +12281,7 @@ msgid ""
 "Napoleon and the German unification; only after the fall of the German "
 "monarchies in 1918 was a united Free State of Thuringia established, which "
 "currently exists as one of the states of Germany."
-msgstr ""
+msgstr "テューリンゲン王国は、現在の中央ドイツにあった古代ゲルマン民族の連合体で、フン族の敗北後に成立しました。8世紀にフランク族に敗れたテューリンゲン王国は、後に神聖ローマ帝国の属領となりました。\n\n13世紀に支配者一族が滅亡した後、テューリンゲン継承戦争が勃発し、神聖ローマ帝国の基準からみても、テューリンゲンはひどく分裂しました。テューリンゲンはプロテスタント宗教改革と宗教戦争の温床であり、啓蒙時代にはザクセン・ワイマール公がヨハン・ヴォルフガング・フォン・ゲーテやフリードリヒ・フォン・シラーといった著名人を宮廷に招き、文化的な頂点を極めました。\n\nテューリンゲンの政治的分裂はナポレオンとドイツ統一を乗り越え、1918年のドイツ君主制の崩壊後に初めてテューリンゲン自由国が成立しました。"
 
 #: data/nation/tibetan.ruleset:3
 msgid "Tibetan"
@@ -13186,7 +13186,7 @@ msgid ""
 "until the peninsula was eventually overrun by Muslim invaders in 711."
 msgstr ""
 "テルヴィンギは東ゲルマン系の人々で，ゴート人の2つの部族の1つです。これが後の"
-"西ゴート人と言われています。彼らはおそらくスカンジナビアから来たと考えられて"
+"西ゴート人と言われています。彼らはおそらくスカンディナヴィアから来たと考えられて"
 "います[訳注:通説はそうでしたが，現在の学説では否定的です]。3世紀に彼らは南方"
 "に移住しました。現在のウクライナに当たります。その後彼らはドナウ川を渡り，紀"
 "元410年にはローマを略奪しました。フォエデラティ[訳注:ローマと同盟を組み，傭兵"
