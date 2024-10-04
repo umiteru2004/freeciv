@@ -9,6 +9,8 @@
 # MITA Yuusuke <clefs@mail.goo.ne.jp>, 2002, 2006
 # TAKAHASHI Naoki <taka_radio_wave@yahoo.co.jp>, 2003, 2004
 # Daniel MARKSTEDT <himasaram@spray.se>, 2005
+# Belgae <freeciv.belgae@gmail.com>, 2010
+# Umiteru <umiteru2004@gmail.com>, 2024
 #
 # For Japanese users:
 # こんなことをわざわざ書くのは恥ずかしいんですが、はっきりいって私の訳は
@@ -21,6 +23,7 @@
 # なら喜んで Primary Contacter を譲ります。
 #
 # メールをお待ちしています。(澤田)
+#
 #
 # 2003年11月から主に私が訳すことになりました。
 #
@@ -67,91 +70,46 @@
 # 2010/08/14
 #
 #
-# # TODO:
+# NOTE:
 #
-# 各nationの指導者に冠せられる称号は調べがつかなかったり
-# 単純に訳しても意味がないようなものだったりして未訳のものが多いです。
-# たとえば，"Imparator" も "Emporer" も訳せば「皇帝」になってしまいますが，
-# こういうのは無理に訳さないか「インパラトール」などとベタ音訳した方が良いの
-# かも。
-# →称号を未訳のままにしておくと，どこまで称号でどこから元首名かすら
-# わからないので，Daniel MARKSTEDTさんのアドバイスを容れてカタカナ音訳を
-# 多用することにしました。安直と言われればそれまでですが。
+# "you"       : 貴国（外交メッセージの場合）
 #
-# 指導者称号の女性形は適切な訳語がない場合が多いです。無理に訳し分けることも
-# ないのかなとは思いますが。
+# "unit"      : ユニット
+# "field unit": フィールドユニット
+# "tile"      : タイル
+# "nation"    : 民族
+# "shield"    : 生産
 #
-# 怪しい訳には "XXX" のマークをつけてあります。改良してやってください。
+# "worker"    : 労働者（ユニットの場合）
+#             : 市民（都市圏のタイルで働く場合）
+# "Pollution" : 公害
 #
-# 最近はAIも外交しますが，この時の台詞にはセンスが要求されるので大変です。
-# とりあえず訳は当ててありますが，雰囲気が出るような訳に改良したいところ。
+# "airport"   : 空港
+# "airbase"   : 飛行場
 #
-# nation選択時に表示されるnationの説明文は突貫工事です。
-# 歴史の知識のある方のチェックを願えると助かります。
+# "technology": 科学技術
+# "science"   : 科学
 #
-# SDLクライアント関係は未訳が多いです。client/gui-sdl/*
-# MitaはGTK2クライアントでしか試せていませんので。
-# 大半はfuzzyマークを外すだけで大丈夫だとは思うのですが。
+# "Seafaring" : 航海
+# "Navigation": 航海術
 #
-# これはja.poではありませんが，ネット対戦関係の日本語ドキュメントがないのが
-# 日本人のネット対戦参入を妨げているかもしれません。
-# Freecivは生きた人間と外交してこそ面白いゲームなのですが。
+# "incident"  : 事変
+# "incite"    : 煽動
+# "revolt"    : 叛乱
 #
-# 開発者も英語のnativeとは限らないので，原文自体がおかしい場合も散見されます。
-# 訳で補うか，本隊にフィードバックするか？
+# "zone of control" : ZOC
+# "fog of war"      : 戦場の霧（定訳）
+# "content"         : 平静
+# "martial law"     : 戒厳令
+# "citizen governor": 総督府（旧CMA）
 #
+# 句読点は「。」と「、」
+# 感嘆符は「！」
+# 疑問符は「？」
+# 全て全角です。
 #
-# # 訳語おぼえがき：
-# （→以降はBelgaeの当てた訳です）
+# 民族名は原則として「〜人」または「〜族」
 #
-# "citizen governor" 旧称CMAで，原文もまだ混乱している。
-#                   「市民管理者」「知事」「市長」「地方長官」→「総督府」（ちょっとオーバーかも）
-# "fog of war" 「霧戦」; 「見えない」場所のユニットなどを表示しない機能のこと
-#              「FoW」とでもした方がよほど誤解がないかも→「戦場の霧」（定訳です）
-# "zone of control" 文脈により「ゾーンコントロール」または「コントロールゾーン」
-#                   これも無理せず「ZOC」とでもした方が良いかも→「ZOC」
-# "technology" "tech" "science" 「科学」と「技術」でぶれがある→technology「科学技術」science「科学」
-# "Seafaring"「航海」と "Navigation"「航海術」は紛らわしい
-#             "Sailing"という中間技術も提案されているが，いよいよ訳語が……
-# "worker" 「労働者」だが，ユニットと都市民の両方あるのが困りもの
-#          ユニットの方は「土方」「土木作業員」あたり
-# "Pollution" 「公害」; いくつかの文脈では「汚染」
-# "incident" 「事変」
-# "incite" 「煽動」
-# "revolt" 都市単位の「反逆」「叛乱」だが，
-#          時々revolution「革命」の意味でも使われている
-# "you" 外交の際の"you"は君主か国か？
-# "martial law" 「戦時法」; 「戒厳令」
-# "content" 「普通」／「満足している」→「平静」
-# "unit" 「部隊」と訳しているが，「ユニット」の方が無理がない→「ユニット」
-# "tile" 「マス」→「タイル」
-# "field unit" 「フィールド兵器」苦しまぎれ，訳語募集→「フィールドユニット」
-# "nation" 「民族」「国家」「国」「国民」「ナシオン」「ネイション」「人々」
-#          Freecivに限らぬ厄介な語です。翻訳的にも政治的にも。→基本的には「民族」
-# "airport"「空港」，"airbase"「飛行場」
-#
-# "shield"
-# ntaka
-# 場所によって，シールド，シールド生産物，生産，資源，，，
-# どう訳せばよい? (ここでは，都市の生産)
-# clefs ゲームでの機能を考えると，「鉱工業生産」とかかなあ
-#
-#
-# 句読法の統一が必要です。「!」か「！」か?？
-# 句点は「。」，読点は「，」
-#
-# 訳註は[]で示しています。
-#
-# これはFreecivに限った話でもありませんが，
-# "* " や "- " で始まる箇条書きは，日本語では表示の際に醜く改行されてしまう
-# 傾向にあるようです。(gettextの問題なのかな)
-#
-# Italian「イタリア人」，Italians「イタリア民族」のように訳し分けてありましたが，
-# Cubanを「キューバ人」とは言えてもCubansを「キューバ民族」とは言えない
-# といったケースも多いので，全て「〜人」に統一しました。
-# 日本語の「〜人」は民族・国名を曖昧に包括できるので便利というわけです。
-# 国民国家や民族というフィクションの限界というやつですね。
-# "…さぁ，やつらを地獄へ送ってやろうぜ!"
 msgid ""
 msgstr ""
 "Project-Id-Version: Freeciv 2.0.99-devel\n"
@@ -178,7 +136,6 @@ msgid_plural "%s is selling %s for %d."
 msgstr[0] "%sで(旧式化した)%sを金 %dで売却します。"
 
 # clefs
-# XXX `away mode'
 #: ai/default/daidiplomacy.c:367
 #, c-format
 msgid "*%s (AI)* In away mode AI can't sign such a treaty."
@@ -205,8 +162,6 @@ msgid "*%s (AI)* Let us first cease hostilities, %s."
 msgstr "*%s (AI)* %sよ，まずは敵対関係を止めようではないか。"
 
 # clefs
-# AI外交の台詞はどうも私にはうまく訳せないので
-# どんどんより良いものに置き換えていってください。
 #: ai/default/daidiplomacy.c:406
 #, c-format
 msgid ""
@@ -216,17 +171,15 @@ msgstr ""
 "*%s (AI)* 私はあなたがたが現在の停戦を今しばらく守ることができるのかまず見届"
 "けたいと思う，%sよ。"
 
-# clefs XXX
 #: ai/default/daidiplomacy.c:429
 #, c-format
 msgid "*%s (AI)* I simply do not trust you with an alliance yet, %s."
-msgstr "*%s (AI)* 私はまだ同盟を結ぶほど貴国を信頼していないのだ， %sよ。"
+msgstr "*%s (AI)* %s、私はまだ同盟を結ぶことができるほど貴国を信頼していない。"
 
-# clefs XXX
 #: ai/default/daidiplomacy.c:523
 #, c-format
 msgid "*%s (AI)* I do not know the city you mention."
-msgstr "*%s (AI)* そのような都市は知らない。"
+msgstr "*%s (AI)* 私は貴国が言及した都市を知らない。"
 
 #: ai/default/daidiplomacy.c:554
 #, c-format
@@ -280,7 +233,6 @@ msgstr ""
 "いことだが，貢物を差し出すならば考え直してやってもよいぞ？"
 
 # clefs
-# 宇宙船を打ち上げると首都を奪いにくる
 #: ai/default/daidiplomacy.c:1352
 #, fuzzy, c-format
 #| msgid "*%s (AI)* Space will never be yours. "
@@ -288,19 +240,15 @@ msgid "*%s (AI)* Space will never be yours."
 msgstr "*%s (AI)* 宇宙を貴国のものにはさせない。"
 
 # clefs
-# XXX `vicious antics'
 #: ai/default/daidiplomacy.c:1358
 #, c-format
 msgid "*%s (AI)* I have tolerated your vicious antics long enough! To war!"
-msgstr "*%s (AI)* 貴様の悪ふざけにはもう我慢の限界だ。戦争だ！"
+msgstr "*%s (AI)* 貴国の悪ふざけには、もう十分我慢してきた！戦争だ！"
 
-# clefs
-# was "*%s (AI)* 平和な時は...終わりだ!"
-# some other timeというのは過去でなく未来のいつか、今ではないということでは?
 #: ai/default/daidiplomacy.c:1364
 #, c-format
 msgid "*%s (AI)* Peace in ... some other time."
-msgstr "*%s (AI)* 平和を……いつの日にか，な。"
+msgstr "*%s (AI)* いつの日にか、また平和が訪れると良いですね..."
 
 # clefs
 #: ai/default/daidiplomacy.c:1370
@@ -319,7 +267,6 @@ msgid "*%s (AI)* Your covert hostilities brought this war upon you!"
 msgstr "*%s (AI)* おまえの隠然たる敵対行為がこの戦争をもたらしたのだ！"
 
 # clefs
-# was "*%s (AI)* 貴国の我が同盟国に対する行いは、貴国の最後の過ちだ!"
 #: ai/default/daidiplomacy.c:1385
 #, c-format
 msgid "*%s (AI)* Your aggression against %s was your last mistake!"
@@ -525,7 +472,6 @@ msgid ""
 msgstr "*%s (AI)* 相続く流血にはうんざりです。停戦を結ぼうではありませんか？"
 
 # clefs
-# msgstr "*%s (AI)* %sは我々両国を脅かしている。我々は停戦をすべきではないか?"
 #: ai/default/daidiplomacy.c:2236
 #, c-format
 msgid ""
@@ -711,11 +657,8 @@ msgid "?cma:none"
 msgstr "総督府"
 
 # Belgae
-# was 自在
-# Governerで方針を指定していない時の結果の名前です。
 #: client/agents/cma_fec.c:242 client/gui-gtk-3.22/cityrep.c:818
 #: client/gui-gtk-4.0/cityrep.c:849 client/gui-gtk-5.0/cityrep.c:870
-#, fuzzy
 #| msgid "custom"
 msgid "?cma:custom"
 msgstr "カスタム"
@@ -783,15 +726,11 @@ msgstr ""
 "        都市拡大: あと%s\n"
 "  生産物の完成: あと%s"
 
-# clefs
-# うーん
 #: client/agents/cma_fec.c:430
 msgid "?cma:Very happy"
-msgstr "幸福追求"
+msgstr "幸福を最大に"
 
 # clefs
-# 余談ですが，これを選択しても実際には必ずしも食料を最大化してくれません
-# 明らかにbugです
 #: client/agents/cma_fec.c:431
 msgid "?cma:Prefer food"
 msgstr "食料を最大に"
@@ -978,7 +917,6 @@ msgstr "破壊"
 msgid "Great Wonder"
 msgstr "不思議"
 
-# 宮殿とか。どういう意味合いなんでしょう (clefs)
 #: client/citydlg_common.c:429 client/gui-sdl2/wldlg.c:1462
 #: client/gui-sdl3/wldlg.c:1458
 msgid "Small Wonder"
@@ -1004,7 +942,6 @@ msgid "?city_surplus:Citizens"
 msgstr ""
 
 # clefs
-# `Taxed' は税金とは限らない。租庸調みたいな感じ。
 #: client/citydlg_common.c:775
 #, fuzzy
 #| msgid "%+4d : Taxed from trade\n"
@@ -1035,7 +972,6 @@ msgid "?city_surplus:Trading %s from %s"
 msgstr "%1$sは%4$sから「%2$s」と「%3$s」を得ました。"
 
 # clefs
-# 都市一覧での「選択」メニュー
 #: client/citydlg_common.c:815
 #, fuzzy
 #| msgid "%+4d : Building tithes\n"
@@ -1359,8 +1295,6 @@ msgid "?size [short]:Sz"
 msgstr "大"
 
 # Belgae
-# was: 都市の大きさ
-# 編集モードなど，いろいろなところで今後使われそうなので，限定しないようにしました
 #: client/cityrepdata.c:749 client/gui-gtk-3.22/editgui.c:1273
 #: client/gui-gtk-3.22/editprop.c:4516 client/gui-gtk-4.0/editgui.c:1274
 #: client/gui-gtk-4.0/editprop.c:4525 client/gui-gtk-5.0/editgui.c:1274
@@ -1425,24 +1359,18 @@ msgid "Workers: Happy, Content, Unhappy, Angry"
 msgstr "労働者: 幸福, 平静, 不幸, 怒り"
 
 # Belgae
-# was:最適
 #: client/cityrepdata.c:769 client/cityrepdata.c:771
 msgid "Best"
 msgstr "上位"
 
 # clefs
-# "Best attack" となって "Best attacking units" と同義になる
 # Belgae
-# was:攻撃部隊
-# 都市内にいるユニットの中で攻撃力上位3ユニットの攻撃力が表示されます。具体的なユニット名は表示されません。"defense"も同様。
 #: client/cityrepdata.c:769
 msgid "attack"
 msgstr "攻撃力"
 
 # clefs
-# 実際に表示されるのは上位3部隊
 # Belgae
-# was:攻撃に適した部隊。unitsと複数形になっているように，最上級はトップ1限定ではありません。
 #: client/cityrepdata.c:770
 msgid "Best attacking units"
 msgstr "攻撃力上位ユニット"
@@ -1502,7 +1430,7 @@ msgstr "(蓄積/必要)"
 msgid "Turns until growth/famine"
 msgstr "拡大/飢饉までのターン"
 
-# was 「黒字」; マイナスの場合もあるので変更 (clefs)
+# clefs
 #: client/cityrepdata.c:788
 msgid "Surplus"
 msgstr "剰余"
@@ -1672,8 +1600,8 @@ msgstr "疫病発生率"
 msgid "?cma:Governor"
 msgstr "総督府"
 
-# 以前CMAと呼んでいたやつ。どう訳したものか (clefs)
-# とりあえず総督府で行きます（Belgae）
+# clefs
+# Belgae
 #: client/cityrepdata.c:829 client/gui-gtk-3.22/cityrep.c:1882
 #: client/gui-gtk-3.22/menu.c:417 client/gui-gtk-4.0/cityrep.c:1856
 #: client/gui-gtk-4.0/menu.c:990 client/gui-gtk-5.0/cityrep.c:1877
@@ -1711,7 +1639,7 @@ msgstr "作成中"
 msgid "Specialists: "
 msgstr "専門家: "
 
-# 科学者とかのことなんだけど (clefs)
+# clefs
 #: client/cityrepdata.c:898
 msgid "?specialist:S"
 msgstr "専門家"
@@ -1804,8 +1732,6 @@ msgstr ""
 msgid "log FILE"
 msgstr "既定のファイル名は'freeciv-score.log'です。"
 
-# spawned serverって何じゃらほい (clefs)
-# たぶんcivclientが自動で立ち上げるサーバのこと
 #: client/client_main.c:454
 msgid "Use FILE as logfile (spawned server also uses this)"
 msgstr "ログファイルとして FILE を使う (派生サーバーもこれを使います)"
@@ -1967,27 +1893,20 @@ msgstr "すべての%s生産物を %sへ変更します。"
 msgid "?embassy:Both"
 msgstr "相互"
 
-# clefs
-# 相手国に大使館を設置している
 #: client/climisc.c:207
 msgid "?embassy:Yes"
-msgstr "先方に設置"
+msgstr "相手国に設立"
 
-# clefs
-# 相手の大使館が自国に設置されている
 #: client/climisc.c:210
 msgid "?embassy:With Us"
-msgstr "自国に受け入れ"
+msgstr "自国に設立"
 
 # clefs
-# 他国とユニットが接触した後の数十ターンは大使館なしで外交できる
 #: client/climisc.c:213
 msgid "?embassy:Contact"
 msgstr "接触あり"
 
 # clefs
-# "Contact"は失われることがあるので「未接触」ではまずい
-# was "外交ルートなし"
 #: client/climisc.c:215
 msgid "?embassy:No Contact"
 msgstr "接触なし"
@@ -2177,7 +2096,6 @@ msgid "Couldn't connect to the server."
 msgstr "サーバーと接続できませんでした。"
 
 # clefs
-# サーバをローカルで起動したはずなのに接続できなかったときのメッセージ
 #: client/connectdlg_common.c:603
 msgid "We probably couldn't start it from here."
 msgstr "ここからだと起動できないのかもしれません。"
@@ -2925,7 +2843,6 @@ msgstr "%s色の選択"
 msgid "C_lear"
 msgstr "全消去"
 
-# was:"了解"。"Output buffer full"まで，bzip2ライブラリの返すエラー番号（コード）に対応して使用されます（Belgae）
 #: client/gui-gtk-3.22/chatline.c:1136 client/gui-gtk-3.22/dialogs.c:873
 #: client/gui-gtk-3.22/editgui.c:1010 client/gui-gtk-3.22/gamedlgs.c:319
 #: client/gui-gtk-3.22/gamedlgs.c:414 client/gui-gtk-3.22/inputdlg.c:81
@@ -2997,8 +2914,6 @@ msgstr "下線(Ctrl-U)"
 msgid "Underline (Ctrl-U)"
 msgstr "下線(Ctrl-U)"
 
-# 訳語が「アポロ計画」とかぶって少々紛らわしいのですが，他に訳しようがありません
-# was:アポロ巨像。そういう呼び方もありますが，本当は像はヘリオスであってアポロンではないので改訳したほうがよい？(Belgae)
 #: client/gui-gtk-3.22/chatline.c:1379 client/gui-gtk-4.0/chatline.c:1433
 #: client/gui-gtk-5.0/chatline.c:1433
 msgid "Color"
@@ -3033,7 +2948,6 @@ msgstr "背景"
 msgid "Select the background color"
 msgstr "背景色の選択"
 
-# was:"了解"。"Output buffer full"まで，bzip2ライブラリの返すエラー番号（コード）に対応して使用されます（Belgae）
 #: client/gui-gtk-3.22/chatline.c:1426 client/gui-gtk-4.0/chatline.c:1479
 #: client/gui-gtk-5.0/chatline.c:1479 client/gui-sdl2/dialogs.c:2937
 #: client/gui-sdl2/dialogs.c:3385 client/gui-sdl2/mapctrl.c:2798
@@ -3042,12 +2956,11 @@ msgstr "背景色の選択"
 msgid "OK"
 msgstr "OK"
 
-# Windowsの場合，入力キーはEnterと書いてあるのが普通ですよね...(Belgae)
 #. TRANS: "Return" means the return key.
 #: client/gui-gtk-3.22/chatline.c:1432 client/gui-gtk-4.0/chatline.c:1485
 #: client/gui-gtk-5.0/chatline.c:1485
 msgid "Send the chat (Return)"
-msgstr "チャットの送信(Return)"
+msgstr "チャットの送信(Enter)"
 
 #: client/gui-gtk-3.22/chatline.c:1446 client/gui-gtk-4.0/chatline.c:1499
 #: client/gui-gtk-5.0/chatline.c:1499
@@ -3083,15 +2996,11 @@ msgstr "市民"
 msgid "Population: %d, Specialists: %d"
 msgstr "人口:            %5d"
 
-# Belgae
-# was: 都市の大きさ
-# 編集モードなど，いろいろなところで今後使われそうなので，限定しないようにしました
 #: client/gui-gtk-3.22/citydlg.c:753 client/gui-gtk-4.0/citydlg.c:738
 #: client/gui-gtk-5.0/citydlg.c:738 client/gui-qt/citydlg.h:53
-#, fuzzy
 #| msgid "Size"
 msgid "Size:"
-msgstr "大きさ"
+msgstr "大きさ:"
 
 #: client/gui-gtk-3.22/citydlg.c:754 client/gui-gtk-4.0/citydlg.c:739
 #: client/gui-gtk-5.0/citydlg.c:739 client/gui-qt/citydlg.h:55
@@ -3572,13 +3481,10 @@ msgid "Clear request"
 msgstr "設定取り消し"
 
 # Belgae
-# was: 資源化
-# 労働者がMの作業中に，中クリックで表示される「活動: %s」と，作業完成後の地形特徴（道路/鉱山）の両方で使用されます。「活動: %s」は「%sが完成するまで何ターンか」を意味するので，どちらでも「鉱山」の訳でよいと判断しました。
 #. TRANS: Activity name, verb in English
 #: client/gui-gtk-3.22/citydlg.c:3069 client/gui-gtk-4.0/citydlg.c:3061
 #: client/gui-gtk-5.0/citydlg.c:3061 client/gui-qt/citydlg.cpp:1380
 #: common/fc_types.h:144 common/unit.c:647
-#, fuzzy
 msgid "?act:Mine"
 msgstr "鉱山"
 
@@ -3612,7 +3518,6 @@ msgid "Cultivate"
 msgstr "文化"
 
 # Belgae
-# was: 変更
 #: client/gui-gtk-3.22/citydlg.c:3100 client/gui-gtk-4.0/citydlg.c:3092
 #: client/gui-gtk-5.0/citydlg.c:3092 client/gui-qt/citydlg.cpp:1394
 #: client/gui-qt/shortcuts.cpp:138 common/fc_types.h:165 common/unit.c:668
@@ -3729,8 +3634,6 @@ msgid "Chan_ge"
 msgstr "変更(_G)"
 
 # ntaka
-# 当初、作業リストの、と書いていたが、長いので省略。
-# 元の英語自体省略してあるし。
 #: client/gui-gtk-3.22/cityrep.c:1064 client/gui-gtk-4.0/cityrep.c:1630
 #: client/gui-gtk-5.0/cityrep.c:1651
 msgid "Add _First"
@@ -3843,7 +3746,6 @@ msgid "Invert Selection"
 msgstr "反転する"
 
 # clefs
-# 都市一覧での「選択」メニュー
 #: client/gui-gtk-3.22/cityrep.c:1798 client/gui-gtk-4.0/cityrep.c:1744
 #: client/gui-gtk-5.0/cityrep.c:1765 client/gui-qt/cityrep.cpp:975
 msgid "Building Units"
@@ -3960,8 +3862,7 @@ msgstr "結果"
 msgid "Minimal Surplus"
 msgstr "最低要求値"
 
-# 「重み」くらいの方がいいかな？
-# そうしました（Belgae）
+# Belgae
 #: client/gui-gtk-3.22/cma_fe.c:345 client/gui-gtk-4.0/cma_fe.c:359
 #: client/gui-gtk-5.0/cma_fe.c:359 client/gui-sdl2/cma_fe.c:954
 #: client/gui-sdl3/cma_fe.c:950
@@ -3988,20 +3889,17 @@ msgid "Help"
 msgstr "ヘルプ(H)"
 
 # clefs
-# 「知事執務中」「Governer作動中」
 # Belgae
-# was:Governor 稼働中(_E)
 #: client/gui-gtk-3.22/cma_fe.c:506 client/gui-gtk-4.0/cma_fe.c:523
 #: client/gui-gtk-5.0/cma_fe.c:523
 msgid "Governor Enabl_ed"
-msgstr "総督府統治中(_E)"
+msgstr "総督府を無効化する(_E)"
 
 # Belgae
-# was:Governor 停止中(_E)
 #: client/gui-gtk-3.22/cma_fe.c:509 client/gui-gtk-4.0/cma_fe.c:526
 #: client/gui-gtk-5.0/cma_fe.c:526
 msgid "Governor Disabl_ed"
-msgstr "総督府停止中(_E)"
+msgstr "総督府を有効化する(_E)"
 
 #: client/gui-gtk-3.22/cma_fe.c:578 client/gui-gtk-4.0/cma_fe.c:595
 #: client/gui-gtk-5.0/cma_fe.c:595 client/gui-qt/citydlg.cpp:2372
@@ -4041,8 +3939,6 @@ msgstr "現場へ移動(_L)"
 msgid "I_nspect City"
 msgstr "都市を開く(_N)"
 
-# XXX J.Lennonのもじりだが…
-# 「カクメイしたいんだって？」
 #: client/gui-gtk-3.22/dialogs.c:294 client/gui-gtk-4.0/dialogs.c:294
 #: client/gui-gtk-5.0/dialogs.c:294 client/gui-qt/dialogs.cpp:1315
 msgid "You say you wanna revolution?"
@@ -4079,11 +3975,10 @@ msgstr "略奪"
 msgid "All"
 msgstr "すべて"
 
-# clefs XXX
 #: client/gui-gtk-3.22/dialogs.c:859 client/gui-gtk-4.0/dialogs.c:866
 #: client/gui-gtk-5.0/dialogs.c:866 client/gui-qt/dialogs.cpp:590
 msgid "Edit Nation"
-msgstr "民族編集"
+msgstr "民族を編集する"
 
 #: client/gui-gtk-3.22/dialogs.c:861 client/gui-gtk-4.0/dialogs.c:868
 #: client/gui-gtk-5.0/dialogs.c:868 client/gui-qt/dialogs.cpp:592
@@ -4127,8 +4022,7 @@ msgstr "_民族セット:"
 msgid "Nation _Groups:"
 msgstr "民族(_G):"
 
-# ntaka 属性より分かり易く設定とすべきか?
-# clefs 民族のpropertiesという文脈ですからねえ。属性のままにしておきましょ
+# ntaka
 #: client/gui-gtk-3.22/dialogs.c:1051 client/gui-gtk-3.22/wldlg.c:226
 #: client/gui-gtk-4.0/dialogs.c:1062 client/gui-gtk-4.0/wldlg.c:230
 #: client/gui-gtk-5.0/dialogs.c:1062 client/gui-gtk-5.0/wldlg.c:230
@@ -4467,7 +4361,7 @@ msgstr "プレイヤー"
 msgid "?play:Game"
 msgstr "ゲーム"
 
-# どういう場面で使用されるかはっきりしない上，trueの方は「有効」と訳しているので微妙ですが，一応訳を当てておきます（Belgae）。
+# Belgae
 #: client/gui-gtk-3.22/editprop.c:875 client/gui-gtk-4.0/editprop.c:875
 #: client/gui-gtk-5.0/editprop.c:875 utility/shared.c:2269
 msgid "TRUE"
@@ -4479,8 +4373,6 @@ msgid "FALSE"
 msgstr "偽"
 
 # Belgae
-# プロパティエディタの建造物欄。
-# 建造物，ちょっとした不思議，不思議の順です
 #. TRANS: "Number of buildings, number of small
 #. * wonders (e.g. palace), number of great wonders."
 #: client/gui-gtk-3.22/editprop.c:903 client/gui-gtk-4.0/editprop.c:903
@@ -4490,7 +4382,6 @@ msgid "%db %ds %dW"
 msgstr "%d建 %dち %d不"
 
 # Belgae
-# プロパティエディタで科学技術をいくつ開発しているかを示します
 #. TRANS: "Number of technologies known".
 #: client/gui-gtk-3.22/editprop.c:915 client/gui-gtk-4.0/editprop.c:915
 #: client/gui-gtk-5.0/editprop.c:915
@@ -4617,7 +4508,6 @@ msgid "Turn Built"
 msgstr "完成ターン"
 
 # Belgae
-# プロパティエディタで民族を設定するラジオボタン欄の見出し
 #. TRANS: As in "the player has set this nation".
 #: client/gui-gtk-3.22/editprop.c:3709 client/gui-gtk-3.22/editprop.c:3722
 #: client/gui-gtk-4.0/editprop.c:3717 client/gui-gtk-4.0/editprop.c:3730
@@ -4645,7 +4535,6 @@ msgid "Resource"
 msgstr "特産物"
 
 # Belgae
-# プロパティエディタで地形の欄に使われますが，地形タブの使い方がよくわからないので意味が不明です。
 #: client/gui-gtk-3.22/editprop.c:4419 client/gui-gtk-4.0/editprop.c:4428
 #: client/gui-gtk-5.0/editprop.c:4428
 msgid "Index"
@@ -4690,7 +4579,6 @@ msgid "?coordinates:X,Y"
 msgstr "X,Y"
 
 # Belgae
-# terrain specialの方です。
 #: client/gui-gtk-3.22/editprop.c:4437 client/gui-gtk-4.0/editprop.c:4446
 #: client/gui-gtk-5.0/editprop.c:4446
 msgid "Specials"
@@ -4752,7 +4640,6 @@ msgid "Type"
 msgstr "タイプ"
 
 # clefs
-# 道路や探索者の都合か，数値が3倍になっています(Belgae)
 #: client/gui-gtk-3.22/editprop.c:4486 client/gui-gtk-4.0/editprop.c:4495
 #: client/gui-gtk-5.0/editprop.c:4495
 msgid "Moves Left"
@@ -4933,7 +4820,6 @@ msgstr ""
 "るリクエストがサーバーに送信されます。"
 
 # Belgae
-# 属性の方がいいですかね
 #. TRANS: %s is a type of object that can be edited, such as "Tile",
 #. * "Unit", "Start Position", etc.
 #: client/gui-gtk-3.22/editprop.c:4950 client/gui-gtk-4.0/editprop.c:4966
@@ -5000,14 +4886,12 @@ msgid "Property Editor"
 msgstr "プロパティエディタ"
 
 # Belgae
-# プロパティエディタの視界で使用。どう使うのか？
 #. TRANS: Vision layer name. Feel free to leave untranslated.
 #: client/gui-gtk-3.22/editprop.c:6550 client/gui-gtk-4.0/editprop.c:6576
 #: client/gui-gtk-5.0/editprop.c:6576
 msgid "Seen (Main)"
 msgstr "Seen (Main)"
 
-# プロパティエディタでの視界タブで使用
 #. TRANS: Vision layer name. Feel free to leave untranslated.
 #: client/gui-gtk-3.22/editprop.c:6553 client/gui-gtk-4.0/editprop.c:6579
 #: client/gui-gtk-5.0/editprop.c:6579
@@ -5213,10 +5097,6 @@ msgstr "%s へバグを報告してください。\n"
 msgid "Illegal video mode '%s'\n"
 msgstr "%sのパスが不適切です。"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #: client/gui-gtk-3.22/gui_main.c:825 client/gui-gtk-4.0/gui_main.c:811
 #: client/gui-gtk-5.0/gui_main.c:812
 msgid "Freeciv"
@@ -5291,15 +5171,11 @@ msgstr ""
 msgid "Failed to open graphical mode."
 msgstr ""
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #: client/gui-gtk-3.22/gui_main.c:1976 client/gui-gtk-4.0/gui_main.c:2014
 #: client/gui-gtk-5.0/gui_main.c:2069
-#, fuzzy, c-format
+#, c-format
 msgid "Freeciv (%s)"
-msgstr "これはFreeciv %s， %sクライアントです。"
+msgstr "Freeciv (%s)"
 
 # Daniel
 #: client/gui-gtk-3.22/gui_main.c:2381 client/gui-gtk-4.0/gui_main.c:2380
@@ -5376,9 +5252,6 @@ msgid "Additional information is available%svia left click on the citizens."
 msgstr "詳細な情報は%s市民を左クリックすると表示されます。"
 
 # Belgae
-# was:経費
-# 使用される対象が，都市での生産に必要な生産ポイントに限定されているようなので訳語を変更しました。
-# （ただ、HTMLヘルプでは"Cost"の方を使用するようで、統一が……）
 #: client/gui-gtk-3.22/helpdlg.c:108 client/gui-gtk-3.22/helpdlg.c:112
 #: client/gui-gtk-4.0/helpdlg.c:108 client/gui-gtk-4.0/helpdlg.c:112
 #: client/gui-gtk-5.0/helpdlg.c:108 client/gui-gtk-5.0/helpdlg.c:112
@@ -5389,8 +5262,6 @@ msgid "Base Cost:"
 msgstr "生産コスト:"
 
 # Belgae
-# was:維持
-# 「維持費」だと食料ポイントや生産ポイントを必要とする場合もありうるのでこのように。
 #: client/gui-gtk-3.22/helpdlg.c:108 client/gui-gtk-4.0/helpdlg.c:108
 #: client/gui-gtk-5.0/helpdlg.c:108 client/gui-qt/helpdlg.cpp:1028
 #: client/gui-sdl2/helpdlg.c:397 client/gui-sdl2/helpdlg.c:825
@@ -5399,7 +5270,6 @@ msgid "Upkeep:"
 msgstr "維持コスト:"
 
 # Belgae
-# was:要求
 #: client/gui-gtk-3.22/helpdlg.c:108 client/gui-gtk-3.22/helpdlg.c:112
 #: client/gui-gtk-3.22/helpdlg.c:123 client/gui-gtk-4.0/helpdlg.c:108
 #: client/gui-gtk-4.0/helpdlg.c:112 client/gui-gtk-4.0/helpdlg.c:123
@@ -5411,7 +5281,6 @@ msgid "Requirement:"
 msgstr "必要条件:"
 
 # Belgae
-# was:古くなる
 #: client/gui-gtk-3.22/helpdlg.c:112 client/gui-gtk-3.22/helpdlg.c:123
 #: client/gui-gtk-4.0/helpdlg.c:112 client/gui-gtk-4.0/helpdlg.c:123
 #: client/gui-gtk-5.0/helpdlg.c:112 client/gui-gtk-5.0/helpdlg.c:123
@@ -5422,9 +5291,6 @@ msgid "Obsolete by:"
 msgstr "旧式化:"
 
 # Belgae
-# was:経費
-# 使用される対象が，都市での生産に必要な生産ポイントに限定されているようなので訳語を変更しました。
-# （ただ、HTMLヘルプでは"Cost"の方を使用するようで、統一が……）
 #: client/gui-gtk-3.22/helpdlg.c:119 client/gui-gtk-4.0/helpdlg.c:119
 #: client/gui-gtk-5.0/helpdlg.c:119 client/gui-qt/citydlg.cpp:3988
 #: client/gui-qt/helpdlg.cpp:919 client/gui-sdl2/helpdlg.c:816
@@ -5447,7 +5313,6 @@ msgid "Defense:"
 msgstr "防御力:"
 
 # Belgae
-# was:移動
 #: client/gui-gtk-3.22/helpdlg.c:120 client/gui-gtk-4.0/helpdlg.c:120
 #: client/gui-gtk-5.0/helpdlg.c:120 client/gui-qt/citydlg.cpp:3985
 #: client/gui-sdl2/helpdlg.c:851 client/gui-sdl3/helpdlg.c:849
@@ -5468,9 +5333,8 @@ msgstr "火力"
 msgid "Hitpoints:"
 msgstr "体力:"
 
-# 消費するのは現金でなくシールドなので「費」より「コスト」の方が良さそう
-# ただ長くなるのが難 (clefs)
-# 長いですが，「コスト」に変更(Belgae)
+# clefs
+# Belgae
 #: client/gui-gtk-3.22/helpdlg.c:122 client/gui-gtk-4.0/helpdlg.c:122
 #: client/gui-gtk-5.0/helpdlg.c:122 client/gui-qt/citydlg.cpp:3992
 msgid "Basic Upkeep:"
@@ -5519,7 +5383,6 @@ msgid "Bonus (F/P/T):"
 msgstr "産出ボーナス (食料/生産/交易):"
 
 # Belgae
-# 「with」とセット
 #. TRANS: "None" tech
 #: client/gui-gtk-3.22/helpdlg.c:143 client/gui-gtk-4.0/helpdlg.c:143
 #: client/gui-gtk-5.0/helpdlg.c:143 client/gui-qt/citydlg.cpp:3900
@@ -5547,7 +5410,6 @@ msgstr "Removed"
 msgid "Freeciv Help Browser"
 msgstr "Freecivヘルプブラウザ"
 
-# clefs
 #: client/gui-gtk-3.22/helpdlg.c:527 client/gui-gtk-4.0/helpdlg.c:548
 #: client/gui-gtk-5.0/helpdlg.c:548
 #| msgid "Back"
@@ -5570,7 +5432,6 @@ msgid "Collapse All"
 msgstr "すべて閉じる"
 
 # Belgae
-# was 可能:
 #: client/gui-gtk-3.22/helpdlg.c:1130 client/gui-gtk-3.22/helpdlg.c:1147
 #: client/gui-gtk-3.22/helpdlg.c:1184 client/gui-gtk-3.22/helpdlg.c:1196
 #: client/gui-gtk-3.22/helpdlg.c:1204 client/gui-gtk-3.22/helpdlg.c:1222
@@ -5587,28 +5448,23 @@ msgid "Allows"
 msgstr "解禁:"
 
 # Belgae
-# was:古い
 #: client/gui-gtk-3.22/helpdlg.c:1163 client/gui-gtk-4.0/helpdlg.c:1207
 #: client/gui-gtk-5.0/helpdlg.c:1207 client/gui-qt/helpdlg.cpp:1155
 msgid "Obsoletes"
 msgstr "旧式化:"
 
-# 「Allows 電子工学 with 株式会社」
-# was: 共同
-# （Belgae）
 #: client/gui-gtk-3.22/helpdlg.c:1208 client/gui-gtk-3.22/helpdlg.c:1226
 #: client/gui-gtk-4.0/helpdlg.c:1251 client/gui-gtk-4.0/helpdlg.c:1269
 #: client/gui-gtk-5.0/helpdlg.c:1251 client/gui-gtk-5.0/helpdlg.c:1269
 msgid "with"
-msgstr "（ただし｢"
+msgstr "（「"
 
 # Belgae
-# 「with」とセット
 #: client/gui-gtk-3.22/helpdlg.c:1214 client/gui-gtk-3.22/helpdlg.c:1231
 #: client/gui-gtk-4.0/helpdlg.c:1257 client/gui-gtk-4.0/helpdlg.c:1275
 #: client/gui-gtk-5.0/helpdlg.c:1257 client/gui-gtk-5.0/helpdlg.c:1275
 msgid "?techhelp:"
-msgstr "｣も必要）"
+msgstr "」も必要）"
 
 #. TRANS: "Resources: (none)"
 #. TRANS: "Conflicts with: (none)" (extras)
@@ -5789,7 +5645,8 @@ msgstr "外交(_D)"
 msgid "_Techs"
 msgstr "科学技術(_T)"
 
-# clefs ntaka
+# clefs
+# ntaka
 #: client/gui-gtk-3.22/inteldlg.c:476 client/gui-gtk-4.0/inteldlg.c:495
 #: client/gui-gtk-5.0/inteldlg.c:495
 #, c-format
@@ -5842,7 +5699,6 @@ msgstr "世界の不思議"
 msgid "All Wonders are known"
 msgstr ""
 
-# 宮殿とか。どういう意味合いなんでしょう (clefs)
 #: client/gui-gtk-3.22/inteldlg.c:653 client/gui-gtk-4.0/inteldlg.c:672
 #: client/gui-gtk-5.0/inteldlg.c:672 client/gui-qt/plrdlg.cpp:723
 #, fuzzy
@@ -5922,7 +5778,8 @@ msgstr ""
 msgid " (observer)"
 msgstr " (観察者)"
 
-# ntaka, clefs
+# ntaka
+# clefs
 #: client/gui-gtk-3.22/mapview.c:219 client/gui-gtk-4.0/mapview.c:222
 #: client/gui-gtk-5.0/mapview.c:222
 msgid "Shows your current luxury/science/tax rates; click to toggle them."
@@ -5948,8 +5805,7 @@ msgstr "編集(_E)"
 msgid "?verb:_View"
 msgstr "表示(_V)"
 
-# Belgae:ここでは土地改良の意味で使用されていますが,既存訳に合わせておきます。
-# （そもそも都市建造物をcity improvementsともBuildingとも呼んでいる原文が問題なんですが）
+# Belgae
 #: client/gui-gtk-3.22/menu.c:273
 msgid "_Improvements"
 msgstr "タイル上のインフラ(_I)"
@@ -6000,7 +5856,8 @@ msgstr "リモートサーバー(_R)"
 msgid "Save Options _Now"
 msgstr "オプションの保存(_N)"
 
-# ntaka, clefs
+# ntaka
+# clefs
 #: client/gui-gtk-3.22/menu.c:292 client/gui-gtk-4.0/menu.c:561
 #: client/gui-gtk-5.0/menu.c:561
 msgid "_Reload Tileset"
@@ -6281,10 +6138,6 @@ msgstr "言語"
 msgid "Copying"
 msgstr "著作権"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #: client/gui-gtk-3.22/menu.c:427 client/gui-gtk-4.0/menu.c:1005
 #: client/gui-gtk-5.0/menu.c:1005 client/include/helpdlg_g.h:59
 #: data/helpdata.txt:2355
@@ -6297,19 +6150,16 @@ msgstr "Freecivについて"
 msgid "Save Options on _Exit"
 msgstr "終了時にオプションを自動保存(_E)"
 
-# was エディットモード
-# (Belgae)
+# Belgae
 #: client/gui-gtk-3.22/menu.c:431 client/gui-gtk-4.0/menu.c:598
 #: client/gui-gtk-5.0/menu.c:598
 msgid "_Editing Mode"
 msgstr "編集モード(_E)"
 
-# clefs
-# これは「概略」ではなく，都市の影響範囲を示すライン
 #: client/gui-gtk-3.22/menu.c:433 client/gui-gtk-4.0/menu.c:615
 #: client/gui-gtk-5.0/menu.c:615
 msgid "Cit_y Outlines"
-msgstr "都市アウトライン(_Y)"
+msgstr "都市圏の外形線(_Y)"
 
 #: client/gui-gtk-3.22/menu.c:435 client/gui-gtk-4.0/menu.c:618
 #: client/gui-gtk-5.0/menu.c:618 client/gui-qt/menu.cpp:1080
@@ -6726,7 +6576,7 @@ msgid "_Clean"
 msgstr "全消去"
 
 # yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #: client/gui-gtk-3.22/menu.c:597 client/gui-gtk-4.0/menu.c:822
 #: client/gui-gtk-5.0/menu.c:822 client/gui-qt/shortcuts.cpp:132
 msgid "Fortify"
@@ -6947,7 +6797,7 @@ msgstr "色の選択"
 msgid "_Save"
 msgstr "保存(_S)"
 
-# アクセスキーなし(Belgae)
+# Belgae
 #: client/gui-gtk-3.22/optiondlg.c:363 client/gui-gtk-4.0/optiondlg.c:391
 #: client/gui-gtk-5.0/optiondlg.c:391 client/gui-qt/optiondlg.cpp:147
 #: client/gui-qt/shortcuts.cpp:631
@@ -7268,7 +7118,6 @@ msgid "Put on %s"
 msgstr "%s に加える"
 
 # clefs
-# XXX ネット対戦で「まだだよ」と待ってもらうボタン
 #: client/gui-gtk-3.22/pages.c:2209 client/gui-gtk-4.0/pages.c:2319
 #: client/gui-gtk-5.0/pages.c:2319
 msgid "Not _ready"
@@ -10042,7 +9891,6 @@ msgid "Global observers"
 msgstr "全体観察者"
 
 # clefs
-# XXX ネット対戦で「まだだよ」と待ってもらうボタン
 #: client/gui-qt/pages.cpp:1946
 msgid "Not ready"
 msgstr "準備中"
@@ -10506,10 +10354,9 @@ msgstr "<b>%1 からの提案:</b>"
 msgid "Close Dialog (Esc)"
 msgstr "閉じる(Esc)"
 
-# XXX
 #: client/gui-sdl2/action_dialog.c:977 client/gui-sdl3/action_dialog.c:977
 msgid "Subvert Enemy Unit"
-msgstr "敵ユニットへの工作"
+msgstr "敵ユニットへの破壊工作"
 
 #: client/gui-sdl2/chatline.c:745 client/gui-sdl3/chatline.c:741
 #, c-format
@@ -12323,13 +12170,11 @@ msgstr ""
 "政治体制を%sにすることができるようになります（ただし「%s」が必要です）。"
 
 # clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is a government name.
 #: client/helpdata.c:583
 #, c-format
 msgid "?gov:Allows %s (absent %s)."
-msgstr "政治体制を%sにすることが可能になります(ただし%sが無いことが必要です)。"
+msgstr "政治体制を%sにすることができるようになります(ただし「%s」が無いことが必要です)。"
 
 # clefs
 #. TRANS: %s is a government name.
@@ -12397,8 +12242,6 @@ msgstr ""
 "政治体制を%sにすることができるようになります（ただし「%s」が必要です）。"
 
 # clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is a unit type name.
 #: client/helpdata.c:621
 #, fuzzy, c-format
@@ -12437,8 +12280,6 @@ msgid "?extra:Allows %s (with %s)."
 msgstr "｢%s｣を建設することができるようになります（ただし%sが必要です）。"
 
 # clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is an extra name.
 #: client/helpdata.c:639
 #, fuzzy, c-format
@@ -12479,8 +12320,6 @@ msgstr ""
 "政治体制を%sにすることができるようになります（ただし「%s」が必要です）。"
 
 # clefs
-# XXX "大学 を建設可能にします(大学も必要です)。" 施設／技術
-# "with %s" は「海」とかかもしれないので「技術」と決め打ちもできない
 #. TRANS: First %s is a good name.
 #: client/helpdata.c:657
 #, fuzzy, c-format
@@ -14327,7 +14166,7 @@ msgstr "・ユニット維持に必要な%2$sは通常の%1$.2g倍になりま�
 msgid "%s You pay %.2g times normal upkeep for your units.\n"
 msgstr "・ユニット維持コストは通常の%2g倍になります。\n"
 
-# clefs XXX
+# clefs
 # Belgae %sにはシールドや金などが入ります。
 #. TRANS: %s is the output type, like 'shield' or
 #. * 'gold'; pluralised in %d but there is currently
@@ -14365,7 +14204,6 @@ msgstr ""
 "・首都を占領または破壊された場合， %d%%の確率 (基本値) で内戦が勃発します。\n"
 
 # clefs
-# XXX
 # Belgae改訳
 #: client/helpdata.c:4639
 #, fuzzy, c-format
@@ -14556,7 +14394,6 @@ msgid "%s New units will be veteran.\n"
 msgstr "・新たに生産された%sユニットがベテランになります。\n"
 
 # clefs
-# XXX %sが"all"だとヘボいことに
 # Belgae
 # more thanはその数値は含みませんから
 # 「以上」は使えません。
@@ -16833,11 +16670,10 @@ msgstr "%sは解散させられません。"
 msgid "Disbanded %d %s."
 msgstr "%dの%sを解散しました。"
 
-# XXX 要チェック (clefs)
 #: client/repodlgs_common.c:236
 #, c-format
 msgid "No %s could be disbanded."
-msgstr "%sは解散させられませんでした。"
+msgstr "解散することができる%sはいませんでした。"
 
 #. TRANS: Type is version tag name like "stable", "S3_2",
 #. * "windows" (which can also be localised -- msgids start
@@ -19315,7 +19151,6 @@ msgid "Nuked"
 msgstr "核攻撃"
 
 # clefs
-# XXX CMAではなくなったのだけれど、"citizen governor"のうまい訳語がない
 #: common/events.c:109
 msgid "Released from citizen governor"
 msgstr "総督府から解放"
@@ -27188,7 +27023,7 @@ msgstr ""
 #: data/civ2civ3/terrain.ruleset:1256 data/multiplayer/terrain.ruleset:1209
 #: data/granularity/terrain.ruleset:675 tools/manual/manual_terrain.c:51
 msgid "Irrigation"
-msgstr "灌漑施設"
+msgstr "灌漑"
 
 #: data/civ1/terrain.ruleset:992 data/civ2/terrain.ruleset:1064
 msgid ""
@@ -40626,11 +40461,7 @@ msgstr ""
 "るなら，そこでプレイヤー名を知ることができます。"
 
 # ama, clefs
-# XXX "C: unit (c)onnect" はよくわからない(試しても何も起きない…)
-# もしかしたら廃止されたのかもしれない
 # Belgae
-# 2.2で他の項目も多数変更されたのに合わせて，実装されていない項目が削除されました。
-# convertは「地形タイプを変える」，transformは「地形（を）改造する」で行きます。
 #. TRANS: This text mentions the names of some client options. These names
 #. ;  * are separately translated elsewhere; they should match!
 #: data/helpdata.txt:1645
@@ -41523,15 +41354,11 @@ msgstr ""
 "ます。[訳註: 現行のGTKクライアントではアイテムを選択しないとヘルプボタンは無"
 "効です]"
 
-# XXX 原文に問題
 #: data/helpdata.txt:2005
 msgid ""
 "To remove an item from the worklist simply double-click the item to remove. "
 "Use the buttons below the worklist to move items up and/or down in the list."
-msgstr ""
-"作業リストからアイテムを削除するには，削除したいアイテムの上でダブルクリック"
-"します。アイテムを作業リスト内で上下するには，リストの下のボタンを使います。"
-"[訳註: 現行のGTKクライアントではボタンはリストの右にあります]"
+msgstr "作業リストから項目を削除するには、その項目をダブルクリックします。項目の順番を入れ替えるには、リストの右にある上下ボタンを使用します。"
 
 # ama, clefs
 # 見やすいのが一番
@@ -42854,7 +42681,6 @@ msgstr "フランス人"
 msgid "Allows units to fortify."
 msgstr "・開拓者が要塞を築くことができるようになります。"
 
-# XXX
 #: data/granularity/terrain.ruleset:544 server/ruleset/ruleload.c:3155
 #, fuzzy
 msgid "?gui_type:Build Type A Base"
@@ -43753,21 +43579,13 @@ msgstr "イタリア人"
 msgid "?plural:Italians"
 msgstr "イタリア人"
 
-# clefs
-# ナシオンとしてのイタリアの成立と言ってしまえば簡単なんだけど
-# こなれた日本語にしようとすると難しいですねえ。力不足を痛感します。
-# XXX "Italian nation" "indigenous nationalists"
-# リソルジメント運動というやつですが...
 #: data/nation/italian.ruleset:8
 msgid ""
 "The Italian nation was unified in 1870 CE after decades of campaigning by "
 "indigenous nationalists. It was a monarchy under the House of Savoy until "
 "1922, then a fascist state until 1945 after which democracy was restored by "
 "the World War II victors."
-msgstr ""
-"イタリアは1870年に，先住民の民族主義者たちによる数十年の運動を経て統一しまし"
-"た。1922年まではサヴォイア家の治める王国，それから1945年まではファシスト国家"
-"であり，第二次世界大戦の戦勝国によって民主主義に復されました。"
+msgstr "イタリアは、土着の民族主義者たちによる数十年にわたる運動の末、1870年に統一されました。\n\n1922年まではサヴォイア家による君主制、1945年まではファシズム国家でしたが、第二次世界大戦の戦勝国によって民主主義が復活しました。"
 
 #: data/nation/italian.ruleset:43
 #, c-format
@@ -46650,13 +46468,12 @@ msgid "Transferred %s from %s to %s."
 msgstr "%sを%sから%sへ引き渡しました。"
 
 # clefs
-# XXX 見たことのないメッセージ
 # Belgae
 #. TRANS: Polish Destroyer ... German <city>
 #: server/citytools.c:687
 #, c-format
 msgid "%s %s lost in transfer to %s %s"
-msgstr "%sの %sは %sの %sへの移転により失われました。"
+msgstr "%1$sの%2$sは%4$sが%3$sの都市になったことで失われました。"
 
 # clefs
 #: server/citytools.c:817 server/unithand.c:452
@@ -48211,10 +48028,10 @@ msgstr "プレイヤーのAI状態を切り替えます。"
 msgid "take [connection-name] <player-name>"
 msgstr "take [接続名] <プレイヤー名>"
 
-# clefs XXX
+# clefs
 #: server/commands.c:299
 msgid "Take over a player's place in the game."
-msgstr "ゲーム上でそのプレイヤーの担当になります。"
+msgstr "プレイヤーの担当を引き継ぎます。"
 
 # clefs
 # Belgae
@@ -48684,15 +48501,11 @@ msgstr "このコマンドは，ゲームを即座に引き分けで終了しま
 msgid "Concede the game."
 msgstr "敗北を認めます。"
 
-# clefs XXX
 #: server/commands.c:544
 msgid ""
 "This tells everyone else that you concede the game, and if all but one "
 "player (or one team) have conceded the game in this way then the game ends."
-msgstr ""
-"ゲームに負けたことを他の全員に宣言します[訳註:敗北宣言後もプレイは継続されま"
-"す。ただし勝利者にはなれません]。もし1人のプレイヤーまたは1つのチーム以外の全"
-"員が同様に負けを認めると，それでゲームは終了します。"
+msgstr "これにより、あなたがゲームを放棄したことが他のプレイヤーに伝わります。1人を除くすべてのプレイヤー(または1つのチーム)がこの方法でゲームを放棄した場合、ゲームは終了します。"
 
 #. TRANS: translate text between <> only
 #: server/commands.c:551
@@ -49061,29 +48874,26 @@ msgstr ""
 msgid "Couldn't get control of '%s' from delegation to %s."
 msgstr ""
 
-# clefs XXX
 #: server/connecthand.c:265
 #, fuzzy
 #| msgid "Couldn't attach your connection to new player."
 msgid "Couldn't attach your connection to a scenario player."
 msgstr "新しいプレイヤーとして接続できませんでした。"
 
-# clefs XXX
+# clefs
 #: server/connecthand.c:278
 msgid "Couldn't attach your connection to new player."
 msgstr "新しいプレイヤーとして接続できませんでした。"
 
-# clefs XXX
 #: server/connecthand.c:296
 #, c-format
 msgid "You are logged in as '%s' connected to no player."
-msgstr "あなたは接続名'%s'で，プレイヤー割り当てなしで接続しています。"
+msgstr "あなたは「%s」としてログインしており、どのプレイヤーにも割り当てられていません。"
 
-# clefs XXX
 #: server/connecthand.c:300
 #, c-format
 msgid "You are logged in as '%s' connected to %s."
-msgstr "あなたは接続名'%s'で，プレイヤー'%s'に割り当てられて接続しています。"
+msgstr "あなたは「%s」としてログインしており，プレイヤー「%s」に割り当てられています。"
 
 #: server/connecthand.c:315
 #, fuzzy, c-format
@@ -50541,15 +50351,13 @@ msgid ""
 msgstr ""
 "%sによる絶え間ない挑発を受け，議会はあなたの議案を全会一致で可決しました。"
 
-# clefs XXX
 #: server/plrhand.c:1004
 #, c-format
 msgid ""
 "The senate refuses to break treaty with the %s, but you have no trouble "
 "finding a new senate."
-msgstr ""
-"議会は%sとの条約破棄を承認しなかったため解散されました。特に混乱もなく新たな"
-"議会が招集され，議案を可決しました。"
+msgstr "議会は％との条約破棄を拒否したため解散されました。条約は破棄され、特に混乱もなく新たな"
+"議会が招集されました。"
 
 # yasu
 #: server/plrhand.c:1028
@@ -51690,15 +51498,12 @@ msgstr ""
 msgid "Disabling 'barbarians' setting for lack of suitable unit types."
 msgstr ""
 
-# XXX (Belgae)
 #: server/savegame/savecompat.c:174
 #, c-format
 msgid ""
 "Run compatibility function for version: <%d (save file: %d; server: %d)."
-msgstr ""
-"バージョン<%dの互換性機能を実行します（セーブファイル: %d，サーバー: %d）。"
+msgstr "バージョン互換関数を実行してください： <%d (セーブファイル: %d; サーバー: %d)。"
 
-# XXX (Belgae)
 #: server/savegame/savecompat.c:209
 #, fuzzy, c-format
 #| msgid ""
@@ -52603,9 +52408,6 @@ msgstr "マップ形式"
 msgid "Freeciv-web maps are always two-dimensional.\n"
 msgstr ""
 
-# XXX Problem is tHat the backticks can be displayed as Yen mark in Japanese
-# environment... (clefs)
-# 全角にしました。フォントによっては表示が崩れるでしょうが，従来よりはマシかと。(Belgae)
 #. TRANS: do not edit the ugly ASCII art
 #: server/settings.c:1566
 #| msgid ""
@@ -54568,20 +54370,15 @@ msgstr ""
 "-1のときは，最初のターンも'timeout'設定の例外とはせず，そちらの設定に従いま"
 "す。"
 
-# clefs XXX
 #: server/settings.c:2969
 msgid "Timeout at least n seconds when enemy moved"
-msgstr "敵が移動した場合に最低限残すタイムアウトまでの秒数"
+msgstr "敵が移動したときのタイムアウトの最低秒数"
 
-# clefs XXX
-# Belgae
 #: server/settings.c:2970
 msgid ""
 "Any time a unit moves while in sight of an enemy player, the remaining "
 "timeout is increased to this value."
-msgstr ""
-"ユニットが敵プレイヤーの視界内を通過した場合，タイムアウトまでの残り時間がこ"
-"の値よりも小さければこの値にセットされます。"
+msgstr "ユニットが敵プレイヤーの視界内を移動した場合、タイムアウトの残り時間はこの値に設定されます。"
 
 #: server/settings.c:2978
 msgid "Minimum time between unit actions over turn change"
@@ -54637,16 +54434,12 @@ msgstr ""
 msgid "Max seconds for network buffers to drain"
 msgstr "ネットワークバッファを空にする最大秒数"
 
-# XXX clefs
 #: server/settings.c:3016
 msgid ""
 "The server will wait for up to the value of this parameter in seconds, for "
 "all client connection network buffers to unblock. Zero means the server will "
 "not wait at all."
-msgstr ""
-"civserver は，全クライアント接続ネットワークバッファに対して，アンブロックす"
-"るまでこのパラメータで指定した秒を最大待ちます。ゼロはサーバーは全く待たない"
-"ことを意味します。"
+msgstr "サーバーは、クライアント接続のネットワークバッファがすべてブロック解除されるまで、この設定の値(秒)だけ待機します。この設定を0にすると、サーバーは全く待機しません。"
 
 #: server/settings.c:3024
 msgid "Seconds between PINGs"
@@ -56742,11 +56535,10 @@ msgstr "残念ながらこのゲームでは接続済のプレイヤーの乗っ
 msgid "Only the player name form is allowed."
 msgstr "プレイヤー名を指定する必要があります。"
 
-# clefs XXX
 #: server/stdinhand.c:3420
 #, c-format
 msgid "%s already controls %s. Using 'observe' would remove %s"
-msgstr "%sが既に %sを操作しています。'observe'で %sを除去します"
+msgstr "sが既に%sを操作しています。'observe'を使用すると、%sが削除されます。"
 
 # clefs
 #: server/stdinhand.c:3431
@@ -60743,7 +60535,6 @@ msgstr ""
 #~ "合計   %d 交易/年\n"
 
 # clefs
-# XXX Governorは訳語未定
 #~ msgid "%s - %s citizens  Governor: %s"
 #~ msgstr "%s - %s 市民  総督府: %s"
 
@@ -61007,7 +60798,7 @@ msgstr ""
 #~ "* May be disbanded in a city to recover 50% of the production cost.\n"
 #~ msgstr "・都市で解散させると生産コストの50%を再利用できます。\n"
 
-# clefs XXX
+# clefs
 #~ msgid "* Can add on %d population to cities of no more than size %d.\n"
 #~ msgid_plural ""
 #~ "* Can add on %d population to cities of no more than size %d.\n"
@@ -63010,7 +62801,7 @@ msgstr ""
 #~ "同じ大陸内にあるあなたの都市で新たに生産するすべての海上ユニットが，最初の"
 #~ "ベテランレベルで生産されます。"
 
-# clefs XXX
+# clefs
 #~ msgid "You are logged in as '%s' connected to an anonymous player."
 #~ msgstr ""
 #~ "あなたはユーザ名'%s'で，無名プレイヤーに割り当てられて接続しています。"
@@ -63163,7 +62954,7 @@ msgstr ""
 #~ msgid "Requires we reached the year %d.\n"
 #~ msgstr "%d年に達していることが必要です。\n"
 
-# clefs XXX
+# clefs
 #~ msgid ""
 #~ "* Can establish trade routes (must travel to target city and must be at "
 #~ "least %d tiles [in Manhattan distance] from this unit's home city).\n"
@@ -63623,7 +63414,7 @@ msgstr ""
 #~ msgid "freeciv 2.4.0"
 #~ msgstr "Freeciv"
 
-# XXX (Belgae)
+# Belgae
 #~ msgid "Run compatibility function for version: <%d (want: %d, server: %d)."
 #~ msgstr "バージョン<%dの互換性機能を実行します（要求: %d，サーバ: %d）。"
 
@@ -64137,7 +63928,6 @@ msgstr ""
 #~ "の分国です。1861年に南部6州によって形成されましたが，合衆国軍による数次の"
 #~ "軍事的敗北の後に独立要求の放棄を余儀なくされました。"
 
-# XXX
 # Belgae
 #~ msgid "Thane %s"
 #~ msgstr "ターネー %s"
@@ -64221,7 +64011,6 @@ msgstr ""
 #~ msgid "?Female:Bailiff %s"
 #~ msgstr "代官 %s"
 
-# XXX
 # Belgae
 #~ msgid "Perfect %s"
 #~ msgstr "完全なる %s"
