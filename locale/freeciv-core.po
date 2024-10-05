@@ -127,7 +127,6 @@ msgstr ""
 "X-Poedit-Basepath: ../freeciv-2.6.0-RC2\n"
 "X-Poedit-SearchPath-0: .\n"
 
-# yasu
 # Belgae
 #: ai/default/daicity.c:999
 #, fuzzy, c-format
@@ -629,7 +628,6 @@ msgid ""
 "be used."
 msgstr ""
 
-# clefs
 # Belgae
 #: client/agents/cma_core.c:402 server/cityturn.c:422
 #, c-format
@@ -638,7 +636,6 @@ msgid ""
 "control."
 msgstr "総督府は %sでの統治要件を満たすことができません。直轄地に戻します。"
 
-# clefs
 # Belgae
 #: client/agents/cma_core.c:411 client/agents/cma_core.c:431
 #, c-format
@@ -1363,13 +1360,11 @@ msgstr "労働者: 幸福, 平静, 不幸, 怒り"
 msgid "Best"
 msgstr "上位"
 
-# clefs
 # Belgae
 #: client/cityrepdata.c:769
 msgid "attack"
 msgstr "攻撃力"
 
-# clefs
 # Belgae
 #: client/cityrepdata.c:770
 msgid "Best attacking units"
@@ -1600,7 +1595,6 @@ msgstr "疫病発生率"
 msgid "?cma:Governor"
 msgstr "総督府"
 
-# clefs
 # Belgae
 #: client/cityrepdata.c:829 client/gui-gtk-3.22/cityrep.c:1882
 #: client/gui-gtk-3.22/menu.c:417 client/gui-gtk-4.0/cityrep.c:1856
@@ -3888,7 +3882,6 @@ msgstr ""
 msgid "Help"
 msgstr "ヘルプ(H)"
 
-# clefs
 # Belgae
 #: client/gui-gtk-3.22/cma_fe.c:506 client/gui-gtk-4.0/cma_fe.c:523
 #: client/gui-gtk-5.0/cma_fe.c:523
@@ -5333,7 +5326,6 @@ msgstr "火力"
 msgid "Hitpoints:"
 msgstr "体力:"
 
-# clefs
 # Belgae
 #: client/gui-gtk-3.22/helpdlg.c:122 client/gui-gtk-4.0/helpdlg.c:122
 #: client/gui-gtk-5.0/helpdlg.c:122 client/gui-qt/citydlg.cpp:3992
@@ -5645,7 +5637,6 @@ msgstr "外交(_D)"
 msgid "_Techs"
 msgstr "科学技術(_T)"
 
-# clefs
 # ntaka
 #: client/gui-gtk-3.22/inteldlg.c:476 client/gui-gtk-4.0/inteldlg.c:495
 #: client/gui-gtk-5.0/inteldlg.c:495
@@ -5778,7 +5769,6 @@ msgstr ""
 msgid " (observer)"
 msgstr " (観察者)"
 
-# ntaka
 # clefs
 #: client/gui-gtk-3.22/mapview.c:219 client/gui-gtk-4.0/mapview.c:222
 #: client/gui-gtk-5.0/mapview.c:222
@@ -5856,7 +5846,6 @@ msgstr "リモートサーバー(_R)"
 msgid "Save Options _Now"
 msgstr "オプションの保存(_N)"
 
-# ntaka
 # clefs
 #: client/gui-gtk-3.22/menu.c:292 client/gui-gtk-4.0/menu.c:561
 #: client/gui-gtk-5.0/menu.c:561
@@ -6575,7 +6564,6 @@ msgstr "地形を変える(_O)"
 msgid "_Clean"
 msgstr "全消去"
 
-# yasu
 # clefs
 #: client/gui-gtk-3.22/menu.c:597 client/gui-gtk-4.0/menu.c:822
 #: client/gui-gtk-5.0/menu.c:822 client/gui-qt/shortcuts.cpp:132
@@ -6984,7 +6972,7 @@ msgstr "人間"
 msgid "Comment"
 msgstr "コメント"
 
-# ntaka, Daniel
+# Daniel
 #: client/gui-gtk-3.22/pages.c:1247 client/gui-gtk-4.0/pages.c:1270
 #: client/gui-gtk-5.0/pages.c:1270
 msgid "Local _Area Network"
@@ -7059,7 +7047,6 @@ msgstr "プレイヤー/接続情報"
 msgid "%s info"
 msgstr "%s情報"
 
-# clefs
 # Belgae
 #: client/gui-gtk-3.22/pages.c:1829 client/gui-gtk-4.0/pages.c:1906
 #: client/gui-gtk-5.0/pages.c:1906
@@ -7208,7 +7195,6 @@ msgstr ""
 "プレイヤー数\n"
 "(AIも含む)(_P):"
 
-# Daniel
 # Belgae
 #: client/gui-gtk-3.22/pages.c:2706 client/gui-gtk-4.0/pages.c:2828
 #: client/gui-gtk-5.0/pages.c:2828
@@ -7430,7 +7416,7 @@ msgstr ""
 "%sとの%sを破棄しますか？\n"
 "外交関係は%sになります。"
 
-# yasu, ama
+# ama
 #. TRANS: "...from the Belgians?"
 #: client/gui-gtk-3.22/plrdlg.c:864 client/gui-gtk-4.0/plrdlg.c:1002
 #: client/gui-gtk-5.0/plrdlg.c:1002
@@ -7526,16 +7512,12 @@ msgstr "すべて表示"
 msgid "?Building or Unit type:Name"
 msgstr "名前"
 
-# 孫子の兵法学校を持っているときに兵舎は冗長ということでしょうか？(Belgae)
 #: client/gui-gtk-3.22/repodlgs.c:835 client/gui-gtk-4.0/repodlgs.c:867
 #: client/gui-gtk-5.0/repodlgs.c:867 client/gui-qt/repodlgs.cpp:1221
 msgid "Redundant"
 msgstr "冗長"
 
-# was "経費"
-# ユニットの作成コストも"Cost"なので不都合もあるが如何ともしがたい。
-# いっそ「コスト」にしてしまう方がいいのかな？ (clefs)
-# コストにしました。金とそれ以外の場合で分けてもらうよう言った方がいいですね(Belgae)
+# Belgae
 #: client/gui-gtk-3.22/repodlgs.c:839 client/gui-gtk-3.22/wldlg.c:996
 #: client/gui-gtk-4.0/repodlgs.c:871 client/gui-gtk-4.0/wldlg.c:1017
 #: client/gui-gtk-5.0/repodlgs.c:871 client/gui-gtk-5.0/wldlg.c:1017
@@ -7632,7 +7614,6 @@ msgstr "生産中"
 msgid "Active"
 msgstr "運用中"
 
-# 実情は「鉱工業生産」みたいなものなんですけどね (clefs)
 #: client/gui-gtk-3.22/repodlgs.c:1330 client/gui-gtk-4.0/repodlgs.c:1362
 #: client/gui-gtk-5.0/repodlgs.c:1362 client/gui-qt/citydlg.cpp:1905
 #: common/city.c:90
@@ -7709,7 +7690,7 @@ msgstr "民族\n"
 msgid "Score\n"
 msgstr "スコア\n"
 
-# ntaka, Daniel
+# Daniel
 #: client/gui-gtk-3.22/repodlgs.c:1955 client/gui-gtk-4.0/repodlgs.c:1984
 #: client/gui-gtk-5.0/repodlgs.c:1984 client/gui-qt/repodlgs.cpp:1582
 #: client/plrdlg_common.c:580
@@ -8074,7 +8055,6 @@ msgstr "グローバル作業リストを編集(_W)"
 msgid "Turns"
 msgstr "ターン"
 
-# "タスクを読み込む(_T):"
 #: client/gui-gtk-3.22/wldlg.c:1112 client/gui-gtk-4.0/wldlg.c:1193
 #: client/gui-gtk-5.0/wldlg.c:1193
 msgid "Source _Tasks:"
@@ -8448,17 +8428,13 @@ msgstr "幸福情報に切り替え"
 msgid "No governor defined"
 msgstr ""
 
-# clefs
-# 「知事執務中」「Governer作動中」
 # Belgae
-# was:Governor 稼働中(_E)
 #. TRANS: %1 is custom string chosen by player
 #: client/gui-qt/citydlg.cpp:2573
 msgid "<h3>Governor Enabled<br>(%1)</h3>"
-msgstr "<h3>総督府統治中<br>(%1)</h3>"
+msgstr "<h3>総督府稼働中<br>(%1)</h3>"
 
 # Belgae
-# was:Governor 停止中(_E)
 #: client/gui-qt/citydlg.cpp:2582
 msgid "<h3>Governor Disabled</h3>"
 msgstr "<h3>総督府停止中</h3>"
@@ -8795,22 +8771,14 @@ msgstr "大使館の設置を認める"
 msgid "Pacts"
 msgstr "条約"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #: client/gui-qt/fc_client.cpp:136
 #, fuzzy
 msgid "Freeciv (%1)"
 msgstr "これはFreeciv %s， %sクライアントです。"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #: client/gui-qt/fc_client.cpp:175
 msgid "Welcome to Freeciv"
-msgstr ""
+msgstr "Freecivへようこそ"
 
 #: client/gui-qt/fc_client.cpp:267
 msgid "This is Qt-client for Freeciv."
@@ -8944,9 +8912,7 @@ msgstr "Qtについて"
 msgid "Moves:"
 msgstr "移動力:"
 
-# 消費するのは現金でなくシールドなので「費」より「コスト」の方が良さそう
-# ただ長くなるのが難 (clefs)
-# 長いですが，「コスト」に変更(Belgae)
+# Belgae
 #: client/gui-qt/helpdlg.cpp:933
 msgid "Basic upkeep:"
 msgstr "基礎維持コスト:"
@@ -9300,11 +9266,9 @@ msgstr "ズームのリセット"
 msgid "Scale fonts"
 msgstr "ユニット情報の拡大縮小"
 
-# clefs
-# これは「概略」ではなく，都市の影響範囲を示すライン
 #: client/gui-qt/menu.cpp:1076
 msgid "City Outlines"
-msgstr "都市アウトライン"
+msgstr "都市圏の外形線"
 
 #: client/gui-qt/menu.cpp:1086 client/gui-qt/shortcuts.cpp:69
 msgid "Map Grid"
@@ -9473,7 +9437,6 @@ msgstr ""
 msgid "Connect With Maglev"
 msgstr "連続して鉄道を敷設する"
 
-# Daniel
 # Belgae
 #: client/gui-qt/menu.cpp:1354 client/gui-sdl2/menu.c:563
 #: client/gui-sdl3/menu.c:559
@@ -10016,11 +9979,9 @@ msgstr "税率"
 msgid "Sell All"
 msgstr "すべて売却する"
 
-# Belgae
-# Redundantの適訳が…。
 #: client/gui-qt/repodlgs.cpp:1239
 msgid "Sell Redundant"
-msgstr "冗長を売る"
+msgstr "冗長なものを売却する"
 
 #: client/gui-qt/repodlgs.cpp:1476
 msgid "Disband Results"
@@ -10121,7 +10082,7 @@ msgstr "戦闘アニメーションの表示"
 msgid "Reload theme"
 msgstr "テーマを再読み込み"
 
-# ntaka, clefs
+# clefs
 #: client/gui-qt/shortcuts.cpp:158
 msgid "Reload tileset"
 msgstr "タイルセットを再読み込み"
@@ -10130,13 +10091,13 @@ msgstr "タイルセットを再読み込み"
 msgid "Toggle city full bar visibility"
 msgstr ""
 
-# ntaka, clefs
+# clefs
 #: client/gui-qt/shortcuts.cpp:162
 #, fuzzy
 msgid "Reload zoomed in tileset"
 msgstr "タイルセットを再読み込み"
 
-# ntaka, clefs
+# clefs
 #: client/gui-qt/shortcuts.cpp:164
 #, fuzzy
 msgid "Reload zoomed out tileset"
@@ -10760,7 +10721,6 @@ msgid "Port :"
 msgstr "ポート:"
 
 # Belgae
-# ソースより，SDLクライアントの接続ダイアログでパスワードを自動生成したときに，次の候補に変えるためのボタンのラベル？
 #: client/gui-sdl2/connectdlg.c:823 client/gui-sdl2/connectdlg.c:1002
 #: client/gui-sdl3/connectdlg.c:819 client/gui-sdl3/connectdlg.c:998
 msgid "Next"
@@ -10774,7 +10734,7 @@ msgstr ""
 "%d/%d %s\n"
 "%d %s"
 
-# 無理に訳すとかえって見づらいかも (clefs)
+# clefs
 #: client/gui-sdl2/dialogs.c:1165 client/gui-sdl3/dialogs.c:1161
 #, fuzzy, c-format
 msgid "%s %s %s(A:%d D:%d M:%s FP:%d) HP:%d%%"
@@ -11276,8 +11236,7 @@ msgstr "%s 人口: %s  西暦: %s  金 %d 税: %d 贅沢: %d 科学: %d "
 msgid "?nation:Hostile"
 msgstr "敵国"
 
-# ntaka なんて訳せばよいか悩んだが、和平を結んだ国では長いので友好国
-# clefs 友好通商条約あたりを結んでいるような関係ですね
+# ntaka
 #: client/gui-sdl2/mapview.c:598 client/gui-sdl3/mapview.c:594
 #: client/text.c:155
 msgid "?nation:Peaceful"
@@ -11293,7 +11252,7 @@ msgstr "同盟国"
 msgid "?nation:Mysterious"
 msgstr "未接触の国"
 
-# ntaka 領域(または国土)とは、領土、領海、領空の３つを含む概念だそうな。
+# ntaka
 #: client/gui-sdl2/mapview.c:602 client/gui-sdl3/mapview.c:598
 msgid ""
 "\n"
@@ -11440,7 +11399,7 @@ msgstr ""
 msgid "End of Turn"
 msgstr "ターンの終了"
 
-# 語順の都合で空白に。sdl以外で使用される場合は変えた方がいいでしょう(Belgae)
+# 語順の都合で空白としました(Belgae)
 #: client/gui-sdl2/mapview.c:947 client/gui-sdl3/mapview.c:943
 msgid "Press"
 msgstr " "
@@ -11536,9 +11495,7 @@ msgstr "ユニットを起こす"
 msgid "Plant to"
 msgstr "植林"
 
-# 苦しい (clefs)
 # Belgae
-# was: 地形変更する
 #: client/gui-sdl2/menu.c:1229 client/gui-sdl3/menu.c:1225
 msgid "Transform to"
 msgstr "地形改造する"
@@ -11592,10 +11549,6 @@ msgstr "空の作業リスト"
 msgid "Add new worklist"
 msgstr "新規作業リスト追加"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #. TRANS: Freeciv 3.2.0
 #: client/gui-sdl2/pages.c:164 client/gui-sdl3/pages.c:164
 #, fuzzy, c-format
@@ -11678,7 +11631,6 @@ msgid ""
 msgstr "建設中"
 
 # Belgae
-# 使われ方がソースを見てもよくわかりません
 #: client/gui-sdl2/repodlgs.c:386 client/gui-sdl3/repodlgs.c:386
 msgid ""
 "soonest\n"
@@ -11762,12 +11714,11 @@ msgid "step"
 msgid_plural "steps"
 msgstr[0] "ステップ"
 
-#  1: The 雄大な 日本人 scored 165 points
 #: client/gui-sdl2/repodlgs.c:3534 client/gui-sdl3/repodlgs.c:3534
 #, c-format
 msgid "%2d: The %s ruler %s scored %d point\n"
 msgid_plural "%2d: The %s ruler %s scored %d points\n"
-msgstr[0] "%2d: %s%s %d点\n"
+msgstr[0] "%2d: %s%sは%dポイントのスコアを獲得しました\n"
 
 #: client/gui-sdl2/repodlgs.c:3541 client/gui-sdl3/repodlgs.c:3541
 msgid "Final Report:"
@@ -11972,13 +11923,11 @@ msgid "%d %s"
 msgstr "%d %s"
 
 # Belgae
-# sdlの作業リストで使用。
 #: client/gui-sdl2/wldlg.c:1532 client/gui-sdl3/wldlg.c:1528
 msgid "shields into gold"
 msgstr "シールドを金に"
 
 # Belgae
-# sdlの作業リストで使用。
 #: client/gui-sdl2/wldlg.c:1534 client/gui-sdl3/wldlg.c:1530
 #, fuzzy
 #| msgid "shields into gold"
@@ -12372,7 +12321,6 @@ msgstr ""
 "このページは自動生成されました。\n"
 "\n"
 
-# Daniel
 # Belgae
 #: client/helpdata.c:1416
 #, fuzzy, c-format
@@ -12380,7 +12328,6 @@ msgstr ""
 msgid "%s The discovery of %s will make %s obsolete.\n"
 msgstr "・科学技術「%s」が発見されると%sは旧式化します。\n"
 
-# Daniel
 # Belgae
 #. TRANS: both %s are improvement names
 #: client/helpdata.c:1424
@@ -12596,7 +12543,6 @@ msgstr ""
 "ション'savepalace'が有効である場合）。\n"
 
 # clefs
-# 速度というよりは移動力かなあ？
 #. TRANS: indented unit class property, preserve leading spaces
 #: client/helpdata.c:1880
 #, fuzzy, c-format
@@ -12799,7 +12745,6 @@ msgid_plural "%s Costs %d population to build.\n"
 msgstr[0] "・生産すると都市の人口が%d減少します。\n"
 
 # Belgae
-# これを単複処理するのはどうやったらいいのか
 #. TRANS: %s is a list of unit classes separated by "or".
 #: client/helpdata.c:2198
 #, fuzzy, c-format
@@ -12893,7 +12838,6 @@ msgstr "・より高度な諜報および秘密工作を遂行できます。\n"
 msgid "%s Defends cities against diplomatic actions.\n"
 msgstr "・他国による秘密工作を妨害することができます。\n"
 
-# いまいち (clefs)
 #: client/helpdata.c:2355
 #, fuzzy, c-format
 #| msgid "* Will never lose a diplomat-versus-diplomat fight.\n"
@@ -13145,8 +13089,7 @@ msgid ""
 "mission.\n"
 msgstr "%sは任務を遂行した後，逮捕されました。"
 
-# ama, clefs
-# (修正前)msgstr "* ターンの終わりに攻撃します。\n"
+# clefs
 #. TRANS: Indented unit action property, preserve
 #. * leading spaces.
 #: client/helpdata.c:2652
@@ -13285,7 +13228,6 @@ msgid "  %s %d per turn.\n"
 msgstr "食料: %d/ターン"
 
 # clefs
-# 未実装のfeatureなのかな
 #. TRANS: talking about bombard
 #: client/helpdata.c:2877
 #, fuzzy, c-format
@@ -13441,7 +13383,6 @@ msgid ""
 msgstr ""
 
 # clefs
-# 未実装のfeatureなのかな
 #. TRANS: talking about non lethal attacks
 #: client/helpdata.c:3139
 #, fuzzy, c-format
@@ -13503,7 +13444,6 @@ msgstr ""
 "　・練度が上がると任務を終えた後，無事に帰還する可能性が高くなります。\n"
 
 # clefs
-# 政治体制「共産主義」の説明文です。%sは"Diplomat"に置換され，外交官およびスパイが対応することになりますが，これに対応する項目がないようです(Belgae)
 #. TRANS: indented; preserve leading spaces
 #: client/helpdata.c:3264
 #, fuzzy, c-format
@@ -13644,7 +13584,6 @@ msgid "* Bases cannot be built on this terrain."
 msgstr "・この地形に基地を建設することはできません。"
 
 # clefs
-# まだ存在しないが，将来導入されるらしい
 #: client/helpdata.c:3564
 #, c-format
 #| msgid "* The coastline of this terrain is unsafe."
@@ -13762,9 +13701,6 @@ msgid "Requirements to build:\n"
 msgstr "建設可能となる条件:\n"
 
 # Belgae
-# was:経費
-# 使用される対象が，都市での生産に必要な生産ポイントに限定されているようなので訳語を変更しました。
-# （ただ、HTMLヘルプでは"Cost"の方を使用するようで、統一が……）
 #: client/helpdata.c:3919
 #, fuzzy, c-format
 #| msgid "Cost:"
@@ -14167,7 +14103,6 @@ msgid "%s You pay %.2g times normal upkeep for your units.\n"
 msgstr "・ユニット維持コストは通常の%2g倍になります。\n"
 
 # clefs
-# Belgae %sにはシールドや金などが入ります。
 #. TRANS: %s is the output type, like 'shield' or
 #. * 'gold'; pluralised in %d but there is currently
 #. * no way to control the singular/plural name of the
@@ -14203,8 +14138,7 @@ msgid "%s If you lose your capital, the base chance of civil war is %d%%.\n"
 msgstr ""
 "・首都を占領または破壊された場合， %d%%の確率 (基本値) で内戦が勃発します。\n"
 
-# clefs
-# Belgae改訳
+# Belgae
 #: client/helpdata.c:4639
 #, fuzzy, c-format
 #| msgid ""
@@ -14222,7 +14156,6 @@ msgid_plural ""
 msgstr[0] ""
 "・%d都市を超えると，多過ぎる都市数が原因の不幸市民が各都市に発生します。\n"
 
-# clefs
 # Belgae
 #: client/helpdata.c:4651
 #, fuzzy, c-format
@@ -14242,7 +14175,6 @@ msgstr[0] ""
 "・多過ぎる都市数が原因の不幸市民は，最初の1人が発生した後，さらに %d都市増え"
 "るごとに発生します。\n"
 
-# clefs
 # Belgae
 #: client/helpdata.c:4665
 #, fuzzy, c-format
@@ -14259,7 +14191,6 @@ msgstr "・税/贅沢/科学に投入できる交易ポイントの割合は，�
 msgid "%s Has unlimited science/gold/luxuries rates.\n"
 msgstr "・税/贅沢/科学に投入できる交易ポイントの割合に制限はありません。\n"
 
-# clefs
 # Belgae
 #: client/helpdata.c:4678
 #, fuzzy, c-format
@@ -14303,10 +14234,7 @@ msgstr "・祝祭によって都市を成長させることができます。"
 msgid " (Cities below size %d cannot grow in this way.)"
 msgstr " （サイズ%d以下の都市はこの方法では成長させられません）"
 
-# clefs
-# 「政府は無政府」いやん
 # Belgae
-# 補いました。
 #: client/helpdata.c:4717
 #, fuzzy, c-format
 #| msgid ""
@@ -14325,8 +14253,7 @@ msgstr[0] ""
 "・ある都市の暴動が%dターン以上続くと全国規模の動乱に発展します。政府は完全に"
 "崩壊して，無政府状態に陥ります。\n"
 
-# clefs
-# was「上院が内戦の宣戦を防ぎ止めてくれるかもしれません。」senateは元老院の方が気分が出るのですが、日本では現在の各国議会は「上院」と呼ぶのが普通なので，民主主義の場合は違和感があるかもしれません。(Belgae)
+# Belgae
 #: client/helpdata.c:4728
 #, fuzzy, c-format
 #| msgid "* Has a senate that may prevent declaration of war.\n"
@@ -14334,7 +14261,6 @@ msgid "%s Has a senate that may prevent declaration of war.\n"
 msgstr "・議会が条約破棄を承認しないことがあります。\n"
 
 # clefs
-# やや意訳
 #: client/helpdata.c:4735
 #, fuzzy, c-format
 #| msgid "* Allows partisans when cities are taken by the enemy.\n"
@@ -14393,10 +14319,7 @@ msgstr "・新たに生産された%sユニットがベテランになります�
 msgid "%s New units will be veteran.\n"
 msgstr "・新たに生産された%sユニットがベテランになります。\n"
 
-# clefs
 # Belgae
-# more thanはその数値は含みませんから
-# 「以上」は使えません。
 #. TRANS: %s is list of output types, with 'or';
 #. * pluralised in %d but of course the output types
 #. * can't be pluralised; sorry
@@ -14425,7 +14348,6 @@ msgstr[0] ""
 msgid " (Cities below size %d will not celebrate.)"
 msgstr "（サイズ%d未満の都市で祝祭は催されません）"
 
-# clefs
 # Belgae
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:4848
@@ -14469,7 +14391,6 @@ msgid "%s %s production is increased %d%%.\n"
 msgstr "・%sの生産は%d%%増えます。\n"
 
 # clefs
-# 「交易の生産」とかになってしまうのだけれど、まあ仕方ないか
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:4886
 #, fuzzy, c-format
@@ -14877,7 +14798,7 @@ msgid ""
 "using the -m command-line parameter."
 msgstr "使用されるBGMセットを選択します。\nこの設定を変更することは、コマンドラインオプション -m を使用することと同じです。"
 
-# このあたりは原語で出てくれた方がわかりやすい気も (clefs)
+# clefs
 #: client/options.c:1996
 msgid "Sound plugin"
 msgstr "サウンドプラグイン"
@@ -14905,7 +14826,6 @@ msgstr "チャットログファイルの名前"
 msgid "Theme"
 msgstr "テーマ"
 
-# Daniel
 # Belgae
 #: client/options.c:2010 client/options.c:2015 client/options.c:2020
 #: client/options.c:2025 client/options.c:2030 client/options.c:2035
@@ -14982,10 +14902,9 @@ msgstr ""
 "インストーラーを使用してください。"
 
 # clefs
-# これは「概略」ではなく，都市の影響範囲を示すライン
 #: client/options.c:2076
 msgid "Draw city outlines"
-msgstr "都市アウトラインの表示"
+msgstr "都市圏の外形線を表示"
 
 #: client/options.c:2077
 msgid "Setting this option will draw a line at the city workable limit."
@@ -15011,7 +14930,6 @@ msgstr "このオプションを設定すると，マップ上にグリッド(�
 msgid "Draw the city bar"
 msgstr "都市情報バーの表示"
 
-# clefs
 # Belgae
 #: client/options.c:2091
 msgid ""
@@ -15336,7 +15254,6 @@ msgstr ""
 msgid "Show icons in the technology tree"
 msgstr "科学技術ツリーでのアイコン表示"
 
-# clefs
 # Belgae
 #: client/options.c:2245
 msgid ""
@@ -15453,7 +15370,6 @@ msgstr ""
 msgid "Keyboardless goto"
 msgstr "キーボードなしでの「移動(G)」アクション"
 
-# clefs
 # Belgae
 #: client/options.c:2294
 msgid ""
@@ -15524,7 +15440,7 @@ msgstr "すべてのユニットの移動が終了した時点で自動的にタ
 msgid "Prompt for city names"
 msgstr "新たな都市を建設する際に都市名を尋ねる"
 
-# clefs, Belgae
+# Belgae
 #: client/options.c:2322
 msgid ""
 "Disabling this option will make the names of newly founded cities be chosen "
@@ -15736,7 +15652,7 @@ msgid ""
 "this."
 msgstr ""
 
-# このあたりは原語で出てくれた方がわかりやすい気も (clefs)
+# clefs
 #: client/options.c:2434
 #| msgid "Sound plugin"
 msgid "Sound volume"
@@ -15781,7 +15697,6 @@ msgid "The background layer of the overview shows just ocean and land."
 msgstr "背景レイヤーには海と陸の違いだけが表示されます。"
 
 # clefs
-# 「地形の起伏の地図レイヤ」じゃくどいかなあと
 #: client/options.c:2457
 msgid "Terrain relief map layer"
 msgstr "地形レイヤー"
@@ -15821,7 +15736,6 @@ msgstr ""
 msgid "Units layer"
 msgstr "ユニットレイヤー"
 
-# 原文も不統一
 #: client/options.c:2474
 msgid "Enabling this will draw units on the overview."
 msgstr "有効にすると，ユニットを概観マップに表示します。"
@@ -15972,7 +15886,6 @@ msgid "Enable status report tabs"
 msgstr "状態報告タブを使用する"
 
 # clefs
-# 便利
 #: client/options.c:2752 client/options.c:2973 client/options.c:3194
 msgid ""
 "If this option is enabled then report dialogs will be shown as separate tabs "
@@ -16180,10 +16093,9 @@ msgid "City Label"
 msgstr "都市のラベル"
 
 # Belgae
-# 情報欄で使用されます
 #: client/options.c:2876 client/options.c:3097 client/options.c:3318
 msgid "This font is used to display the city labels on city dialogs."
-msgstr "このフォントは，都市ダイアログ内で都市のラベルの表示に使用されます。"
+msgstr "このフォントは，都市ダイアログ内でラベルの表示に使用されます。"
 
 #: client/options.c:2881 client/options.c:3102 client/options.c:3323
 #: client/options.c:3509
@@ -16242,7 +16154,6 @@ msgid "Chatline Area"
 msgstr "チャット行内"
 
 # Belgae
-# 入力欄ではなくその上の表示欄が変わります。
 #: client/options.c:2911 client/options.c:3132 client/options.c:3353
 #: client/options.c:3528
 msgid "This font is used to display the text in the chatline area."
@@ -16261,7 +16172,6 @@ msgid "Small Font"
 msgstr "小さなフォント"
 
 # Belgae
-# 有効になっているか確認。
 #: client/options.c:2922 client/options.c:3143 client/options.c:3364
 #, fuzzy
 #| msgid ""
@@ -16650,7 +16560,7 @@ msgstr "Ping"
 msgid "Culture"
 msgstr "文化"
 
-# このあたりは、人様の都市で出るメッセージなのかな (clefs)
+# clefs
 #: client/repodlgs_common.c:166
 msgid "You cannot sell improvements."
 msgstr "建造物の売却はできません。"
@@ -16870,7 +16780,7 @@ msgstr "地形: %s"
 msgid "Food/Prod/Trade: %s"
 msgstr "食料/生産/交易: %s"
 
-# ntaka 領域(または国土)とは、領土、領海、領空の３つを含む概念だそうな。
+# ntaka
 #: client/text.c:241
 msgid "Our territory"
 msgstr "我が国の領域"
@@ -17000,7 +16910,6 @@ msgid "%s people"
 msgstr "人口: %s 人"
 
 # clefs
-# 部隊の本拠地
 #. TRANS: on own line immediately following \n, ... <city>
 #: client/text.c:421 client/text.c:555
 #, c-format
@@ -17051,7 +16960,7 @@ msgstr "買収費用(推定): %d以上"
 msgid "  (%d more)"
 msgstr "  (+%dユニット)"
 
-# 試しに (clefs)
+# clefs
 #. TRANS: on own line immediately following \n, ... <city>
 #: client/text.c:501
 #, c-format
@@ -17070,7 +16979,7 @@ msgstr "%sの近くにいる"
 msgid "in %s"
 msgstr "%sに駐留"
 
-# yasu ntaka
+# ntaka
 #: client/text.c:805 client/text.c:809
 msgid "Progress: no research"
 msgstr "研究: 完了の見込みなし"
@@ -17087,12 +16996,12 @@ msgid "Progress: %d turn/advance loss"
 msgid_plural "Progress: %d turns/advance loss"
 msgstr[0] "研究: %dターン/科学技術喪失"
 
-# yasu ntaka
+# ntaka
 #: client/text.c:826
 msgid "Progress: decreasing!"
 msgstr "研究: 減少中！"
 
-# yasu ntaka
+# ntaka
 #: client/text.c:828
 msgid "Progress: none"
 msgstr "研究: なし"
@@ -17155,12 +17064,11 @@ msgid_plural "%d steps"
 msgstr[0] "計 %d件"
 
 # clefs
-# 文字通り「電球」の数なんだけど、意訳しておきましょうか
 #: client/text.c:939
 #, c-format
 msgid "%d bulb"
 msgid_plural "%d bulbs"
-msgstr[0] "残り %dポイント"
+msgstr[0] "残り%dポイント"
 
 # Daniel
 #: client/text.c:971
@@ -17387,7 +17295,6 @@ msgid "Disband %d unit?"
 msgid_plural "Disband %d units?"
 msgstr[0] "%dユニットを解散しますか？"
 
-# ntaka
 # Belgae
 #: client/text.c:1420
 msgid "Shows your progress in researching the current technology."
@@ -17637,17 +17544,14 @@ msgstr "%s"
 msgid "Wonders: None."
 msgstr "なし"
 
-# Belgae改訳
+# Belgae
 #: client/text.c:1962
 #, fuzzy, c-format
 msgid "Cities: %d total, but no penalty for empire size."
 msgid_plural "Cities: %d total, but no penalty for empire size."
 msgstr[0] "都市: 合計%d，ただし帝国の規模によるペナルティはありません。"
 
-# 超訳 (clefs)
 # Belgae
-# was:%d番目の市民までは最初から基本的に満足していますが，
-# 超訳を直訳に変更
 #. TRANS: %d is number of citizens
 #: client/text.c:1968 client/text.c:2042
 #, c-format
@@ -17662,7 +17566,7 @@ msgid "Cities: %d total:"
 msgid_plural "Cities: %d total:"
 msgstr[0] "計%d都市:"
 
-# Belgae改訳
+# Belgae
 #. TRANS: appended to "Cities: %d total:"; preserve leading
 #. * space. Pluralized in "nearest threshold of %d cities".
 #: client/text.c:2015
@@ -17671,27 +17575,19 @@ msgid " %d over nearest threshold of %d city."
 msgid_plural " %d over nearest threshold of %d cities."
 msgstr[0] " 直近の基準である%2$d都市を%1$d都市超過しています。"
 
-# 超訳 (clefs)
-# Belgae
-# was:%d番目の市民までは最初から基本的に満足していますが，
-# 超訳を直訳に変更
 #. TRANS: Number of content [citizen(s)] ...
 #: client/text.c:2020
 #, c-format
 msgid "%d content before penalty."
 msgid_plural "%d content before penalty."
 msgstr[0] ""
-"多過ぎる都市数が原因のペナルティがない場合，%d人目までの市民は平静です。"
+"多過ぎる都市数等によるペナルティがない場合、各都市の市民は%d人目まで平静です。"
 
-# clefs
-# 都市の総数が増えるとペナルティが課せられます
-# Belgae
-# was:うち%dの市民はペナルティで不幸になります。
 #: client/text.c:2024
 #, c-format
 msgid "%d additional unhappy citizen."
 msgid_plural "%d additional unhappy citizens."
-msgstr[0] "このペナルティによって，%d人の不幸市民が発生します。"
+msgstr[0] "%d人の不幸市民が追加されました。"
 
 #: client/text.c:2029
 #, c-format
@@ -17740,7 +17636,7 @@ msgid "Each military unit makes %d unhappy citizen content."
 msgid_plural "Each military unit makes %d unhappy citizens content."
 msgstr[0] "各戦闘ユニットは不幸市民%d人を平静にします。"
 
-# Belgae改訳
+# Belgae
 #: client/text.c:2105
 msgid "Military units in the field may cause unhappiness. "
 msgstr "都市外の戦闘ユニットは不幸市民を発生させる原因になることがあります。"
@@ -17833,7 +17729,7 @@ msgstr ""
 #: client/tilespec.c:2766
 #, c-format
 msgid "Couldn't load gfx file \"%s\" for sprite '%s'."
-msgstr "スプライト'%2$s'用の画像ファイル\"%1$s\"をロードできません。"
+msgstr "スプライト\"%2$s\"用の画像ファイル\"%1$s\"をロードできません。"
 
 #: client/tilespec.c:2777
 #, c-format
@@ -18090,8 +17986,7 @@ msgstr ""
 msgid "Action enabler for \"%s\" is never used by any unit."
 msgstr ""
 
-# 「重み」くらいの方がいいかな？
-# そうしました（Belgae）
+# Belgae
 #. TRANS: requirement vector in an action enabler (ruledit)
 #: common/actions.c:2074
 #, fuzzy
@@ -18587,8 +18482,7 @@ msgstr "略奪"
 msgid "%sClean%s"
 msgstr "%sの除去(%d)"
 
-# yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #. TRANS: _Fortify (100% chance of success).
 #: common/actions.c:6288 data/civ1/actions.ruleset:287
 #: data/civ2/actions.ruleset:340 data/classic/actions.ruleset:359
@@ -18784,7 +18678,6 @@ msgid "%sGain Veterancy%s"
 msgstr ""
 
 # Belgae
-# スパイが任務完了後に無事に都市に帰還することです。
 #: common/actions.c:6396
 #, fuzzy, c-format
 #| msgid "Escape"
@@ -18840,7 +18733,6 @@ msgid "teleport"
 msgstr "報告"
 
 # Belgae
-# スパイが任務完了後に無事に都市に帰還することです。
 #: common/actions.h:70
 #, fuzzy
 #| msgid "Escape"
@@ -18982,8 +18874,7 @@ msgstr "%sの破壊(%d)"
 msgid "Clean %s(%d)"
 msgstr "%sの除去(%d)"
 
-# 「勝率」でもいいかなあ (clefs)
-# そうしました(Belgae)
+# Belgae
 #. TRANS: "Chance to win: A:95% D:46%" - "%s" are just the percent signs.
 #: common/clientutils.c:339
 #, fuzzy, c-format
@@ -19141,7 +19032,6 @@ msgid "Needs Aqueduct Being Built"
 msgstr "建設中の水道が必要"
 
 # Belgae
-# <%s AI>とCity: %sに代入されます。別の訳語を当てたいところです。普通AIと都市: 平常など。
 #: common/events.c:107 common/fc_types.h:503
 msgid "Normal"
 msgstr "普通"
@@ -19160,17 +19050,13 @@ msgid "Suggest Growth Throttling"
 msgstr "成長抑制提言"
 
 # Belgae
-# City: %sに代入されます
-# 外交での都市譲渡など？
 #: common/events.c:111
 msgid "Transfer"
 msgstr "所属変更"
 
-# Belgae
-# City: %sに代入されます。都市が出来たときに出るメッセージです。
 #: common/events.c:112
 msgid "Was Built"
-msgstr "創設"
+msgstr "建設"
 
 #: common/events.c:113
 msgid "Has Plague"
@@ -19199,13 +19085,11 @@ msgid "Caused Incident"
 msgstr "事変誘発"
 
 # Belgae
-# スパイが任務完了後に無事に都市に帰還することです。
 #: common/events.c:120 data/alien/techs.ruleset:327
 msgid "Escape"
 msgstr "脱出"
 
 # Belgae
-# Diplomat Action: %sに代入されます
 #: common/events.c:122 common/events.c:132
 msgid "Failed"
 msgstr "失敗"
@@ -19271,10 +19155,7 @@ msgstr "開拓者発見"
 msgid "Tech Found in Hut"
 msgstr "科学技術発見"
 
-# clefs
 # Belgae
-# was: バーバリアンから部隊獲得
-# ここでのspareは「見逃す」という意味です。仲間となるユニットが見つかるのは傭兵発見の方です。この設定は小屋が都市のそばにあって，ユニットが入っても何も起きなかったときに出されるメッセージを制御するものです。
 #: common/events.c:149
 msgid "Unit Spared by Barbarians"
 msgstr "ユニットがバーバリアンから危害を受けない"
@@ -19334,7 +19215,6 @@ msgid "Cease-fire"
 msgstr "停戦"
 
 # Belgae
-# Treaty: &sに代入されます
 #: common/events.c:165
 msgid "Peace"
 msgstr "和平"
@@ -19404,7 +19284,6 @@ msgid "New vote"
 msgstr "新規投票"
 
 # Belgae
-# Vote: %sに代入されます
 #. TRANS: "Vote" as a process
 #: common/events.c:185
 msgid "Vote resolved"
