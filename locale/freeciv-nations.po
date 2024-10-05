@@ -50,8 +50,7 @@ msgstr "イマーム %s"
 msgid "Imama %s"
 msgstr "イマーマ %s"
 
-# 直訳すれば「オーストラリア先住民」ですが，日本語でアボリジニといえば
-# オーストラリアのそれなので，あっさりアボリジニとしておきます (clefs)
+# clefs
 #: data/nation/aborigines.ruleset:3
 msgid "Australian Aboriginal"
 msgstr "アボリジニ"
@@ -64,10 +63,7 @@ msgstr "アボリジニ"
 msgid "Australian Aborigines is a collective term for the original inhabitants of the Australian continent. Aborigines from different parts of Australia refer to themselves with different names, including Koori, Yamaji, Nunga, and Murri."
 msgstr "オーストラリア・アボジリニは，オーストラリア大陸のもともとの住民全体の総称です。オーストラリアの各地方出身のアボジリニはそれぞれ個別の名称で自分たちを呼んでいます――コーリ，ヤマジ，ヌンガ，ミュリなどなど。[訳註: \"aborigine\" は単に「先住民」という意味で，オーストラリアのそれだけを指すわけでもありません]"
 
-# clefs
-# 「首席長官」「プリンシパル・チーフ」
 # Belgae
-# 複数の「Chief=族長」の中で最も上の人。
 #: data/nation/aborigines.ruleset:27 data/nation/akwe.ruleset:25 data/nation/anishinaabe.ruleset:28 data/nation/chickasaw.ruleset:30 data/nation/chinook.ruleset:24 data/nation/choctaw.ruleset:32 data/nation/chumash.ruleset:25 data/nation/hasinay.ruleset:27 data/nation/hopi.ruleset:25 data/nation/inuit.ruleset:24 data/nation/maori.ruleset:25 data/nation/mikmaq.ruleset:21 data/nation/muskogee.ruleset:32 data/nation/navajo.ruleset:26 data/nation/nuu-chah-nulth.ruleset:22 data/nation/ohlone.ruleset:27 data/nation/salishan.ruleset:26 data/nation/seminole.ruleset:36 data/nation/shawnee.ruleset:25 data/nation/swazi.ruleset:23
 #, c-format
 msgid "Principal Chief %s"
@@ -197,14 +193,12 @@ msgid "Sultana %s"
 msgstr "スルターナ %s"
 
 # Daniel
-# 入れ替えあり
 #: data/nation/acehnese.ruleset:28 data/nation/alander.ruleset:31 data/nation/alaskan.ruleset:30 data/nation/californian.ruleset:37 data/nation/chiapanec.ruleset:35 data/nation/filipino.ruleset:22 data/nation/florida.ruleset:33 data/nation/greenlander.ruleset:27 data/nation/kuna.ruleset:25 data/nation/miskito.ruleset:35 data/nation/puertorican.ruleset:30 data/nation/quebecois.ruleset:22 data/nation/siberian.ruleset:24 data/nation/vermont.ruleset:26 data/nation/westindian.ruleset:25
 #, c-format
 msgid "Governor %s"
 msgstr "%s総督"
 
 # Daniel
-# 入れ替えあり
 #: data/nation/acehnese.ruleset:28 data/nation/alander.ruleset:31 data/nation/alaskan.ruleset:30 data/nation/californian.ruleset:37 data/nation/chiapanec.ruleset:35 data/nation/filipino.ruleset:22 data/nation/florida.ruleset:33 data/nation/greenlander.ruleset:27 data/nation/kuna.ruleset:25 data/nation/miskito.ruleset:35 data/nation/puertorican.ruleset:30 data/nation/quebecois.ruleset:22 data/nation/siberian.ruleset:24 data/nation/vermont.ruleset:26 data/nation/westindian.ruleset:25
 #, c-format
 msgid "?female:Governor %s"
@@ -268,14 +262,12 @@ msgid "Emira %s"
 msgstr "アミーラ %s"
 
 # ntaka
-# 入れ替えあり
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26 data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30 data/nation/czech.ruleset:32 data/nation/slovakian.ruleset:25 data/nation/southyemeni.ruleset:21 data/nation/soviet.ruleset:28 data/nation/uzbek.ruleset:25 data/nation/yemeni.ruleset:22
 #, c-format
 msgid "General Secretary %s"
 msgstr "%s書記長"
 
 # ntaka
-# 入れ替えあり
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26 data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30 data/nation/czech.ruleset:32 data/nation/slovakian.ruleset:25 data/nation/southyemeni.ruleset:21 data/nation/soviet.ruleset:28 data/nation/uzbek.ruleset:25 data/nation/yemeni.ruleset:22
 #, c-format
 msgid "?female:General Secretary %s"
@@ -432,13 +424,11 @@ msgstr "シェリフ %s"
 msgid "?female:Sheriff %s"
 msgstr "シェリフ %s"
 
-# 入れ替えあり
 #: data/nation/alaskan.ruleset:31 data/nation/boer.ruleset:29 data/nation/confederate.ruleset:36 data/nation/florida.ruleset:32 data/nation/guatemalan.ruleset:33 data/nation/guyanese.ruleset:26 data/nation/liberian.ruleset:31 data/nation/louisianian.ruleset:48 data/nation/miskito.ruleset:34 data/nation/moluccan.ruleset:31 data/nation/surinamese.ruleset:29 data/nation/texan.ruleset:32 data/nation/vermont.ruleset:27
 #, c-format
 msgid "Reverend %s"
 msgstr "%s師"
 
-# 入れ替えあり
 #: data/nation/alaskan.ruleset:31 data/nation/boer.ruleset:29 data/nation/confederate.ruleset:36 data/nation/florida.ruleset:32 data/nation/guatemalan.ruleset:33 data/nation/guyanese.ruleset:26 data/nation/liberian.ruleset:31 data/nation/louisianian.ruleset:48 data/nation/miskito.ruleset:34 data/nation/moluccan.ruleset:31 data/nation/surinamese.ruleset:29 data/nation/texan.ruleset:32 data/nation/vermont.ruleset:27
 #, c-format
 msgid "?female:Reverend %s"
@@ -468,13 +458,11 @@ msgstr "王子 %s"
 msgid "Princess %s"
 msgstr "王女 %s"
 
-# 入れ替えあり
 #: data/nation/albanian.ruleset:28 data/nation/anhaltian.ruleset:30 data/nation/brandenburgian.ruleset:27 data/nation/catalan.ruleset:31 data/nation/eastgerman.ruleset:28 data/nation/greaterpolish.ruleset:23 data/nation/karabakhi.ruleset:26 data/nation/kazakh.ruleset:26 data/nation/mazovian.ruleset:26 data/nation/mecklenburgian.ruleset:30 data/nation/prussian.ruleset:30 data/nation/tajik.ruleset:22 data/nation/thuringian.ruleset:41 data/nation/transnistrian.ruleset:21 data/nation/turkmen.ruleset:27
 #, c-format
 msgid "First Secretary %s"
 msgstr "%s第一書記"
 
-# 入れ替えあり
 #: data/nation/albanian.ruleset:28 data/nation/anhaltian.ruleset:30 data/nation/brandenburgian.ruleset:27 data/nation/catalan.ruleset:31 data/nation/eastgerman.ruleset:28 data/nation/greaterpolish.ruleset:23 data/nation/karabakhi.ruleset:26 data/nation/kazakh.ruleset:26 data/nation/mazovian.ruleset:26 data/nation/mecklenburgian.ruleset:30 data/nation/prussian.ruleset:30 data/nation/tajik.ruleset:22 data/nation/thuringian.ruleset:41 data/nation/transnistrian.ruleset:21 data/nation/turkmen.ruleset:27
 #, c-format
 msgid "?female:First Secretary %s"
@@ -978,7 +966,6 @@ msgstr "アヴァール"
 msgid "The Avars or Eurasian Avars were an ancient nomadic confederation of mixed origin. The dominant language of this group was presumably Proto-Bulgarian within the Turkic Oghuz language subgroup, but the true origin of the Avars is unknown. It is possible they were originally a Rouran or Hephthalite group. After settling in Pannonia they subjugated the local Slavic tribes. Gradually they lost power and political importance and eventually the Avars blended with Slavic peoples."
 msgstr "アヴァールは5世紀から9世紀に中央アジアから東欧にかけて活動した遊牧騎馬民族です。柔然あるいはエフタルを起源とする民族という説もありますが，正確なことは分かっていません。彼らは初めカスピ海北岸に現れ，突厥の圧迫を受け西進し，ドナウ川河口に至りました。周辺のスラブ系諸族を従え勢力を拡大した後，6世紀半ばランゴバルド人と共にゲピード族を挟撃してこれを滅ぼし，カルパチア盆地一帯を支配しました (アヴァール可汗国)。しかし7世紀半ばから徐々に衰退してゆき，8世末にはフランク国王カール大帝による遠征で致命的な打撃を受けました。また東からはブルガール人による攻撃にも晒され，最終的にアヴァールはスラブ人やマジャル人と同化して姿を消してゆきました。"
 
-# clefs
 # Belgae
 #: data/nation/avar.ruleset:34 data/nation/azeri.ruleset:35 data/nation/bashkir.ruleset:24 data/nation/buryat.ruleset:26 data/nation/crimeantatar.ruleset:39 data/nation/gokturk.ruleset:40 data/nation/goldenhorde.ruleset:38 data/nation/hephthalite.ruleset:30 data/nation/kalmyk.ruleset:24 data/nation/kazakh.ruleset:24 data/nation/kyrgyz.ruleset:22 data/nation/mughal.ruleset:20 data/nation/tatar.ruleset:28 data/nation/timurid.ruleset:25 data/nation/turkmen.ruleset:25 data/nation/tuvan.ruleset:31 data/nation/uyghur.ruleset:28 data/nation/uzbek.ruleset:23 data/nation/xiongnu.ruleset:37
 #, c-format
@@ -1262,13 +1249,11 @@ msgstr "ベルギー人"
 msgid "Belgium gained independence from the Dutch Kingdom in 1830. Belgium is mainly characterized by its movement from a unified state to a federal one. This is the result of the Flemish and the Walloon's nationalist (almost) peaceful fights."
 msgstr "ベルギーは1830年にオランダ王国から独立を獲得しました。ベルギーは統一国家から連邦国家への移行によって大きく特徴づけられています。これはフラマン人とワロン人の民族主義者による(概ね)平和的な闘争の結果です。"
 
-# 入れ替えあり
 #: data/nation/belgian.ruleset:24 data/nation/liege.ruleset:29
 #, c-format
 msgid "Prime Minister %s"
 msgstr "%s首相"
 
-# 入れ替えあり
 #: data/nation/belgian.ruleset:24
 #, c-format
 msgid "?female:Prime Minister %s"
@@ -1321,7 +1306,6 @@ msgstr "%s兄弟"
 msgid "Sister %s"
 msgstr "%s姉妹"
 
-# clefs
 # Belgae
 #: data/nation/belgic.ruleset:34 data/nation/chickasaw.ruleset:29 data/nation/choctaw.ruleset:31 data/nation/gepid.ruleset:45 data/nation/hasinay.ruleset:30 data/nation/hopi.ruleset:28 data/nation/inuit.ruleset:23 data/nation/ligurian.ruleset:26 data/nation/maori.ruleset:24 data/nation/mikmaq.ruleset:24 data/nation/muskogee.ruleset:31 data/nation/namibian.ruleset:24 data/nation/sami.ruleset:23 data/nation/seminole.ruleset:35 data/nation/shawnee.ruleset:24 data/nation/swazi.ruleset:22 data/nation/urartian.ruleset:36
 #, c-format
@@ -1333,13 +1317,11 @@ msgstr "代弁者 %s"
 msgid "Spokeswoman %s"
 msgstr "代弁者 %s"
 
-# 入れ替えあり
 #: data/nation/belgic.ruleset:35 data/nation/confederate.ruleset:34 data/nation/epirote.ruleset:32 data/nation/faroese.ruleset:30 data/nation/gepid.ruleset:46 data/nation/italiangreek.ruleset:49 data/nation/liberian.ruleset:30 data/nation/louisianian.ruleset:47 data/nation/marshallese.ruleset:23 data/nation/nauruan.ruleset:32 data/nation/toltec.ruleset:33 data/nation/urartian.ruleset:37
 #, c-format
 msgid "Speaker %s"
 msgstr "%s議長"
 
-# 入れ替えあり
 #: data/nation/belgic.ruleset:35 data/nation/confederate.ruleset:34 data/nation/epirote.ruleset:32 data/nation/faroese.ruleset:30 data/nation/gepid.ruleset:46 data/nation/italiangreek.ruleset:49 data/nation/liberian.ruleset:30 data/nation/louisianian.ruleset:47 data/nation/marshallese.ruleset:23 data/nation/nauruan.ruleset:32 data/nation/toltec.ruleset:33 data/nation/urartian.ruleset:37
 #, c-format
 msgid "?female:Speaker %s"
@@ -1655,7 +1637,6 @@ msgid "?plural:Bretons"
 msgstr "ブルトン人"
 
 # Belgae
-# Wikipediaには併合年は1532年とあります。
 #: data/nation/breton.ruleset:6
 msgid "Known to the Romans as Armorica, Brittany had been Celtic speaking for many centuries before Britons arrived in the peninsula as mercenaries, colonists and refugees in response to the chaos in Gaul and the invasion of Britain by Germanic tribes in the fifth century CE. Over the centuries, use of the Breton language has been pushed towards the west of the peninsula, with people speaking French instead. The Dukedom of Brittany itself was formally annexed to France in 1491."
 msgstr "ローマ人にアルモリカという名で知られていたブルターニュ地方は，何世紀もの間ケルト語を話す人々が暮らしていました。5世紀になると，ローマ帝国の衰退に伴なうガリア地方の混乱と，ゲルマン民族によるブリテン島への侵寇の結果，ブリトン人が傭兵，植民，難民として半島に来住してきました。何世紀もの間，ブルトン語の話者は半島西部へと追いやられていき，代わりにフランス語話者が進出しました。ブルターニュ公国は1491年にフランス王国に正式に併合されました。"
@@ -1889,7 +1870,6 @@ msgstr "カンボジア人"
 msgid "?plural:Cambodians"
 msgstr "カンボジア人"
 
-# clefs
 # Belgae
 #: data/nation/cambodian.ruleset:6
 msgid "Kampuchea (known in English as Cambodia) is the modern successor state of the mighty Khmer Empire, which ruled most of the Indochinese Peninsula between the 11th and 14th centuries."
@@ -1915,7 +1895,6 @@ msgstr "カナダ人"
 msgid "?plural:Canadians"
 msgstr "カナダ人"
 
-# clefs
 # Belgae
 #: data/nation/canadian.ruleset:6
 msgid "Geographically, Canada is the second largest country in world. The magnetic north pole currently lies on Canadian territory."
@@ -2282,7 +2261,6 @@ msgstr ""
 "\n"
 "白クロアチア国家が存在したことを示す主な資料は、ビザンツ皇帝コンスタンティヌス7世ポルフィロゲネトスによる言及です。白クロアチアはリディツェの領主スラヴニク王子と関連付けられることもあり、その影響力はシレジア地方やクラクフの地まで及んでいました。"
 
-# clefs
 # Belgae
 #: data/nation/chrobatian.ruleset:31 data/nation/czechoslovak.ruleset:31 data/nation/czech.ruleset:33 data/nation/macedonian.ruleset:24 data/nation/slavic.ruleset:33 data/nation/slovakian.ruleset:23 data/nation/veletian.ruleset:27
 #, c-format
@@ -2357,7 +2335,7 @@ msgstr ""
 "\n"
 "現在では、本来の祖国に住んでいるのは、全体の10％未満です。"
 
-# clefs 音訳
+# clefs
 #: data/nation/circassian.ruleset:36 data/nation/ghaznavid.ruleset:32 data/nation/lipkatatar.ruleset:28 data/nation/seljuk.ruleset:38 data/nation/tunisian.ruleset:28
 #, c-format
 msgid "%s Bey"
@@ -2830,7 +2808,7 @@ msgstr "クレムリン %s"
 msgid "?female:Kremlin %s"
 msgstr "クレムリン %s"
 
-# フランス語読み。日本で一般的なので。(Belgae)
+# Belgae
 #: data/nation/dryad.ruleset:3
 msgid "Dryad"
 msgstr "ドリアード"
@@ -2986,7 +2964,6 @@ msgid "Eritrea is a country in eastern Africa which borders Sudan, Ethiopia, and
 msgstr "エリトリアはアフリカ東部の国で，スーダン，エチオピア，ジブチと国境を接しています。この地にはかつてダモト王国がありました。イタリアによる占領後の1951年にエチオピアと連邦を組みましたが，1960年代には独立運動が拡大しました。1991年，31年間の内戦が終わり，エリトリアは独立を獲得しました。"
 
 # Belgae
-# 言語名がEsperanto，エスペラントを使う人をEsperantisto
 #: data/nation/esperant.ruleset:3
 msgid "Esperant"
 msgstr "エスペランティスト"
@@ -3349,7 +3326,6 @@ msgstr "ゲール人"
 msgid "The Gaels were Celtic people, they may have originated in Spain but were first reported in Ireland. During the Migration Period the Gaels also moved to Scotland. They are the ancestors of the modern Irish, Scots and Manx. Today, Gaelic speaking areas remain in Ireland, Scotland, the Isle of Man and the Canadian province of Nova Scotia."
 msgstr "ゲール人はケルト系の人々で，故地はスペインだと考えられていますが，記録に初めて現れるのはアイルランドでのことです。民族移動時代，ゲール人はスコットランドにも移住しました。彼らは現在のアイルランド人，スコットランド人，マン島人の祖先です。今日，ゲール語の使用されている地域はアイルランド，スコットランド，マン島，およびカナダのノバスコシア州に残っています。"
 
-# 「首相」と訳しても面白くもクソもないですね
 #. TRANS: Taoiseach = Prime Minister
 #: data/nation/gaelic.ruleset:28 data/nation/irish.ruleset:44
 #, c-format
@@ -3374,7 +3350,6 @@ msgstr "ガリシア人"
 msgid "Galicia is a region in the northwest of Spain, just above Portugal."
 msgstr "ガリシアはスペイン北西部，ポルトガルのすぐ北に当たる地域です。"
 
-# clefs
 # Belgae
 #: data/nation/gallic.ruleset:3
 msgid "Gallic"
@@ -3710,7 +3685,6 @@ msgid "?plural:Gupta"
 msgstr "グプタ人"
 
 # Belgae
-# グプタ紀元は320年のようですが...
 #: data/nation/gupta.ruleset:7
 msgid "The Gupta Empire was one of the great classical empires. It ruled northern India from around 240 to 550 CE."
 msgstr "グプタ朝は古代に栄えた大帝国の1つです。インド北部を320年から550年頃まで支配しました。"
@@ -3746,7 +3720,6 @@ msgstr "ハッカー"
 msgid "?plural:Hackers"
 msgstr "ハッカー"
 
-# 解読できた方はお手紙ください
 #: data/nation/hacker.ruleset:6
 msgid "h4xx0r r0xx0rz!"
 msgstr "h4xx0r r0xx0rz!"
@@ -3829,7 +3802,6 @@ msgid "Empress Dowager %s"
 msgstr "太后 %s"
 
 # Belgae
-# ハンザ同盟人というのも微妙なので
 #: data/nation/hansa.ruleset:3
 msgid "Hanseatic"
 msgstr "ハンザ同盟"
@@ -3866,7 +3838,6 @@ msgstr "ハワイ人"
 msgid "The Kingdom of Hawaii was established in 1810 by King Kamehameha the Great. Abolished in 1893, and subsequently annexed to the United States, the former kingdom became the 50th state of the United States on August 21, 1959."
 msgstr "ハワイ王国は1810年にカメハメハ大王によって建国されました[訳注:建国宣言は1795年。1810年はハワイ諸島を統一した年]。1893年に王制は廃止され，続いてアメリカ合衆国に併合されました。かつての王国がアメリカ合衆国の50番目の州となったのは1959年8月21日のことです。"
 
-# 古代ギリシア人がGreek、現代のギリシャ人がHellenicということらしい。
 # Belgae
 #: data/nation/hellenic.ruleset:3
 msgid "Hellenic"
@@ -3941,7 +3912,6 @@ msgstr "ヒムヤル人"
 msgid "?plural:Himyar"
 msgstr "ヒムヤル人"
 
-# サーサーン朝の国教はゾロアスター教であるようです。
 #: data/nation/himyarite.ruleset:7
 msgid ""
 "The Himyar were originally a mountain tribe in what is now Yemen that conquered the other South Arabian kingdoms, including Sabaea in 115 BCE, which were rich from the incense trade. The Himyar were castle-builders, finding it necessary to erect citadels to protect against Bedouin raids. The Axumite kingdom from Ethiopia ruled Sabaea from 340 to 378 CE, but the area was reconquered by Himyar forces in 525. The fall of the nation was a slow process involving the Christian states of Axum and the Byzantine Empire on one side, the Mandean Sassanid Empire of Persia on the other, and various South Arabian factions split between. The "
@@ -4098,7 +4068,6 @@ msgid "?plural:Inuits"
 msgstr "イヌイット"
 
 # Belgae
-# Wikipediaによれば，カナダ以外の先住民をイヌイットと呼ぶのはあまり適切ではないようですが，原文に即しました。
 #: data/nation/inuit.ruleset:6
 msgid "The Inuits are a group of peoples inhabiting the Arctic areas of North America and Siberia. The Canadian territory of Nunavut has a majority population of Inuits; the name of the territory means \"our land\" in Inuktitut."
 msgstr "イヌイットは北アメリカおよびシベリアの北極圏に暮らす人々の集団です。カナダのヌナブト準州がイヌイット人口最多地域です。ヌナブトとは，イヌクティトゥット語で「我々の土地」を意味します。"
@@ -5080,7 +5049,6 @@ msgid "The Republic of Macedonia is located in the south-central part of the Bal
 msgstr "マケドニア共和国はバルカン半島南部の内陸部にあります。1991年にユーゴスラビアから独立を宣言しました。"
 
 # Belgae
-# 現在のマケドニア共和国民とは別です。
 #: data/nation/macedon.ruleset:3
 msgid "Macedon"
 msgstr "古代マケドニア人"
@@ -5116,7 +5084,6 @@ msgstr "マジャパヒト人"
 msgid "This empire began in 1293 CE when a local prince used invading Yuan dynasty troops to his own advantage by having them defeat his enemies and then expelling them. The Majapahit, centered in eastern Java, was heavily influenced by Buddhism and Hinduism and was a major regional power in the insular Southeast Asian world, a position which allowed them to control much of the trade between China, India and the Middle East. They lasted until 1500 when they were eclipsed by the Sultanate of Malacca and the rise of Islam in the Indonesian world."
 msgstr "この帝国は1293年に立てられました。ある地方豪族が元朝の遠征軍を利用し，自らの敵を打ち破らさせた後に追い出したのです。マジャパヒト王国は東ジャワを本拠とし，仏教およびヒンズー教から大きな影響を受けていました。東南アジアの島嶼部地域において主要な勢力となり。その位置によって中国，インド，中東間の交易ルートを掌中に収めました。マラッカ王国が力を持ち，インドネシア世界でイスラム教が広まるに連れてこの国は衰退し，1500年頃には滅亡しました。"
 
-# clefs
 # Belgae
 #: data/nation/malagasy.ruleset:3
 msgid "Malagasy"
@@ -5860,7 +5827,6 @@ msgstr "ナイジェリア人"
 msgid "?plural:Nigerians"
 msgstr "ナイジェリア人"
 
-# clefs
 # Belgae
 #: data/nation/nigerian.ruleset:6
 msgid "Nigeria won full independence from British rule in 1960. It is the most populous country of Africa."
@@ -6681,7 +6647,7 @@ msgstr "ルーマニア人"
 msgid "Romania as a nation was formed at the beginning of the 20th century, when the states of Transylvania, Wallachia, and Moldavia merged. It is a country inhabited by people speaking a language reminiscent from the time of ancient Rome. Its history is convoluted as it was always at the borders of great empires: Roman, Ottoman, Austro-Hungarian, and Russian."
 msgstr "国としてのルーマニアは20世紀初頭に，トランシルヴァニア，ワラキア，モルドヴァが合併して形成されました。古代ローマ時代の名残のある言葉を話す人々が住んでいる地方です。その歴史は，ここが常に諸大帝国の境界に位置していたために複雑なものとなっています――ローマ，オスマン，オーストリア＝ハンガリー，そしてロシア。"
 
-# ポルトガル語の"Diretor-Presidente"を英訳したものと思われます。経営でのCEOに当たる用語のようです。原理主義用なのでこの訳です。(Belgae)
+# Belgae
 #: data/nation/romanian.ruleset:32
 #, c-format
 msgid "Director-President %s"
@@ -7013,8 +6979,6 @@ msgid "Savoy emerged in the Western Alps after the disintegration of the Burgund
 msgstr "サヴォイアはブルグント王国の崩壊の後にアルプス西部に形成されました。サヴォイア家は当初はサルディーニャおよびピエモンテをも勢力下とし，後にはイタリア全土の王家となりました。サヴォイア家が何世紀にもわたって成長し生き残ってきたのは華々しい征服行動によるものではなく，結婚および秩序正しく非常に巧みな政治的手段によって徐々に領土を獲得していったことによります。サヴォイア地方そのものは1860年にフランスに併合され，サヴォワと呼ばれています。"
 
 # Belgae
-# was:サクソン人
-# 説明内容からこちらにしました。
 #: data/nation/saxon.ruleset:3
 msgid "Saxon"
 msgstr "ザクセン人"
@@ -7590,7 +7554,6 @@ msgid "Suriname is the smallest independent country of South America. Originally
 msgstr "スリナムは南アメリカ最小の独立国です。元々はアラワク・インディアンが暮らしていました。最初に植民地を築いたのはイギリスですが，1667年にオランダとの間でニューアムステルダム(現在のニューヨーク)と交換されました。スリナムは1954年に自治政府が認められ，1975年に完全に独立しました。"
 
 # Belgae
-# Sergeant MajorだったDesi Bouterseがクーデターで政権を獲ったことが元ネタと思われるのでこう訳しました。
 #: data/nation/surinamese.ruleset:28
 #, c-format
 msgid "Sergeant %s"
@@ -7625,7 +7588,6 @@ msgstr "スワジ人"
 msgid "?plural:Swazis"
 msgstr "スワジ人"
 
-# clefs
 # Belgae
 #: data/nation/swazi.ruleset:6
 msgid "The Swazi are a Bantu people of southern Africa. Under the leadership of Mswati II (1820 - 1868), the Swazis expanded their territory and stabilized the southern frontier with the Zulus."
