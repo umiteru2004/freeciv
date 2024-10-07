@@ -101,7 +101,7 @@
 # "fog of war"      : 戦場の霧（定訳）
 # "content"         : 平静
 # "martial law"     : 戒厳令
-# "citizen governor": 総督府（旧CMA）
+# "citizen governor": 都市政府（旧CMA）
 #
 # 句読点は「。」と「、」
 # 感嘆符は「！」
@@ -628,30 +628,27 @@ msgid ""
 "be used."
 msgstr ""
 
-# Belgae
 #: client/agents/cma_core.c:402 server/cityturn.c:422
 #, c-format
 msgid ""
 "The citizen governor can't fulfill the requirements for %s. Passing back "
 "control."
-msgstr "総督府は %sでの統治要件を満たすことができません。直轄地に戻します。"
+msgstr "都市政府は%sの要件を満たすことができません。直轄地に戻します。"
 
-# Belgae
 #: client/agents/cma_core.c:411 client/agents/cma_core.c:431
 #, c-format
 msgid ""
 "The citizen governor has gotten confused dealing with %s.  You may want to "
 "have a look."
-msgstr "総督府は %sの扱いに混乱してしまいました。確認した方がよいでしょう。"
+msgstr "都市政府は%sの処理で混乱しています。確認してください。"
 
 #: client/agents/cma_fec.c:226 client/gui-gtk-3.22/cityrep.c:771
 #: client/gui-gtk-3.22/cityrep.c:797 client/gui-gtk-4.0/cityrep.c:782
 #: client/gui-gtk-4.0/cityrep.c:821 client/gui-gtk-5.0/cityrep.c:803
 #: client/gui-gtk-5.0/cityrep.c:842
-#, fuzzy
 #| msgid "?cma:Governor"
 msgid "?cma:none"
-msgstr "総督府"
+msgstr ""
 
 # Belgae
 #: client/agents/cma_fec.c:242 client/gui-gtk-3.22/cityrep.c:818
@@ -750,7 +747,7 @@ msgstr "研究を最大に"
 #: client/attribute.c:369
 msgid ""
 "There has been a CMA error. Your citizen governor settings may be broken."
-msgstr "CMAエラーが発生しました。総督府設定が壊れた可能性があります。"
+msgstr "都市政府にエラーが発生しました。設定が壊れている可能性があります。"
 
 #: client/attribute.c:373
 msgid "Old attributes detected and removed."
@@ -1593,9 +1590,8 @@ msgstr "疫病発生率"
 
 #: client/cityrepdata.c:829
 msgid "?cma:Governor"
-msgstr "総督府"
+msgstr "都市政府"
 
-# Belgae
 #: client/cityrepdata.c:829 client/gui-gtk-3.22/cityrep.c:1882
 #: client/gui-gtk-3.22/menu.c:417 client/gui-gtk-4.0/cityrep.c:1856
 #: client/gui-gtk-4.0/menu.c:990 client/gui-gtk-5.0/cityrep.c:1877
@@ -1604,7 +1600,7 @@ msgstr "総督府"
 #: client/gui-sdl3/cma_fe.c:917 client/include/helpdlg_g.h:39
 #: data/helpdata.txt:1829
 msgid "Citizen Governor"
-msgstr "総督府"
+msgstr "都市政府"
 
 #. TRANS: "BS" = "build slots"
 #: client/cityrepdata.c:833
@@ -3186,7 +3182,7 @@ msgstr ""
 #: client/gui-gtk-3.22/citydlg.c:1483 client/gui-gtk-4.0/citydlg.c:1355
 #: client/gui-gtk-5.0/citydlg.c:1355
 msgid "_Governor"
-msgstr "総督府(_G)"
+msgstr "都市政府(_G)"
 
 #: client/gui-gtk-3.22/citydlg.c:1506 client/gui-gtk-4.0/citydlg.c:1378
 #: client/gui-gtk-5.0/citydlg.c:1378
@@ -3246,7 +3242,7 @@ msgstr "幸福ページ"
 #: client/gui-gtk-3.22/citydlg.c:1521 client/gui-gtk-4.0/citydlg.c:1394
 #: client/gui-gtk-5.0/citydlg.c:1394
 msgid "Governor page"
-msgstr "総督府ページ"
+msgstr "都市政府ページ"
 
 #: client/gui-gtk-3.22/citydlg.c:1522 client/gui-gtk-4.0/citydlg.c:1395
 #: client/gui-gtk-5.0/citydlg.c:1395
@@ -3667,7 +3663,7 @@ msgstr "作業リストを消去する(_W):"
 #: client/gui-gtk-4.0/cityrep.c:1131 client/gui-gtk-5.0/cityrep.c:915
 #: client/gui-gtk-5.0/cityrep.c:1152
 msgid "Gover_nor"
-msgstr "総督府(_N)"
+msgstr "都市政府(_N)"
 
 #: client/gui-gtk-3.22/cityrep.c:1105 client/gui-gtk-4.0/cityrep.c:1135
 #: client/gui-gtk-4.0/cityrep.c:1608 client/gui-gtk-5.0/cityrep.c:1156
@@ -3820,10 +3816,8 @@ msgid ""
 "including sample presets,\n"
 "see README.governor."
 msgstr ""
-"総督府，およびそのプリセット\n"
-"（サンプルプリセットを含む）に\n"
-"ついての詳細は，\n"
-"README.governorを参照してください。"
+"都市政府、およびそのプリセット（サンプルプリセットを含む）\n"
+"に関する情報は、README.governorを参照してください。"
 
 #: client/gui-gtk-3.22/cma_fe.c:283 client/gui-gtk-4.0/cma_fe.c:294
 #: client/gui-gtk-5.0/cma_fe.c:294
@@ -3880,19 +3874,19 @@ msgstr ""
 #: client/gui-gtk-5.0/cma_fe.c:462 client/gui-gtk-5.0/repodlgs.c:645
 #: client/gui-gtk-5.0/wldlg.c:1310 client/gui-qt/menu.cpp:1639
 msgid "Help"
-msgstr "ヘルプ(H)"
+msgstr "ヘルプ(_H)"
 
 # Belgae
 #: client/gui-gtk-3.22/cma_fe.c:506 client/gui-gtk-4.0/cma_fe.c:523
 #: client/gui-gtk-5.0/cma_fe.c:523
 msgid "Governor Enabl_ed"
-msgstr "総督府を無効化する(_E)"
+msgstr "無効化(_E)"
 
 # Belgae
 #: client/gui-gtk-3.22/cma_fe.c:509 client/gui-gtk-4.0/cma_fe.c:526
 #: client/gui-gtk-5.0/cma_fe.c:526
 msgid "Governor Disabl_ed"
-msgstr "総督府を有効化する(_E)"
+msgstr "有効化(_E)"
 
 #: client/gui-gtk-3.22/cma_fe.c:578 client/gui-gtk-4.0/cma_fe.c:595
 #: client/gui-gtk-5.0/cma_fe.c:595 client/gui-qt/citydlg.cpp:2372
@@ -8303,7 +8297,7 @@ msgstr "アップグレード"
 #. TRANS: %1 is a custom string chosen by player.
 #: client/gui-qt/citydlg.cpp:1246
 msgid "Governor %1"
-msgstr "総督府 : %1"
+msgstr "都市政府 %1"
 
 #: client/gui-qt/citydlg.cpp:1370
 #, fuzzy
@@ -8428,16 +8422,15 @@ msgstr "幸福情報に切り替え"
 msgid "No governor defined"
 msgstr ""
 
-# Belgae
 #. TRANS: %1 is custom string chosen by player
 #: client/gui-qt/citydlg.cpp:2573
 msgid "<h3>Governor Enabled<br>(%1)</h3>"
-msgstr "<h3>総督府稼働中<br>(%1)</h3>"
+msgstr "<h3>都市政府稼働中<br>(%1)</h3>"
 
 # Belgae
 #: client/gui-qt/citydlg.cpp:2582
 msgid "<h3>Governor Disabled</h3>"
-msgstr "<h3>総督府停止中</h3>"
+msgstr "<h3>都市政府停止中</h3>"
 
 #: client/gui-qt/citydlg.cpp:2596
 msgid "Disable"
@@ -8571,7 +8564,7 @@ msgstr "最後から_2番目に加える"
 
 #: client/gui-qt/cityrep.cpp:515
 msgid "Governor"
-msgstr "総督府"
+msgstr "都市政府"
 
 #: client/gui-qt/cityrep.cpp:518 client/gui-sdl2/citydlg.c:1474
 #: client/gui-sdl2/repodlgs.c:1681 client/gui-sdl3/citydlg.c:1470
@@ -10571,7 +10564,7 @@ msgstr " ・幸福"
 #. TRANS: preserve leading space
 #: client/gui-sdl2/citydlg.c:3537 client/gui-sdl3/citydlg.c:3533
 msgid " - under Citizen Governor control."
-msgstr " ・総督府統治下"
+msgstr " ・都市政府の管理下"
 
 #: client/gui-sdl2/citydlg.c:3615 client/gui-sdl3/citydlg.c:3611
 msgid "Present units"
@@ -16070,7 +16063,7 @@ msgstr ""
 
 #: client/options.c:2861 client/options.c:3082 client/options.c:3303
 msgid "Minimum surplus for a governor"
-msgstr "総督府で用いる最低要求値の下限"
+msgstr "都市政府の最低要求値の下限"
 
 #: client/options.c:2862 client/options.c:3083 client/options.c:3304
 msgid ""
@@ -16079,7 +16072,7 @@ msgstr "最低要求値の範囲を指定します (最低値)。"
 
 #: client/options.c:2868 client/options.c:3089 client/options.c:3310
 msgid "Maximum surplus for a governor"
-msgstr "総督府で用いる最低要求値の上限"
+msgstr "都市政府の最低要求値の上限"
 
 #: client/options.c:2869 client/options.c:3090 client/options.c:3311
 msgid ""
@@ -16193,7 +16186,7 @@ msgid ""
 "This font is used to display comment labels, such as in the governor page of "
 "the city dialogs."
 msgstr ""
-"このフォントは，都市ダイアログの総督府ページのような，コメントラベルの表示に"
+"このフォントは，都市ダイアログの都市政府ページのような，コメントラベルの表示に"
 "使用されます。"
 
 #: client/options.c:2936 client/options.c:3157 client/options.c:3378
@@ -19038,10 +19031,9 @@ msgstr "普通"
 msgid "Nuked"
 msgstr "核攻撃"
 
-# clefs
 #: common/events.c:109
 msgid "Released from citizen governor"
-msgstr "総督府から解放"
+msgstr "都市政府から解放"
 
 #: common/events.c:110
 msgid "Suggest Growth Throttling"
@@ -37506,7 +37498,6 @@ msgstr ""
 "\n"
 "  ・世界の不思議の中には，旧式化して効力を失うものもある"
 
-# yasu, clefs
 # Belgae
 #: data/helpdata.txt:274
 msgid ""
@@ -37905,7 +37896,6 @@ msgstr ""
 "す。これについては「幸福」節で説明します）。"
 
 # Belgae
-# ヘルプの見出し。生産ポイントのことです。
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:490
 msgid " Production"
@@ -38267,8 +38257,6 @@ msgstr ""
 "都市は自然界の資源を開拓し，それを領土の拡張，科学技術の進歩，そして戦争へと"
 "導くための唯一の手段です。"
 
-# Belgae
-# 市民○人と呼びたいのですが
 #: data/helpdata.txt:663
 msgid ""
 "A city is created when Settlers are given the \"build city\" command on "
@@ -38278,14 +38266,7 @@ msgid ""
 "and plague kill citizens and reduce population; with the loss of its last "
 "citizen a city disappears (in the classic ruleset, this can leave ruins, "
 "although these have no effect on gameplay)."
-msgstr ""
-"都市を建設するには，適切な地形上で開拓者に「都市を建設する」コマンドを与えま"
-"す。このとき，開拓者はゲームから除かれ，都市の最初の市民として配置されます。"
-"都市が成長するにつれて，市民の数も増えてゆきます。その都市で労働する者もいれ"
-"ば，新たな開拓者となって旅立ってゆく者もいるでしょう。飢饉，戦争，疫病により"
-"市民は死亡し，人口が減少します。最後の市民が失われると，都市は消滅します"
-"（classicルールセットでは，都市が消滅すると廃墟が残ります。これはゲームプレイ"
-"には何ら影響を及ぼしません）。"
+msgstr "開拓者が適切な地形の上でアクション「都市を建設する」を実行すると、都市を建設することができます。開拓者は消滅し、建設した都市の最初の市民となります。やがて市民は増えてゆき、ある市民は都市圏のタイルで労働し、ある市民は新たな開拓者として旅に出ます。飢饉、戦争、疫病は市民を減少させます。最後の市民を失うと、都市は消滅します。(ルールセットによっては、都市が消滅すると廃墟が残りますが、これはゲームプレイには影響しません。)"
 
 #: data/helpdata.txt:672
 msgid ""
@@ -38382,7 +38363,7 @@ msgstr ""
 "イルが選択されます。選択に際しては，食料生産（それによる都市の成長）が重視さ"
 "れます。市民の職務は都市が成長したときにも自動的に割り当てられます。成長した"
 "ばかりの都市は確認をして，新たな市民の職務を調整するようにした方が良いでしょ"
-"う。総督府を使用すれば，食料以外の優先度を設定することもできます。ヘルプの当"
+"う。都市政府を使用すれば，食料以外の優先度を設定することもできます。ヘルプの当"
 "該節を参照してください。"
 
 #: data/helpdata.txt:721
@@ -38499,10 +38480,7 @@ msgstr ""
 msgid " Happiness"
 msgstr " 幸福"
 
-# yasu, clefs
-# contentを「普通」「満足」の2通りに訳し分けているのでここで註釈
 # Belgae
-# 「平静」に統一しました。
 #: data/helpdata.txt:783
 msgid ""
 "Keeping your citizens happy (or at least content) is one of the most "
@@ -38531,7 +38509,6 @@ msgstr ""
 "なります。classicルールセットでは，各都市で5人目以降の市民は平静ではなく不幸"
 "な状態で登場します。"
 
-# yasu, clefs
 # Belgae
 #: data/helpdata.txt:797
 msgid ""
@@ -38583,7 +38560,6 @@ msgstr ""
 "合，祝祭が催されます。この効果は様々で，classicルールセットでは政治体制によっ"
 "て異なります。"
 
-# yasu, clefs
 # Belgae
 #: data/helpdata.txt:822
 msgid ""
@@ -38594,7 +38570,6 @@ msgstr ""
 " ・無政府状態や専制政治では，各種資源(食料・生産・交易)を3ポイント以上産出し"
 "ているタイルに課されているペナルティが消えます。"
 
-# yasu
 # Belgae
 #: data/helpdata.txt:826
 msgid ""
@@ -38836,15 +38811,12 @@ msgstr ""
 "と移住しようと考えます）"
 
 # Belgae
-# 意訳ですが，これで合っているかちょっと微妙です。
 #: data/helpdata.txt:946
 msgid ""
 " - The presence of any wonder in a city will greatly increase its "
 "desirability (further wonders do not contribute except by the lesser effect "
 "of their build cost)."
-msgstr ""
-"・都市内に何らかの不思議が存在する。（この要素では不思議の個数は関係ありませ"
-"ん。複数あっても，効果は下位の要素である建設コストの分だけです。）"
+msgstr "・都市に不思議がある。（いくつあるかは関係ありません。）"
 
 #: data/helpdata.txt:950
 msgid ""
@@ -39295,13 +39267,11 @@ msgstr ""
 "　・防御側が城壁を備えた都市内にいて，攻撃側が陸上ユニット(榴弾砲を除く)かヘ"
 "リコプターの場合，防御力を3倍にします。"
 
-# Belgae
-# 要塞かつ都市はないはずですが。城壁との混同を避けるため？
 #: data/helpdata.txt:1197
 msgid ""
 "   - If the defender is in a fortress (and not a city), its strength is "
 "doubled."
-msgstr "　・防御側が陸上ユニットで，要塞内にいる場合，防御力を2倍にします。"
+msgstr "　・防御側が陸上ユニットで要塞内にいる場合、防御力を3倍にします。"
 
 # Belgae
 #: data/helpdata.txt:1202
@@ -39335,18 +39305,13 @@ msgstr ""
 " ・防御側が海上ユニットで，都市内にいて攻撃を受けた場合，攻撃側の火力は2倍"
 "に，防御側の火力は1になります。"
 
-# clefs
-# (原文の問題)ステルス戦闘機の場合は？
 # Belgae
 #: data/helpdata.txt:1220
 msgid ""
 " - If a fighter is attacking a helicopter the firepower of the helicopter is "
 "set to 1."
-msgstr ""
-" ・戦闘機[訳注:ステルス戦闘機も含む]がヘリコプターを攻撃する場合，ヘリコプ"
-"ターの火力は1になります。"
+msgstr " ・防御側がヘリコプターで、攻撃側が戦闘機（ステルス戦闘機およびその他の戦闘機ユニットを含む）の場合、ヘリコプターの火力は1になります。"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1225
 msgid ""
@@ -39357,7 +39322,6 @@ msgstr ""
 "が陸地タイルにいる陸上ユニットを攻撃するような場合，双方とも火力は1になりま"
 "す。"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1228
 msgid ""
@@ -39376,8 +39340,6 @@ msgstr ""
 "力を失います。そうでなければ，攻撃ユニットが防御ユニットの火力と等しい値の体"
 "力を失います。先に体力が0または負になったユニットが負け，消滅します。"
 
-# yasu, ama
-# 原文: 最近はベテラン・精鋭・エリートの3段階があります。(clefs)
 #: data/helpdata.txt:1243
 #, no-c-format
 msgid ""
@@ -39385,10 +39347,7 @@ msgid ""
 "level. In the classic ruleset, if the winner's civilization has the Sun "
 "Tzu's War Academy (and if it isn't obsolete), the chance is increased by "
 "half in case of land units."
-msgstr ""
-"戦闘に生き残った方のユニットは，練度が上昇する可能性があります。classicルール"
-"セットでは，勝った方の文明に「孫子の兵法学校」がある(そしてそれがまだ旧式化し"
-"ていない)場合，この確率が50%増加します。"
+msgstr "戦闘に勝利したユニットは、練度が上昇する場合があります。ルールセットによっては、練度が上昇する確率を高める不思議があります。"
 
 #: data/helpdata.txt:1250
 msgid ""
@@ -39400,7 +39359,7 @@ msgstr ""
 "撃破された場合，都市の人口が1減少します（この設定はサーバーオプション '攻撃に"
 "よる都市人口の減少' で変更可能です）。"
 
-# これは海上の艦隊にも適用されます。ヘンなの。(clefs)
+# clefs
 #: data/helpdata.txt:1256
 msgid ""
 "If the defender loses, and is not inside a city, fortress, or airbase, all "
@@ -39416,7 +39375,6 @@ msgstr ""
 msgid " Combat example 1"
 msgstr " 戦闘例1"
 
-# yasu, ama, clefs
 # Belgae
 #: data/helpdata.txt:1266
 msgid ""
@@ -39465,7 +39423,7 @@ msgstr ""
 "が202より大きければ(およそ28%の確率)，防御側が体力1を失います。そうでなければ"
 "(およそ72%の確率)，攻撃側は体力1を失います。"
 
-# ama, yasu
+# yasu
 #: data/helpdata.txt:1293
 #, no-c-format
 msgid ""
@@ -39491,7 +39449,6 @@ msgid ""
 "ruleset, civ2civ3."
 msgstr ""
 
-# yasu, ama
 # Belgae
 #: data/helpdata.txt:1308
 msgid ""
@@ -39531,7 +39488,7 @@ msgstr "プログラム内部で使用される攻撃力と防御力それぞれ
 msgid "The firepower of the Battleship is set from 2 to 1."
 msgstr "戦艦の火力は2から1に補正されます。"
 
-# ama, clefs
+# clefs
 #: data/helpdata.txt:1328
 #, no-c-format
 msgid ""
@@ -39543,7 +39500,7 @@ msgstr ""
 "れば(およそ44%の確率)，防御側が体力1を失います。そうでなければ，攻撃側が体力1"
 "を失います。"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:1339
 #, no-c-format
 msgid ""
@@ -39700,7 +39657,7 @@ msgstr ""
 msgid " Civil War"
 msgstr " 内戦"
 
-# ama, clefs，Belgae
+# Belgae
 #: data/helpdata.txt:1434
 msgid ""
 "Civil war is devastating to any empire. In rulesets with civil war, it is "
@@ -39720,7 +39677,7 @@ msgid ""
 "empire enters a state of anarchy."
 msgstr "内戦は1ターンのみで，その後は無政府状態に陥ります。"
 
-# ama, clefs，Belgae
+# Belgae
 #: data/helpdata.txt:1443
 msgid ""
 "The capture of your capital does not always lead to civil war. If you have "
@@ -39742,7 +39699,7 @@ msgstr ""
 "さらに政治体制は内戦が勃発する可能性に直接影響します。専制的なものに比べ，普"
 "通選挙のある政治体制は遥かに低くなります。"
 
-# ama, clefs，Belgae
+# Belgae
 #: data/helpdata.txt:1453
 msgid ""
 "The number of cities an empire needs before it can erupt into civil war is "
@@ -39855,7 +39812,7 @@ msgstr ""
 "大使館]を提供し，また技術や都市の交換も真剣に考慮してくれますが，見返りに他国"
 "との戦争に協力するよう要求してきます。"
 
-# ama, clefs
+# clefs
 #: data/helpdata.txt:1519
 msgid ""
 "Research into technology is a necessity for improving the ability of your "
@@ -39938,7 +39895,7 @@ msgstr ""
 "できれば，ゲームは終わり勝者になれます。(ただしサーバーがこれを無効にしている"
 "場合もあります。)"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:1563
 msgid ""
 "In the classic rules, before you can build spaceship parts, the Apollo "
@@ -39956,7 +39913,7 @@ msgstr ""
 "ない場合は，おそらくサーバーオプション 'victories' で科学勝利が無効になってい"
 "ます。)"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:1571
 msgid ""
 "When you have started building your spaceship, you can see it with the "
@@ -39967,7 +39924,7 @@ msgstr ""
 "す。他プレイヤーの宇宙船を調査するには，民族タブ内の諜報メニューから「宇宙"
 "船」を選択してください。"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:1576
 msgid ""
 "If the success probability is below 100%, some fraction of the people on "
@@ -39978,7 +39935,7 @@ msgstr ""
 "ません。その場合宇宙船から得られるスコアボーナスは減りますが，それでも勝利と"
 "みなされます。"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:1580
 msgid ""
 "If the capital of a civilization is captured, a spaceship that has been "
@@ -40060,7 +40017,6 @@ msgstr ""
 "ではなくあなたの民族の指導者の名前を使います。サーバがメタサーバへ報告してい"
 "るなら，そこでプレイヤー名を知ることができます。"
 
-# ama, clefs
 # Belgae
 #. TRANS: This text mentions the names of some client options. These names
 #. ;  * are separately translated elsewhere; they should match!
@@ -40244,7 +40200,6 @@ msgstr ""
 "  5: 前のユニットにフォーカスを移す\n"
 "スペース: 命令済にする（ユニットに何もしないよう指示する）\n"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1703
 msgid ""
@@ -40270,7 +40225,6 @@ msgstr ""
 "  8: 北へ移動\n"
 "  9: 北東へ移動\n"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1714
 #, fuzzy
@@ -40567,7 +40521,7 @@ msgid ""
 "appropriate. And the governor has another ability: whenever possible, it "
 "keeps your cities content."
 msgstr ""
-"総督府（Citizen Governor，旧称CMA）は都市管理を補助するツールです。各都市の市"
+"都市政府（Citizen Governor，旧称CMA）は都市管理を補助するツールです。各都市の市"
 "民を都市圏の空きタイルへ適切に配置し，都市の産出物の量が最大になるようにしま"
 "す。状況に応じて，労働者を専門家に変更することもあります。また可能な限り市民"
 "を平静に保つという役割も果たします。"
@@ -40585,7 +40539,7 @@ msgid ""
 "needs."
 msgstr ""
 "何を優先的に産出すべきかを指定する方法はいろいろあります。都市ダイアログを開"
-"いて総督府タブをクリックしてください。2種類のスライダーがあります。左側のスラ"
+"いて都市政府タブをクリックしてください。2種類のスライダーがあります。左側のスラ"
 "イダーではそれぞれの産出物について最低要求値を設定できます。例えば「金」を+3"
 "に設定した場合，その都市では建造物の維持コストに加えて，最低でも毎ターン+3の"
 "金を産出するようになります。右側のスライダーは，ある産出物を他と比較してどれ"
@@ -40600,8 +40554,8 @@ msgid ""
 "the ongoing game, it passes back control to you. So you'd better not define "
 "too high a surplus; instead, use factors to achieve your goals."
 msgstr ""
-"実現不可能な最低要求値を設定した場合，総督府を有効にすることはできません。ま"
-"た総督府が有効になっているときに指定した条件を満たせなくなった場合，総督府は"
+"実現不可能な最低要求値を設定した場合，都市政府を有効にすることはできません。ま"
+"た都市政府が有効になっているときに指定した条件を満たせなくなった場合，都市政府は"
 "自動的に解除されます。ですから，最低要求値をあまり高く設定しない方がよいで"
 "しょう。それよりは，重みをうまく使いましょう。"
 
@@ -40620,7 +40574,7 @@ msgid ""
 "Clicking on 'Control city' puts the city under control of the governor, "
 "'Release city' passes control back to you."
 msgstr ""
-"「都市を管理」をクリックすると都市が総督府の管理下になります。「都市を解放」"
+"「都市を管理」をクリックすると都市が都市政府の管理下になります。「都市を解放」"
 "をクリックするとあなたのもとに管理が戻ります。"
 
 # 実際の画面と異なる記述？(Belgae)
@@ -40636,7 +40590,7 @@ msgstr ""
 "使用しやすくするため，スライダーの設定に名前をつけてプリセットとして保存する"
 "ことができます。「プリセット追加」ボタンをクリックし，名前を入力してくださ"
 "い。登録した名前をクリックするだけで，このプリセットをどの都市でも利用できま"
-"す。また，都市報告の総督府欄からも，プリセットが登録してあれば名前を指定して"
+"す。また，都市報告の都市政府欄からも，プリセットが登録してあれば名前を指定して"
 "変更できます。"
 
 #: data/helpdata.txt:1866
@@ -40655,8 +40609,8 @@ msgid ""
 "hints, some background information, and some preset examples in the file "
 "README.governor, included with Freeciv."
 msgstr ""
-"注意: 一部の都市のみを総督府で管理している場合，近隣の都市を手動で管理するの"
-"が面倒になってきます。一つの島(大陸)にある都市は全て総督府か手動かのどちらか"
+"注意: 一部の都市のみを都市政府で管理している場合，近隣の都市を手動で管理するの"
+"が面倒になってきます。一つの島(大陸)にある都市は全て都市政府か手動かのどちらか"
 "に統一するのが一番でしょう。他のヒント，詳細情報，プリセット例については，"
 "freeciv付属のREADME.governorファイルを参照してください。"
 
