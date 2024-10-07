@@ -14833,13 +14833,11 @@ msgid "By changing this option you change the active theme."
 msgstr ""
 "このオプションを変更することで，現在表示に使われているテーマを変更できます。"
 
-# ntaka
 #: client/options.c:2045
 #| msgid "Tileset (Hex)"
 msgid "Tileset (Square)"
-msgstr "タイルセット（長方形）"
+msgstr "タイルセット（四角形）"
 
-# clefs
 #: client/options.c:2046
 #| msgid ""
 #| "Select the tileset used with Overhead maps. This may change currently "
@@ -14851,7 +14849,7 @@ msgid ""
 "this is the same as using the -t command-line parameter. Use modpack "
 "installer utility to install additional tilesets."
 msgstr ""
-"長方形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
+"四角形タイルのマップで使用されるタイルセットを選択します。プレイ中であって"
 "も、タイルセットを変更することができます。この設定を変更することは、コマンドラインオプション "
 "-t を使用することと同じです。追加のタイルセットをインストールするには、modpack "
 "インストーラーを使用してください。"
@@ -19295,7 +19293,6 @@ msgid "Vote canceled"
 msgstr "投票キャンセル"
 
 # Belgae
-# Wonder: %sに代入されます
 #: common/events.c:188
 msgid "Finished"
 msgstr "完成"
@@ -19537,8 +19534,7 @@ msgstr ""
 msgid "CauseZoC"
 msgstr ""
 
-# yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #: common/fc_types.h:168 common/unit.c:656
 msgid "Fortifying"
 msgstr "防御態勢"
@@ -19612,17 +19608,15 @@ msgstr "AD"
 msgid "BC"
 msgstr "BC"
 
-# Belgae
-# デフォルトの称号が見つからなかった時の指導者の称号
 #: common/government.c:430
 #, c-format
 msgid "Mr. %s"
-msgstr " %s氏"
+msgstr "%s氏"
 
 #: common/government.c:432
 #, c-format
 msgid "Ms. %s"
-msgstr " %s氏"
+msgstr "%s氏"
 
 #: common/mapimg.c:302
 msgid "not checked"
@@ -19650,13 +19644,11 @@ msgid "no players, only terrain"
 msgstr "プレイヤーなし，地形のみ"
 
 # clefs
-# was "プレイヤーごとの開始時の金"
 #: common/mapimg.c:589
 msgid "one image per player"
 msgstr "プレイヤーごとに1枚"
 
 # clefs
-# was "プレイヤーごとの開始時の金"
 #: common/mapimg.c:590
 msgid "one image per human player"
 msgstr "1人間プレイヤーごとに1枚"
@@ -20317,7 +20309,7 @@ msgstr ""
 "・民族「%s」がゲームに参加していないか，または参加していても絶滅していること"
 "が必要です。\n"
 
-# ntaka 何て訳せばいいんだよ
+# ntaka
 #. TRANS: These words should be adjectives which can fit in the sentence
 #. "The x are y towards us"
 #. "The Babylonians are respectful towards us"
@@ -20337,8 +20329,7 @@ msgstr "敵対的"
 msgid "?attitude:Uncooperative"
 msgstr "非協力的"
 
-# ntaka 変?
-# clefs 「神経質」「猜疑的」とか考えられますが，「不安」で行きましょう
+# clefs
 #: common/player.c:1368
 msgid "?attitude:Uneasy"
 msgstr "不安"
@@ -20347,9 +20338,7 @@ msgstr "不安"
 msgid "?attitude:Neutral"
 msgstr "中立"
 
-# ntaka Worshipful とどう訳し分けるんだよ?
-# worshipは崇めるようにするのに対し、respectは一目置くって程度なんですけど
-# 訳語は難しいですね (clefs)
+# clefs
 #: common/player.c:1372
 msgid "?attitude:Respectful"
 msgstr "好意的"
@@ -20366,7 +20355,6 @@ msgstr "熱狂的"
 msgid "?attitude:Admiring"
 msgstr "賛美"
 
-# was "尊敬"
 #: common/player.c:1381
 msgid "?attitude:Worshipful"
 msgstr "崇拝"
@@ -22463,7 +22451,7 @@ msgstr "・そのタイルが「%s」フラグ付きの地形では無いこと�
 msgid "city centers"
 msgstr "都市直下タイル"
 
-# ntaka, clefs
+# clefs
 #: common/reqtext.c:3021
 #, fuzzy
 #| msgid "Reload tileset"
@@ -22557,8 +22545,6 @@ msgid "celebration"
 msgstr "祝典"
 
 # Belgae
-# City: %sに代入されます
-# 外交での都市譲渡など？
 #: common/reqtext.c:3132
 #, fuzzy
 #| msgid "Transfer"
@@ -23185,8 +23171,6 @@ msgid "Celebration"
 msgstr "祝祭"
 
 # Belgae
-# City: %sに代入されます
-# 外交での都市譲渡など？
 #. TRANS: CityStatus value - city has changed hands
 #: common/requirements.c:7966
 #, fuzzy
@@ -23417,37 +23401,25 @@ msgstr[0] ""
 msgid "You can only upgrade units in your cities."
 msgstr "ユニットを新型化できるのは自分の都市に限られます。"
 
-# clefs
-# strandを「座礁」にしても矛盾は出ないかな？
-# フリゲートを装甲艦・駆逐艦にするとユニットを積めなくなります
 #: common/unit.c:2137
 #, c-format
 msgid "Upgrading this %s would strand units it transports."
 msgstr ""
-"この%sをアップグレードすると，搭載しているユニットが立ち往生してしまいます。"
+"この%sを新型化すると、積載しているユニットが立ち往生してしまいます。"
 
 # clefs
-# strandを「座礁」にしても矛盾は出ないかな？
-# フリゲートを装甲艦・駆逐艦にするとユニットを積めなくなります
 #: common/unit.c:2142
 #, c-format
 msgid ""
 "Upgrading this %s would result in a %s which can not survive at this place."
-msgstr ""
-"この%sを新型にすると %sになりますが，この場所には存在できず消滅してしまいま"
-"す。"
+msgstr "この%sを新型化すると、この場所には存在できない%sになり、消滅してしまいます。"
 
-# clefs
-# strandを「座礁」にしても矛盾は出ないかな？
-# フリゲートを装甲艦・駆逐艦にするとユニットを積めなくなります
 #: common/unit.c:2149
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Upgrading this %s would result in a %s which its current transport, %s, "
 "could not transport."
-msgstr ""
-"この%sを新型にすると %sになりますが，この場所には存在できず消滅してしまいま"
-"す。"
+msgstr "この%sを新型化すると、これを積載している%sが積載できない%sになり、消滅してしまいます。"
 
 #: common/unit.c:2157
 #, c-format
@@ -23471,13 +23443,13 @@ msgstr "自動開拓"
 msgid "Autoexplore"
 msgstr "自動探索"
 
-# 使用状況が今一歩不明(Belgae)
+# Belgae
 #: common/unittype.c:1674
 #, c-format
 msgid "%s or similar units"
 msgstr "「%s」または同種のユニット"
 
-# 使用状況が今一歩不明(Belgae)
+# Belgae
 #: common/unittype.c:1677
 #, c-format
 msgid "%s and similar units"
@@ -23929,15 +23901,9 @@ msgstr ""
 msgid "THIS IS A DEVELOPMENT VERSION"
 msgstr ""
 
-# o 文明は自由であるべき
-# o `Civilization'は無料であるべき
-# の二つの意味があります。
-# http://arch.freeciv.org/freeciv-data-200007/msg00008.html
-# からのスレッドを読んで下さい。
-# ここでは私の趣味も含め、 motto らしくしてみました。(ama)
 #: common/version.c:179
 msgid "'Cause civilization should be free!"
-msgstr "自由な Civilization を求めて"
+msgstr "文明は自由であるべきだから！"
 
 #: common/networking/connection.c:195 server/sernet.c:428 server/sernet.c:822
 msgid "network exception"
@@ -24204,13 +24170,11 @@ msgid ""
 msgstr ""
 "川に隣接する都市に建設することで，洪水による人的被害を防ぐことができます。"
 
-# ローマのコロセウム限定ではないので（Belgae）
 #: data/civ1/buildings.ruleset:284 data/civ2/buildings.ruleset:341
 #: data/classic/buildings.ruleset:346
 msgid "Colosseum"
-msgstr "コロシアム"
+msgstr "円形闘技場"
 
-# パンと見せ物ってやつですね
 #: data/civ1/buildings.ruleset:302
 msgid ""
 "Entertains the citizens of a city, making 3 unhappy citizens content.  "
@@ -24329,7 +24293,6 @@ msgid "Increases the luxury and tax output in a city by 50%."
 msgstr "都市の税収と贅沢ポイントを+50%増加させます。"
 
 # Belgae
-# was:大量輸送
 #: data/civ1/buildings.ruleset:479 data/civ2/buildings.ruleset:559
 #: data/classic/buildings.ruleset:569 data/sandbox/buildings.ruleset:683
 #: data/civ2civ3/buildings.ruleset:681 data/multiplayer/buildings.ruleset:564
@@ -24346,7 +24309,6 @@ msgstr ""
 "は，公害に全く影響を与えません。"
 
 # Belgae
-# was:製造工場
 #: data/civ1/buildings.ruleset:504 data/civ2/buildings.ruleset:584
 #: data/classic/buildings.ruleset:594 data/sandbox/buildings.ruleset:708
 #: data/civ2civ3/buildings.ruleset:706 data/multiplayer/buildings.ruleset:589
@@ -24652,7 +24614,6 @@ msgstr "図書館と大学があると，都市の科学ポイント生産が100
 msgid "Apollo Program"
 msgstr "アポロ計画"
 
-# yasu
 # Belgae
 #: data/civ1/buildings.ruleset:854
 msgid ""
@@ -24666,27 +24627,19 @@ msgstr ""
 "ことができます。この不思議が完成すると，すべてのプレイヤーが宇宙船の部品の製"
 "作を開始できるようになります(必要な技術が研究完了している場合)。"
 
-# 訳語が「アポロ計画」とかぶって少々紛らわしいのですが，他に訳しようがありません
-# was:アポロ巨像。そういう呼び方もありますが，本当は像はヘリオスであってアポロンではないので改訳したほうがよい？(Belgae)
 #: data/civ1/buildings.ruleset:863 data/civ2/buildings.ruleset:1238
 #: data/classic/buildings.ruleset:1283 data/sandbox/buildings.ruleset:1607
 #: data/civ2civ3/buildings.ruleset:1484 data/multiplayer/buildings.ruleset:1258
 msgid "Colossus"
-msgstr "ロードス島の巨神像"
+msgstr "ロードス島の巨像"
 
-# ama, clefs
-# was "この不思議の建てられた都市のまわりの土地では、交換資源を1多く生産できます。"
-# Belgae
-# squareからtileに統一されました。訳語は土地からタイルに。海や湖も対象ですから。
 #: data/civ1/buildings.ruleset:882 data/civ2/buildings.ruleset:1257
 #: data/classic/buildings.ruleset:1302 data/sandbox/buildings.ruleset:1626
 #: data/civ2civ3/buildings.ruleset:1503 data/multiplayer/buildings.ruleset:1278
 msgid ""
 "Each tile around the city where this wonder is built that is already "
 "generating some trade produces one extra trade resource."
-msgstr ""
-"この不思議の建てられた都市のまわりでは，すでに交易ポイントを1ポイント以上産出"
-"しているタイルから，交易ポイントをさらに1ポイント得ることができます。"
+msgstr "この不思議が建設された都市では、この都市の市民が労働しているタイルのうち、すでに1pt以上の交易を産出しているタイルは、さらに1ptの交易を産出します。"
 
 #: data/civ1/buildings.ruleset:888 data/civ2/buildings.ruleset:1263
 #: data/classic/buildings.ruleset:1308 data/sandbox/buildings.ruleset:1632
@@ -24705,7 +24658,6 @@ msgstr "この不思議が建設された都市で研究ポイントが+50%増�
 msgid "Cure For Cancer"
 msgstr "癌の治療"
 
-# Daniel
 # Belgae
 #: data/civ1/buildings.ruleset:931 data/civ2/buildings.ruleset:1305
 #: data/classic/buildings.ruleset:1350
@@ -24722,7 +24674,7 @@ msgstr ""
 msgid "Darwin's Voyage"
 msgstr "ダーウィンの航海"
 
-# ama, clefs
+# clefs
 #: data/civ1/buildings.ruleset:956 data/civ2/buildings.ruleset:1330
 #: data/classic/buildings.ruleset:1378
 msgid ""
@@ -24782,7 +24734,7 @@ msgstr ""
 msgid "Hoover Dam"
 msgstr "フーバーダム"
 
-# ama, yasu
+# yasu
 #: data/civ1/buildings.ruleset:1059
 msgid ""
 "Works as if you had a Hydro Plant in every city on the same continent where "
@@ -24827,7 +24779,7 @@ msgstr "ファロス灯台"
 
 #: data/civ1/buildings.ruleset:1136 data/multiplayer/buildings.ruleset:1617
 msgid "Gives all your sea units 1 additional movement point."
-msgstr "全ての海上ユニットの移動力を+1増やします。"
+msgstr "この不思議を保有する文明の、すべての海上ユニットの移動力を1増やします。"
 
 #: data/civ1/buildings.ruleset:1141 data/civ2/buildings.ruleset:1588
 #: data/classic/buildings.ruleset:1640 data/sandbox/buildings.ruleset:2014
@@ -24835,11 +24787,9 @@ msgstr "全ての海上ユニットの移動力を+1増やします。"
 msgid "Magellan's Expedition"
 msgstr "マゼランの探検航海"
 
-# Belgae
-# Civ1用。大灯台のものとは違い"your"がありませんが，すべての文明に影響するのでしょうか。
 #: data/civ1/buildings.ruleset:1159
 msgid "Gives all sea units 1 additional movement point."
-msgstr "全ての海上ユニットの移動力を+1増やします。"
+msgstr "この不思議を保有する文明の、すべての海上ユニットの移動力を1増やします。"
 
 #: data/civ1/buildings.ruleset:1164 data/civ2/buildings.ruleset:1611
 #: data/classic/buildings.ruleset:1664 data/sandbox/buildings.ruleset:2041
@@ -24924,7 +24874,7 @@ msgstr "国際連合"
 msgid "Women's Suffrage"
 msgstr "婦人参政権"
 
-# yasu, ama
+# ama
 #: data/civ1/buildings.ruleset:1359
 msgid ""
 "In all cities, the unhappiness effect of every unit is reduced by 1. This "
@@ -25075,7 +25025,7 @@ msgstr "火山の噴火"
 msgid "Goods"
 msgstr "交易品"
 
-# ダサい仕様だなぁ... (clefs)
+# clefs
 #: data/civ1/game.ruleset:727 data/civ2/game.ruleset:658
 #: data/classic/game.ruleset:712 data/sandbox/game.ruleset:914
 #: data/civ2civ3/game.ruleset:798 data/alien/game.ruleset:697
@@ -25097,9 +25047,8 @@ msgstr "チーム3"
 #: data/civ1/game.ruleset:730 data/civ2/game.ruleset:661
 #: data/classic/game.ruleset:715 data/sandbox/game.ruleset:917
 #: data/civ2civ3/game.ruleset:801 data/alien/game.ruleset:700
-#, fuzzy
 msgid "Team 4"
-msgstr "チーム0"
+msgstr "チーム4"
 
 #: data/civ1/governments.ruleset:71 data/civ2/governments.ruleset:69
 #: data/classic/governments.ruleset:69 data/sandbox/governments.ruleset:69
@@ -25160,9 +25109,6 @@ msgid "Despotism"
 msgstr "専制政治"
 
 # clefs
-# was "チーフ"(yasu)
-# チェロキー・イロコイ・マリ・マオリ・スー・南アフリカ・スワジ・ズールー
-# 全部「族長」で大丈夫かしらん
 #: data/civ1/governments.ruleset:104 data/civ2/governments.ruleset:102
 #: data/classic/governments.ruleset:102 data/sandbox/governments.ruleset:161
 #: data/civ2civ3/governments.ruleset:161
@@ -25311,7 +25257,7 @@ msgstr "執政官 %s"
 msgid "?female:Consul %s"
 msgstr "執政官 %s"
 
-# yasu, ama
+# ama
 #: data/civ1/governments.ruleset:183 data/civ2/governments.ruleset:212
 #: data/classic/governments.ruleset:181 data/sandbox/governments.ruleset:375
 #: data/civ2civ3/governments.ruleset:374
@@ -25329,7 +25275,6 @@ msgstr ""
 "します。"
 
 # clefs
-# was "民主制"
 #: data/civ1/governments.ruleset:195 data/civ1/techs.ruleset:260
 #: data/civ2/governments.ruleset:224 data/civ2/techs.ruleset:277
 #: data/classic/governments.ruleset:193 data/classic/techs.ruleset:280
@@ -25421,7 +25366,6 @@ msgstr ""
 "正式な名称はアメリカ合衆国といいます。1776年から1783年にかけての独立戦争で英"
 "国から独立しました。"
 
-# 入れ替えあり
 #: data/civ1/nations.ruleset:131 data/civ1/nations.ruleset:245
 #: data/civ2/nations.ruleset:134 data/civ2/nations.ruleset:250
 #: data/civ2/nations.ruleset:461 data/nation/american.ruleset:49
@@ -25430,7 +25374,6 @@ msgstr ""
 msgid "Speaker %s"
 msgstr "%s議長"
 
-# 入れ替えあり
 #: data/civ1/nations.ruleset:131 data/civ1/nations.ruleset:245
 #: data/civ2/nations.ruleset:134 data/civ2/nations.ruleset:250
 #: data/civ2/nations.ruleset:461 data/nation/american.ruleset:49
@@ -25482,7 +25425,6 @@ msgstr ""
 "バビロンは紀元前18世紀から紀元前7世紀にかけて，アモリ，カッシート，アッシリ"
 "ア，カルデアを含む一連の人々の下にあったメソポタミアの支配的な都市でした。"
 
-# 「王」「聖王」
 #. TRANS: Lugal = Great Man
 #: data/civ1/nations.ruleset:345 data/civ2/nations.ruleset:351
 #: data/nation/babylonian.ruleset:25 data/nation/sumerian.ruleset:29
@@ -25496,8 +25438,6 @@ msgstr "%s ルガル"
 msgid "?female:%s Lugal"
 msgstr "%s ルガル"
 
-# 「エンシ」「知事」「王」「祭司王」
-# cf. http://epp.eps.nagoya-u.ac.jp/~seicoro/Human/Sumer.html
 #: data/civ1/nations.ruleset:346 data/civ2/nations.ruleset:352
 #, c-format
 msgid "%s Ensi"
@@ -25513,9 +25453,7 @@ msgstr "%s エンシ"
 msgid "Chinese"
 msgstr "中国人"
 
-# was "中国民族"
-# 漢民族ってのはあるけど、中国民族ってのはないかなあと。
-# 民族が国を作るのか、国が民族を作るのか。(clefs)
+# clefs
 #: data/civ1/nations.ruleset:398 data/civ2/nations.ruleset:531
 #: data/nation/chinese.ruleset:6
 msgid "?plural:Chinese"
@@ -25538,11 +25476,7 @@ msgstr ""
 "1949年に共産党によって設立された中華人民共和国が本土を占拠している一方，以前"
 "の中華民国の国民党政府は台湾島を統治しています。"
 
-# japanese.rulesetの場合は「天皇」と訳したいところですが
-# これは実現できないようです。
-# こういう時に改めて実感しますが、外国から見れば、
-# 日本の天皇は「皇帝」以外の何物でもないんですね。
-# そんなわけで「皇帝Hirohito」で我慢してくださいませ。 (clefs)
+# clefs
 #: data/civ1/nations.ruleset:416 data/civ2/nations.ruleset:550
 #: data/civ2/nations.ruleset:1429 data/nation/aztec.ruleset:30
 #: data/nation/brazilian.ruleset:30 data/nation/byzantium.ruleset:31
@@ -25644,7 +25578,6 @@ msgstr ""
 "次の世紀にはノルマンディ公ウィリアム王によってあえなく征服されてしまいまし"
 "た。この征服がこの地で成功した最後の侵略となりました。"
 
-# 入れ替えあり
 #: data/civ1/nations.ruleset:642 data/civ1/nations.ruleset:1035
 #: data/civ2/nations.ruleset:778 data/civ2/nations.ruleset:1177
 #: data/civ2/nations.ruleset:1431 data/civ2/nations.ruleset:1943
@@ -25655,7 +25588,6 @@ msgstr ""
 msgid "Prime Minister %s"
 msgstr "%s首相"
 
-# 入れ替えあり
 #: data/civ1/nations.ruleset:642 data/civ1/nations.ruleset:1035
 #: data/civ2/nations.ruleset:778 data/civ2/nations.ruleset:1177
 #: data/civ2/nations.ruleset:1431 data/civ2/nations.ruleset:1943
@@ -25687,8 +25619,7 @@ msgstr ""
 "シャルルマーニュ王のようなフランスの征服者たちはヨーロッパの大部分をフランス"
 "の旗の下に束ねました。"
 
-# ntaka 隊長でいいのだろうか?
-# clefs ガルシア・マルケスばりに「族長」で行ってみましょうか
+# clefs
 #: data/civ1/nations.ruleset:755 data/civ2/nations.ruleset:893
 #: data/nation/french.ruleset:42
 #, c-format
@@ -25750,7 +25681,6 @@ msgstr "%s首相"
 msgid "?female:Chancellor %s"
 msgstr "%s首相"
 
-# 入れ替えあり
 #: data/civ1/nations.ruleset:883 data/civ2/nations.ruleset:1023
 #: data/nation/austrian.ruleset:53 data/nation/german.ruleset:35
 #: data/nation/italian.ruleset:45 data/nation/polish.ruleset:38
@@ -25758,7 +25688,6 @@ msgstr "%s首相"
 msgid "First Secretary %s"
 msgstr "%s第一書記"
 
-# 入れ替えあり
 #: data/civ1/nations.ruleset:883 data/civ2/nations.ruleset:1023
 #: data/nation/austrian.ruleset:53 data/nation/german.ruleset:35
 #: data/nation/italian.ruleset:45 data/nation/polish.ruleset:38
@@ -25799,8 +25728,7 @@ msgstr "デスポテース %s"
 msgid "Indian"
 msgstr "インド人"
 
-# was 「インド民族」、そんなものはない
-# "Bengali" はどうするんだ (clefs)
+# clefs
 #: data/civ1/nations.ruleset:1175 data/civ2/nations.ruleset:1317
 #: data/nation/indian.ruleset:6
 msgid "?plural:Indians"
@@ -25860,9 +25788,7 @@ msgstr "モンゴル人"
 msgid "?plural:Mongols"
 msgstr "モンゴル人"
 
-# clefs
 # Belgae
-# Wikipediaに従い「チンギス・カン」と表記を統一
 #: data/civ1/nations.ruleset:1274 data/civ2/nations.ruleset:1535
 #: data/nation/mongol.ruleset:8
 msgid ""
@@ -25875,10 +25801,7 @@ msgstr ""
 "を征服し，人類史上最大の帝国を築きました。彼らは戦闘における徹底的な無慈悲さ"
 "により悪名を得ることになります。"
 
-# clefs
-# "ハン""カン"の方が通りがいい？
 # Belgae
-# Despotism用なのでカガンやハーンではなく下位の君主号であるカン，ハンの方ですね。
 #: data/civ1/nations.ruleset:1286 data/civ2/nations.ruleset:1548
 #: data/nation/hunnic.ruleset:42 data/nation/mongol.ruleset:33
 #, c-format
@@ -25935,15 +25858,12 @@ msgstr "独裁官 %s"
 msgid "Dictatrix %s"
 msgstr "独裁官 %s"
 
-# clefs
 # Belgae
-# was: 大将軍
 #: data/civ1/nations.ruleset:1354 data/civ2/nations.ruleset:1692
 #, c-format
 msgid "Imperator %s"
 msgstr "インペラトル %s"
 
-# clefs
 # Belgae
 #: data/civ1/nations.ruleset:1354 data/civ2/nations.ruleset:1692
 #, c-format
@@ -25951,7 +25871,6 @@ msgid "Imperatrix %s"
 msgstr "インペラトリクス %s"
 
 # clefs
-# 共和政や民主主義になろうとしている時はこれじゃ変かな
 #: data/civ1/nations.ruleset:1355 data/civ2/nations.ruleset:1693
 #: data/alien/governments.ruleset:78 data/granularity/governments.ruleset:77
 #: data/nation/byzantium.ruleset:27 data/nation/carthaginian.ruleset:22
@@ -25960,7 +25879,7 @@ msgstr "インペラトリクス %s"
 #: data/nation/roman.ruleset:49 data/nation/sumerian.ruleset:28
 #, c-format
 msgid "Usurper %s"
-msgstr "簒奪者 %s"
+msgstr "革命家 %s"
 
 #: data/civ1/nations.ruleset:1355 data/civ2/nations.ruleset:1693
 #: data/alien/governments.ruleset:79 data/granularity/governments.ruleset:78
@@ -25970,7 +25889,7 @@ msgstr "簒奪者 %s"
 #: data/nation/roman.ruleset:49 data/nation/sumerian.ruleset:28
 #, c-format
 msgid "?female:Usurper %s"
-msgstr "簒奪者 %s"
+msgstr "革命家 %s"
 
 #: data/civ1/nations.ruleset:1393 data/civ2/nations.ruleset:1731
 #: data/nation/russian.ruleset:5
@@ -26021,13 +25940,11 @@ msgstr "女公 %s"
 msgid "Tsar %s"
 msgstr "ツァーリ %s"
 
-# 「ツァリツァ」だけど、音訳すればいいというものでもありますまい (clefs)
-# →気が変わったので音訳で行きます
 #: data/civ1/nations.ruleset:1415 data/civ2/nations.ruleset:1754
 #: data/nation/russian.ruleset:50
 #, c-format
 msgid "Tsaritsa %s"
-msgstr "ツァリツァ %s"
+msgstr "ツァリーツァ %s"
 
 #: data/civ1/nations.ruleset:1490 data/civ2/nations.ruleset:2084
 #: data/nation/zulu.ruleset:5
@@ -26070,10 +25987,7 @@ msgstr "大族長 %s"
 msgid "?female:Great Chief %s"
 msgstr "大族長 %s"
 
-# clefs
 # Belgae
-# was: スポークスマン
-# インディアンやオセアニアの民族に使われているので，本来のChief（調停者）のイメージに近い訳語の方がいいと考えました。
 #: data/civ1/nations.ruleset:1505 data/civ2/nations.ruleset:460
 #: data/civ2/nations.ruleset:1846 data/civ2/nations.ruleset:2100
 #: data/nation/celtic.ruleset:41 data/nation/cherokee.ruleset:25
@@ -26092,10 +26006,7 @@ msgstr "代弁者 %s"
 msgid "Spokeswoman %s"
 msgstr "代弁者 %s"
 
-# clefs
-# 「首席長官」「プリンシパル・チーフ」
 # Belgae
-# 複数の「Chief=族長」の中で最も上の人。
 #: data/civ1/nations.ruleset:1506 data/civ2/nations.ruleset:1847
 #: data/civ2/nations.ruleset:2101 data/nation/cherokee.ruleset:26
 #: data/nation/iroquois.ruleset:30 data/nation/polynesian.ruleset:24
@@ -26125,17 +26036,12 @@ msgstr "バーバリアン"
 msgid "?plural:Barbarians"
 msgstr "バーバリアン"
 
-# clefs
-# barbarianという概念はビミョーなのでちょっと註釈
 #: data/civ1/nations.ruleset:1565 data/civ2/nations.ruleset:2160
 #: data/nation/barbarian.ruleset:8 data/nation/singlebarbarian.ruleset:8
 msgid ""
 "Since the dawn of civilization, barbarians have been a threat to cultured "
 "peoples everywhere."
-msgstr ""
-"文明の夜明けからこのかた，野蛮人はどこでも文明化された人間の脅威であり続けて"
-"います。[訳註:\"barbarian\"は古代ギリシア人が非ギリシアの言語の音を卑しめてバ"
-"ルバロイ(「バブバブ」)と呼んだのが語源です]"
+msgstr "文明の夜明けからこのかた、いずれの地域においても、バーバリアンは文化的な人々にとっての脅威であり続けています。"
 
 #: data/civ1/nations.ruleset:1603 data/civ2/nations.ruleset:2198
 #: data/nation/pirate.ruleset:5
@@ -26386,7 +26292,6 @@ msgid "Allows Settlers to build fortresses."
 msgstr "・開拓者が要塞を築くことができるようになります。"
 
 # clefs
-# was "通貨"
 #: data/civ1/techs.ruleset:252 data/civ2/techs.ruleset:269
 #: data/classic/techs.ruleset:272 data/sandbox/techs.ruleset:274
 #: data/civ2civ3/techs.ruleset:273 data/multiplayer/techs.ruleset:272
@@ -26696,8 +26601,7 @@ msgstr "万有引力の法則"
 msgid "Writing"
 msgstr "筆記"
 
-# yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #: data/civ1/terrain.ruleset:26 data/civ2/terrain.ruleset:26
 #: data/classic/terrain.ruleset:28 data/sandbox/terrain.ruleset:30
 #: data/civ2civ3/terrain.ruleset:29 data/alien/terrain.ruleset:29
@@ -26822,7 +26726,7 @@ msgid "Jungles are densely overgrown, making agriculture somewhat problematic."
 msgstr ""
 "ジャングルは木々が密集して生い茂る森林で，農業を行うのはやや難しいです。"
 
-# 「山岳」もいいなあ (clefs)
+# clefs
 #: data/civ1/terrain.ruleset:563 data/civ2/terrain.ruleset:558
 #: data/classic/terrain.ruleset:732 data/sandbox/terrain.ruleset:748
 #: data/civ2civ3/terrain.ruleset:747 data/multiplayer/terrain.ruleset:714
@@ -27064,12 +26968,7 @@ msgid ""
 "time even after all pollution has been cleaned. If a long time passes with "
 "an elevated risk of warming, its effects will be all the more severe when it "
 "does occur."
-msgstr ""
-"地球温暖化の発生確率は累積していきます。すなわち発生した公害が除去されずに長"
-"く放置されるほど，危険性が高まってゆきます。またいったん発生確率が高まると，"
-"たとえすべての公害を除去したとしても，しばらくは発生確率は0以下になりません。"
-"温暖化の発生確率が高い状態のまま長い時間が経つと，いざ発生したときの影響は一"
-"層深刻なものとなります。"
+msgstr "地球温暖化の発生確率は累積していきます。発生確率は、公害が除去されずに放置されるほど高くなり、すべての公害が除去されても、しばらくは0になりません。また、発生確率が高いまま長い時間が経過すると、発生時の影響はより深刻なものとなります。"
 
 #: data/civ1/terrain.ruleset:1095 data/civ2/terrain.ruleset:1167
 #: data/classic/terrain.ruleset:1386 data/sandbox/terrain.ruleset:1447
@@ -27288,8 +27187,7 @@ msgstr "都市に編入する"
 msgid "Nuclear"
 msgstr "核兵器"
 
-# yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #: data/civ1/units.ruleset:29 data/civ2/units.ruleset:36
 #: data/classic/units.ruleset:43 data/sandbox/units.ruleset:51
 #: data/civ2civ3/units.ruleset:45 data/alien/units.ruleset:34
@@ -27333,8 +27231,7 @@ msgstr "巡航ミサイル"
 msgid "CanPillage"
 msgstr "略奪"
 
-# yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #: data/civ1/units.ruleset:44 data/civ2/units.ruleset:53
 #: data/classic/units.ruleset:59 data/sandbox/units.ruleset:72
 #: data/civ2civ3/units.ruleset:62 data/alien/units.ruleset:48
@@ -27473,7 +27370,6 @@ msgstr ""
 "す。"
 
 # Belgae
-# was:密集軍
 #: data/civ1/units.ruleset:499 data/civ2/units.ruleset:557
 #: data/classic/units.ruleset:625 data/sandbox/units.ruleset:750
 #: data/civ2civ3/units.ruleset:695 data/multiplayer/units.ruleset:626
@@ -27487,10 +27383,7 @@ msgstr "ファランクス"
 msgid "The Phalanx is armored infantry, suitable for defending your cities."
 msgstr "ファランクスは重装歩兵です。都市の防御に適しています。"
 
-# clefs
-# was 「軍隊」
 # Belgae
-# was:軍団
 #: data/civ1/units.ruleset:534 data/civ2/units.ruleset:628
 #: data/classic/units.ruleset:696 data/sandbox/units.ruleset:821
 #: data/civ2civ3/units.ruleset:766 data/multiplayer/units.ruleset:697
@@ -27523,7 +27416,6 @@ msgstr ""
 "適なユニットとなります。"
 
 # Belgae
-# was:ライフル銃兵
 #: data/civ1/units.ruleset:608 data/civ2/units.ruleset:861
 #: data/classic/units.ruleset:890 data/sandbox/units.ruleset:931
 #: data/civ2civ3/units.ruleset:876 data/multiplayer/units.ruleset:930
@@ -27538,14 +27430,12 @@ msgid ""
 msgstr "ライフル兵は世界大戦の時代における歩兵で，都市の防衛に最適です。"
 
 # Belgae
-# was:自動化歩兵
 #: data/civ1/units.ruleset:644 data/civ2/units.ruleset:973
 #: data/classic/units.ruleset:1002 data/sandbox/units.ruleset:1174
 #: data/civ2civ3/units.ruleset:1118 data/multiplayer/units.ruleset:1042
 msgid "Mech. Inf."
 msgstr "機械化歩兵"
 
-# ama
 # Belgae
 #: data/civ1/units.ruleset:674
 msgid ""
@@ -27569,7 +27459,6 @@ msgstr ""
 "騎兵隊は騎乗した戦士です。初期の突撃ユニットとして，敵国の深部へと侵入できま"
 "す。"
 
-# 「二輪戦車」
 #: data/civ1/units.ruleset:718 data/civ2/units.ruleset:1047
 #: data/classic/units.ruleset:1076 data/sandbox/units.ruleset:1250
 #: data/civ2civ3/units.ruleset:1194 data/multiplayer/units.ruleset:1116
@@ -27596,7 +27485,6 @@ msgid "Knights are mounted and heavily armored warriors."
 msgstr "騎士は騎乗した重装甲の戦士です。"
 
 # Belgae
-# was:装甲車
 #: data/civ1/units.ruleset:790 data/civ2/units.ruleset:1262
 #: data/classic/units.ruleset:1219 data/sandbox/units.ruleset:1468
 #: data/civ2civ3/units.ruleset:1412 data/multiplayer/units.ruleset:1331
@@ -27612,7 +27500,6 @@ msgstr ""
 "機甲部隊はエンジンを搭載した装甲戦闘車両です。他のいずれの騎乗ユニットをも上"
 "回る攻撃力・防御力・移動力を誇ります。"
 
-# 「投石機」
 #: data/civ1/units.ruleset:827 data/civ2/units.ruleset:1299
 #: data/classic/units.ruleset:1256 data/sandbox/units.ruleset:1507
 #: data/civ2civ3/units.ruleset:1451 data/multiplayer/units.ruleset:1368
@@ -27630,12 +27517,7 @@ msgstr ""
 "カタパルトは戦闘用の巨大な投石器です。攻撃力は高いものの，敵からの攻撃に対し"
 "ては脆弱で，活用するには護衛となるユニットが必要です。"
 
-# "Cannon" と "Artillery"
-# Cannonは文字通りの大筒→「大砲」，
-# Artilleryは集合的な「砲兵隊」なのですが
-# 当面は従来の訳のままにしておきます
 # Belgae
-# was:キャノン砲
 #: data/civ1/units.ruleset:864 data/civ2/units.ruleset:1336
 #: data/classic/units.ruleset:1293 data/sandbox/units.ruleset:1549
 #: data/civ2civ3/units.ruleset:1493 data/multiplayer/units.ruleset:1405
@@ -27703,7 +27585,6 @@ msgstr ""
 "爆撃機は地上目標への攻撃に特化した航空ユニットです。他の航空ユニットを攻撃す"
 "ることはできません。"
 
-# "三段櫂船"?
 #. TRANS: unit type
 #: data/civ1/units.ruleset:1014 data/civ2/units.ruleset:1650
 #: data/classic/units.ruleset:1608 data/sandbox/units.ruleset:1876
@@ -27815,12 +27696,7 @@ msgstr "航空母艦"
 msgid "The Carrier is a mobile airport."
 msgstr "航空母艦は移動する航空基地です。"
 
-# clefs
-# 海上の艦隊も同じタイルにスタックしていると一度で全滅するという謎仕様なので
-# 戦艦を空母に重ねておいても実はあまり良い防御にはならない
 # Belgae
-# 重ねるのではなく，駆逐艦で周囲を護衛してZOCと視界を確保し，敵も船舶で攻めてきたら戦艦で先制攻撃してしまおうという話では？
-# 戦闘機を順次偵察飛行させた方がいいような気もしますが。
 #: data/civ1/units.ruleset:1306 data/civ2/units.ruleset:2060
 #: data/classic/units.ruleset:2018 data/sandbox/units.ruleset:2344
 #: data/civ2civ3/units.ruleset:2236 data/multiplayer/units.ruleset:2129
@@ -28512,8 +28388,6 @@ msgstr ""
 msgid "Solar Plant"
 msgstr "太陽光発電所"
 
-# Belgae
-# 公害が完全になくなるのは製造工場がある場合のみ。
 #: data/civ2/buildings.ruleset:951
 #, no-c-format
 msgid ""
@@ -28521,14 +28395,9 @@ msgid ""
 "increases the shield production of a Factory or Mfg. Plant in the city: a "
 "Factory and a Solar Plant together give a 100% production bonus, and a "
 "Factory, Mfg. Plant and Solar Plant together give a 150% production bonus."
-msgstr ""
-"産業活動によって引き起こされる産業公害を完全になくします。また，その都市の工"
-"場や製造プラントのシールド生産物を増やします。すなわち，工場と原子力発電所の"
-"組み合わせの場合は100%の生産ポイントボーナス，工場と製造プラントと原子力発電"
-"所の組み合わせの場合は150%の生産ポイントボーナスを得ます。"
+msgstr "産業活動による公害を完全になくします。また、建設された都市にある工場および製造プラントの生産力を向上させます。都市に工場と太陽光発電所があると、100%の生産ボーナスが得られ、工場と製造プラントと太陽光発電所があると、150%の生産ボーナスが得られます。"
 
 # clefs
-# was "株式取引所"
 #: data/civ2/buildings.ruleset:1056 data/classic/buildings.ruleset:1099
 #: data/sandbox/buildings.ruleset:1344 data/civ2civ3/buildings.ruleset:1276
 #: data/multiplayer/buildings.ruleset:1076
@@ -28596,19 +28465,13 @@ msgstr ""
 "の不幸市民を平静市民にします。戦闘ユニットが原因の不幸市民には効果がありませ"
 "ん。"
 
-# clefs
-# was "が研究されたと見倣します。)"，これは誤訳でした
 #: data/civ2/buildings.ruleset:1205 data/classic/buildings.ruleset:1250
 msgid ""
 "The entire map becomes permanently visible to the player who owns it -- the "
 "player always has up-to-date knowledge of all terrain and cities (but not "
 "units) despite fog-of-war. It allows all players to start building spaceship "
 "parts (assuming they have researched the necessary technologies)."
-msgstr ""
-"この不思議を保有するプレイヤーは，マップ全体を永久的に見ることができます。つ"
-"まり戦場の霧の影響を受けずに，全ての地形と都市の情報が毎ターン更新されます"
-"（ユニットは除きます）。また必要な科学技術を獲得している全てのプレイヤーが，"
-"宇宙船の建造に着手できるようになります。"
+msgstr "この不思議を保有する文明は、マップ全体を永久的に見ることができます。つまり、プレイヤーは、戦場の霧の影響を受けずに、すべての地形と都市(ユニットは含まない)について、常に最新の情報を得ることができます。また、必要な科学技術の研究が完了しているすべてのプレイヤーは、宇宙船を作ることができるようになります。"
 
 # clefs
 #: data/civ2/buildings.ruleset:1214 data/classic/buildings.ruleset:1259
@@ -28617,18 +28480,12 @@ msgstr ""
 msgid "A.Smith's Trading Co."
 msgstr "アダム・スミスの貿易会社"
 
-# ama, clefs
-# was "全ての都市で、都市建造物の維持費1をなくします。"
-# 2かかるものは2のままなわけです
-# Belgae
-# こちらはyourなし。他文明にも影響する？
 #: data/civ2/buildings.ruleset:1232
 msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all cities."
 msgstr ""
-"すべての都市で，通常なら維持コストが1かかる都市建造物の維持コストを0にしま"
-"す。"
+"この不思議を保有する文明のすべての都市で、維持コストが1の都市建造物の維持コストが0になります。"
 
 #: data/civ2/buildings.ruleset:1337 data/classic/buildings.ruleset:1385
 #: data/sandbox/buildings.ruleset:1713 data/civ2civ3/buildings.ruleset:1590
@@ -28636,17 +28493,13 @@ msgstr ""
 msgid "Eiffel Tower"
 msgstr "エッフェル塔"
 
-# clefs
-# 現状ではほとんど意味のない不思議なのです
 #: data/civ2/buildings.ruleset:1356
 #, no-c-format
 msgid ""
 "Your reputation and goodwill among other nations is recovered four times as "
 "fast."
-msgstr "他国からの評判が通常の4倍の早さで回復します。"
+msgstr "この不思議を保有する文明は、他のAIからの態度が4倍の速さで回復します。"
 
-# Belgae
-# 不幸から満足と，満足から幸福はそれぞれ1使用するのか確認する必要があります。
 #: data/civ2/buildings.ruleset:1432 data/classic/buildings.ruleset:1481
 msgid ""
 "Makes one content citizen happy in every city. Makes two extra content "
@@ -28654,11 +28507,7 @@ msgid ""
 "of 3). In the unlikely event where there are no content citizens to get the "
 "effect of Hanging Gardens, the wonder applies to unhappy citizens (including "
 "those unhappy about military activity), making each content then happy."
-msgstr ""
-"各都市の平静市民1人を幸福にします。これを建てた都市ではさらに平静市民2人を幸"
-"福にします(合計3人)。ありそうもないことですが，空中庭園の影響を受ける平静な市"
-"民がいない場合，この不思議は不幸市民を対象とします（戦闘ユニットが原因の者も"
-"含みます）。これにより，不幸市民を平静にし，さらには幸福にします。"
+msgstr "この不思議を保有する文明のすべての都市で、1人の平静市民を幸福にします。この不思議が建設された都市では、さらに2人の平静市民を幸福にします（合計3人）。また、都市に空中庭園の効果が適用される平静市民がいない場合、この効果は不幸市民（戦闘ユニットが原因のものを含む）に適用され、これを平静にし、さらに幸福にします。"
 
 #: data/civ2/buildings.ruleset:1460 data/classic/buildings.ruleset:1510
 msgid ""
@@ -28676,14 +28525,11 @@ msgstr ""
 "すべての都市で，不幸市民2人を平静にします（戦闘ユニットが原因の者も対象になり"
 "ます）。"
 
-# リチャード1世の第3回「十字軍」のことなんですけど，
-# 「十字軍」ではなんで鉱工業生産が増えるのかピンと来ないのでこのまま
-# Belgae: was:リチャード王の遠征
 #: data/civ2/buildings.ruleset:1514 data/classic/buildings.ruleset:1565
 #: data/sandbox/buildings.ruleset:1934 data/civ2civ3/buildings.ruleset:1779
 #: data/multiplayer/buildings.ruleset:1545
 msgid "King Richard's Crusade"
-msgstr "リチャード1世の十字軍遠征"
+msgstr "リチャード1世の十字軍"
 
 #: data/civ2/buildings.ruleset:1533 data/classic/buildings.ruleset:1584
 #: data/multiplayer/buildings.ruleset:1565
@@ -28703,7 +28549,6 @@ msgstr "ダ・ヴィンチの工房"
 msgid "Upgrades one obsolete unit per game turn."
 msgstr "1ターンにつき1ユニット，旧式化したユニットが新型になります。"
 
-# Daniel
 # Belgae
 #: data/civ2/buildings.ruleset:1582
 msgid ""
@@ -28794,7 +28639,7 @@ msgstr ""
 "原因の不幸市民を民主主義で2人，共和制で1人平静にします（言い換えれば，1戦闘ユ"
 "ニット分の不幸市民を平静にします）。他の政治体制下では効果がありません。"
 
-# clefs (was "資本化")
+# clefs
 #: data/civ2/buildings.ruleset:1895
 msgid "Capitalization"
 msgstr "現金化"
@@ -28865,9 +28710,7 @@ msgstr ""
 msgid "Fundamentalism"
 msgstr "原理主義"
 
-# clefs
 # Belgae
-# was 指導者
 #: data/civ2/governments.ruleset:178 data/sandbox/governments.ruleset:284
 #: data/civ2civ3/governments.ruleset:283
 #: data/multiplayer/governments.ruleset:227
@@ -28925,14 +28768,12 @@ msgstr ""
 "義では交易は最大になりますが，不幸も引き起こし易くなります。汚職や浪費はなく"
 "なりますが，市民は戦争を非常に気にするようになります。"
 
-# 入れ替えあり
 #: data/civ2/nations.ruleset:135 data/nation/american.ruleset:50
 #: data/nation/dutch.ruleset:40
 #, c-format
 msgid "Reverend %s"
 msgstr "%s師"
 
-# 入れ替えあり
 #: data/civ2/nations.ruleset:135 data/nation/american.ruleset:50
 #: data/nation/dutch.ruleset:40
 #, c-format
@@ -28947,10 +28788,7 @@ msgstr "カルタゴ人"
 msgid "?plural:Carthaginians"
 msgstr "カルタゴ人"
 
-# clefs
-# "navel" 「お臍」のままでも良かったかしら
 # Belgae
-# navalに修正されました。
 #: data/civ2/nations.ruleset:406
 msgid ""
 "The Carthaginians, descendants of Phoenician traders, ran a naval empire in "
@@ -28999,18 +28837,17 @@ msgstr "偉大な戦士 %s"
 msgid "?female:Great Warrior %s"
 msgstr "偉大な戦士 %s"
 
-# カンボジアの共産主義時の称号。クメール語があると思われるのですが不明なので。
 #: data/civ2/nations.ruleset:459 data/nation/celtic.ruleset:40
 #: data/nation/khmer.ruleset:28
 #, c-format
 msgid "Brother %s"
-msgstr "ブラザー %s"
+msgstr "兄弟 %s"
 
 #: data/civ2/nations.ruleset:459 data/nation/celtic.ruleset:40
 #: data/nation/khmer.ruleset:28
 #, c-format
 msgid "Sister %s"
-msgstr "シスター %s"
+msgstr "姉妹 %s"
 
 #: data/civ2/nations.ruleset:462 data/nation/celtic.ruleset:43
 #, c-format
@@ -29028,11 +28865,11 @@ msgstr "高位ドルイド %s"
 msgid "Lord Protector %s"
 msgstr "護国卿 %s"
 
-# clefs - 不自然？
+# clefs
 #: data/civ2/nations.ruleset:779 data/nation/english.ruleset:30
 #, c-format
 msgid "Lady Protector %s"
-msgstr "護国女卿 %s"
+msgstr "護国卿 %s"
 
 # clefs
 #: data/civ2/nations.ruleset:895 data/civ2/nations.ruleset:1024
@@ -29043,7 +28880,6 @@ msgid "Archbishop %s"
 msgstr "大司教 %s"
 
 # clefs
-# 無理に男女で訳し分けることもないですよね
 #: data/civ2/nations.ruleset:895 data/civ2/nations.ruleset:1024
 #: data/nation/german.ruleset:34
 #, c-format
@@ -29069,8 +28905,6 @@ msgid "?plural:Japanese"
 msgstr "日本人"
 
 # clefs
-# 日本の分くらいは訳しておきますか。
-# しかしあっさりしてるなあ。近現代はデリケートだから触れなかったのかな。
 #: data/civ2/nations.ruleset:1418
 msgid ""
 "According to traditional Japanese mythology, Japan was founded in the 7th "
@@ -29091,7 +28925,6 @@ msgstr "女帝 %s"
 msgid "Shogun %s"
 msgstr "将軍 %s"
 
-# 女性将軍かぁ…
 #: data/civ2/nations.ruleset:1430 data/nation/japanese.ruleset:24
 #, c-format
 msgid "?female:Shogun %s"
@@ -29106,7 +28939,6 @@ msgid "?plural:Persians"
 msgstr "ペルシア人"
 
 # clefs
-# 英語でAchaemenidと言われてもピンと来ませんね
 #: data/civ2/nations.ruleset:1603
 msgid ""
 "The first Persian (Achaemenid) Empire lasted from 550 BC to 330 BC; the "
@@ -29120,9 +28952,7 @@ msgstr ""
 msgid "%s Shah"
 msgstr "%s シャー"
 
-# これも適当。ペルシアに女シャーっていましたっけ？ (clefs)
-# とりあえずカタカナ化で
-# 単なる王妃の意味のようです(Belgae)
+# clefs
 #: data/civ2/nations.ruleset:1614 data/nation/persian.ruleset:25
 #, c-format
 msgid "%s Shahbanu"
@@ -29161,7 +28991,6 @@ msgstr "スー族"
 msgid "?plural:Sioux"
 msgstr "スー族"
 
-# clefs
 # Belgae
 #: data/civ2/nations.ruleset:1833 data/nation/sioux.ruleset:8
 msgid ""
@@ -29193,7 +29022,6 @@ msgstr ""
 "ちょうどコロンブスの航海と同じ年に完結したのでした。"
 
 # clefs
-# "大統領""独裁者"
 #: data/civ2/nations.ruleset:1941 data/nation/spanish.ruleset:42
 #, c-format
 msgid "Caudillo %s"
@@ -29236,7 +29064,6 @@ msgstr ""
 "チリア王国の支配者となりました。"
 
 # Belgae
-# 英語のEarlと同根
 #: data/civ2/nations.ruleset:2016
 #, c-format
 msgid "%s Jarl"
@@ -29302,10 +29129,7 @@ msgstr "ゲリラ戦"
 msgid "Laser"
 msgstr "レーザー"
 
-# これはtechnologyの「指揮」（竜騎兵を可能にする）と
-# ユニットとしての「指導者」（取られると負け）が同じ語になっているので
-# どう訳してもうまくいかない。原文の方を改善してほしいところ。(clefs)
-# LeaderとLeadershipで区別出来ているはずなので分けます。(Belgae)
+# Belgae
 #: data/civ2/techs.ruleset:447 data/classic/techs.ruleset:443
 #: data/sandbox/techs.ruleset:450 data/civ2civ3/techs.ruleset:445
 #: data/multiplayer/techs.ruleset:452
@@ -29387,8 +29211,7 @@ msgstr "開拓者・エンジニアが灌漑されたタイルに農地を建設
 msgid "Sanitation"
 msgstr "公衆衛生"
 
-# Seafaring「航海」とNavigation「航海術」は紛らわしいので
-# 何かいい言い換えが欲しいところ (clefs)
+# clefs
 #: data/civ2/techs.ruleset:708 data/classic/techs.ruleset:710
 #: data/sandbox/techs.ruleset:754 data/civ2civ3/techs.ruleset:729
 #: data/multiplayer/techs.ruleset:716 data/granularity/techs.ruleset:547
@@ -29573,7 +29396,7 @@ msgid ""
 "you learn the Railroad technology."
 msgstr "都市直下タイルの道路は自動的に鉄道へと更新されます。"
 
-# Belgae改訳
+# Belgae
 #: data/civ2/terrain.ruleset:1389 data/classic/terrain.ruleset:1692
 #: data/multiplayer/terrain.ruleset:1664
 #, no-c-format
@@ -29667,7 +29490,6 @@ msgid "AirAttacker"
 msgstr ""
 
 # clefs
-# イージス艦しかありませんが，一応genericに訳しておきます
 #: data/civ2/units.ruleset:26 data/classic/units.ruleset:32
 #: data/sandbox/units.ruleset:32 data/civ2civ3/units.ruleset:32
 #: data/multiplayer/units.ruleset:32
@@ -29682,7 +29504,7 @@ msgstr ""
 #: data/civ2/units.ruleset:27 data/classic/units.ruleset:33
 #: data/multiplayer/units.ruleset:33
 msgid "Attack value halved when attacking Pikemen."
-msgstr "長槍兵を攻撃するとき，相手の防御力が2倍になります。"
+msgstr "槍兵を攻撃するとき，相手の防御力が2倍になります。"
 
 #. TRANS: unit type
 #: data/civ2/units.ruleset:28 data/civ2/units.ruleset:1530
@@ -29698,7 +29520,6 @@ msgid "Defends very badly against Fighters."
 msgstr "戦闘機からの攻撃に対して特に脆弱です。"
 
 # Belgae
-# was:落下傘兵
 #: data/civ2/units.ruleset:34 data/civ2/units.ruleset:932
 #: data/classic/units.ruleset:41 data/classic/units.ruleset:961
 #: data/sandbox/units.ruleset:49 data/sandbox/units.ruleset:1131
@@ -29791,7 +29612,6 @@ msgid "Warriors"
 msgstr "戦士"
 
 # Belgae
-# was:射手
 #: data/civ2/units.ruleset:592 data/classic/units.ruleset:660
 #: data/sandbox/units.ruleset:785 data/civ2civ3/units.ruleset:730
 #: data/multiplayer/units.ruleset:661 data/granularity/units.ruleset:603
@@ -29805,13 +29625,11 @@ msgid ""
 "as decent defense."
 msgstr "弓兵は弓矢で戦います。攻撃力に優れ，防御力もあります。"
 
-# Belgae
-# was:槍隊
 #: data/civ2/units.ruleset:664 data/classic/units.ruleset:732
 #: data/sandbox/units.ruleset:857 data/civ2civ3/units.ruleset:802
 #: data/multiplayer/units.ruleset:733
 msgid "Pikemen"
-msgstr "長槍兵"
+msgstr "槍兵"
 
 #: data/civ2/units.ruleset:698 data/classic/units.ruleset:766
 #: data/sandbox/units.ruleset:887 data/civ2civ3/units.ruleset:832
@@ -29820,7 +29638,7 @@ msgid ""
 "Equipped with long pikes, Pikemen replaces Phalanx as the preferred city "
 "defender."
 msgstr ""
-"パイクを装備した長槍兵は，ファランクスに代わって都市防衛に最適なユニットとな"
+"パイクを装備した槍兵は，ファランクスに代わって都市防衛に最適なユニットとな"
 "ります。"
 
 #: data/civ2/units.ruleset:735 data/classic/units.ruleset:803
@@ -29830,10 +29648,9 @@ msgid ""
 "Musketeers are infantry equipped with early firearms and replace Pikemen as "
 "the preferred city defender."
 msgstr ""
-"マスケット兵は初期の火器を装備した歩兵で，長槍兵に代わって都市防衛に最適なユ"
+"マスケット兵は初期の火器を装備した歩兵で，槍兵に代わって都市防衛に最適なユ"
 "ニットとなります。"
 
-# "狂信兵"?
 #: data/civ2/units.ruleset:742 data/sandbox/units.ruleset:1051
 #: data/civ2civ3/units.ruleset:996 data/multiplayer/units.ruleset:811
 msgid "Fanatics"
@@ -29864,7 +29681,6 @@ msgid ""
 "their advantage."
 msgstr "パルチザンは地形を利用することに長けたゲリラ戦士です。"
 
-# clefs
 # Belgae
 #: data/civ2/units.ruleset:814 data/classic/units.ruleset:843
 #: data/multiplayer/units.ruleset:883
@@ -29918,7 +29734,6 @@ msgstr ""
 "のタイルに降下するときは注意してください。地上で待ち構える敵ユニットに対し，"
 "降下中の空挺部隊はあまりにも無防備です！"
 
-# ama
 # Belgae
 #: data/civ2/units.ruleset:1003 data/classic/units.ruleset:1032
 #: data/multiplayer/units.ruleset:1072
@@ -29930,7 +29745,6 @@ msgstr ""
 "きるようになるのは科学技術ツリーの最終段階近くになってからです。"
 
 # Belgae
-# was:騎手
 #: data/civ2/units.ruleset:1010 data/classic/units.ruleset:1039
 #: data/sandbox/units.ruleset:1213 data/civ2civ3/units.ruleset:1157
 #: data/multiplayer/units.ruleset:1079 data/granularity/units.ruleset:638
@@ -30027,9 +29841,6 @@ msgstr ""
 msgid "Fighters scramble from cities, repulsing enemy airstrikes."
 msgstr ""
 
-# clefs
-# 実際には，国際連合で消耗しなくなるというよりは，
-# 消耗-2，国連+2で差し引きゼロになるという方が正確
 # Belgae
 #: data/civ2/units.ruleset:1560 data/classic/units.ruleset:1516
 #, fuzzy
@@ -30076,7 +29887,6 @@ msgid "An improved Bomber, with improved attack and a higher movement radius."
 msgstr "爆撃機が進化したものです。攻撃力が向上し，飛行半径が広くなりました。"
 
 # Belgae
-# was:キャラベル
 #: data/civ2/units.ruleset:1688 data/classic/units.ruleset:1646
 #: data/sandbox/units.ruleset:1917 data/civ2civ3/units.ruleset:1858
 #: data/multiplayer/units.ruleset:1757
@@ -30328,12 +30138,9 @@ msgstr "友好的な都市を見つけました。"
 msgid "Friendly nomads are impressed by you, and join you."
 msgstr "友好的な放浪者があなたに感銘し，ユニットとして加わりました。"
 
-# Belgae
-# was: 廃墟の村があります。
-# メッセージ設定のUnit Spared by Barbarians（ユニットがバーバリアンから危害を受けない）で制御されるメッセージですから，ユニットが村に入った時点ではまだ村は廃墟ではなくバーバリアンがいたけれども，「都市に近すぎるので退去してもらえないか」という交渉（圧力）により明け渡された(abandoned)という状況を言っているものと思われます。
 #: data/default/default.lua:115 server/unittools.c:3316
 msgid "An abandoned village is here."
-msgstr "バーバリアンは村から平和裏に退去しました。"
+msgstr "廃村がありました。"
 
 #: data/default/default.lua:123
 msgid "You have unleashed a horde of barbarians!"
@@ -30502,7 +30309,6 @@ msgstr "侵入できないタイルから小屋に入る(%sH)"
 msgid "Frighten %sHut from non native%s"
 msgstr "水源の汚染(%sP) %s"
 
-# パンと見せ物ってやつですね
 #: data/classic/buildings.ruleset:364 data/sandbox/buildings.ruleset:463
 #: data/civ2civ3/buildings.ruleset:460 data/multiplayer/buildings.ruleset:138
 msgid ""
@@ -30672,7 +30478,6 @@ msgstr ""
 "の不幸市民を平静市民にします。戦闘ユニットが原因の不幸市民には効果がありませ"
 "ん。"
 
-# Daniel
 # Belgae
 #: data/classic/buildings.ruleset:1226 data/multiplayer/buildings.ruleset:1201
 #, no-c-format
@@ -30681,25 +30486,20 @@ msgid ""
 "city by 250%."
 msgstr "都市に図書館と大学の両方があると，研究ポイントが250%増加します。"
 
-# ama, clefs, Daniel
-# was "全ての都市で、都市建造物の維持費1をなくします。"
 # Belgae
 #: data/classic/buildings.ruleset:1277
 msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all your cities."
 msgstr ""
-"あなたが各都市に建設した都市建造物のうち，通常の維持コストが1であるものは全"
-"て，維持コストが0になります。"
+"この不思議を保有する文明のすべての都市で、維持コストが1の都市建造物の維持コストが0になります。"
 
-# clefs
-# 現状ではほとんど意味のない不思議なのです
-# Belgae改訳
+# Belgae
 #: data/classic/buildings.ruleset:1404
 #, no-c-format
 msgid ""
 "Your reputation and goodwill among other nations is recovered twice as fast."
-msgstr "他国からの評判が通常の2倍の早さで回復します。"
+msgstr "この不思議を保有する文明は、他のAIからの態度が4倍の速さで回復します。"
 
 #: data/classic/buildings.ruleset:1535
 #, no-c-format
@@ -30708,15 +30508,13 @@ msgid ""
 "University."
 msgstr "大学のある全ての都市で研究ポイントが+100%増加します。"
 
-# Daniel
 # Belgae
 #: data/classic/buildings.ruleset:1634
 msgid ""
 "Gives all your sea units 1 additional movement point. Makes all your new "
 "military sea units veterans (for all your cities)."
 msgstr ""
-"全ての海上ユニットの移動力を+1pt増やします。また全ての都市で新たに生産された"
-"海上ユニットをベテランにします。"
+"この不思議を保有する文明で、すべての海上ユニットの移動力を1増やし、すべての新たに生産される海上ユニットをベテランにします。"
 
 #: data/classic/buildings.ruleset:1659
 msgid "Gives all your sea units 2 additional movement points."
@@ -30746,7 +30544,6 @@ msgstr ""
 msgid "Boosts science production in each city with a Research Lab by 100%."
 msgstr "研究所が建設された都市では，研究ポイントが+100%増加します。"
 
-# 50%なら75%になるってことなのかな (clefs)
 # Belgae
 #: data/classic/buildings.ruleset:1884
 msgid ""
@@ -30759,13 +30556,11 @@ msgstr ""
 "に兵舎があれば効果は加算され，練度が2段階高くなります。また陸上ユニットが戦闘"
 "で勝利したとき，通常の1.5倍の確率で練度が上昇します。"
 
-# clefs
-# was "貨幣"
 #: data/classic/buildings.ruleset:1946 data/sandbox/buildings.ruleset:2478
 #: data/civ2civ3/buildings.ruleset:2237 data/alien/buildings.ruleset:590
 #: data/multiplayer/buildings.ruleset:1939
 msgid "Coinage"
-msgstr "鋳貨"
+msgstr "貨幣"
 
 #: data/classic/buildings.ruleset:1970 data/sandbox/buildings.ruleset:2502
 #: data/civ2civ3/buildings.ruleset:2261 data/alien/buildings.ruleset:606
@@ -30780,7 +30575,7 @@ msgid ""
 "Coinage means its shield production is converted to tax output (money, "
 "coins!)."
 msgstr ""
-"これは普通の建造物ではありません。都市の生産を鋳貨にセットすると，生産物を税"
+"これは普通の建造物ではありません。都市の生産を貨幣にセットすると，生産物を税"
 "金として得ます。"
 
 #: data/classic/cities.ruleset:72 data/multiplayer/cities.ruleset:71
@@ -31167,10 +30962,6 @@ msgstr ""
 msgid "Unbribable"
 msgstr "有効にする"
 
-# clefs
-# 実際に表示されるのは上位3部隊
-# Belgae
-# was:攻撃に適した部隊。unitsと複数形になっているように，最上級はトップ1限定ではありません。
 #: data/classic/units.ruleset:45 data/multiplayer/units.ruleset:45
 #, fuzzy
 #| msgid "Best attacking units"
@@ -31182,8 +30973,7 @@ msgstr "攻撃力上位ユニット"
 msgid "AttFromNonNative"
 msgstr ""
 
-# ntaka hardened ってどう訳せば良い? elite を精鋭と訳すような気もするし。
-# clefs 「熟練兵」くらいですかねえ
+# ntaka
 #: data/classic/units.ruleset:66 data/sandbox/units.ruleset:82
 #: data/sandbox/units.ruleset:2382 data/civ2civ3/units.ruleset:72
 #: data/civ2civ3/units.ruleset:2274 data/multiplayer/units.ruleset:66
@@ -31241,7 +31031,7 @@ msgstr ""
 "労働者は開拓者とは違い，飛行場とブイを建設することができます。ブイを建設する"
 "には，労働者を船に乗せた上で命令します。"
 
-# ユニットの`Workers'を「労働者」と訳したのはうまくなかったかも (clefs)
+# clefs
 #: data/classic/units.ruleset:574 data/multiplayer/units.ruleset:575
 msgid ""
 "Engineers are similar to Workers, but they work twice as fast and move twice "
@@ -31458,12 +31248,7 @@ msgid "Won't unleash barbarians from huts."
 msgstr ""
 "先住民の集落に立ち入っても，バーバリアンを解放してしまうことはありません。"
 
-# ntaka, clefs
-# もっと良い訳があるなら指摘してね。待ってます。
-# →「空中警戒管制機」だけど，AWACSはAWACSで良いかな (clefs)
-# 「早期警戒管制機」の方が通りは良いらしい
-# →AWACSを知らなくても「早期警戒管制機」なら読んでわかると思ったので
-# やっぱり「早期警戒管制機」にします。航空機なのは絵を見ればわかりますし。
+# clefs
 #: data/classic/units.ruleset:2562 data/sandbox/units.ruleset:3003
 #: data/civ2civ3/units.ruleset:2822 data/multiplayer/units.ruleset:2661
 msgid "AWACS"
@@ -32071,10 +31856,7 @@ msgstr ""
 msgid "Space Elevator Tether"
 msgstr ""
 
-# ama, clefs
-# was "この不思議の建てられた都市のまわりの土地では、交換資源を1多く生産できます。"
 # Belgae
-# squareからtileに統一されました。訳語は土地からタイルに。海や湖も対象ですから。
 #: data/sandbox/buildings.ruleset:1254 data/sandbox/buildings.ruleset:2304
 #, fuzzy
 #| msgid ""
@@ -32123,10 +31905,7 @@ msgstr ""
 "と連携して+100%増加させます。市場・銀行・証券取引所の効果を合計すると+150%に"
 "なります。これに高速幹線道路を追加すると，+200%になります。"
 
-# ama, clefs
-# was "この不思議の建てられた都市のまわりの土地では、交換資源を1多く生産できます。"
 # Belgae
-# squareからtileに統一されました。訳語は土地からタイルに。海や湖も対象ですから。
 #: data/sandbox/buildings.ruleset:1390 data/civ2civ3/buildings.ruleset:1322
 msgid ""
 "Each tile around the city with roads and without farmland, that is already "
@@ -32201,7 +31980,6 @@ msgid ""
 msgstr ""
 
 # clefs
-# was "が研究されたと見倣します。)"，これは誤訳でした
 #: data/sandbox/buildings.ruleset:1538 data/civ2civ3/buildings.ruleset:1440
 msgid ""
 "The entire map becomes permanently visible to the player who owns it -- the "
@@ -32209,10 +31987,7 @@ msgid ""
 "units) despite fog-of-war.  It allows all players to start building "
 "spaceship parts (assuming they have researched the necessary technologies)."
 msgstr ""
-"この不思議を保有するプレイヤーは，マップ全体を永久的に見ることができます。つ"
-"まり戦場の霧の影響を受けずに，全ての地形と都市の情報が毎ターン更新されます"
-"（ユニットは除きます）。また必要な科学技術を獲得している全てのプレイヤーが，"
-"宇宙船の建造に着手できるようになります。"
+"この不思議を保有する文明は、マップ全体を永久的に見ることができます。つまり、プレイヤーは、戦場の霧の影響を受けずに、すべての地形と都市(ユニットは含まない)について、常に最新の情報を得ることができます。また、必要な科学技術の研究が完了しているすべてのプレイヤーは、宇宙船を作ることができるようになります。"
 
 #: data/sandbox/buildings.ruleset:1544 data/civ2civ3/buildings.ruleset:1446
 msgid ""
@@ -32225,18 +32000,13 @@ msgstr ""
 "ち核保有国は条約破棄を議会に妨げられることがなくなり，かつAIはこの2つの不思議"
 "を保有する民族に対して友好的でなくなります。"
 
-# ama, clefs, Daniel
-# was "全ての都市で、都市建造物の維持費1をなくします。"
-# Belgae
 #: data/sandbox/buildings.ruleset:1571 data/civ2civ3/buildings.ruleset:1473
 msgid ""
 "In every city with a Stock Exchange, city improvements which would normally "
 "have an upkeep of 1 become free of upkeep. (Communist governments inherently "
 "give this benefit, so there is no bonus under Communism.)"
 msgstr ""
-"証券取引所のある都市に限り，通常の維持コストが1である都市建造物は全て，維持コ"
-"ストが0になります。（共産主義は特性の1つにこの効果を持つため，恩恵はありませ"
-"ん。）"
+"証券取引所があるすべての都市で、維持コストが1の都市建造物の維持コストが0になります。（共産主義は既にこの効果を持っているので、共産主義下ではこの不思議は効果がありません。）"
 
 #: data/sandbox/buildings.ruleset:1576 data/civ2civ3/buildings.ruleset:1478
 msgid ""
@@ -32264,7 +32034,6 @@ msgstr ""
 "この不思議が建設された都市では，都市圏のタイルで労働する市民が1人あたり毎ター"
 "ン1研究ポイントを産出します。"
 
-# Daniel
 # Belgae
 #: data/sandbox/buildings.ruleset:1676 data/civ2civ3/buildings.ruleset:1553
 #, fuzzy, no-c-format
@@ -32286,7 +32055,7 @@ msgstr ""
 "整備されていて，かつ科学技術「医学」が研究済みであれば，その都市では疫病の発"
 "生する確率が0%になります。"
 
-# ama, clefs
+# clefs
 #: data/sandbox/buildings.ruleset:1703 data/civ2civ3/buildings.ruleset:1580
 msgid ""
 "Charles Darwin's voyage sparked the discovery of the evolution of the "
@@ -32413,7 +32182,6 @@ msgstr ""
 "は1戦闘ユニットが2人の不幸市民を生み出します）。加えて，各都市で金2までのユ"
 "ニット維持コストを無償にします。"
 
-# Daniel
 # Belgae
 #: data/sandbox/buildings.ruleset:2007 data/civ2civ3/buildings.ruleset:1852
 msgid ""
@@ -32424,15 +32192,13 @@ msgstr ""
 "全ての海上ユニットの移動力を+1pt増やします（ただし川を航行中のトライリームは"
 "除きます）。また全ての都市で新たに生産された海上ユニットをベテランにします。"
 
-# 50%なら75%になるってことなのかな (clefs)
 # Belgae
 #: data/sandbox/buildings.ruleset:2034 data/civ2civ3/buildings.ruleset:1879
 msgid ""
 "Gives all your sea units 1 additional movement point. The chance of a sea "
 "unit getting the next veteran level after a battle increases by half."
 msgstr ""
-"全ての海上ユニットの移動力が+1増加します。また海上ユニットが戦闘で勝利したと"
-"き，通常の1.5倍の確率で練度が上昇します。"
+"この不思議を保有する文明のすべての海上ユニットについて、移動力を1増やし、戦闘で勝利したときに練度が上昇する確率を1.5倍にします。"
 
 #: data/sandbox/buildings.ruleset:2084 data/civ2civ3/buildings.ruleset:1929
 msgid ""
@@ -32501,10 +32267,7 @@ msgstr ""
 "寺院のある全ての都市で，2人の不幸市民を平静にします。ただし戦闘ユニットが原因"
 "の不幸市民には効果がありません。"
 
-# ama, clefs
-# was "この不思議の建てられた都市のまわりの土地では、交換資源を1多く生産できます。"
 # Belgae
-# squareからtileに統一されました。訳語は土地からタイルに。海や湖も対象ですから。
 #: data/sandbox/buildings.ruleset:2215 data/civ2civ3/buildings.ruleset:2060
 msgid ""
 "Each tile around the city where this wonder is built that is already "
@@ -32613,10 +32376,7 @@ msgstr ""
 "す。またこの不思議を保有する民族に対し，AIはより友好的になります。ただしアポ"
 "ロ計画が完成すると，これらの効果は失われます。"
 
-# clefs
-# 「政府は無政府」いやん
 # Belgae
-# 補いました。
 #: data/sandbox/buildings.ruleset:2445 data/civ2civ3/buildings.ruleset:2204
 msgid ""
 "Also, if any player's city is in disorder for more than two turns in a row, "
@@ -33494,7 +33254,7 @@ msgstr "植林する"
 msgid "Millenary Trees"
 msgstr ""
 
-# 「山岳」もいいなあ (clefs)
+# clefs
 #: data/sandbox/script.lua:365 data/civ2civ3/script.lua:329
 #, fuzzy
 msgid "Table Mountain"
@@ -33934,8 +33694,7 @@ msgid ""
 msgstr ""
 "開拓者・労働者・移住者・エンジニア・輸送艦は死の灰を除去することができます。"
 
-# yasu
-# clefs (防御姿勢→防御態勢)
+# clefs
 #: data/sandbox/terrain.ruleset:1579 data/civ2civ3/terrain.ruleset:1548
 #: data/granularity/terrain.ruleset:753
 msgid "Fort"
@@ -34167,7 +33926,7 @@ msgstr ""
 "科学技術｢超電導｣を獲得すると，都市直下タイルの鉄道は自動的にマグレヴへと更新"
 "されます。"
 
-# Belgae改訳
+# Belgae
 #: data/sandbox/terrain.ruleset:2009 data/civ2civ3/terrain.ruleset:1901
 #, no-c-format
 msgid ""
@@ -34441,7 +34200,7 @@ msgstr ""
 "エンジニアは労働者と似ていますが，移動力と作業効率はその2倍です。戦闘または作"
 "業の経験を積むことにより練度が上昇し，更に効率が高まります。"
 
-# ユニットの`Workers'を「労働者」と訳したのはうまくなかったかも (clefs)
+# clefs
 #: data/sandbox/units.ruleset:666 data/civ2civ3/units.ruleset:651
 msgid ""
 "With knowledge of Fusion Power, Engineers may also perform more radical "
@@ -34457,7 +34216,7 @@ msgstr ""
 "能で，船舶に積載した上で作業を行います) 。詳細については「タイルの開発」節を"
 "参照してください。"
 
-# 地形クラス(Belgae)
+# Belgae
 #: data/sandbox/units.ruleset:677
 #, fuzzy
 #| msgid "Oceanic"
@@ -34472,7 +34231,6 @@ msgstr ""
 msgid "Archers fight with bows and arrows and have a good offensive value."
 msgstr "弓兵は弓矢の扱いに長けており，優れた攻撃力を持ちます。"
 
-# clefs
 # Belgae
 #: data/sandbox/units.ruleset:1040 data/civ2civ3/units.ruleset:985
 msgid ""
@@ -34520,7 +34278,6 @@ msgstr ""
 msgid "Veteran Paratroopers can land on forest and jungle tiles."
 msgstr ""
 
-# ama
 # Belgae
 #: data/sandbox/units.ruleset:1204 data/civ2civ3/units.ruleset:1148
 msgid ""
@@ -35179,8 +34936,6 @@ msgid ""
 "Orbit is known."
 msgstr ""
 
-# Belgae
-# was:射手
 #: data/alien/buildings.ruleset:110
 #, fuzzy
 msgid "Archive"
@@ -35394,10 +35149,7 @@ msgstr "・不幸市民は存在しません。\n"
 msgid "Earth Monument"
 msgstr ""
 
-# ama, clefs
-# was "この不思議の建てられた都市のまわりの土地では、交換資源を1多く生産できます。"
 # Belgae
-# squareからtileに統一されました。訳語は土地からタイルに。海や湖も対象ですから。
 #: data/alien/buildings.ruleset:715
 #, fuzzy
 msgid ""
@@ -35414,10 +35166,7 @@ msgstr ""
 msgid "Great Tunnel"
 msgstr "不思議"
 
-# ama, clefs
-# was "この不思議の建てられた都市のまわりの土地では、交換資源を1多く生産できます。"
 # Belgae
-# squareからtileに統一されました。訳語は土地からタイルに。海や湖も対象ですから。
 #: data/alien/buildings.ruleset:740
 #, fuzzy
 msgid ""
@@ -35441,7 +35190,7 @@ msgid ""
 "turn."
 msgstr "ユニットの体力が毎ターン+2回復します。"
 
-# 地形クラス(Belgae)
+# Belgae
 #: data/alien/buildings.ruleset:772
 #, fuzzy
 msgid "Oceanic Downtown"
@@ -35634,7 +35383,6 @@ msgid ""
 msgstr ""
 
 # clefs
-# was "民主制"
 #: data/alien/governments.ruleset:183
 #, fuzzy
 msgid "Dual Democracy"
@@ -36049,8 +35797,7 @@ msgid ""
 "levels never seen before."
 msgstr ""
 
-# Seafaring「航海」とNavigation「航海術」は紛らわしいので
-# 何かいい言い換えが欲しいところ (clefs)
+# clefs
 #: data/alien/techs.ruleset:442
 #, fuzzy
 msgid "Manufacturing"
@@ -36380,8 +36127,6 @@ msgid ""
 "underground bunker."
 msgstr ""
 
-# Belgae
-# was:キャラベル
 #: data/alien/techs.ruleset:743
 #, fuzzy
 msgid "Travel"
@@ -36422,7 +36167,6 @@ msgid ""
 "and naval forces."
 msgstr ""
 
-# 入れ替えあり
 #: data/alien/techs.ruleset:783
 #, fuzzy
 msgid "War Monsters"
@@ -36446,7 +36190,6 @@ msgid ""
 "rivers."
 msgstr ""
 
-# まだ使われていない関数なのかな
 #: data/alien/terrain.ruleset:27
 #, fuzzy
 msgid "Radiating"
@@ -36500,7 +36243,7 @@ msgstr ""
 msgid "Hills just like on Earth."
 msgstr ""
 
-# 「山岳」もいいなあ (clefs)
+# clefs
 #: data/alien/terrain.ruleset:462
 #, fuzzy
 msgid "Thick Mountains"
@@ -36700,7 +36443,7 @@ msgstr ""
 msgid "Green River"
 msgstr "川"
 
-# Belgae改訳
+# Belgae
 #: data/alien/terrain.ruleset:1227 data/alien/terrain.ruleset:1252
 #, fuzzy, no-c-format
 msgid ""
@@ -36744,7 +36487,6 @@ msgid ""
 msgstr ""
 
 # Belgae
-# was:製造工場
 #: data/alien/terrain.ruleset:1298
 #, fuzzy
 msgid "Huge Plant"
@@ -37186,9 +36928,6 @@ msgstr ""
 msgid "Kindergarden"
 msgstr ""
 
-# was "中国民族"
-# 漢民族ってのはあるけど、中国民族ってのはないかなあと。
-# 民族が国を作るのか、国が民族を作るのか。(clefs)
 #: data/alien/nation/kindergarden.ruleset:6
 #, fuzzy
 msgid "?plural:Children"
@@ -37203,7 +36942,6 @@ msgid ""
 "* Granary is not emptied when city grows, but set to 25% full"
 msgstr ""
 
-# "狂信兵"?
 #: data/alien/nation/lunatics.ruleset:5
 #, fuzzy
 msgid "Lunatic"
@@ -37360,7 +37098,7 @@ msgstr ""
 "す。このヘルプは色々なルールセットに対応していますが，classicルールセットとは"
 "全く異なるルールセットの場合はその限りではありません。"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:83
 msgid ""
 "While every game is different, there's a basic strategy which most players "
@@ -37446,8 +37184,7 @@ msgstr ""
 "う。もちろん初期ユニットに探検家がいる場合は，そちらに探索させた方がずっと効"
 "率的です。"
 
-# yasu, clefs
-# 「自動化歩兵」はどうしたのかしら
+# clefs
 #: data/helpdata.txt:121
 msgid ""
 " 2. Defending the cities.\n"
@@ -37460,16 +37197,8 @@ msgid ""
 msgstr ""
 " 3. 都市の防衛\n"
 "\n"
-"    この段階では，常に戦士を駐留させて都市を防衛しましょう。より防御力の高い"
-"ユニットを生産できるようになったら，旧式化したユニットを新型に置き換えて，都"
-"市の守りを強固にしましょう。都市防衛によく使われるユニットは以下のとおりで"
-"す。(弱いものから順に)戦士，ファランクス，マスケット兵，ライフル兵，山岳部"
-"隊，機械化歩兵。"
+"    常に戦士を駐留させて都市を防衛しましょう。より防衛力の高いユニットを生産できるようになったら、旧式化したユニットを新型に置き換えて、都市の守りを強固にしましょう。都市防衛によく用いられるユニットは、弱いものから順に、戦士、ファランクス、槍兵、マスケット兵、ライフル兵、海兵隊等です。"
 
-# yasu, clefs
-# http://www.freeciv.org/wiki/Combat
-# によると，ここの記載とは違って，都市内で防御態勢を取るとさらに50%上積み
-# されるようです。(原文の問題)
 #: data/helpdata.txt:131
 #, no-c-format
 msgid ""
@@ -37478,11 +37207,7 @@ msgid ""
 "a land unit is inside a city, it gets a 50% defensive bonus, as if "
 "fortified.  When a new city is built, the city starts to build the best "
 "available defensive unit from the above list."
-msgstr ""
-"    政治体制によっては，戦闘ユニットが領外に出ると不幸市民を生み出すことに注"
-"意してください。また陸上ユニットは都市内にいる間，防御態勢を取った場合と同様"
-"に防御力が50%増えることも覚えておきましょう。新しい都市が建設されると，自動的"
-"に都市防衛用ユニットを生産し始めます。"
+msgstr "    政治体制によっては、都市の内外に戦闘ユニットを配置することで、不幸市民が増減します。また、都市内にいる陸上ユニットは常に防御態勢をとっていると見なされます。新しく建設された都市は、自動的に防衛のためのユニットの生産を開始します。"
 
 #: data/helpdata.txt:138
 #| msgid ""
@@ -37521,7 +37246,6 @@ msgstr ""
 "れないでください。より広大な領土を確保するためにも、最初は新しい都市を建設す"
 "ることを最優先すべきです。"
 
-# yasu
 # Belgae
 #: data/helpdata.txt:151
 msgid ""
@@ -37543,7 +37267,6 @@ msgstr ""
 "易ポイント増加，生産ポイントの増加が見込めます。"
 
 # yasu
-# 最近の設定では港を建設できる海沿いに作らないとお話になりませんが...(clefs)
 #: data/helpdata.txt:161
 msgid ""
 " 5. Deciding where to build cities.\n"
@@ -37563,7 +37286,7 @@ msgstr ""
 "すくもあります。海に面した都市を建設しないときは，敵はあなたの都市を見つけに"
 "くいことでしょう。最高の戦術は両方に都市を建設することです。"
 
-# yasu, ama, clefs, Belgae
+# Belgae
 #: data/helpdata.txt:170
 msgid ""
 " 6. Taking care of the cities.\n"
@@ -37583,7 +37306,7 @@ msgstr ""
 "にして別の形で文明に貢献させることもできます。特にゲーム序盤は，都市成長・交"
 "易・生産力が最大になるように，適切な市民の配置を心がけてください。"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:180
 msgid ""
 "    If too much food is being generated, a citizen can be taken off the land "
@@ -37604,7 +37327,7 @@ msgstr ""
 "    都市内の市民を移動させた後，都市の中心を右クリックすると，市民は食料ポイ"
 "ントが最大になるように再配置されます。"
 
-# yasu, Belgae
+# Belgae
 #: data/helpdata.txt:191
 msgid ""
 "    The golden rule of taking care of a city is that there should be at "
@@ -37650,7 +37373,7 @@ msgstr ""
 "提供している側の国家には何の利益もありません。また大使館を撤去することはでき"
 "ません。"
 
-# yasu, clefs
+# clefs
 #: data/helpdata.txt:213
 msgid ""
 "    If you are in contact with another player, then you can arrange a "
@@ -37740,7 +37463,6 @@ msgstr ""
 "されます(他の都市に駐留しているユニットは除く)。ですからあなたが考えている以"
 "上に相手に有利な取引になっていないか気をつけてください。"
 
-# yasu
 # Belgae
 #: data/helpdata.txt:254
 msgid ""
@@ -37761,7 +37483,6 @@ msgstr ""
 "場合は，平和条約を結んで保有する科学技術を分け合うのも非常によい方法です。こ"
 "のような場合，外交官は非常に有用で，後に十分に報われるでしょう。"
 
-# yasu
 # Belgae
 #: data/helpdata.txt:264
 msgid ""
@@ -38294,7 +38015,7 @@ msgstr ""
 "の各項目は，単一の生産物（ユニットなど）を表します。都市はこれらの生産物を順"
 "番に生産していきます。作業リストに指定された項目を生産し終わると，可能であれ"
 "ば最後の項目を再び生産しようとします。不可能な場合は新たな目標を自動的に選択"
-"します。都市が金を生産している（classicルールでは「鋳貨」の生産）場合，そのま"
+"します。都市が金を生産している（classicルールでは「貨幣」の生産）場合，そのま"
 "まではこの活動は停止しません。作業リストに項目を追加すると，金の生産が停止"
 "し，次のターンからは追加した項目の生産が始まります。ルールセットで許している"
 "場合，作業リストに並んでいる同種のユニットを1ターンのうちに複数生産することが"
@@ -39531,7 +39252,7 @@ msgid ""
 "   - The defender's strength is doubled if it is a Pikeman unit defending "
 "against a mounted unit."
 msgstr ""
-"　・防御側が長槍兵のとき，騎乗ユニットからの攻撃に対して，防御力を2倍にしま"
+"　・防御側が槍兵のとき，騎乗ユニットからの攻撃に対して，防御力を2倍にしま"
 "す。"
 
 #: data/helpdata.txt:1169
@@ -42132,7 +41853,7 @@ msgid ""
 "This is not a normal improvement. Instead, setting a city's production to "
 "this means its shield production is converted to infra points."
 msgstr ""
-"これは普通の建造物ではありません。都市の生産を鋳貨にセットすると，生産物を税"
+"これは普通の建造物ではありません。都市の生産を貨幣にセットすると，生産物を税"
 "金として得ます。"
 
 #: data/granularity/cities.ruleset:48
@@ -52323,7 +52044,7 @@ msgid ""
 "  \\/\\/\\/\\/\\/\\/\\             \\_/ \\_/ \\_/ \\_/ \\_/\n"
 "   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
 "   \\/\\/\\/\\/\\/\\/             \\_/ \\_/ \\_/ \\_/ \\_/\n"
-msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは長方形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
+msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは四角形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
 
 # NOTE: 手動で追加した項目
 msgid ""
@@ -52348,7 +52069,7 @@ msgid ""
 "   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
 "   \\/\\/\\/\\/\\/\\/"
 "             \\_/ \\_/ \\_/ \\_/ \\_/\n"
-msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは長方形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
+msgstr "南北、東西、またはその両方向をつなげることができます。\n個々のタイルは四角形か六角形で、その配置は俯瞰か等角のいずれかです。\n俯瞰配置とは、タイルの各辺が東西、および南北に平行であることです。\n等角配置とは、タイルの各辺が北東から南西、および北西から南東に平行であることです。\nそれぞれのマップ形式でプレイするには、適切なタイルセットが必要です。\n"
 
 #: server/settings.c:1591
 #, fuzzy
@@ -61992,7 +61713,7 @@ msgstr ""
 #~ "defender. Pikemen get double defense when attacked by mounted units "
 #~ "(except Cavalry)."
 #~ msgstr ""
-#~ "パイクを装備した長槍兵は，ファランクスに代わって都市防衛に最適なユニットと"
+#~ "パイクを装備した槍兵は，ファランクスに代わって都市防衛に最適なユニットと"
 #~ "なります。騎乗ユニット(騎兵隊は含まれません)からの攻撃に対して防御力が2倍"
 #~ "になります。"
 
