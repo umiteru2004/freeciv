@@ -1299,12 +1299,12 @@ msgstr "高位ドルイド %s"
 #: data/nation/belgic.ruleset:33 data/nation/cambodian.ruleset:25 data/nation/crusader.ruleset:33 data/nation/holysee.ruleset:29 data/nation/italiangreek.ruleset:48 data/nation/kushan.ruleset:44 data/nation/latin.ruleset:42 data/nation/nestorian.ruleset:27 data/nation/urartian.ruleset:35
 #, c-format
 msgid "Brother %s"
-msgstr "%s兄弟"
+msgstr "兄弟 %s"
 
 #: data/nation/belgic.ruleset:33 data/nation/cambodian.ruleset:25 data/nation/crusader.ruleset:33 data/nation/holysee.ruleset:29 data/nation/italiangreek.ruleset:48 data/nation/kushan.ruleset:44 data/nation/latin.ruleset:42 data/nation/nestorian.ruleset:27 data/nation/urartian.ruleset:35
 #, c-format
 msgid "Sister %s"
-msgstr "%s姉妹"
+msgstr "姉妹 %s"
 
 # Belgae
 #: data/nation/belgic.ruleset:34 data/nation/chickasaw.ruleset:29 data/nation/choctaw.ruleset:31 data/nation/gepid.ruleset:45 data/nation/hasinay.ruleset:30 data/nation/hopi.ruleset:28 data/nation/inuit.ruleset:23 data/nation/ligurian.ruleset:26 data/nation/maori.ruleset:24 data/nation/mikmaq.ruleset:24 data/nation/muskogee.ruleset:31 data/nation/namibian.ruleset:24 data/nation/sami.ruleset:23 data/nation/seminole.ruleset:35 data/nation/shawnee.ruleset:24 data/nation/swazi.ruleset:22 data/nation/urartian.ruleset:36
