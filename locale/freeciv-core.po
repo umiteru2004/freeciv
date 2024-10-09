@@ -648,7 +648,7 @@ msgstr "都市政府は%sの処理で混乱しています。確認してくだ�
 #: client/gui-gtk-5.0/cityrep.c:842
 #| msgid "?cma:Governor"
 msgid "?cma:none"
-msgstr ""
+msgstr "なし"
 
 # Belgae
 #: client/agents/cma_fec.c:242 client/gui-gtk-3.22/cityrep.c:818
@@ -40568,16 +40568,12 @@ msgstr ""
 "これは贅沢の比率が高いときしか機能しません。ヘルプの「幸福」節を参照してくだ"
 "さい。"
 
-# 以下のクリック個所のラベルは実際のものと異なります。freeciv.inにのみ登録されている用語のようですが，どういう状況で画面に表示されるのか不明です。(Belgae)
 #: data/helpdata.txt:1856
 msgid ""
 "Clicking on 'Control city' puts the city under control of the governor, "
 "'Release city' passes control back to you."
-msgstr ""
-"「都市を管理」をクリックすると都市が都市政府の管理下になります。「都市を解放」"
-"をクリックするとあなたのもとに管理が戻ります。"
+msgstr "「有効化(E)」をクリックすると、その都市は都市政府の統治下に置かれ、「無効化(E)」をクリックすると、あなたの統治下に戻ります。"
 
-# 実際の画面と異なる記述？(Belgae)
 #: data/helpdata.txt:1859
 msgid ""
 "For ease of use, you can save your slider setting as a preset with a name. "
@@ -40586,12 +40582,7 @@ msgid ""
 "your setting from within the city report, in the governor column. And you "
 "can change it from there (use 'change' --> 'Citizen Governor'), if you have "
 "saved it as a preset."
-msgstr ""
-"使用しやすくするため，スライダーの設定に名前をつけてプリセットとして保存する"
-"ことができます。「プリセット追加」ボタンをクリックし，名前を入力してくださ"
-"い。登録した名前をクリックするだけで，このプリセットをどの都市でも利用できま"
-"す。また，都市報告の都市政府欄からも，プリセットが登録してあれば名前を指定して"
-"変更できます。"
+msgstr "最低要求値の設定をプリセットとして保存することができます。「新規(W)」をクリックし、プリセットの名前を入力してください。保存したプリセットはすべての都市で使用することができます。また、プリセットを保存しておけば、都市報告の都市政府タブからも、保存した設定で都市政府を有効化することができます。"
 
 #: data/helpdata.txt:1866
 msgid ""
@@ -40632,7 +40623,6 @@ msgstr ""
 "  ・「/」 で始まるメッセージはサーバーコマンドと解釈され，必要なアクセスレベ"
 "ルを持っているならば実行されます。"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1886
 msgid ""
@@ -40646,7 +40636,6 @@ msgstr ""
 "クオート(\" \")で囲んでください。「John」という名前のプレイヤーが見つからない"
 "場合，サーバーは「John」で始まる接続名(例えば「Johnathan」など)を探します。"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1891
 msgid ""
@@ -40658,7 +40647,6 @@ msgstr ""
 "う接続名のユーザーだけを対象とします(プレイヤー名は無視されます)。見つからな"
 "ければ「Johnathan」も対象にします。"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1895
 msgid ""
@@ -40668,7 +40656,6 @@ msgstr ""
 "  ・「:」で始まるメッセージは，クライアントの設定に関わらず全員に送信されま"
 "す。"
 
-# clefs
 # Belgae
 #: data/helpdata.txt:1898
 msgid ""
@@ -40914,10 +40901,6 @@ msgid ""
 "Use the buttons below the worklist to move items up and/or down in the list."
 msgstr "作業リストから項目を削除するには、その項目をダブルクリックします。項目の順番を入れ替えるには、リストの右にある上下ボタンを使用します。"
 
-# ama, clefs
-# 見やすいのが一番
-# Belgae
-# 現状のショートカット機能と合致していない部分があるため，実際の操作に合わせて書き換えました。文章にするとフォーカスと選択状態の関係など結構ややこしいですね。
 #: data/helpdata.txt:2008
 msgid ""
 "Keyboard shortcuts: Home to focus the worklist, End to focus the available "
@@ -40926,51 +40909,28 @@ msgid ""
 "items from the available list into the worklist and Delete to delete the "
 "selected item from the worklist."
 msgstr ""
-"キーボードショートカット:\n"
-"[訳注:原文の記述は現在のインターフェイスに合っていないので，現在の実態に合う"
-"ように記述しました。また，アクセスキーの機能（Alt-wで作業リストへフォーカスを"
-"移すなど）は省略しています。]\n"
+"キーボードショートカット：\n "
 "\n"
-"作業リスト/候補リスト共通:\n"
-"==============\n"
-"カーソルキー上下: 選択状態を上下のアイテムに変更し，フォーカスも移動する\n"
-"PageUp/Down: 選択状態を1ページ分上下のアイテムに変更し，フォーカスも移動す"
-"る\n"
-"Home/End: 選択状態を一番上/下のアイテムに変更し，フォーカスも移動する\n"
-"Ctrl+カーソルキー上下: 選択状態はそのままでフォーカスのみ上下に移動する\n"
-"Ctrl+PageUp/Down: 選択状態はそのままでフォーカスのみ1ページ分上下のアイテムに"
-"移動する\n"
-"Ctrl+Home/End: 選択状態はそのままでフォーカスのみ一番上/下のアイテムに移動す"
-"る\n"
+"【Home/End】\n"
+"作業リスト/タスク候補にフォーカス\n"
 "\n"
-"作業リスト:\n"
-"==============\n"
-"Shift+カーソルキー上下:  複数のアイテムを連続して選択し，フォーカスも移動す"
-"る\n"
-"Ctrl+スペース: フォーカスのあるアイテムの選択/非選択を切り替える\n"
-"Alt+カーソルキー上下: フォーカスのあるアイテムのリスト上での順番を上下に移動"
-"し，選択状態にする\n"
-"Delete: 選択状態のアイテムを削除する\n"
-"スペース: フォーカスのあるアイテムを削除する\n"
+"【上/下カーソルキー】\n"
+"上/下の項目を選択\n"
 "\n"
-"候補リスト:\n"
-"==============\n"
-"Insert: 選択状態のアイテムを作業リストの最後に追加する\n"
-"スペース: フォーカスのあるアイテムを選択状態にし，作業リストの最後に追加す"
-"る\n"
-"Shift-insert: 選択状態のアイテムを作業リストの最初に追加する"
+"【PageUp/Down】\n"
+"項目を上/下に移動\n"
+"\n"
+"【スペースキー】\n"
+"タスク候補から作業リストに項目を挿入（フォーカスがタスク候補にあるとき）\n"
+"作業リスト項目を削除（フォーカスが作業リストにあるとき）"
 
-# ntaka, clefs
-# 原文obsolete
 #: data/helpdata.txt:2014
 msgid ""
 "If you want to buy the unit that's first on the list, you can do that from "
 "the City Overview window."
 msgstr ""
-"作業リスト先頭の生産物を購入したい場合は，都市ウィンドウの概観ページから購入"
-"できます。[訳註: 現行のGTKクライアントでは生産物ページからでも可能です]"
+"作業リスト先頭の生産物は、都市ダイアログの概観タブからも購入することができます。"
 
-# Daniel
 # Belgae
 #: data/helpdata.txt:2021
 msgid ""
@@ -41007,7 +40967,6 @@ msgid ""
 "details."
 msgstr ""
 
-# Daniel
 # Belgae
 #. TRANS: followed by a URL
 #: data/helpdata.txt:2360
@@ -41099,19 +41058,13 @@ msgstr ""
 "工場がある都市で，宇宙船の部品の製作を開始できるようになります(必要な技術が研"
 "究完了している場合)。"
 
-# ama, clefs, Daniel
-# was "全ての都市で、都市建造物の維持費1をなくします。"
-# Belgae
 #: data/multiplayer/buildings.ruleset:1252
 msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all your cities on the same continent."
-msgstr ""
-"同じ大陸内にあなたが所有するすべての都市で，通常なら維持コストが1かかる都市建"
-"造物の維持コストを0にします。"
+msgstr "この不思議が建設された都市と同じ大陸にある、この不思議を保有する文明のすべての都市で、維持コストが1の都市建造物の維持コストを0にします。"
 
 # Belgae
-# 不幸から満足と，満足から幸福はそれぞれ1使用するのか確認する必要があります。
 #: data/multiplayer/buildings.ruleset:1327
 #, fuzzy
 msgid ""
@@ -41789,13 +41742,10 @@ msgid ""
 "points for the city its located at."
 msgstr ""
 
-# Belgae
-# 「%s神父」と訳したほうが自然かもしれませんが，マザーとのバランスで。
 #: data/granularity/buildings.ruleset:404
-#, fuzzy
 #| msgid "Father %s"
 msgid "Gather Wood"
-msgstr "神父 %s"
+msgstr ""
 
 #: data/granularity/buildings.ruleset:419
 #, fuzzy
@@ -41816,7 +41766,6 @@ msgstr ""
 msgid "Generic"
 msgstr "遺伝子研究所"
 
-# 科学者とかのことなんだけど (clefs)
 #: data/granularity/cities.ruleset:49
 #, fuzzy
 #| msgid "?specialist:S"
@@ -41829,7 +41778,6 @@ msgstr "専門家"
 msgid "Philosopher"
 msgstr "哲学"
 
-# 科学者とかのことなんだけど (clefs)
 #: data/granularity/cities.ruleset:58
 #, fuzzy
 #| msgid "?specialist:S"
@@ -41943,13 +41891,10 @@ msgstr ""
 msgid "Animal Taming"
 msgstr ""
 
-# Belgae
-# was:射手
 #: data/granularity/techs.ruleset:144
-#, fuzzy
 #| msgid "Archers"
 msgid "Archery"
-msgstr "弓兵"
+msgstr "弓術"
 
 #: data/granularity/techs.ruleset:153
 #, fuzzy
@@ -41997,12 +41942,10 @@ msgstr ""
 msgid "Combat Practice"
 msgstr ""
 
-# clefs
 #: data/granularity/techs.ruleset:224
-#, fuzzy
 #| msgid "* Your units cannot be bribed.\n"
 msgid "Also humans can be trained."
-msgstr "・各ユニットは他国による買収に決して応じません。\n"
+msgstr "人間も訓練することができます。"
 
 #: data/granularity/techs.ruleset:238
 #, fuzzy
@@ -42194,12 +42137,10 @@ msgid ""
 "Belief in natural spirits is the first step in Religious tech tree branch."
 msgstr ""
 
-# yasu
 #: data/granularity/techs.ruleset:576
-#, fuzzy
 #| msgid "Strategy and Tactics"
 msgid "Strategies"
-msgstr "戦略と戦術"
+msgstr "戦略"
 
 #: data/granularity/techs.ruleset:582
 #, fuzzy
@@ -42279,17 +42220,11 @@ msgstr "交通路(_P)"
 msgid "Path is the simplest road type, buildable from the beginning."
 msgstr ""
 
-# Belgae改訳
 #: data/granularity/terrain.ruleset:846
-#, fuzzy
 msgid ""
 "Any land terrain type may have a River on it. Land units may move along a "
 "River (but not diagonally) for fast travel."
-msgstr ""
-"陸地タイプの地形であればどこでも，川が通っている場合があります。川はそのタイ"
-"ルから得られる交易ポイントを+1増やします。またタイルの防御ボーナスを50%増やし"
-"ます。さらに川に沿って陸上ユニットを移動させると，移動コストが減少します(斜め"
-"は不可)。"
+msgstr "すべての陸地タイルは、川が流れていることがあります。川に沿って陸上ユニットを移動させると、移動コストが減少します。"
 
 #: data/granularity/terrain.ruleset:865
 msgid ""
@@ -42378,10 +42313,7 @@ msgid ""
 "any master."
 msgstr ""
 
-# clefs
-# 実際に表示されるのは上位3部隊
 # Belgae
-# was:攻撃に適した部隊。unitsと複数形になっているように，最上級はトップ1限定ではありません。
 #: data/granularity/units.ruleset:633
 #, fuzzy
 #| msgid "Best attacking units"
@@ -42461,20 +42393,17 @@ msgstr ""
 
 #: data/nation/animals.ruleset:5
 msgid "Animal Kingdom"
-msgstr ""
+msgstr "動物の王国"
 
-# was 「インド民族」、そんなものはない
-# "Bengali" はどうするんだ (clefs)
 #: data/nation/animals.ruleset:6
-#, fuzzy
 msgid "?plural:Animals"
-msgstr "インド人"
+msgstr "動物の王国"
 
 #: data/nation/animals.ruleset:8
 msgid ""
 "Before civilization claimed the lands, ancient man had to survive the "
 "wilderness with all kinds of dangerous animals."
-msgstr ""
+msgstr "文明がこの地を支配するより以前、古代の人々はあらゆる種類の危険な動物が闊歩する荒野を生き抜かなければなりませんでした。"
 
 #: data/nation/apache.ruleset:5
 msgid "Apache"
@@ -42615,8 +42544,7 @@ msgstr "%s皇帝"
 msgid "Kaiserin %s"
 msgstr "%s女帝"
 
-# 「女子修道院長」だそうだけど，本当にそれでいいのかしらん (clefs)
-# Happiness is a warm gun?
+# clefs
 #: data/nation/austrian.ruleset:52 data/nation/french.ruleset:44
 #: data/nation/italian.ruleset:44 data/nation/polish.ruleset:37
 #: data/nation/portuguese.ruleset:32 data/nation/spanish.ruleset:43
@@ -42659,13 +42587,13 @@ msgstr ""
 msgid "Chairwoman %s"
 msgstr "%s議長"
 
-# ポルトガル語の"Diretor-Presidente"を英訳したものと思われます。経営でのCEOに当たる用語のようです。原理主義用なのでこの訳です。(Belgae)
+# Belgae
 #: data/nation/brazilian.ruleset:32
 #, c-format
 msgid "Director-President %s"
 msgstr "最高指導者 %s"
 
-# ntaka 大統領でいいのだろうか?
+# ntaka
 #: data/nation/brazilian.ruleset:32
 #, c-format
 msgid "?female:Director-President %s"
@@ -42681,7 +42609,6 @@ msgid "?plural:Byzantines"
 msgstr "ビザンツ人"
 
 # clefs
-# 試験に出そうなところです
 #: data/nation/byzantium.ruleset:8
 msgid ""
 "At the time of the decline of the old Roman empire, the Emperor Constantine "
@@ -42697,10 +42624,7 @@ msgstr ""
 "ティニアヌス1世の時代には，ビザンツ人は中東のほぼ全域，北アフリカ，イタリアお"
 "よびスペインの一部までを支配下に置いていました。"
 
-# clefs
-# "navel" 「お臍」のままでも良かったかしら
 # Belgae
-# navalに修正されました。
 #: data/nation/carthaginian.ruleset:8
 msgid ""
 "The Carthaginians, descendants of Phoenician traders, ran a naval empire in "
@@ -42721,10 +42645,6 @@ msgstr "司法官 %s"
 msgid "?female:Judge %s"
 msgstr "司法官 %s"
 
-# clefs
-# 単数も「族」でいってみましょう
-# Belgae
-# 「族」と「人」のラインが分かりませんし，「人」で統一する方針にしました。
 #: data/nation/cherokee.ruleset:5
 msgid "Cherokee"
 msgstr "チェロキー"
@@ -42733,7 +42653,6 @@ msgstr "チェロキー"
 msgid "?plural:Cherokees"
 msgstr "チェロキー"
 
-# clefs
 # Belgae
 #: data/nation/cherokee.ruleset:8
 msgid ""
@@ -42766,7 +42685,6 @@ msgstr "デンマーク人"
 msgid "?plural:Danes"
 msgstr "デンマーク人"
 
-# clefs
 # Belgae
 #: data/nation/danish.ruleset:8
 msgid ""
@@ -42810,30 +42728,27 @@ msgstr ""
 "反旗を翻して独立を宣言し，1579年にはユトレヒト同盟を結成しました。オランダは"
 "17世紀には支配的な海運・経済大国となりました。"
 
-# Belgae
-# 「王子」ではなく爵位・君主号のprince
 #: data/nation/dutch.ruleset:39 data/nation/polish.ruleset:36
 #: data/nation/russian.ruleset:49
 #, c-format
 msgid "Prince %s"
-msgstr "公 %s"
+msgstr "王子 %s"
 
 #: data/nation/dutch.ruleset:39 data/nation/polish.ruleset:36
 #: data/nation/russian.ruleset:49
 #, c-format
 msgid "Princess %s"
-msgstr "女公 %s"
+msgstr "王女 %s"
 
-# Wikipedia「オランダ総督」の代替案に従ってこの訳語にしました（Belgae）
 #: data/nation/dutch.ruleset:41
 #, c-format
 msgid "Stadtholder %s"
-msgstr "%s統領"
+msgstr "%s総督"
 
 #: data/nation/dutch.ruleset:41
 #, c-format
 msgid "Stadtholdress %s"
-msgstr "%s統領"
+msgstr "%s総督"
 
 # clefs
 #: data/nation/egyptian.ruleset:8
@@ -43024,7 +42939,7 @@ msgstr ""
 "中でした。アタワルパとワスカルの戦いです。彼らは先の皇帝で病気(おそらく当時こ"
 "の地に蔓延していた天然痘)により死亡したワイナ・カパックの息子たちでした。"
 
-# 推測です（Belgae）
+# Belgae
 #: data/nation/inca.ruleset:35
 #, c-format
 msgid "Inka %s"
@@ -43033,21 +42948,18 @@ msgstr "インカ %s"
 #: data/nation/inca.ruleset:35
 #, c-format
 msgid "Qoya %s"
-msgstr "コヤ %s"
+msgstr "クオヤ %s"
 
 # clefs
-# alt.「唯一のインカ」
 #: data/nation/inca.ruleset:36
 #, c-format
 msgid "Sapa Inka %s"
 msgstr "サパ・インカ %s"
 
-# clefs
-# alt.「唯一のインカ」
 #: data/nation/inca.ruleset:36
 #, c-format
 msgid "Sapa Qoya %s"
-msgstr ""
+msgstr "サパ・クオヤ"
 
 #: data/nation/indian.ruleset:8
 msgid ""
@@ -43069,8 +42981,6 @@ msgid "?plural:Indonesians"
 msgstr "インドネシア人"
 
 # clefs
-# "one of the most populous in the world."
-# 10億人近いインドや中国ほどじゃないけど，それでも2億人はいますからね
 #: data/nation/indonesian.ruleset:8
 msgid ""
 "Indonesia is a large country on the Malay Archipelago with central "
@@ -43152,8 +43062,6 @@ msgid "Ducezza %s"
 msgstr ""
 
 # clefs
-# 日本の分くらいは訳しておきますか。
-# しかしあっさりしてるなあ。近現代はデリケートだから触れなかったのかな。
 #: data/nation/japanese.ruleset:8
 msgid ""
 "According to traditional Japanese mythology, Japan was founded in the 7th "
@@ -43210,7 +43118,6 @@ msgstr "マリ帝国人"
 msgid "?plural:Malis"
 msgstr "マリ帝国人"
 
-# clefs
 # Belgae
 #: data/nation/mali.ruleset:8
 msgid ""
@@ -43227,17 +43134,16 @@ msgstr ""
 "から17世紀に及び，その富と慈悲深い王たちで高名でした。現代のマリ共和国の名は"
 "この帝国から来ています。"
 
-# clefs これも訳せば「王」になってしまいますが
 #. TRANS: Mansa = King of kings
 #: data/nation/mali.ruleset:28 data/nation/songhai.ruleset:28
 #, c-format
 msgid "Mansa %s"
-msgstr "マンサ %s"
+msgstr "皇帝 %s"
 
 #: data/nation/mali.ruleset:28 data/nation/songhai.ruleset:28
 #, c-format
 msgid "?female:Mansa %s"
-msgstr "マンサ %s"
+msgstr "皇帝 %s"
 
 #: data/nation/mayan.ruleset:5
 msgid "Mayan"
@@ -43257,7 +43163,6 @@ msgstr ""
 "たことで高名です。"
 
 # clefs
-# 英語でAchaemenidと言われてもピンと来ませんね
 #: data/nation/persian.ruleset:8
 msgid ""
 "The first Persian (Achaemenid) Empire lasted from 550 BCE to 330 BCE; the "
@@ -43314,9 +43219,7 @@ msgstr "ポルトガル人"
 msgid "?plural:Portuguese"
 msgstr "ポルトガル人"
 
-# clefs
 #: data/nation/portuguese.ruleset:8
-#, fuzzy
 #| msgid ""
 #| "Portugal founded the first of the great mercantile empires in the 1400s "
 #| "on the shipbuilding advances funded by Prince Henry the Navigator."
@@ -43325,21 +43228,21 @@ msgid ""
 "After finishing it's reconquista in 1249, Portugal founded the first of the "
 "great mercantile empires in the 1400s on the shipbuilding advances funded by "
 "Prince Henry the Navigator."
-msgstr ""
-"ポルトガルはエンリケ航海王子の出資で達成された先進の造船技術により最初の商業"
-"帝国を1400年代に築き上げました。"
+msgstr "ポルトガルはもともと独立を果たしたカスティーリャ県でした。\n"
+"\n"
+"1249年にレコンキスタを終えたポルトガルは、1400年代、エンリケ航海王子の出資を受けて確立された造船技術によって、最初の商業帝国を築き上げました。"
 
 #: data/nation/portuguese.ruleset:31
-#, fuzzy, c-format
+#, c-format
 #| msgid "Count"
 msgid "Count %s"
-msgstr "数"
+msgstr "%s伯爵"
 
 #: data/nation/portuguese.ruleset:31
-#, fuzzy, c-format
+#, c-format
 #| msgid "Viscountess %s"
 msgid "Countess %s"
-msgstr "%s子爵"
+msgstr "%s伯爵夫人"
 
 #: data/nation/roman.ruleset:8
 msgid ""
@@ -43568,9 +43471,6 @@ msgstr "トルコ人"
 msgid "?plural:Turks"
 msgstr "トルコ人"
 
-# clefs
-# あまりうまくないなぁ...
-# ムスタファはアタチュルクとしても知られているかな
 #: data/nation/turk.ruleset:8
 msgid ""
 "Modern Turkey is the successor state of the Ottoman Empire, which collapsed "
@@ -43578,9 +43478,9 @@ msgid ""
 "Powers. The country was subsequently reformed and secularized by Kemal "
 "Mustapha, the hero of the defense of Gallipoli."
 msgstr ""
-"現代のトルコはオスマン帝国の後継です。オスマン帝国は，第一次世界大戦で同盟国"
-"側として参戦した後，崩壊し勝利国によって分断されました。国はそれから，ガリポ"
-"リ防衛の英雄ケマル・ムスタファによって改革され政教分離を実施しました。"
+"現代のトルコは、オスマン帝国の後継国家です。\n"
+"\n"
+"オスマン帝国は第一次世界大戦で中央列強を支援した後、戦勝国によって崩壊し、解体されました。その後、ガリポリの戦いの英雄ムスタファ・ケマルによって改革され、世俗化されました。"
 
 #: data/nation/turk.ruleset:30
 #, c-format
@@ -43651,12 +43551,10 @@ msgid ""
 "with orientation."
 msgstr ""
 
-# ntaka, clefs
 #: data/trident.tilespec:14
-#, fuzzy
 #| msgid "Reload tileset"
 msgid "Small overhead tileset."
-msgstr "タイルセットを再読み込み"
+msgstr "小さい俯瞰配置のタイルセット"
 
 #: data/scenarios/british-isles.sav:5
 msgid "British Isles (classic/medium)"
@@ -44667,7 +44565,7 @@ msgstr ""
 msgid "Techs"
 msgstr "科学技術(_T)"
 
-# 地形クラス(Belgae)
+# Belgae
 #. TRANS: terrain class: used adjectivally
 #: gen_headers/enums/terrain_enums.def:13
 msgid "Oceanic"
@@ -44677,41 +44575,32 @@ msgstr "湖海"
 #. * in ruleset help text, to denote the set of terrains which can be altered
 #. * in a particular way
 #: gen_headers/enums/terrain_enums.def:30
-#, fuzzy
 #| msgid "Base"
 msgid "CanBase"
-msgstr "基地"
+msgstr "基地を建設することができる"
 
-# clefs
 #: gen_headers/enums/terrain_enums.def:32
-#, fuzzy
 msgid "CanIrrigate"
-msgstr "灌漑する"
+msgstr "灌漑することができる"
 
-# Belgae
-# was: 資源化
-# 労働者がMの作業中に，中クリックで表示される「活動: %s」と，作業完成後の地形特徴（道路/鉱山）の両方で使用されます。「活動: %s」は「%sが完成するまで何ターンか」を意味するので，どちらでも「鉱山」の訳でよいと判断しました。
 #: gen_headers/enums/terrain_enums.def:34
-#, fuzzy
 msgid "CanMine"
-msgstr "鉱山"
+msgstr "鉱山を建設することができる"
 
 #: gen_headers/enums/terrain_enums.def:36
-#, fuzzy
 #| msgid "Pillage"
 msgid "CanPlace"
-msgstr "略奪"
+msgstr "略奪することができる"
 
 #: gen_headers/enums/terrain_enums.def:38
-#, fuzzy
 msgid "CanRoad"
-msgstr "道路"
+msgstr "道路を敷設することができる"
 
 #. TRANS: this and following strings are 'terrain flags', which may rarely
 #. * be presented to the player in ruleset help text
 #: gen_headers/enums/terrain_enums.def:51
 msgid "CanHaveRiver"
-msgstr ""
+msgstr "川が流れていることがある"
 
 #: gen_headers/enums/terrain_enums.def:53
 #, fuzzy
@@ -44800,14 +44689,12 @@ msgstr ""
 msgid "?vertag:macos-S3_3"
 msgstr ""
 
-# yasu
 #. TRANS: part of revision based version number string
 #. "(modified 855bfb8e2f)" (the second 'word' is a git hash)
 #. (Preserve the trailing space.)
 #: translations/Strings.txt:34
-#, fuzzy
 msgid "modified "
-msgstr "攻撃側・防御側共に，火力も補正されます。"
+msgstr "次のコミットで修正されました: "
 
 #. TRANS: Modpack subtype, "isometric"
 #: translations/Strings.txt:40
@@ -45247,8 +45134,7 @@ msgid ""
 "%s"
 msgstr ""
 
-# NB: civmanual.cにはまだ実際には使われていない機能・関数が含まれているので
-# 実際にはお目にかからないメッセージが少なからずあります (clefs)
+# clefs
 #: tools/manual/fc_manual.c:297
 #, c-format
 msgid "Could not write manual file %s."
@@ -45541,12 +45427,10 @@ msgstr "火力"
 msgid "Hitpoints: %d"
 msgstr "体力:"
 
-# Belgae
-# was:古くなる
 #: tools/manual/manual_units.c:96
-#, fuzzy, c-format
+#, c-format
 msgid "Obsolete by: %s"
-msgstr "旧式化:"
+msgstr "旧式化: %s"
 
 #: tools/ruleutil/rulesave.c:3467
 #, fuzzy, c-format
@@ -45554,60 +45438,51 @@ msgstr "旧式化:"
 msgid "Failed to create directory %s"
 msgstr "新しいプレイヤー %sの作成に失敗しました。"
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #. TRANS: Suitcase Nuke ... San Francisco
 #: server/actiontools.c:228
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You have caused an diplomatic incident getting caught trying to do %s to %s."
-msgstr "%sの%sを買収する試みは事変に発展しました。"
+msgstr "%sに%sを試みて逮捕され、外交的な事件を引き起こしました。"
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #. TRANS: Bribe Enemy Unit ... American ... Partisan
 #: server/actiontools.c:238
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You have caused an diplomatic incident getting caught trying to do %s to %s "
 "%s."
-msgstr "%sの%sを買収する試みは事変に発展しました。"
+msgstr "%sの%sに%sを試みて逮捕され、外交的な事件を引き起こしました。"
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #. TRANS: Explode Nuclear ... (54, 26)
 #: server/actiontools.c:249
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You have caused an diplomatic incident getting caught trying to do %s at %s."
-msgstr "%sの%sを買収する試みは事変に発展しました。"
+msgstr "%sで%sを試みて逮捕され、外交的な事件を引き起こしました。"
 
-# clefs
 #. TRANS: Europeans ... Suitcase Nuke ... San Francisco
 #: server/actiontools.c:285
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The %s have caused an diplomatic incident getting caught trying to do %s to "
 "%s."
-msgstr "%sは%sで叛乱を煽動しようとして事変を引き起こしました。"
+msgstr "%sは、%sに%sを試みて逮捕され、外交的な事件を引き起こしました。"
 
-# clefs
 #. TRANS: Europeans ... Bribe Enemy Unit ... Partisan
 #: server/actiontools.c:296
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The %s have caused an diplomatic incident getting caught trying to do %s to "
 "your %s."
-msgstr "%sは%sに対する破壊工作を行い事変を引き起こしました。"
+msgstr "%sは、我が国の%sに%sを試みて逮捕され、外交的な事件を引き起こしました。"
 
-# clefs
 #. TRANS: Europeans ... Explode Nuclear ... (54, 26)
 #: server/actiontools.c:307
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The %s have caused an diplomatic incident getting caught trying to do %s at "
 "%s."
-msgstr "%sは%sで叛乱を煽動しようとして事変を引き起こしました。"
+msgstr "%sは、%sで%sを試みて逮捕され、外交的な事件を引き起こしました。"
 
 #. TRANS: Suitcase Nuke
 #: server/actiontools.c:337
@@ -45640,42 +45515,34 @@ msgid ""
 "to the %s."
 msgstr ""
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #. TRANS: Suitcase Nuke ... San Francisco
 #: server/actiontools.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "You have caused an diplomatic incident doing %s to %s."
-msgstr "%sの水源に毒物を混入する試みは事変に発展しました。"
+msgstr "我が国は%sに%sを実行し、外交上の事件を引き起こしました。"
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #: server/actiontools.c:420
-#, fuzzy, c-format
+#, c-format
 msgid "You have caused an diplomatic incident doing %s to %s %s."
-msgstr "%sの%sを買収する試みは事変に発展しました。"
+msgstr "我が国は%sの%sに%sを実行し、外交上の事件を引き起こしました。"
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #. TRANS: Explode Nuclear ... (54, 26)
 #: server/actiontools.c:430
-#, fuzzy, c-format
+#, c-format
 msgid "You have caused an diplomatic incident doing %s at %s."
-msgstr "%sでの破壊工作が事変に発展しました。"
+msgstr "我が国は%sで%sを実行し、外交上の事件を引き起こしました。"
 
-# clefs
 #. TRANS: Europeans ... Suitcase Nuke ... San Francisco
 #: server/actiontools.c:465
-#, fuzzy, c-format
+#, c-format
 msgid "The %s have caused an diplomatic incident doing %s to %s."
-msgstr "%sは%sの水源に毒物を混入しようとして事変を引き起こしました。"
+msgstr "%sは%sに%sを実行し、外交上の事件を引き起こしました。"
 
-# clefs
 #. TRANS: Europeans ... Bribe Enemy Unit ... Partisan
 #: server/actiontools.c:475
-#, fuzzy, c-format
+#, c-format
 msgid "The %s have caused an diplomatic incident doing %s to your %s."
-msgstr "%sは%sに対する破壊工作を行い事変を引き起こしました。"
+msgstr "%sは我が国の%sに%sを実行し、外交的な事件を引き起こしました。"
 
 # clefs
 #. TRANS: Europeans ... Explode Nuclear ... (54, 26)
