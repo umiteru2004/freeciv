@@ -6022,7 +6022,7 @@ msgstr "戦略と戦術"
 #: client/gui-gtk-5.0/menu.c:945 client/include/helpdlg_g.h:47
 #: data/helpdata.txt:991
 msgid "City Improvements"
-msgstr "都市建造物"
+msgstr "都市施設"
 
 #: client/gui-gtk-3.22/menu.c:389 client/gui-gtk-4.0/menu.c:948
 #: client/gui-gtk-5.0/menu.c:948 client/gui-qt/menu.cpp:1563
@@ -10428,7 +10428,7 @@ msgstr "なし"
 
 #: client/gui-sdl2/citydlg.c:2499 client/gui-sdl3/citydlg.c:2495
 msgid "City improvements"
-msgstr "都市建造物"
+msgstr "都市施設"
 
 #: client/gui-sdl2/citydlg.c:2515 client/gui-sdl3/citydlg.c:2511
 #, c-format
@@ -14524,7 +14524,7 @@ msgstr[0] "初期ユニットに加え%sが与えられます。\n"
 msgid ""
 "First city will get %s for free in addition to the standard improvements.\n"
 msgstr ""
-"最初の都市にはルールセットで指定された都市建造物に加えて，「%s」が付属しま"
+"最初の都市にはルールセットで指定された都市施設に加えて，「%s」が付属しま"
 "す。\n"
 
 #. TRANS: %s is an and-separated list of improvements
@@ -26703,8 +26703,8 @@ msgid ""
 "can prevent this disaster."
 msgstr ""
 "丘タイルの上または隣接するタイルに建設された都市では，地震が発生する危険性が"
-"あります。その場合は都市建造物のいずれかが失われます。この被害を防ぐことがで"
-"きる都市建造物や科学技術は存在しません。"
+"あります。その場合は都市施設のいずれかが失われます。この被害を防ぐことがで"
+"きる都市施設や科学技術は存在しません。"
 
 #: data/civ1/terrain.ruleset:515 data/civ2/terrain.ruleset:508
 #: data/classic/terrain.ruleset:679 data/sandbox/terrain.ruleset:694
@@ -28477,7 +28477,7 @@ msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all cities."
 msgstr ""
-"この不思議を保有する文明のすべての都市で、維持コストが1の都市建造物の維持コストが0になります。"
+"この不思議を保有する文明のすべての都市で、維持コストが1の都市施設の維持コストが0になります。"
 
 #: data/civ2/buildings.ruleset:1337 data/classic/buildings.ruleset:1385
 #: data/sandbox/buildings.ruleset:1713 data/civ2civ3/buildings.ruleset:1590
@@ -28746,7 +28746,7 @@ msgid ""
 "produce `tithes' (gold) equivalent to the number of people they would "
 "convert, and require no maintenance."
 msgstr ""
-"通常は不幸な市民を平静な市民に変化させる都市建造物は，いわゆる「十分の一税」"
+"通常は不幸な市民を平静な市民に変化させる都市施設は，いわゆる「十分の一税」"
 "として，平静にできる人数と等しい数の金を生産し，維持費はかかりません。"
 
 #: data/civ2/governments.ruleset:237
@@ -30484,7 +30484,7 @@ msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all your cities."
 msgstr ""
-"この不思議を保有する文明のすべての都市で、維持コストが1の都市建造物の維持コストが0になります。"
+"この不思議を保有する文明のすべての都市で、維持コストが1の都市施設の維持コストが0になります。"
 
 # Belgae
 #: data/classic/buildings.ruleset:1404
@@ -31387,7 +31387,7 @@ msgid ""
 "destroy buildings in the city."
 msgstr ""
 "このような大都市には，陸上・海上ユニットに対して防御力に+50%の追加ボーナスが"
-"与えられます。一方で大規模な火災が発生する危険性があり，その場合は都市建造物"
+"与えられます。一方で大規模な火災が発生する危険性があり，その場合は都市施設"
 "のいずれかが全焼します。"
 
 #: data/sandbox/buildings.ruleset:152 data/sandbox/buildings.ruleset:190
@@ -31628,7 +31628,7 @@ msgid ""
 "counteracts the additional pollution associated with any two other buildings."
 msgstr ""
 "過密によって引き起こされる都市公害を減少させます。これを増加させる効果を持つ"
-"都市建造物のうち，2施設分の増加量を相殺することができます。"
+"都市施設のうち，2施設分の増加量を相殺することができます。"
 
 #: data/sandbox/buildings.ruleset:728 data/civ2civ3/buildings.ruleset:726
 #, no-c-format
@@ -31998,7 +31998,7 @@ msgid ""
 "have an upkeep of 1 become free of upkeep. (Communist governments inherently "
 "give this benefit, so there is no bonus under Communism.)"
 msgstr ""
-"証券取引所があるすべての都市で、維持コストが1の都市建造物の維持コストが0になります。（共産主義は既にこの効果を持っているので、共産主義下ではこの不思議は効果がありません。）"
+"証券取引所があるすべての都市で、維持コストが1の都市施設の維持コストが0になります。（共産主義は既にこの効果を持っているので、共産主義下ではこの不思議は効果がありません。）"
 
 #: data/sandbox/buildings.ruleset:1576 data/civ2civ3/buildings.ruleset:1478
 msgid ""
@@ -32075,7 +32075,7 @@ msgid ""
 msgstr ""
 "この不思議を保有する民族に対し，AIはより友好的になります（ただしアポロ計画が"
 "完成すると，この効果は失われます）。また過密によって引き起こされる都市公害を"
-"減少させます。これを増加させる効果を持つ都市建造物のうち，1施設分の増加量を相"
+"減少させます。これを増加させる効果を持つ都市施設のうち，1施設分の増加量を相"
 "殺することができます。"
 
 #: data/sandbox/buildings.ruleset:1745
@@ -32643,7 +32643,7 @@ msgid ""
 "* Base production waste is 30%. This increases with distance from the "
 "capital (half as fast with knowledge of Trade)."
 msgstr ""
-"・あらゆる都市建造物と科学技術は維持コストを必要としません。\n"
+"・あらゆる都市施設と科学技術は維持コストを必要としません。\n"
 "・市民が労働するタイルのうち， 食料・生産・交易ポイントを2ptより多く産出して"
 "いるところには，祝祭中でなければ-1ptのペナルティが課せられます。（サイズ3未満"
 "の都市で祝祭は催されません）\n"
@@ -32826,7 +32826,7 @@ msgid ""
 "* Base corruption is 30%, but is not affected by distance to the capital.\n"
 "* There is no production waste."
 msgstr ""
-"・都市建造物のうち，通常の維持コストが1であるものは，維持コストが0になりま"
+"・都市施設のうち，通常の維持コストが1であるものは，維持コストが0になりま"
 "す。\n"
 "・各都市は無償で3ユニットを維持できます（政治体制の中で最多）。4ユニット目以"
 "降は維持費としてシールド1を必要とします。\n"
@@ -33365,7 +33365,7 @@ msgid ""
 "Reduces the risk of plague in your cities by 30% of the base chance (this is "
 "additive with the benefits of any buildings)."
 msgstr ""
-"各都市で疫病が発生する確率を30%低下させます。同様の効果を持つ都市建造物を建設"
+"各都市で疫病が発生する確率を30%低下させます。同様の効果を持つ都市施設を建設"
 "すると，この確率をさらに低下させることができます。"
 
 #: data/sandbox/techs.ruleset:541 data/civ2civ3/techs.ruleset:536
@@ -33644,7 +33644,7 @@ msgid ""
 "pollution from two buildings in a city, and the Eiffel Tower wonder will "
 "counteract the pollution from one building in all the owner's cities."
 msgstr ""
-"一方，過密により引き起こされる公害 (都市公害) は，一部の都市建造物，すなわち"
+"一方，過密により引き起こされる公害 (都市公害) は，一部の都市施設，すなわち"
 "「工場」・「高速幹線道路」・「海上プラットフォーム」・「製造プラント」が原因"
 "で発生します。それぞれの効果は加算されるため，いずれかを建設するごとに公害が"
 "増加してゆきます。都市に「公共交通機関」を建設することで，これらのうち2施設分"
@@ -33813,7 +33813,7 @@ msgstr ""
 "が+50%増加します。この防御ボーナスは仮設滑走路のそれと加算されるため，ミサイ"
 "ルも含む航空ユニットによる攻撃に対しては，防御力が+100%増加します。航空ユニッ"
 "トが飛行場のあるタイルに丸1ターンの間移動せず留まっていた場合，体力が最大値の"
-"1/3回復します (これは都市建造物「空港」と同じ値です)。付近に友好的な都市があ"
+"1/3回復します (これは都市施設「空港」と同じ値です)。付近に友好的な都市があ"
 "るとき，戦闘ユニットは不幸市民を発生させません。またユニットの視界が拡大しま"
 "す。"
 
@@ -37273,7 +37273,7 @@ msgstr ""
 " 6. 都市建設地の決定\n"
 "\n"
 "    都市建設に最も適している場所は好みの問題です。海に面した都市は敵に見つか"
-"りやすく，海上ユニットからの攻撃を受けます(いずれ都市建造物の「沿岸防衛」が必"
+"りやすく，海上ユニットからの攻撃を受けます(いずれ都市施設の「沿岸防衛」が必"
 "要になるでしょう)。しかし海上ユニットを生産することができ，洋上の敵を見つけや"
 "すくもあります。海に面した都市を建設しないときは，敵はあなたの都市を見つけに"
 "くいことでしょう。最高の戦術は両方に都市を建設することです。"
@@ -37590,7 +37590,7 @@ msgid ""
 "The net benefit of a tile for your city depends on your government type as "
 "well as city improvements and wonders."
 msgstr ""
-"タイルから都市に入る最終的な収益は，都市建造物や不思議，政治体制によって決ま"
+"タイルから都市に入る最終的な収益は，都市施設や不思議，政治体制によって決ま"
 "ります。"
 
 #: data/helpdata.txt:323
@@ -38030,7 +38030,7 @@ msgid ""
 "immediately after completion."
 msgstr ""
 "各プレイヤーは、いくつかの制限はあるものの、自分の科学技術によって解禁された"
-"生産物を自由に生産することができます。詳細については、「都市建造物」、「世界"
+"生産物を自由に生産することができます。詳細については、「都市施設」、「世界"
 "の不思議」、「ユニット」節を参照してください。ゲームでは、支援でき"
 "ないユニットや維持費が払えない建物を生産する自由さえ与えられています。"
 
@@ -38437,7 +38437,7 @@ msgid ""
 msgstr ""
 "都市は様々な建造物によって機能を拡張できます。建造物には，生産性を高めるも"
 "の，軍事的な強さを高めるもの，新たな能力を追加するものがあります。詳細につい"
-"ては「都市建造物」節および「世界の不思議」節を参照してください。"
+"ては「都市施設」節および「世界の不思議」節を参照してください。"
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:760
@@ -38649,7 +38649,7 @@ msgid ""
 "the classic rules. Some wonders of the world can also have this effect. See "
 "the appropriate sections for details."
 msgstr ""
-"都市建造物の中には，過密が原因の不幸市民を平静にする効果を持つものがありま"
+"都市施設の中には，過密が原因の不幸市民を平静にする効果を持つものがありま"
 "す。classicルールセットでは寺院やコロシアムなどがそうです。世界の不思議の中に"
 "も，この効果を持つものがあります。詳細については対応する節を参照してくださ"
 "い。"
@@ -38692,7 +38692,7 @@ msgid ""
 "military or diplomatic tensions."
 msgstr ""
 "これらが原因の不幸市民は，都市数や過密が原因の不幸市民とは異なり，贅沢ポイン"
-"トやほとんどの都市建造物では平静にすることができません。classicルールセットで"
+"トやほとんどの都市施設では平静にすることができません。classicルールセットで"
 "は，｢警察署｣と不思議｢婦人参政権｣が戦闘ユニットを原因とする不幸市民に対処でき"
 "ます。また限られた一部の不思議，例えば｢J.S.バッハの大聖堂｣は全ての不幸市民に"
 "対して効果があります。"
@@ -38854,7 +38854,7 @@ msgstr "・贅沢ポイントおよび科学ポイントの産出量。"
 #: data/helpdata.txt:966
 msgid ""
 " - The quantity of city improvements (and wonders), measured by build cost."
-msgstr "・都市建造物および不思議の件数。（建設コストが評価されます）"
+msgstr "・都市施設および不思議の件数。（建設コストが評価されます）"
 
 #: data/helpdata.txt:969
 msgid ""
@@ -38863,7 +38863,7 @@ msgid ""
 "cities; these are noted in other sections of the help. (The classic ruleset "
 "contains no such effects.)"
 msgstr ""
-"・他の要素。（ルールセットによります。例えば政治体制や都市建造物などが都市の"
+"・他の要素。（ルールセットによります。例えば政治体制や都市施設などが都市の"
 "魅力度を上下する要素になっている場合があります。それらはヘルプの別の節で注記"
 "されます。classicルールセットには，それら追加要素は存在しません。）"
 
@@ -38905,7 +38905,7 @@ msgid ""
 "different effect. Each city may have only one of each improvement, and some "
 "improvements require others to have been built first."
 msgstr ""
-"都市建造物を建てることで，都市の機能を強化することができます。建造物にはそれ"
+"都市施設を建てることで，都市の機能を強化することができます。建造物にはそれ"
 "ぞれ異なる効果があります。1つの都市に建てられる建造物は，各種類1個ずつです。"
 "また建造物の中には，既に特定の建造物が建っていないと建設できないものもありま"
 "す。"
@@ -38925,7 +38925,7 @@ msgstr ""
 "分の建造物は1ターンあたり金1以上の維持コストを必要とします。建造物は解体して"
 "売却することもできます。その際は，建造物を建てるために必要な生産ポイントと等"
 "しい値の金を受け取ることができます。ただし，1つの都市ではターンごとに1個の建"
-"造物しか売却できません。ターンの開始時に，帝国内のすべての都市建造物の維持コ"
+"造物しか売却できません。ターンの開始時に，帝国内のすべての都市施設の維持コ"
 "ストを支払うことができない場合，いくつかの建造物が自動的に売却されます。これ"
 "は明らかに避けるべきことです。あなたが売ってもいいと思う建造物が選択されると"
 "は限らないのですから。"
@@ -38951,7 +38951,7 @@ msgid ""
 msgstr ""
 "不思議は特別な建造物です。それぞれの不思議を完成させられるのはゲーム内で1人の"
 "プレイヤーに限られます。また不思議の多くは文明全体に影響を与えます。各都市の"
-"生産ポイントで建てるものである通常の都市建造物とは異なり，他の都市で生産した"
+"生産ポイントで建てるものである通常の都市施設とは異なり，他の都市で生産した"
 "特別なユニット（classicルールセットではキャラバンおよび貨物運送車）を不思議建"
 "造中の都市に送ると，そのユニットを作成するために使用した生産ポイントをまるま"
 "る不思議建造のために投入できます。"
@@ -39068,7 +39068,7 @@ msgid ""
 "surviving combat), which may provide further levels of bonuses beyond those "
 "available from their initial training."
 msgstr ""
-"ユニットの能力値は，練度が上昇することで強化されます。都市建造物や他の影響に"
+"ユニットの能力値は，練度が上昇することで強化されます。都市施設や他の影響に"
 "より，高い練度のユニットを生産することができます。また完成してからも，経験を"
 "通じて（戦闘に勝利するなど）練度を上昇させることができます。これによって，ユ"
 "ニットは完成時よりも更に練度を高め，より大きな能力値ボーナスが得られます。"
@@ -39818,7 +39818,7 @@ msgid ""
 "Research into technology is a necessity for improving the ability of your "
 "civilization to develop new military units and city improvements."
 msgstr ""
-"科学技術の研究は，あなたの文明の，新しい戦闘ユニットや都市建造物を開発する能"
+"科学技術の研究は，あなたの文明の，新しい戦闘ユニットや都市施設を開発する能"
 "力を向上させるために不可欠です。"
 
 #: data/helpdata.txt:1523
@@ -39876,7 +39876,7 @@ msgid ""
 "immediately sold, and obsolete wonders lose their effect. See the relevant "
 "sections for more information."
 msgstr ""
-"科学技術の進歩により，ユニット，都市建造物，不思議が旧式化することがありま"
+"科学技術の進歩により，ユニット，都市施設，不思議が旧式化することがありま"
 "す。旧式化したユニットは単に新たに生産することができなくなるだけです。既に生"
 "産したユニットには影響しません。旧式化した建造物は直ちに売却されます。旧式化"
 "した不思議は効果を失います。詳細についてはそれぞれに対応する節を参照してくだ"
@@ -39908,7 +39908,7 @@ msgid ""
 msgstr ""
 "classicルールセットにおいては，プレイヤーの誰かが不思議「アポロ計画」を完成さ"
 "せない限り，宇宙船の部品を生産することはできません。また生産に必要な科学技術"
-"を獲得することも必要です。都市建造物の｢宇宙船構造物｣，｢宇宙コンポーネント｣，"
+"を獲得することも必要です。都市施設の｢宇宙船構造物｣，｢宇宙コンポーネント｣，"
 "｢宇宙モジュール｣についてのヘルプを参照してください。(これらについてのヘルプが"
 "ない場合は，おそらくサーバーオプション 'victories' で科学勝利が無効になってい"
 "ます。)"
@@ -40909,7 +40909,7 @@ msgid ""
 "items from the available list into the worklist and Delete to delete the "
 "selected item from the worklist."
 msgstr ""
-"キーボードショートカット：\n "
+"キーボードショートカット:\n "
 "\n"
 "【Home/End】\n"
 "作業リスト/タスク候補にフォーカス\n"
@@ -41062,7 +41062,7 @@ msgstr ""
 msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all your cities on the same continent."
-msgstr "この不思議が建設された都市と同じ大陸にある、この不思議を保有する文明のすべての都市で、維持コストが1の都市建造物の維持コストを0にします。"
+msgstr "この不思議が建設された都市と同じ大陸にある、この不思議を保有する文明のすべての都市で、維持コストが1の都市施設の維持コストを0にします。"
 
 # Belgae
 #: data/multiplayer/buildings.ruleset:1327
@@ -44061,7 +44061,7 @@ msgstr ""
 "この問題を処理するにはいくつかの方法があります。手っ取り早い\n"
 "対処法は寺院（あるいは他の文化建造物）を建設することです。寺院は\n"
 "不幸な市民1人を平静にします（建造物の種類ごとの機能については，\n"
-"ヘルプの「都市建造物」の節を参照してください）。大きな都市が増えて\n"
+"ヘルプの「都市施設」の節を参照してください）。大きな都市が増えて\n"
 "くると，税率を変更して（Ctrl+Tキーを押す），税の一部を直接贅沢に\n"
 "つぎ込むことが必要になるかもしれません（贅沢2につき1人の市民を\n"
 "なだめることができます）。市場を建設すると，贅沢の効果が大きくなります\n"
@@ -44314,7 +44314,7 @@ msgstr ""
 "兵舎が完成しました。この建造物がある都市では，練度が1段階高い\n"
 "ベテランの戦闘ユニットを生産することができます。ベテランユニットは\n"
 "新兵よりも強いため，戦闘で生き残りやすくなります。兵舎やその他の\n"
-"建造物についての詳細は，ヘルプの「都市建造物」の項を参照してください。\n"
+"建造物についての詳細は，ヘルプの「都市施設」の項を参照してください。\n"
 "\n"
 "兵舎を建設した都市では戦闘ユニットの生産を始めた方がいいでしょう。\n"
 "兵舎にはかなりの投資をしているわけですし，わずかながら維持コストも\n"
@@ -45169,7 +45169,7 @@ msgid ""
 "%sFreeciv %s buildings help (%s)%s\n"
 "\n"
 msgstr ""
-"<h1>Freeciv %s 都市建造物ヘルプ</h1>\n"
+"<h1>Freeciv %s 都市施設ヘルプ</h1>\n"
 "\n"
 
 #. TRANS: markup ... Freeciv version ... ruleset name ... markup
@@ -45544,12 +45544,11 @@ msgstr "%sは%sに%sを実行し、外交上の事件を引き起こしました
 msgid "The %s have caused an diplomatic incident doing %s to your %s."
 msgstr "%sは我が国の%sに%sを実行し、外交的な事件を引き起こしました。"
 
-# clefs
 #. TRANS: Europeans ... Explode Nuclear ... (54, 26)
 #: server/actiontools.c:486
-#, fuzzy, c-format
+#, c-format
 msgid "The %s have caused an diplomatic incident doing %s at %s."
-msgstr "%sは%sで破壊工作を行い事変を引き起こしました。"
+msgstr "%sは%sで%sを実行し、外交的な事件を引き起こしました。"
 
 #. TRANS: Suitcase Nuke
 #: server/actiontools.c:515
@@ -45605,12 +45604,10 @@ msgstr ""
 msgid "Cannot find setup function from ai module %s (%s)"
 msgstr "AIモジュール%sからセットアップ機能が見つかりません(%s)"
 
-# clefs
-# 建設中の不思議がなかった場合
 #: server/aiiface.c:120
 #, c-format
 msgid "Setup of ai module %s failed."
-msgstr "AIモジュール %sのセットアップに失敗しました。"
+msgstr "AIモジュール%sのセットアップに失敗しました。"
 
 #: server/aiiface.c:170 server/aiiface.c:181 server/aiiface.c:192
 #: server/aiiface.c:203
@@ -45623,13 +45620,10 @@ msgstr ""
 msgid "Failed to setup default AI module \"%s\", cannot continue."
 msgstr ""
 
-# clefs
-# このあたりは翻訳しても，日本語でサーバを走らせない限り意味がないのですけど。
-# freeciv.orgなどのサーバからのメッセージは英語のままなわけです。
 #: server/auth.c:86
 #, c-format
 msgid "Warning: the guest name '%s' has been taken, renaming to user '%s'."
-msgstr "警告: ゲスト名 '%s' は既に使われているので '%s' に変更します。"
+msgstr "警告: ゲスト名'%s'は既に使用されているため'%s'に変更しました。"
 
 # clefs
 #: server/auth.c:92
@@ -45652,7 +45646,6 @@ msgstr ""
 "ユーザーデータベースの読み込みにエラーが発生したので，ゲスト接続'%s'としてロ"
 "グインしています。"
 
-# clefs
 # Belgae
 #: server/auth.c:118
 msgid ""
@@ -45662,7 +45655,6 @@ msgstr ""
 "ユーザーデータベースの読み込みにエラーが発生しました。ゲストでの接続は許可さ"
 "れていません。ごめんね。"
 
-# clefs
 # Belgae
 #: server/auth.c:121
 #, c-format
@@ -45711,20 +45703,18 @@ msgstr ""
 "警告: データベースへの保存にエラーがありました。続行しますが，あなたの状態は"
 "保存されません。"
 
-# 意訳 (clefs)
 #: server/auth.c:222
 #, c-format
 msgid "%s was rejected: Too many wrong password tries."
-msgstr "%s は拒絶されました: パスワード認証に失敗しました。"
+msgstr "%sは拒絶されました: パスワードの試行回数が多すぎます。"
 
 #: server/auth.c:224 server/auth.c:244
 msgid "auth failed"
 msgstr "認証失敗"
 
-# 戯訳 ;-)
 #: server/auth.c:231
 msgid "Your password is incorrect. Try again."
-msgstr "じゅもんが　ちがいます"
+msgstr "パスワードが間違っています。もう一度お試しください。"
 
 # clefs
 #: server/auth.c:241
@@ -45769,7 +45759,7 @@ msgstr "%2$sによって%1$s付近の住民が動揺しています。"
 msgid "Sea raiders seen near %s!"
 msgstr "%s付近に海賊が見えます！"
 
-# yasu, clefs
+# clefs
 #: server/cityhand.c:251
 msgid "You have already sold something here this turn."
 msgstr "このターンで既に何かを売却しています。"
@@ -45888,7 +45878,6 @@ msgstr "%2$sに駐留する %1$s を%3$sから%4$sへ引き渡しました。"
 msgid "Transferred %s from %s to %s."
 msgstr "%sを%sから%sへ引き渡しました。"
 
-# clefs
 # Belgae
 #. TRANS: Polish Destroyer ... German <city>
 #: server/citytools.c:687
@@ -46104,17 +46093,14 @@ msgstr[0] "(今は陸地で囲まれている)%2$sの %1$sを %3$dで売りま�
 msgid "The size of the city map of %s is %s."
 msgstr "%sの都市圏が%sしました。"
 
-# "The size of the city map of %s is %s."の後者の%sに代入されます。
 #: server/citytools.c:3554
 msgid "increased"
 msgstr "拡大"
 
-# "The size of the city map of %s is %s."の後者の%sに代入されます。
 #: server/citytools.c:3555
 msgid "reduced"
 msgstr "縮小"
 
-# yasu
 # Belgae
 #: server/cityturn.c:247
 #, fuzzy, c-format
@@ -46150,11 +46136,10 @@ msgid "%s needs %s (being built) to grow beyond size %d."
 msgstr "%1$s がサイズ %3$dより大きくなるには %2$s(建設中)が必要です。"
 
 # clefs
-# 水道か下水道のこと
 #: server/cityturn.c:941
 #, c-format
 msgid "%s needs an improvement to grow beyond size %d."
-msgstr "%s がサイズ %dより大きくなるには都市建造物が必要です。"
+msgstr "%s がサイズ %dより大きくなるには都市施設が必要です。"
 
 #: server/cityturn.c:1019
 #, c-format
@@ -52812,7 +52797,7 @@ msgid ""
 "This affects how quickly units and buildings can be produced.  The base "
 "costs are multiplied by this value (as a percentage)."
 msgstr ""
-"ユニットおよび都市建造物の生産/建造スピードに影響します。基本値にこの係数"
+"ユニットおよび都市施設の生産/建造スピードに影響します。基本値にこの係数"
 "（パーセント）がかけられます。"
 
 #: server/settings.c:2266
@@ -53419,7 +53404,7 @@ msgstr ""
 "プレイヤーが少なくともこの数の都市を持っているときに首都が占領されると，内戦"
 "が勃発します。このオプションを最大値に設定すると，内戦は完全にやみます。"
 
-# 鉱山とか都市建造物も使えないと誤解されないように，「インフラ」ではなく「交通路」と限定しました。また，「制限」だと効果が弱まるもののある程度の効果があるように読めてしまうかもしれないので「禁止」としました。(Belgae)
+# 鉱山とか都市施設も使えないと誤解されないように，「インフラ」ではなく「交通路」と限定しました。また，「制限」だと効果が弱まるもののある程度の効果があるように読めてしまうかもしれないので「禁止」としました。(Belgae)
 #: server/settings.c:2701
 msgid "Restrict the use of the infrastructure for enemy units"
 msgstr "敵ユニットによる交通路の使用を禁止する"
@@ -53534,7 +53519,7 @@ msgid ""
 msgstr ""
 "移民の有効/無効を制御する基本設定です。有効にすると，市民が自動的に判断して，"
 "魅力のない都市から魅力的な都市へ移住することがあります。都市の「魅力度」はい"
-"くつかの要素から計算されます。一般的に言って，大きくて収入が多く都市建造物が"
+"くつかの要素から計算されます。一般的に言って，大きくて収入が多く都市施設が"
 "たくさんある都市が好まれます。市民は首都から他都市に移住することはありません"
 "（そうでないと移民で首都が解散するというおかしなことが起きるからです）。移民"
 "の挙動については他にもいくつかの設定項目があります:\n"
@@ -61986,7 +61971,7 @@ msgstr ""
 #~ msgstr "都市の研究成果を100%増やします。"
 
 # ama, clefs, Daniel
-# was "全ての都市で、都市建造物の維持費1をなくします。"
+# was "全ての都市で、都市施設の維持費1をなくします。"
 # Belgae
 #, fuzzy
 #~ msgid ""
