@@ -64,7 +64,7 @@
 # 新規メッセージを翻訳し，非公式置換ファイルとして公開していました。
 # このたび一通り翻訳し終えたので公式に採用してもらうことにしました。
 # 未訳を翻訳するだけでなく，既訳部分もかなり手を入れており，ユニット名や
-# 建造物名などもいくつか変更しています。これはなるべく本家Civilization
+# 都市施設名などもいくつか変更しています。これはなるべく本家Civilization
 # の訳語に近づけたものです。今まで慣れていた名称が変わることにご不満の
 # 方も多いかと思いますが，新規プレイヤーにはそのほうが良いかと考えたものです。
 # 2010/08/14
@@ -555,7 +555,7 @@ msgstr "*先住民の集落から得られるボーナスが減少します。"
 #: ai/handicaps.c:92
 msgid "Prefers defensive buildings and avoids close diplomatic relations."
 msgstr ""
-"*都市の防御力を高める建造物を優先して建設します。また他国との同盟に消極的で"
+"*都市の防御力を高める都市施設を優先して建設します。また他国との同盟に消極的で"
 "す。"
 
 #: ai/handicaps.c:95
@@ -970,7 +970,7 @@ msgstr "%1$sは%4$sから「%2$s」と「%3$s」を得ました。"
 #, fuzzy
 #| msgid "%+4d : Building tithes\n"
 msgid "?city_surplus:Building tithes"
-msgstr "%+4d : 建造物からの十分の一税\n"
+msgstr "%+4d : 都市施設からの十分の一税\n"
 
 #: client/citydlg_common.c:854 client/citydlg_common.c:863
 #, c-format
@@ -2579,7 +2579,7 @@ msgstr "破壊対象の選択"
 #: client/gui-gtk-4.0/action_dialog.c:805
 #: client/gui-gtk-5.0/action_dialog.c:805
 msgid "_Improvements:"
-msgstr "建造物(_I)"
+msgstr "都市施設(_I)"
 
 #: client/gui-gtk-3.22/action_dialog.c:830
 #: client/gui-gtk-4.0/action_dialog.c:826
@@ -3130,7 +3130,7 @@ msgstr "買う(_B)"
 #: client/gui-gtk-3.22/citydlg.c:1043 client/gui-gtk-4.0/citydlg.c:1023
 #: client/gui-gtk-5.0/citydlg.c:1023
 msgid "I_mprovements:"
-msgstr "建造物(_M)"
+msgstr "都市施設(_M)"
 
 #: client/gui-gtk-3.22/citydlg.c:1068 client/gui-gtk-3.22/citydlg.c:1336
 #: client/gui-gtk-3.22/wldlg.c:996 client/gui-gtk-4.0/citydlg.c:1046
@@ -3151,7 +3151,7 @@ msgstr "都市マップ"
 #: client/gui-gtk-5.0/citydlg.c:1200 client/gui-gtk-5.0/editprop.c:4529
 #: client/gui-qt/cityrep.cpp:739 gen_headers/enums/manual_enums.def:11
 msgid "Buildings"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: client/gui-gtk-3.22/citydlg.c:1274 client/gui-gtk-4.0/citydlg.c:1231
 #: client/gui-gtk-5.0/citydlg.c:1231
@@ -3375,7 +3375,7 @@ msgstr[0] "生産（1ターンに最大 %dユニットまで）"
 #: client/gui-gtk-5.0/citydlg.c:2085
 msgid "Press <b>ENTER</b> or double-click to sell an improvement."
 msgstr ""
-"建造物を売却するには，<b>ENTERキー</b>を押すかダブルクリックしてください。"
+"都市施設を売却するには，<b>ENTERキー</b>を押すかダブルクリックしてください。"
 
 #: client/gui-gtk-3.22/citydlg.c:2202 client/gui-gtk-4.0/citydlg.c:2087
 #: client/gui-gtk-5.0/citydlg.c:2087
@@ -3711,7 +3711,7 @@ msgstr "開く(_I)"
 #: client/gui-gtk-3.22/cityrep.c:1597 client/gui-sdl2/helpdlg.c:339
 #: client/gui-sdl3/helpdlg.c:336
 msgid "Improvements"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: client/gui-gtk-3.22/cityrep.c:1520 client/gui-gtk-3.22/cityrep.c:1539
 #: client/gui-gtk-3.22/cityrep.c:1558 client/gui-gtk-3.22/cityrep.c:1577
@@ -3744,7 +3744,7 @@ msgstr "ユニットを生産中"
 #: client/gui-gtk-3.22/cityrep.c:1804 client/gui-gtk-4.0/cityrep.c:1751
 #: client/gui-gtk-5.0/cityrep.c:1772 client/gui-qt/cityrep.cpp:978
 msgid "Building Improvements"
-msgstr "建造物を建設中"
+msgstr "都市施設を建設中"
 
 #: client/gui-gtk-3.22/cityrep.c:1810 client/gui-gtk-4.0/cityrep.c:1758
 #: client/gui-gtk-5.0/cityrep.c:1779 client/gui-qt/cityrep.cpp:981
@@ -3757,7 +3757,7 @@ msgstr "ユニットを生産中"
 
 #: client/gui-gtk-3.22/cityrep.c:1826
 msgid "Building Improvement"
-msgstr "建造物を建設中"
+msgstr "都市施設を建設中"
 
 #: client/gui-gtk-3.22/cityrep.c:1830
 msgid "Building Wonder"
@@ -3783,7 +3783,7 @@ msgstr "駐留ユニット"
 
 #: client/gui-gtk-3.22/cityrep.c:1860 client/gui-qt/cityrep.cpp:985
 msgid "Improvements in City"
-msgstr "都市の建造物"
+msgstr "都市施設"
 
 #: client/gui-gtk-3.22/cityrep.c:1864 client/gui-qt/cityrep.cpp:989
 msgid "Wonders in City"
@@ -3796,7 +3796,7 @@ msgstr "生産できるユニット"
 
 #: client/gui-gtk-3.22/cityrep.c:1876 client/gui-qt/cityrep.cpp:1007
 msgid "Available Improvements"
-msgstr "建設できる建造物"
+msgstr "建設できる都市施設"
 
 #: client/gui-gtk-3.22/cityrep.c:1879 client/gui-qt/cityrep.cpp:1011
 msgid "Available Wonders"
@@ -5207,7 +5207,7 @@ msgstr "贅沢:"
 #: client/gui-gtk-3.22/happiness.c:210 client/gui-gtk-4.0/happiness.c:180
 #: client/gui-gtk-5.0/happiness.c:180 client/gui-qt/citydlg.cpp:1840
 msgid "Buildings:"
-msgstr "建造物: "
+msgstr "都市施設: "
 
 #: client/gui-gtk-3.22/happiness.c:211 client/gui-gtk-4.0/happiness.c:181
 #: client/gui-gtk-5.0/happiness.c:181 client/gui-qt/citydlg.cpp:1841
@@ -7551,7 +7551,7 @@ msgstr "本当に%sを売却しますか？ （合計 %d）"
 #: client/gui-gtk-5.0/repodlgs.c:1047 client/gui-qt/repodlgs.cpp:1503
 #: client/gui-qt/repodlgs.cpp:1546
 msgid "Sell Improvements"
-msgstr "建造物を売却"
+msgstr "都市施設を売却"
 
 #. TRANS: %s is a unit
 #: client/gui-gtk-3.22/repodlgs.c:1035 client/gui-gtk-4.0/repodlgs.c:1069
@@ -8081,7 +8081,7 @@ msgstr "生産物の変更(_U)"
 #, fuzzy
 #| msgid "Improvements"
 msgid "Improvement"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: client/gui-gtk-4.0/cityrep.c:1585 client/gui-gtk-4.0/cityrep.c:1782
 #: client/gui-gtk-4.0/cityrep.c:1828 client/gui-gtk-4.0/cityrep.c:1852
@@ -8126,7 +8126,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "Buildings"
 msgid "Building %s"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: client/gui-gtk-4.0/cityrep.c:1804 client/gui-gtk-5.0/cityrep.c:1825
 #, fuzzy, c-format
@@ -8325,7 +8325,7 @@ msgstr "縮小"
 #: client/gui-qt/citydlg.cpp:1643 client/gui-qt/citydlg.cpp:1647
 #, fuzzy
 msgid "Show buildings"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: client/gui-qt/citydlg.cpp:1653 client/gui-qt/citydlg.cpp:1655
 #: client/options.c:2523
@@ -8487,7 +8487,7 @@ msgstr[0] "%sを金%dで買いますか?"
 #: client/gui-qt/citydlg.cpp:3521
 #, fuzzy
 msgid "Improvements - upkeep %1"
-msgstr "建造物"
+msgstr "都市施設"
 
 # Daniel
 #: client/gui-qt/citydlg.cpp:3662
@@ -8821,7 +8821,7 @@ msgstr "新しいプレイヤー %sの作成に失敗しました。"
 #, fuzzy
 #| msgid "Buildings"
 msgid "Building"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: client/gui-qt/gotodlg.cpp:59
 #, fuzzy
@@ -10994,7 +10994,7 @@ msgstr "先"
 
 #: client/gui-sdl2/helpdlg.c:246 client/gui-sdl3/helpdlg.c:242
 msgid "Help : Improvements"
-msgstr "ヘルプ : 建造物"
+msgstr "ヘルプ : 都市施設"
 
 #: client/gui-sdl2/helpdlg.c:439 client/gui-sdl3/helpdlg.c:436
 #: tools/manual/manual_buildings.c:83 tools/manual/manual_buildings.c:103
@@ -12338,7 +12338,7 @@ msgid ""
 "%s A 'small wonder': at most one of your cities may possess this "
 "improvement.\n"
 msgstr ""
-"・「ちょっとした不思議」: この建造物はあなたが有する都市のうち1都市にしか建設"
+"・「ちょっとした不思議」: この都市施設はあなたが有する都市のうち1都市にしか建設"
 "できません。\n"
 
 #. TRANS: 'Allows all players with knowledge of atomic
@@ -12450,12 +12450,12 @@ msgstr ""
 #, c-format
 msgid "%s Makes it impossible to do the action '%s' to its city.\n"
 msgstr ""
-"%s この建造物がある都市に、アクション「%s」を実行することはできません。\n"
+"%s この都市施設がある都市に、アクション「%s」を実行することはできません。\n"
 
 # NOTE: 手動で追加した項目
 msgid "* Makes it impossible to do the action '%s' to its city.\n"
 msgstr ""
-"・この建造物がある都市に、アクション「%s」を実行することはできません。\n"
+"・この都市施設がある都市に、アクション「%s」を実行することはできません。\n"
 
 #. TRANS: Incite City
 #: client/helpdata.c:1713
@@ -12511,7 +12511,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "* All players start with this improvement in their first city.\n"
 msgid "%s All players start with this improvement in their first city.\n"
-msgstr "・この建造物は最初の都市に付属します。\n"
+msgstr "・この都市施設は最初の都市に付属します。\n"
 
 #. TRANS: %s is a nation plural
 #: client/helpdata.c:1801
@@ -12532,7 +12532,7 @@ msgid ""
 "free in another of your cities (if the 'savepalace' server setting is "
 "enabled).\n"
 msgstr ""
-"・この建造物を備えた都市を失うと，他の都市に無償で再建されます（サーバーオプ"
+"・この都市施設を備えた都市を失うと，他の都市に無償で再建されます（サーバーオプ"
 "ション'savepalace'が有効である場合）。\n"
 
 # clefs
@@ -14269,7 +14269,7 @@ msgstr "・都市が敵に占領された際にパルチザンの蜂起がある
 msgid ""
 "%s Buildings that normally confer bonuses against unhappiness will instead "
 "give gold.\n"
-msgstr "・通常では不幸対策となる建造物は代わりに現金をもたらします。\n"
+msgstr "・通常では不幸対策となる都市施設は代わりに現金をもたらします。\n"
 
 # clefs
 #. TRANS: %s is list of unit types separated by 'or'
@@ -15869,7 +15869,7 @@ msgid ""
 "dialog and the production tab of the city dialog."
 msgstr ""
 "これを無効にすると，作業リストダイアログおよび都市ダイアログの生産タブにユ"
-"ニットや建造物のアイコンを表示しなくなります。"
+"ニットや都市施設のアイコンを表示しなくなります。"
 
 # clefs
 #: client/options.c:2751 client/options.c:2972 client/options.c:3193
@@ -16174,7 +16174,7 @@ msgid ""
 "display the building lists in the city dialog, the Economy report or the "
 "Units report."
 msgstr ""
-"このフォントは，小さなフォントに使用されます。例えば，都市ダイアログの建造物"
+"このフォントは，小さなフォントに使用されます。例えば，都市ダイアログの都市施設"
 "リストや，経済報告，ユニット報告などです。"
 
 #: client/options.c:2929 client/options.c:3150 client/options.c:3371
@@ -16554,7 +16554,7 @@ msgstr "文化"
 # clefs
 #: client/repodlgs_common.c:166
 msgid "You cannot sell improvements."
-msgstr "建造物の売却はできません。"
+msgstr "都市施設の売却はできません。"
 
 #. TRANS: Obscure observer error.
 #: client/repodlgs_common.c:207
@@ -18765,7 +18765,7 @@ msgstr "なにもしない"
 #, fuzzy
 #| msgid "Buildings"
 msgid "buildings in"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: common/actres.h:67
 #, fuzzy
@@ -18894,7 +18894,7 @@ msgstr "科学技術: %s"
 #: common/events.c:53
 #, c-format
 msgid "Improvement: %s"
-msgstr "建造物: %s"
+msgstr "都市施設: %s"
 
 #: common/events.c:54
 #, c-format
@@ -18976,7 +18976,7 @@ msgstr "強制売却"
 
 #: common/events.c:95
 msgid "New Improvement Selected"
-msgstr "新しい建造物の選択"
+msgstr "新しく生産する都市施設の選択"
 
 #: common/events.c:96
 msgid "Sold"
@@ -21017,7 +21017,7 @@ msgstr "そのタイルに地形クラス「 %s 」が必要です。\n"
 #: common/reqtext.c:875
 #, fuzzy, c-format
 msgid "Prevented by \"%s\" building in a city on the tile."
-msgstr "都市に建造物「 %s 」が必要です。\n"
+msgstr "都市施設「 %s 」が必要です。\n"
 
 #: common/reqtext.c:894
 #, fuzzy, c-format
@@ -24064,7 +24064,7 @@ msgid ""
 "An Aqueduct also eliminates a city's risk of plague causing loss of "
 "population, and of fire causing loss of buildings."
 msgstr ""
-"また上水道を整備すると，疫病の蔓延と火災による建造物の焼失を効果的に防ぐこと"
+"また上水道を整備すると，疫病の蔓延と火災による都市施設の焼失を効果的に防ぐこと"
 "ができます。"
 
 #: data/civ1/buildings.ruleset:110 data/civ2/buildings.ruleset:141
@@ -24961,7 +24961,7 @@ msgstr ""
 "シンプルなのが特徴です。もしあなたがclassicルールセットしか知らないのであれ"
 "ば，ある程度時間をかけて違いを確認した方が良いでしょう。\n"
 "\n"
-" ・科学技術・建造物・ユニットの種類が少なくなっています。\n"
+" ・科学技術・都市施設・ユニットの種類が少なくなっています。\n"
 " ・ユニットの体力は減少しません。戦闘に勝利したユニットは，無傷の状態に戻りま"
 "す。\n"
 
@@ -27845,8 +27845,8 @@ msgid ""
 "is currently producing."
 msgstr ""
 "・「都市の調査」:都市の詳細な情報，すなわち都市のステータス[訳注:食料/生産/交"
-"易ポイントの産出状況や蓄積量など]，都市内にある建造物やユニット，現在建造/生"
-"産している建造物/ユニットを明らかにします。"
+"易ポイントの産出状況や蓄積量など]，都市内にある都市施設やユニット，現在建造/生"
+"産している都市施設/ユニットを明らかにします。"
 
 #: data/civ1/units.ruleset:1472 data/civ2/units.ruleset:2265
 #: data/classic/units.ruleset:2240 data/sandbox/units.ruleset:2652
@@ -27859,8 +27859,8 @@ msgid ""
 "the chance of success. Sabotage may only be attempted when openly at war."
 msgstr ""
 "・「破壊工作」:現在の生産物に投入されている生産ポイントを0にするか，または都"
-"市に存在する建造物のいずれかを破壊します。対象はランダムに選ばれます。既に完"
-"成している宮殿および不思議は破壊できません。また，城壁および首都の建造物を破"
+"市に存在する都市施設のいずれかを破壊します。対象はランダムに選ばれます。既に完"
+"成している宮殿および不思議は破壊できません。また，城壁および首都の都市施設を破"
 "壊する場合の成功率は半分に低下します。破壊工作は敵国に対してのみ行えます。"
 
 #: data/civ1/units.ruleset:1479 data/civ2/units.ruleset:2272
@@ -28648,7 +28648,7 @@ msgid ""
 "Capitalization means its shield production is converted to tax output "
 "(money)."
 msgstr ""
-"これは普通の建造物ではありません。都市の生産を現金化に設定すると，生産ポイン"
+"これは普通の都市施設ではありません。都市の生産を現金化に設定すると，生産ポイン"
 "トが税（金）に変換されて産出されます。"
 
 #: data/civ2/game.ruleset:26
@@ -30027,7 +30027,7 @@ msgstr ""
 " ・科学技術を指定して盗む（ただし指定しない場合より成功率が下がります）\n"
 " ・以前に科学技術を盗んだことのある都市から，さらに科学技術を盗む（ただし盗み"
 "を重ねるごとに，阻止される可能性が高くなります）\n"
-" ・都市の建造物を指定して破壊する(ただし指定しない場合より成功率が下がります)"
+" ・都市の都市施設を指定して破壊する(ただし指定しない場合より成功率が下がります)"
 
 #: data/civ2/units.ruleset:2350 data/classic/units.ruleset:2337
 #: data/sandbox/units.ruleset:2765 data/civ2civ3/units.ruleset:2588
@@ -30567,7 +30567,7 @@ msgid ""
 "Coinage means its shield production is converted to tax output (money, "
 "coins!)."
 msgstr ""
-"これは普通の建造物ではありません。都市の生産を貨幣にセットすると，生産物を税"
+"これは普通の都市施設ではありません。都市の生産を貨幣にセットすると，生産物を税"
 "金として得ます。"
 
 #: data/classic/cities.ruleset:72 data/multiplayer/cities.ruleset:71
@@ -33464,7 +33464,7 @@ msgstr "海洋"
 #: data/sandbox/terrain.ruleset:27 data/civ2civ3/terrain.ruleset:27
 msgid "Allows cities to build Harbors and coastal wonders."
 msgstr ""
-"この地形に隣接する都市でのみ建設できる建造物・不思議があります (「港」など)。"
+"この地形に隣接する都市でのみ建設できる都市施設・不思議があります (「港」など)。"
 
 #: data/sandbox/terrain.ruleset:29
 msgid "DifficultLanding"
@@ -34621,8 +34621,8 @@ msgid ""
 "is currently producing. The unit is not consumed by this action."
 msgstr ""
 "・「都市の調査」:都市の詳細な情報，すなわち都市のステータス[訳注:食料/生産/交"
-"易ポイントの産出状況や蓄積量など]，都市内にある建造物やユニット，現在建造/生"
-"産している建造物/ユニットを明らかにします。"
+"易ポイントの産出状況や蓄積量など]，都市内にある都市施設やユニット，現在建造/生"
+"産している都市施設/ユニットを明らかにします。"
 
 #: data/sandbox/units.ruleset:2665 data/civ2civ3/units.ruleset:2491
 #, fuzzy
@@ -34711,7 +34711,7 @@ msgstr ""
 " ・科学技術を指定して盗む（ただし指定しない場合より成功率が下がります）\n"
 " ・以前に科学技術を盗んだことのある都市から，さらに科学技術を盗む（ただし盗み"
 "を重ねるごとに，阻止される可能性が高くなります）\n"
-" ・都市の建造物を指定して破壊する(ただし指定しない場合より成功率が下がります)"
+" ・都市の都市施設を指定して破壊する(ただし指定しない場合より成功率が下がります)"
 
 #: data/sandbox/units.ruleset:2769 data/civ2civ3/units.ruleset:2592
 msgid ""
@@ -37872,7 +37872,7 @@ msgid ""
 "ends."
 msgstr ""
 "どの都市にも食料を貯蔵する穀物庫が備わっています（classicルールセットでは，こ"
-"の能力を拡張する唯一の手段は「穀物庫」という建造物を建設することです）。都市"
+"の能力を拡張する唯一の手段は「穀物庫」という都市施設を建設することです）。都市"
 "の食料ポイント産出量から市民が必要とする分を除いたものが余剰として穀物庫に貯"
 "えられ，逆に産出量が必要量を満たさない場合はその分穀物庫の貯蔵量が減少しま"
 "す。食料が必要なのに穀物庫に貯えがない場合は，市民は餓えに苦しみます。まず食"
@@ -37941,11 +37941,11 @@ msgid ""
 "remain available to be applied towards the next project."
 msgstr ""
 "都市所属のユニットが必要とする分を超えた生産ポイントは，その都市での現在の生"
-"産物として選択されているユニット，建造物，不思議へと充当されます。食料ポイン"
+"産物として選択されているユニット，都市施設，不思議へと充当されます。食料ポイン"
 "トは都市の穀物庫に蓄積されていき，満杯になると市民が増加します。それと同様"
 "に，生産ポイントは生産物を完成するためのコストまで蓄積されていきます。蓄積が"
-"完了すると生産物が出現します。ユニットはマップ上に出現しますが，建造物および"
-"不思議は都市の建造物リストに追加されます。余った生産ポイントはそのまま利用で"
+"完了すると生産物が出現します。ユニットはマップ上に出現しますが，都市施設および"
+"不思議は都市の都市施設リストに追加されます。余った生産ポイントはそのまま利用で"
 "き，次に目標とする生産物へと充てることができます。"
 
 #: data/helpdata.txt:510
@@ -37981,7 +37981,7 @@ msgstr ""
 "科学技術などの要因により，1つの都市が1ターンに複数のユニットを生産することも"
 "できます。「生産枠」が複数ある都市でユニットの生産を指示している場合，生産ポ"
 "イントが許す限り，生産枠の数までの（同一種の）ユニットを1ターンのうちに生産可"
-"能です。生産の際に都市人口を必要とするユニットはこのルールの例外で，建造物と"
+"能です。生産の際に都市人口を必要とするユニットはこのルールの例外で，都市施設と"
 "同様に1ターンに生産できるのは1つのみです。"
 
 #: data/helpdata.txt:528
@@ -38042,7 +38042,7 @@ msgid ""
 "You can spend gold to complete a project in one turn by hitting the Buy "
 "button on the city dialog."
 msgstr ""
-"都市での生産物はいつでも別の生産物に変更可能です。ただし，建造物，ユニット，"
+"都市での生産物はいつでも別の生産物に変更可能です。ただし，都市施設，ユニット，"
 "不思議という3つの分類のいずれかに含まれる生産物を，他の2つの分類に含まれる生"
 "産物に切り替えた場合，蓄積されていた生産ポイントは半減します。都市ダイアログ"
 "の「買う」ボタンを押して金を払うと，生産物を1ターンで完成させることができま"
@@ -38435,7 +38435,7 @@ msgid ""
 "the sections on City Improvements and Wonders of the World for more "
 "information."
 msgstr ""
-"都市は様々な建造物によって機能を拡張できます。建造物には，生産性を高めるも"
+"都市は様々な都市施設によって機能を拡張できます。都市施設には，生産性を高めるも"
 "の，軍事的な強さを高めるもの，新たな能力を追加するものがあります。詳細につい"
 "ては「都市施設」節および「世界の不思議」節を参照してください。"
 
@@ -38905,9 +38905,9 @@ msgid ""
 "different effect. Each city may have only one of each improvement, and some "
 "improvements require others to have been built first."
 msgstr ""
-"都市施設を建てることで，都市の機能を強化することができます。建造物にはそれ"
-"ぞれ異なる効果があります。1つの都市に建てられる建造物は，各種類1個ずつです。"
-"また建造物の中には，既に特定の建造物が建っていないと建設できないものもありま"
+"都市施設を建てることで，都市の機能を強化することができます。都市施設にはそれ"
+"ぞれ異なる効果があります。1つの都市に建てられる都市施設は，各種類1個ずつです。"
+"また都市施設の中には，既に特定の都市施設が建っていないと建設できないものもありま"
 "す。"
 
 #: data/helpdata.txt:996
@@ -38921,13 +38921,13 @@ msgid ""
 "obviously this should be avoided as the improvements chosen might not be "
 "ones you would have preferred to sell."
 msgstr ""
-"建造物を建てる際には，生産ポイントを消費します。またひとたび完成すると，大部"
-"分の建造物は1ターンあたり金1以上の維持コストを必要とします。建造物は解体して"
-"売却することもできます。その際は，建造物を建てるために必要な生産ポイントと等"
+"都市施設を建てる際には，生産ポイントを消費します。またひとたび完成すると，大部"
+"分の都市施設は1ターンあたり金1以上の維持コストを必要とします。都市施設は解体して"
+"売却することもできます。その際は，都市施設を建てるために必要な生産ポイントと等"
 "しい値の金を受け取ることができます。ただし，1つの都市ではターンごとに1個の建"
 "造物しか売却できません。ターンの開始時に，帝国内のすべての都市施設の維持コ"
-"ストを支払うことができない場合，いくつかの建造物が自動的に売却されます。これ"
-"は明らかに避けるべきことです。あなたが売ってもいいと思う建造物が選択されると"
+"ストを支払うことができない場合，いくつかの都市施設が自動的に売却されます。これ"
+"は明らかに避けるべきことです。あなたが売ってもいいと思う都市施設が選択されると"
 "は限らないのですから。"
 
 #: data/helpdata.txt:1006
@@ -38936,9 +38936,9 @@ msgid ""
 "technologies, and some improvements can become obsolete, at which point they "
 "are automatically sold."
 msgstr ""
-"ほとんどの建造物は，対応する科学技術を研究し終えるまで建てることができませ"
-"ん。また科学技術の進歩に伴って，一部の建造物は旧式化します。旧式化した時点で"
-"それらの建造物は自動的に売却されます。"
+"ほとんどの都市施設は，対応する科学技術を研究し終えるまで建てることができませ"
+"ん。また科学技術の進歩に伴って，一部の都市施設は旧式化します。旧式化した時点で"
+"それらの都市施設は自動的に売却されます。"
 
 #: data/helpdata.txt:1017
 msgid ""
@@ -38949,7 +38949,7 @@ msgid ""
 "classic ruleset) can contribute their full cost in production points towards "
 "the construction of a wonder in another city."
 msgstr ""
-"不思議は特別な建造物です。それぞれの不思議を完成させられるのはゲーム内で1人の"
+"不思議は特別な都市施設です。それぞれの不思議を完成させられるのはゲーム内で1人の"
 "プレイヤーに限られます。また不思議の多くは文明全体に影響を与えます。各都市の"
 "生産ポイントで建てるものである通常の都市施設とは異なり，他の都市で生産した"
 "特別なユニット（classicルールセットではキャラバンおよび貨物運送車）を不思議建"
@@ -39878,7 +39878,7 @@ msgid ""
 msgstr ""
 "科学技術の進歩により，ユニット，都市施設，不思議が旧式化することがありま"
 "す。旧式化したユニットは単に新たに生産することができなくなるだけです。既に生"
-"産したユニットには影響しません。旧式化した建造物は直ちに売却されます。旧式化"
+"産したユニットには影響しません。旧式化した都市施設は直ちに売却されます。旧式化"
 "した不思議は効果を失います。詳細についてはそれぞれに対応する節を参照してくだ"
 "さい。"
 
@@ -40541,7 +40541,7 @@ msgstr ""
 "何を優先的に産出すべきかを指定する方法はいろいろあります。都市ダイアログを開"
 "いて都市政府タブをクリックしてください。2種類のスライダーがあります。左側のスラ"
 "イダーではそれぞれの産出物について最低要求値を設定できます。例えば「金」を+3"
-"に設定した場合，その都市では建造物の維持コストに加えて，最低でも毎ターン+3の"
+"に設定した場合，その都市では都市施設の維持コストに加えて，最低でも毎ターン+3の"
 "金を産出するようになります。右側のスライダーは，ある産出物を他と比較してどれ"
 "ほど重要視しているか，その「重み」を示します。例えば，「科学」を3に設定した場"
 "合，科学1ポイントを生産（あるいは金・交易）3ポイント以上に評価することを意味"
@@ -41757,7 +41757,7 @@ msgid ""
 "This is not a normal improvement. Instead, setting a city's production to "
 "this means its shield production is converted to infra points."
 msgstr ""
-"これは普通の建造物ではありません。都市の生産を貨幣にセットすると，生産物を税"
+"これは普通の都市施設ではありません。都市の生産を貨幣にセットすると，生産物を税"
 "金として得ます。"
 
 #: data/granularity/cities.ruleset:48
@@ -42088,7 +42088,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Buildings"
 msgid "Road Building"
-msgstr "建造物"
+msgstr "都市施設"
 
 #: data/granularity/techs.ruleset:501
 msgid "Allows build actual roads."
@@ -43984,7 +43984,7 @@ msgstr ""
 "イ\n"
 "ルで市民が働いているかが表示されます。情報欄には，食料・生産(シールド)・交\n"
 "易ポイントの産出量も表示されます。食料ポイントを貯めることで都市の人口が増\n"
-"します。生産ポイントを貯めることで建造物やユニットが生産されます。交易ポイン"
+"します。生産ポイントを貯めることで都市施設やユニットが生産されます。交易ポイン"
 "ト\n"
 "は研究・税収・贅沢の3用途に配分されて利用されます。\n"
 "\n"
@@ -44059,8 +44059,8 @@ msgstr ""
 "言えます。\n"
 "\n"
 "この問題を処理するにはいくつかの方法があります。手っ取り早い\n"
-"対処法は寺院（あるいは他の文化建造物）を建設することです。寺院は\n"
-"不幸な市民1人を平静にします（建造物の種類ごとの機能については，\n"
+"対処法は寺院（あるいは他の文化都市施設）を建設することです。寺院は\n"
+"不幸な市民1人を平静にします（都市施設の種類ごとの機能については，\n"
 "ヘルプの「都市施設」の節を参照してください）。大きな都市が増えて\n"
 "くると，税率を変更して（Ctrl+Tキーを押す），税の一部を直接贅沢に\n"
 "つぎ込むことが必要になるかもしれません（贅沢2につき1人の市民を\n"
@@ -44128,13 +44128,13 @@ msgid ""
 msgstr ""
 "おめでとうございます。都市の大きさが13になりました。これほど大きな都市\n"
 "では，適切に土地改良をしていれば，途方もない量の生産高が得られます。\n"
-"市民を平静に保つために，税と文化建造物が十分に足りているか確認して\n"
-"ください。また，生産高へのボーナス効果がある建造物で都市自体を改良する\n"
+"市民を平静に保つために，税と文化都市施設が十分に足りているか確認して\n"
+"ください。また，生産高へのボーナス効果がある都市施設で都市自体を改良する\n"
 "ことにも気を配りましょう。図書館，市場，工場，海上プラットフォームの4つは，\n"
-"大都市に大きなボーナスを提供する優れた建造物です。これらの建造物を\n"
+"大都市に大きなボーナスを提供する優れた都市施設です。これらの都市施設を\n"
 "建設することによる利益とコストを比較検討してください。非常に大きな都市で\n"
-"あれば，どの建造物もおそらく建てる価値があるでしょう。このような大都市では\n"
-"税収入（金）も十分得られるため，生産高を増すために建造物を購入する\n"
+"あれば，どの都市施設もおそらく建てる価値があるでしょう。このような大都市では\n"
+"税収入（金）も十分得られるため，生産高を増すために都市施設を購入する\n"
 "という方法も採れます。"
 
 #: data/scenarios/tutorial.sav:268
@@ -44311,10 +44311,10 @@ msgid ""
 "and have a small upkeep as well, so it is not a good idea to let\n"
 "them go to waste."
 msgstr ""
-"兵舎が完成しました。この建造物がある都市では，練度が1段階高い\n"
+"兵舎が完成しました。この都市施設がある都市では，練度が1段階高い\n"
 "ベテランの戦闘ユニットを生産することができます。ベテランユニットは\n"
 "新兵よりも強いため，戦闘で生き残りやすくなります。兵舎やその他の\n"
-"建造物についての詳細は，ヘルプの「都市施設」の項を参照してください。\n"
+"都市施設についての詳細は，ヘルプの「都市施設」の項を参照してください。\n"
 "\n"
 "兵舎を建設した都市では戦闘ユニットの生産を始めた方がいいでしょう。\n"
 "兵舎にはかなりの投資をしているわけですし，わずかながら維持コストも\n"
@@ -44383,7 +44383,7 @@ msgid ""
 "(F1) to return to the map view."
 msgstr ""
 "最初の科学技術を獲得しました！科学技術の進歩は，Freecivにおいて\n"
-"欠かすことのできない概念です。より優れたユニット・建造物の生産や，異なる\n"
+"欠かすことのできない概念です。より優れたユニット・都市施設の生産や，異なる\n"
 "政治体制への移行，様々なボーナスの無償での取得が可能になります。\n"
 "\n"
 "ここで，研究タブをいじってみましょう。F6キーを押すと研究タブが開きます。\n"
@@ -46902,7 +46902,7 @@ msgstr "%sからの移民は，食料不足のため %sに移住できません�
 msgid ""
 "Migrants from %s can't go to %s (%s) because it needs an improvement to grow!"
 msgstr ""
-"%sからの移民は，都市拡大に必要な建造物がないため %s(%s)に移住できませんでし"
+"%sからの移民は，都市拡大に必要な都市施設がないため %s(%s)に移住できませんでし"
 "た。"
 
 #. TRANS: From <city1> (<city1 nation adjective>) to <city2>.
@@ -46911,7 +46911,7 @@ msgstr ""
 msgid ""
 "Migrants from %s (%s) can't go to %s because it needs an improvement to grow!"
 msgstr ""
-"%s(%s)からの移民は，都市拡大に必要な建造物がないため %sに移住できませんでし"
+"%s(%s)からの移民は，都市拡大に必要な都市施設がないため %sに移住できませんでし"
 "た。"
 
 #: server/cityturn.c:4141
@@ -48849,7 +48849,7 @@ msgstr "%sが離叛しました。 %sの関与が疑われます。"
 #: server/diplomats.c:1323
 #, c-format
 msgid "Your %s was caught in the attempt of industrial sabotage!"
-msgstr "%sは建造物を破壊しようとした疑いで逮捕されました。"
+msgstr "%sは都市施設を破壊しようとした疑いで逮捕されました。"
 
 #: server/diplomats.c:1328
 #, c-format
@@ -53469,7 +53469,7 @@ msgid ""
 msgstr ""
 "オンにしている場合に首都が占領されたら，他のランダムに選ばれた都市に無償かつ"
 "自動的に宮殿が再建されます。これは宮殿の建設に必要な科学技術を持っているかど"
-"うかに関係なく発生します（ルールセットによっては，宮殿以外の建造物にもこの設"
+"うかに関係なく発生します（ルールセットによっては，宮殿以外の都市施設にもこの設"
 "定が影響する場合があります）。"
 
 #: server/settings.c:2745
@@ -60279,7 +60279,7 @@ msgstr ""
 #~ "A Genetic Laboratory allows the genetic optimization of plants and "
 #~ "animals. The food output is increased by 25% if the city size exceeds 20."
 #~ msgstr ""
-#~ "遺伝子研究所では薬物の研究が行われます。この建造物のある都市における疫病の"
+#~ "遺伝子研究所では薬物の研究が行われます。この都市施設のある都市における疫病の"
 #~ "発生率が低下します。\n"
 #~ "遺伝子研究所は植物および動物を遺伝子操作して効率を上げます。サイズが20を超"
 #~ "えた都市での食料産出量が25%増加します。"
@@ -61829,7 +61829,7 @@ msgstr ""
 #~ msgstr "中立国"
 
 # clefs
-# 建造物
+# 都市施設
 #~ msgid "Allows %s."
 #~ msgstr "・「%s」を建設することが可能になります。"
 
@@ -61917,7 +61917,7 @@ msgstr ""
 #~ "need a buoy placed in the tile to take advantage of the shield bonus "
 #~ "(buoys are tile improvements available with the discovery of Radio)."
 #~ msgstr ""
-#~ "市民が働いているすべての海洋タイルで生産ポイントを1多く得ます。この建造物"
+#~ "市民が働いているすべての海洋タイルで生産ポイントを1多く得ます。この都市施設"
 #~ "を建てるには，都市が海岸に面している必要があります。"
 
 #, fuzzy
@@ -61979,8 +61979,8 @@ msgstr ""
 #~ "upkeep, for every city with a Stock Exchange.  It also increases to 3 the "
 #~ "output of Taxman specialists for every nation."
 #~ msgstr ""
-#~ "同じ大陸内にあなたが所有するすべての都市で，通常なら維持コストが1かかる都"
-#~ "市建造物の維持コストを0にします。"
+#~ "同じ大陸内にあなたが所有するすべての都市で，通常なら維持コストが1かかる"
+#~ "都市施設の維持コストを0にします。"
 
 # ama, clefs
 #, fuzzy
