@@ -1254,7 +1254,7 @@ msgstr "平和"
 
 #: client/cityrepdata.c:602
 msgid "(worklist)"
-msgstr "(作業リスト)"
+msgstr "(生産待ちリスト)"
 
 #: client/cityrepdata.c:745
 msgid "?city:Name"
@@ -3610,7 +3610,7 @@ msgstr "%sは全く売却できませんでした。"
 #: client/gui-gtk-5.0/cityrep.c:1039 client/gui-qt/citydlg.cpp:2751
 #: client/gui-qt/cityrep.cpp:477
 msgid "(no worklists defined)"
-msgstr "(作業リスト未定義)"
+msgstr "(生産待ちリスト未定義)"
 
 #: client/gui-gtk-3.22/cityrep.c:1053 client/gui-gtk-4.0/cityrep.c:1128
 #: client/gui-gtk-4.0/cityrep.c:1691 client/gui-gtk-5.0/cityrep.c:1149
@@ -3647,17 +3647,17 @@ msgstr "最後に加える(_L)"
 #: client/gui-gtk-3.22/cityrep.c:1083 client/gui-gtk-4.0/cityrep.c:1658
 #: client/gui-gtk-5.0/cityrep.c:1679
 msgid "Set Worklist"
-msgstr "作業リストを設定する"
+msgstr "生産待ちリストを設定する"
 
 #: client/gui-gtk-3.22/cityrep.c:1089 client/gui-gtk-4.0/cityrep.c:1662
 #: client/gui-gtk-5.0/cityrep.c:1683
 msgid "Append Worklist"
-msgstr "作業リストを付け加える"
+msgstr "生産待ちリストを付け加える"
 
 #: client/gui-gtk-3.22/cityrep.c:1095 client/gui-gtk-4.0/cityrep.c:1669
 #: client/gui-gtk-5.0/cityrep.c:1690
 msgid "Clear _Worklist"
-msgstr "作業リストを消去する(_W):"
+msgstr "生産待ちリストを消去する(_W):"
 
 #: client/gui-gtk-3.22/cityrep.c:1100 client/gui-gtk-4.0/cityrep.c:894
 #: client/gui-gtk-4.0/cityrep.c:1131 client/gui-gtk-5.0/cityrep.c:915
@@ -5885,7 +5885,7 @@ msgstr "都市をさがす(_F)"
 #: client/gui-gtk-3.22/menu.c:308 client/gui-gtk-4.0/menu.c:589
 #: client/gui-gtk-5.0/menu.c:589
 msgid "Work_lists"
-msgstr "作業リスト(_L)"
+msgstr "生産待ちリスト(_L)"
 
 #: client/gui-gtk-3.22/menu.c:311 client/gui-gtk-4.0/menu.c:592
 #: client/gui-gtk-5.0/menu.c:592
@@ -6107,7 +6107,7 @@ msgstr "チャット行"
 #: client/gui-gtk-5.0/menu.c:996 client/include/helpdlg_g.h:38
 #: data/helpdata.txt:1996
 msgid "Worklist Editor"
-msgstr "作業リストエディタ"
+msgstr "生産待ちリストエディタ"
 
 #: client/gui-gtk-3.22/menu.c:423 client/gui-gtk-4.0/menu.c:999
 #: client/gui-gtk-5.0/menu.c:999 client/include/helpdlg_g.h:35
@@ -8027,7 +8027,7 @@ msgstr "新規"
 #: client/gui-gtk-3.22/wldlg.c:219 client/gui-gtk-4.0/wldlg.c:223
 #: client/gui-gtk-5.0/wldlg.c:223
 msgid "Edit worklists"
-msgstr "作業リストの編集"
+msgstr "生産待ちリストの編集"
 
 #: client/gui-gtk-3.22/wldlg.c:222 client/gui-gtk-4.0/wldlg.c:226
 #: client/gui-gtk-5.0/wldlg.c:226
@@ -8037,12 +8037,12 @@ msgstr ""
 #: client/gui-gtk-3.22/wldlg.c:274 client/gui-gtk-4.0/wldlg.c:274
 #: client/gui-gtk-5.0/wldlg.c:274
 msgid "_Worklists:"
-msgstr "作業リスト(_W):"
+msgstr "生産待ちリスト(_W):"
 
 #: client/gui-gtk-3.22/wldlg.c:510 client/gui-gtk-4.0/wldlg.c:527
 #: client/gui-gtk-5.0/wldlg.c:527
 msgid "Edit Global _Worklists"
-msgstr "グローバル作業リストを編集(_W)"
+msgstr "グローバル生産待ちリストを編集(_W)"
 
 #: client/gui-gtk-3.22/wldlg.c:996 client/gui-gtk-4.0/wldlg.c:1017
 #: client/gui-gtk-5.0/wldlg.c:1017
@@ -8052,7 +8052,7 @@ msgstr "ターン"
 #: client/gui-gtk-3.22/wldlg.c:1112 client/gui-gtk-4.0/wldlg.c:1193
 #: client/gui-gtk-5.0/wldlg.c:1193
 msgid "Source _Tasks:"
-msgstr "タスク候補(_T):"
+msgstr "生産物リスト(_T):"
 
 #: client/gui-gtk-3.22/wldlg.c:1116 client/gui-gtk-4.0/wldlg.c:1197
 #: client/gui-gtk-5.0/wldlg.c:1197
@@ -8062,12 +8062,12 @@ msgstr "全表示(_F)"
 #: client/gui-gtk-3.22/wldlg.c:1205 client/gui-gtk-4.0/wldlg.c:1292
 #: client/gui-gtk-5.0/wldlg.c:1292
 msgid "Target _Worklist:"
-msgstr "作業リスト(_W):"
+msgstr "生産待ちリスト(_W):"
 
 # clefs
 #: client/gui-gtk-3.22/wldlg.c:1221
 msgid "_Add Global Worklist"
-msgstr "グローバル作業リストから追加(_A)"
+msgstr "グローバル生産待ちリストから追加(_A)"
 
 #: client/gui-gtk-3.22/wldlg.c:1236 client/gui-gtk-4.0/wldlg.c:1317
 #: client/gui-gtk-5.0/wldlg.c:1317
@@ -8104,7 +8104,7 @@ msgstr "この都市に所属させる"
 #, fuzzy, c-format
 #| msgid "Set Worklist"
 msgid "Set %s last"
-msgstr "作業リストを設定する"
+msgstr "生産待ちリストを設定する"
 
 #. TRANS: Menu name to be used like "Set Improvement next"
 #. *        This is about adding item after current one on the worklist.
@@ -8355,7 +8355,7 @@ msgstr "前の都市へ"
 
 #: client/gui-qt/citydlg.cpp:1759
 msgid "Worklist Option"
-msgstr "作業リストオプション"
+msgstr "生産待ちリストオプション"
 
 #: client/gui-qt/citydlg.cpp:1774
 msgid "Click to change current production"
@@ -8380,7 +8380,7 @@ msgstr "最後に加える"
 
 #: client/gui-qt/citydlg.cpp:1800 client/gui-qt/cityrep.cpp:499
 msgid "Worklist"
-msgstr "作業リスト"
+msgstr "生産待ちリスト"
 
 #: client/gui-qt/citydlg.cpp:1864
 msgid "Presets:"
@@ -8446,15 +8446,15 @@ msgstr "削除"
 
 #: client/gui-qt/citydlg.cpp:2740
 msgid "Change worklist"
-msgstr "作業リストを変更する"
+msgstr "生産待ちリストを変更する"
 
 #: client/gui-qt/citydlg.cpp:2741
 msgid "Insert worklist"
-msgstr "作業リストを追加する"
+msgstr "生産待ちリストを追加する"
 
 #: client/gui-qt/citydlg.cpp:2767
 msgid "Save worklist"
-msgstr "作業リストを保存"
+msgstr "生産待ちリストを保存"
 
 #: client/gui-qt/citydlg.cpp:2769 client/gui-qt/menu.cpp:979
 #: client/gui-qt/menu.cpp:981 client/gui-qt/pages.cpp:211
@@ -8492,16 +8492,16 @@ msgstr "都市施設"
 # Daniel
 #: client/gui-qt/citydlg.cpp:3662
 msgid "What should we name new worklist?"
-msgstr "新しい作業リストの名前は何にしますか？"
+msgstr "新しい生産待ちリストの名前は何にしますか？"
 
 #: client/gui-qt/citydlg.cpp:3663
 msgid "Save current worklist"
-msgstr "現在の作業リストを保存"
+msgstr "現在の生産待ちリストを保存"
 
 #: client/gui-qt/citydlg.cpp:3664
 #, fuzzy
 msgid "New worklist"
-msgstr "新規作業リスト追加"
+msgstr "新規生産待ちリスト追加"
 
 #. TRANS: city dialog title
 #: client/gui-qt/citydlg.cpp:3698
@@ -10005,7 +10005,7 @@ msgstr "自動開拓"
 #: client/gui-qt/shortcuts.cpp:81
 #, fuzzy
 msgid "Append focus"
-msgstr "作業リストを付け加える"
+msgstr "生産待ちリストを付け加える"
 
 #: client/gui-qt/shortcuts.cpp:83
 msgid "Popup tile info"
@@ -10631,7 +10631,7 @@ msgstr "支援ユニット報告"
 #: client/gui-sdl2/cityrep.c:559 client/gui-sdl2/cityrep.c:1099
 #: client/gui-sdl3/cityrep.c:555 client/gui-sdl3/cityrep.c:1095
 msgid "worklist"
-msgstr "作業リスト"
+msgstr "生産待ちリスト"
 
 #: client/gui-sdl2/cityrep.c:563 client/gui-sdl3/cityrep.c:559
 msgid ""
@@ -11515,7 +11515,7 @@ msgstr "ローカルオプション"
 
 #: client/gui-sdl2/optiondlg.c:842 client/gui-sdl3/optiondlg.c:856
 msgid "Worklists"
-msgstr "作業リスト"
+msgstr "生産待ちリスト"
 
 #: client/gui-sdl2/optiondlg.c:853 client/gui-sdl3/optiondlg.c:867
 msgid "Save Local Options"
@@ -11535,12 +11535,12 @@ msgstr "変更の適用"
 
 #: client/gui-sdl2/optiondlg.c:1155 client/gui-sdl3/optiondlg.c:1169
 msgid "empty worklist"
-msgstr "空の作業リスト"
+msgstr "空の生産待ちリスト"
 
 # clefs
 #: client/gui-sdl2/optiondlg.c:1261 client/gui-sdl3/optiondlg.c:1275
 msgid "Add new worklist"
-msgstr "新規作業リスト追加"
+msgstr "新規生産待ちリスト追加"
 
 #. TRANS: Freeciv 3.2.0
 #: client/gui-sdl2/pages.c:164 client/gui-sdl3/pages.c:164
@@ -11842,7 +11842,7 @@ msgid ""
 "%s"
 msgstr ""
 "%sの\n"
-"作業リスト"
+"生産待ちリスト"
 
 #: client/gui-sdl2/wldlg.c:1478 client/gui-sdl3/wldlg.c:1474
 #, c-format
@@ -15860,7 +15860,7 @@ msgstr ""
 
 #: client/options.c:2746 client/options.c:2967 client/options.c:3188
 msgid "Show worklist task icons"
-msgstr "作業リストでのアイコン表示"
+msgstr "生産待ちリストでのアイコン表示"
 
 # clefs
 #: client/options.c:2747 client/options.c:2968 client/options.c:3189
@@ -15868,7 +15868,7 @@ msgid ""
 "Disabling this will turn off the unit and building icons in the worklist "
 "dialog and the production tab of the city dialog."
 msgstr ""
-"これを無効にすると，作業リストダイアログおよび都市ダイアログの生産タブにユ"
+"これを無効にすると，生産待ちリストダイアログおよび都市ダイアログの生産タブにユ"
 "ニットや都市施設のアイコンを表示しなくなります。"
 
 # clefs
@@ -19058,7 +19058,7 @@ msgstr "都市マップに変更あり"
 
 #: common/events.c:115
 msgid "Worklist Events"
-msgstr "作業リストイベント"
+msgstr "生産待ちリストイベント"
 
 # clefs
 #: common/events.c:116
@@ -23221,7 +23221,7 @@ msgstr "Removed"
 #: common/requirements.h:284
 #, fuzzy
 msgid "Append"
-msgstr "作業リストを付け加える"
+msgstr "生産待ちリストを付け加える"
 
 #: common/research.c:89
 msgid "Future Tech."
@@ -35258,7 +35258,7 @@ msgstr ""
 #: data/alien/game.ruleset:28
 #, fuzzy
 msgid "Alien World"
-msgstr "作業リストを付け加える"
+msgstr "生産待ちリストを付け加える"
 
 #. TRANS: In the client, this is displayed alongside the contents of
 #. ;    README.alien, which are not localized.
@@ -38000,15 +38000,15 @@ msgid ""
 "following turn. This can be used to limit the number of units produced by "
 "highly productive cities."
 msgstr ""
-"都市では，いくつかの生産物のリストを「作業リスト」に指定しておくことができま"
-"す。これにより，何ターンかごとに生産状況を確認する手間を省けます。作業リスト"
+"都市では，いくつかの生産物のリストを「生産待ちリスト」に指定しておくことができま"
+"す。これにより，何ターンかごとに生産状況を確認する手間を省けます。生産待ちリスト"
 "の各項目は，単一の生産物（ユニットなど）を表します。都市はこれらの生産物を順"
-"番に生産していきます。作業リストに指定された項目を生産し終わると，可能であれ"
+"番に生産していきます。生産待ちリストに指定された項目を生産し終わると，可能であれ"
 "ば最後の項目を再び生産しようとします。不可能な場合は新たな目標を自動的に選択"
 "します。都市が金を生産している（classicルールでは「貨幣」の生産）場合，そのま"
-"まではこの活動は停止しません。作業リストに項目を追加すると，金の生産が停止"
+"まではこの活動は停止しません。生産待ちリストに項目を追加すると，金の生産が停止"
 "し，次のターンからは追加した項目の生産が始まります。ルールセットで許している"
-"場合，作業リストに並んでいる同種のユニットを1ターンのうちに複数生産することが"
+"場合，生産待ちリストに並んでいる同種のユニットを1ターンのうちに複数生産することが"
 "あります。しかし，リスト中で別種の項目に到達すると，生産は次のターンになるま"
 "で一時中断します。これを使えば，生産力の大きい都市でのユニット生産数を制限で"
 "きます。"
@@ -40478,7 +40478,7 @@ msgstr ""
 "    F12: 宇宙船を開く\n"
 "\n"
 "        Ctrl+F: 都市検索ダイアログを開く\n"
-"        Ctrl+L: 作業リストダイアログを開く\n"
+"        Ctrl+L: 生産待ちリストダイアログを開く\n"
 "        Ctrl+T: 税/贅沢/科学ダイアログを開く\n"
 "  Shift+Ctrl+R: 革命ダイアログを開く\n"
 "\n"
@@ -40879,8 +40879,8 @@ msgid ""
 "city dialog) and global worklists. Using this editor you can create lists "
 "specifying what to build in the turns to come."
 msgstr ""
-"作業リストエディタは，都市ごとの作業リスト(都市ダイアログから開きます)と全体"
-"の作業リストの両方を編集するために使用します。このエディタを利用して，将来の"
+"生産待ちリストエディタは，都市ごとの生産待ちリスト(都市ダイアログから開きます)と全体"
+"の生産待ちリストの両方を編集するために使用します。このエディタを利用して，将来の"
 "ターンに何を生産するかのリストを作成できます。"
 
 #: data/helpdata.txt:2001
@@ -40889,7 +40889,7 @@ msgid ""
 "available items. You can also press the Help button to get help on the "
 "selected item. Pressing Help with no item selected will display this page."
 msgstr ""
-"作業リストにアイテムを追加するには，生産可能アイテムリストの希望するアイテム"
+"生産待ちリストにアイテムを追加するには，生産可能アイテムリストの希望するアイテム"
 "の上でダブルクリックします。アイテムを選択してヘルプボタンを押すと，ヘルプを"
 "見ることができます。アイテムを選択せずにヘルプを押すと，このページが表示され"
 "ます。[訳註: 現行のGTKクライアントではアイテムを選択しないとヘルプボタンは無"
@@ -40899,7 +40899,7 @@ msgstr ""
 msgid ""
 "To remove an item from the worklist simply double-click the item to remove. "
 "Use the buttons below the worklist to move items up and/or down in the list."
-msgstr "作業リストから項目を削除するには、その項目をダブルクリックします。項目の順番を入れ替えるには、リストの右にある上下ボタンを使用します。"
+msgstr "生産待ちリストから項目を削除するには、その項目をダブルクリックします。項目の順番を入れ替えるには、リストの右にある上下ボタンを使用します。"
 
 #: data/helpdata.txt:2008
 msgid ""
@@ -40912,7 +40912,7 @@ msgstr ""
 "キーボードショートカット:\n "
 "\n"
 "【Home/End】\n"
-"作業リスト/タスク候補にフォーカス\n"
+"生産待ちリスト/生産物リストにフォーカス\n"
 "\n"
 "【上/下カーソルキー】\n"
 "上/下の項目を選択\n"
@@ -40921,15 +40921,15 @@ msgstr ""
 "項目を上/下に移動\n"
 "\n"
 "【スペースキー】\n"
-"タスク候補から作業リストに項目を挿入（フォーカスがタスク候補にあるとき）\n"
-"作業リスト項目を削除（フォーカスが作業リストにあるとき）"
+"生産物リストから生産待ちリストに項目を挿入（フォーカスが生産物リストにあるとき）\n"
+"生産待ちリスト項目を削除（フォーカスが生産待ちリストにあるとき）"
 
 #: data/helpdata.txt:2014
 msgid ""
 "If you want to buy the unit that's first on the list, you can do that from "
 "the City Overview window."
 msgstr ""
-"作業リスト先頭の生産物は、都市ダイアログの概観タブからも購入することができます。"
+"生産待ちリスト先頭の生産物は、都市ダイアログの概観タブからも購入することができます。"
 
 # Belgae
 #: data/helpdata.txt:2021
@@ -42959,7 +42959,7 @@ msgstr "サパ・インカ %s"
 #: data/nation/inca.ruleset:36
 #, c-format
 msgid "Sapa Qoya %s"
-msgstr "サパ・クオヤ"
+msgstr "サパ・クオヤ %s"
 
 #: data/nation/indian.ruleset:8
 msgid ""
@@ -43883,10 +43883,10 @@ msgstr ""
 "ユニットを選んでください。ゲーム開始時は戦士以外の選択肢があり\n"
 "ませんが，すぐに様々なユニットが生産できるようになります。\n"
 "\n"
-"都市ダイアログの生産物ページでは，作業リストを使い生産計画を\n"
-"立てることができます。タスク候補の中の兵舎を選択し，「生産物の\n"
+"都市ダイアログの生産物ページでは，生産待ちリストを使い生産計画を\n"
+"立てることができます。生産物リストの中の兵舎を選択し，「生産物の\n"
 "変更」をクリックすると建設が始まります。次に戦闘ユニットをダブル\n"
-"クリックすると，作業リストの後ろに追加されます。こうすると都市は\n"
+"クリックすると，生産待ちリストの後ろに追加されます。こうすると都市は\n"
 "兵舎が完成した後，自動的に戦闘ユニットの生産に取りかかります。"
 
 #: data/scenarios/tutorial.sav:187
@@ -46061,7 +46061,7 @@ msgstr "%sは%sを %sに建てるのを中断しました。"
 #. * (in "<city> is building ..." sentence). Preserve leading space.
 #: server/citytools.c:3212
 msgid " from the worklist"
-msgstr "作業リストから"
+msgstr "生産待ちリストから"
 
 #. TRANS: Possible 'source' of the production change
 #. * (in "<city> is building ..." sentence). Preserve leading space.
@@ -46133,13 +46133,12 @@ msgstr "警告: %sは飢饉の恐れがあります。"
 #: server/cityturn.c:935
 #, c-format
 msgid "%s needs %s (being built) to grow beyond size %d."
-msgstr "%1$s がサイズ %3$dより大きくなるには %2$s(建設中)が必要です。"
+msgstr "%1$sの大きさが%3$dより大きくなるには%2$s（建設中）が必要です。"
 
-# clefs
 #: server/cityturn.c:941
 #, c-format
 msgid "%s needs an improvement to grow beyond size %d."
-msgstr "%s がサイズ %dより大きくなるには都市施設が必要です。"
+msgstr "%sの大きさが%dより大きくなるには都市施設が必要です。"
 
 #: server/cityturn.c:1019
 #, c-format
@@ -46154,489 +46153,364 @@ msgstr ""
 #: server/cityturn.c:1123
 #, c-format
 msgid "Famine feared in %s, %s lost!"
-msgstr " %sで飢饉が起こり， %sを失いました。"
+msgstr "%sで飢饉が起こり、%sが失われました。"
 
 #: server/cityturn.c:1137
 #, c-format
 msgid "Famine causes population loss in %s."
-msgstr "飢饉が起こり，%sの人口が減少しました。"
+msgstr "%sで飢饉が起こり、人口が減少しました。"
 
-# clefs
-# 意訳
 #: server/cityturn.c:1142
 #, c-format
 msgid "Famine destroys %s entirely."
-msgstr "飢饉により%sは廃墟と化しました。"
+msgstr "%sは飢饉により廃墟と化しました。"
 
 #: server/cityturn.c:1203
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s can't build %s from the worklist. Purging..."
 msgid "%s can't build %s from the worklist. Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。リストから消去しました。"
+msgstr "%sで生産待ちの%sを生産することができません。生産を延期します。"
 
-# yasu
 #: server/cityturn.c:1218
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "%s can't build %s from the worklist; need to not have %s. Postponing..."
 msgid ""
 "%s can't build %s from the worklist; counter %s value's checkpoint do not "
 "met Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。「%s」の無いことが必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。カウンタ「%s」の値が条件を満たしていません。生産を延期します。"
 
-# Belgae
 #: server/cityturn.c:1233 server/cityturn.c:2260
 #, c-format
 msgid ""
 "%s can't build %s from the worklist; tech %s not yet available. Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。科学技術「%s」がまだ利用でき"
-"ません。延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。科学技術「%s」が必要です。生産を延期します。"
 
 #: server/cityturn.c:1250
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; no tech with flag \"%s\" yet available. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。科学技術がまだ利用できませ"
-"ん。延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。「%s」に関する科学技術が必要です。生産を延期します。"
 
-# yasu
 #: server/cityturn.c:1272 server/cityturn.c:1302 server/cityturn.c:1332
 #: server/cityturn.c:1358
 #, c-format
 msgid ""
 "%s can't build %s from the worklist; need to have %s first. Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。まず「%s」が必要です。延期し"
-"ています..."
+msgstr "%sで生産待ちの%sを生産することができません。まず「%s」が必要です。生産を延期します。"
 
-# yasu
 #: server/cityturn.c:1283 server/cityturn.c:1313 server/cityturn.c:1343
 #: server/cityturn.c:1369
 #, c-format
 msgid "%s can't build %s from the worklist; need to not have %s. Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。「%s」の無いことが必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。「%s」がない必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1386
 #, c-format
 msgid ""
 "%s can't build %s from the worklist; it needs %s government. Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。政治体制「%s」が必要です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。政治体制が「%s」である必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1396
 #, c-format
 msgid ""
 "%s can't build %s from the worklist; it cannot have %s government. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。政治体制「%s」で無いことが必"
-"要です。延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。政治体制が「%s」でない必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1409
 #, c-format
 msgid ""
 "%s can't build %s from the worklist; it needs \"%s\" achievement. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。実績 \"%s\" が必要です。延期"
-"しています..."
+msgstr "%sで生産待ちの%sを生産することができません。実績「%s」が必要です。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1425 server/cityturn.c:1448
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?extra:%s can't build %s from the worklist; %s is required. Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%sが必要です。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1435 server/cityturn.c:1458
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?extra:%s can't build %s from the worklist; %s is prohibited. Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%sでない必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1471
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrain:%s can't build %s from the worklist; %s terrain is required. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。地形「%s」が必要です。延期し"
-"ています..."
+msgstr "%sで生産待ちの%sを生産することができません。地形が「%s」である必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1481
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrain:%s can't build %s from the worklist; %s terrain is prohibited. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形「 %s 」が必要です。延期"
-"しています..."
+msgstr "%sで生産待ちの%sを生産することができません。地形が「%s」でない必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #. TRANS: "%s nation" is adjective
 #: server/cityturn.c:1500
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?nation:%s can't build %s from the worklist; %s nation is required. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形「 %s 」が必要です。延期"
-"しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s国家である必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1510
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?nation:%s can't build %s from the worklist; %s nation is prohibited. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形「 %s 」が必要です。延期"
-"しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s国家でない必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #. TRANS: "%s nation" is adjective
 #: server/cityturn.c:1530
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?ngroup:%s can't build %s from the worklist; %s nation is required. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s国家である必要があります。生産を延期します。"
 
-# yasu
-# Belgae
 #: server/cityturn.c:1540
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?ngroup:%s can't build %s from the worklist; %s nation is prohibited. "
 "Postponing..."
 msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+"%sで生産待ちの%sを生産することができません。%s国家でない必要があります。生産を延期します。"
 
-# yasu
 #: server/cityturn.c:1557
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only %s style cities may build this. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sだけが建てられます。延期"
-"しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s型の都市のみがこれを建設することができます。生産を延期します。"
 
-# yasu
 #: server/cityturn.c:1567
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; %s style cities may not build this. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sだけが建てられます。延期"
-"しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s型の都市はこれを建設することができません。生産を延期します。"
 
-# yasu
 #. TRANS: Latter %s is citizen nationality
 #: server/cityturn.c:1583
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only city with %s may build this. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。AIレベル %sだけが生産できま"
-"す。延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%sの市民がいる都市のみがこれを建設することができます。生産を延期します。"
 
-# yasu
 #. TRANS: Latter %s is citizen nationality
 #: server/cityturn.c:1594
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only city without %s may build this. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。AIレベル %sだけが生産できま"
-"す。延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%sの市民がいない都市のみがこれを生産することができます。生産を延期します。"
 
 #. TRANS: '%s' is a wide range of relationships;
 #. * e.g., 'Peace', 'Never met', 'Foreign',
 #. * 'Hosts embassy', 'Provided Casus Belli'
 #: server/cityturn.c:1619
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; the relationship '%s' is required.  "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを建造できません。地形クラス %sが必要です。延期していま"
-"す..."
+msgstr "%sで生産待ちの%sを生産することができません。関係「%s」が必要です。生産を延期します。"
 
 #: server/cityturn.c:1643
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; the relationship '%s' is prohibited.  "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを建造できません。地形クラス %sが必要です。延期していま"
-"す..."
+msgstr "%sで生産待ちの%sを生産することができません。関係「%s」がないことが必要です。生産を延期します。"
 
 #. TRANS: '%s' is a wide range of relationships;
 #. * e.g., 'Peace', 'Never met', 'Foreign',
 #. * 'Hosts embassy', 'Provided Casus Belli'
 #: server/cityturn.c:1674
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; unit with the relationship '%s' is "
 "required.  Postponing..."
-msgstr ""
-"%sで作業リストから %sを建造できません。地形クラス %sが必要です。延期していま"
-"す..."
+msgstr "%sで生産待ちの%sを生産することができません。関係「%s」を持つユニットが必要です。生産を延期します。"
 
 #: server/cityturn.c:1696
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; unit with the relationship '%s' is "
 "prohibited.  Postponing..."
-msgstr ""
-"%sで作業リストから %sを建造できません。地形クラス %sが必要です。延期していま"
-"す..."
+msgstr "%sで生産待ちの%sを生産することができません。関係「%s」を持つユニットがいないことが必要です。生産を延期します。"
 
 #: server/cityturn.c:1719
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; city must be of size %d or larger. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。都市の大きさが%d必要です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の大きさが%d以上である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1730
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; city must be of size %d or smaller."
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。都市の大きさが%d必要です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の大きさが%d以下である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1744
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; city must have culture of %d. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。都市の大きさが%d必要です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の文化が%dpt以上である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1760
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; city must have %d%% foreign population. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。都市の大きさが%d必要です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の人口の%d%%以上が外国人である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1770
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; city must have %d%% native population. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。都市の大きさが%d必要です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の人口の%d%%以上が自国民である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1783
-#, fuzzy, c-format
-msgid ""
-"%s can't build %s from the worklist; %d techs must be known. Postponing..."
+#, c-format
+msgid "%s can't build %s from the worklist; %d techs must be known. Postponing..."
 msgstr ""
-"%sで作業リストから%sを生産することができません。理由は不明です！延期していま"
-"す..."
+"%sで生産待ちの%sを生産することができません。%d個の科学技術が必要です。生産を延期します。"
 
 #: server/cityturn.c:1798
-#, fuzzy, c-format
+#, c-format
 msgid "%s can't build %s from the worklist; Must own %d cities. Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。理由は不明です！延期していま"
-"す..."
+msgstr "%sで生産待ちの%sを生産することができません。%d以上の都市を所有している必要があります。生産を延期します。"
 
 #: server/cityturn.c:1813
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; more than %d unit on tile.  "
 "Postponing..."
 msgid_plural ""
 "%s can't build %s from the worklist; more than %d units on tile.  "
 "Postponing..."
-msgstr[0] ""
-"%sで作業リストから %sを生産することができません。理由は不明です！延期していま"
-"す..."
+msgstr[0] "%sで生産待ちの%sを生産することができません。タイル上にいるユニットの数が%d以上である必要があります。生産を延期します。"
 
-# yasu
 #: server/cityturn.c:1828
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; fewer than %d unit on tile.  "
 "Postponing..."
 msgid_plural ""
 "%s can't build %s from the worklist; fewer than %d units on tile.  "
 "Postponing..."
-msgstr[0] ""
-"%sで作業リストから %sを生産することができません。まず「 %s 」が必要です。延期"
-"しています..."
+msgstr[0] "%sで生産待ちの%sを生産することができません。タイル上にいるユニットの数が%d未満である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1855
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; terrain with \"%s\" flag is required. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s地形である必要があります。生産を延期します。"
 
 #: server/cityturn.c:1866
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; terrain with \"%s\" flag is prohibited. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%地形でない必要があります。生産を延期します。"
 
 #: server/cityturn.c:1885
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; road with \"%s\" flag is required. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s交通路が必要です。生産を延期します。"
 
 #: server/cityturn.c:1896
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; road with \"%s\" flag is prohibited. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s交通路がないことが必要です。生産を延期します。"
 
 #: server/cityturn.c:1910
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; extra with \"%s\" flag is required. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%sがある地形が必要です。生産を延期します。"
 
 #: server/cityturn.c:1921
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; extra with \"%s\" flag is prohibited. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%がない地形が必要です。生産を延期します。"
 
 #: server/cityturn.c:1943
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; different terrain class nearby is "
 "required. Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。湖海に隣接している必要があります。生産を延期します。"
 
 #: server/cityturn.c:1953
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; different terrain class nearby is "
 "prohibited. Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要です。"
-"延期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。湖海に隣接していない必要があります。生産を延期します。"
 
 #. TRANS: last %s is a CityStatus ("OwnedByOriginal")
 #: server/cityturn.c:1997
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available when city in range %s "
 "\"%s\". Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の状態「%s」が%sの範囲にある必要があります。生産を延期します。"
 
 #. TRANS: last %s is a CityStatus ("OwnedByOriginal")
 #: server/cityturn.c:2009
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; not available when city in range %s is "
 "\"%s\". Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。都市の状態「%s」が%sの範囲にない必要があります。生産を延期します。"
 
 #. TRANS: last %s is a date
 #. TRANS: last %s is a calendar fragment from
 #. * the ruleset; may be a bare number
 #: server/cityturn.c:2029 server/cityturn.c:2049
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available from %s. Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s以降である必要があります。生産を延期します。"
 
 #. TRANS: last %s is a calendar fragment from
 #. * the ruleset; may be a bare number
 #: server/cityturn.c:2062
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; not available after %s. Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%s以前である必要があります。生産を延期します。"
 
 #. TRANS: third %s is topology flag name
 #. * ("Hex", "ISO"
 #. TRANS: third %s is wrap flag name
 #. * ("WrapX", "Wrapy")
 #: server/cityturn.c:2077 server/cityturn.c:2093
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available in worlds with %s map."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%sマップのゲームである必要があります。生産を延期します。"
 
 #. TRANS: %s is a server setting, its value and
 #. * if it is required to be present or absent.
@@ -46644,46 +46518,37 @@ msgstr ""
 #. * ssetv_human_readable().
 #. * Example: "killstack is enabled".
 #: server/cityturn.c:2111
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available when the server setting "
 "%s."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。サーバー設定%sである必要があります。生産を延期します。"
 
 #: server/cityturn.c:2127
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available once %d turns old. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%dターン目である必要があります。生産を延期します。"
 
 #: server/cityturn.c:2143
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available once %d turns old form. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから %sを生産することができません。 %sからのみ利用可能です。延"
-"期しています..."
+msgstr "%sで生産待ちの%sを生産することができません。%dターン目である必要があります。延期しています..."
 
 #: server/cityturn.c:2267
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; multiple techs still needed. "
 "Postponing..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。理由は不明です！延期していま"
-"す..."
+msgstr "%sで生産待ちの%sを生産することができません。複数の科学技術が必要です。生産を延期します。"
 
 #: server/cityturn.c:2289 server/cityturn.c:2357
 #, c-format
 msgid "%s can't build %s from the worklist. Purging..."
-msgstr ""
-"%sで作業リストから%sを生産することができません。リストから消去しました。"
+msgstr "%sで生産待ちの%sを生産することができません。リストから削除しました。"
 
 #: server/cityturn.c:2308 server/cityturn.c:2346 server/cityturn.c:2481
 #: server/cityturn.c:2529
@@ -46695,7 +46560,7 @@ msgstr "%3$sで， %1$sの生産を %2$sへ新型化しました。"
 #: server/cityturn.c:2395
 #, c-format
 msgid "The %s worklist is now empty."
-msgstr "%sの作業リストは空になりました。"
+msgstr "%sの生産待ちリストは空になりました。"
 
 #: server/cityturn.c:2563
 #, c-format
@@ -59041,8 +58906,8 @@ msgstr "死の灰を除去する(%sF)"
 #~ "?terrainclass:%s can't build %s from the worklist; %s terrain is "
 #~ "required.  Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。地形「 %s 」が必要です。"
-#~ "延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。地形「 %s 」が必要です。"
+#~ "生産を延期します。"
 
 # yasu
 # Belgae
@@ -59051,8 +58916,8 @@ msgstr "死の灰を除去する(%sF)"
 #~ "?terrainclass:%s can't build %s from the worklist; %s terrain is "
 #~ "prohibited.  Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。地形「 %s 」が必要です。"
-#~ "延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。地形「 %s 」が必要です。"
+#~ "生産を延期します。"
 
 # clefs
 #, fuzzy, c-format
@@ -59118,7 +58983,7 @@ msgstr "上位5位の都市(_F)"
 #~ msgstr "都市の生産物(_P)"
 
 #~ msgid "Worklist menu"
-#~ msgstr "作業リストメニュー"
+#~ msgstr "生産待ちリストメニュー"
 
 #~ msgid "Top Five Cities"
 #~ msgstr "上位5位の都市"
@@ -59275,7 +59140,7 @@ msgstr ""
 #, c-format
 #~ msgid "%s can't build %s from the worklist; reason unknown! Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから%sを生産することができません。理由は不明です！延期してい"
+#~ "%sで生産待ちリストから%sを生産することができません。理由は不明です！延期してい"
 #~ "ます..."
 
 #, fuzzy
@@ -59759,16 +59624,16 @@ msgstr ""
 #~ "%s can't build %s from the worklist; base with \"%s\" flag is required. "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要で"
-#~ "す。延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。地形特徴「 %s 」が必要で"
+#~ "す。生産を延期します。"
 
 #, fuzzy, c-format
 #~ msgid ""
 #~ "%s can't build %s from the worklist; base with \"%s\" flag is prohibited. "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要で"
-#~ "す。延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。地形特徴「 %s 」が必要で"
+#~ "す。生産を延期します。"
 
 # Daniel
 #~ msgid ""
@@ -60608,13 +60473,13 @@ msgstr ""
 #~ "ユニットの種類           新型     製造中    活躍中   シールド   食料"
 
 #~ msgid "Available worklists"
-#~ msgstr "利用できる作業リスト"
+#~ msgstr "利用できる生産待ちリスト"
 
 #~ msgid "Rename"
 #~ msgstr "改名"
 
 #~ msgid "Rename worklist"
-#~ msgstr "作業リストの改名"
+#~ msgstr "生産待ちリストの改名"
 
 #~ msgid "Insert"
 #~ msgstr "挿入"
@@ -60632,10 +60497,10 @@ msgstr ""
 #~ msgstr "新しい生産物の選択"
 
 #~ msgid "Production Worklist"
-#~ msgstr "生産物作業リスト"
+#~ msgstr "生産物生産待ちリスト"
 
 #~ msgid "Current worklist"
-#~ msgstr "現在の作業リスト"
+#~ msgstr "現在の生産待ちリスト"
 
 #~ msgid "Available targets"
 #~ msgstr "有効な対象物"
@@ -60702,7 +60567,7 @@ msgstr ""
 #~ msgstr "変更..."
 
 #~ msgid "Worklist..."
-#~ msgstr "作業リスト..."
+#~ msgstr "生産待ちリスト..."
 
 #~ msgid "Supported units:"
 #~ msgstr "支援ユニット:"
@@ -60791,8 +60656,8 @@ msgstr ""
 #~ "?resource:%s can't build %s from the worklist; %s is required. "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。特産物「%s」が必要です。"
-#~ "延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。特産物「%s」が必要です。"
+#~ "生産を延期します。"
 
 # yasu
 # Belgae
@@ -60801,8 +60666,8 @@ msgstr ""
 #~ "?resource:%s can't build %s from the worklist; %s is prohibited. "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。特産物「%s」が必要です。"
-#~ "延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。特産物「%s」が必要です。"
+#~ "生産を延期します。"
 
 #~ msgid ""
 #~ "Warning: Different rulesetdirs ('%s' and '%s') are no longer supported. "
@@ -61208,7 +61073,7 @@ msgstr ""
 #~ "%s"
 
 #~ msgid "Click to change worklist production"
-#~ msgstr "クリックで作業リストに追加"
+#~ msgstr "クリックで生産待ちリストに追加"
 
 #~ msgid "Next City"
 #~ msgstr "次の都市へ"
@@ -61627,15 +61492,15 @@ msgstr ""
 #~ "?special:%s can't build %s from the worklist; %s is required.  "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。地形特徴「 %s 」が必要で"
-#~ "す。延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。地形特徴「 %s 」が必要で"
+#~ "す。生産を延期します。"
 
 #~ msgid ""
 #~ "%s can't build %s from the worklist; only AI of level %s may build this.  "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを生産することができません。AIレベル %sだけが生産でき"
-#~ "ます。延期しています..."
+#~ "%sで生産待ちリストから %sを生産することができません。AIレベル %sだけが生産でき"
+#~ "ます。生産を延期します。"
 
 #~ msgid "Your %s was executed in %s by primitive %s."
 #~ msgstr "%sは%sで原始的な%sによって死刑にされました。"
@@ -62645,8 +62510,8 @@ msgstr ""
 #~ "%s can't build %s from the worklist; %s special is required.  "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを建てることができません。地形特徴「 %s 」が必要で"
-#~ "す。延期しています..."
+#~ "%sで生産待ちリストから %sを建てることができません。地形特徴「 %s 」が必要で"
+#~ "す。生産を延期します。"
 
 # yasu
 # Belgae
@@ -62656,8 +62521,8 @@ msgstr ""
 #~ "%s can't build %s from the worklist; %s resource is required.  "
 #~ "Postponing..."
 #~ msgstr ""
-#~ "%sで作業リストから %sを建てることができません。地形特徴「 %s 」が必要で"
-#~ "す。延期しています..."
+#~ "%sで生産待ちリストから %sを建てることができません。地形特徴「 %s 」が必要で"
+#~ "す。生産を延期します。"
 
 #, fuzzy
 #~ msgid "City got destroyed completely."
