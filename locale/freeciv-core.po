@@ -1719,7 +1719,7 @@ msgstr ""
 
 #: client/client_main.c:458
 msgid "Connect to the metaserver at HOST"
-msgstr "HOSTにあるメタサーバーに接続する"
+msgstr "HOSTにある外部サーバーに接続する"
 
 #. TRANS: "name" is exactly what user must type, do not translate.
 #: client/client_main.c:461
@@ -4635,7 +4635,7 @@ msgstr "移動完了"
 #: client/gui-gtk-3.22/editprop.c:4495 client/gui-gtk-4.0/editprop.c:4504
 #: client/gui-gtk-5.0/editprop.c:4504
 msgid "HP"
-msgstr "体力"
+msgstr "HP"
 
 #: client/gui-gtk-3.22/editprop.c:4497 client/gui-gtk-4.0/editprop.c:4506
 #: client/gui-gtk-5.0/editprop.c:4506
@@ -5302,7 +5302,7 @@ msgstr "火力"
 #: client/gui-qt/helpdlg.cpp:918 client/gui-sdl2/helpdlg.c:854
 #: client/gui-sdl3/helpdlg.c:852
 msgid "Hitpoints:"
-msgstr "体力:"
+msgstr "HP:"
 
 # Belgae
 #: client/gui-gtk-3.22/helpdlg.c:122 client/gui-gtk-4.0/helpdlg.c:122
@@ -6960,7 +6960,7 @@ msgstr "LAN(_A)"
 #: client/gui-gtk-3.22/pages.c:1292 client/gui-gtk-4.0/pages.c:1321
 #: client/gui-gtk-5.0/pages.c:1321
 msgid "Internet _Metaserver"
-msgstr "メタサーバー(_M)"
+msgstr "外部サーバー(_M)"
 
 #: client/gui-gtk-3.22/pages.c:1331 client/gui-gtk-4.0/pages.c:1362
 #: client/gui-gtk-5.0/pages.c:1362
@@ -8700,7 +8700,7 @@ msgstr "移動力:"
 #. TRANS: HP - hit points
 #: client/gui-qt/dialogs.cpp:4690
 msgid "%1 HP:%2/%3"
-msgstr "%1 体力:%2/%3"
+msgstr "%1 HP:%2/%3"
 
 #: client/gui-qt/dialogs.cpp:4695 client/gui-qt/hudwidget.cpp:1503
 msgid "%1 unit"
@@ -8958,7 +8958,7 @@ msgstr "移動力: "
 
 #: client/gui-qt/hudwidget.cpp:643
 msgid "HP:%1/%2"
-msgstr "体力: %1/%2"
+msgstr "HP: %1/%2"
 
 #. TRANS: preserve leading space; always at least 2
 #: client/gui-qt/hudwidget.cpp:652
@@ -9014,15 +9014,15 @@ msgstr "見張り中のみ"
 
 #: client/gui-qt/hudwidget.cpp:1373
 msgid "Unit HP and MP"
-msgstr "ユニットの体力/移動力"
+msgstr "ユニットのHP/移動力"
 
 #: client/gui-qt/hudwidget.cpp:1374
 msgid "Any unit"
-msgstr "体力・移動力に関わらず"
+msgstr "HP・移動力に関わらず"
 
 #: client/gui-qt/hudwidget.cpp:1375
 msgid "Full HP"
-msgstr "体力最大のみ"
+msgstr "HP最大のみ"
 
 #: client/gui-qt/hudwidget.cpp:1376
 msgid "Full MP"
@@ -9030,7 +9030,7 @@ msgstr "移動力最大のみ"
 
 #: client/gui-qt/hudwidget.cpp:1377
 msgid "Full HP and MP"
-msgstr "体力・移動力共に最大"
+msgstr "HP・移動力共に最大"
 
 #: client/gui-qt/hudwidget.cpp:1393
 msgid "Location"
@@ -13213,7 +13213,7 @@ msgid ""
 "attacker.\n"
 msgstr ""
 "・1ターンに%d回の爆撃を行えます。爆撃は防御側にダメージを与えるだけで撃破でき"
-"ませんが、攻撃側は体力が全く減りません。\n"
+"ませんが、攻撃側はHPが全く減りません。\n"
 
 #. TRANS: %s is a unit type.
 #: client/helpdata.c:2884
@@ -13366,7 +13366,7 @@ msgstr ""
 msgid "  %s These attacks will only damage (never kill) defenders.\n"
 msgstr ""
 "・1ターンに%d回の爆撃を行えます。爆撃は防御側にダメージを与えるだけで撃破でき"
-"ませんが、攻撃側は体力が全く減りません。\n"
+"ませんが、攻撃側はHPが全く減りません。\n"
 
 #. TRANS: %s is an action that can block another.
 #: client/helpdata.c:3160
@@ -14672,7 +14672,7 @@ msgstr ""
 
 #: client/options.c:1949
 msgid "Metaserver"
-msgstr "メタサーバー"
+msgstr "外部サーバー"
 
 # clefs
 #: client/options.c:1950
@@ -14681,7 +14681,7 @@ msgid ""
 "the internet.  Don't change this from its default value unless you know what "
 "you're doing."
 msgstr ""
-"メタサーバーとは、インターネット上で開催中のゲームを知るためにクライアントが"
+"外部サーバーとは、インターネット上で開催中のゲームを知るためにクライアントが"
 "問い合わせるホストです。自分のしていることが何かわからないようなら、この項目"
 "はデフォルトから変更しないでください。[訳註: サーバー一覧が出なくなって慌てる"
 "のがオチです]"
@@ -15221,7 +15221,7 @@ msgid ""
 "mapview.  Set it to 0 to disable animation entirely."
 msgstr ""
 "このオプションは、ユニットの戦闘アニメーションを表示する時間を設定します。ア"
-"ニメーションを完全になくすには0にセットします（ただし体力の変化が見えなくなり"
+"ニメーションを完全になくすには0にセットします（ただしHPの変化が見えなくなり"
 "ます）。"
 
 # clefs
@@ -15914,14 +15914,14 @@ msgstr ""
 
 #: client/options.c:2780 client/options.c:3001 client/options.c:3222
 msgid "Metaserver tab first in network page"
-msgstr "ネットワークページでメタサーバータブを先頭に"
+msgstr "ネットワークページで外部サーバータブを先頭に"
 
 #: client/options.c:2781 client/options.c:3002 client/options.c:3223
 msgid ""
 "If this option is enabled, the metaserver tab will be the first notebook tab "
 "in the network page. This option requires a restart in order to take effect."
 msgstr ""
-"このオプションを有効にすると、ネットワークページでメタサーバータブが最初のタ"
+"このオプションを有効にすると、ネットワークページで外部サーバータブが最初のタ"
 "ブになります。このオプションを適用するには再起動が必要です。"
 
 #: client/options.c:2786 client/options.c:3007 client/options.c:3228
@@ -16596,7 +16596,7 @@ msgstr ""
 
 #: client/servers.c:334 server/meta.c:257
 msgid "Error connecting to metaserver"
-msgstr "メタサーバーへの接続に失敗しました"
+msgstr "外部サーバーへの接続に失敗しました"
 
 #: client/servers.c:434
 #, c-format
@@ -24946,7 +24946,7 @@ msgstr ""
 "ば、ある程度時間をかけて違いを確認した方が良いでしょう。\n"
 "\n"
 " ・科学技術・都市施設・ユニットの種類が少なくなっています。\n"
-" ・ユニットの体力は減少しません。戦闘に勝利したユニットは、無傷の状態に戻りま"
+" ・ユニットのHPは減少しません。戦闘に勝利したユニットは、無傷の状態に戻りま"
 "す。\n"
 
 #: data/civ1/game.ruleset:389 data/civ2/game.ruleset:385
@@ -27785,7 +27785,7 @@ msgid ""
 msgstr ""
 "他国のユニットがタイルに単独でいる場合、外交官を用いて買収を試みることができ"
 "ます。ある程度の金額を賄賂として支払うことで、ユニットが直ちに自分のものとな"
-"ります。具体的な金額はユニットのステータス [訳注:体力など] およびそれが所属す"
+"ります。具体的な金額はユニットのステータス [訳注:HPなど] およびそれが所属す"
 "る文明によって決まります。ただし民主主義国家のユニットは買収に応じません。ま"
 "た平時におけるユニットの買収は外交問題を引き起こします。"
 
@@ -28039,7 +28039,7 @@ msgid ""
 msgstr ""
 "都市でベテラン航空ユニット（ヘリコプターとミサイルを含む）を生産することがで"
 "きます。また、傷ついた航空ユニット（ヘリコプターを含む）を都市で移動させずに"
-"丸1ターン留めておくと、体力が全回復します。"
+"丸1ターン留めておくと、HPが全回復します。"
 
 #: data/civ2/buildings.ruleset:109 data/classic/buildings.ruleset:109
 #: data/multiplayer/buildings.ruleset:108
@@ -28100,7 +28100,7 @@ msgid ""
 "are completely restored."
 msgstr ""
 "また、兵舎のある都市では、ダメージを受けた陸上ユニットが、1ターンの間移動せず"
-"にこの都市に留まった場合、このユニットの体力が全快します。"
+"にこの都市に留まった場合、このユニットのHPが全快します。"
 
 #: data/civ2/buildings.ruleset:277 data/classic/buildings.ruleset:282
 #: data/multiplayer/buildings.ruleset:310
@@ -28295,7 +28295,7 @@ msgid ""
 "stay in town for one full turn without moving are completely restored."
 msgstr ""
 "都市でベテラン海上ユニットを生産することができます。また、傷ついた海上ユニッ"
-"トを都市で移動させずに丸1ターン留めておくと、体力が全回復します。"
+"トを都市で移動させずに丸1ターン留めておくと、HPが全回復します。"
 
 #: data/civ2/buildings.ruleset:825 data/classic/buildings.ruleset:858
 #: data/sandbox/buildings.ruleset:1050 data/civ2civ3/buildings.ruleset:1019
@@ -28601,7 +28601,7 @@ msgstr ""
 # Daniel
 #: data/civ2/buildings.ruleset:1854 data/classic/buildings.ruleset:1910
 msgid "All your units regain two extra hitpoints per turn."
-msgstr "ユニットの体力が毎ターン+2回復します。"
+msgstr "ユニットのHPが毎ターン+2回復します。"
 
 #: data/civ2/buildings.ruleset:1885 data/classic/buildings.ruleset:1933
 msgid ""
@@ -29320,7 +29320,7 @@ msgid ""
 "recovers a quarter of its hit points."
 msgstr ""
 "要塞は都市外にある陸上ユニットの防御力を高めます。他の効果に加え、陸上ユニッ"
-"トが要塞内で丸1ターンの間移動せず留まっていた場合、体力が最大値の1/4回復しま"
+"トが要塞内で丸1ターンの間移動せず留まっていた場合、HPが最大値の1/4回復しま"
 "す。"
 
 #: data/civ2/terrain.ruleset:1269 data/civ2/units.ruleset:24
@@ -29834,7 +29834,7 @@ msgid ""
 "ground units."
 msgstr ""
 "ヘリコプターは空を飛び、なおかつ都市を占領できる極めて強力なユニットです。都"
-"市、飛行場、航空母艦以外の場所でターンを終えると少しずつ体力を消耗すること"
+"市、飛行場、航空母艦以外の場所でターンを終えると少しずつHPを消耗すること"
 "（不思議「国際連合」を持っていない場合）、陸上ユニットから攻撃を受けることに"
 "注意する必要があります。"
 
@@ -30005,7 +30005,7 @@ msgid ""
 " - sabotage predetermined city targets (with a reduced chance of success)."
 msgstr ""
 "スパイは以下の任務も遂行できます:\n"
-" ・都市外に単独でいる敵ユニットに対して破壊工作を仕掛ける（体力を半減させま"
+" ・都市外に単独でいる敵ユニットに対して破壊工作を仕掛ける（HPを半減させま"
 "す）\n"
 " ・敵都市の水源に毒物を混入する(人口を1減らします)\n"
 " ・科学技術を指定して盗む（ただし指定しない場合より成功率が下がります）\n"
@@ -30891,7 +30891,7 @@ msgid ""
 "watchtowers from which land units can see further afield."
 msgstr ""
 "要塞は都市外にある陸上ユニットの防御力を高めます。他の効果に加え、陸上ユニッ"
-"トが要塞内で丸1ターンの間移動せず留まっていた場合、体力が最大値の1/4回復しま"
+"トが要塞内で丸1ターンの間移動せず留まっていた場合、HPが最大値の1/4回復しま"
 "す。科学技術「発明」を獲得すると、要塞に監視塔が備え付けられ、陸上ユニットが"
 "いる場合には視界が拡大します。"
 
@@ -33706,7 +33706,7 @@ msgstr ""
 "要塞のあるタイルでは、あらゆるユニットによる攻撃に対して、ユニットは防御力が"
 "+50%増加します。この防御ボーナスは砦のそれと加算されるため、陸上・海上ユニッ"
 "トによる攻撃に対しては、防御力が+100%増加します。全ての陸上ユニットが要塞のあ"
-"るタイルに丸1ターンの間移動せず留まっていた場合、体力が最大値の1/4回復しま"
+"るタイルに丸1ターンの間移動せず留まっていた場合、HPが最大値の1/4回復しま"
 "す。また付近に友好的な都市があるとき、戦闘ユニットは不幸市民を発生させませ"
 "ん。"
 
@@ -33759,7 +33759,7 @@ msgid ""
 msgstr ""
 "仮設滑走路は急造の離着陸場で、着陸した航空機は給油や整備を受けることができま"
 "す。航空ユニットが仮設滑走路のあるタイルに丸1ターンの間移動せず留まっていた場"
-"合、体力が最大値の1/10回復します。これは飛行中のユニットが毎ターン失う体力と"
+"合、HPが最大値の1/10回復します。これは飛行中のユニットが毎ターン失うHPと"
 "同じ値です。着陸している航空ユニットは、敵の陸上ユニットによる攻撃に対して脆"
 "弱であることに注意してください。"
 
@@ -33796,7 +33796,7 @@ msgstr ""
 "飛行場のあるタイルでは、あらゆるユニットによる攻撃に対して、ユニットは防御力"
 "が+50%増加します。この防御ボーナスは仮設滑走路のそれと加算されるため、ミサイ"
 "ルも含む航空ユニットによる攻撃に対しては、防御力が+100%増加します。航空ユニッ"
-"トが飛行場のあるタイルに丸1ターンの間移動せず留まっていた場合、体力が最大値の"
+"トが飛行場のあるタイルに丸1ターンの間移動せず留まっていた場合、HPが最大値の"
 "1/3回復します (これは都市施設「空港」と同じ値です)。付近に友好的な都市があ"
 "るとき、戦闘ユニットは不幸市民を発生させません。またユニットの視界が拡大しま"
 "す。"
@@ -34349,7 +34349,7 @@ msgid ""
 "spent in a city, airstrip, or airbase, or on a Carrier."
 msgstr ""
 "ミサイルを除く航空ユニットは、都市・仮設滑走路・飛行場・航空母艦以外の場所に"
-"いるとき、毎ターン体力の1/10を消耗します。"
+"いるとき、毎ターンHPの1/10を消耗します。"
 
 #: data/sandbox/units.ruleset:1738 data/civ2civ3/units.ruleset:1681
 msgid ""
@@ -34366,7 +34366,7 @@ msgid ""
 "not spent in a city, airstrip, or airbase, or on a Carrier."
 msgstr ""
 "ミサイルを除く他の航空ユニットと同様に、都市・仮設滑走路・飛行場・航空母艦以"
-"外の場所にいるとき、毎ターン体力の1/10を消耗します。"
+"外の場所にいるとき、毎ターンHPの1/10を消耗します。"
 
 #: data/sandbox/units.ruleset:1782 data/civ2civ3/units.ruleset:1725
 msgid ""
@@ -34397,7 +34397,7 @@ msgid ""
 msgstr ""
 "ヘリコプターには都市・基地・航空母艦へと帰還しなければならない規定のターン数"
 "が存在しません (つまり、燃料切れで墜落することはありません) 。ただし他の航空"
-"ユニットと同様に、毎ターン体力の1/10を失います。"
+"ユニットと同様に、毎ターンHPの1/10を失います。"
 
 #: data/sandbox/units.ruleset:1908 data/civ2civ3/units.ruleset:1849
 #, fuzzy
@@ -34575,7 +34575,7 @@ msgid ""
 msgstr ""
 "他国のユニットがタイルに単独でいる場合、外交官を用いて買収を試みることができ"
 "ます。ある程度の金額を賄賂として支払うことで、ユニットが直ちに自分のものとな"
-"ります。具体的な金額はユニットのステータス [訳注:体力など] およびそれが所属す"
+"ります。具体的な金額はユニットのステータス [訳注:HPなど] およびそれが所属す"
 "る文明によって決まります。ただし民主主義国家のユニットは買収に応じません。ま"
 "た平時におけるユニットの買収は外交問題を引き起こします。"
 
@@ -34689,7 +34689,7 @@ msgid ""
 "owner knows Medicine. Be careful! Plague spreads along trade routes."
 msgstr ""
 "スパイは以下の任務も遂行できます:\n"
-" ・都市外に単独でいる敵ユニットに対して破壊工作を仕掛ける（体力を半減させま"
+" ・都市外に単独でいる敵ユニットに対して破壊工作を仕掛ける（HPを半減させま"
 "す）\n"
 " ・敵都市の水源に毒物を混入する(人口を1減らします)\n"
 " ・科学技術を指定して盗む（ただし指定しない場合より成功率が下がります）\n"
@@ -35164,7 +35164,7 @@ msgstr ""
 msgid ""
 "All player's antigravity units will regenerate 50% of their hitpoints each "
 "turn."
-msgstr "ユニットの体力が毎ターン+2回復します。"
+msgstr "ユニットのHPが毎ターン+2回復します。"
 
 # Belgae
 #: data/alien/buildings.ruleset:772
@@ -35186,7 +35186,7 @@ msgstr ""
 msgid ""
 "All player's native alien units will regenerate 50% of their hitpoints each "
 "turn."
-msgstr "ユニットの体力が毎ターン+2回復します。"
+msgstr "ユニットのHPが毎ターン+2回復します。"
 
 # clefs
 #: data/alien/buildings.ruleset:821
@@ -39040,7 +39040,7 @@ msgstr ""
 "ユニットは敵ユニットが占有しているタイルに移動することはできません。移動させ"
 "ようとすると、代わりに戦闘が始まり（攻撃能力を持っているならば）、2つのユニッ"
 "トのどちらかが消滅するまで操作できなくなります。戦闘結果は当該ユニットの能力"
-"値（体力、攻撃力、防御力、火力）に基づいて決定されます。「戦闘」節に詳細な戦"
+"値（HP、攻撃力、防御力、火力）に基づいて決定されます。「戦闘」節に詳細な戦"
 "闘プロセスが記述されています。また、以下の節では各ユニットの能力値がリストに"
 "なっています。"
 
@@ -39070,16 +39070,16 @@ msgid ""
 "recovery (such as the United Nations in the classic ruleset). Damaged units "
 "in Sentry mode will wake up when they have regained all of their hit points."
 msgstr ""
-"戦闘でダメージを受けたユニットは、移動しなかったターンごとに体力が回復しま"
-"す。通常、移動しなかったユニットはターンごとに体力が1ポイント回復します。防御"
-"態勢をとっているユニットは、さらに体力が1ポイント多く回復します。都市内で1"
-"ターン過ごすと、ユニットの全体力の1/3が回復します。ユニットの種類に対応する建"
+"戦闘でダメージを受けたユニットは、移動しなかったターンごとにHPが回復しま"
+"す。通常、移動しなかったユニットはターンごとにHPが1ポイント回復します。防御"
+"態勢をとっているユニットは、さらにHPが1ポイント多く回復します。都市内で1"
+"ターン過ごすと、ユニットの全HPの1/3が回復します。ユニットの種類に対応する建"
 "造物がある場合は、さらに回復量が多くなります。都市外においても、基地は回復量"
 "を増加させる効果があります（たとえば、classicルールセットの要塞にこの効果があ"
 "ります）。この回復ボーナスを得るには、ユニットはまる1ターンの間タイルに留まっ"
 "ている必要があります。不思議（classicルールセットの「国際連合」など）にも回復"
 "を促進するものがあります。ダメージを受けているユニットを見張り番にしている場"
-"合、体力が全快すると見張り番から外されます。"
+"合、HPが全快すると見張り番から外されます。"
 
 #: data/helpdata.txt:1097
 msgid ""
@@ -39099,9 +39099,9 @@ msgstr ""
 "したユニットは、自国の都市内において、いくらかの金を支払うことで新型にするこ"
 "とができます。この際の費用は、元のユニットと新型にしたあとのユニットそれぞれ"
 "が必要とする生産ポイントの差が大きいほど高くなります。ユニットが新型になる"
-"際、体力および移動ポイントの残量は、最大値に対する比率を維持するように変化し"
-"ます（訳註：たとえば最大体力30、残り体力15のユニットが新型になり、最大体力40"
-"のユニットになった場合、残り体力は20になります）。なお一部のルールセットで"
+"際、HPおよび移動ポイントの残量は、最大値に対する比率を維持するように変化し"
+"ます（訳註：たとえば最大HP30、残りHP15のユニットが新型になり、最大HP40"
+"のユニットになった場合、残りHPは20になります）。なお一部のルールセットで"
 "は、ユニットを新型にした際に練度が低下します（classicルールセットでは低下しま"
 "せん）。"
 
@@ -39317,12 +39317,12 @@ msgid ""
 "attacker loses hit points equal to the defender's firepower. The first unit "
 "to reach 0 hit points (or negative hit points) loses."
 msgstr ""
-"これらの準備の後、双方のユニットが生きている(すなわち体力が0より大きい)限り、"
+"これらの準備の後、双方のユニットが生きている(すなわちHPが0より大きい)限り、"
 "戦闘が行われます。 各ラウンド、1から「攻撃ユニットの攻撃力と防御ユニットの防"
 "御力の合計」までの間にある値がランダムに生成されます。 生成された数値が防御ユ"
 "ニットの防御力より大きければ、防御ユニットは攻撃ユニットの火力と等しい値の体"
 "力を失います。そうでなければ、攻撃ユニットが防御ユニットの火力と等しい値の体"
-"力を失います。先に体力が0または負になったユニットが負け、消滅します。"
+"力を失います。先にHPが0または負になったユニットが負け、消滅します。"
 
 #: data/helpdata.txt:1243
 #, no-c-format
@@ -39404,8 +39404,8 @@ msgid ""
 "hit point.  Otherwise (about a 72% chance), the attacker loses 1 point."
 msgstr ""
 "各戦闘ラウンドで、1から282までの間にある数値がランダムで生成されます。その値"
-"が202より大きければ(およそ28%の確率)、防御側が体力1を失います。そうでなければ"
-"(およそ72%の確率)、攻撃側は体力1を失います。"
+"が202より大きければ(およそ28%の確率)、防御側がHP1を失います。そうでなければ"
+"(およそ72%の確率)、攻撃側はHP1を失います。"
 
 # yasu
 #: data/helpdata.txt:1293
@@ -39417,9 +39417,9 @@ msgid ""
 "units have non-zero strengths; the defender might emerge untouched, or it "
 "might lose most of its hit points, or it might even lose the battle."
 msgstr ""
-"両ユニットとも体力は20あるので、防御側が有利です。防御側は戦闘で体力のおよそ"
+"両ユニットともHPは20あるので、防御側が有利です。防御側は戦闘でHPのおよそ"
 "40%を失うでしょう。しかし、両ユニットが0以外の強さである限り、確実な結果はあ"
-"りません。防御側は無傷かもしれないし、ほとんどの体力を失うかもしれないし、負"
+"りません。防御側は無傷かもしれないし、ほとんどのHPを失うかもしれないし、負"
 "けることさえあります。"
 
 #. TRANS: Preserve the leading space: it controls nesting
@@ -39481,7 +39481,7 @@ msgid ""
 "the attacker loses 1 hit point."
 msgstr ""
 "各ラウンドで、1から405までの間にある数値が生成されます。その値が225より大きけ"
-"れば(およそ44%の確率)、防御側が体力1を失います。そうでなければ、攻撃側が体力1"
+"れば(およそ44%の確率)、防御側がHP1を失います。そうでなければ、攻撃側がHP1"
 "を失います。"
 
 # clefs
@@ -39495,7 +39495,7 @@ msgid ""
 "points left."
 msgstr ""
 "この場合、攻撃側が非常に優位です。戦艦の各ラウンドでの攻撃成功率は25%劣ります"
-"が、戦艦は2倍の体力を持っています。戦艦は約60%の体力を失うと推測されます。戦"
+"が、戦艦は2倍のHPを持っています。戦艦は約60%のHPを失うと推測されます。戦"
 "闘後、移動ポイントはおそらく残らないでしょう。"
 
 #: data/helpdata.txt:1349
@@ -39967,7 +39967,7 @@ msgid ""
 "the -m flag, it will report to the metaserver,"
 msgstr ""
 "ゲームを開始する前なら、ホスト名とポート(5556 がデフォルト)を指定することで誰"
-"でもサーバーへ接続できます。-m 付きで実行されているサーバは、メタサーバへ報告"
+"でもサーバーへ接続できます。-m 付きで実行されているサーバは、外部サーバーへ報告"
 "します。"
 
 # Belgae
@@ -39978,7 +39978,7 @@ msgid ""
 "browser is using a HTTP proxy; to make the client use the same proxy, before "
 "starting the client, set the $http_proxy environment variable to:"
 msgstr ""
-"クライアントからもこのページを取得できます。接続ダイアログの「メタサーバー」"
+"クライアントからもこのページを取得できます。接続ダイアログの「外部サーバー」"
 "ボタンを使ってください。結果が表示されない場合は、使用しているWWWブラウザが"
 "HTTPプロキシを使っていないか調べてみてください。クライアントにも同じプロキシ"
 "を使用させるには、クライアントを起動する前に$http_proxy環境変数を以下のように"
@@ -39998,7 +39998,7 @@ msgstr ""
 "して誰でも接続できます。AIプレイヤーに接続しただけでは、そのプレイヤーは人間"
 "に操作される状態にはなりません。これは接続とは別のサーバーの設定なのです。も"
 "しあなたがゲーム中に接続を失って再接続するなら、最初に使っていたニックネーム"
-"ではなくあなたの民族の指導者の名前を使います。サーバがメタサーバへ報告してい"
+"ではなくあなたの民族の指導者の名前を使います。サーバが外部サーバーへ報告してい"
 "るなら、そこでプレイヤー名を知ることができます。"
 
 # Belgae
@@ -41557,7 +41557,7 @@ msgid ""
 "they may be attacked also by ground units."
 msgstr ""
 "ヘリコプターは空を飛び、なおかつ都市を占領できる極めて強力なユニットです。都"
-"市、飛行場、航空母艦以外の場所でターンを終えると少しずつ体力を消耗すること、"
+"市、飛行場、航空母艦以外の場所でターンを終えると少しずつHPを消耗すること、"
 "陸上ユニットから攻撃を受けることに注意する必要があります。"
 
 #: data/multiplayer/units.ruleset:2488
@@ -45409,7 +45409,7 @@ msgstr "火力"
 #: tools/manual/manual_units.c:92
 #, fuzzy, c-format
 msgid "Hitpoints: %d"
-msgstr "体力:"
+msgstr "HP:"
 
 #: tools/manual/manual_units.c:96
 #, c-format
@@ -47192,7 +47192,7 @@ msgstr ""
 
 #: server/commands.c:256
 msgid "Set metaserver info line."
-msgstr "メタサーバー情報行を設定します。"
+msgstr "外部サーバー情報行を設定します。"
 
 #: server/commands.c:257
 #, fuzzy
@@ -47208,7 +47208,7 @@ msgid ""
 "defined metamessage will be used instead of automatically generated "
 "messages, if it is available."
 msgstr ""
-"ユーザー定義のメタサーバー情報行を設定します。パラメータを省略した場合は、以"
+"ユーザー定義の外部サーバー情報行を設定します。パラメータを省略した場合は、以"
 "前に設定されたメタメッセージが削除されます。ほとんどの状況において、ユーザー"
 "定義のメタメッセージが（使用できるところで）自動生成メッセージに代わって使用"
 "されます。"
@@ -47221,11 +47221,11 @@ msgstr ""
 # Belgae
 #: server/commands.c:267
 msgid "Set metaserver patches line."
-msgstr "メタサーバーパッチ行を設定します。"
+msgstr "外部サーバーパッチ行を設定します。"
 
 #: server/commands.c:276
 msgid "Control metaserver connection."
-msgstr "メタサーバー接続を操作します。"
+msgstr "外部サーバー接続を操作します。"
 
 #: server/commands.c:277
 #, fuzzy
@@ -47236,9 +47236,9 @@ msgid ""
 "'metaconnection persistent' or 'metac p' is like 'up', but keeps trying "
 "after failures. "
 msgstr ""
-"'metaconnection ?'は、メタサーバーへの接続の状態を報告しま"
-"す。'metaconnection down'もしくは'metac d'は、メタサーバから切断しま"
-"す。'metaconnection up'もしくは'metac u'は、メタサーバへ接続します。"
+"'metaconnection ?'は、外部サーバーへの接続の状態を報告しま"
+"す。'metaconnection down'もしくは'metac d'は、外部サーバーから切断しま"
+"す。'metaconnection up'もしくは'metac u'は、外部サーバーへ接続します。"
 
 #. TRANS: translate text between <> only
 #: server/commands.c:286
@@ -47247,7 +47247,7 @@ msgstr "metaserver <アドレス>"
 
 #: server/commands.c:287
 msgid "Set address (URL) for metaserver to report to."
-msgstr "メタサーバーへ報告するアドレス（URL）を設定します。"
+msgstr "外部サーバーへ報告するアドレス（URL）を設定します。"
 
 #. TRANS: translate text between <> only
 #: server/commands.c:292
@@ -48187,12 +48187,12 @@ msgstr "%s は拒絶されました: ユーザー名が不適切です [%s]。"
 msgid ""
 "You have been kicked from this server and cannot reconnect for %d seconds."
 msgstr ""
-"あなたはこのサーバーから追放されました。%d秒経たないと再接続できません。"
+"あなたはこのサーバーからキックされました。%d秒経たないと再接続できません。"
 
 #: server/connecthand.c:482
 #, c-format
 msgid "%s was rejected: Connection kicked (%d seconds remaining)."
-msgstr "%s は拒絶されました: 接続が追放されました（%d秒必要です）。"
+msgstr "%s は拒絶されました: 接続がキックされました（%d秒必要です）。"
 
 # Daniel
 #: server/connecthand.c:491
@@ -49395,12 +49395,12 @@ msgstr "地形の変更に伴い %sを解散しました。"
 
 #: server/meta.c:215
 msgid "Not reporting to the metaserver in this game."
-msgstr "このゲームではメタサーバーへは報告していません。"
+msgstr "このゲームでは外部サーバーへは報告していません。"
 
 #: server/meta.c:220
 #, fuzzy
 msgid "Metaserver connection currently failing."
-msgstr "メタサーバー接続は既に開いています。"
+msgstr "外部サーバー接続は既に開いています。"
 
 #: server/plrhand.c:165
 #, c-format
@@ -52748,7 +52748,6 @@ msgstr ""
 msgid "Slowly kill units without home cities (e.g., starting units)"
 msgstr "都市に所属しないユニット(初期ユニットなど)の消耗"
 
-# 意訳(Belgae)
 #: server/settings.c:2451
 msgid ""
 "If greater than 0, then every unit without a homecity will lose hitpoints "
@@ -52756,9 +52755,9 @@ msgid ""
 "the hitpoints of the unit type. At least one hitpoint is lost every turn "
 "until the death of the unit."
 msgstr ""
-"0より大きい場合、都市に所属しないユニットは毎ターン体力が減少します。減少量は"
-"ユニットの体力に、この 'killunhomed'パーセントを掛けた値になります。ただし最"
-"低でも1ターンに1pt減少し、体力が0になると死亡します。"
+"0よりも大きい場合、都市に所属していないユニットのHPが毎ターン減少します。\n"
+"\n"
+"この値は百分率で、HPの減少量は、ユニットのHPにこの値の割合を掛けたものになります。ただし、この値が0よりも大きい場合、HPは最低でも1ターンに1pt減少し、HPが0になるとユニットは消滅します。"
 
 #: server/settings.c:2462
 msgid "National borders"
@@ -52781,15 +52780,11 @@ msgstr ""
 msgid "Units inside borders cause no unhappiness"
 msgstr "領内の戦闘ユニットは不幸市民を発生させない"
 
-# clefs
-# そのまんま
 #: server/settings.c:2475
 msgid ""
 "If this is set, units will not cause unhappiness when inside your borders, "
 "or even allies borders, depending on value."
-msgstr ""
-"この設定を変更すると、戦闘ユニットが自国の領域内、またはそれに加えて同盟国の"
-"領域内にいる場合に、不幸市民が発生しなくなります。"
+msgstr "この設定を変更すると、戦闘ユニットが自国の領域内、またはそれに加えて同盟国の領域内にいる場合、このユニットによる不幸市民が発生しなくなります。"
 
 #: server/settings.c:2483
 msgid "Ability to do diplomacy with other players"
@@ -53094,7 +53089,7 @@ msgstr ""
 msgid "Minimum number of cities for civil war"
 msgstr "内戦が起こる都市数の最小"
 
-# ama, clefs
+# clefs
 #: server/settings.c:2691
 msgid ""
 "A civil war is triggered when a player has at least this many cities and the "
@@ -53104,18 +53099,15 @@ msgstr ""
 "プレイヤーが少なくともこの数の都市を持っているときに首都が占領されると、内戦"
 "が勃発します。このオプションを最大値に設定すると、内戦は完全にやみます。"
 
-# 鉱山とか都市施設も使えないと誤解されないように、「インフラ」ではなく「交通路」と限定しました。また、「制限」だと効果が弱まるもののある程度の効果があるように読めてしまうかもしれないので「禁止」としました。(Belgae)
 #: server/settings.c:2701
 msgid "Restrict the use of the infrastructure for enemy units"
-msgstr "敵ユニットによる交通路の使用を禁止する"
+msgstr "敵ユニットによる交通路の利用を禁止する"
 
 #: server/settings.c:2702
 msgid ""
 "If this option is enabled, the use of roads and rails will be restricted for "
 "enemy units."
-msgstr ""
-"このオプションを有効にすると、敵ユニットが道路および鉄道を使用できなくなりま"
-"す。"
+msgstr "この設定を有効にすると、敵ユニットは交通路を利用することができなくなります。"
 
 #: server/settings.c:2709
 msgid "Does unreachable unit protect reachable ones"
@@ -53332,7 +53324,7 @@ msgstr ""
 msgid "Players that users are allowed to take"
 msgstr "ユーザーが取得できるプレイヤー"
 
-# clefs,Belgae
+# Belgae
 #. TRANS: the strings in double quotes are server command names
 #. * and should not be translated.
 #: server/settings.c:2870
@@ -53524,7 +53516,6 @@ msgstr ""
 msgid "Seconds to let a client's network connection block"
 msgstr "クライアントの接続中断を待つ秒数"
 
-# ama, clefs
 # Belgae
 #: server/settings.c:3006
 msgid ""
@@ -53570,12 +53561,10 @@ msgstr ""
 "この時間以内にクライアントがPINGに返答しない場合、そのクライアントは切断され"
 "ます。"
 
-# Daniel
 #: server/settings.c:3040
-#, fuzzy
 #| msgid "Keep current theme"
 msgid "Keep client IP hidden"
-msgstr "現在のテーマを保存します"
+msgstr "IPアドレスを隠す"
 
 #: server/settings.c:3041
 msgid ""
@@ -53583,6 +53572,9 @@ msgid ""
 "it. Also, changing this setting cannot do anything to the information "
 "already sent before."
 msgstr ""
+"プレイヤーのIPアドレスをチャット欄に表示しません。\n"
+"\n"
+"ただし、サーバー管理者は、接続しているプレイヤーのIPを確認することがでいます。また、この設定を変更しても、すでに表示されている情報が消えることはありません。"
 
 #: server/settings.c:3049
 msgid "Turn-blocking game play mode"
@@ -53806,7 +53798,6 @@ msgstr ""
 msgid "Whether to log player statistics"
 msgstr "プレイヤー統計を記録する"
 
-# ama, clefs
 # Belgae
 #. TRANS: The string between single quotes is a setting name and
 #. * should not be translated.
@@ -53853,11 +53844,9 @@ msgstr ""
 "が拒否されます。0は制限なしを意味し、サーバーがサポートしている接続最大数まで"
 "受け付けます。"
 
-# Belgae
-# kickの訳語「追放」？
 #: server/settings.c:3247
 msgid "Time before a kicked user can reconnect"
-msgstr "追放されたユーザーが再接続できるようになるまでの時間"
+msgstr "キックされたユーザーが再接続できるようになるまでの時間"
 
 #. TRANS: the string in double quotes is a server command name and
 #. * should not be translated
@@ -53866,8 +53855,8 @@ msgid ""
 "Gives the time in seconds before a user kicked using the \"kick\" command "
 "may reconnect. Changing this setting will affect users kicked in the past."
 msgstr ""
-"kickコマンドを使用して追放したユーザーが再接続できるようになるまでの時間を秒"
-"で指定します。この設定を変更すると、既に追放済みのユーザーにも影響します。"
+"kickコマンドを使用してキックしたユーザーが再接続できるようになるまでの時間を秒"
+"で指定します。この設定を変更すると、既にキック済みのユーザーにも影響します。"
 
 #: server/settings.c:3257
 #, fuzzy
@@ -53884,7 +53873,7 @@ msgstr ""
 #: server/settings.c:3264
 #, fuzzy
 msgid "Metaserver info line"
-msgstr "メタサーバー情報行を設定します。"
+msgstr "外部サーバー情報行を設定します。"
 
 #: server/settings.c:3265
 #, fuzzy
@@ -53894,7 +53883,7 @@ msgid ""
 "to empty (\"\", not \"empty\") to always use an automatically generated meta "
 "server message."
 msgstr ""
-"ユーザー定義のメタサーバー情報行を設定します。パラメータを省略した場合は、以"
+"ユーザー定義の外部サーバー情報行を設定します。パラメータを省略した場合は、以"
 "前に設定されたメタメッセージが削除されます。ほとんどの状況において、ユーザー"
 "定義のメタメッセージが（使用できるところで）自動生成メッセージに代わって使用"
 "されます。"
@@ -54062,27 +54051,25 @@ msgstr "ネットワーク"
 msgid "?ssetlevel:None"
 msgstr ""
 
-# clefs
-# オプションの重要度
 #: server/settings.h:63
 msgid "Vital"
-msgstr "最重要"
+msgstr "重要"
 
 #: server/settings.h:65
 msgid "Situational"
-msgstr "時として必要"
+msgstr "状況に応じて変更"
 
 #: server/settings.h:67
 msgid "Rare"
-msgstr "めったに使われない"
+msgstr "ほとんど変更しない"
 
 #: server/settings.h:69
 msgid "Changed"
-msgstr "変更あり"
+msgstr "変更されています"
 
 #: server/settings.h:71
 msgid "Locked"
-msgstr "固定"
+msgstr "ロックされています"
 
 # yasu
 #: server/spacerace.c:174
@@ -54174,7 +54161,7 @@ msgstr "首都からの誘導がないため、 %sの宇宙船は失われまし
 #, c-format
 msgid "Warning: the %s option is obsolete.  Use -m to enable the metaserver.\n"
 msgstr ""
-"警告: %sオプションは現在のバージョンでは使用されなくなりました。メタサーバー"
+"警告: %sオプションは現在のバージョンでは使用されなくなりました。外部サーバー"
 "を有効にするには-mを使用してください。\n"
 
 #: server/srv_entrypoint.c:204
@@ -54238,7 +54225,7 @@ msgstr "アドレスADDRでクライアントを待つ"
 
 #: server/srv_entrypoint.c:260
 msgid "Connect to metaserver from this address"
-msgstr "このアドレスからメタサーバーへ接続する"
+msgstr "このアドレスから外部サーバーへ接続する"
 
 #. TRANS: "identity" is exactly what user must type, do not translate.
 #: server/srv_entrypoint.c:287
@@ -54251,7 +54238,7 @@ msgstr ""
 
 #: server/srv_entrypoint.c:294
 msgid "Notify metaserver and send server's info"
-msgstr "メタサーバーへ通知しサーバーの情報を送信する"
+msgstr "外部サーバーへ通知しサーバーの情報を送信する"
 
 #. TRANS: "Metaserver" is exactly what user must type, do not translate.
 #: server/srv_entrypoint.c:297
@@ -54407,7 +54394,6 @@ msgstr "%sが征服勝利を果たしました。"
 msgid "Game ended in cultural domination victory for %s."
 msgstr "%sが文化による勝利を収めました！"
 
-# clefs
 # Belgae
 #: server/srv_main.c:623 server/srv_main.c:624
 msgid "Game ended as the turn limit was exceeded."
@@ -54459,14 +54445,14 @@ msgstr[0] "%sは%sとの平和条約に基づき解散されました。"
 msgid "Your %s was disbanded in accordance with your peace treaty with the %s."
 msgstr "%sは%sとの平和条約に基づき解散されました。"
 
-# yasu, clefs
+# clefs
 #: server/srv_main.c:987
 #, c-format
 msgid ""
 "Concerned citizens point out that the cease-fire with %s will run out soon."
 msgstr "市民は%sとの停戦期間がまもなく終了することを憂慮しています。"
 
-# yasu, clefs
+# clefs
 #: server/srv_main.c:996 server/srv_main.c:1001
 #, c-format
 msgid "The cease-fire with %s has run out. You are now at war with the %s."
@@ -54550,7 +54536,6 @@ msgstr "不明な報告の要求です (タイプ %d)"
 msgid "Warning: rejecting old client %s"
 msgstr "警告: 旧型のクライアント%sを拒否しました"
 
-# clefs
 # Belgae
 #: server/srv_main.c:2122
 msgid ""
@@ -54627,11 +54612,11 @@ msgstr "ルールセットディレクトリ\"%s\"が見つかりません。"
 #: server/srv_main.c:3153
 #, c-format
 msgid "Sending info to metaserver <%s>."
-msgstr "メタサーバー <%s>に情報を送信しています"
+msgstr "外部サーバー <%s>に情報を送信しています"
 
 #: server/srv_main.c:3157
 msgid "Not starting without explicitly requested metaserver connection."
-msgstr "メタサーバーへの接続を明示的に要求しなければ起動しません。"
+msgstr "外部サーバーへの接続を明示的に要求しなければ起動しません。"
 
 #: server/srv_main.c:3180
 msgid "The game is over..."
@@ -54754,28 +54739,28 @@ msgstr "'%s' という名前の接続はありません。"
 #: server/stdinhand.c:508
 #, c-format
 msgid "Open metaserver connection to [%s]."
-msgstr "[%s]へのメタサーバー接続を開きます。"
+msgstr "[%s]への外部サーバー接続を開きます。"
 
 #: server/stdinhand.c:521
 #, c-format
 msgid "Close metaserver connection to [%s]."
-msgstr "[%s]へのメタサーバー接続を閉じます。"
+msgstr "[%s]への外部サーバー接続を閉じます。"
 
 #: server/stdinhand.c:538
 msgid "Metaserver connection is open."
-msgstr "メタサーバー接続は開いています。"
+msgstr "外部サーバー接続は開いています。"
 
 #: server/stdinhand.c:541
 msgid "Metaserver connection is closed."
-msgstr "メタサーバー接続は閉ざされました。"
+msgstr "外部サーバー接続は閉ざされました。"
 
 #: server/stdinhand.c:560
 msgid "Metaserver connection is already open."
-msgstr "メタサーバー接続は既に開いています。"
+msgstr "外部サーバー接続は既に開いています。"
 
 #: server/stdinhand.c:571
 msgid "Metaserver connection is already closed."
-msgstr "メタサーバー接続は既に閉じています。"
+msgstr "外部サーバー接続は既に閉じています。"
 
 #: server/stdinhand.c:576
 msgid "Argument must be 'u', 'up', 'd', 'down', 'p', 'persistent', or '?'."
@@ -54783,19 +54768,17 @@ msgstr ""
 "引数は 'u', 'up', 'd', 'down', 'p', 'persistent', '?' のいずれかでなければな"
 "りません。"
 
-# clefs
-# patches stringはサーバに適用されているパッチの種類を広報する文字列
 #: server/stdinhand.c:597
 #, c-format
 msgid "Metaserver patches string set to '%s'."
-msgstr "メタサーバーのパッチ文字列を '%s' へ設定します。"
+msgstr "外部サーバーのパッチ文字列を'%s'に設定します。"
 
 # clefs
 #: server/stdinhand.c:600
 #, c-format
 msgid "Metaserver patches string set to '%s', not reporting to metaserver."
 msgstr ""
-"メタサーバーのパッチ文字列を '%s' へ設定します。メタサーバへの通知は行ってい"
+"外部サーバーのパッチ文字列を '%s' へ設定します。外部サーバーへの通知は行ってい"
 "ません。"
 
 #: server/stdinhand.c:615
@@ -54806,21 +54789,21 @@ msgstr ""
 #: server/stdinhand.c:626
 #, c-format
 msgid "Metaserver message string set to '%s'."
-msgstr "メタサーバーのメッセージ文字列を '%s' へ設定します。"
+msgstr "外部サーバーのメッセージ文字列を '%s' へ設定します。"
 
 # clefs
 #: server/stdinhand.c:629
 #, c-format
 msgid "Metaserver message string set to '%s', not reporting to metaserver."
 msgstr ""
-"メタサーバーのメッセージ文字列を '%s' へ設定します。メタサーバへの通知は行っ"
+"外部サーバーのメッセージ文字列を '%s' へ設定します。外部サーバーへの通知は行っ"
 "ていません。"
 
 # Belgae
 #: server/stdinhand.c:655
 #, c-format
 msgid "Metaserver is now [%s]."
-msgstr "現在のメタサーバーは[%s]です。"
+msgstr "現在の外部サーバーは[%s]です。"
 
 #: server/stdinhand.c:664
 #, c-format
@@ -56445,7 +56428,7 @@ msgstr "接続切断"
 
 #: server/stdinhand.c:6350
 msgid "You may not kick yourself."
-msgstr "自分自身は追放できません。"
+msgstr "自分自身はキックできません。"
 
 #: server/stdinhand.c:6373
 #, c-format
@@ -56457,7 +56440,7 @@ msgstr ""
 
 #: server/stdinhand.c:6400
 msgid "kicked"
-msgstr "追放済"
+msgstr "キック済"
 
 #: server/stdinhand.c:6416
 msgid ""
@@ -57857,12 +57840,12 @@ msgstr "%sは %sへ無償で新型化されました。"
 msgid ""
 "Your %s has run out of hit points because it was not supported by a city."
 msgstr ""
-"%sはいずれの都市にも所属しないユニットであるため、体力が尽きて失われました。"
+"%sはいずれの都市にも所属しないユニットであるため、HPが尽きて失われました。"
 
 #: server/unittools.c:503
 #, c-format
 msgid "Your %s has run out of hit points."
-msgstr "%sは体力が尽きました。"
+msgstr "%sはHPが尽きました。"
 
 #: server/unittools.c:578
 #, c-format
@@ -58778,11 +58761,11 @@ msgstr "死の灰を除去する(%sF)"
 
 #, c-format
 #~ msgid "Updating old metaserver address \"%s\"."
-#~ msgstr "古いメタサーバーアドレス\"%s\"を更新しています。"
+#~ msgstr "古い外部サーバーアドレス\"%s\"を更新しています。"
 
 #, c-format
 #~ msgid "Default metaserver has been set to value \"%s\"."
-#~ msgstr "デフォルトのメタサーバーが\"%s\"に設定されました。"
+#~ msgstr "デフォルトの外部サーバーが\"%s\"に設定されました。"
 
 #~ msgid "_Keep moving"
 #~ msgstr "なにもしない(_K)"
@@ -58945,7 +58928,7 @@ msgstr ""
 #~ msgstr ""
 #~ "他国のユニットがタイルに単独でいる場合、外交官を用いて買収を試みることがで"
 #~ "きます。ある程度の金額を賄賂として支払うことで、ユニットが直ちに自分のもの"
-#~ "となります。具体的な金額はユニットのステータス [訳注:体力など] およびそれ"
+#~ "となります。具体的な金額はユニットのステータス [訳注:HPなど] およびそれ"
 #~ "が所属する文明によって決まります。ただし共和制および民主主義国家のユニット"
 #~ "は買収に応じません。また平時におけるユニットの買収は外交問題を引き起こしま"
 #~ "す。"
@@ -61244,7 +61227,7 @@ msgstr ""
 #~ msgstr ""
 #~ "要塞内のユニットは、敵の陸上・海上ユニットからの攻撃に対して防御力が+100%"
 #~ "増加します。また種類を問わず陸上ユニットが要塞内で丸1ターンの間移動せず留"
-#~ "まると、体力が最大値の1/4回復します。「天文学」の研究が完了すると、要塞に"
+#~ "まると、HPが最大値の1/4回復します。「天文学」の研究が完了すると、要塞に"
 #~ "望楼が備わり、ユニットの視界が拡大します。"
 
 #~ msgid ""
@@ -62475,7 +62458,7 @@ msgstr ""
 #~ msgstr "無効な $http プロキシ値です。`http://' で始めなければなりません。"
 
 #~ msgid "Failed looking up metaserver's host"
-#~ msgstr "メタサーバのホストのルックアップに失敗しました。"
+#~ msgstr "外部サーバーのホストのルックアップに失敗しました。"
 
 #~ msgid "Dictatress %s"
 #~ msgstr "独裁官 %s"
@@ -62650,7 +62633,7 @@ msgstr ""
 #~ msgstr "太守"
 
 #~ msgid "metainfo <meta-line>"
-#~ msgstr "metainfo <メタサーバ情報行>"
+#~ msgstr "metainfo <外部サーバー情報行>"
 
 #, fuzzy
 #~ msgid "No player with the name '%s' found or ambiguous name."
@@ -62733,16 +62716,16 @@ msgstr ""
 #~ msgstr "  -h, --help\t\tオプションの一覧を表示する\n"
 
 #~ msgid "  -i, --identity ADDR\tBe known as ADDR at metaserver\n"
-#~ msgstr "  -i, --identity ADDR\tADDRであることをメタサーバに知らせる\n"
+#~ msgstr "  -i, --identity ADDR\tADDRであることを外部サーバーに知らせる\n"
 
 #~ msgid "  -l, --log FILE\tUse FILE as logfile\n"
 #~ msgstr "  -l, --log FILE\tログファイルとしてFILEを使用する\n"
 
 #~ msgid "  -m, --meta\t\tNotify metaserver and send server's info\n"
-#~ msgstr "  -m, --meta\t\tメタサーバへ通知しサーバの情報を送信する\n"
+#~ msgstr "  -m, --meta\t\t外部サーバーへ通知しサーバの情報を送信する\n"
 
 #~ msgid "  -M, --Metaserver ADDR\tSet ADDR as metaserver address\n"
-#~ msgstr "  -M, --Metaserver ADDR\tメタサーバのアドレスとしてADDRを設定する\n"
+#~ msgstr "  -M, --Metaserver ADDR\t外部サーバーのアドレスとしてADDRを設定する\n"
 
 #~ msgid "  -p, --port PORT\tListen for clients on port PORT\n"
 #~ msgstr "  -p, --port PORT\tポートPORTでクライアントを待つ\n"
@@ -62790,7 +62773,7 @@ msgstr ""
 #~ "縮形でも良く、また省略されたら'players'が指定されたものとみなします。"
 
 #~ msgid "Metaserver: bad address: <%s %d>."
-#~ msgstr "メタサーバ: 間違ったアドレス: [%s:%d]"
+#~ msgstr "外部サーバー: 間違ったアドレス: [%s:%d]"
 
 #~ msgid "%s has been added as %s level AI-controlled player."
 #~ msgstr "%sは %sレベルのAIプレイヤーとして加わりました。"
@@ -62859,7 +62842,7 @@ msgstr ""
 #~ "す\n"
 
 #~ msgid "  -M, --Meta HOST\tConnect to the metaserver at HOST\n"
-#~ msgstr "  -M, --Meta HOST\tHOSTにあるメタサーバに接続する\n"
+#~ msgstr "  -M, --Meta HOST\tHOSTにある外部サーバーに接続する\n"
 
 #~ msgid "  -p, --port PORT\tConnect to server port PORT (usually with -a)\n"
 #~ msgstr ""
@@ -62900,7 +62883,7 @@ msgstr ""
 #~ "mapview."
 #~ msgstr ""
 #~ "無効にすると、マップ上での戦闘のアニメーションを表示しなくなります。[訳"
-#~ "註: 体力メータの表示と爆発のことです]"
+#~ "註: HPメータの表示と爆発のことです]"
 
 #~ msgid "%s: %d/%d."
 #~ msgstr "%s: %d/%d"
