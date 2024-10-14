@@ -17000,7 +17000,7 @@ msgstr[0] "+チームから %dポイント"
 #: client/text.c:848
 #, c-format
 msgid "Bulbs produced per turn: %d"
-msgstr "1ターンに産出される開発単位: %d"
+msgstr "1ターンに産出される研究ポイント: %d"
 
 #. TRANS: keep leading space; appended to "Bulbs produced per turn: %d"
 #: client/text.c:850
@@ -17123,7 +17123,7 @@ msgstr "研究中 %s: %s"
 #: client/text.c:1049
 #, c-format
 msgid "Bulbs per turn: %d - %d = %d"
-msgstr "1ターンあたりの開発単位: %d - %d = %d"
+msgstr "1ターンあたりの研究ポイント: %d - %d = %d"
 
 #: client/text.c:1053
 #, c-format
@@ -39843,7 +39843,7 @@ msgid ""
 "your civilization will forget an advance, requiring it to be researched "
 "again."
 msgstr ""
-"通常は産出された研究ポイント（開発単位）は科学技術の発展のために使用されます"
+"通常は産出された研究ポイントは科学技術の発展のために使用されます"
 "が、ルールセットによっては、その一部が既存の科学技術の知識維持のために費やさ"
 "れます（classicルールセットでは不要です）。科学技術を維持するために必要な消費"
 "量は、既知の科学技術に必要な研究コストの総計に応じて増加します。科学技術がど"
@@ -49527,13 +49527,12 @@ msgstr ""
 "議会は%sとの条約破棄を承認しないと思われます。解散するか、より良いタイミング"
 "を待つべきでしょう。"
 
-# clefs
 #: server/plrhand.c:999
 #, c-format
 msgid ""
 "The senate passes your bill because of the constant provocations of the %s."
 msgstr ""
-"%sによる絶え間ない挑発を受け、議会はあなたの議案を全会一致で可決しました。"
+"%sによる絶え間ない挑発行為を受けて、議会はあなたの議案を可決しました。"
 
 #: server/plrhand.c:1004
 #, c-format
@@ -49543,36 +49542,31 @@ msgid ""
 msgstr "議会は％との条約破棄を拒否したため解散されました。条約は破棄され、特に混乱もなく新たな"
 "議会が招集されました。"
 
-# yasu
 #: server/plrhand.c:1028
 #, c-format
 msgid "The diplomatic state between the %s and the %s is now %s."
-msgstr "%sと%sの外交関係はいま%sです。"
+msgstr "現在%sと%sの外交関係は「%s」です。"
 
-# yasu, ama
 #: server/plrhand.c:1034
 #, c-format
 msgid ""
 " %s canceled the diplomatic agreement! The diplomatic state between the %s "
 "and the %s is now %s."
-msgstr "%sは外交条約を破棄しました！%sと%sの外交関係はいま%sです。"
+msgstr "%sは外交条約を破棄しました！現在%sと%sの外交関係は「%s」です。"
 
-# clefs
 #: server/plrhand.c:1052
 #, c-format
 msgid ""
 "%s has attacked your ally %s! You cancel your alliance to the aggressor."
-msgstr "%s はあなたの同盟国の %sを攻撃しました！ 侵略国との同盟を破棄します。"
+msgstr "%sは我が国の同盟国である%sを侵略しました！侵略国との同盟を破棄します。"
 
-# clefs
 #: server/plrhand.c:1065
 #, c-format
 msgid ""
 "Your team mate %s declared war on %s. You are obligated to cancel alliance "
 "with %s."
 msgstr ""
-"あなたのチームの %s は %s に宣戦しました。あなたも %s との同盟を破棄しなけれ"
-"ばなりません。"
+"チームメイトの%sが%sに宣戦布告しました。我が国は%sとの同盟を破棄する必要があります。"
 
 #: server/plrhand.c:1720
 msgid ""
@@ -49585,25 +49579,19 @@ msgstr ""
 msgid "no color"
 msgstr "色の指定なし"
 
-# yasu, clefs
-# was "プレイヤー %s を中止させます。"
 #: server/plrhand.c:1952
 #, c-format
 msgid "Removing player %s."
-msgstr "プレイヤー %s を除去します。"
+msgstr "プレイヤー%sを削除します。"
 
-# yasu, clefs
-# was "あなたはゲームを中止させられました。"
 #: server/plrhand.c:1955
 msgid "You've been removed from the game!"
-msgstr "あなたはゲームから除去されました！"
+msgstr "あなたはゲームから削除されました。"
 
-# yasu, clefs
-# was "%sはゲームを中止させられました。"
 #: server/plrhand.c:1958
 #, c-format
 msgid "%s has been removed from the game."
-msgstr "%sはゲームから除去されました。"
+msgstr "%sはゲームから削除されました。"
 
 # yasu
 #: server/plrhand.c:2114
@@ -49615,17 +49603,14 @@ msgstr "空白ではない名前を選んでください。"
 msgid "That nation is already in use."
 msgstr "その民族は既に使われています。"
 
-# yasu, ama
 #: server/plrhand.c:2132
 #, c-format
 msgid "Another player already has the name '%s'. Please choose another name."
-msgstr ""
-"他のプレイヤーが既に'%s'という名前を選んでいます。他の名前を選んでください。"
+msgstr "すでに「%s」という名前のプレイヤーがいます。別の名前を選択してください。"
 
-# yasu, clefs
 #: server/plrhand.c:2156
 msgid "Please choose a name containing only ASCII characters."
-msgstr "ASCII文字だけで綴られた名前にしてください。"
+msgstr "ASCII文字のみを含む名前を選択してください。"
 
 #: server/plrhand.c:2231 server/plrhand.c:2245
 #, c-format
@@ -49990,12 +49975,10 @@ msgid " M goods"
 msgid_plural " M goods"
 msgstr[0] "00万品"
 
-# clefs
-# 科学技術の「電球」
 #: server/report.c:981
 msgid " bulb"
 msgid_plural " bulbs"
-msgstr[0] "単位"
+msgstr[0] "研究ポイント"
 
 #: server/report.c:990
 msgid " month"
@@ -50176,13 +50159,10 @@ msgstr "ルールセットをロードしています"
 msgid "May acquire veteran status."
 msgstr "・練度が上がることがあります。\n"
 
-# Belgae
-# スパイが任務完了後に無事に都市に帰還することです。
 #: server/ruleset/rscompat.c:360
-#, fuzzy
 #| msgid "Escape"
 msgid "CanEscape"
-msgstr "脱出"
+msgstr "脱出することができる"
 
 #: server/ruleset/rscompat.c:360
 msgid "Can try to escape stack death."
@@ -50211,21 +50191,19 @@ msgid ""
 "explanations to ruleset description."
 msgstr ""
 
-# clefs
 #: server/ruleset/rssanity.c:185
-#, fuzzy, c-format
+#, c-format
 #| msgid "World-ranged requirements are only supported for wonders."
 msgid ""
 "%s: World-ranged requirement not supported for %s (only great wonders "
 "supported)"
-msgstr "世界規模での必要条件は不思議のみでサポートされています。"
+msgstr "%s: 世界単位の条件は%sではサポートされていません。（不思議のみでサポートされています。）"
 
-# clefs
 #: server/ruleset/rssanity.c:191
-#, fuzzy, c-format
+#, c-format
 #| msgid "Island-ranged requirements are only supported for wonders."
 msgid "%s: %s-ranged requirement not supported for %s (only wonders supported)"
-msgstr "島単位での必要条件は不思議のみでサポートされています。"
+msgstr "%s: %s単位の条件は%sではサポートされていません。（不思議のみでサポートされています。）"
 
 #: server/ruleset/rssanity.c:204
 #, c-format
@@ -50589,12 +50567,11 @@ msgstr ""
 msgid "Action %s: min distance is %d but max distance is %d."
 msgstr ""
 
-# clefs
 #: server/ruleset/rssanity.c:1321
-#, fuzzy, c-format
+#, c-format
 #| msgid "The %s can't accept %s."
 msgid "The action %s can't block %s."
-msgstr "%sは%sを承認できません。"
+msgstr "アクション「%s」は%sをブロックすることができません。"
 
 #: server/ruleset/rssanity.c:1334
 #, c-format
@@ -50744,13 +50721,12 @@ msgstr "%sは人間プレイヤーとして加わりました。"
 msgid "%s had invalid nation; changing to %s."
 msgstr "%sの民族が不適切です。 %sに変更します。"
 
-# yasu
 #: server/savegame/savegame2.c:3079 server/savegame/savegame2.c:3085
 #: server/savegame/savegame3.c:4110 server/savegame/savegame3.c:4116
-#, fuzzy, c-format
+#, c-format
 #| msgid "You give shared vision to %s."
 msgid "%s did not give shared vision to team member %s."
-msgstr "%s との視界の共有を許可しました。"
+msgstr "%sはチームメイトの%sに視界を共有しませんでした。"
 
 # clefs
 #: server/savegame/savegame2.c:5634 server/savegame/savegame3.c:8103
@@ -50858,11 +50834,10 @@ msgstr "必要なディレクトリを作成できません。"
 msgid "Can't create scenario saves directory!"
 msgstr "必要なディレクトリを作成できません。"
 
-# yasu
 #: server/scripting/api_server_edit.c:893
-#, fuzzy, c-format
+#, c-format
 msgid "?fromscript:You acquire %s."
-msgstr "%2$sから「%1$s」を得ました！"
+msgstr "%sを得ました。"
 
 #. TRANS: "The Greeks ..." or "The members of
 #. * team Red ..."
@@ -50871,13 +50846,12 @@ msgstr "%2$sから「%1$s」を得ました！"
 msgid "?fromscript:The %s acquire %s and share this advance with you."
 msgstr ""
 
-# Daniel
 #. TRANS: "The Greeks ..." or "The members of
 #. * team Red ..."
 #: server/scripting/api_server_edit.c:903
-#, fuzzy, c-format
+#, c-format
 msgid "?fromscript:The %s acquire %s."
-msgstr "%1$sは%3$sから「%2$s」を得ました。"
+msgstr "%sは%sを得ました。"
 
 #: server/scripting/script_fcdb.c:311
 msgid "Database capabilities not compatible with server"
@@ -51185,7 +51159,7 @@ msgstr "都市名の盗用禁止"
 
 #: server/settings.c:495
 msgid "No barbarians"
-msgstr "バーバリアンなし"
+msgstr "出現しない"
 
 #: server/settings.c:496
 msgid "Only in huts"
@@ -51193,16 +51167,15 @@ msgstr "小屋からのみ出現"
 
 #: server/settings.c:497
 msgid "Normal rate of appearance"
-msgstr "通常の出現確率"
+msgstr "通常の出現率"
 
 #: server/settings.c:498
 msgid "Frequent barbarian uprising"
-msgstr "頻発するバーバリアンの反乱"
+msgstr "やや高い出現率"
 
-# この一連の項目、いい訳ないですかね(Belgae)
 #: server/settings.c:499
 msgid "Raging hordes"
-msgstr "バーバリアンの奔流"
+msgstr "高い出現率"
 
 #: server/settings.c:510
 msgid "Fixed to 'revolen' turns"
@@ -51434,16 +51407,15 @@ msgstr ""
 "等角あるいはヘックスのマップは、ysize（マップの高さ）が偶数でなければなりませ"
 "ん。"
 
-# larger thanだと等しい場合は含まれませんがソースから等しい場合もOKなので(Belgae)
 #: server/settings.c:1270 server/settings.c:1295
 #, c-format
 msgid "The map size (%d * %d = %d) must be larger than %d tiles."
-msgstr "マップサイズ(%d * %d = %d)は %dタイル以上である必要があります。"
+msgstr "マップサイズ(%d * %d = %d)のタイル数は%d以上である必要があります。"
 
 #: server/settings.c:1276 server/settings.c:1301
 #, c-format
 msgid "The map size (%d * %d = %d) must be lower than %d tiles."
-msgstr "マップサイズ(%d * %d = %d)は %dタイル以下である必要があります。"
+msgstr "マップサイズ(%d * %d = %d)のタイル数は%d以下である必要があります。"
 
 #: server/settings.c:1346
 msgid "Freeciv-web doesn't support this topology."
@@ -51492,12 +51464,9 @@ msgstr ""
 "・\"幅と高さ\" (XYSIZE): マップの幅およびマップの高さ（単位はタイル数）です"
 "(オプション 'xsize' および 'ysize')。"
 
-# clefs
-# Belgae
-# 地図→マップ。以下同様
 #: server/settings.c:1498
 msgid "Map area (in thousands of tiles)"
-msgstr "　マップの大きさ (×1000タイル)"
+msgstr "  マップの大きさ（×1000タイル）"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -51520,7 +51489,7 @@ msgstr ""
 
 #: server/settings.c:1514
 msgid "Number of (land) tiles per player"
-msgstr "　プレイヤー1人あたりの(陸上)タイル数"
+msgstr "  プレイヤー1人あたりの(陸上)タイル数"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -51543,7 +51512,7 @@ msgstr ""
 
 #: server/settings.c:1531
 msgid "Map width in tiles"
-msgstr "　マップの幅(タイル数)"
+msgstr "  マップの幅(タイル数)"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -51562,7 +51531,7 @@ msgstr ""
 
 #: server/settings.c:1545
 msgid "Map height in tiles"
-msgstr "　マップの高さ(タイル数)"
+msgstr "  マップの高さ(タイル数)"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -51579,9 +51548,6 @@ msgstr ""
 "このオプションを有効にするには、「マップサイズの定義方法」オプション"
 "（'mapsize'）を「幅と高さ」（XYSIZE）に設定する必要があります。"
 
-# clefs
-# トポロジってのは、要はタイルのつながり方です
-# Belgae
 #: server/settings.c:1560
 #| msgid "Map topology index"
 msgid "Map topology"
@@ -51903,10 +51869,6 @@ msgstr ""
 msgid "Average temperature of the planet"
 msgstr "惑星の平均気温(°F)"
 
-# clefs
-# 親切な訳註つき
-# trivia: 日本の冷凍庫やアイスクリームの保存温度がよく「-18℃」になっているのは
-# 単に 0°F≒-18℃ だからなんですね
 #: server/settings.c:1774
 msgid ""
 "Small values will give a cold map, while larger values will give a hotter "
@@ -51920,15 +51882,19 @@ msgid ""
 " 30 means a cold planet with small tropical zones.\n"
 "  0 means a very cold planet with large polar zones and no tropics."
 msgstr ""
-"値を小さくすると寒冷な、大きくすると温暖なマップになります。\n"
-"[訳註:ここでいう温度は華氏です。華氏32度=0℃、華氏212度=100℃]\n"
-"100にすると極めて高温な乾燥した惑星になり、極地は存在せず全域が熱帯と乾燥帯と"
-"なります。[100°F≒38℃]\n"
-"70ではわずかな極地氷のある暑い惑星になります。[70°F≒21℃]\n"
-"50では通常の極地、寒帯、温帯、熱帯がある温暖な惑星になります。砂漠地帯は熱帯"
-"と温帯にまたがって存在します。[50°F=10℃]\n"
-"30ではわずかな熱帯のある寒い惑星になります。[30°F≒-1℃]\n"
-"0では巨大な極地があり熱帯は存在しない極めて寒冷な惑星となります。[0°F≒-18℃]"
+"値が小さいと寒冷な、値が大きいと温暖なマップになります。\n"
+"\n"
+"100を設定すると、極地に極寒の地域はなく、熱帯と乾燥帯のみが存在する、\n"
+"非常に高温で乾燥した惑星になります。\n"
+"\n"
+"70を設定すると、極地の氷がほとんどない、暑い惑星になります。\n"
+"\n"
+"50を設定すると、寒帯、温帯、熱帯の各気候帯を持つ温暖な惑星になります。\n"
+"砂漠地帯は熱帯と温帯にまたがります。\n"
+"\n"
+"30を設定すると、小さな熱帯を持つ、寒い惑星になります。\n"
+"\n"
+"0を設定すると、極地の氷が大きく熱帯が存在しない、非常に寒冷な惑星になります。"
 
 # clefs
 #: server/settings.c:1792
@@ -52041,54 +52007,40 @@ msgstr "0(既定値)の場合、シード値は現在時刻を基に選択され
 msgid "Amount of \"special\" resource tiles"
 msgstr "資源の量 (‰)"
 
-# 原文に難がありますね。鳥とか鯨とかの生成確率です。超訳する？ (clefs)
-# わかりやすくしました(Belgae)
 #: server/settings.c:1884
 msgid ""
 "Special resources improve the basic terrain type they are on. The server "
 "variable's scale is parts per thousand."
-msgstr ""
-"資源のあるタイルは、より多くの産出物をもたらします。値は千分率で表した比率で"
-"す。"
+msgstr "特産物があるタイルは、各種ポイントをより多く産出します。値は千分率です。"
 
 #: server/settings.c:1891
 msgid "Amount of huts (bonus extras)"
 msgstr "小屋(先住民の集落)の量 (‰)"
 
-# 原文に難がありますね。鳥とか鯨とかの生成確率です。超訳する？ (clefs)
-# わかりやすくしました(Belgae)
 #: server/settings.c:1892
-#, fuzzy
 #| msgid ""
 #| "Huts are tile extras that may be investigated by units. The server "
 #| "variable's scale is huts per thousand tiles."
 msgid ""
 "Huts are tile extras that usually may be investigated by units. The server "
 "variable's scale is huts per thousand tiles."
-msgstr ""
-"ユニットを向かわせることで、小屋を調査することができ、特別なイベントが発生し"
-"ます。値は千分率で表した比率です。"
+msgstr "小屋はタイル上に生成され、通常、ユニットはこれを調査することができます。値は千分率です。"
 
 #: server/settings.c:1900
 msgid "Amount of animals"
 msgstr "野生動物の量 (‰)"
 
-# 原文に難がありますね。鳥とか鯨とかの生成確率です。超訳する？ (clefs)
-# わかりやすくしました(Belgae)
 #: server/settings.c:1901
 msgid ""
 "Number of animals initially created on terrains defined for them in the "
 "ruleset (if the ruleset supports it). The server variable's scale is animals "
 "per thousand tiles."
-msgstr ""
-"(ルールセットで定義されている場合のみ)マップ生成に伴って配置される野生動物の"
-"数を設定します。値は千分率で表した比率です。"
+msgstr "最初に生成される野生動物の数を設定します（ルールセットで野生動物が有効化されている場合のみ）。値は千分率です。"
 
 #: server/settings.c:1913
 msgid "Minimum number of players"
 msgstr "最小プレイヤー数"
 
-# clefs
 # Belgae
 #: server/settings.c:1914
 msgid ""
@@ -52214,12 +52166,8 @@ msgstr ""
 
 #: server/settings.c:2007
 msgid "List of players' initial units"
-msgstr "開始時にプレイヤーが保有するユニット"
+msgstr "開始時のユニット"
 
-# clefs
-# 実際には "King"「王様」なんてユニットはないんだけれど
-# "Leadership" ならある
-# Belgae:指導者のユニット名はLeaderになっていますが、この説明文は直っていませんね。
 #: server/settings.c:2008
 msgid ""
 "This should be a string of characters, each of which specifies a unit role. "
@@ -52236,19 +52184,9 @@ msgid ""
 "    a   = Fast attack unit (eg., Horsemen)\n"
 "    A   = Strong attack unit (eg., Catapult)\n"
 msgstr ""
-"ゲーム開始時点で保有するユニットの数と種類を、文字列により指定します。これに"
-"は最低でも1つの都市建設者が含まれていなければなりません。各文字はそのユニット"
-"の役割を意味します。 :\n"
-"    c   = 都市建設者             (例: 開拓者)\n"
-"    w   = 地形労働者            (例: エンジニア)\n"
-"    x   = 探索用ユニット         (例: 探検家)\n"
-"    k   = ゲーム終了ユニット     (例: 指導者)\n"
-"    s   = 外交官                      (例: 外交官)\n"
-"    f   = 輸送用船舶              (例: トライリーム)\n"
-"    d   = 一応の防御ユニット  (例: 戦士)\n"
-"    D   = 優秀な防御ユニット  (例: ファランクス)\n"
-"    a   = 高速な攻撃ユニット  (例: 騎馬兵)\n"
-"    A   = 強力な攻撃ユニット  (例: カタパルト)\n"
+"この文字列は、各プレイヤーがゲーム開始時に持っているユニットの種類を指定します。\n"
+"それぞれの文字が指定するユニットは、ルールセットによって定義されています。\n"
+"最初の文字が指定するユニットは、少なくとも1つの開始地点の地形に存在することができる必要があります。\n"
 
 #: server/settings.c:2027
 msgid "Whether player starts with a city"
@@ -52264,45 +52202,36 @@ msgstr ""
 
 #: server/settings.c:2035
 msgid "Area where initial units are located"
-msgstr "最初のユニットが置かれる範囲"
+msgstr "開始時のユニットが配置される範囲"
 
-# clefs
-# was "これは、最初のユニットが分散する土地の片側の長さの半分です。"
 #: server/settings.c:2036
 msgid "This is the radius within which the initial units are dispersed."
-msgstr "開始時に、この値の半径の範囲内でユニットが分散して配置されます。"
+msgstr "開始時のユニットが配置される範囲の半径です。"
 
-# clefs
-# was "プレイヤーごとの開始時の金"
 #: server/settings.c:2044
 msgid "Starting gold per player"
-msgstr "各プレイヤーが開始時に持っている国庫金"
+msgstr "開始時の国庫金"
 
 # clefs
 #: server/settings.c:2045
 msgid "At the beginning of the game, each player is given this much gold."
-msgstr "ゲーム開始時に、各プレイヤーはこの額の資金を与えられることになります。"
+msgstr "各プレイヤーがゲーム開始時に持っている国庫金の額です。"
 
-# clefs
-# was "プレイヤーごとの開始時の金"
 #: server/settings.c:2052
-#, fuzzy
 #| msgid "Starting gold per player"
 msgid "Starting infrapoints per player"
-msgstr "各プレイヤーが開始時に持っている国庫金"
+msgstr "開始時のインフラポイント"
 
-# clefs
 #: server/settings.c:2053
-#, fuzzy
 #| msgid "At the beginning of the game, each player is given this much gold."
 msgid ""
 "At the beginning of the game, each player is given this many infrapoints."
-msgstr "ゲーム開始時に、各プレイヤーはこの額の資金を与えられることになります。"
+msgstr "各プレイヤーがゲーム開始時に持っているインフラポイントの量です。"
 
 # clefs
 #: server/settings.c:2060
 msgid "Number of initial techs per player"
-msgstr "各プレイヤーが最初に持っている科学技術の数"
+msgstr "開始時の科学技術の数"
 
 # clefs
 #. TRANS: The string between single quotes is a setting name and
@@ -52314,7 +52243,7 @@ msgid ""
 "of tech_cost_style in the ruleset, a big value for 'techlevel' can make the "
 "next techs really expensive."
 msgstr ""
-"ゲーム開始時に、各プレイヤーはこの数だけの科学技術を与えられます。どの科学技"
+"各プレーヤーがゲーム開始時に持っている科学技術の数です。どの科学技"
 "術になるかはプレイヤーごとにランダムに決定されます。ルールセットの"
 "tech_cost_styleの値によっては、techlevelの値を大きくするとその次の科学技術の"
 "開発コストが極めて大きいものになることがあります。"
@@ -52335,12 +52264,10 @@ msgstr ""
 "技術のコストにはこの係数(%)がかけられます。係数をかける前の基本コストはルール"
 "セットや他の設定により決定されます。"
 
-# clefs
 #: server/settings.c:2083
-#, fuzzy
 #| msgid "You cannot research this technology."
 msgid "Allow researching multiple technologies"
-msgstr "この科学技術は研究できません。"
+msgstr "複数の科学技術を同時に研究することを許可する"
 
 #: server/settings.c:2084
 msgid ""
@@ -52551,7 +52478,7 @@ msgstr ""
 msgid "Percentage food lost when city can't grow"
 msgstr "都市が成長できないときに失う食料の割合"
 
-# ama, yasu
+# yasu
 #: server/settings.c:2239
 msgid ""
 "If a city would expand, but it can't because it lacks some prerequisite "
@@ -52568,7 +52495,6 @@ msgstr ""
 msgid "Multiplier percentage for production costs"
 msgstr "生産コストの係数(％)"
 
-# clefs
 # Belgae
 #: server/settings.c:2252
 msgid ""
@@ -52753,7 +52679,7 @@ msgstr ""
 msgid "Chance for conquered building destruction"
 msgstr "占領した都市の建物が壊れる確率"
 
-# yasu, clefs
+# clefs
 #: server/settings.c:2405
 msgid ""
 "When a player conquers a city, each city improvement has this percentage "
@@ -52796,17 +52722,13 @@ msgstr ""
 msgid "Do all units in tile die with defender"
 msgstr "防御側ユニットが全滅する"
 
-# これは海上の艦隊にも適用されます。ヘンなの。(clefs)
 #: server/settings.c:2433
 msgid ""
 "If this is enabled, each time a defender unit loses in combat, and is not "
 "inside a city or suitable base, all units in the same tile are destroyed "
 "along with the defender. If this is disabled, only the defender unit is "
 "destroyed."
-msgstr ""
-"この設定が有効のとき、都市・要塞外における戦闘では、防御側ユニットが撃破され"
-"ると同じタイルにいるユニットが全滅します。無効のときは、防御側ユニットだけが"
-"撃破されます。"
+msgstr "この設定を有効にすると、都市または適切な基地の外で防御側ユニットが戦闘に敗れると、同じタイルにいるすべてのユニットが防御側ユニットと共に消滅します。この設定を無効にすると、防御側ユニットのみが消滅します。"
 
 #: server/settings.c:2441
 msgid "Reduce city population after attack"
