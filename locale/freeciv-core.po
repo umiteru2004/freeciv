@@ -19530,10 +19530,9 @@ msgid "International Outrage"
 msgstr ""
 
 #: common/fc_types.h:497
-#, fuzzy
 #| msgid "Restricted to teams"
 msgid "Restricted"
-msgstr "チーム内に限り可能"
+msgstr "制限あり"
 
 #: common/fc_types.h:499
 msgid "Novice"
