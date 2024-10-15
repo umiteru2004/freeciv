@@ -6595,7 +6595,7 @@ msgstr "革命(_R)..."
 #: client/gui-gtk-5.0/menu.c:1192 client/gui-gtk-5.0/pages.c:147
 #: client/gui-qt/fc_client.cpp:886 client/gui-qt/menu.cpp:984
 msgid "Set local options"
-msgstr "ローカルオプション"
+msgstr "クライアント設定"
 
 #: client/gui-gtk-3.22/menu.c:659 client/gui-gtk-3.22/pages.c:1581
 #: client/gui-gtk-4.0/menu.c:1212 client/gui-gtk-4.0/pages.c:1610
@@ -8773,7 +8773,7 @@ msgstr "観察"
 
 #: client/gui-qt/fc_client.cpp:1180
 msgid "Client Options"
-msgstr "ローカルオプション"
+msgstr "クライアント設定"
 
 # clefs
 #: client/gui-qt/fc_client.cpp:1208
@@ -11495,7 +11495,7 @@ msgstr "サーバーオプション"
 
 #: client/gui-sdl2/optiondlg.c:822 client/gui-sdl3/optiondlg.c:836
 msgid "Local options"
-msgstr "ローカルオプション"
+msgstr "クライアント設定"
 
 #: client/gui-sdl2/optiondlg.c:842 client/gui-sdl3/optiondlg.c:856
 msgid "Worklists"
@@ -11503,7 +11503,7 @@ msgstr "生産待ちリスト"
 
 #: client/gui-sdl2/optiondlg.c:853 client/gui-sdl3/optiondlg.c:867
 msgid "Save Local Options"
-msgstr "ローカルオプションの保存"
+msgstr "クライアント設定の保存"
 
 #: client/gui-sdl2/optiondlg.c:873 client/gui-sdl3/optiondlg.c:887
 msgid "Help Browser"
@@ -16146,9 +16146,7 @@ msgstr "このフォントは、ベータラベルの表示に使用されます
 msgid "Small Font"
 msgstr "小さなフォント"
 
-# Belgae
 #: client/options.c:2922 client/options.c:3143 client/options.c:3364
-#, fuzzy
 #| msgid ""
 #| "This font is used for any small font request.  For example, it is used "
 #| "for display the building lists in the city dialog, the Economy report or "
@@ -16158,8 +16156,8 @@ msgid ""
 "display the building lists in the city dialog, the Economy report or the "
 "Units report."
 msgstr ""
-"このフォントは、小さなフォントに使用されます。例えば、都市ダイアログの都市施設"
-"リストや、経済報告、ユニット報告などです。"
+"このフォントは、小さなフォントが必要な場所で使用されます。\n"
+"例えば、都市ダイアログの都市施設リスト、経済タブ、ユニットタブなどです。"
 
 #: client/options.c:2929 client/options.c:3150 client/options.c:3371
 msgid "Comment Label"
@@ -40356,7 +40354,7 @@ msgstr ""
 "  Shift+右ドラッグ:　　　　　　エリアの内容を既存の選択に追加する\n"
 "\n"
 "  このモードでは複数のユニットあるいは都市を選択することができます。選択範囲"
-"内に都市が含まれていて、ローカルオプションで\"都市をユニットより優先して選択"
+"内に都市が含まれていて、クライアント設定で\"都市をユニットより優先して選択"
 "\"が設定されている場合、都市のみが選択され、現在のユニット選択はそのままにな"
 "ります。設定していない場合は、都市とユニットの両方が選択されます。\n"
 "\n"
