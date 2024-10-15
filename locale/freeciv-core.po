@@ -1719,7 +1719,7 @@ msgstr ""
 
 #: client/client_main.c:458
 msgid "Connect to the metaserver at HOST"
-msgstr "HOSTにある外部サーバーに接続する"
+msgstr "HOSTにある公開サーバーに接続する"
 
 #. TRANS: "name" is exactly what user must type, do not translate.
 #: client/client_main.c:461
@@ -4945,7 +4945,7 @@ msgstr "税"
 #: client/gui-sdl2/repodlgs.c:2034 client/gui-sdl3/repodlgs.c:1987
 #: client/gui-sdl3/repodlgs.c:2034
 msgid "Lock"
-msgstr "固定"
+msgstr "ロック"
 
 #: client/gui-gtk-3.22/gamedlgs.c:546 client/gui-gtk-4.0/gamedlgs.c:530
 #: client/gui-gtk-5.0/gamedlgs.c:530
@@ -6839,7 +6839,7 @@ msgstr "ネットワークゲームへ接続(_O)"
 msgid ""
 "Connects to outside server. Sometimes you want to launch a separate server "
 "even for local games."
-msgstr "外部サーバーに接続します。\nここでは、デフォルトと異なるポートに起動した\nローカルサーバーに接続することも可能です。"
+msgstr "公開サーバーに接続します。\nここでは、デフォルトと異なるポートに起動した\nローカルサーバーに接続することも可能です。"
 
 #: client/gui-gtk-3.22/pages.c:348 client/gui-gtk-4.0/pages.c:357
 #: client/gui-gtk-5.0/pages.c:357
@@ -6960,7 +6960,7 @@ msgstr "LAN(_A)"
 #: client/gui-gtk-3.22/pages.c:1292 client/gui-gtk-4.0/pages.c:1321
 #: client/gui-gtk-5.0/pages.c:1321
 msgid "Internet _Metaserver"
-msgstr "外部サーバー(_M)"
+msgstr "公開サーバー(_M)"
 
 #: client/gui-gtk-3.22/pages.c:1331 client/gui-gtk-4.0/pages.c:1362
 #: client/gui-gtk-5.0/pages.c:1362
@@ -14672,7 +14672,7 @@ msgstr ""
 
 #: client/options.c:1949
 msgid "Metaserver"
-msgstr "外部サーバー"
+msgstr "公開サーバー"
 
 # clefs
 #: client/options.c:1950
@@ -14681,7 +14681,7 @@ msgid ""
 "the internet.  Don't change this from its default value unless you know what "
 "you're doing."
 msgstr ""
-"外部サーバーとは、インターネット上で開催中のゲームを知るためにクライアントが"
+"公開サーバーとは、インターネット上で開催中のゲームを知るためにクライアントが"
 "問い合わせるホストです。自分のしていることが何かわからないようなら、この項目"
 "はデフォルトから変更しないでください。[訳註: サーバー一覧が出なくなって慌てる"
 "のがオチです]"
@@ -15914,14 +15914,14 @@ msgstr ""
 
 #: client/options.c:2780 client/options.c:3001 client/options.c:3222
 msgid "Metaserver tab first in network page"
-msgstr "ネットワークページで外部サーバータブを先頭に"
+msgstr "ネットワークページで公開サーバータブを先頭に"
 
 #: client/options.c:2781 client/options.c:3002 client/options.c:3223
 msgid ""
 "If this option is enabled, the metaserver tab will be the first notebook tab "
 "in the network page. This option requires a restart in order to take effect."
 msgstr ""
-"このオプションを有効にすると、ネットワークページで外部サーバータブが最初のタ"
+"このオプションを有効にすると、ネットワークページで公開サーバータブが最初のタ"
 "ブになります。このオプションを適用するには再起動が必要です。"
 
 #: client/options.c:2786 client/options.c:3007 client/options.c:3228
@@ -16596,7 +16596,7 @@ msgstr ""
 
 #: client/servers.c:334 server/meta.c:257
 msgid "Error connecting to metaserver"
-msgstr "外部サーバーへの接続に失敗しました"
+msgstr "公開サーバーへの接続に失敗しました"
 
 #: client/servers.c:434
 #, c-format
@@ -39967,7 +39967,7 @@ msgid ""
 "the -m flag, it will report to the metaserver,"
 msgstr ""
 "ゲームを開始する前なら、ホスト名とポート(5556 がデフォルト)を指定することで誰"
-"でもサーバーへ接続できます。-m 付きで実行されているサーバは、外部サーバーへ報告"
+"でもサーバーへ接続できます。-m 付きで実行されているサーバは、公開サーバーへ報告"
 "します。"
 
 # Belgae
@@ -39978,7 +39978,7 @@ msgid ""
 "browser is using a HTTP proxy; to make the client use the same proxy, before "
 "starting the client, set the $http_proxy environment variable to:"
 msgstr ""
-"クライアントからもこのページを取得できます。接続ダイアログの「外部サーバー」"
+"クライアントからもこのページを取得できます。接続ダイアログの「公開サーバー」"
 "ボタンを使ってください。結果が表示されない場合は、使用しているWWWブラウザが"
 "HTTPプロキシを使っていないか調べてみてください。クライアントにも同じプロキシ"
 "を使用させるには、クライアントを起動する前に$http_proxy環境変数を以下のように"
@@ -39998,7 +39998,7 @@ msgstr ""
 "して誰でも接続できます。AIプレイヤーに接続しただけでは、そのプレイヤーは人間"
 "に操作される状態にはなりません。これは接続とは別のサーバーの設定なのです。も"
 "しあなたがゲーム中に接続を失って再接続するなら、最初に使っていたニックネーム"
-"ではなくあなたの民族の指導者の名前を使います。サーバが外部サーバーへ報告してい"
+"ではなくあなたの民族の指導者の名前を使います。サーバが公開サーバーへ報告してい"
 "るなら、そこでプレイヤー名を知ることができます。"
 
 # Belgae
@@ -45274,7 +45274,7 @@ msgstr "カテゴリー: %s.<br>"
 #: tools/manual/manual_settings.c:79
 #, c-format
 msgid "Is locked by the ruleset."
-msgstr "ルールセットで固定されています。"
+msgstr "ルールセットでロックされています。"
 
 # clefs
 #: tools/manual/manual_settings.c:81
@@ -47038,7 +47038,7 @@ msgstr ""
 "示します。\"vital\"、\"situational\"、\"rare\"を指定した場合は、それぞれのレ"
 "ベルに対応するオプションをすべて表示します。\"changed\"を指定した場合は、既に"
 "設定が変更されているオプションのみ表示します。\"locked\"を指定した場合は、"
-"ルールセットで固定されたすべての設定が表示されます。\"rulesetdir\"を指定した"
+"ルールセットでロックされたすべての設定が表示されます。\"rulesetdir\"を指定した"
 "場合は、現在のルールセットディレクトリ名を表示します。"
 
 #. TRANS: translate text between <> only
@@ -47192,7 +47192,7 @@ msgstr ""
 
 #: server/commands.c:256
 msgid "Set metaserver info line."
-msgstr "外部サーバー情報行を設定します。"
+msgstr "公開サーバー情報行を設定します。"
 
 #: server/commands.c:257
 #, fuzzy
@@ -47208,7 +47208,7 @@ msgid ""
 "defined metamessage will be used instead of automatically generated "
 "messages, if it is available."
 msgstr ""
-"ユーザー定義の外部サーバー情報行を設定します。パラメータを省略した場合は、以"
+"ユーザー定義の公開サーバー情報行を設定します。パラメータを省略した場合は、以"
 "前に設定されたメタメッセージが削除されます。ほとんどの状況において、ユーザー"
 "定義のメタメッセージが（使用できるところで）自動生成メッセージに代わって使用"
 "されます。"
@@ -47221,11 +47221,11 @@ msgstr ""
 # Belgae
 #: server/commands.c:267
 msgid "Set metaserver patches line."
-msgstr "外部サーバーパッチ行を設定します。"
+msgstr "公開サーバーパッチ行を設定します。"
 
 #: server/commands.c:276
 msgid "Control metaserver connection."
-msgstr "外部サーバー接続を操作します。"
+msgstr "公開サーバー接続を操作します。"
 
 #: server/commands.c:277
 #, fuzzy
@@ -47236,9 +47236,9 @@ msgid ""
 "'metaconnection persistent' or 'metac p' is like 'up', but keeps trying "
 "after failures. "
 msgstr ""
-"'metaconnection ?'は、外部サーバーへの接続の状態を報告しま"
-"す。'metaconnection down'もしくは'metac d'は、外部サーバーから切断しま"
-"す。'metaconnection up'もしくは'metac u'は、外部サーバーへ接続します。"
+"'metaconnection ?'は、公開サーバーへの接続の状態を報告しま"
+"す。'metaconnection down'もしくは'metac d'は、公開サーバーから切断しま"
+"す。'metaconnection up'もしくは'metac u'は、公開サーバーへ接続します。"
 
 #. TRANS: translate text between <> only
 #: server/commands.c:286
@@ -47247,7 +47247,7 @@ msgstr "metaserver <アドレス>"
 
 #: server/commands.c:287
 msgid "Set address (URL) for metaserver to report to."
-msgstr "外部サーバーへ報告するアドレス（URL）を設定します。"
+msgstr "公開サーバーへ報告するアドレス（URL）を設定します。"
 
 #. TRANS: translate text between <> only
 #: server/commands.c:292
@@ -49395,12 +49395,12 @@ msgstr "地形の変更に伴い %sを解散しました。"
 
 #: server/meta.c:215
 msgid "Not reporting to the metaserver in this game."
-msgstr "このゲームでは外部サーバーへは報告していません。"
+msgstr "このゲームでは公開サーバーへは報告していません。"
 
 #: server/meta.c:220
 #, fuzzy
 msgid "Metaserver connection currently failing."
-msgstr "外部サーバー接続は既に開いています。"
+msgstr "公開サーバー接続は既に開いています。"
 
 #: server/plrhand.c:165
 #, c-format
@@ -53873,7 +53873,7 @@ msgstr ""
 #: server/settings.c:3264
 #, fuzzy
 msgid "Metaserver info line"
-msgstr "外部サーバー情報行を設定します。"
+msgstr "公開サーバー情報行を設定します。"
 
 #: server/settings.c:3265
 #, fuzzy
@@ -53883,7 +53883,7 @@ msgid ""
 "to empty (\"\", not \"empty\") to always use an automatically generated meta "
 "server message."
 msgstr ""
-"ユーザー定義の外部サーバー情報行を設定します。パラメータを省略した場合は、以"
+"ユーザー定義の公開サーバー情報行を設定します。パラメータを省略した場合は、以"
 "前に設定されたメタメッセージが削除されます。ほとんどの状況において、ユーザー"
 "定義のメタメッセージが（使用できるところで）自動生成メッセージに代わって使用"
 "されます。"
@@ -53932,13 +53932,13 @@ msgstr "設定 '%s' の変更は認められていません。"
 #: server/settings.c:3478
 #, c-format
 msgid "The setting '%s' is locked by the ruleset."
-msgstr "設定 '%s' はルールセットによって固定されています。"
+msgstr "設定 '%s' はルールセットによってロックされています。"
 
 #: server/settings.c:3484
 #, fuzzy, c-format
 #| msgid "The setting '%s' is locked by the ruleset."
 msgid "The setting '%s' is locked by admin."
-msgstr "設定 '%s' はルールセットによって固定されています。"
+msgstr "設定 '%s' はルールセットによってロックされています。"
 
 #: server/settings.c:3584
 #, c-format
@@ -54005,7 +54005,7 @@ msgstr "ルールセット: '%s' は %s に設定されました。"
 #: server/settings.c:4604
 #, c-format
 msgid "Ruleset: '%s' has been locked by the ruleset."
-msgstr "ルールセット: %s はルールセットで固定されています。"
+msgstr "ルールセット: %s はルールセットでロックされています。"
 
 #: server/settings.c:4964 server/settings.c:4996 server/settings.c:5025
 #: server/settings.c:5059 server/settings.c:5093
@@ -54161,7 +54161,7 @@ msgstr "首都からの誘導がないため、 %sの宇宙船は失われまし
 #, c-format
 msgid "Warning: the %s option is obsolete.  Use -m to enable the metaserver.\n"
 msgstr ""
-"警告: %sオプションは現在のバージョンでは使用されなくなりました。外部サーバー"
+"警告: %sオプションは現在のバージョンでは使用されなくなりました。公開サーバー"
 "を有効にするには-mを使用してください。\n"
 
 #: server/srv_entrypoint.c:204
@@ -54225,7 +54225,7 @@ msgstr "アドレスADDRでクライアントを待つ"
 
 #: server/srv_entrypoint.c:260
 msgid "Connect to metaserver from this address"
-msgstr "このアドレスから外部サーバーへ接続する"
+msgstr "このアドレスから公開サーバーへ接続する"
 
 #. TRANS: "identity" is exactly what user must type, do not translate.
 #: server/srv_entrypoint.c:287
@@ -54238,7 +54238,7 @@ msgstr ""
 
 #: server/srv_entrypoint.c:294
 msgid "Notify metaserver and send server's info"
-msgstr "外部サーバーへ通知しサーバーの情報を送信する"
+msgstr "公開サーバーへ通知しサーバーの情報を送信する"
 
 #. TRANS: "Metaserver" is exactly what user must type, do not translate.
 #: server/srv_entrypoint.c:297
@@ -54612,11 +54612,11 @@ msgstr "ルールセットディレクトリ\"%s\"が見つかりません。"
 #: server/srv_main.c:3153
 #, c-format
 msgid "Sending info to metaserver <%s>."
-msgstr "外部サーバー <%s>に情報を送信しています"
+msgstr "公開サーバー <%s>に情報を送信しています"
 
 #: server/srv_main.c:3157
 msgid "Not starting without explicitly requested metaserver connection."
-msgstr "外部サーバーへの接続を明示的に要求しなければ起動しません。"
+msgstr "公開サーバーへの接続を明示的に要求しなければ起動しません。"
 
 #: server/srv_main.c:3180
 msgid "The game is over..."
@@ -54739,28 +54739,28 @@ msgstr "'%s' という名前の接続はありません。"
 #: server/stdinhand.c:508
 #, c-format
 msgid "Open metaserver connection to [%s]."
-msgstr "[%s]への外部サーバー接続を開きます。"
+msgstr "[%s]への公開サーバー接続を開きます。"
 
 #: server/stdinhand.c:521
 #, c-format
 msgid "Close metaserver connection to [%s]."
-msgstr "[%s]への外部サーバー接続を閉じます。"
+msgstr "[%s]への公開サーバー接続を閉じます。"
 
 #: server/stdinhand.c:538
 msgid "Metaserver connection is open."
-msgstr "外部サーバー接続は開いています。"
+msgstr "公開サーバー接続は開いています。"
 
 #: server/stdinhand.c:541
 msgid "Metaserver connection is closed."
-msgstr "外部サーバー接続は閉ざされました。"
+msgstr "公開サーバー接続は閉ざされました。"
 
 #: server/stdinhand.c:560
 msgid "Metaserver connection is already open."
-msgstr "外部サーバー接続は既に開いています。"
+msgstr "公開サーバー接続は既に開いています。"
 
 #: server/stdinhand.c:571
 msgid "Metaserver connection is already closed."
-msgstr "外部サーバー接続は既に閉じています。"
+msgstr "公開サーバー接続は既に閉じています。"
 
 #: server/stdinhand.c:576
 msgid "Argument must be 'u', 'up', 'd', 'down', 'p', 'persistent', or '?'."
@@ -54771,15 +54771,13 @@ msgstr ""
 #: server/stdinhand.c:597
 #, c-format
 msgid "Metaserver patches string set to '%s'."
-msgstr "外部サーバーのパッチ文字列を'%s'に設定します。"
+msgstr "公開サーバーのパッチ文字列を'%s'に設定します。"
 
 # clefs
 #: server/stdinhand.c:600
 #, c-format
 msgid "Metaserver patches string set to '%s', not reporting to metaserver."
-msgstr ""
-"外部サーバーのパッチ文字列を '%s' へ設定します。外部サーバーへの通知は行ってい"
-"ません。"
+msgstr "公開サーバーのパッチ文字列を'%s'に設定します。サーバーには通知されません。"
 
 #: server/stdinhand.c:615
 msgid "/metamessage command is deprecated. Set metamessage setting instead."
@@ -54789,21 +54787,21 @@ msgstr ""
 #: server/stdinhand.c:626
 #, c-format
 msgid "Metaserver message string set to '%s'."
-msgstr "外部サーバーのメッセージ文字列を '%s' へ設定します。"
+msgstr "公開サーバーのメッセージ文字列を '%s' へ設定します。"
 
 # clefs
 #: server/stdinhand.c:629
 #, c-format
 msgid "Metaserver message string set to '%s', not reporting to metaserver."
 msgstr ""
-"外部サーバーのメッセージ文字列を '%s' へ設定します。外部サーバーへの通知は行っ"
+"公開サーバーのメッセージ文字列を '%s' へ設定します。公開サーバーへの通知は行っ"
 "ていません。"
 
 # Belgae
 #: server/stdinhand.c:655
 #, c-format
 msgid "Metaserver is now [%s]."
-msgstr "現在の外部サーバーは[%s]です。"
+msgstr "現在の公開サーバーは[%s]です。"
 
 #: server/stdinhand.c:664
 #, c-format
@@ -55198,69 +55196,56 @@ msgstr "現在のルールセットディレクトリは\"%s\"です。"
 
 #: server/stdinhand.c:2227
 msgid "All options with non-default values"
-msgstr "デフォルトから変更されているすべてのオプション"
+msgstr "デフォルトから変更されているすべての設定"
 
 #: server/stdinhand.c:2230
 msgid "All options"
 msgstr "すべてのオプション"
 
-# clefs
 #: server/stdinhand.c:2233
 msgid "Vital options"
-msgstr "特に重要なオプション"
+msgstr "重要なオプション"
 
-# situationalってのはわかりにくいが、要は対戦の時にどれだけ意味を持つかによる
-# 分類のようです (clefs)
 #: server/stdinhand.c:2236
 msgid "Situational options"
-msgstr "状況により必要になるオプション"
+msgstr "状況に応じて変更される設定"
 
-# clefs
 #: server/stdinhand.c:2239
 msgid "Rarely used options"
-msgstr "めったに使われないオプション"
+msgstr "ほとんど変更されない設定"
 
 #: server/stdinhand.c:2242
 msgid "Options locked by the ruleset"
-msgstr "ルールセットで固定されたオプション"
+msgstr "ルールセットにロックされている設定"
 
 #: server/stdinhand.c:2254
 msgid "In the column '##' the status of the option is shown:"
-msgstr "'##'列にオプションのステータスが表示されます:"
+msgstr "記号は設定の状態を示しています"
 
 #: server/stdinhand.c:2255
 msgid " - a '!' means the option is locked by the ruleset."
-msgstr " - '!' はルールセットで固定されたオプションを意味します。"
+msgstr "  ! : ルールセットにロックされている設定"
 
-# ama, clefs
 #: server/stdinhand.c:2256
 msgid " - a '+' means you may change the option."
-msgstr " - '+' は変更可能なオプションを意味します。"
+msgstr "  + : 変更可能な設定"
 
-# ama, clefs
 #: server/stdinhand.c:2257
-#, fuzzy
 msgid " - a '~' means that option follows default value."
-msgstr " - '=' は既定値のままのオプションを意味します。"
+msgstr "  ~ : デフォルトを参照する設定"
 
-# ama, clefs
 #: server/stdinhand.c:2258
-#, fuzzy
 msgid " - a '=' means the value is same as default."
-msgstr " - '=' は既定値のままのオプションを意味します。"
+msgstr "  = : デフォルトと同じ設定"
 
-# どうも表示がずれて良くない (clefs)
-# /show: オプション 値      (最小,最大)    説明
-# /show: ----------------------------------------------------------------
-# /show: separatepoles +=1     (0,1)                 極地が大陸から離れて
 #: server/stdinhand.c:2260
 #, c-format
 msgid "%-*s ## value (min, max)"
-msgstr "%-*s     ##   値 (最小,最大)    "
+msgstr "%-*s - 状態 - 値 (最小値, 最大値)"
 
 #: server/stdinhand.c:2261
 msgid "Option"
-msgstr "オプション"
+msgstr "設定"
 
 #: server/stdinhand.c:2304
 msgid "A help text for each option is available via 'help <option>'."
@@ -55276,7 +55261,7 @@ msgstr ""
 "'show situational' または 'show rare' でさらに多くのオプションを表示しま"
 "す。\n"
 "'show changed' で、既定値から変更された設定を表示します。\n"
-"'show locked' で、ルールセットで固定された設定を表示します。"
+"'show locked' で、ルールセットでロックされた設定を表示します。"
 
 #: server/stdinhand.c:2408
 msgid "Cannot change teams once game has begun."
@@ -55297,14 +55282,11 @@ msgstr ""
 "未定義の引数です。使用法:\n"
 "%s"
 
-# clefs
-# Belgae
 #: server/stdinhand.c:2440
-#, fuzzy, c-format
+#, c-format
 #| msgid "No such team %s.  Please give a valid team name or number."
 msgid "No such team %s. Please give a valid team name or number."
-msgstr ""
-"%sというチームはありません。適切なチーム名または番号を入力してください。"
+msgstr "%sというチームはありません。有効なチーム名または番号を入力してください。"
 
 # clefs
 #: server/stdinhand.c:2447
@@ -55364,16 +55346,13 @@ msgstr "引数\"%s\"は省略しすぎです。"
 msgid "There are no votes running."
 msgstr "投票は行われていません。"
 
-# Belgae
-# 括弧内は「3件の投票が他に実施されています」のような文章が入ります。
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:2575
 #, c-format
 msgid "No legal last vote (%d %s)."
-msgstr "最終投票として適切な対象が見つかりません (%d %s)。"
+msgstr "有効な最終投票がありません (%d%s)。"
 
 # Belgae
-# "No legal last vote (%d %s)."の%sに代入されるようです。
 #: server/stdinhand.c:2576
 msgid "other vote running"
 msgid_plural "other votes running"
@@ -55503,15 +55482,13 @@ msgstr "%sはもうデバッグされません"
 msgid "%s %s no longer debugged."
 msgstr "%s %sはもうデバッグされません。"
 
-# Belgae
-# ferryは海上輸送ユニットのことのようです。「輸送船」はすでに使用されているので。
 #: server/stdinhand.c:2879
 msgid "Ferry system is no longer in debug mode."
-msgstr "フェリーシステムはもうデバッグモードではありません。"
+msgstr "フェリーシステムがデバッグモードではなくなりました"
 
 #: server/stdinhand.c:2883
 msgid "Ferry system in debug mode."
-msgstr "フェリーシステムはデバッグモードです。"
+msgstr "フェリーシステムがデバッグモードになりました。"
 
 #: server/stdinhand.c:2896
 msgid "Value 2 must be integer."
@@ -55716,20 +55693,15 @@ msgstr "あなたは他のユーザーを解任できません。"
 msgid "%s is not attached to any player."
 msgstr "%sは誰からも操作されていません。"
 
-# clefs
-# detachのうまい訳語ないかなあ
-# Belgae
-# 放棄→（プレイヤー担当の）解任
 #: server/stdinhand.c:3736
 #, c-format
 msgid "%s detaching from %s"
-msgstr "%sは%sを解任しています"
+msgstr "%sは%sのプレイヤー割り当てを解除しました。"
 
-# clefs
 #: server/stdinhand.c:3739
 #, c-format
 msgid "%s no longer observing."
-msgstr "%sはもう観察していません。"
+msgstr "%sは観察を終了しました。"
 
 #: server/stdinhand.c:3804
 msgid "Cannot load a game while another is running."
@@ -55866,24 +55838,22 @@ msgid "At least one argument needed. See '/help playernation'."
 msgstr ""
 "プレイヤー名と色の2引数が必要です。'/help playercolor'を参照してください。"
 
-# yasu
 #: server/stdinhand.c:4308
-#, fuzzy
 #| msgid "Can only unset player color before game starts."
 msgid "Can only set player nation before game starts."
-msgstr "ゲーム開始後に色のリセットはできません。"
+msgstr "ゲーム開始後にプレイヤーの民族を変更することはできません。"
 
 #: server/stdinhand.c:4325
-#, fuzzy, c-format
+#, c-format
 #| msgid " Nation of the new player: %s."
 msgid "Nation of player %s reset."
-msgstr " 新しいプレイヤーの民族: %s。"
+msgstr "プレイヤー、%sの民族がリセットされました。"
 
 #: server/stdinhand.c:4332
-#, fuzzy, c-format
+#, c-format
 #| msgid "Unrecognized option: \"%s\"\n"
 msgid "Unrecognized nation: %s."
-msgstr "認識できないオプション: \"%s\"\n"
+msgstr "不明な国家: %s"
 
 #. TRANS: Nation resetting form of /playernation does not require sex
 #: server/stdinhand.c:4355
@@ -56490,7 +56460,7 @@ msgstr "コマンド: %s  -  %s"
 msgid "Command: %s"
 msgstr "コマンド: %s"
 
-# Usageと同様にコマンドの引数のとり方を説明する箇所なので、訳を変更しました(Belgae)
+# Belgae
 #: server/stdinhand.c:6464
 msgid "Synopsis: "
 msgstr "使用法: "
@@ -56704,22 +56674,18 @@ msgstr "%2$sの%3$sから「%1$s」を得ました！"
 msgid "?fromeffect:The %s have acquired %s from %s."
 msgstr "%1$sは%3$sから「%2$s」を得ました。"
 
-# clefs
-# 「旧式化」で統一したいところですが、強調の意味からこのままにしておきます（Belgae）
 #: server/techtools.c:384
 #, c-format
 msgid "Discovery of %s OBSOLETES %s in %s!"
-msgstr "「%1$s」の発見により、%3$sの%2$sはもはや過去の遺物になります！"
+msgstr "%1$sの発見により、%3$sの%2$sはもはや過去の遺物になります！"
 
 #: server/techtools.c:468
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "\n"
 #| "City of %s"
 msgid "Discovery of %s"
-msgstr ""
-"\n"
-"%sの都市"
+msgstr "%sの発見"
 
 #: server/techtools.c:514
 #, c-format
@@ -56796,7 +56762,7 @@ msgstr "研究目標は「%s」です。"
 msgid "You steal %s from the %s."
 msgstr "%2$sから「%1$s」を盗みました。"
 
-# yasu, ama
+# ama
 #: server/techtools.c:1305
 #, c-format
 msgid "The %s stole %s from the %s and shared it with you."
@@ -56807,66 +56773,56 @@ msgstr "%1$sは %3$sから「%2$s」を盗みました。"
 msgid "The %s stole %s from you!"
 msgstr "%sはあなたから「%s」を盗みました！"
 
-# yasu, ama
+# ama
 #: server/techtools.c:1316
 #, c-format
 msgid "The %s have stolen %s from the %s."
 msgstr "%1$sは %3$sから「%2$s」を盗みました。"
 
-# Belgae
 #: server/techtools.c:1424
 #, c-format
 msgid "Too bad! You made a mistake transferring the tech %s and lost it."
-msgstr "なんてこった！科学技術「%s」を失ってしまった！"
+msgstr "我が国は科学技術「%s」の継承に失敗し、これを失いました。"
 
-# Belgae
 #: server/techtools.c:1428
 #, c-format
 msgid "Too bad! The %s made a mistake transferring the tech %s and lost it."
-msgstr "なんてこった！%sは科学技術「%s」を失ってしまった！"
+msgstr "%sは科学技術「%s」の継承に失敗し、これを失いました。"
 
-# Belgae
 #: server/techtools.c:1470
-#, fuzzy, c-format
+#, c-format
 #| msgid "Too bad! You made a mistake transferring the tech %s and lost it."
 msgid "Too bad! You made a mistake transferring the tech %s and didn't get it."
-msgstr "なんてこった！科学技術「%s」を失ってしまった！"
+msgstr "我が国は科学技術「%s」の研究を継承することに失敗し、これを手に入れることができませんでした。"
 
-# Belgae
 #: server/techtools.c:1474
-#, fuzzy, c-format
+#, c-format
 #| msgid "Too bad! The %s made a mistake transferring the tech %s and lost it."
 msgid ""
 "Too bad! The %s made a mistake transferring the tech %s and didn't get it."
-msgstr "なんてこった！%sは科学技術「%s」を失ってしまった！"
+msgstr "%sは科学技術「%s」の研究を継承することに失敗し、これを手に入れることができませんでした。"
 
-# ama, clefs
 #. TRANS: "Discovery of <tech>"
 #: server/techtools.c:1564
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "Discovery of %s makes the government form %s available. You may want to "
 #| "start a revolution."
 msgid ""
 "%s makes several new government forms available. You may want to start a "
 "revolution."
-msgstr ""
-"「%s」を発見したことで、政治体制「%s」が増えました。革命を起こすのも良いで"
-"しょう。"
+msgstr "%sにより、いくつかの新しい政治体制を構築することが可能になりました。革命を起こすのも良いでしょう。"
 
-# ama, clefs
 #. TRANS: "Discovery of <tech>"
 #: server/techtools.c:1577
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "Discovery of %s makes the government form %s available. You may want to "
 #| "start a revolution."
 msgid ""
 "%s makes the government form %s available. You may want to start a "
 "revolution."
-msgstr ""
-"「%s」を発見したことで、政治体制「%s」が増えました。革命を起こすのも良いで"
-"しょう。"
+msgstr "%sにより、「%s」の政治体制を構築することが可能になりました。革命を起こすのも良いでしょう。"
 
 #: server/unithand.c:204
 #, c-format
@@ -58761,11 +58717,11 @@ msgstr "死の灰を除去する(%sF)"
 
 #, c-format
 #~ msgid "Updating old metaserver address \"%s\"."
-#~ msgstr "古い外部サーバーアドレス\"%s\"を更新しています。"
+#~ msgstr "古い公開サーバーアドレス\"%s\"を更新しています。"
 
 #, c-format
 #~ msgid "Default metaserver has been set to value \"%s\"."
-#~ msgstr "デフォルトの外部サーバーが\"%s\"に設定されました。"
+#~ msgstr "デフォルトの公開サーバーが\"%s\"に設定されました。"
 
 #~ msgid "_Keep moving"
 #~ msgstr "なにもしない(_K)"
@@ -62458,7 +62414,7 @@ msgstr ""
 #~ msgstr "無効な $http プロキシ値です。`http://' で始めなければなりません。"
 
 #~ msgid "Failed looking up metaserver's host"
-#~ msgstr "外部サーバーのホストのルックアップに失敗しました。"
+#~ msgstr "公開サーバーのホストのルックアップに失敗しました。"
 
 #~ msgid "Dictatress %s"
 #~ msgstr "独裁官 %s"
@@ -62633,7 +62589,7 @@ msgstr ""
 #~ msgstr "太守"
 
 #~ msgid "metainfo <meta-line>"
-#~ msgstr "metainfo <外部サーバー情報行>"
+#~ msgstr "metainfo <公開サーバー情報行>"
 
 #, fuzzy
 #~ msgid "No player with the name '%s' found or ambiguous name."
@@ -62716,16 +62672,16 @@ msgstr ""
 #~ msgstr "  -h, --help\t\tオプションの一覧を表示する\n"
 
 #~ msgid "  -i, --identity ADDR\tBe known as ADDR at metaserver\n"
-#~ msgstr "  -i, --identity ADDR\tADDRであることを外部サーバーに知らせる\n"
+#~ msgstr "  -i, --identity ADDR\tADDRであることを公開サーバーに知らせる\n"
 
 #~ msgid "  -l, --log FILE\tUse FILE as logfile\n"
 #~ msgstr "  -l, --log FILE\tログファイルとしてFILEを使用する\n"
 
 #~ msgid "  -m, --meta\t\tNotify metaserver and send server's info\n"
-#~ msgstr "  -m, --meta\t\t外部サーバーへ通知しサーバの情報を送信する\n"
+#~ msgstr "  -m, --meta\t\t公開サーバーへ通知しサーバの情報を送信する\n"
 
 #~ msgid "  -M, --Metaserver ADDR\tSet ADDR as metaserver address\n"
-#~ msgstr "  -M, --Metaserver ADDR\t外部サーバーのアドレスとしてADDRを設定する\n"
+#~ msgstr "  -M, --Metaserver ADDR\t公開サーバーのアドレスとしてADDRを設定する\n"
 
 #~ msgid "  -p, --port PORT\tListen for clients on port PORT\n"
 #~ msgstr "  -p, --port PORT\tポートPORTでクライアントを待つ\n"
@@ -62773,7 +62729,7 @@ msgstr ""
 #~ "縮形でも良く、また省略されたら'players'が指定されたものとみなします。"
 
 #~ msgid "Metaserver: bad address: <%s %d>."
-#~ msgstr "外部サーバー: 間違ったアドレス: [%s:%d]"
+#~ msgstr "公開サーバー: 間違ったアドレス: [%s:%d]"
 
 #~ msgid "%s has been added as %s level AI-controlled player."
 #~ msgstr "%sは %sレベルのAIプレイヤーとして加わりました。"
@@ -62842,7 +62798,7 @@ msgstr ""
 #~ "す\n"
 
 #~ msgid "  -M, --Meta HOST\tConnect to the metaserver at HOST\n"
-#~ msgstr "  -M, --Meta HOST\tHOSTにある外部サーバーに接続する\n"
+#~ msgstr "  -M, --Meta HOST\tHOSTにある公開サーバーに接続する\n"
 
 #~ msgid "  -p, --port PORT\tConnect to server port PORT (usually with -a)\n"
 #~ msgstr ""
