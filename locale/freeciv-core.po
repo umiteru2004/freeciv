@@ -24582,7 +24582,7 @@ msgstr "大学"
 msgid ""
 "Together with a Library, a University increases the science production of a "
 "city by 100%."
-msgstr "図書館と大学があると、都市の科学ポイント生産が100%増加します。"
+msgstr "図書館と大学があると、都市の研究ポイント生産が100%増加します。"
 
 #: data/civ1/buildings.ruleset:839 data/civ2/buildings.ruleset:1187
 #: data/classic/buildings.ruleset:1232 data/sandbox/buildings.ruleset:1520
@@ -24821,7 +24821,7 @@ msgstr "SETI計画"
 #: data/civ1/buildings.ruleset:1280
 #, no-c-format
 msgid "Boosts science production in each city by 50%."
-msgstr "各都市の科学ポイント生産が50%増加します。"
+msgstr "各都市の研究ポイント生産が50%増加します。"
 
 #: data/civ1/buildings.ruleset:1285 data/civ2/buildings.ruleset:1759
 #: data/classic/buildings.ruleset:1815 data/sandbox/buildings.ruleset:2253
@@ -28310,8 +28310,8 @@ msgid ""
 "a city by 100%. Together with a Library and a University, a Research Lab "
 "increases the science production of a city by 150%."
 msgstr ""
-"図書館と研究所があると、都市の科学ポイント生産が100%増加します。また図書館、"
-"大学、研究所があると、都市の科学ポイント生産が150%増加します。"
+"図書館と研究所があると、都市の研究ポイント生産が100%増加します。また図書館、"
+"大学、研究所があると、都市の研究ポイント生産が150%増加します。"
 
 #: data/civ2/buildings.ruleset:853 data/classic/buildings.ruleset:886
 #: data/sandbox/buildings.ruleset:1083 data/civ2civ3/buildings.ruleset:1052
@@ -28573,7 +28573,7 @@ msgid ""
 "Boosts science production in each city with a Library by 50%.  (Counts as "
 "having a Research Lab in all of your cities.)"
 msgstr ""
-"図書館のある各都市の科学ポイント生産が50%増加します。(都市すべてに研究所があ"
+"図書館のある各都市の研究ポイント生産が50%増加します。(都市すべてに研究所があ"
 "ると見なします。)"
 
 #: data/civ2/buildings.ruleset:1784 data/classic/buildings.ruleset:1840
@@ -32039,7 +32039,7 @@ msgid ""
 "generate 1 extra science bulb."
 msgstr ""
 "チャールズ・ダーウィンの航海は進化論発見のきっかけとなり、これは科学への信頼"
-"を大きく高めることになりました。全ての都市で市民から得る科学ポイントが+1増加"
+"を大きく高めることになりました。全ての都市で市民から得る研究ポイントが+1増加"
 "します。"
 
 #: data/sandbox/buildings.ruleset:1707 data/civ2civ3/buildings.ruleset:1584
@@ -38069,7 +38069,7 @@ msgstr ""
 "て異なり、また首都から離れた都市ほど大きくなる傾向があります。各都市では、残"
 "りの交易ポイントを以下の3つの用途に分配します。1つは税という形で得られる金"
 "で、国庫に入ります。次の1つは贅沢ポイントで、市民の士気に影響します。最後の1"
-"つが科学ポイントで、新しい科学技術の発見に寄与します。"
+"つが研究ポイントで、新しい科学技術の発見に寄与します。"
 
 #: data/helpdata.txt:577
 msgid ""
@@ -38833,7 +38833,7 @@ msgstr "・交易ポイントの余剰。"
 
 #: data/helpdata.txt:964
 msgid " - Luxury and science output."
-msgstr "・贅沢ポイントおよび科学ポイントの産出量。"
+msgstr "・贅沢ポイントおよび研究ポイントの産出量。"
 
 #: data/helpdata.txt:966
 msgid ""
@@ -41112,7 +41112,7 @@ msgid ""
 "Boosts science production by 100% in every city on the same continent that "
 "has a University."
 msgstr ""
-"同じ大陸内にあり、かつ大学のあるすべての都市の科学ポイント生産が100%増加しま"
+"同じ大陸内にあり、かつ大学のあるすべての都市の研究ポイント生産が100%増加しま"
 "す。"
 
 #: data/multiplayer/buildings.ruleset:1539
@@ -41182,7 +41182,7 @@ msgid ""
 "Boosts science production in each city on the same continent with a Research "
 "Lab by 100%."
 msgstr ""
-"同じ大陸内にあり、かつ研究所のある各都市の科学ポイント生産が100%増加します。"
+"同じ大陸内にあり、かつ研究所のある各都市の研究ポイント生産が100%増加します。"
 
 #: data/multiplayer/buildings.ruleset:1878
 msgid ""
@@ -56923,13 +56923,10 @@ msgstr "%sは%sの統治者 %sです。"
 msgid "Unit cannot do anything."
 msgstr "%sへは落下傘降下できません。"
 
-# clefs
-# sabotage: was "暗殺"
-# 道路に爆弾を仕掛けて装甲車を転覆させるようなことを言うのでしょう
 #: server/unithand.c:1978 server/unithand.c:1988
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s found no suitable target."
-msgstr "%sは%sの%sの破壊工作に失敗しました。"
+msgstr "%sは適切なターゲットを見つけることができませんでした。"
 
 #. TRANS: terrain name
 #. * "Your Diplomat cannot act from Ocean. Only
@@ -56981,23 +56978,21 @@ msgstr "このユニットは輸送中なので任務を実行できません。
 msgid "This unit cannot act unless it has a home city."
 msgstr "このユニットは%sへは落下傘降下できません。"
 
-# clefs
 #: server/unithand.c:2066
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "You must declare war on %s first.  Try using the Nations report (F3)."
 msgid "You must declare war on %s first. Try using the Nations report (F3)."
-msgstr "まず %sに宣戦しなければなりません。民族報告(F3)を開いてください。"
+msgstr "まず%sに宣戦布告する必要があります。民族報告(F3)を開いてください。"
 
-# clefs
 #: server/unithand.c:2076
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "You must declare war on %s first.  Try using the Nations report (F3)."
 msgid ""
 "You must break peace with %s first. Try using the Nations report to declare "
 "war (F3)."
-msgstr "まず %sに宣戦しなければなりません。民族報告(F3)を開いてください。"
+msgstr  "まず%sとの和平条約を破棄する必要があります。民族報告(F3)を開いて宣戦布告してください。"
 
 #: server/unithand.c:2086
 #, fuzzy
@@ -57141,15 +57136,12 @@ msgstr "任務を行えません。"
 msgid "Target not at target tile."
 msgstr "あなたは現在プレイヤーではありません。"
 
-# clefs
-# sabotage: was "暗殺"
-# 道路に爆弾を仕掛けて装甲車を転覆させるようなことを言うのでしょう
 #. TRANS: "Your Spy found ... suitable for
 #. * Bribe Enemy Unit."
 #: server/unithand.c:2557
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s found no target suitable for %s."
-msgstr "%sは%sの%sの破壊工作に失敗しました。"
+msgstr "%sはアクション「%s」に適切なターゲットを見つけることができませんでした。"
 
 #. TRANS: "Having your Spy do Bribe Enemy Unit to
 #. * this target ..."
@@ -57677,7 +57669,7 @@ msgstr "生産物を購入する"
 msgid "remaining"
 msgstr "残り"
 
-# was 「黒字」; マイナスの場合もあるので変更 (clefs)
+# clefs
 #. TRANS: Your Caravan does "Help Wonder" to help build the
 #. * Pyramids in Bergen (4 surplus).
 #. * You can reorder '4' and 'surplus' in the actual format string.
@@ -57688,21 +57680,17 @@ msgstr "余り"
 #. TRANS: Your Caravan does "Help Wonder" to help build the
 #. * Pyramids in Bergen (4 surplus).
 #: server/unithand.c:5944
-#, fuzzy, c-format
+#, c-format
 #| msgid "Your %s helps build the %s in %s (%d %s)."
 msgid "Your %s does %s to help build the %s in %s (%d %s)."
-msgstr ""
-"%1$sを消費し、%3$sで進められている「%2$s」建設を加速させました（%5$s: %4$d"
-"シールド）。"
+msgstr "%1$sは%4$sで「%2$s」を実行して「%3$s」の建設を加速させました。（%6$s: %5$d生産ポイント）"
 
 #. TRANS: Help building the Pyramids in Bergen received
 #. * from Persian Caravan (4 surplus).
 #: server/unithand.c:5963
 #, c-format
 msgid "Help building the %s in %s received from %s %s (%d %s)."
-msgstr ""
-"%2$sで進められている「%1$s」建設を加速させるべく、%3$sが%4$sを投入しました"
-"（%6$s: %5$dシールド）。"
+msgstr "%3$sの%4$sは%2$sで「%1$s」の建設に協力してくれました。（%6$s: %5$d生産ポイント）"
 
 #: server/unithand.c:6019
 #, c-format
@@ -57735,46 +57723,42 @@ msgstr[0] "　 %sには既に%d本の優れた交易路があります！"
 
 #. TRANS: ... Caravan ... Paris ... Stockholm ... Goods
 #: server/unithand.c:6143
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s from %s has arrived in %s carrying %s."
-msgstr "%2$s所属の%1$sが%3$sに到着しました。"
+msgstr "%2$s所属の%1$sが%4$sを運んで%3$sに到着しました。"
 
-# ama, clefs
 #. TRANS: ... Caravan ... Paris ... Stockholm, ... Goods...
 #: server/unithand.c:6153
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s from %s has arrived in %s carrying %s, and revenues amount to %d in "
 "gold."
 msgid_plural ""
 "Your %s from %s has arrived in %s carrying %s, and revenues amount to %d in "
 "gold."
-msgstr[0] "%2$s所属の%1$sが %3$sへ到着し、金%4$dを得ました。"
+msgstr[0] "%2$s所属の%1$sが%4$sを運んで%3$sに到着し、金%5$dの収入を得ました。"
 
-# ama, clefs
 #. TRANS: ... Caravan ... Paris ... Stockholm, ... Goods...
 #: server/unithand.c:6168
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s from %s has arrived in %s carrying %s, and revenues amount to %d in "
 "research."
 msgid_plural ""
 "Your %s from %s has arrived in %s carrying %s, and revenues amount to %d in "
 "research."
-msgstr[0] "%2$s所属の%1$sが %3$sへ到着し、%4$d科学ポイントを得ました。"
+msgstr[0] "%2$s所属の%1$sが%4$sを運んで%3$sに到着し、%5$d研究ポイントを得ました。"
 
-# ama, clefs
 #. TRANS: ... Caravan ... Paris ... Stockholm, ... Goods...
 #: server/unithand.c:6183
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s from %s has arrived in %s carrying %s, and revenues amount to %d in "
 "gold and research."
 msgid_plural ""
 "Your %s from %s has arrived in %s carrying %s, and revenues amount to %d in "
 "gold and research."
-msgstr[0] ""
-"%2$s所属の%1$sが %3$sへ到着し、金と科学ポイントをそれぞれ%4$d得ました。"
+msgstr[0] "%2$s所属の%1$sが%4$sを運んで%3$sに到着し、金と研究ポイントをそれぞれ%5$d得ました。"
 
 #: server/unithand.c:6224
 #, c-format
@@ -57824,7 +57808,6 @@ msgstr "%sは %sに転換されました。"
 msgid "%s cannot be converted."
 msgstr "%sは転換させられません。"
 
-# climb
 #: server/unittools.c:806
 #, c-format
 msgid "Orders for %s aborted because activity is no longer available."
@@ -57889,78 +57872,74 @@ msgstr[0] "%sは %sの %s(およびその他 %dユニット)を攻撃し、撃�
 
 #. TRANS: "Cannon ... Destroyer."
 #: server/unittools.c:2423
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s lost to an attack by the %s %s."
 msgid "%s lost to an attack by %s."
-msgstr "%2$sの %3$sによる攻撃で %1$sを失いました。"
+msgstr "%2$sによる攻撃で、%1$sを失いました。"
 
 #. TRANS: "Cannon ... the Polish Destroyer."
 #: server/unittools.c:2430
 #, c-format
 msgid "%s lost to an attack by the %s %s."
-msgstr "%2$sの %3$sによる攻撃で %1$sを失いました。"
+msgstr "%2$sの%3$sによる攻撃で、%1$sを失いました。"
 
 #. TRANS: "Cannon lost when Destroyer
 #. * attacked Musketeers."
 #: server/unittools.c:2444
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s lost when the %s %s attacked the %s %s."
 msgid "%s lost when %s attacked %s."
-msgstr "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$sを失いました。"
+msgstr "%3$sによる%2$sへの攻撃で、%1$sを失いました。"
 
 #. TRANS: "Cannon lost when the Polish Destroyer
 #. * attacked Musketeers."
 #: server/unittools.c:2453
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s lost when the %s %s attacked the %s %s."
 msgid "%s lost when the %s %s attacked %s."
-msgstr "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$sを失いました。"
+msgstr "%2$sの%3$sによる%4$sへの攻撃で、%1$sを失いました。"
 
 #. TRANS: "Cannon lost when Destroyer
 #. * attacked the German Musketeers."
 #: server/unittools.c:2465
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s lost when the %s %s attacked the %s %s."
 msgid "%s lost when %s attacked the %s %s."
-msgstr "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$sを失いました。"
+msgstr "%2$sによる%3$sの%4$sのへの攻撃で、%1$sを失いました。"
 
 #. TRANS: "Cannon lost when the Polish Destroyer
 #. * attacked the German Musketeers."
 #: server/unittools.c:2475
 #, c-format
 msgid "%s lost when the %s %s attacked the %s %s."
-msgstr "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$sを失いました。"
+msgstr "%2$sの%3$sによる%4$sの%5$sへの攻撃で、%1$sを失いました。"
 
-# 射手 lost to an attack from Lluis Companys's チャリオット.
 #. TRANS: "Musketeers (and Cannon) lost to an
 #. * attack from Destroyer."
 #: server/unittools.c:2494
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s (and %s) lost to an attack from the %s %s."
 msgid "%s (and %s) lost to an attack from %s."
-msgstr "%3$sの %4$sによる攻撃で %1$s(と %2$s)を失いました。"
+msgstr "%3$sによる攻撃で、%1$s（と%2$s）を失いました。"
 
-# 射手 lost to an attack from Lluis Companys's チャリオット.
 #. TRANS: "Musketeers (and Cannon) lost to an
 #. * attack from the Polish Destroyer."
 #: server/unittools.c:2503
 #, c-format
 msgid "%s (and %s) lost to an attack from the %s %s."
-msgstr "%3$sの %4$sによる攻撃で %1$s(と %2$s)を失いました。"
+msgstr "%3$sの%4$sによる攻撃で、%1$s(と%2$s)を失いました。"
 
-# 射手 lost to an attack from Lluis Companys's チャリオット.
 #. TRANS: "Musketeers and 3 other units lost to
 #. * an attack from Destroyer."
 #. * (only happens with at least 2 other units)
 #: server/unittools.c:2516
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s and %d other unit lost to an attack from the %s %s."
 #| msgid_plural "%s and %d other units lost to an attack from the %s %s."
 msgid "%s and %d other unit lost to an attack from %s."
 msgid_plural "%s and %d other units lost to an attack from %s."
-msgstr[0] "%3$sの %4$sによる攻撃で %1$sおよび%2$dユニットを失いました。"
+msgstr[0] "%3$sによる攻撃で、%1$sおよび%2$dユニットを失いました。"
 
-# 射手 lost to an attack from Lluis Companys's チャリオット.
 #. TRANS: "Musketeers and 3 other units lost to
 #. * an attack from the Polish Destroyer."
 #. * (only happens with at least 2 other units)
@@ -57968,40 +57947,40 @@ msgstr[0] "%3$sの %4$sによる攻撃で %1$sおよび%2$dユニットを失い
 #, c-format
 msgid "%s and %d other unit lost to an attack from the %s %s."
 msgid_plural "%s and %d other units lost to an attack from the %s %s."
-msgstr[0] "%3$sの %4$sによる攻撃で %1$sおよび%2$dユニットを失いました。"
+msgstr[0] "%3$sの%4$sによる攻撃で、%1$sおよび%2$dユニットを失いました。"
 
 #. TRANS: "2 units lost when Destroyer
 #. * attacked Musketeers."
 #. * (only happens with at least 2 other units)
 #: server/unittools.c:2547
-#, fuzzy, c-format
+#, c-format
 #| msgid "%d unit lost when the %s %s attacked the %s %s."
 #| msgid_plural "%d units lost when the %s %s attacked the %s %s."
 msgid "%d unit lost when %s attacked %s."
 msgid_plural "%d units lost when %s attacked %s."
-msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが失われました。"
+msgstr[0] "%3$sによる%2$sへの攻撃で、%1$dユニットを失いました。"
 
 #. TRANS: "2 units lost when the Polish Destroyer
 #. * attacked Musketeers."
 #. * (only happens with at least 2 other units)
 #: server/unittools.c:2559
-#, fuzzy, c-format
+#, c-format
 #| msgid "%d unit lost when the %s %s attacked the %s %s."
 #| msgid_plural "%d units lost when the %s %s attacked the %s %s."
 msgid "%d unit lost when the %s %s attacked %s."
 msgid_plural "%d units lost when the %s %s attacked %s."
-msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが失われました。"
+msgstr[0] "%2$sの%3$sによる%4$sへの攻撃で、%1$dユニットを失いました。"
 
 #. TRANS: "2 units lost when Destroyer
 #. * attacked the German Musketeers."
 #. * (only happens with at least 2 other units)
 #: server/unittools.c:2574
-#, fuzzy, c-format
+#, c-format
 #| msgid "%d unit lost when the %s %s attacked the %s %s."
 #| msgid_plural "%d units lost when the %s %s attacked the %s %s."
 msgid "%d unit lost when %s attacked the %s %s."
 msgid_plural "%d units lost when %s attacked the %s %s."
-msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが失われました。"
+msgstr[0] "%2$sによる%3$sの%4$sへの攻撃で、%1$dユニットを失いました。"
 
 #. TRANS: "2 units lost when the Polish Destroyer
 #. * attacked the German Musketeers."
@@ -58010,28 +57989,27 @@ msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが�
 #, c-format
 msgid "%d unit lost when the %s %s attacked the %s %s."
 msgid_plural "%d units lost when the %s %s attacked the %s %s."
-msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが失われました。"
+msgstr[0] "%2$sの%3$sによる%4$sの%5$sへの攻撃で、%1$dユニットを失いました。"
 
 #: server/unittools.c:2610
-#, fuzzy, c-format
+#, c-format
 msgid "%d unit escaped from attack by %s"
 msgid_plural "%d units escaped from attack by %s"
-msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが失われました。"
+msgstr[0] "%2$sによる攻撃から、%1$dユニットが脱出しました。"
 
 #: server/unittools.c:2618
-#, fuzzy, c-format
+#, c-format
 msgid "%d unit escaped from attack by %s %s"
 msgid_plural "%d units escaped from attack by %s %s"
-msgstr[0] "%2$sの%3$sが%4$sの%5$sを攻撃した際に、%1$dユニットが失われました。"
+msgstr[0] "%2$sの%3$sによる攻撃から、%1$dユニットが脱出しました。"
 
-# ama, clefs
 #: server/unittools.c:2663
-#, fuzzy, c-format
+#, c-format
 #| msgid "Barbarian leader captured; %d gold ransom paid."
 #| msgid_plural "Barbarian leader captured; %d gold ransom paid."
 msgid "%d Barbarian leader captured."
 msgid_plural "%d Barbarian leaders captured."
-msgstr[0] "バーバリアンの指導者を捕え、身代金として金 %dを受け取りました。"
+msgstr[0] "バーバリアンの指導者を%d人捕えました。"
 
 #: server/unittools.c:2668
 #, fuzzy, c-format
@@ -58041,12 +58019,11 @@ msgid "%d gold ransom paid."
 msgid_plural "%d gold ransom paid."
 msgstr[0] "金 %dが必要です。"
 
-# clefs
 #: server/unittools.c:2708
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s has connected from %s."
 msgid "%s %s collected ransom of %s."
-msgstr "%sは %sから接続しています。"
+msgstr "%sの%sが%sの身代金を受け取りました。"
 
 #: server/unittools.c:2714
 #, fuzzy, c-format
@@ -58132,7 +58109,6 @@ msgid "You found %d gold."
 msgid_plural "You found %d gold."
 msgstr[0] "金%dを見つけました。"
 
-# climb
 # Belgae
 #: server/unittools.c:3709
 #, c-format
@@ -58174,11 +58150,10 @@ msgstr "移動に失敗したため、 %sは命令遂行を中断しました。
 msgid "%s could not do %s to %s."
 msgstr "%1$sは%3$sに対して%2$sを実行することはできません。"
 
-# climb
 #: server/unittools.c:4892
-#, fuzzy, c-format
+#, c-format
 msgid "Orders for %s aborted because doing %s to %s failed."
-msgstr "都市を建設できなかったので、 %sは命令遂行を中断しました。"
+msgstr "%3$sへの「%2$s」の実行に失敗したので、%1$sは命令遂行を中断しました。"
 
 # clefs
 #: server/unittools.c:4916
@@ -58420,12 +58395,10 @@ msgstr ""
 "ファイル基準の詳細ログレベルを使用するには、DEBUGフラグ付きでコンパイルしなけ"
 "ればなりません。\n"
 
-# clefs
-# 見たことないのでヘンなことになっているかも
 #: utility/log.c:446
 #, c-format
 msgid "Couldn't open logfile: %s for appending \"%s\".\n"
-msgstr "ログファイル %s を \"%s\" の追記用に開けませんでした。\n"
+msgstr "「%2$s」を追記するためのログファイル: %1$sを開くことができませんでした\n"
 
 #: utility/log.c:459 utility/log.c:480
 #, c-format
@@ -58667,14 +58640,10 @@ msgstr "死の灰を除去する(%sF)"
 #~ msgid "?unitflag:CanEscape"
 #~ msgstr "ヘリコプター"
 
-# Belgae
-# 伯、公などとのバランスから考えると「子」なのですが、紛らわしいので
 #, c-format
 #~ msgid "Viscount %s"
 #~ msgstr "%s子爵"
 
-# yasu
-# Belgae
 #, c-format
 #~ msgid ""
 #~ "?terrainclass:%s can't build %s from the worklist; %s terrain is "
@@ -58683,8 +58652,6 @@ msgstr "死の灰を除去する(%sF)"
 #~ "%sで生産待ちリストから %sを生産することができません。地形「 %s 」が必要です。"
 #~ "生産を延期します。"
 
-# yasu
-# Belgae
 #, fuzzy, c-format
 #~ msgid ""
 #~ "?terrainclass:%s can't build %s from the worklist; %s terrain is "
@@ -58693,7 +58660,6 @@ msgstr "死の灰を除去する(%sF)"
 #~ "%sで生産待ちリストから %sを生産することができません。地形「 %s 」が必要です。"
 #~ "生産を延期します。"
 
-# clefs
 #, fuzzy, c-format
 #~| msgid "%s had invalid researching technology."
 #~ msgid "%s had finished researches count wrong."
@@ -58732,9 +58698,6 @@ msgstr "死の灰を除去する(%sF)"
 #~ msgid "_Next city"
 #~ msgstr "次の都市へ(_N)"
 
-# Belgae
-# was: 資源化
-# 労働者がMの作業中に、中クリックで表示される「活動: %s」と、作業完成後の地形特徴（道路/鉱山）の両方で使用されます。「活動: %s」は「%sが完成するまで何ターンか」を意味するので、どちらでも「鉱山」の訳でよいと判断しました。
 #~ msgid "Mine"
 #~ msgstr "鉱山"
 
@@ -58783,7 +58746,6 @@ msgstr ""
 "\n"
 "死の灰の除去    %3d"
 
-# clefs
 #~ msgid "  * Can occupy empty enemy cities.\n"
 #~ msgstr "　・守備兵のいない敵都市を占領できます。\n"
 
@@ -58820,7 +58782,6 @@ msgstr ""
 #~ msgid "team %d"
 #~ msgstr "チーム %d"
 
-# Daniel
 #, fuzzy
 #~ msgid "Reserved 2"
 #~ msgstr "観察"
@@ -58829,7 +58790,6 @@ msgstr ""
 #~ msgid "?unitflag:OneAttack"
 #~ msgstr "海上"
 
-# Daniel
 #, fuzzy
 #~ msgid "Reserved 1"
 #~ msgstr "観察"
@@ -58838,8 +58798,6 @@ msgstr ""
 #~ msgid "BarbarianBuild"
 #~ msgstr "バーバリアン"
 
-# clefs
-# Belgae
 #~ msgid ""
 #~ "When a Barbarian Leader is killed on a tile without any defending units, "
 #~ "the 100 gold ransom is paid, but only to land units."
@@ -58945,8 +58903,6 @@ msgstr ""
 #~ "この設定を有効にすると、極地はマップの片側にのみ生成されるようになります。"
 #~ "ただし東西・南北の両方向に循環するマップには適用されません。"
 
-# clefs
-# Belgae
 #~ msgid "All the map is temperate"
 #~ msgstr "マップ全域を温帯とする"
 
@@ -58962,7 +58918,6 @@ msgstr ""
 #~ msgid "The rate of the tech leakage."
 #~ msgstr "チャットログファイルの名前"
 
-# clefs
 #~ msgid ""
 #~ "The base chance of a spy returning from a successful mission and the base "
 #~ "chance of success for diplomats and spies."
@@ -58973,15 +58928,12 @@ msgstr ""
 #~ msgid "This unit has no moves left."
 #~ msgstr "このユニットはもう移動できません。"
 
-# clefs
-# 意訳。これで合ってるのかなあ。
 #~ msgid ""
 #~ "A transported unit is not allied to all units or city on target tile."
 #~ msgstr ""
 #~ "輸送されているユニットの中に、目的地に存在するすべてのユニットあるいは都市"
 #~ "に対して同盟関係にないものが含まれています。"
 
-# clefs
 #, c-format
 #~ msgid "%+4d : Citizens\n"
 #~ msgstr "%+4d : 市民\n"
@@ -58994,12 +58946,10 @@ msgstr ""
 #~ msgid "%+4d : Loss from %s (%+d%%)\n"
 #~ msgstr "%+4d : %sによる損失 (%+d%%)\n"
 
-# clefs
 #, c-format
 #~ msgid "%+4d : Size penalty\n"
 #~ msgstr "%+4d : 小都市ペナルティ\n"
 
-# clefs
 #, c-format
 #~ msgid "%+4d : Waste%s\n"
 #~ msgstr "%+4d : 浪費%s\n"
@@ -59020,8 +58970,6 @@ msgstr ""
 #~ msgid "%+4d : (unknown)\n"
 #~ msgstr "%+4d : (不明)\n"
 
-# 下に`total'とあるからこの部分は日本語では意味がない (clefs)
-# それなら英文は消してしまった方がいいでしょう（Belgae）
 #~ msgid "==== : Adds up to\n"
 #~ msgstr "====\n"
 
@@ -59041,7 +58989,6 @@ msgstr ""
 #~ msgid "%+5.1f : Risk from %s\n"
 #~ msgstr "%+5.1f : %sがもたらす影響\n"
 
-# Belgae
 #, c-format
 #~ msgid "%5.1f : Total chance for a plague"
 #~ msgstr "%5.1f : 疫病が発生する確率"
@@ -59062,7 +59009,6 @@ msgstr ""
 #~ msgid "%4d : Total culture"
 #~ msgstr "%4d : 合計"
 
-# Belgae
 #~ msgid "Plague Risk:"
 #~ msgstr "疫病発生率:"
 
@@ -59090,7 +59036,6 @@ msgstr ""
 #~ msgid "Remote Server"
 #~ msgstr "リモートサーバー"
 
-# ntaka, clefs
 #~ msgid "Reload Tileset"
 #~ msgstr "タイルセットの再読み込み"
 
@@ -59101,8 +59046,6 @@ msgstr ""
 #~ msgid "Client Lua Script"
 #~ msgstr "クライアントLuaコンソール"
 
-# was エディットモード
-# (Belgae)
 #~ msgid "Editing Mode"
 #~ msgstr "編集モード"
 
@@ -59122,7 +59065,6 @@ msgstr ""
 #~ msgid "Fog of War"
 #~ msgstr "戦場の霧"
 
-# clefs
 #, fuzzy
 #~ msgid "Recalculate Borders"
 #~ msgstr "国境線の引き直し(_B)"
@@ -59154,8 +59096,6 @@ msgstr ""
 #~ msgid "New"
 #~ msgstr "新規"
 
-# ntaka 属性より分かり易く設定とすべきか?
-# clefs 民族のpropertiesという文脈ですからねえ。属性のままにしておきましょ
 #, fuzzy
 #~ msgid "Properties"
 #~ msgstr "設定(_P)"
@@ -59181,36 +59121,30 @@ msgstr ""
 #~ msgid "REVOLUTION!"
 #~ msgstr "革命!"
 
-# Daniel
 #~ msgid "Toggle Mini Map Mode"
 #~ msgstr "ミニマップモードを切り替える"
 
 #~ msgid "Transform Tile"
 #~ msgstr "タイルの地形を改造する"
 
-# clefs
 #~ msgid "Cut Down to"
 #~ msgstr "伐採する"
 
-# clefs
 #~ msgid "Irrigate to"
 #~ msgstr "灌漑する"
 
-# clefs
 #~ msgid "Plant Forest"
 #~ msgstr "植林する"
 
 #~ msgid "Auto Attack"
 #~ msgstr "自動攻撃"
 
-# clefs
 #, c-format
 #~ msgid "* Allows %s (with %s).\n"
 #~ msgstr ""
 #~ "・%sを生産することができるようになります（ただし科学技術「%s」が必要で"
 #~ "す）。\n"
 
-# clefs
 #, c-format
 #~ msgid "* Allows %s.\n"
 #~ msgstr "・%sを生産することができるようになります。\n"
@@ -59223,12 +59157,10 @@ msgstr ""
 #~ msgid "  * May fortify to stay put.\n"
 #~ msgstr "　・防御態勢を取っても、防御力は増加しません。\n"
 
-# Daniel
 #, c-format
 #~ msgid "* Can only be built if there is %s in the city.\n"
 #~ msgstr "・生産するには「%s」が必要です。\n"
 
-# clefs
 #, c-format
 #~ msgid "* Can only be built with %s as government.\n"
 #~ msgstr "・政治体制が「%s」であれば生産可能です。\n"
@@ -59255,14 +59187,12 @@ msgstr ""
 #~ msgid "* Allows you to build %s.\n"
 #~ msgstr "・%sを生産することができます。\n"
 
-# ntaka
 #~ msgid "Tileset (Overhead)"
 #~ msgstr "タイルセット (トップビュースクエア用)"
 
 #~ msgid "Tileset (Isometric)"
 #~ msgstr "タイルセット (等角ビュースクエア用)"
 
-# clefs
 #~ msgid ""
 #~ "Select the tileset used with Isometric maps. This may change currently "
 #~ "active tileset, if you are playing on such a map, in which case this is "
@@ -59275,7 +59205,6 @@ msgstr ""
 #~ msgid "Tileset (Isometric Hex)"
 #~ msgstr "タイルセット (等角ビューヘックス用)"
 
-# clefs
 #~ msgid ""
 #~ "Select the tileset used with Isometric Hex maps. This may change "
 #~ "currently active tileset, if you are playing on such a map, in which case "
@@ -59369,7 +59298,6 @@ msgstr ""
 #~ msgid "?unitflag:Cant_Fortify"
 #~ msgstr "陸上"
 
-# yasu, ama
 #~ msgid ""
 #~ "City Walls make it easier to defend a city.  They triple the defense "
 #~ "strength of units within the city against land, sea, and helicopter "
@@ -59409,7 +59337,6 @@ msgstr ""
 #~ "%sで生産待ちリストから %sを生産することができません。地形特徴「 %s 」が必要で"
 #~ "す。生産を延期します。"
 
-# Daniel
 #~ msgid ""
 #~ "handicapped\n"
 #~ "handicapped <player-name>"
@@ -59417,7 +59344,6 @@ msgstr ""
 #~ "handicapped\n"
 #~ "handicapped <プレイヤー名>"
 
-# Daniel
 #~ msgid "Set one or all AI players to 'Handicapped'."
 #~ msgstr ""
 #~ "1人もしくは全てのAIプレイヤーを難易度レベル 'ハンデあり' に設定します。"
@@ -59579,21 +59505,18 @@ msgstr ""
 #~ "\n"
 #~ "合計   %d 交易/年\n"
 
-# clefs
 #~ msgid "%s - %s citizens  Governor: %s"
 #~ msgstr "%s - %s 市民  総督府: %s"
 
 #~ msgid "Workers"
 #~ msgstr "労働者"
 
-# Daniel
 #~ msgid "What should we name the new preset?"
 #~ msgstr "新しいプリセットを何と名づけますか?"
 
 #~ msgid "Do you really want to remove %s?"
 #~ msgstr "本当に %sを削除しますか?"
 
-# Daniel
 #~ msgid "LAN Servers"
 #~ msgstr "LAN サーバー"
 
@@ -59603,8 +59526,6 @@ msgstr ""
 #~ msgid "The %s offerings"
 #~ msgstr "%s提供"
 
-# clefs
-# Belgae
 #~ msgid ""
 #~ "This Eternal Treaty\n"
 #~ "marks the results of the diplomatic work between\n"
@@ -59664,20 +59585,15 @@ msgstr ""
 #~ msgid "Doing 'xset fp rehash' may temporarily solve a problem."
 #~ msgstr "'xset fp rehash'を実行すると、問題を解決できる可能性があります。"
 
-# clefs
 #~ msgid "Font for charset %s is lacking"
 #~ msgstr "文字集合 %s のフォントが不足しています"
 
-# Belgae
-# was:可能 %s\n
 #~ msgid "Allows %s.\n"
 #~ msgstr "解禁 %s\n"
 
 #~ msgid "Obsoletes %s.\n"
 #~ msgstr "旧式化 %s\n"
 
-# Belgae
-# was:可能 %s (付随条件:「 %s 」)\n
 #~ msgid "Allows %s (with %s).\n"
 #~ msgstr "可能 %s (付随条件:「 %s 」)\n"
 
@@ -59696,7 +59612,6 @@ msgstr ""
 #~ msgid "Conflicts with: "
 #~ msgstr "両立不可: "
 
-# Ruler: 大統領 Lluis Companys
 #~ msgid "Ruler: %s"
 #~ msgstr "元首: %s"
 
@@ -59821,9 +59736,6 @@ msgstr ""
 #~ "radius of a trade partner.\n"
 #~ msgstr "・都市圏内に「%s」が無いことが必要です。\n"
 
-# yasu, ama, clefs
-# ミサイル
-# was "  * 攻撃開始時に使い切ります。\n"
 #~ msgid "  * Gets used up in making an attack.\n"
 #~ msgstr ""
 #~ "　・このユニットは使い捨てです。敵を攻撃した後に生き残ることはありませ"
@@ -59834,16 +59746,13 @@ msgstr ""
 #~ "　・都市内や、他ユニットに積載されているときなど、本来は自分が侵入できない"
 #~ "タイル上にいるときも敵ユニットを攻撃できます。\n"
 
-# ntaka これでいいとは思うが
 #~ msgid "* May not be disbanded.\n"
 #~ msgstr "・解散することはありません。\n"
 
-# clefs
 #~ msgid ""
 #~ "* May be disbanded in a city to recover 50% of the production cost.\n"
 #~ msgstr "・都市で解散させると生産コストの50%を再利用できます。\n"
 
-# clefs
 #~ msgid "* Can add on %d population to cities of no more than size %d.\n"
 #~ msgid_plural ""
 #~ "* Can add on %d population to cities of no more than size %d.\n"
@@ -59855,11 +59764,9 @@ msgstr ""
 #~ msgid "* Can do the action '%s' to some %s (adds %d production).\n"
 #~ msgstr "・任務 '%s' を%sに対して実行できます (%dシールドを投入します)。\n"
 
-# clefs
 #~ msgid "Better fog-of-war drawing"
 #~ msgstr "改善された戦場の霧表示"
 
-# Belgae
 #~ msgid ""
 #~ "If this is enabled then a better method is used for drawing fog-of-war.  "
 #~ "It is not any slower but will consume about twice as much memory."
@@ -59880,8 +59787,6 @@ msgstr ""
 #~ msgid "?unitflag:Nuclear"
 #~ msgstr "海上"
 
-# Belgae
-# was:落下傘兵
 #, fuzzy
 #~ msgid "?unitflag:Paratroopers"
 #~ msgstr "空挺部隊"
@@ -59942,8 +59847,6 @@ msgstr ""
 #~ "The work of the priests also reduces the effect of plague in the city."
 #~ msgstr "僧たちの献身により、都市における疫病の効果も低減されます。"
 
-# Daniel
-# Belgae
 #~ msgid ""
 #~ "This stunning technological achievement makes one unhappy citizen content "
 #~ "in each of your cities (including citizens unhappy about military "
@@ -59974,7 +59877,6 @@ msgstr ""
 #~ msgstr ""
 #~ "あなたはこの世界の20%の面積を探索し終えた最初のプレイヤーとなりました！"
 
-# yasu
 #~ msgid "You have 20% of the world mapped!"
 #~ msgstr "あなたはこの世界の20%の面積を探索し終えました！"
 
@@ -60015,7 +59917,6 @@ msgstr ""
 #~ "われます。また鉄道による生産・交易ポイントの産出ボーナスも失われることはあ"
 #~ "りません。"
 
-# Belgae改訳
 #~ msgid ""
 #~ "Any land terrain type may have a River on it. A River adds 1 trade to the "
 #~ "resources produced by that tile. It also increases a tile's defense "
@@ -60095,11 +59996,9 @@ msgstr ""
 #~ msgid "Freeciv Server Selection"
 #~ msgstr "Freeciv サーバー選択"
 
-# clefs
 #~ msgid "Verify Password"
 #~ msgstr "パスワード確認"
 
-# Daniel
 #~ msgid "Freeciv Server List"
 #~ msgstr "Freeciv サーバー一覧"
 
@@ -60110,7 +60009,6 @@ msgstr ""
 #~ "サーバー名                           ポート バージョン  状態 プレイヤー コ"
 #~ "メント"
 
-# yasu, ama
 #~ msgid "The following clauses have been agreed upon:"
 #~ msgstr "以下の条項が同意されました:"
 
@@ -60173,11 +60071,9 @@ msgstr ""
 #~ msgid "Citizen governor..."
 #~ msgstr "総督府..."
 
-# Daniel
 #~ msgid "Add Preset"
 #~ msgstr "プリセット追加"
 
-# Daniel
 #~ msgid "Remove Preset"
 #~ msgstr "プリセット削除"
 
@@ -60193,7 +60089,6 @@ msgstr ""
 #~ msgid "Factor:"
 #~ msgstr "因子:"
 
-# Daniel
 #~ msgid "Remove preset?"
 #~ msgstr "このプリセットを削除していいですか?"
 
@@ -60306,9 +60201,6 @@ msgstr ""
 #~ msgid "Choose unit activity:"
 #~ msgstr "ユニットの行動を選択"
 
-# ama, clefs
-# was "さぁ、地獄へ落ちろ!"
-# かっこいい訳語募集中
 #~ msgid ""
 #~ "Freeciv is free software and you are welcome to distribute copies of it\n"
 #~ "under certain conditions; See the \"Copying\" item on the Help menu.\n"
@@ -60395,37 +60287,27 @@ msgstr ""
 #~ msgid "Freeciv modpack installer (gtk2)"
 #~ msgstr "Freeciv modpack インストーラー (gtk2)"
 
-# clefs
 #~ msgid "%s has caused an incident while bribing your %s."
 #~ msgstr "%sは%sを買収しようとして事変を引き起こしました。"
 
-# clefs
-# 'incident' => '事変'で訳してみました
 #~ msgid "You have caused an incident while sabotaging the %s %s."
 #~ msgstr "%sの%sに対する破壊工作が事変に発展しました。"
 
-# clefs
 #~ msgid "You have caused an incident while attempting to steal tech from %s."
 #~ msgstr "%sから技術を盗む試みは事変に発展しました。"
 
-# clefs
 #~ msgid "%s has caused an incident while attempting to steal tech from you."
 #~ msgstr "%sはあなたから技術を盗もうとして事変を引き起こしました。"
 
-# clefs
 #~ msgid "You have caused an incident while inciting a revolt in %s."
 #~ msgstr "%sで反乱を煽動する試みは事変に発展しました。"
 
-# clefs
 #~ msgid "You have caused an incident while stealing gold from %s."
 #~ msgstr "%sから金を盗む試みは事変に発展しました。"
 
-# clefs
 #~ msgid "The %s have caused an incident while stealing gold from %s."
 #~ msgstr "%sは%sから金を盗もうとして事変を引き起こしました。"
 
-# yasu
-# Belgae
 #~ msgid ""
 #~ "?resource:%s can't build %s from the worklist; %s is required. "
 #~ "Postponing..."
@@ -60433,8 +60315,6 @@ msgstr ""
 #~ "%sで生産待ちリストから %sを生産することができません。特産物「%s」が必要です。"
 #~ "生産を延期します。"
 
-# yasu
-# Belgae
 #, fuzzy
 #~ msgid ""
 #~ "?resource:%s can't build %s from the worklist; %s is prohibited. "
@@ -60482,8 +60362,6 @@ msgstr ""
 #~ msgid "Can't add %s to %s."
 #~ msgstr "%sを %sに編入することはできません。"
 
-# Daniel, clefs
-# was "Game: 地上の軍隊だけが都市を占領できます。"
 #~ msgid "This type of troops cannot take over a city."
 #~ msgstr "このタイプのユニットは都市を占領できません。"
 
@@ -60519,21 +60397,16 @@ msgstr ""
 #~ msgid "Already here."
 #~ msgstr "現在地以外のタイルを選択してください。"
 
-# clefs
 #~ msgid "Attempt to change homecity for %s failed."
 #~ msgstr "帰属を %sに変えられませんでした。"
 
-# climb
 #, fuzzy
 #~ msgid "Orders for %s aborted since they give a location without a city."
 #~ msgstr "無効な活動が指定されているので、 %sは命令遂行を中断しました。"
 
-# clefs
 #~ msgid "Attempt to establish trade route for %s failed."
 #~ msgstr "%sとの交易路の確立に失敗しました。"
 
-# clefs
-# 建設中の不思議がなかった場合
 #~ msgid "Attempt to build wonder for %s failed."
 #~ msgstr "%sのために不思議建設をすることはできませんでした。"
 
@@ -60753,8 +60626,6 @@ msgstr ""
 #~ msgid "%s%s (%s), Qt client"
 #~ msgstr "%s%s (%s) Qtクライアント"
 
-# Daniel
-# Belgae
 #~ msgid ""
 #~ "With no arguments, sets all AI players to skill level 'handicapped', and "
 #~ "sets the default level for any new AI players to 'handicapped'. With an "
@@ -60764,8 +60635,6 @@ msgstr ""
 #~ "り）に設定し、さらに新たなAIプレイヤーに対する既定値も'handicapped'に設定"
 #~ "します。引数付きの場合は、そのプレイヤーのみのレベルを設定します。"
 
-# Daniel
-# Belgae
 #~ msgid ""
 #~ "With no arguments, sets all AI players to skill level 'novice', and sets "
 #~ "the default level for any new AI players to 'novice'. With an argument, "
@@ -60814,7 +60683,6 @@ msgstr ""
 #~ "しいAI機能のテスト用です!*** 一般的なサーバーでは、このオプションは無効で"
 #~ "す。"
 
-# clefs
 #~ msgid "Find Nearest"
 #~ msgstr "一番近いユニットを探す"
 
@@ -60823,7 +60691,6 @@ msgstr ""
 #~ "あなたはアルファ・ケンタウリに向けて宇宙船を打ち上げた最初のプレイヤーとな"
 #~ "りました！"
 
-# yasu
 #, fuzzy
 #~ msgid "You have launched spaceship towards Alpha Centauri!"
 #~ msgstr "%sの宇宙船がアルファ・ケンタウリに到達しました。"
@@ -60832,7 +60699,6 @@ msgstr ""
 #~ msgstr ""
 #~ "あなたはこの世界の全タイルを探索し終えた最初のプレイヤーとなりました！"
 
-# yasu
 #, fuzzy
 #~ msgid "You have entire world mapped!"
 #~ msgstr "%s の世界地図を得ました。"
@@ -60875,7 +60741,6 @@ msgstr ""
 #~ "異なる政治体制へと移行する際の革命に伴う無政府状態が何ターン続くかを設定し"
 #~ "ます。'revolen' の設定値と合わせて数値が決まります。"
 
-# ntaka, clefs
 #~ msgid ""
 #~ "Shows your current luxury/science/tax rates. Use mouse wheel to change "
 #~ "them"
@@ -60890,7 +60755,6 @@ msgstr ""
 #~ msgid "%s is selling %s (not needed) for %d."
 #~ msgstr "%sで(不必要な)%sを金 %dで売ります。"
 
-# Daniel
 #~ msgid ""
 #~ "Number of Players\n"
 #~ "(including AI):"
@@ -60898,8 +60762,6 @@ msgstr ""
 #~ "プレイヤー数\n"
 #~ "(AIも含む) :"
 
-# Daniel
-# Belgae
 #~ msgid "AI Skill Level:"
 #~ msgstr "AIのレベル :"
 
@@ -60919,11 +60781,9 @@ msgstr ""
 #~ msgid "Establish _Trade route"
 #~ msgstr "交易路を結ぶ(_T)"
 
-# clefs
 #~ msgid "Ooops..."
 #~ msgstr "あれれれれ……"
 
-# clefs
 #~ msgid "This unit cannot be bribed!"
 #~ msgstr "このユニットは買収できません！"
 
@@ -60951,9 +60811,6 @@ msgstr ""
 #~ msgid "Turn timeout disabled"
 #~ msgstr "制限時間なし"
 
-# Belgae
-# was 特別
-# special resourceの方です。
 #~ msgid "_Specials"
 #~ msgstr "特産物(_S)"
 
@@ -60969,7 +60826,6 @@ msgstr ""
 #~ msgid "Bu_ild Farmland"
 #~ msgstr "農地を造る(_I)"
 
-# yasu
 #~ msgid "_Fortify Unit"
 #~ msgstr "防御態勢(_F)"
 
@@ -61006,7 +60862,6 @@ msgstr ""
 #~ msgid "Establish Trade route with %s ( %d R&G + %d trade )"
 #~ msgstr "%sと交易路を結ぶ ( %d R&G + %d の交易)"
 
-# clefs
 #~ msgid "Enter Marketplace ( %d R&G bonus )"
 #~ msgstr "市場に参入する ( %d R&G のボーナス)"
 
@@ -61085,8 +60940,6 @@ msgstr ""
 #~ msgid "* Can build farmland (if %s is known).\n"
 #~ msgstr "・農地を建設できます（ただし科学技術「%s」が必要です）。\n"
 
-# clefs
-# Belgae
 #~ msgid "* Can build farmland (if any of the following are known: %s).\n"
 #~ msgstr "・農場を建設できます (もし以下のものが知られていれば: %s)。\n"
 
@@ -61117,7 +60970,6 @@ msgstr ""
 #~ msgid "Setting this option will draw the specials on the map."
 #~ msgstr "このオプションを設定すると、特産物がマップ上に表示されます。"
 
-# clefs
 #~ msgid "Could not open temp file."
 #~ msgstr "一時ファイルをオープンできません。"
 
@@ -61260,8 +61112,6 @@ msgstr ""
 #~ msgid "Buoys cannot be built in the multiplayer ruleset."
 #~ msgstr "multiplayerルールセットでは、ブイを建設することはできません。"
 
-# yasu
-# Belgae
 #~ msgid ""
 #~ "?special:%s can't build %s from the worklist; %s is required.  "
 #~ "Postponing..."
@@ -61279,16 +61129,12 @@ msgstr ""
 #~ msgid "Your %s was executed in %s by primitive %s."
 #~ msgstr "%sは%sで原始的な%sによって死刑にされました。"
 
-# yasu
 #~ msgid "You can't bribe a unit from this nation."
 #~ msgstr "この国のユニットは買収できません。"
 
-# yasu
 #~ msgid "You cannot bribe the %s!"
 #~ msgstr "%sは買収できません！"
 
-# yasu, clefs
-# was "陥落", 有力者を買収して都市ごと寝返らせるようなこと
 #~ msgid "You can't subvert this city."
 #~ msgstr "この都市は煽動転覆できません。"
 
@@ -61309,7 +61155,6 @@ msgstr ""
 #~ msgstr ""
 #~ "タイル %sの基地を変更できません。 %dは適切な基地タイプIDではありません。"
 
-# clefs
 #~ msgid "Sea moving start units are not yet supported. Nobody gets %s."
 #~ msgstr ""
 #~ "ゲーム開始時の海上ユニットはまだサポートされていないので、どのプレイヤー"
@@ -61344,13 +61189,9 @@ msgstr ""
 #~ msgid "Starting units string cannot be empty."
 #~ msgstr "初期ユニット設定の文字列を空白にすることはできません。"
 
-# clefs
 #~ msgid "Cannot change maxplayers in GGZ mode."
 #~ msgstr "GGZモードでは maxplayers を変更できません。"
 
-# clefs
-# 改善の余地あり
-# Belgae
 #~ msgid ""
 #~ "For each technology you gain from a diplomatic treaty, you lose research "
 #~ "points equal to this percentage of the cost to research a new technology. "
@@ -61382,7 +61223,6 @@ msgstr ""
 #~ "を満たしたら、その時点でただちにゲームは終了し、同盟プレイヤーの共有勝利と"
 #~ "なります。"
 
-# yasu, ama
 #~ msgid "The %s have researched Future Tech. %d."
 #~ msgstr "%s は先端技術 %dを発見しました。"
 
@@ -61393,7 +61233,7 @@ msgstr ""
 #~ msgstr "「%s」を研究しています。"
 
 #~ msgid "Insufficient science output. We lost Future Tech. %d."
-#~ msgstr "科学ポイントの産出量が不足しています。先端技術 %dを失いました。"
+#~ msgstr "研究ポイントの産出量が不足しています。先端技術 %dを失いました。"
 
 #~ msgid "Your %s helps build the %s in %s (%d remaining)."
 #~ msgstr "%1$sは %3$sの %2$s建設を手伝いました(残り %4$d)。"
@@ -61433,13 +61273,9 @@ msgstr ""
 #~ msgid "Freeciv is covered by the GPL, which is included here: "
 #~ msgstr "Freeciv は GPL によって保護されています。ここに引用します。"
 
-# Daniel
 #~ msgid "Are you sure you want to disband that unit?"
 #~ msgstr "このユニットを解散しますか？"
 
-# 消費するのは現金でなくシールドなので「費」より「コスト」の方が良さそう
-# ただ長くなるのが難 (clefs)
-# 長いですが、「コスト」に変更(Belgae)
 #, fuzzy
 #~ msgid "Cost: %1, Basic Upkeep: %2\n"
 #~ msgstr "基礎維持コスト:"
@@ -61467,8 +61303,6 @@ msgstr ""
 #~ msgid "?nation:Neutral"
 #~ msgstr "中立国"
 
-# clefs
-# 都市施設
 #~ msgid "Allows %s."
 #~ msgstr "・「%s」を建設することが可能になります。"
 
@@ -61602,16 +61436,12 @@ msgstr ""
 #~ "100% if Super Highways were built in the city)."
 #~ msgstr "都市の税と贅沢品の生産を50%増やします。"
 
-# Daniel
 #, fuzzy
 #~ msgid ""
 #~ "Increases the science output in a city by an additional 50% (by 100% if "
 #~ "the Great Library wonder was built by any player)."
 #~ msgstr "都市の研究成果を100%増やします。"
 
-# ama, clefs, Daniel
-# was "全ての都市で、都市施設の維持費1をなくします。"
-# Belgae
 #, fuzzy
 #~ msgid ""
 #~ "City improvements which would normally have an upkeep of 1 are free of "
@@ -61621,7 +61451,6 @@ msgstr ""
 #~ "同じ大陸内にあなたが所有するすべての都市で、通常なら維持コストが1かかる"
 #~ "都市施設の維持コストを0にします。"
 
-# ama, clefs
 #, fuzzy
 #~ msgid ""
 #~ "Charles Darwin's voyage sparked the discovery of the evolution of the "
@@ -61632,9 +61461,6 @@ msgstr ""
 #~ "チャールズ・ダーウィンの航海は進化論発見のきっかけとなり、これは科学への信"
 #~ "頼を大きく高めることになりました。即座に2つの進んだ技術を得ます。"
 
-# clefs
-# 現状ではほとんど意味のない不思議なのです
-# Belgae改訳
 #, fuzzy
 #~ msgid ""
 #~ "Your reputation and goodwill among other nations is recovered twice as "
@@ -61655,8 +61481,6 @@ msgstr ""
 #~ "4、共和制下では2減らします（言い換えれば、軍事ユニットによる不幸を2ユニッ"
 #~ "ト分中和します）。他の政治体制下では効力がありません。"
 
-# Daniel
-# Belgae
 #, fuzzy
 #~ msgid ""
 #~ "Gives all your sea units 1 additional movement point.  Makes all your new "
@@ -61739,7 +61563,6 @@ msgstr ""
 #~ msgid "All Nations"
 #~ msgstr "すべての民族"
 
-# Daniel
 #, fuzzy
 #~ msgid "Are you sure you want to disband those %1 units?"
 #~ msgstr "ゲームを終了してよろしいですか？"
@@ -61756,8 +61579,6 @@ msgstr ""
 #~ msgid "End Turn"
 #~ msgstr "ターンの終了"
 
-# clefs
-# 部隊の本拠地
 #, fuzzy
 #~ msgid "from"
 #~ msgstr "%s出身"
@@ -61778,7 +61599,6 @@ msgstr ""
 #~ msgid "&Connect"
 #~ msgstr "接続"
 
-# Daniel
 #, fuzzy
 #~ msgid "Browse"
 #~ msgstr "ブラウズ(_B)..."
@@ -61815,7 +61635,6 @@ msgstr ""
 #~ "ての詳細は、ヘルプの「土地の変更」節を参照してください）。しかし、労働者は"
 #~ "新たな都市を作ることはできません。"
 
-# Belgae改訳
 #, fuzzy
 #~ msgid ""
 #~ "Any land terrain type may have a River on it. A River adds 1 trade to the "
@@ -61846,7 +61665,6 @@ msgstr ""
 #~ "同じ大陸内にあるあなたの都市で新たに生産するすべての海上ユニットが、最初の"
 #~ "ベテランレベルで生産されます。"
 
-# clefs
 #~ msgid "You are logged in as '%s' connected to an anonymous player."
 #~ msgstr ""
 #~ "あなたはユーザ名'%s'で、無名プレイヤーに割り当てられて接続しています。"
@@ -61999,7 +61817,6 @@ msgstr ""
 #~ msgid "Requires we reached the year %d.\n"
 #~ msgstr "%d年に達していることが必要です。\n"
 
-# clefs
 #~ msgid ""
 #~ "* Can establish trade routes (must travel to target city and must be at "
 #~ "least %d tiles [in Manhattan distance] from this unit's home city).\n"
@@ -62017,12 +61834,9 @@ msgstr ""
 #~ "・各都市で、 %dまでの不幸が免除されます（ユニットが原因で発生する不幸も含"
 #~ "みます）。\n"
 
-# clefs
-# 政治体制「共産主義」の説明文です。%sは"Diplomat"に置換され、外交官およびスパイが対応することになりますが、これに対応する項目がないようです(Belgae)
 #~ msgid "* Veteran %s units.\n"
 #~ msgstr "・ %sユニットはすべてベテランになります。\n"
 
-# clefs
 #~ msgid "* Veteran units.\n"
 #~ msgstr "・ユニットはすべてベテランになります。\n"
 
@@ -62038,12 +61852,9 @@ msgstr ""
 #~ "ングを使用します。アルファブレンディングがハードウェアサポートされていない"
 #~ "場合、この設定にすると非常に遅くなります。"
 
-# clefs
 #~ msgid "Player-ranged requirements are only supported for wonders."
 #~ msgstr "プレイヤー単位での必要条件は不思議のみでサポートされています。"
 
-# よくわからないのでパス(clefs)
-# Cソースのコメントからするとこんな感じでしょうか（Belgae）
 #, fuzzy
 #~ msgid ""
 #~ "Surviving requirements are only supported at world and player ranges."
@@ -62060,9 +61871,6 @@ msgstr ""
 #~ "都市での汚職を50%減らします。民主主義下では、不幸市民1を平静にします。ま"
 #~ "た、反乱煽動費用を計算する際に、首都からの距離を実際の半分と見なします。"
 
-# Belgae
-# was:反乱コストを計算する際に、首都からの距離による影響を半減します。
-# effective distanceとは実効距離のこと。
 #~ msgid ""
 #~ "Reduces the corruption and waste in a city by 50%.  Under a Democracy, a "
 #~ "Courthouse also makes 1 unhappy citizen content (unless that citizen is "
@@ -62073,7 +61881,6 @@ msgstr ""
 #~ "（軍事活動にともなう不幸市民には効果がありません）。また、反乱煽動費用を計"
 #~ "算する際に、首都からの距離を実際の半分と見なします。"
 
-# Belgae
 #~ msgid "Default ruleset"
 #~ msgstr "defaultルールセット"
 
@@ -62097,8 +61904,6 @@ msgstr ""
 #~ msgid "Shakespeare's Theatre"
 #~ msgstr "シェイクスピアの劇場"
 
-# 50%なら75%になるってことなのかな (clefs)
-# Belgae
 #, fuzzy
 #~ msgid ""
 #~ "All your new military land units start at the first veteran level.  The "
@@ -62126,7 +61931,6 @@ msgstr ""
 #~ "excellent offensive value."
 #~ msgstr "レギオンは重装備で統制の取れた歩兵です。高い攻撃力を誇ります。"
 
-# Belgae
 #~ msgid ""
 #~ "Roads can be built on any land tile, even if there are other improvements "
 #~ "on that tile. (To build a road on a River tile, though, you must know "
@@ -62140,8 +61944,6 @@ msgstr ""
 #~ "なります。道路および鉄道は、ユニットの移動を高速にし、また都市の資源生産を"
 #~ "増やします。"
 
-# clefs
-# Belgae
 #~ msgid ""
 #~ " - Units use only one third of a movement point when going from one tile "
 #~ "to an adjacent tile, if both tiles have a road."
@@ -62149,8 +61951,6 @@ msgstr ""
 #~ " ・あるタイルから隣接するタイルに移動する際、両方のタイルに道路があるな"
 #~ "ら、ユニットは移動に1/3移動ポイントしか消費しません。"
 
-# clefs
-# Belgae
 #~ msgid ""
 #~ " - A road may increase the trade resources produced by some types of "
 #~ "terrain. This effect is retained when a road is upgraded to a railroad."
@@ -62178,7 +61978,6 @@ msgstr ""
 #~ msgid "  Pillaging"
 #~ msgstr "  略奪"
 
-# Belgae
 #~ msgid ""
 #~ "Many units -- in the default rules, all land units -- have the ability to "
 #~ "destroy terrain alterations, by pillaging. Pillaging removes one terrain "
@@ -62223,8 +62022,6 @@ msgstr ""
 #~ "す（都市間に必要な距離の最低限はサーバオプション'trademindist'で変更可能で"
 #~ "す）。"
 
-# Belgae
-# 新たに結ぼうとする交易路の方が少ない場合が明記されていないので、原文と異なる記述にしました。
 #~ msgid ""
 #~ "The number of trade routes per city is limited to four. If you attempt to "
 #~ "establish more routes, the trade route with the smallest ongoing revenue "
@@ -62234,11 +62031,9 @@ msgstr ""
 #~ "易路を結ぼうとすると、現在の収益が最も少ない交易路と新たに結ぼうとする交易"
 #~ "路を比較し、収益が少ない方がキャンセルされます。"
 
-# clefs
 #~ msgid " Modifying Combat Rules"
 #~ msgstr " 戦闘ルールの変更"
 
-# clefs
 #~ msgid ""
 #~ "Modifying Combat Rules\n"
 #~ "----------------------"
@@ -62246,7 +62041,6 @@ msgstr ""
 #~ "戦闘ルールの変更\n"
 #~ "----------------------"
 
-# clefs
 #~ msgid ""
 #~ "The combat rules described before can be modified by changing the "
 #~ "following modifiers in game.ruleset, section combat_rules: "
@@ -62254,8 +62048,6 @@ msgstr ""
 #~ "前述した戦闘ルールは、game.rulesetのcombat_rules節内にある下記項目によって"
 #~ "変更できます。 "
 
-# clefs
-# Belgae
 #~ msgid ""
 #~ " - killstack (default: 1). If set to 0, units on the same tile as a lost "
 #~ "defender are not destroyed."
@@ -62277,9 +62069,6 @@ msgstr ""
 #~ msgid "?plural:Ruthenians"
 #~ msgstr "ルーシ人"
 
-# yasu
-# Belgae
-# 必要なのはterrain specialです。
 #~ msgid ""
 #~ "%s can't build %s from the worklist; %s special is required.  "
 #~ "Postponing..."
@@ -62287,9 +62076,6 @@ msgstr ""
 #~ "%sで生産待ちリストから %sを建てることができません。地形特徴「 %s 」が必要で"
 #~ "す。生産を延期します。"
 
-# yasu
-# Belgae
-# 必要なのはterrain specialです。
 #, fuzzy
 #~ msgid ""
 #~ "%s can't build %s from the worklist; %s resource is required.  "
@@ -62302,7 +62088,6 @@ msgstr ""
 #~ msgid "City got destroyed completely."
 #~ msgstr "%sを完全に破壊しました。"
 
-# clefs
 #, fuzzy
 #~ msgid "Search for scenarios in directory DIR"
 #~ msgstr "  -s, --saves DIR\tディレクトリDIRにゲームを保存する\n"
@@ -62317,8 +62102,6 @@ msgstr ""
 #~ msgid " (config)"
 #~ msgstr " （設定ファイル）"
 
-# Belgae
-# 認証オプション関連。ソースの解説参照
 #~ msgid " (set)"
 #~ msgstr " （プロンプト設定）"
 
@@ -62338,7 +62121,6 @@ msgstr ""
 #~ msgid "%*sRivers"
 #~ msgstr "%*s川"
 
-# ama, yasu
 #~ msgid ""
 #~ "* Can attack from aboard sea units: against enemy cities and onto land "
 #~ "tiles.\n"
@@ -62384,7 +62166,6 @@ msgstr ""
 #~ msgid "Please cancel first your own delegation."
 #~ msgstr "選択でユニットの命令を解除"
 
-# clefs
 #, fuzzy
 #~ msgid "A user is connected to player '%s'."
 #~ msgstr "%sは %sから接続しています。"
@@ -62430,7 +62211,6 @@ msgstr ""
 #~ msgid "Stadholdress %s"
 #~ msgstr "独裁者"
 
-# Daniel
 #~ msgid "Rail"
 #~ msgstr "鉄道"
 
@@ -62444,22 +62224,13 @@ msgstr ""
 #~ msgid "current version"
 #~ msgstr "現在のバージョン"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #~ msgid "freeciv 2.3.0"
 #~ msgstr "freeciv 2.3.0"
 
-# cf. http://www.freeciv.org/index.php/Localization#Should_I_try_to_translate_.22Freeciv.22.3F
-# Should I try to translate "Freeciv"?
-# No, just leave it "Freeciv" wherever you find it.
-# (Also, note that the "c" in "Freeciv" is not capitalized.)
 #, fuzzy
 #~ msgid "freeciv 2.4.0"
 #~ msgstr "Freeciv"
 
-# Belgae
 #~ msgid "Run compatibility function for version: <%d (want: %d, server: %d)."
 #~ msgstr "バージョン<%dの互換性機能を実行します（要求: %d、サーバ: %d）。"
 
@@ -62481,7 +62252,6 @@ msgstr ""
 #~ "す。古いバージョンでは、いくつかの機能がセーブ/ロードできないことに注意し"
 #~ "てください。"
 
-# clefs
 #~ msgid "Game ended in a draw."
 #~ msgstr "ゲームは引き分けで終了しました。"
 
@@ -62492,8 +62262,6 @@ msgstr ""
 #~ "・適切な訓練施設のある都市ではベテランとして作成されます（「飛行場」を参照"
 #~ "してください）。\n"
 
-# Belgae
-# ベテラン→精鋭→エリートと進むことですが、三段階をまとめた呼称は決まっていません。
 #~ msgid "* May be promoted after defeating an enemy unit.\n"
 #~ msgstr "・敵ユニットを破った後、熟練度が上昇する場合があります。\n"
 
@@ -62523,7 +62291,6 @@ msgstr ""
 #~ msgid "* May be built as a veteran through training.\n"
 #~ msgstr "・訓練施設のある都市ではベテランとして作成できます。\n"
 
-# clefs
 #~ msgid ""
 #~ "Germany was united in 1871 by the Prussian military force.  After World "
 #~ "War I it became a republic, but fell into Nazism 1933 and started World "
@@ -62535,7 +62302,6 @@ msgstr ""
 #~ "しました。大戦後は2つの国家へと分断され、1990年に冷戦の終結と共に再統合さ"
 #~ "れました。"
 
-# clefs
 #~ msgid ""
 #~ "The modern Spanish nation was formed when the rulers of the kingdoms of "
 #~ "Castile and Aragon led the recapture of the Iberian peninsula from the "
@@ -62565,8 +62331,6 @@ msgstr ""
 #~ msgid "?team name:Ultramarine"
 #~ msgstr "ウルトラマリン"
 
-# Belgae
-# フィロデンドロン・ザナドゥという園芸植物の葉の色（灰緑）
 #~ msgid "?team name:Xanadu"
 #~ msgstr "ザナドゥ"
 
@@ -62602,8 +62366,6 @@ msgstr ""
 #~ msgid "Error: recursive calls to log.\n"
 #~ msgstr "エラー：ログへの再帰的呼び出しがあります。\n"
 
-# よくわからないのでパス(clefs)
-# Cソースのコメントからするとこんな感じでしょうか（Belgae）
 #~ msgid "Surviving requirements are only supported at world range."
 #~ msgstr "現存するかどうかの必要条件は世界規模のみでサポートされます。"
 
@@ -62634,19 +62396,16 @@ msgstr ""
 #~ "  -A  --Announce PROTO\tLANでのゲームでプロトコルにPROTO (IPv4/IPv6/なし)"
 #~ "を使用することを通知する\n"
 
-# clefs
 #~ msgid ""
 #~ "  -a  --auth FILE\tEnable server authentication with configuration from "
 #~ "FILE.\n"
 #~ msgstr "  -a  --auth FILE\tFILEの設定に従ってサーバ認証を有効にする。\n"
 
-# clefs
 #~ msgid "  -G  --Guests\t\tAllow guests to login if auth is enabled.\n"
 #~ msgstr ""
 #~ "  -G  --Guests\t\t認証を有効にしている場合に、ゲストのログインを許可す"
 #~ "る。\n"
 
-# clefs
 #~ msgid "  -N  --Newusers\tAllow new users to login if auth is enabled.\n"
 #~ msgstr ""
 #~ "  -N  --Guests\t\t認証を有効にしている場合に、新規ユーザーのログインを許可"
@@ -62689,11 +62448,9 @@ msgstr ""
 #~ msgid "  -q, --quitidle TIME\tQuit if no players for TIME seconds\n"
 #~ msgstr "  -q, --quitidle TIME\tTIME秒プレイヤーが存在しなければ終了する\n"
 
-# clefs
 #~ msgid "  -e, --exit-on-end\tWhen a game ends, exit instead of restarting\n"
 #~ msgstr "  -e, --exit-on-end\tゲーム終了時に、再起動せずに終了する\n"
 
-# clefs
 #~ msgid "  -s, --saves DIR\tSave games to directory DIR\n"
 #~ msgstr "  -s, --saves DIR\tディレクトリDIRにゲームを保存する\n"
 
@@ -62703,7 +62460,6 @@ msgstr ""
 #~ msgid "  -S, --Serverid ID\tSets the server id to ID\n"
 #~ msgstr "  -S, --Serverid ID\tサーバIDをIDにセットする\n"
 
-# PPMは画像の保存形式と思われます（Belgae）
 #~ msgid "  -P, --Ppm\t\tSave ppms of the map when saving the game.\n"
 #~ msgstr "  -P, --Ppm\t\tゲームを保存する際にマップのPPMを保存する\n"
 
@@ -62716,8 +62472,6 @@ msgstr ""
 #~ msgid "  -v, --version\t\tPrint the version number\n"
 #~ msgstr "  -v, --version\t\tバージョン番号を表示する\n"
 
-# clefs
-# Belgae
 #~ msgid ""
 #~ "Show a list of connections to the server, your ignore list, the list of "
 #~ "the players in the game, the available scenarios, the teams of players, "
@@ -62789,8 +62543,6 @@ msgstr ""
 #~ msgid "  -a, --autoconnect\tSkip connect dialog\n"
 #~ msgstr "  -a, --autoconnect\t接続ダイアログをスキップする\n"
 
-# spawned serverって何じゃらほい (clefs)
-# たぶんcivclientが自動で立ち上げるサーバのこと
 #~ msgid ""
 #~ "  -l, --log FILE\tUse FILE as logfile (spawned server also uses this)\n"
 #~ msgstr ""
@@ -62833,7 +62585,6 @@ msgstr ""
 #~ msgid "This option controls the speed of combat animation."
 #~ msgstr "このオプションは、戦闘アニメーションの速度を制御しまし。"
 
-# clefs
 #~ msgid ""
 #~ "Disabling this option will turn off combat animation between units on the "
 #~ "mapview."
@@ -62890,17 +62641,12 @@ msgstr ""
 #~ msgid "      --\t\tPass any following options to the UI.\n"
 #~ msgstr "      --\t\t続くオプションすべてをUIへ渡します。\n"
 
-# Belgae
-# 「信徒たちの長」という意味
 #~ msgid "Amir Al-Muminin %s"
 #~ msgstr "アミール・アル＝ムウミニーン %s"
 
-# Belgae
-# 発音は推測です
 #~ msgid "Amirat Al-Muminin %s"
 #~ msgstr "アミーラート・アル＝ムウミニーン %s"
 
-# 「アンダルス人」でいい？(Belgae)
 #~ msgid "Al-Andalus"
 #~ msgstr "アル＝アンダルス人"
 
@@ -62925,12 +62671,9 @@ msgstr ""
 #~ msgid "Mallku %s"
 #~ msgstr "マリュク %s"
 
-# Belgae
-# 推測です。
 #~ msgid "Ttalla %s"
 #~ msgstr "タッリャ %s"
 
-# Belgae:バスク/スロヴァキア共和国の指導者の称号(title)
 #~ msgid "?title:Leader %s"
 #~ msgstr "指導者 %s"
 
@@ -62940,29 +62683,21 @@ msgstr ""
 #~ msgid "?female:Liberator %s"
 #~ msgstr "解放者 %s"
 
-# Belgae
 #~ msgid "Mwami %s"
 #~ msgstr "ムワミ %s"
 
-# Belgae
-# 発音未確定
 #~ msgid "Mwamikazi %s"
 #~ msgstr "ムワミカジ %s"
 
-# clefs
-# 「バシレウス」「国王」「君主」
-# ja.wikipedia.orgにも「バシレウス」で立項されているようです
 #~ msgid "Basileus %s"
 #~ msgstr "バシレウス %s"
 
-# 「バシレウス」の女性形（Belgae）
 #~ msgid "Basilissa %s"
 #~ msgstr "バシリッサ %s"
 
 #~ msgid "Mother %s"
 #~ msgstr "マザー %s"
 
-# clefs
 #~ msgid ""
 #~ "The Confederate States of America was a splinter nation of the United "
 #~ "States during the American Civil War. It was formed in 1861 by six "
@@ -62973,7 +62708,6 @@ msgstr ""
 #~ "の分国です。1861年に南部6州によって形成されましたが、合衆国軍による数次の"
 #~ "軍事的敗北の後に独立要求の放棄を余儀なくされました。"
 
-# Belgae
 #~ msgid "Thane %s"
 #~ msgstr "ターネー %s"
 
@@ -63007,7 +62741,6 @@ msgstr ""
 #~ msgid "?female:Kikmongwi %s"
 #~ msgstr "キクモングウィ %s"
 
-# clefs
 #~ msgid ""
 #~ "The nation of Israel was founded in 1948 as a scattered collection of "
 #~ "cantons in British Palestine, and has gradually expanded through winning "
@@ -63056,28 +62789,21 @@ msgstr ""
 #~ msgid "?Female:Bailiff %s"
 #~ msgstr "代官 %s"
 
-# Belgae
 #~ msgid "Perfect %s"
 #~ msgstr "完全なる %s"
 
 #~ msgid "Perfectae %s"
 #~ msgstr "完全なる %s"
 
-# Belgae
-# コレクトール？
-# 定訳は不明
 #~ msgid "Corrector %s"
 #~ msgstr "監督官 %s"
 
 #~ msgid "Correctrix %s"
 #~ msgstr "監督官 %s"
 
-# clefs
 #~ msgid "The Papuans are a Melanesian people on the island of New Guinea."
 #~ msgstr "パプア人は、ニューギニア島に住むマレーシア人です。"
 
-# Belgae
-# Pashaのスペリングミス？
 #~ msgid "%s Basha"
 #~ msgstr "%s パシャ"
 
@@ -63099,28 +62825,18 @@ msgstr ""
 #~ msgid "?female:Chogyal %s"
 #~ msgstr "チョギャル: %s"
 
-# clefs
-# 福建語で"様""さん"らしいが…
-# 「閣下○○」じゃあ格好がつかないから「エンシク」にしようかな
-# Belgae
 #~ msgid "Encik %s"
 #~ msgstr "ンチッ %s"
 
-# Belgae
-# マレー語で女性の二人称はcikのようです。
 #~ msgid "?female:Encik %s"
 #~ msgstr "チッ %s"
 
 #~ msgid "Datu %s"
 #~ msgstr "ダトゥ %s"
 
-# Belgae
-# 夫人はDatinが正しいらしい
 #~ msgid "?female:Datu %s"
 #~ msgstr "ダティン %s"
 
-# clefs
-# larger-than-life「英雄的な」「人生よりもでっかい」「大げさで滑稽な」
 #~ msgid ""
 #~ "Texas is second largest and second most populous state of the USA, famous "
 #~ "for its \"larger than life\" cowboy mentality."
@@ -63128,8 +62844,6 @@ msgstr ""
 #~ "テキサスは合衆国で第2の面積と人口を持つ州で、その\"larger than life\"なカ"
 #~ "ウボーイ気質で知られています。"
 
-# was:ベイ
-# 現代トルコ語ではベイに転訛していますが、トゥルクマーンの時代はベグだったようなので。
 #~ msgid "%s Beg"
 #~ msgstr "%s ベグ"
 
@@ -63139,7 +62853,6 @@ msgstr ""
 #~ msgid "?female:Chairperson %s"
 #~ msgstr "議長 %s"
 
-# clefs
 #~ msgid ""
 #~ "Venezuela is the northernmost country in South America. Having been a "
 #~ "Spanish colony since the 16th century, the country gained independence on "
