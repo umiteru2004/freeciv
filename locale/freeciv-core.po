@@ -811,13 +811,11 @@ msgstr "設定かパーミッションに何か間違いはありませんか？
 msgid ""
 "Freeciv is free software and you are welcome to distribute copies of it "
 "under certain conditions;"
-msgstr ""
-"Freecivはフリーソフトウェアです。条件に従ってFreecivのコピーを配布することを"
-"歓迎します。"
+msgstr "Freecivは無料のソフトウェアであり、条件に従ってそのコピーを配布することを歓迎します。"
 
 #: client/chatline_common.c:183
 msgid "See the \"Copying\" item on the Help menu."
-msgstr "ヘルプメニューの\"著作権\"の項目を参照してください。"
+msgstr "ゲーム内ヘルプ「著作権」の項目を参照してください。"
 
 #: client/chatline_common.c:186
 msgid "See COPYING file distributed with this program."
@@ -825,7 +823,7 @@ msgstr "詳細は\"COPYING\"ファイルを参照して下さい。"
 
 #: client/chatline_common.c:189
 msgid "Now ... Go give 'em hell!"
-msgstr "…さあ、やつらを地獄へ送ってやろうぜ！"
+msgstr "…さあ、やつらを地獄を見せてやろうぜ！"
 
 #: client/chatline_common.c:201
 #, c-format
@@ -2000,7 +1998,7 @@ msgstr "接続中。"
 # clefs
 #: client/clinet.c:323
 msgid "Disconnected from server."
-msgstr "サーバーから切断しています。"
+msgstr "サーバーから切断されました。"
 
 #: client/clinet.c:435 client/clinet.c:484
 msgid "server disconnected"
@@ -23771,10 +23769,10 @@ msgid "?unitflag:Settlers"
 msgstr "作業を行うことができる"
 
 #: common/version.c:41
-#, fuzzy, c-format
+#, c-format
 #| msgid "Freeciv version %s (%s)"
 msgid "Freeciv version %s %s (%s)"
-msgstr "Freeciv バージョン %s (%s)"
+msgstr "Freeciv Ver.%s %s (%s)"
 
 #: common/version.c:42 common/version.c:46
 msgid "(beta version)"
@@ -23783,17 +23781,17 @@ msgstr "(ベータ版)"
 #: common/version.c:45
 #, c-format
 msgid "Freeciv version %s %s"
-msgstr "Freeciv バージョン %s %s"
+msgstr "Freeciv Ver.%s %s"
 
 #: common/version.c:49
 #, c-format
 msgid "Freeciv version %s (%s)"
-msgstr "Freeciv バージョン %s (%s)"
+msgstr "Freeciv Ver.%s (%s)"
 
 #: common/version.c:52
 #, c-format
 msgid "Freeciv version %s"
-msgstr "Freeciv バージョン %s"
+msgstr "Freeciv Ver.%s"
 
 #: common/version.c:65
 msgid "betatest version "
@@ -23893,7 +23891,7 @@ msgstr "バッファオーバーフロー"
 #: common/networking/connection.c:481
 #, c-format
 msgid "%s from %s"
-msgstr "%2$sからの %1$s"
+msgstr "%2$sからの%1$s"
 
 #. TRANS: preserve leading space.
 #: common/networking/connection.c:492
@@ -48047,97 +48045,88 @@ msgstr "ようこそ %s"
 #: server/connecthand.c:172
 #, c-format
 msgid "Welcome to the %s Server running at %s port %d."
-msgstr ""
-"ようこそ %sサーバーへ。このサーバーは %s(ポート %d)で実行されています。"
+msgstr "%sサーバーにようこそ。\nこのサーバーは、%s:%dで実行中です。"
 
 #: server/connecthand.c:176
 #, c-format
 msgid "Welcome to the %s Server at port %d."
-msgstr "ようこそ %sサーバー(ポート %d)へ。"
+msgstr "%sサーバーにようこそ。\nこのサーバーは、%d番ポートで実行中です。"
 
-# clefs
 #: server/connecthand.c:184 server/connecthand.c:331
 #, c-format
 msgid "%s has connected from %s."
-msgstr "%sは %sから接続しています。"
+msgstr "%sは%sから接続しています。"
 
 #: server/connecthand.c:213
 #, c-format
 msgid "Your delegate %s was controlling your player '%s'; now detached."
-msgstr ""
-"プレイヤー'%2$s'の引き継ぎを委託されていたユーザー'%1$s'は、プレイヤー割り当"
-"てを解除されました。"
+msgstr "あなたの代わりに \"%2$s\" を操作していた \"%1$s\" は、操作を終了しました。"
 
 #: server/connecthand.c:217
 #, c-format
 msgid "%s reconnected, ending your delegated control of player '%s'."
-msgstr ""
-"ユーザー'%s'が再接続しましたので、あなたへのプレイヤー'%s'引き継ぎ委託は終了"
-"します。"
+msgstr "\"%s\" が再接続したので、 \"%s\" へのあなたの操作は終了しました。"
 
 #: server/connecthand.c:226
 #, c-format
 msgid "Couldn't get control of '%s' from delegation to %s."
-msgstr ""
+msgstr "あなたの代わりに \"%s\" を操作していた \"%s\" から、操作を取り戻すことができませんでした。"
 
 #: server/connecthand.c:265
-#, fuzzy
 #| msgid "Couldn't attach your connection to new player."
 msgid "Couldn't attach your connection to a scenario player."
-msgstr "新しいプレイヤーとして接続できませんでした。"
+msgstr "シナリオのプレイヤーとして接続することができませんでした。"
 
-# clefs
 #: server/connecthand.c:278
 msgid "Couldn't attach your connection to new player."
-msgstr "新しいプレイヤーとして接続できませんでした。"
+msgstr "新しいプレイヤーとして接続することができませんでした。"
 
 #: server/connecthand.c:296
 #, c-format
 msgid "You are logged in as '%s' connected to no player."
-msgstr "あなたは「%s」としてログインしており、どのプレイヤーにも割り当てられていません。"
+msgstr "あなたは \"%s\" として接続していますが、プレイヤーを操作していません。"
 
 #: server/connecthand.c:300
 #, c-format
 msgid "You are logged in as '%s' connected to %s."
-msgstr "あなたは「%s」としてログインしており、プレイヤー「%s」に割り当てられています。"
+msgstr "あなたは \"%s\" として接続しており、プレイヤー \"%s\" を操作しています。"
 
 #: server/connecthand.c:315
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s has connected from %s (player %s)."
 msgid "%s has connected (player %s)."
-msgstr "%sは %sから接続しています（プレイヤー名 %s）。"
+msgstr "%s（プレイヤー名: %s）が接続しています。"
 
 #: server/connecthand.c:320
 #, c-format
 msgid "%s has connected from %s (player %s)."
-msgstr "%sは %sから接続しています（プレイヤー名 %s）。"
+msgstr "%1$s（プレイヤー名: %3$s）は%2$sから接続しています。"
 
 #: server/connecthand.c:327
-#, fuzzy, c-format
+#, c-format
 #| msgid "%s is not connected."
 msgid "%s has connected."
-msgstr "%s は接続されていません"
+msgstr "%sが接続しています。"
 
 #: server/connecthand.c:349
 #, c-format
 msgid "Turn-blocking game play: waiting on %s to finish turn..."
-msgstr "ターンブロッキングモード: %sがターン終了するのを待っています。"
+msgstr "ターンブロッキングモード: %sがターンを終了するのを待っています。"
 
-# Belgae
 #: server/connecthand.c:358
 msgid " *** Server is in edit mode. *** "
-msgstr " ☆☆☆ サーバーは編集モード中です。 ☆☆☆"
+msgstr "*** サーバーは編集モードです。 ***"
 
 # clefs
 #: server/connecthand.c:388
 #, c-format
 msgid "Client rejected: %s."
-msgstr "拒否されたクライアント: %s"
+msgstr "クライアントが拒否されました: %s。"
 
 #: server/connecthand.c:408
 #, c-format
 msgid "Connection request from %s from %s"
-msgstr "%2$s の %1$s から接続要請"
+msgstr "%2$sの%1$sからの接続要求"
 
 #: server/connecthand.c:412
 #, c-format
@@ -55516,7 +55505,7 @@ msgstr "パラメータ %sには +-および 0-9以外の文字は使用でき�
 #: server/stdinhand.c:3113
 #, c-format
 msgid "Console: '%s' has been set to %s."
-msgstr "コンソール: '%s' は %sに設定されました。"
+msgstr "コンソール: \"%s\" は %s に設定されました。"
 
 #: server/stdinhand.c:3215
 msgid "You cannot take a new player at this time."
@@ -58255,7 +58244,7 @@ msgstr "%s"
 #: utility/astring.c:363
 #, c-format
 msgid "?and-list:%s and %s"
-msgstr "%s および %s"
+msgstr "%sおよび%s"
 
 #. TRANS: start of an "and"-separated string list with more than
 #. * two items.
