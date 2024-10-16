@@ -2837,54 +2837,40 @@ msgid "_OK"
 msgstr "OK(_O)"
 
 #: client/gui-gtk-3.22/chatline.c:1343
-#, fuzzy
 msgid "Bold"
-msgstr ""
-"・太字にする:\n"
-"完全名シーケンス: [bold] ... [/bold]\n"
-"省略名シーケンス: [b] ... [/b]\n"
-"入力欄でのショートカット: Ctrl-B\n"
-"例: 「[b]太字[/b]」と入力すると、「太字」という単語が太字で表示されます。"
+msgstr "太字"
 
 #: client/gui-gtk-3.22/chatline.c:1349 client/gui-gtk-4.0/chatline.c:1397
 #: client/gui-gtk-5.0/chatline.c:1397
 msgid "Bold (Ctrl-B)"
-msgstr "太字(Ctrl-B)"
+msgstr "太字(Ctrl+B)"
 
 #: client/gui-gtk-3.22/chatline.c:1353
-#, fuzzy
 msgid "Italic"
-msgstr ""
-"・斜体にする:\n"
-"完全名シーケンス: [italic] ... [/italic]\n"
-"省略名シーケンス: [i] ... [/i]\n"
-"入力欄でのショートカット: Ctrl-I\n"
-"例:「[i]斜体[/i]」と入力すると、「斜体」という単語が斜体で表示されます。"
+msgstr "斜体"
 
 #: client/gui-gtk-3.22/chatline.c:1358 client/gui-gtk-4.0/chatline.c:1408
 #: client/gui-gtk-5.0/chatline.c:1408
 msgid "Italic (Ctrl-I)"
-msgstr "斜体(Ctrl-I)"
+msgstr "斜体(Ctrl+I)"
 
 #: client/gui-gtk-3.22/chatline.c:1362
-#, fuzzy
 msgid "Strikethrough"
-msgstr "取り消し(Ctrl-S)"
+msgstr "取り消し線"
 
 #: client/gui-gtk-3.22/chatline.c:1367 client/gui-gtk-4.0/chatline.c:1418
 #: client/gui-gtk-5.0/chatline.c:1418
 msgid "Strikethrough (Ctrl-S)"
-msgstr "取り消し(Ctrl-S)"
+msgstr "取り消し線(Ctrl+S)"
 
 #: client/gui-gtk-3.22/chatline.c:1371
-#, fuzzy
 msgid "Underline"
-msgstr "下線(Ctrl-U)"
+msgstr "下線"
 
 #: client/gui-gtk-3.22/chatline.c:1376 client/gui-gtk-4.0/chatline.c:1428
 #: client/gui-gtk-5.0/chatline.c:1428
 msgid "Underline (Ctrl-U)"
-msgstr "下線(Ctrl-U)"
+msgstr "下線(Ctrl+U)"
 
 #: client/gui-gtk-3.22/chatline.c:1379 client/gui-gtk-4.0/chatline.c:1433
 #: client/gui-gtk-5.0/chatline.c:1433
@@ -2894,7 +2880,7 @@ msgstr "色"
 #: client/gui-gtk-3.22/chatline.c:1384 client/gui-gtk-4.0/chatline.c:1439
 #: client/gui-gtk-5.0/chatline.c:1439
 msgid "Color (Ctrl-C)"
-msgstr "色(Ctrl-C)"
+msgstr "色(Ctrl+C)"
 
 #: client/gui-gtk-3.22/chatline.c:1394 client/gui-gtk-4.0/chatline.c:1448
 #: client/gui-gtk-5.0/chatline.c:1448
@@ -40671,7 +40657,7 @@ msgstr ""
 "・太字にする:\n"
 "完全名シーケンス: [bold] ... [/bold]\n"
 "省略名シーケンス: [b] ... [/b]\n"
-"入力欄でのショートカット: Ctrl-B\n"
+"入力欄でのショートカット: Ctrl+B\n"
 "例: 「[b]太字[/b]」と入力すると、「太字」という単語が太字で表示されます。"
 
 #: data/helpdata.txt:1914
@@ -40692,7 +40678,7 @@ msgstr ""
 "・色を付ける:\n"
 "完全名シーケンス: [color] ... [/color] \n"
 "省略名シーケンス: [c] ... [/c]\n"
-"入力欄でのショートカット: Ctrl-C（入力欄の上のツールバーから色を選択する必要"
+"入力欄でのショートカット: Ctrl+C（入力欄の上のツールバーから色を選択する必要"
 "もあります）\n"
 "colorの開始シーケンスには以下のパラメータが少なくとも1つ必要です:\n"
 "・foreground（省略名 fg）:文字色です。「red」などの色名、または#3050b2か#35b"
@@ -40712,7 +40698,7 @@ msgstr ""
 "・斜体にする:\n"
 "完全名シーケンス: [italic] ... [/italic]\n"
 "省略名シーケンス: [i] ... [/i]\n"
-"入力欄でのショートカット: Ctrl-I\n"
+"入力欄でのショートカット: Ctrl+I\n"
 "例:「[i]斜体[/i]」と入力すると、「斜体」という単語が斜体で表示されます。"
 
 #: data/helpdata.txt:1933
@@ -40727,7 +40713,7 @@ msgstr ""
 "・取り消し線を引く:\n"
 "完全名シーケンス: [strike] ... [/strike]\n"
 "省略名シーケンス: [s] ... [/s]\n"
-"入力欄でのショートカット: Ctrl-S\n"
+"入力欄でのショートカット: Ctrl+S\n"
 "例: 「[s]取り消し線[/s]」と入力すると、「取り消し線」という単語に取り消し線が"
 "引かれます。"
 
@@ -40743,7 +40729,7 @@ msgstr ""
 "・下線を引く:\n"
 "完全名シーケンス: [underline] ... [/underline]\n"
 "省略名シーケンス: [u] ... [/u]\n"
-"入力欄でのショートカット: Ctrl-U\n"
+"入力欄でのショートカット: Ctrl+U\n"
 "例: 「[u]下線[/u]」と入力すると、「下線」という単語に下線が引かれます。"
 
 #: data/helpdata.txt:1947
@@ -40766,7 +40752,7 @@ msgstr ""
 "・都市リンクを設定する:\n"
 "完全名シーケンス: [link target=\"city\"] ... [/link]\n"
 "省略名シーケンス: '[l tgt=\"city\"] ... [/l]'\n"
-"ショートカット: マップ上の都市にマウスポインタを合わせて、Ctrl-Alt-右クリック"
+"ショートカット: マップ上の都市にマウスポインタを合わせて、Ctrl+Alt+右クリック"
 "する。\n"
 "idパラメータには、指定したい都市のIDを設定しなければなりません。\n"
 "nameパラメータはオプションです。リンクを利用するユーザー自身のマップでこの都"
@@ -40797,8 +40783,8 @@ msgstr ""
 "・タイルリンクを設定する:\n"
 "完全名シーケンス: [link target=\"tile\"] ... [/link]\n"
 "省略名シーケンス: [l tgt=\"tile\"] ... [/l]\n"
-"ショートカット: マップ上で都市以外のタイルにマウスポインタを合わせて、Ctrl-"
-"Alt-右クリックする。\n"
+"ショートカット: マップ上で都市以外のタイルにマウスポインタを合わせて、Ctrl+"
+"Alt+右クリックする。\n"
 "xパラメータおよびyパラメータには、指定したいタイルの座標を設定しなければなり"
 "ません。\n"
 "開始と終了を1つの角かっこの組の中で行うこともできます。「[link "
@@ -40827,7 +40813,7 @@ msgstr ""
 "・ユニットリンクを設定する:\n"
 "完全名シーケンス: [link target=\"unit\"] ... [/link]\n"
 "省略名シーケンス: [l tgt=\"unit\"] ... [/l]\n"
-"ショートカット: マップ上のユニットにマウスポインタを合わせ、Shift-Ctrl-Alt-右"
+"ショートカット: マップ上のユニットにマウスポインタを合わせ、Shift+Ctrl+Alt+右"
 "クリックする。\n"
 "idパラメータには、指定したいユニットのIDを設定しなければなりません。nameパラ"
 "メータはオプションです。リンクを利用するユーザー自身のマップでこのユニットを"
