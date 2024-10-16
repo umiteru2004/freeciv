@@ -2076,7 +2076,7 @@ msgstr "ここからだと起動できないのかもしれません。"
 #: client/connectdlg_common.c:735
 msgid ""
 "Established control over the server. You have command access level 'hack'."
-msgstr "サーバーの制御が確立されました。コマンドアクセスレベルは'hack'です。"
+msgstr "サーバーの制御が確立されました。コマンドアクセスレベルは \"hack\" です。"
 
 #: client/connectdlg_common.c:741
 msgid ""
@@ -48045,12 +48045,12 @@ msgstr "ようこそ %s"
 #: server/connecthand.c:172
 #, c-format
 msgid "Welcome to the %s Server running at %s port %d."
-msgstr "%sサーバーにようこそ。\nこのサーバーは、%s:%dで実行中です。"
+msgstr "%s サーバーにようこそ。\nこのサーバーは、%s:%d で実行中です。"
 
 #: server/connecthand.c:176
 #, c-format
 msgid "Welcome to the %s Server at port %d."
-msgstr "%sサーバーにようこそ。\nこのサーバーは、%d番ポートで実行中です。"
+msgstr "%s サーバーにようこそ。\nこのサーバーは、%d番ポートで実行中です。"
 
 #: server/connecthand.c:184 server/connecthand.c:331
 #, c-format
@@ -58244,7 +58244,7 @@ msgstr "%s"
 #: utility/astring.c:363
 #, c-format
 msgid "?and-list:%s and %s"
-msgstr "%sおよび%s"
+msgstr "%s および %s"
 
 #. TRANS: start of an "and"-separated string list with more than
 #. * two items.
