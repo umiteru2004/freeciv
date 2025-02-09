@@ -2177,15 +2177,13 @@ set =
       "generator", "FRACTAL"
       "topology", "WRAPX|ISO"
       "mapsize", "PLAYER"
-      "tinyisles", "ENABLED"
       "flatpoles", 0
       "techlevel", 0
       "foggedborders", "ENABLED"
       "unreachableprotects", "DISABLED"
       "huts", 0
       "traitdistribution", "EVEN"
-      "migration", "ENABLED"
-      "endturn", 250
+      "endturn", 240
       "aqueductloss", 20
       "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
       "sciencebox", 180
@@ -2196,7 +2194,7 @@ set =
       "conquercost", 20
       "freecost", 20
       "victories", "SPACERACE|ALLIED|CULTURE"
-      "timeout", 50
+      "timeout", 60
       "first_timeout", 0
       "unitwaittime", 15
       "scorelog", "ENABLED"
