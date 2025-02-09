@@ -98,19 +98,16 @@ vars=$$
 [settings]
 set={"name","value","gamestart","gamesetdef"
 "aifill",8,8,"Changed"
-"endturn",250,250,"Changed"
-"first_timeout",90,90,"Changed"
 "generator","SCENARIO","SCENARIO","Changed"
 "mapsize","XYSIZE","XYSIZE","Changed"
 "nationset","all","all","Changed"
 "savename","ja-part","ja-part","Changed"
 "scorefile","fciv-score-ja-part.log","fciv-score-ja-part.log","Changed"
-"timeout",60,60,"Changed"
 "topology","WRAPX","WRAPX","Changed"
 "xsize",80,80,"Changed"
 "ysize",80,80,"Changed"
 }
-set_count=12
+set_count=9
 gamestart_valid=TRUE
 
 [ruledata]
