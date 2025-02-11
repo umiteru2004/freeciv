@@ -102,13 +102,11 @@ set={"name","value","gamestart","gamesetdef"
 "generator","SCENARIO","SCENARIO","Changed"
 "mapsize","XYSIZE","XYSIZE","Changed"
 "nationset","all","all","Changed"
-"savename","bri-umi","bri-umi","Changed"
-"scorefile","fciv-score-bri-umi.log","fciv-score-bri-umi.log","Changed"
 "topology","WRAPX","WRAPX","Changed"
 "xsize",50,50,"Changed"
 "ysize",50,50,"Changed"
 }
-set_count=9
+set_count=7
 gamestart_valid=TRUE
 
 [ruledata]

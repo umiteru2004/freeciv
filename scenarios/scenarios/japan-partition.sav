@@ -101,13 +101,11 @@ set={"name","value","gamestart","gamesetdef"
 "generator","SCENARIO","SCENARIO","Changed"
 "mapsize","XYSIZE","XYSIZE","Changed"
 "nationset","all","all","Changed"
-"savename","ja-part","ja-part","Changed"
-"scorefile","fciv-score-ja-part.log","fciv-score-ja-part.log","Changed"
 "topology","WRAPX","WRAPX","Changed"
 "xsize",80,80,"Changed"
 "ysize",80,80,"Changed"
 }
-set_count=9
+set_count=7
 gamestart_valid=TRUE
 
 [ruledata]
