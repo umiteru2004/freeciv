@@ -2187,6 +2187,7 @@ set =
       "aqueductloss", 20
       "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
       "sciencebox", 180
+      "team_pooled_research", "DISABLED"
       "diplbulbcost", 20
       "diplgoldcost", 20
       "incite_gold_loss_chance", 20
