@@ -2184,7 +2184,6 @@ set =
       "huts", 0
       "traitdistribution", "EVEN"
       "endturn", 240
-      "aqueductloss", 20
       "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
       "sciencebox", 180
       "team_pooled_research", "DISABLED"
