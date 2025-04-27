@@ -2185,7 +2185,7 @@ set =
       "huts", 0
       "endturn", 240
       "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
-      "sciencebox", 200
+      "sciencebox", 250
       "team_pooled_research", "DISABLED"
       "diplbulbcost", 20
       "diplgoldcost", 20
