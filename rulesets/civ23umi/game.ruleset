@@ -2016,12 +2016,12 @@ cons_msg       = _("Your nation has achieved 10000 culture points!")
 [trade]
 settings =
   { "type",       "pct", "cancelling", "bonus"
-    "National",   160,   "Cancel",     "None"
-    "NationalIC", 320,   "Cancel",     "None"
-    "IN",         240,   "Cancel",     "Gold"
-    "INIC",       480,   "Cancel",     "Gold"
-    "Ally",       240,   "Cancel",     "Gold"
-    "AllyIC",     480,   "Cancel",     "Gold"
+    "National",   100,   "Cancel",     "None"
+    "NationalIC", 200,   "Cancel",     "None"
+    "IN",         200,   "Cancel",     "Gold"
+    "INIC",       400,   "Cancel",     "Gold"
+    "Ally",       200,   "Cancel",     "Gold"
+    "AllyIC",     400,   "Cancel",     "Gold"
     "Enemy",      200,   "Cancel",     "Gold"
     "EnemyIC",    400,   "Cancel",     "Gold"
     "Team",       200,   "Cancel",     "Gold"
@@ -2185,7 +2185,7 @@ set =
       "huts", 0
       "endturn", 240
       "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
-      "sciencebox", 250
+      "sciencebox", 200
       "team_pooled_research", "DISABLED"
       "diplbulbcost", 20
       "diplgoldcost", 20
