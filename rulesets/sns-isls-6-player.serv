@@ -10,3 +10,4 @@ set xsize 26
 set ysize 26
 set startpos "VARIABLE"
 set nationset "all"
+set sciencebox 180
