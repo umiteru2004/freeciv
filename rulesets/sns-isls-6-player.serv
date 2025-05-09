@@ -6,8 +6,8 @@ rulesetdir civ23umi
 set aifill 6
 set generator "ISLAND"
 set mapsize "XYSIZE"
-set xsize 26
-set ysize 26
+set xsize 28
+set ysize 28
 set startpos "VARIABLE"
 set nationset "all"
 set sciencebox 180
