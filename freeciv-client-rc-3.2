@@ -1,30 +1,35 @@
 
 [client]
-version="3.1.4"
+version="3.2.0"
 save_options_on_exit=FALSE
 fullscreen_mode=FALSE  # deprecated
 migration_gtk3_from_gtk2=FALSE
 migration_gtk3_22_from_gtk3=TRUE
 migration_gtk4_from_gtk3_22=FALSE
 migration_sdl2_from_sdl=FALSE
+migration_sdl3_from_sdl2=FALSE
 migration_gtk2_from_2_5=FALSE
 migration_gtk3_from_2_5=FALSE
 migration_qt_from_2_5=TRUE
 flag_qt_default_fonts_set=TRUE
+flag_sdl2_default_screen_size_set=FALSE
+flag_sdl3_default_screen_size_set=FALSE
 default_user_name="Umiteru"
 use_prev_server=FALSE
 default_server_host="localhost"
 default_server_port=5556
 default_metaserver="default"
 heartbeat_enabled=TRUE
+followtag_override="builtin"
+send_desired_settings=TRUE
 default_sound_set_name="freesounds"
 default_music_set_name="SongOfDoom"
 default_sound_plugin_name="sdl"
 default_chat_logfile="freeciv-chat.log"
-gui_gtk3_default_theme_name="Freeciv"
 gui_gtk3_22_default_theme_name="Freeciv"
 gui_gtk4_default_theme_name="Freeciv"
 gui_sdl2_default_theme_name="human"
+gui_sdl3_default_theme_name="human"
 gui_qt_default_theme_name="System"
 default_tileset_square_name="amplio2"
 default_tileset_hex_name="hex2t"
@@ -40,7 +45,7 @@ draw_city_buycost=TRUE
 draw_city_trade_routes=TRUE
 draw_terrain=TRUE
 draw_coastline=FALSE
-draw_roads_rails=TRUE
+draw_paths=TRUE
 draw_irrigation=TRUE
 draw_mines=TRUE
 draw_fortress_airbase=TRUE
@@ -93,6 +98,7 @@ autoaccept_tileset_suggestion=FALSE
 sound_enable_effects=TRUE
 sound_enable_game_music=FALSE
 sound_enable_menu_music=FALSE
+silent_when_not_in_focus=FALSE
 sound_effects_volume=50
 autoaccept_soundset_suggestion=FALSE
 autoaccept_musicset_suggestion=FALSE
@@ -249,6 +255,17 @@ gui_sdl2_do_cursor_animation=TRUE
 gui_sdl2_use_color_cursors=TRUE
 gui_sdl2_font_city_names="10"
 gui_sdl2_font_city_productions="10"
+gui_sdl2_use_theme_font_size=TRUE
+gui_sdl2_font_size=10
+gui_sdl3_fullscreen=FALSE
+gui_sdl3_screen.width=640
+gui_sdl3_screen.height=480
+gui_sdl3_do_cursor_animation=TRUE
+gui_sdl3_use_color_cursors=TRUE
+gui_sdl3_font_city_names="10"
+gui_sdl3_font_city_productions="10"
+gui_sdl3_use_theme_font_size=TRUE
+gui_sdl3_font_size=10
 gui_qt_fullscreen=FALSE
 gui_qt_show_titlebar=TRUE
 gui_qt_font_default=".AppleSystemUIFont,14,-1,5,50,0,0,0,0,0"
@@ -262,9 +279,13 @@ gui_qt_font_reqtree_text="Papyrus,14,-1,5,50,0,0,0,0,0"
 gui_qt_show_preview=TRUE
 gui_qt_sidebar_left=TRUE
 gui_qt_wakeup_text="Wake up %1"
+gui_qt_svgflags=TRUE
 zoom_set=FALSE
 zoom_default_level=1.000000
-default_tileset_name="amplio2"
+gui_qt_show_relations_panel=TRUE
+gui_qt_show_techs_panel=TRUE
+gui_qt_show_wonders_panel=TRUE
+default_topology=2
 player_dlg_border=TRUE
 player_dlg_culture=TRUE
 player_dlg_vision=TRUE
@@ -283,10 +304,10 @@ player_dlg_flag=TRUE
 player_dlg_host=FALSE
 player_dlg_tax=TRUE
 player_dlg_embassy=TRUE
-player_dlg_ai=TRUE
 player_dlg_idle=FALSE
-player_dlg_luxury=TRUE
+player_dlg_ai=TRUE
 player_dlg_attitude=TRUE
+player_dlg_luxury=TRUE
 player_dlg_ping=FALSE
 
 [messages]
@@ -428,13 +449,15 @@ event={"name","where"
 "E_UNIT_ACTION_TARGET_HOSTILE",2
 "E_INFRAPOINTS",2
 "E_HUT_MAP",2
+"E_TREATY_SHARED_TILES",2
+"E_CITY_CONQUERED",2
 }
-count=137
+count=139
 
 [cma]
 number_of_presets=5  # 手でプリセットを追加する場合は、"number_of_presets"もアップデートしてください
 preset={"name","minsurp0","factor0","minsurp1","factor1","minsurp2","factor2","minsurp3","factor3","minsurp4","factor4","minsurp5","factor5","reqhappy","happyfactor"
-"幸福追求",0,10,0,5,0,0,-20,4,0,0,0,4,FALSE,25
+"幸福を最大に",0,10,0,5,0,0,-20,4,0,0,0,4,FALSE,25
 "食料を最大に",-20,25,0,5,0,0,-20,4,0,0,0,4,FALSE,0
 "生産を最大に",0,10,-20,25,0,0,-20,4,0,0,0,4,FALSE,0
 "税収を最大に",0,10,0,5,0,0,-20,25,0,0,0,4,FALSE,0
