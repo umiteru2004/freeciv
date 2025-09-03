@@ -788,22 +788,13 @@ set =
       "generator", "FRACTAL"
       "topology", "ISO"
       "mapsize", "PLAYER"
-      "flatpoles", 0
       "techlevel", 0
-      "foggedborders", "ENABLED"
       "unreachableprotects", "DISABLED"
       "revolentype", "RANDQUICK"
       "huts", 0
       "endturn", 240
-      "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
       "sciencebox", 200
       "team_pooled_research", "DISABLED"
-      "diplbulbcost", 20
-      "diplgoldcost", 20
-      "incite_gold_loss_chance", 20
-      "incite_gold_capt_chance", 20
-      "conquercost", 20
-      "freecost", 20
       "victories", "SPACERACE|ALLIED|CULTURE"
       "timeout", 60
       "first_timeout", 0
