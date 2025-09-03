@@ -8,9 +8,9 @@
 ; use your new customized file.
 
 [datafile]
-description="Nation theme data for Freeciv"
-options="+Freeciv-3.1-ruleset web-compatible"
-format_version=20
+description = "Nation theme data for Freeciv"
+options = "+Freeciv-3.2-ruleset web-compatible"
+format_version = 30
 
 ; /* <-- avoid gettext warnings
 ;
@@ -57,7 +57,6 @@ name = _("?style:Celtic")
 ;                    more info on city tiles
 ; citizens_graphic = group of citizens tiles to use, see citizens/small
 ;                    spec for more info on citizens tiles
-;                    FIXME: this is currently not used!
 ; reqs             = requirements for this city style (see README.effects)
 ;
 ; */ <-- avoid gettext warnings

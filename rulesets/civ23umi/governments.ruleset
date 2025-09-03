@@ -11,12 +11,12 @@
 ; than minor changes.
 
 [datafile]
-description="Civ2Civ3 governments data for Freeciv"
-options="+Freeciv-3.1-ruleset web-compatible"
-format_version=20
+description = "Civ2Civ3 governments data for Freeciv"
+options = "+Freeciv-3.2-ruleset web-compatible"
+format_version = 30
 
 [governments]
-during_revolution="Anarchy"
+during_revolution = "Anarchy"
 
 ; /* <-- avoid gettext warnings
 ;
@@ -44,6 +44,11 @@ during_revolution="Anarchy"
 ; graphic_alt  = alternate graphics tag if preferred is not found;
 ;                should be a standard tag if preferred is not;
 ;                otherwise may be "-"
+; sound        = Sound tag for the audio to play when player switch
+;                to government.
+; sound_alt    = Alternative sound tag, in case primary one is not found.
+; sound_alt2   = Second alternative sound tag, in case neither primary tag
+;                nor the first alt tag is found.
 ; ai_better    = AI will not consider this government for use if the
 ;                government listed here is available
 ; ruler_male_title   = The default male ruler title for the government type.
@@ -65,6 +70,9 @@ name        = _("Anarchy")
 ; No reqs
 graphic     = "gov.anarchy"
 graphic_alt = "-"
+sound       = "g_anarchy"
+sound_alt   = "-"
+sound_alt2  = "-"
 
 ruler_male_title = _("Warlord %s")
 ruler_female_title = _("Warlady %s")
@@ -103,6 +111,9 @@ name        = _("Tribal")
 ; No reqs
 graphic     = "gov.tribal"
 graphic_alt = "s.tax_luxury"
+sound       = "g_tribal"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 ai_better   = "Republic"
 
 ruler_male_title = _("Warlord %s")
@@ -142,6 +153,9 @@ name        = _("Despotism")
 ; No reqs
 graphic     = "gov.despotism"
 graphic_alt = "-"
+sound       = "g_despotism"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 ai_better   = "Monarchy"
 
 ruler_male_title = _("Chief %s")
@@ -181,6 +195,9 @@ reqs = { "type", "name", "range"
        }
 graphic     = "gov.monarchy"
 graphic_alt = "-"
+sound       = "g_monarchy"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 
 ruler_male_title = _("King %s")
 ruler_female_title = _("Queen %s")
@@ -218,6 +235,9 @@ reqs = { "type", "name", "range"
        }
 graphic     = "gov.communism"
 graphic_alt = "-"
+sound       = "g_communism"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 
 ruler_male_title = _("Comrade %s")
 ruler_female_title = _("?female:Comrade %s")
@@ -256,6 +276,9 @@ reqs = { "type", "name", "range"
        }
 graphic     = "gov.fundamentalism"
 graphic_alt = "-"
+sound       = "g_fundamentalism"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 
 ruler_male_title = _("High Priest %s")
 ruler_female_title = _("High Priestess %s")
@@ -302,6 +325,9 @@ reqs = { "type", "name", "range"
        }
 graphic     = "gov.federation"
 graphic_alt = "s.tax_gold"
+sound       = "g_federation"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 
 ruler_male_title = _("Consul %s")
 ruler_female_title = _("?female:Consul %s")
@@ -338,6 +364,9 @@ reqs = { "type", "name", "range"
        }
 graphic     = "gov.republic"
 graphic_alt = "-"
+sound       = "g_republic"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 
 ruler_male_title = _("President %s")
 ruler_female_title = _("?female:President %s")
@@ -376,6 +405,9 @@ reqs = { "type", "name", "range"
        }
 graphic     = "gov.democracy"
 graphic_alt = "-"
+sound       = "g_democracy"
+sound_alt   = "g_generic"
+sound_alt2  = "-"
 
 ruler_male_title = _("Prime Minister %s")
 ruler_female_title = _("?female:Prime Minister %s")
