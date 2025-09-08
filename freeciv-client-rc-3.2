@@ -10,8 +10,8 @@ migration_sdl2_from_sdl=FALSE
 migration_sdl3_from_sdl2=FALSE
 migration_gtk2_from_2_5=FALSE
 migration_gtk3_from_2_5=FALSE
-migration_qt_from_2_5=TRUE
-flag_qt_default_fonts_set=TRUE
+migration_qt_from_2_5=FALSE
+flag_qt_default_fonts_set=FALSE
 flag_sdl2_default_screen_size_set=FALSE
 flag_sdl3_default_screen_size_set=FALSE
 default_user_name="Umiteru"
@@ -98,8 +98,8 @@ autoaccept_tileset_suggestion=FALSE
 sound_enable_effects=TRUE
 sound_enable_game_music=FALSE
 sound_enable_menu_music=FALSE
-silent_when_not_in_focus=TRUE
-sound_effects_volume=50
+silent_when_not_in_focus=FALSE
+sound_effects_volume=100
 autoaccept_soundset_suggestion=FALSE
 autoaccept_musicset_suggestion=FALSE
 overview.layers[OLAYER_BACKGROUND]=TRUE
@@ -146,38 +146,6 @@ gui_gtk2_font_comment_label="Sans Italic 9"
 gui_gtk2_font_city_names="Sans Bold 10"
 gui_gtk2_font_city_productions="Serif 10"
 gui_gtk2_font_reqtree_text="Serif 10"
-gui_gtk3_fullscreen=FALSE
-gui_gtk3_map_scrollbars=FALSE
-gui_gtk3_dialogs_on_top=TRUE
-gui_gtk3_show_task_icons=TRUE
-gui_gtk3_enable_tabs=TRUE
-gui_gtk3_show_chat_message_time=FALSE
-gui_gtk3_new_messages_go_to_top=FALSE
-gui_gtk3_show_message_window_buttons=TRUE
-gui_gtk3_metaserver_tab_first=FALSE
-gui_gtk3_allied_chat_only=FALSE
-gui_gtk3_message_chat_location="SEPARATE"
-gui_gtk3_small_display_layout=FALSE
-gui_gtk3_mouse_over_map_focus=FALSE
-gui_gtk3_chatline_autocompletion=TRUE
-gui_gtk3_citydlg_xsize=770
-gui_gtk3_citydlg_ysize=512
-gui_gtk3_popup_tech_help="RULESET"
-gui_gtk3_governor_range_min=-20
-gui_gtk3_governor_range_max=20
-gui_gtk3_font_city_label="Monospace 8"
-gui_gtk3_font_notify_label="Monospace Bold 9"
-gui_gtk3_font_spaceship_label="Monospace 8"
-gui_gtk3_font_help_label="Sans Bold 10"
-gui_gtk3_font_help_link="Sans 9"
-gui_gtk3_font_help_text="Monospace 8"
-gui_gtk3_font_chatline="Monospace 8"
-gui_gtk3_font_beta_label="Sans Italic 10"
-gui_gtk3_font_small="Sans 9"
-gui_gtk3_font_comment_label="Sans Italic 9"
-gui_gtk3_font_city_names="Sans Bold 10"
-gui_gtk3_font_city_productions="Serif 10"
-gui_gtk3_font_reqtree_text="Serif 10"
 gui_gtk3_22_fullscreen=FALSE
 gui_gtk3_22_map_scrollbars=FALSE
 gui_gtk3_22_dialogs_on_top=TRUE
@@ -298,7 +266,6 @@ player_dlg_research=TRUE
 player_dlg_team=TRUE
 player_dlg_nation=TRUE
 player_dlg_score=TRUE
-player_dlg_show_dead_players=TRUE
 player_dlg_diplstate=TRUE
 player_dlg_flag=TRUE
 player_dlg_host=FALSE
@@ -362,7 +329,7 @@ event={"name","where"
 "E_GAME_END",2
 "E_GAME_START",0
 "E_NATION_SELECTED",1
-"E_DESTROYED",2
+"E_DESTROYED",0
 "E_REPORT",2
 "E_TURN_BELL",2
 "E_NEXT_YEAR",0
