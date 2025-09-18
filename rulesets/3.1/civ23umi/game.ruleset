@@ -1840,7 +1840,11 @@ negative_label = _("BCE")
 ; name                    = translatable name as seen by user
 ; reqs                    = requirements for disaster to happen (see effects.ruleset
 ;                           and README.effects for help on requirements)
-; frequency               = how likely disaster is to occur
+; frequency               = how likely disaster is to occur.
+;                           Final probability for each city each turn is -
+;                           (this frequency) * (game settings option disasters
+;                           frequency) / 1000000.
+;                           If omitted, default is 0 and this disaster will not occur.
 ; effects
 ;   - "DestroyBuilding"   = Random building is destroyed
 ;   - "ReducePopulation"  = Reduce city size by one unless it's already 1
@@ -2018,14 +2022,14 @@ settings =
   { "type",       "pct", "cancelling", "bonus"
     "National",   100,   "Cancel",     "None"
     "NationalIC", 200,   "Cancel",     "None"
-    "IN",         200,   "Cancel",     "Gold"
-    "INIC",       400,   "Cancel",     "Gold"
-    "Ally",       200,   "Cancel",     "Gold"
-    "AllyIC",     400,   "Cancel",     "Gold"
-    "Enemy",      200,   "Cancel",     "Gold"
-    "EnemyIC",    400,   "Cancel",     "Gold"
-    "Team",       200,   "Cancel",     "Gold"
-    "TeamIC",     400,   "Cancel",     "Gold"
+    "IN",         100,   "Cancel",     "Gold"
+    "INIC",       200,   "Cancel",     "Gold"
+    "Ally",       100,   "Cancel",     "Gold"
+    "AllyIC",     200,   "Cancel",     "Gold"
+    "Enemy",      100,   "Cancel",     "Gold"
+    "EnemyIC",    200,   "Cancel",     "Gold"
+    "Team",       100,   "Cancel",     "Gold"
+    "TeamIC",     200,   "Cancel",     "Gold"
   }
 
 ; Minimum trade a trade route produces, as long as the good has nonzero income
@@ -2177,22 +2181,13 @@ set =
       "generator", "FRACTAL"
       "topology", "WRAPX|ISO"
       "mapsize", "PLAYER"
-      "flatpoles", 0
       "techlevel", 0
-      "foggedborders", "ENABLED"
       "unreachableprotects", "DISABLED"
       "revolentype", "RANDQUICK"
       "huts", 0
       "endturn", 240
-      "airliftingstyle", "FROM_ALLIES|TO_ALLIES"
       "sciencebox", 200
       "team_pooled_research", "DISABLED"
-      "diplbulbcost", 20
-      "diplgoldcost", 20
-      "incite_gold_loss_chance", 20
-      "incite_gold_capt_chance", 20
-      "conquercost", 20
-      "freecost", 20
       "victories", "SPACERACE|ALLIED|CULTURE"
       "timeout", 60
       "first_timeout", 0
