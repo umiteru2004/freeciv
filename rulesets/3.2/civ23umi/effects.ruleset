@@ -54,24 +54,6 @@ reqs    =
       "OutputType", "Food", "Local"
     }
 
-[effect_ai_cheat_sci]
-type    = "Output_Bonus_2"
-value   = 40
-reqs    =
-    { "type", "name", "range"
-      "AI", "Cheating", "Player"
-      "OutputType", "Science", "Local"
-    }
-
-[effect_ai_cheat_lux]
-type    = "Output_Bonus_2"
-value   = 40
-reqs    =
-    { "type", "name", "range"
-      "AI", "Cheating", "Player"
-      "OutputType", "Luxury", "Local"
-    }
-
 [effect_ai_cheat_shield]
 type    = "Output_Bonus_2"
 value   = 40
