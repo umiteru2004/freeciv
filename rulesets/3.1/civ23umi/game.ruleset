@@ -2022,14 +2022,14 @@ settings =
   { "type",       "pct", "cancelling", "bonus"
     "National",   100,   "Cancel",     "None"
     "NationalIC", 200,   "Cancel",     "None"
-    "IN",         100,   "Cancel",     "Gold"
-    "INIC",       200,   "Cancel",     "Gold"
-    "Ally",       100,   "Cancel",     "Gold"
-    "AllyIC",     200,   "Cancel",     "Gold"
-    "Enemy",      100,   "Cancel",     "Gold"
-    "EnemyIC",    200,   "Cancel",     "Gold"
-    "Team",       100,   "Cancel",     "Gold"
-    "TeamIC",     200,   "Cancel",     "Gold"
+    "IN",         200,   "Cancel",     "Gold"
+    "INIC",       400,   "Cancel",     "Gold"
+    "Ally",       200,   "Cancel",     "Gold"
+    "AllyIC",     400,   "Cancel",     "Gold"
+    "Enemy",      200,   "Cancel",     "Gold"
+    "EnemyIC",    400,   "Cancel",     "Gold"
+    "Team",       200,   "Cancel",     "Gold"
+    "TeamIC",     400,   "Cancel",     "Gold"
   }
 
 ; Minimum trade a trade route produces, as long as the good has nonzero income
