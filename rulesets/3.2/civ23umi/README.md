@@ -1,4 +1,4 @@
-# Civ2-3Umi ルールセット（Freeciv v3.1）
+# Civ2-3Umi ルールセット（Freeciv v3.2）
 
 ## 概要
 
