@@ -798,7 +798,7 @@ set =
       "victories", "SPACERACE|ALLIED|CULTURE"
       "timeout", 60
       "first_timeout", 0
-      "unitwaittime", 15
+      "unitwaittime", 10
       "scorelog", "ENABLED"
       "persistentready", "CONNECTED"
       "allowtake", "H1A1h3a3d3Oo"
