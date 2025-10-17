@@ -2177,23 +2177,19 @@ colorlist =
 ;
 set =
     { "name", "value"
-      "aifill", 6
-      "generator", "FRACTAL"
       "topology", "WRAPX|ISO"
-      "mapsize", "PLAYER"
-      "techlevel", 0
       "unreachableprotects", "DISABLED"
       "revolentype", "RANDQUICK"
+      "tradeworldrelpct", 100
       "huts", 0
       "endturn", 240
       "sciencebox", 200
       "team_pooled_research", "DISABLED"
-      "victories", "SPACERACE|ALLIED|CULTURE"
       "timeout", 60
       "first_timeout", 0
       "unitwaittime", 10
       "scorelog", "ENABLED"
       "persistentready", "CONNECTED"
-      "allowtake", "H1A1h3a3d3Oo"
+      "allowtake", "H1Ah3a2Oo"
       "iphide", "ENABLED"
     }
